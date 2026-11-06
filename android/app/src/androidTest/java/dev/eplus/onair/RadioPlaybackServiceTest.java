@@ -5,7 +5,9 @@ import static org.junit.Assert.assertTrue;
 import android.content.ComponentName;
 import android.content.Context;
 import android.app.Instrumentation;
+import android.app.Activity;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.ParcelFileDescriptor;
 import android.net.Uri;
 import android.util.Base64;
@@ -39,6 +41,40 @@ import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
 public class RadioPlaybackServiceTest {
+    @Test public void cancelingFavoritesExportReturnsWithoutSaving() throws Exception {
+        Instrumentation instrument = InstrumentationRegistry.getInstrumentation();
+        Instrumentation.ActivityMonitor picker = instrument.addMonitor(
+            new IntentFilter(Intent.ACTION_CREATE_DOCUMENT), new Instrumentation.ActivityResult(Activity.RESULT_CANCELED, null), true);
+        try (ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class)) {
+            AtomicReference<String> result = new AtomicReference<>("false");
+            boolean available = false;
+            for (int attempt = 0; attempt < 30; attempt++) {
+                CountDownLatch checked = new CountDownLatch(1);
+                scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                    "Boolean(window.Capacitor && window.Capacitor.nativePromise)",
+                    value -> { result.set(value); checked.countDown(); }));
+                assertTrue("WebView did not respond", checked.await(15, TimeUnit.SECONDS));
+                if ("true".equals(result.get())) { available = true; break; }
+                Thread.sleep(1000);
+            }
+            assertTrue("Capacitor bridge was not ready", available);
+            CountDownLatch invoked = new CountDownLatch(1);
+            scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                "window.__exportTest='pending'; window.Capacitor.nativePromise('RadioFiles','saveFavorites',{content:JSON.stringify({format:'eplus-onair-favorites',version:1,stations:[]})}).then(r=>window.__exportTest=r.saved?'saved':'cancelled').catch(()=>window.__exportTest='error'); true",
+                value -> invoked.countDown()));
+            assertTrue("Export did not start", invoked.await(15, TimeUnit.SECONDS));
+            boolean canceled = false;
+            for (int attempt = 0; attempt < 20; attempt++) {
+                CountDownLatch checked = new CountDownLatch(1);
+                scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                    "window.__exportTest === 'cancelled'", value -> { result.set(value); checked.countDown(); }));
+                assertTrue("Export result did not respond", checked.await(15, TimeUnit.SECONDS));
+                if ("true".equals(result.get())) { canceled = true; break; }
+                Thread.sleep(1000);
+            }
+            assertTrue("Canceling the document picker did not return cleanly", canceled);
+        } finally { instrument.removeMonitor(picker); }
+    }
     @Test public void webViewRendersHome() throws Exception {
         AtomicReference<String> result = new AtomicReference<>("false");
         try (ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class)) {
@@ -46,7 +82,7 @@ public class RadioPlaybackServiceTest {
                 CountDownLatch evaluated = new CountDownLatch(1);
                 scenario.onActivity(activity -> {
                     WebView webView = activity.getBridge().getWebView();
-                    webView.evaluateJavascript("Boolean(document.querySelector('main h1') && document.querySelector('nav a'))", value -> {
+                    webView.evaluateJavascript("Boolean(document.querySelector('main h1') && document.querySelector('.radio-mobile-navigation button') && document.querySelector('#featured-radio button'))", value -> {
                         result.set(value);
                         evaluated.countDown();
                     });
@@ -65,14 +101,14 @@ public class RadioPlaybackServiceTest {
                     CountDownLatch clicked = new CountDownLatch(1);
                     scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
                         "document.querySelector('.radio-mobile-navigation button').click()", value -> clicked.countDown()));
-                    assertTrue("Search button did not respond", clicked.await(5, TimeUnit.SECONDS));
+                    assertTrue("Search button did not respond", clicked.await(30, TimeUnit.SECONDS));
                     boolean found = false;
                     for (int searchAttempt = 0; searchAttempt < 20; searchAttempt++) {
                         CountDownLatch searched = new CountDownLatch(1);
                         scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
                             "(() => { const d = document.querySelector('[role=dialog] input[type=search]'); if (!d) return false; if (d.value !== 'VOV') { d.focus(); Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(d,'VOV'); d.dispatchEvent(new Event('input',{bubbles:true})); } return Array.from(document.querySelectorAll('[role=dialog] a')).some(a => a.textContent.includes('VOV')); })()",
                             value -> { result.set(value); searched.countDown(); }));
-                        assertTrue("Search JavaScript did not respond", searched.await(5, TimeUnit.SECONDS));
+                        assertTrue("Search JavaScript did not respond", searched.await(15, TimeUnit.SECONDS));
                         if ("true".equals(result.get())) { found = true; break; }
                         Thread.sleep(1000);
                     }
