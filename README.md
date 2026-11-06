@@ -10,6 +10,6 @@ Android is under development. The debug build and emulator checks are for testin
 2. Run `npm run sync:web` at the root, followed by `npx cap sync android`.
 3. Open `android/` in Android Studio or run the Gradle debug build with an Android SDK installed.
 
-Run `npm run check` at the root and `npm run test:app` in `frontend/` for app-focused checks. The Android workflow also builds the debug APK, runs Java tests, and checks startup and native playback on an emulator.
+Run `npm run check` at the root and `npm test` in `frontend/` for app-focused checks. The copied website's deployment and SEO checks remain available separately as `npm run test:upstream-web`; some require website-only files. The Android workflow also builds the debug APK, runs Java tests, and checks startup and native playback on an emulator.
 
 The catalog is bundled; station artwork uses the public OnAir host. Optional public CORS, Zing, and authorized-provider endpoints can be supplied through the `NUXT_PUBLIC_*` build environment variables described in [the architecture notes](docs/ARCHITECTURE.md).
