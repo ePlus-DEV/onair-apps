@@ -2,6 +2,11 @@ name: Android debug build
 on:
   pull_request:
   workflow_dispatch:
+    inputs:
+      publish_apk:
+        description: 'Publish the tested debug APK as a GitHub prerelease'
+        type: boolean
+        default: false
 permissions:
   contents: read
 concurrency:
@@ -128,3 +133,29 @@ jobs:
             onair-test-logcat.txt
           if-no-files-found: ignore
           retention-days: 7
+
+  publish-apk:
+    if: github.event_name == 'workflow_dispatch' && inputs.publish_apk && github.ref == 'refs/heads/main'
+    needs: [build, emulator-smoke]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: onair-android-debug
+          path: apk
+      - name: Publish debug APK
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          SOURCE_SHA: ${{ github.sha }}
+          RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+          RELEASE_TAG: android-debug-${{ github.run_id }}-${{ github.run_attempt }}
+        run: |
+          mv apk/app-debug.apk apk/onair-debug.apk
+          gh release create "$RELEASE_TAG" apk/onair-debug.apk \
+            --target "$SOURCE_SHA" \
+            --title "OnAir Android debug $RELEASE_TAG" \
+            --notes "Debug build for testing. Source commit: $SOURCE_SHA. Build and tests: $RUN_URL" \
+            --prerelease
