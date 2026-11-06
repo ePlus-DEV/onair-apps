@@ -18,7 +18,7 @@ interface NativeRadioPlugin {
   stop(): Promise<void>;
   setVolume(options: { volume: number }): Promise<void>;
   setSleep(options: { minutes: number }): Promise<void>;
-  resolvePlaylist(options: { url: string }): Promise<{ url: string }>;
+  resolvePlaylist(options: { url: string }): Promise<{ url: string; isHls: boolean }>;
   getState(): Promise<NativeRadioState>;
   addListener(event: 'state', listener: (state: NativeRadioState) => void): Promise<PluginListenerHandle>;
 }

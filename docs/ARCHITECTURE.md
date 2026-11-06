@@ -18,7 +18,7 @@
 1. Clone `onair-apps`.
 2. Run `npm ci` in both the repository root and `frontend/`.
 3. Run `npm run sync:web` to generate the static frontend bundle.
-4. Mobile: native projects are tracked in `android/` and `ios/`. Run `npx cap sync` after generating the bundle, then open them with Android Studio or Xcode. Real-device verification is required. The generated launcher art is a placeholder, not final branding.
+4. Mobile: native projects are tracked in `android/` and `ios/`. Run `npx cap sync` after generating the bundle, then open them with Android Studio or Xcode. Real-device verification is required. The Android launcher and splash use the bundled OnAir logo.
 5. Desktop: install Rust and Tauri platform prerequisites; run `npm run desktop`. Confirm generated bundle, deep links and audio before packaging.
 
 ## Acceptance criteria before production

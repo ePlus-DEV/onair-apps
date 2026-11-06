@@ -196,7 +196,7 @@ import {
 import { getAdjacentStation } from "~/utils/station-navigation.mjs";
 import { createSleepTimer } from "~/utils/sleep-timer.mjs";
 import { isAndroidApp, NativeRadio, type NativeRadioState } from "~/utils/native-radio";
-import { nativeRadioAction } from "~/utils/native-radio-state.mjs";
+import { nativeRadioAction, nativeStationMatches } from "~/utils/native-radio-state.mjs";
 import type { PluginListenerHandle } from '@capacitor/core';
 import { buildRadioMediaMetadata } from "~/utils/radio-media-session.mjs";
 import { playbackHealth, playbackFailureReason } from "~/utils/playback-health.mjs";
@@ -589,7 +589,7 @@ const resolvePlaylistSource = async (
   if (nativePlayback) {
     try {
       const result = await NativeRadio.resolvePlaylist({ url: source.src });
-      return { ...source, src: result.url, type: inferMime(result.url, source.type) };
+      return { ...source, src: result.url, type: result.isHls ? 'application/vnd.apple.mpegurl' : inferMime(result.url, 'audio/mpeg') };
     } catch { return source; }
   }
 
@@ -1005,7 +1005,7 @@ const applySource = async (
         await runNative(async () => {
           if (version !== sourceVersion || userPaused.value) return;
           nativeActiveId = `${version}|${props.stationUrl || ''}`;
-          await NativeRadio.playSource({ id: nativeActiveId, url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value), isHls: isHlsSource(source) && !isTextPlaylist(rawSource.src) });
+          await NativeRadio.playSource({ id: nativeActiveId, url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value), isHls: isHlsSource(source) && (!isTextPlaylist(rawSource.src) || source.type === 'application/vnd.apple.mpegurl') });
           await NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume });
         });
       }
@@ -1492,7 +1492,7 @@ watch(
         if (!autoplay && stationUrl) {
           const state = await NativeRadio.getState();
           if (version !== sourceVersion) return;
-          if (state.id && state.id.slice(state.id.indexOf('|') + 1) === stationUrl) {
+          if (nativeStationMatches(state, stationUrl)) {
             nativeActiveId = state.id;
             activeResolvedSrc = sourceList.value[activeSourceIndex.value]?.src || '';
             // The saved station is initially restored without sources; wait

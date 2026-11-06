@@ -9,3 +9,9 @@ export function nativeRadioAction(event, activeId, userPaused) {
   if (event.state === 4) return 'ended';
   return 'ignore';
 }
+
+export function nativeStationMatches(event, stationUrl) {
+  if (!stationUrl || typeof event?.id !== 'string') return false;
+  const separator = event.id.indexOf('|');
+  return separator > 0 && event.id.slice(separator + 1) === stationUrl;
+}

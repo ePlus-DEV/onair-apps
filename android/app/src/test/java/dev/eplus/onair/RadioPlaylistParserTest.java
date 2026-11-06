@@ -25,4 +25,7 @@ public class RadioPlaylistParserTest {
     @Test public void limitsUntrustedPlaylistSize() throws Exception {
         assertNull(parse("x".repeat(65536) + "\nhttps://stream.example/live\n"));
     }
+    @Test public void hlsManifestsAreNotReducedToTheirFirstSegment() throws Exception {
+        assertEquals("https://example.com/radio/list.m3u", parse("#EXTM3U\n#EXT-X-VERSION:3\n#EXTINF:5,\nsegment.ts\n"));
+    }
 }

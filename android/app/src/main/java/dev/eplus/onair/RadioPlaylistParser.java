@@ -29,6 +29,9 @@ final class RadioPlaylistParser {
 
     private static String parseLine(String raw, URL base) {
         String line = raw.trim();
+        // This is an HLS manifest, not a simple list of radio URLs. Give the
+        // manifest to Media3 so it handles variants and successive segments.
+        if (line.startsWith("#EXT-X-")) return base.toExternalForm();
         if (line.isEmpty() || line.startsWith("#") || (line.startsWith("[") && line.endsWith("]"))) return null;
         if (line.matches("(?i)^file[0-9]+\\s*=.*")) line = line.substring(line.indexOf('=') + 1).trim();
         else if (line.matches("^[A-Za-z][A-Za-z0-9_]*\\s*=.*")) return null;

@@ -119,6 +119,7 @@ public final class RadioAudioPlugin extends Plugin {
                     if (candidate != null) {
                         JSObject result = new JSObject();
                         result.put("url", candidate);
+                        result.put("isHls", candidate.equals(connection.getURL().toExternalForm()));
                         call.resolve(result);
                         return;
                     }
