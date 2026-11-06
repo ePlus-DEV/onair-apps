@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           repository: ePlus-DEV/radio.eplus.dev
-          ref: 4c4585249cb97b1c3b557f0dc1242f6e268093eb
+          ref: 4d64cd44a5cd8b509fe1bf749f37a3b85a08ec6a
           path: radio.eplus.dev
       - uses: actions/setup-node@v4
         with:
