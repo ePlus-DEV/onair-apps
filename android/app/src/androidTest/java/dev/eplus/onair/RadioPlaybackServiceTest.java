@@ -8,7 +8,13 @@ import android.app.Instrumentation;
 import android.content.Intent;
 import android.net.Uri;
 import android.util.Base64;
+import android.webkit.WebView;
+import android.view.View;
+import androidx.core.graphics.Insets;
+import androidx.core.view.ViewCompat;
+import androidx.core.view.WindowInsetsCompat;
 import androidx.test.core.app.ApplicationProvider;
+import androidx.test.core.app.ActivityScenario;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
 import androidx.test.platform.app.InstrumentationRegistry;
 import androidx.media3.common.MediaItem;
@@ -32,6 +38,36 @@ import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
 public class RadioPlaybackServiceTest {
+    @Test public void webViewRendersHome() throws Exception {
+        AtomicReference<String> result = new AtomicReference<>("false");
+        try (ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class)) {
+            for (int attempt = 0; attempt < 20; attempt++) {
+                CountDownLatch evaluated = new CountDownLatch(1);
+                scenario.onActivity(activity -> {
+                    WebView webView = activity.getBridge().getWebView();
+                    webView.evaluateJavascript("Boolean(document.querySelector('main h1') && document.querySelector('nav a'))", value -> {
+                        result.set(value);
+                        evaluated.countDown();
+                    });
+                });
+                assertTrue("WebView JavaScript did not respond", evaluated.await(5, TimeUnit.SECONDS));
+                if ("true".equals(result.get())) {
+                    scenario.onActivity(activity -> {
+                        View root = (View) activity.getBridge().getWebView().getParent();
+                        WindowInsetsCompat all = ViewCompat.getRootWindowInsets(root);
+                        if (all != null) {
+                            Insets bars = all.getInsets(WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout());
+                            assertTrue("Content overlaps the status bar", root.getPaddingTop() >= bars.top);
+                            assertTrue("Content overlaps the navigation bar", root.getPaddingBottom() >= bars.bottom);
+                        }
+                    });
+                    return;
+                }
+                Thread.sleep(1000);
+            }
+            assertTrue("Home screen did not render", "true".equals(result.get()));
+        }
+    }
     private static byte[] wav() {
         int rate = 8000;
         int samples = rate * 3;

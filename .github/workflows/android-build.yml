@@ -26,6 +26,7 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
+          cache: gradle
       - name: Verify Android SDK
         run: test -n "$ANDROID_HOME" && test -d "$ANDROID_HOME/platforms"
       - name: Install web dependencies
@@ -103,7 +104,6 @@ jobs:
             adb install -r apk/app-debug-androidTest.apk
             adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-instrumentation.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-instrumentation.txt
-            grep -Eq 'Discover|Khám phá' /tmp/onair-window.xml
       - name: Save emulator screenshot
         if: always()
         uses: actions/upload-artifact@v4

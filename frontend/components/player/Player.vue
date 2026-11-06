@@ -1495,6 +1495,10 @@ watch(
           if (nativeStationMatches(state, stationUrl)) {
             nativeActiveId = state.id;
             activeResolvedSrc = sourceList.value[activeSourceIndex.value]?.src || '';
+            // A restored paused live stream may have an expired buffer. A
+            // later Play action must reconnect if the listener chose live resume.
+            liveResumePending = !state.playWhenReady && Boolean(activeResolvedSrc);
+            pausedAtMs = 0;
             // The saved station is initially restored without sources; wait
             // for its catalog entry before marking native playback active.
             if (state.playWhenReady && hasPlayableSource.value) {
