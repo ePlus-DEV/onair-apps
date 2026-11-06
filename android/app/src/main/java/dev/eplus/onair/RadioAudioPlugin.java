@@ -15,12 +15,20 @@ import com.getcapacitor.PluginCall;
 import com.getcapacitor.PluginMethod;
 import com.getcapacitor.annotation.CapacitorPlugin;
 import com.google.common.util.concurrent.ListenableFuture;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 @CapacitorPlugin(name = "RadioAudio")
 public final class RadioAudioPlugin extends Plugin {
     private ListenableFuture<MediaController> controllerFuture;
     private MediaController controller;
+    private final ExecutorService playlistExecutor = Executors.newSingleThreadExecutor();
     private final Player.Listener listener = new Player.Listener() {
         @Override public void onEvents(Player player, Player.Events events) { emitState(player, null); }
         @Override public void onPlayerError(PlaybackException error) {
@@ -52,6 +60,9 @@ public final class RadioAudioPlugin extends Plugin {
         result.put("playWhenReady", player.getPlayWhenReady());
         result.put("state", player.getPlaybackState());
         result.put("suppression", player.getPlaybackSuppressionReason());
+        MediaMetadata metadata = player.getMediaMetadata();
+        if (metadata.title != null) result.put("title", metadata.title.toString());
+        if (metadata.artist != null) result.put("artist", metadata.artist.toString());
         if (error != null) result.put("error", error);
         notifyListeners("state", result);
     }
@@ -65,8 +76,12 @@ public final class RadioAudioPlugin extends Plugin {
         }
         String title = call.getString("title", "ePlus OnAir");
         String artist = call.getString("artist", "");
+        String artwork = call.getString("artwork", "");
         withController(call, player -> {
-            MediaMetadata metadata = new MediaMetadata.Builder().setTitle(title).setArtist(artist).build();
+            MediaMetadata.Builder metadataBuilder = new MediaMetadata.Builder().setTitle(title).setArtist(artist);
+            Uri imageUri = Uri.parse(artwork);
+            if ("https".equals(imageUri.getScheme())) metadataBuilder.setArtworkUri(imageUri);
+            MediaMetadata metadata = metadataBuilder.build();
             player.setMediaItem(new MediaItem.Builder().setMediaId(id).setUri(uri).setMediaMetadata(metadata).build());
             player.prepare();
             player.play();
@@ -76,6 +91,31 @@ public final class RadioAudioPlugin extends Plugin {
     @PluginMethod public void pause(PluginCall call) { withController(call, Player::pause); }
     @PluginMethod public void play(PluginCall call) { withController(call, Player::play); }
     @PluginMethod public void stop(PluginCall call) { withController(call, player -> { player.stop(); player.clearMediaItems(); }); }
+    @PluginMethod public void resolvePlaylist(PluginCall call) {
+        String source = call.getString("url", "");
+        playlistExecutor.execute(() -> {
+            HttpURLConnection connection = null;
+            try {
+                URL original = new URL(source);
+                if (!"https".equals(original.getProtocol()) && !"http".equals(original.getProtocol())) throw new IllegalArgumentException();
+                connection = (HttpURLConnection) original.openConnection();
+                connection.setConnectTimeout(4000);
+                connection.setReadTimeout(4000);
+                connection.setRequestProperty("Accept", "audio/x-scpls,audio/x-mpegurl,text/plain,*/*");
+                try (BufferedReader input = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8))) {
+                    String candidate = RadioPlaylistParser.firstStream(input, connection.getURL());
+                    if (candidate != null) {
+                        JSObject result = new JSObject();
+                        result.put("url", candidate);
+                        call.resolve(result);
+                        return;
+                    }
+                }
+                call.reject("Playlist does not contain a supported stream");
+            } catch (Exception ignored) { call.reject("Could not load station playlist"); }
+            finally { if (connection != null) connection.disconnect(); }
+        });
+    }
     @PluginMethod public void setVolume(PluginCall call) {
         float value = Math.max(0f, Math.min(1f, call.getFloat("volume", 1f)));
         withController(call, player -> player.setVolume(value));
@@ -87,6 +127,7 @@ public final class RadioAudioPlugin extends Plugin {
     @Override protected void handleOnDestroy() {
         if (controller != null) controller.removeListener(listener);
         if (controllerFuture != null) MediaController.releaseFuture(controllerFuture);
+        playlistExecutor.shutdownNow();
         super.handleOnDestroy();
     }
 }

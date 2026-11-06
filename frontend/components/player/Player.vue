@@ -584,6 +584,13 @@ const resolvePlaylistSource = async (
 ): Promise<RadioSource> => {
   if (!isTextPlaylist(source.src)) return source;
 
+  if (nativePlayback) {
+    try {
+      const result = await NativeRadio.resolvePlaylist({ url: source.src });
+      return { ...source, src: result.url, type: inferMime(result.url, source.type) };
+    } catch { return source; }
+  }
+
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 5000);
 
@@ -995,7 +1002,7 @@ const applySource = async (
       if (autoplay && !userPaused.value) {
         await runNative(async () => {
           if (version !== sourceVersion || userPaused.value) return;
-          await NativeRadio.playSource({ id: String(version), url: source.src, title: props.streamName, artist: props.countryName || '' });
+          await NativeRadio.playSource({ id: String(version), url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value) });
           await NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume });
         });
       }
@@ -1507,6 +1514,10 @@ onMounted(() => {
   if (nativePlayback) {
     nativeListenerReady = NativeRadio.addListener('state', (state: NativeRadioState) => {
       const action = nativeRadioAction(state, sourceVersion, userPaused.value);
+      if (action !== 'ignore' && props.stationUrl?.startsWith('/global-radio/apple-music/')
+        && state.title && state.artist && state.title !== props.streamName) {
+        playback.setHlsLiveTrack(props.stationUrl, { title: state.title, artist: state.artist });
+      }
       if (action === 'error') {
         sourceFailureReason.value = 'network';
         playing.value = false;

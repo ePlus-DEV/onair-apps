@@ -12,8 +12,8 @@ import androidx.media3.session.MediaSessionService;
 public final class RadioPlaybackService extends MediaSessionService {
     private static RadioPlaybackService instance;
     private final Handler handler = new Handler(Looper.getMainLooper());
-    private final Runnable sleepAction = () -> { if (player != null) player.pause(); };
     private ExoPlayer player;
+    private final Runnable sleepAction = () -> { if (player != null) player.pause(); };
     private MediaSession session;
 
     @Override public void onCreate() {

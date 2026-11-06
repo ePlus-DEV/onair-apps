@@ -7,15 +7,18 @@ export interface NativeRadioState {
   state: number;
   suppression: number;
   error?: string;
+  title?: string;
+  artist?: string;
 }
 
 interface NativeRadioPlugin {
-  playSource(options: { id: string; url: string; title: string; artist: string }): Promise<void>;
+  playSource(options: { id: string; url: string; title: string; artist: string; artwork: string }): Promise<void>;
   play(): Promise<void>;
   pause(): Promise<void>;
   stop(): Promise<void>;
   setVolume(options: { volume: number }): Promise<void>;
   setSleep(options: { minutes: number }): Promise<void>;
+  resolvePlaylist(options: { url: string }): Promise<{ url: string }>;
   addListener(event: 'state', listener: (state: NativeRadioState) => void): Promise<PluginListenerHandle>;
 }
 
