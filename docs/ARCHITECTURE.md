@@ -1,6 +1,6 @@
 # Architecture and release gates
 
-- Canonical web source: `ePlus-DEV/radio.eplus.dev`. This repository packages a pinned checkout; never scrape the live website or duplicate catalogs.
+- The application frontend and its catalog are maintained in `frontend/` in this repository.
 - Mobile: Capacitor 7 shell. Desktop: Tauri 2 shell. Both consume `dist/web` generated from the canonical Nuxt app.
 - Current web app uses SSR/prerender and client-side HLS. `generate:site` is a **prototype export**, not a validated native application build. Deep-link routes, static asset paths and service availability must be verified.
 - Audio: HTML Audio + hls.js is **not** sufficient evidence of iOS/Android background playback. Native media-session/foreground-service adapters are required before store release. Never claim background playback is supported yet.
@@ -12,8 +12,8 @@
 
 ## Local development
 
-1. Clone `radio.eplus.dev` and `onair-apps` as sibling folders.
-2. In the web checkout run `npm ci`. In this checkout run `npm ci`.
+1. Clone `onair-apps`.
+2. Run `npm ci` in both the repository root and `frontend/`.
 3. Run `npm run sync:web` to generate the static frontend bundle.
 4. Mobile: native projects are tracked in `android/` and `ios/`. Run `npx cap sync` after generating the bundle, then open them with Android Studio or Xcode. Real-device verification is required. The generated launcher art is a placeholder, not final branding.
 5. Desktop: install Rust and Tauri platform prerequisites; run `npm run desktop`. Confirm generated bundle, deep links and audio before packaging.

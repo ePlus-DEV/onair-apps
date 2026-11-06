@@ -23,6 +23,7 @@ const algoliaApiKey =
   "";
 const hasAlgoliaConfig = Boolean(algoliaApplicationId && algoliaApiKey);
 const isPrPreview = isPrPreviewBuild();
+const isNativeAppBuild = process.env.ONAIR_NATIVE_APP === 'true';
 const baseURL = process.env.NUXT_APP_BASE_URL || "/";
 const staticAsset = (path: string) => prefixPublicAsset(path, baseURL);
 const siteUrl = (process.env.NUXT_PUBLIC_SITE_URL || "https://radio.eplus.dev").replace(
@@ -37,7 +38,7 @@ const noIndex = isStagingDeployment({
 });
 // Nuxt production builds also power previews; require our canonical public origin.
 // Analytics depends on the canonical production origin, not SEO noindex.
-const ga4Enabled = isGa4ProductionBuild({
+const ga4Enabled = !isNativeAppBuild && isGa4ProductionBuild({
   nodeEnv: process.env.NODE_ENV,
   siteUrl,
 });
@@ -79,7 +80,7 @@ export default defineNuxtConfig({
   // DevTools 3.4.4+ no longer depends on vulnerable simple-git 3.x.
   // Keep the developer experience without restoring a vulnerable override.
   devtools: { enabled: true },
-  ssr: true,
+  ssr: !isNativeAppBuild,
   pages: true,
   // Thousands of prerendered station routes otherwise duplicate CSS in each
   // HTML document. Shared CSS assets are cached across pages and keep the
@@ -290,8 +291,8 @@ export default defineNuxtConfig({
     prerender: {
       // Only preview builds limit routes: one full catalog per PR would exceed
       // the GitHub Pages 1 GB site limit. Production/staging remain unchanged.
-      crawlLinks: !isPrPreview,
-      routes: isPrPreview ? [...PR_PREVIEW_ROUTES, '/robots.txt'] : [
+      crawlLinks: !isPrPreview && !isNativeAppBuild,
+      routes: isNativeAppBuild ? ['/'] : isPrPreview ? [...PR_PREVIEW_ROUTES, '/robots.txt'] : [
         ...radioSeoRoutes.map((route) => route.loc),
         ...staticSeoRoutes.map((route) => route.loc),
         "/library",

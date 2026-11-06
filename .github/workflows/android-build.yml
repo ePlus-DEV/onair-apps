@@ -15,18 +15,13 @@ jobs:
       - uses: actions/checkout@v4
         with:
           path: onair-apps
-      - uses: actions/checkout@v4
-        with:
-          repository: ePlus-DEV/radio.eplus.dev
-          ref: 4d64cd44a5cd8b509fe1bf749f37a3b85a08ec6a
-          path: radio.eplus.dev
       - uses: actions/setup-node@v4
         with:
           node-version: '24.15.0'
           cache: npm
           cache-dependency-path: |
             onair-apps/package-lock.json
-            radio.eplus.dev/package-lock.json
+            onair-apps/frontend/package-lock.json
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
@@ -34,7 +29,7 @@ jobs:
       - name: Verify Android SDK
         run: test -n "$ANDROID_HOME" && test -d "$ANDROID_HOME/platforms"
       - name: Install web dependencies
-        working-directory: radio.eplus.dev
+        working-directory: onair-apps/frontend
         run: npm ci
       - name: Install app dependencies
         working-directory: onair-apps
