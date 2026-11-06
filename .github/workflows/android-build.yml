@@ -1,0 +1,56 @@
+name: Android debug build
+on:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: android-debug-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: onair-apps
+      - uses: actions/checkout@v4
+        with:
+          repository: ePlus-DEV/radio.eplus.dev
+          ref: 4d64cd44a5cd8b509fe1bf749f37a3b85a08ec6a
+          path: radio.eplus.dev
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24.15.0'
+          cache: npm
+          cache-dependency-path: |
+            onair-apps/package-lock.json
+            radio.eplus.dev/package-lock.json
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+      - name: Verify Android SDK
+        run: test -n "$ANDROID_HOME" && test -d "$ANDROID_HOME/platforms"
+      - name: Install web dependencies
+        working-directory: radio.eplus.dev
+        run: npm ci
+      - name: Install app dependencies
+        working-directory: onair-apps
+        run: npm ci
+      - name: Build and copy web bundle
+        working-directory: onair-apps
+        run: npm run sync:web
+      - name: Sync Android project
+        working-directory: onair-apps
+        run: npx cap sync android
+      - name: Build debug APK
+        working-directory: onair-apps/android
+        run: ./gradlew assembleDebug
+      - uses: actions/upload-artifact@v4
+        with:
+          name: onair-android-debug
+          path: onair-apps/android/app/build/outputs/apk/debug/app-debug.apk
+          if-no-files-found: error
+          retention-days: 7

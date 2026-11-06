@@ -8,7 +8,7 @@ const dest = resolve(root, 'dist/web');
 if (!existsSync(resolve(source, 'package.json'))) throw new Error('Missing local radio.eplus.dev checkout: set ONAIR_WEB_SOURCE');
 const pkg = JSON.parse(readFileSync(resolve(source, 'package.json'), 'utf8'));
 if (pkg.name !== 'eplus-onair') throw new Error('Source is not ePlus OnAir');
-const run = spawnSync('npm', ['run', 'generate:site'], { cwd: source, stdio: 'inherit', shell: process.platform === 'win32', env: { ...process.env, NUXT_APP_BASE_URL: '/', NUXT_PUBLIC_SITE_URL: 'https://radio.eplus.dev', NUXT_PUBLIC_NO_INDEX: 'true' } });
+const run = spawnSync('npm', ['run', 'generate:site'], { cwd: source, stdio: 'inherit', shell: process.platform === 'win32', env: { ...process.env, ONAIR_NATIVE_APP: 'true', NUXT_APP_BASE_URL: '/', NUXT_PUBLIC_SITE_URL: 'https://radio.eplus.dev', NUXT_PUBLIC_NO_INDEX: 'true' } });
 if (run.status !== 0) process.exit(run.status || 1);
 if (!existsSync(resolve(output, 'index.html'))) throw new Error('Nuxt build did not generate index.html');
 rmSync(dest, { recursive: true, force: true });
