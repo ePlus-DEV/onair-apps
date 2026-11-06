@@ -31,7 +31,8 @@ jobs:
         with:
           distribution: temurin
           java-version: '21'
-      - uses: android-actions/setup-android@v3
+      - name: Verify Android SDK
+        run: test -n "$ANDROID_HOME" && test -d "$ANDROID_HOME/platforms"
       - name: Install web dependencies
         working-directory: radio.eplus.dev
         run: npm ci
