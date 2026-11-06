@@ -96,8 +96,22 @@ jobs:
             adb shell pidof dev.eplus.onair
             adb shell uiautomator dump /sdcard/onair-window.xml
             adb shell cat /sdcard/onair-window.xml > /tmp/onair-window.xml
+            cp /tmp/onair-window.xml "$GITHUB_WORKSPACE/onair-window.xml"
+            adb exec-out screencap -p > "$GITHUB_WORKSPACE/onair-emulator.png"
+            adb logcat -d -t 4000 | grep -E 'chromium|Capacitor|dev.eplus.onair|AndroidRuntime' > "$GITHUB_WORKSPACE/onair-logcat.txt" || true
             grep -q 'android.webkit.WebView' /tmp/onair-window.xml
-            grep -Eq 'Discover|Khám phá' /tmp/onair-window.xml
             adb install -r apk/app-debug-androidTest.apk
             adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-instrumentation.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-instrumentation.txt
+            grep -Eq 'Discover|Khám phá' /tmp/onair-window.xml
+      - name: Save emulator screenshot
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: onair-emulator-screenshot
+          path: |
+            onair-emulator.png
+            onair-window.xml
+            onair-logcat.txt
+          if-no-files-found: ignore
+          retention-days: 7

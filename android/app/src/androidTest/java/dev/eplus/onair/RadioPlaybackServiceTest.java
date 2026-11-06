@@ -18,6 +18,12 @@ import androidx.media3.session.SessionToken;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStream;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.nio.charset.StandardCharsets;
 import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicReference;
@@ -28,7 +34,7 @@ import org.junit.runner.RunWith;
 public class RadioPlaybackServiceTest {
     private static byte[] wav() {
         int rate = 8000;
-        int samples = rate * 12;
+        int samples = rate * 3;
         ByteBuffer data = ByteBuffer.allocate(44 + samples * 2).order(ByteOrder.LITTLE_ENDIAN);
         data.put(new byte[] {'R','I','F','F'}).putInt(36 + samples * 2).put(new byte[] {'W','A','V','E'});
         data.put(new byte[] {'f','m','t',' '}).putInt(16).putShort((short) 1).putShort((short) 1);
@@ -75,6 +81,65 @@ public class RadioPlaybackServiceTest {
                 controller.stop();
                 MediaController.releaseFuture(future.get());
             });
+        }
+    }
+
+    @Test public void playsHlsFromHttpStream() throws Exception {
+        Context context = ApplicationProvider.getApplicationContext();
+        byte[] segment;
+        try (java.io.InputStream input = InstrumentationRegistry.getInstrumentation().getContext().getAssets().open("test-radio.ts")) {
+            java.io.ByteArrayOutputStream bytes = new java.io.ByteArrayOutputStream();
+            byte[] buffer = new byte[4096];
+            int n;
+            while ((n = input.read(buffer)) != -1) bytes.write(buffer, 0, n);
+            segment = bytes.toByteArray();
+        }
+        byte[] manifest = ("#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-TARGETDURATION:3\n#EXT-X-MEDIA-SEQUENCE:0\n"
+            + "#EXTINF:3.0,\ntest-radio.ts\n#EXTINF:3.0,\ntest-radio.ts\n#EXT-X-ENDLIST\n").getBytes(StandardCharsets.UTF_8);
+        ServerSocket server = new ServerSocket(0);
+        Thread http = new Thread(() -> {
+            while (!server.isClosed()) {
+                try (Socket client = server.accept()) {
+                    client.setSoTimeout(5000);
+                    BufferedReader request = new BufferedReader(new InputStreamReader(client.getInputStream(), StandardCharsets.US_ASCII));
+                    String first = request.readLine();
+                    String header;
+                    while ((header = request.readLine()) != null && !header.isEmpty()) { /* Drain request. */ }
+                    byte[] body = first != null && first.contains(".m3u8") ? manifest : segment;
+                    String type = body == manifest ? "application/vnd.apple.mpegurl" : "video/mp2t";
+                    OutputStream out = client.getOutputStream();
+                    out.write(("HTTP/1.1 200 OK\r\nContent-Type: " + type + "\r\nContent-Length: " + body.length + "\r\nConnection: close\r\n\r\n").getBytes(StandardCharsets.US_ASCII));
+                    out.write(body);
+                    out.flush();
+                } catch (Exception ignored) { if (server.isClosed()) break; }
+            }
+        });
+        http.setDaemon(true);
+        http.start();
+        AtomicReference<ListenableFuture<MediaController>> future = new AtomicReference<>();
+        Instrumentation instrument = InstrumentationRegistry.getInstrumentation();
+        context.startActivity(new Intent(context, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
+        instrument.waitForIdleSync();
+        instrument.runOnMainSync(() -> future.set(new MediaController.Builder(context,
+            new SessionToken(context, new ComponentName(context, RadioPlaybackService.class))).buildAsync()));
+        MediaController controller = future.get().get(30, TimeUnit.SECONDS);
+        CountDownLatch playing = new CountDownLatch(1);
+        Player.Listener listener = new Player.Listener() {
+            @Override public void onIsPlayingChanged(boolean isPlaying) { if (isPlaying) playing.countDown(); }
+        };
+        try {
+            String url = "http://127.0.0.1:" + server.getLocalPort() + "/radio.m3u8";
+            instrument.runOnMainSync(() -> {
+                controller.addListener(listener);
+                controller.setMediaItem(MediaItem.fromUri(url));
+                controller.prepare();
+                controller.play();
+            });
+            assertTrue("HLS did not start", playing.await(30, TimeUnit.SECONDS));
+        } finally {
+            instrument.runOnMainSync(() -> { controller.removeListener(listener); controller.stop(); MediaController.releaseFuture(future.get()); });
+            server.close();
+            http.join(5000);
         }
     }
 }
