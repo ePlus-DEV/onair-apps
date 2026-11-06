@@ -109,11 +109,13 @@ jobs:
             adb shell input keyevent 82
             adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#webViewRendersHome dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-home.txt
             adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#cancelingFavoritesExportReturnsWithoutSaving dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-export.txt
+            adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#favoritesExportWritesTheSelectedDocument dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-export-save.txt
             adb logcat -d -t 12000 > "$GITHUB_WORKSPACE/onair-test-logcat.txt"
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-audio.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-hls.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-home.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-export.txt
+            grep -Eq 'OK \([0-9]+ test' /tmp/onair-export-save.txt
       - name: Save emulator screenshot
         if: always()
         uses: actions/upload-artifact@v4

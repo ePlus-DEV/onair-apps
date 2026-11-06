@@ -16,6 +16,7 @@ import android.view.View;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
+import androidx.core.content.FileProvider;
 import androidx.test.core.app.ApplicationProvider;
 import androidx.test.core.app.ActivityScenario;
 import androidx.test.ext.junit.runners.AndroidJUnit4;
@@ -30,6 +31,8 @@ import java.nio.ByteOrder;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
+import java.io.File;
+import java.io.FileInputStream;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.nio.charset.StandardCharsets;
@@ -41,10 +44,61 @@ import org.junit.runner.RunWith;
 
 @RunWith(AndroidJUnit4.class)
 public class RadioPlaybackServiceTest {
+    @Test public void favoritesExportWritesTheSelectedDocument() throws Exception {
+        Context context = ApplicationProvider.getApplicationContext();
+        File file = new File(context.getCacheDir(), "onair-favorites-test.json");
+        if (file.exists()) assertTrue(file.delete());
+        assertTrue(file.createNewFile());
+        Uri destination = FileProvider.getUriForFile(context, context.getPackageName() + ".fileprovider", file);
+        Intent response = new Intent().setData(destination).addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION);
+        Instrumentation instrument = InstrumentationRegistry.getInstrumentation();
+        IntentFilter documentFilter = new IntentFilter(Intent.ACTION_CREATE_DOCUMENT);
+        documentFilter.addCategory(Intent.CATEGORY_OPENABLE);
+        documentFilter.addDataType("application/json");
+        Instrumentation.ActivityMonitor picker = instrument.addMonitor(
+            documentFilter, new Instrumentation.ActivityResult(Activity.RESULT_OK, response), true);
+        try (ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class)) {
+            AtomicReference<String> result = new AtomicReference<>("false");
+            boolean available = false;
+            for (int attempt = 0; attempt < 30; attempt++) {
+                CountDownLatch checked = new CountDownLatch(1);
+                scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                    "Boolean(window.Capacitor && window.Capacitor.nativePromise)",
+                    value -> { result.set(value); checked.countDown(); }));
+                assertTrue("WebView did not respond", checked.await(15, TimeUnit.SECONDS));
+                if ("true".equals(result.get())) { available = true; break; }
+                Thread.sleep(1000);
+            }
+            assertTrue("Capacitor bridge was not ready", available);
+            CountDownLatch invoked = new CountDownLatch(1);
+            scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                "window.__exportTest='pending'; window.Capacitor.nativePromise('RadioFiles','saveFavorites',{content:'test-favorites'}).then(r=>window.__exportTest=r.saved?'saved':'cancelled').catch(()=>window.__exportTest='error'); true",
+                value -> invoked.countDown()));
+            assertTrue("Export did not start", invoked.await(15, TimeUnit.SECONDS));
+            boolean saved = false;
+            for (int attempt = 0; attempt < 20; attempt++) {
+                CountDownLatch checked = new CountDownLatch(1);
+                scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                    "window.__exportTest === 'saved'", value -> { result.set(value); checked.countDown(); }));
+                assertTrue("Export result did not respond", checked.await(15, TimeUnit.SECONDS));
+                if ("true".equals(result.get())) { saved = true; break; }
+                Thread.sleep(1000);
+            }
+            assertTrue("Export did not save the selected document", saved);
+            try (FileInputStream input = new FileInputStream(file)) {
+                byte[] bytes = new byte[64];
+                int length = input.read(bytes);
+                assertTrue("Incorrect exported content", length > 0 && "test-favorites".equals(new String(bytes, 0, length, StandardCharsets.UTF_8)));
+            }
+        } finally { instrument.removeMonitor(picker); file.delete(); }
+    }
     @Test public void cancelingFavoritesExportReturnsWithoutSaving() throws Exception {
         Instrumentation instrument = InstrumentationRegistry.getInstrumentation();
+        IntentFilter documentFilter = new IntentFilter(Intent.ACTION_CREATE_DOCUMENT);
+        documentFilter.addCategory(Intent.CATEGORY_OPENABLE);
+        documentFilter.addDataType("application/json");
         Instrumentation.ActivityMonitor picker = instrument.addMonitor(
-            new IntentFilter(Intent.ACTION_CREATE_DOCUMENT), new Instrumentation.ActivityResult(Activity.RESULT_CANCELED, null), true);
+            documentFilter, new Instrumentation.ActivityResult(Activity.RESULT_CANCELED, null), true);
         try (ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class)) {
             AtomicReference<String> result = new AtomicReference<>("false");
             boolean available = false;

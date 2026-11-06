@@ -46,7 +46,7 @@ public final class RadioFilesPlugin extends Plugin {
             return;
         }
         writer.execute(() -> {
-            try (OutputStream output = getContext().getContentResolver().openOutputStream(uri, "wt")) {
+            try (OutputStream output = getContext().getContentResolver().openOutputStream(uri, "w")) {
                 if (output == null) throw new IllegalStateException("Unable to open document");
                 output.write(call.getString("content", "").getBytes(StandardCharsets.UTF_8));
                 output.flush();
