@@ -196,7 +196,7 @@ import {
 import { getAdjacentStation } from "~/utils/station-navigation.mjs";
 import { createSleepTimer } from "~/utils/sleep-timer.mjs";
 import { isAndroidApp, NativeRadio, type NativeRadioState } from "~/utils/native-radio";
-import { nativeRadioAction, nativeStationMatches } from "~/utils/native-radio-state.mjs";
+import { nativeRadioAction, nativeStationMatches, nativeFailureReason } from "~/utils/native-radio-state.mjs";
 import type { PluginListenerHandle } from '@capacitor/core';
 import { buildRadioMediaMetadata } from "~/utils/radio-media-session.mjs";
 import { playbackHealth, playbackFailureReason } from "~/utils/playback-health.mjs";
@@ -1561,7 +1561,7 @@ onMounted(() => {
         playback.setHlsLiveTrack(props.stationUrl, { title: state.title, artist: state.artist });
       }
       if (action === 'error') {
-        sourceFailureReason.value = 'network';
+        sourceFailureReason.value = nativeFailureReason(state.error);
         playing.value = false;
         scheduleReconnect();
       } else if (action === 'playing') {

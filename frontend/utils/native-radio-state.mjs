@@ -15,3 +15,10 @@ export function nativeStationMatches(event, stationUrl) {
   const separator = event.id.indexOf('|');
   return separator > 0 && event.id.slice(separator + 1) === stationUrl;
 }
+
+export function nativeFailureReason(error) {
+  const code = String(error || '').toUpperCase();
+  if (/DECOD|AUDIO_TRACK|PARSING|UNSUPPORTED/.test(code)) return 'decode';
+  if (/IO_|NETWORK|TIMEOUT/.test(code)) return 'network';
+  return 'unknown';
+}
