@@ -195,6 +195,9 @@ import {
 } from "~/utils/radio-source-plan.mjs";
 import { getAdjacentStation } from "~/utils/station-navigation.mjs";
 import { createSleepTimer } from "~/utils/sleep-timer.mjs";
+import { isAndroidApp, NativeRadio, type NativeRadioState } from "~/utils/native-radio";
+import { nativeRadioAction } from "~/utils/native-radio-state.mjs";
+import type { PluginListenerHandle } from '@capacitor/core';
 import { buildRadioMediaMetadata } from "~/utils/radio-media-session.mjs";
 import { playbackHealth, playbackFailureReason } from "~/utils/playback-health.mjs";
 import { playbackWatchdogAction, nextRecoverySourceIndex, STREAM_STALL_TIMEOUT_MS, STABLE_PLAYBACK_WINDOW_MS } from "~/utils/playback-recovery-policy.mjs";
@@ -315,6 +318,15 @@ const stopListeningDuration = () => {
   listeningDuration.setLivePreview('', 0);
 };
 const mediaElement = ref<HTMLAudioElement | null>(null);
+const nativePlayback = import.meta.client && isAndroidApp();
+let nativeListener: PluginListenerHandle | undefined;
+let nativeListenerReady: Promise<void> = Promise.resolve();
+let nativeQueue: Promise<void> = Promise.resolve();
+const runNative = (action: () => Promise<void>): Promise<void> => {
+  const result = nativeQueue.then(() => nativeListenerReady).then(action);
+  nativeQueue = result.catch(() => {});
+  return result;
+};
 const online = ref(true);
 const waiting = ref(false);
 const playing = ref(false);
@@ -644,7 +656,7 @@ const startStablePlaybackTimer = (): void => {
     stablePlaybackTimer = null;
     const media = mediaElement.value;
     if (version !== sourceVersion || userPaused.value || !playing.value || waiting.value ||
-      !media || media.paused || media.readyState < HTMLMediaElement.HAVE_CURRENT_DATA) return;
+      (!nativePlayback && (!media || media.paused || media.readyState < HTMLMediaElement.HAVE_CURRENT_DATA))) return;
     // Only uninterrupted, decoded playback replenishes the retry budget.
     attemptCount.value = 0;
   }, STABLE_PLAYBACK_WINDOW_MS);
@@ -659,6 +671,10 @@ const tryPlay = async (): Promise<void> => {
   waiting.value = true;
 
   try {
+    if (nativePlayback) {
+      await runNative(() => NativeRadio.play());
+      return;
+    }
     await media.play();
     if (version !== sourceVersion || request !== playVersion || userPaused.value) return;
     // Resolving play() or receiving canplay does not always mean decoded
@@ -913,7 +929,8 @@ const stopPlaybackFailure = (): void => {
   destroyHls();
 
   const media = mediaElement.value;
-  media?.pause();
+  if (nativePlayback) void runNative(() => NativeRadio.stop());
+  else media?.pause();
 
   waiting.value = false;
   playing.value = false;
@@ -974,6 +991,16 @@ const applySource = async (
 
     activeResolvedSrc = source.src;
 
+    if (nativePlayback) {
+      if (autoplay && !userPaused.value) {
+        await runNative(async () => {
+          if (version !== sourceVersion || userPaused.value) return;
+          await NativeRadio.playSource({ id: String(version), url: source.src, title: props.streamName, artist: props.countryName || '' });
+          await NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume });
+        });
+      }
+      return;
+    }
     if (isHlsSource(source)) {
       await configureHlsSource(source, autoplay, version);
     } else {
@@ -1095,7 +1122,10 @@ const onPause = (): void => {
   clearFallbackProbeTimer();
   clearStablePlaybackTimer();
 
-  media?.pause();
+  if (nativePlayback) {
+    void runNative(() => NativeRadio.pause());
+    void runNative(() => NativeRadio.setSleep({ minutes: 0 }));
+  } else media?.pause();
   liveResumePending = Boolean(activeResolvedSrc);
   pausedAtMs = Date.now();
   waiting.value = false;
@@ -1111,9 +1141,9 @@ const sleepMenuItems = computed(() => [
   ...[15, 30, 60, 120].map(minutes => ({
     label: t('player.sleep_minutes', { minutes }),
     icon: 'i-lucide-timer',
-    onSelect: () => sleepTimer.start(minutes),
+    onSelect: () => { sleepTimer.start(minutes); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes })); },
   })),
-  { label: t('player.sleep_cancel'), icon: 'i-lucide-x', disabled: !sleepRemaining.value, onSelect: () => sleepTimer.cancel() },
+  { label: t('player.sleep_cancel'), icon: 'i-lucide-x', disabled: !sleepRemaining.value, onSelect: () => { sleepTimer.cancel(); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes: 0 })); } },
 ]);
 const checkSleepDeadline = () => { if (!document.hidden) sleepTimer.check(); };
 
@@ -1345,6 +1375,7 @@ const onVolumeChange = (): void => {
   if (!media) return;
   volume.value = media.volume;
   muted.value = media.muted;
+  if (nativePlayback) void runNative(() => NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume }));
   if (preferences.rememberVolume) {
     try {
       localStorage.setItem(AUDIO_PREFERENCES_KEY, JSON.stringify({ volume: media.volume, muted: media.muted }));
@@ -1441,6 +1472,7 @@ watch(
     clearFallbackProbeTimer();
     clearStablePlaybackTimer();
     destroyHls();
+    if (nativePlayback) void runNative(() => NativeRadio.stop());
     const media = mediaElement.value;
     if (media) {
       media.pause();
@@ -1472,6 +1504,29 @@ const resetListeningTracking = (): void => {
 watch(() => listeningDuration.enabled, resetListeningTracking, { flush: 'sync' });
 
 onMounted(() => {
+  if (nativePlayback) {
+    nativeListenerReady = NativeRadio.addListener('state', (state: NativeRadioState) => {
+      const action = nativeRadioAction(state, sourceVersion, userPaused.value);
+      if (action === 'error') {
+        sourceFailureReason.value = 'network';
+        playing.value = false;
+        scheduleReconnect();
+      } else if (action === 'playing') {
+        onMediaPlaying();
+      } else if (action === 'waiting') {
+        onMediaWaiting();
+      } else if (action === 'suppressed') {
+        onMediaPause();
+        clearFallbackProbeTimer();
+        waiting.value = false;
+      } else if (action === 'ended') {
+        onMediaEnded();
+      } else if (action === 'pause') {
+        // Pause from the system notification, Bluetooth or audio focus.
+        onPause();
+      }
+    }).then(handle => { nativeListener = handle; });
+  }
   preferences.hydrate();
   listeningDuration.hydrate();
   // Update the statistics dashboard every second while only persisting
@@ -1535,6 +1590,7 @@ onMounted(() => {
 });
 
 onUnmounted(() => {
+  void nativeListener?.remove();
   stopListeningDuration();
   if (durationInterval) clearInterval(durationInterval);
   window.removeEventListener('pagehide', stopListeningDuration);
