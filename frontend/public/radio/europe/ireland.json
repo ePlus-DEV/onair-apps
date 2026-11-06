@@ -1,0 +1,1159 @@
+{
+  "today-fm": {
+    "title": "Today FM",
+    "type": "audio/mpeg",
+    "url": "https://www.todayfm.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/TDAAC",
+    "features": "/img/europe/ireland/today-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/today-fm?time=",
+    "favorite": true
+  },
+  "classic-hits": {
+    "title": "Classic Hits",
+    "type": "audio/mpeg",
+    "url": "https://www.classichits.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/CLASSIC",
+    "features": "/img/europe/ireland/classic-hits.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/classic-hits?time="
+  },
+  "newstalk": {
+    "title": "Newstalk",
+    "type": "audio/mpeg",
+    "url": "https://www.newstalk.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/NT",
+    "features": "/img/europe/ireland/newstalk.png"
+  },
+  "dublin-s-q-102-fm": {
+    "title": "Dublin Q 102 FM",
+    "type": "audio/mpeg",
+    "url": "https://www.q102.ie/home/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/q102MP3128",
+    "features": "/img/europe/ireland/dublin-s-q-102-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/dublin-s-q-102-fm?time="
+  },
+  "fm104": {
+    "title": "FM104",
+    "type": "audio/mpeg",
+    "url": "https://www.fm104.ie/home/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/fm104MP3128",
+    "features": "/img/europe/ireland/fm104.png"
+  },
+  "98fm": {
+    "title": "98FM",
+    "type": "audio/mpeg",
+    "url": "https://www.98fm.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/98",
+    "features": "/img/europe/ireland/98fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/98fm?time="
+  },
+  "beat-102-103": {
+    "title": "Beat 102-103",
+    "type": "audio/mpeg",
+    "url": "https://www.beat102103.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/BEATAAC",
+    "features": "/img/europe/ireland/beat-102-103.png"
+  },
+  "spin-1038": {
+    "title": "SPIN 1038",
+    "type": "audio/mpeg",
+    "url": "https://www.spin1038.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/SP",
+    "features": "/img/europe/ireland/spin-1038.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/spin-1038?time="
+  },
+  "rte-lyric-fm": {
+    "title": "RTÉ Lyric FM",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/lyricfm/",
+    "cros": false,
+    "stream": "https://icecast.rte.ie/lyric",
+    "features": "/img/europe/ireland/rte-lyric-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/rte-lyric-fm?time="
+  },
+  "corks-fm": {
+    "title": "Cork's 96fm",
+    "type": "audio/mpeg",
+    "url": "https://www.96fm.ie/home/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/96fm",
+    "features": "/img/europe/ireland/corks-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/corks-fm?time="
+  },
+  "radio-kerry": {
+    "title": "Radio Kerry",
+    "type": "audio/mpeg",
+    "url": "https://www.radiokerry.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/KERRY",
+    "features": "/img/europe/ireland/radio-kerry.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/radio-kerry?time="
+  },
+  "sunshine": {
+    "title": "Sunshine",
+    "type": "audio/mpeg",
+    "url": "https://www.sunshineradio.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/SUN",
+    "features": "/img/europe/ireland/sunshine.png"
+  },
+  "spin-south-west": {
+    "title": "SPIN South West",
+    "type": "audio/mpeg",
+    "url": "https://www.spinsouthwest.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/SW",
+    "features": "/img/europe/ireland/spin-south-west.png"
+  },
+  "bay-fm": {
+    "title": "Galway Bay FM",
+    "type": "audio/mpeg",
+    "url": "https://galwaybayfm.ie/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/galwaybay.mp3",
+    "features": "/img/europe/ireland/bay-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/bay-fm?time="
+  },
+  "christmas-fm": {
+    "title": "Christmas FM (Dublin)",
+    "type": "audio/mpeg",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2547_128.mp3",
+    "features": "/img/europe/ireland/christmas-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/christmas-fm?time="
+  },
+  "iradio-northwest": {
+    "title": "iRadio (West & Northwest)",
+    "type": "audio/mpeg",
+    "url": "https://www.iradio.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/IRADNW",
+    "features": "/img/europe/ireland/iradio-northwest.png"
+  },
+  "iradio-northeast-midlands": {
+    "title": "iRadio (Northeast & Midlands)",
+    "type": "audio/mpeg",
+    "url": "https://www.iradio.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/IRADNW",
+    "features": "/img/europe/ireland/iradio-northeast-midlands.png"
+  },
+  "radio-nova": {
+    "title": "Radio Nova",
+    "type": "audio/mpeg",
+    "url": "https://www.nova.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/NOVA",
+    "features": "/img/europe/ireland/radio-nova.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/radio-nova?time="
+  },
+  "red-fm": {
+    "title": "Red FM",
+    "type": "audio/mpeg",
+    "url": "https://redfm.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/RED",
+    "features": "/img/europe/ireland/red-fm.png"
+  },
+  "radio-shannonside": {
+    "title": "Radio Shannonside",
+    "type": "audio/mpeg",
+    "url": "https://www.shannonside.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/SHANNONSIDE",
+    "features": "/img/europe/ireland/radio-shannonside.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/radio-shannonside?time="
+  },
+  "midwest-radio-fm": {
+    "title": "Midwest Radio FM",
+    "type": "audio/mpeg",
+    "url": "https://www.midwestradio.ie/",
+    "cros": false,
+    "stream": "https://direct.sharp-stream.com/midwestirish.mp3",
+    "features": "/img/europe/ireland/midwest-radio-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/midwest-radio-fm?time="
+  },
+  "highland-radio": {
+    "title": "Highland Radio",
+    "type": "audio/mpeg",
+    "url": "https://highlandradio.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/HIGHLAND",
+    "features": "/img/europe/ireland/highland-radio.png"
+  },
+  "kfm-radio": {
+    "title": "Kfm Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.kfmradio.com/",
+    "cros": true,
+    "stream": "http://sirius.shoutca.st:9307/stream/1/",
+    "features": "/img/europe/ireland/kfm-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/kfm-radio?time="
+  },
+  "east-coast-fm": {
+    "title": "East Coast FM",
+    "type": "audio/mpeg",
+    "url": "https://www.eastcoast.fm/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/EASTCOAST",
+    "features": "/img/europe/ireland/east-coast-fm.png"
+  },
+  "wlr-fm": {
+    "title": "WLR FM",
+    "type": "audio/mpeg",
+    "url": "https://www.wlrfm.com/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/WLRAAC",
+    "features": "/img/europe/ireland/wlr-fm.png"
+  },
+  "rte-raidio-na-gaeltachta": {
+    "title": "RTÉ Raidió na Gaeltachta",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/rnag/",
+    "cros": false,
+    "stream": "https://icecast.rte.ie/rnag",
+    "features": "/img/europe/ireland/rte-raidio-na-gaeltachta.png"
+  },
+  "louth-meath-fm": {
+    "title": "Louth Meath FM",
+    "type": "audio/mpeg",
+    "url": "https://www.lmfm.ie/home/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/LMFM",
+    "features": "/img/europe/ireland/louth-meath-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/louth-meath-fm?time="
+  },
+  "clare-fm": {
+    "title": "Clare FM",
+    "type": "audio/mpeg",
+    "url": "https://www.clare.fm/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/CLAREFMAAC",
+    "features": "/img/europe/ireland/clare-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/clare-fm?time="
+  },
+  "live-95-fm": {
+    "title": "Live 95 FM",
+    "type": "audio/mpeg",
+    "url": "https://www.live95fm.ie/home/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/Live95fm",
+    "features": "/img/europe/ireland/live-95-fm.png"
+  },
+  "ucb-dublin": {
+    "title": "UCB Ireland (Dublin)",
+    "type": "audio/mpeg",
+    "url": "https://www.ucbireland.ie/",
+    "cros": false,
+    "stream": "https://stream.btsstream.com:8022/ucbireland",
+    "features": "/img/europe/ireland/ucb-dublin.png"
+  },
+  "kclr-kilkenny": {
+    "title": "KCLR Kilkenny",
+    "type": "audio/mpeg",
+    "url": "https://kclr96fm.com/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/KCLRKIL",
+    "features": "/img/europe/ireland/kclr-kilkenny.png"
+  },
+  "iris-pub": {
+    "title": "Irish Pub Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.irishpubradio.com/",
+    "cros": false,
+    "stream": "https://solid24.streamupsolutions.com/proxy/vbkiacud?mp=/live",
+    "features": "/img/europe/ireland/iris-pub.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/iris-pub?time="
+  },
+  "south-east-radio": {
+    "title": "South East Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.southeastradio.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/SOUTHEAST",
+    "features": "/img/europe/ireland/south-east-radio.png"
+  },
+  "103-2-dublin-city-fm": {
+    "title": "103.2 Dublin City FM",
+    "type": "audio/mpeg",
+    "url": "https://www.dublincityfm.ie/",
+    "cros": false,
+    "stream": "https://listen-dublincity.sharp-stream.com/dublin_city.mp3",
+    "features": "/img/europe/ireland/103-2-dublin-city-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/103-2-dublin-city-fm?time="
+  },
+  "c103-west": {
+    "title": "C103 (West Cork)",
+    "type": "audio/mpeg",
+    "url": "https://www.c103.ie/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/C103West",
+    "features": "/img/europe/ireland/c103-west.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/c103-west?time="
+  },
+  "midlands": {
+    "title": "Midlands 103",
+    "type": "audio/mpeg",
+    "url": "https://www.midlands103.com",
+    "cros": false,
+    "stream": "https://n16a-eu.rcs.revma.com/tq45ca1vftzuv",
+    "features": "/img/europe/ireland/midlands.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/midlands?time="
+  },
+  "deep-house-104-9": {
+    "title": "DHR Cork City - Deep House Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.deephouse-radio.com/",
+    "cros": false,
+    "stream": "https://streaming.shoutcast.com/dhr",
+    "features": "/img/europe/ireland/deep-house-104-9.png"
+  },
+  "liveireland-dublin": {
+    "title": "LiveIreland (Dublin)",
+    "type": "audio/mpeg",
+    "url": "https://linktr.ee/liveireland",
+    "cros": true,
+    "stream": "http://192.111.140.11:8058/stream/1/",
+    "features": "/img/europe/ireland/liveireland-dublin.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/liveireland-dublin?time="
+  },
+  "ocean-fm": {
+    "title": "Ocean FM (Carrowduff)",
+    "type": "audio/mpeg",
+    "url": "https://www.oceanfm.ie/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/OCEANSAAC",
+    "features": "/img/europe/ireland/ocean-fm.png"
+  },
+  "all-80s": {
+    "title": "All 80s DAB",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://centauri.shoutca.st:8035/stream/1/",
+    "features": "/img/europe/ireland/all-80s.png",
+    "schedule": "https://api.webrad.io/data/playlist/97/all-80s?time="
+  },
+  "newstalk-instant-audio": {
+    "title": "Newstalk",
+    "type": "audio/mpeg",
+    "url": "https://www.newstalk.com/",
+    "cros": false,
+    "stream": "https://edge.audioxi.com/NT",
+    "features": "/img/europe/ireland/newstalk.png",
+    "source": "radio-browser:d037031b-f31e-4298-b36e-654eaad6416e"
+  },
+  "irish-pub-radio": {
+    "title": "Irish Pub Radio",
+    "description": "ballads, celtic, irish folk, irish music, irish traditional",
+    "type": "audio/mpeg",
+    "url": "https://www.irishpubradio.com/index.php",
+    "cros": true,
+    "stream": "http://solid24.streamupsolutions.com:8026/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:db747080-d906-484c-9132-4b289dbb9c26"
+  },
+  "today-fm-instant-audio": {
+    "title": "Today FM",
+    "description": "alternative, pop, rock",
+    "type": "audio/mpeg",
+    "url": "https://www.todayfm.com/",
+    "cros": false,
+    "stream": "https://stream.audioxi.com/TD",
+    "features": "/img/europe/ireland/today-fm.png",
+    "source": "radio-browser:d0a1da9f-46b3-11e9-aa55-52543be04c81"
+  },
+  "rte1": {
+    "title": "RTE1",
+    "description": "music, news, talk, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/radio1/",
+    "cros": true,
+    "stream": "http://icecast.rte.ie/radio1",
+    "features": "/img/europe/ireland/rte1.jpg",
+    "source": "radio-browser:8643cfcb-a7bb-4c46-8391-fffe266bce16"
+  },
+  "phever-dublin": {
+    "title": "Phever Dublin",
+    "description": "dance, house, techno",
+    "type": "audio/mpeg",
+    "url": "https://www.phever.ie/",
+    "cros": true,
+    "stream": "http://uk1.internet-radio.com:8200/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:a7683a1d-462c-4fa8-8ea1-e61c597371ed"
+  },
+  "zenith-classic-rock": {
+    "title": "Zenith Classic Rock",
+    "description": "album tracks, classic rock, progressive rock",
+    "type": "audio/mpeg",
+    "url": "https://www.zenithclassicrock.com/",
+    "cros": true,
+    "stream": "http://91.189.64.188:3644/zenith128mp3",
+    "features": "/img/europe/ireland/zenith-classic-rock.png",
+    "source": "radio-browser:609877aa-a68d-44d9-b2d2-65986c55ae1f"
+  },
+  "8radio": {
+    "title": "8radio",
+    "description": "alternative, alternative rock, indie rock",
+    "type": "audio/mpeg",
+    "url": "https://8radio.com/",
+    "cros": false,
+    "stream": "https://edge4.audioxi.com/8RADIO",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:91868544-2e2e-421d-b1ba-a67ac155d1c3"
+  },
+  "classic-hits-4fm": {
+    "title": "Classic Hits 4FM",
+    "type": "audio/mpeg",
+    "url": "https://www.classichits.ie/",
+    "cros": true,
+    "stream": "http://stream.audioxi.com/CLASSIC",
+    "features": "/img/europe/ireland/classic-hits-4fm.webp",
+    "source": "radio-browser:7e75d295-da3d-41e9-9d69-757e7a281821"
+  },
+  "highland-radio-instant-audio": {
+    "title": "Highland Radio",
+    "description": "popular music, variety",
+    "type": "audio/mpeg",
+    "url": "http://www.highlandradio.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/HIGHLAND_RADIO.mp3",
+    "features": "/img/europe/ireland/highland-radio.png",
+    "source": "radio-browser:96159d2f-0601-11e8-ae97-52543be04c81"
+  },
+  "rte-radio-1": {
+    "title": "RTÉ Radio 1",
+    "description": "news, sport, talk, talk & speech",
+    "type": "audio/aac",
+    "url": "https://www.rte.ie/radio/",
+    "cros": false,
+    "stream": "https://liveaudio.rte.ie/hls-radio/radio1/chunklist.m3u8",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ca6de309-f3fc-4e52-80e7-eacb885dd318"
+  },
+  "rte-lyric-fm-instant-audio": {
+    "title": "RTÉ lyric fm",
+    "description": "classical",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/lyricfm/",
+    "cros": true,
+    "stream": "http://icecast.rte.ie/lyric",
+    "features": "/img/europe/ireland/rte-lyric-fm.png",
+    "source": "radio-browser:c96b0b99-6dc6-4b76-9971-b48a55c628ca"
+  },
+  "8radio-6650bb57": {
+    "title": "8Radio",
+    "description": "alternative, indie rock",
+    "type": "audio/mpeg",
+    "url": "https://8radio.com/listen/8radio320k/",
+    "cros": false,
+    "stream": "https://stream.rcast.net/66127",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6650bb57-12aa-41d3-8ae4-ed5dcf0909cd"
+  },
+  "christmas-fm-classical-carols": {
+    "title": "Christmas FM Classical & Carols",
+    "description": "carols, christmas, classical",
+    "type": "audio/aac",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2549_64.aac",
+    "features": "/img/europe/ireland/christmas-fm-classical-carols.png",
+    "source": "radio-browser:c422abf3-929d-41bc-9d39-bffdf56b7a7e"
+  },
+  "gem-radio-new-wave": {
+    "title": "Gem Radio New Wave",
+    "description": "70's, 80's, new wave",
+    "type": "audio/mpeg",
+    "url": "https://gemradio.webs.com/",
+    "cros": false,
+    "stream": "https://gemradionw.radioca.st/;stream.nsv",
+    "features": "/img/europe/ireland/gem-radio-new-wave.png",
+    "source": "radio-browser:2e2e3729-2304-474c-a4d1-eeb91609f9bd"
+  },
+  "gem-new-wave-radio": {
+    "title": "GEM New Wave Radio",
+    "description": "80s, new wave",
+    "type": "audio/mpeg",
+    "url": "https://gemradio.webs.com/",
+    "cros": true,
+    "stream": "http://95.217.34.48:8928/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1a67978d-cf66-4bdf-b902-31017f9b5936"
+  },
+  "rte-gold": {
+    "title": "RTÉ Gold",
+    "description": "classic hits",
+    "type": "audio/aac",
+    "url": "https://www.rte.ie/radio/",
+    "cros": false,
+    "stream": "https://liveaudio.rte.ie/hls-radio/gold/chunklist.m3u8",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8f7e7bbb-bfe6-453c-9213-fdc2eb88a561"
+  },
+  "radio-zodiac-ireland": {
+    "title": "Radio Zodiac Ireland",
+    "description": "60s, 70s, 80s, 90s, alternative",
+    "type": "audio/mpeg",
+    "url": "http://www.radiozodiac.com/",
+    "cros": true,
+    "stream": "http://www.radioking.com/play/radio-zodiac-ireland",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:92d157ae-2a18-11e8-91bf-52543be04c81"
+  },
+  "radio-maria-ireland": {
+    "title": "Radio Maria Ireland",
+    "description": "catholic, christian",
+    "type": "audio/mpeg",
+    "url": "http://www.radiomaria.ie/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp2.com:8014/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9615f63a-0601-11e8-ae97-52543be04c81"
+  },
+  "easy-radio-ireland-easy-mix": {
+    "title": "Easy Radio Ireland, Easy Mix",
+    "description": "classic pop, classic rock, pop, r&b",
+    "type": "audio/mpeg",
+    "url": "https://easy.radio/station/47/665",
+    "cros": false,
+    "stream": "https://streaming.exclusive.radio/uber/easymix/icecast.audio",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:aae9455c-4af5-43c5-9d6d-bfbf7ec50c86"
+  },
+  "christmas-fm-instant-audio": {
+    "title": "Christmas FM",
+    "description": "christmas music",
+    "type": "audio/mpeg",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2547_128.mp3?listenerId=esAdblock0724411&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1671316064&aw_0_req.gdpr=false",
+    "features": "/img/europe/ireland/christmas-fm.png",
+    "source": "radio-browser:47c1604c-4607-41ae-85e9-cf84869bb487"
+  },
+  "trancepulse-flac": {
+    "title": "TrancePulse [FLAC]",
+    "description": "trance",
+    "type": "audio/ogg",
+    "url": "https://trancepulsefm.ie/",
+    "cros": true,
+    "stream": "http://stream.trance.ie:8000/tpmixes",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:95d11361-31e0-4822-8204-5a0e05acfbfa"
+  },
+  "phever-radio": {
+    "title": "PHEVER Radio",
+    "description": "djs",
+    "type": "audio/mpeg",
+    "url": "https://www.phever.ie/",
+    "cros": false,
+    "stream": "https://uk1.internet-radio.com/proxy/phever?mp=/live",
+    "features": "/img/europe/ireland/phever-radio.png",
+    "source": "radio-browser:f399310e-9579-4ee1-9dcd-a51446c71003"
+  },
+  "trancepulse-dublin": {
+    "title": "TrancePulse Dublin",
+    "type": "audio/aac",
+    "url": "https://trancepulsefm.ie/",
+    "cros": false,
+    "stream": "https://stream.trance.ie:8443/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:79f786a8-0f1b-494c-a965-1fd4f90bfb73"
+  },
+  "christmas-fm-ireland": {
+    "title": "Christmas FM Ireland",
+    "type": "audio/mpeg",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2547_128.mp3?listenerId=esTrackblock097016&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1692448019",
+    "features": "/img/europe/ireland/christmas-fm-ireland.png",
+    "source": "radio-browser:dab42837-8e90-43e0-8d50-c8e3742b4d3f"
+  },
+  "midwest-radio-mp3": {
+    "title": "Midwest Radio [MP3]",
+    "description": "variety",
+    "type": "audio/mpeg",
+    "url": "http://www.midwestradio.ie/",
+    "cros": true,
+    "stream": "http://direct.sharp-stream.com/midwestfmie.mp3",
+    "features": "/img/europe/ireland/midwest-radio-mp3.webp",
+    "source": "radio-browser:96159ba6-0601-11e8-ae97-52543be04c81"
+  },
+  "todayfm": {
+    "title": "TodayFm",
+    "type": "audio/mpeg",
+    "url": "https://todayfm.com/",
+    "cros": false,
+    "stream": "https://pri.gocaster.net/td",
+    "features": "/img/europe/ireland/todayfm.png",
+    "source": "radio-browser:57d37976-f406-11e9-a96c-52543be04c81"
+  },
+  "midwest-radio-aac": {
+    "title": "Midwest Radio [AAC]",
+    "description": "variety",
+    "type": "audio/aac",
+    "url": "http://www.midwestradio.ie/",
+    "cros": true,
+    "stream": "http://tx.sharp-stream.com/icecast.php?i=midwestfmie2.aac",
+    "features": "/img/europe/ireland/midwest-radio-aac.jpg",
+    "source": "radio-browser:96159c68-0601-11e8-ae97-52543be04c81"
+  },
+  "heartbeat-fm": {
+    "title": "Heartbeat FM",
+    "description": "easy listening",
+    "type": "audio/mpeg",
+    "url": "http://heartbeatfm.net/",
+    "cros": true,
+    "stream": "http://cast5.magicstreams.gr:8010/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9615c387-0601-11e8-ae97-52543be04c81"
+  },
+  "rte-2-fm": {
+    "title": "RTE 2 FM",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/2fm/",
+    "cros": false,
+    "stream": "https://icecast.rte.ie/2fm",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:d1f3bbb8-bb22-4efd-9f23-0e22ad2ae209"
+  },
+  "cork-96-fm": {
+    "title": "Cork 96 FM",
+    "description": "talk & speech",
+    "type": "audio/aac",
+    "url": "https://96fm.ie/",
+    "cros": true,
+    "stream": "http://wg.cdn.tibus.net/96fm",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:cd81d32c-871f-4050-9534-80bc3e60c12b"
+  },
+  "radio-siamsa": {
+    "title": "Radio Siamsa",
+    "description": "irish traditional, mp3",
+    "type": "audio/mpeg",
+    "url": "https://siamsa.ie/",
+    "cros": false,
+    "stream": "https://cast02.siamsa.ie/radio/8000/radio.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:aa92d0d1-fce2-4897-9211-0a10fd879471"
+  },
+  "sunshine-106-8": {
+    "title": "Sunshine 106.8",
+    "type": "audio/mpeg",
+    "url": "https://www.sunshineradio.ie/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/SUN?_=808250",
+    "features": "/img/europe/ireland/sunshine-106-8.webp",
+    "source": "radio-browser:6e6b07e9-8fcf-4ab5-b2cb-562e07e28ce6"
+  },
+  "raidio-na-life": {
+    "title": "Raidió na Life",
+    "description": "community",
+    "type": "audio/mpeg",
+    "url": "http://www.raidionalife.ie/",
+    "cros": true,
+    "stream": "http://beryl.streamguys.com:5010/live",
+    "features": "/img/europe/ireland/raidio-na-life.png",
+    "source": "radio-browser:96157e6f-0601-11e8-ae97-52543be04c81"
+  },
+  "ucbi-worship": {
+    "title": "UCBI WORSHIP",
+    "description": "praise & worship",
+    "type": "audio/mpeg",
+    "url": "https://www.ucbireland.ie/",
+    "cros": false,
+    "stream": "https://stream.btsstream.com/stream/iworship",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6297d10b-e9a9-4f6b-8504-0aba01f646bd"
+  },
+  "deephouse-radio": {
+    "title": "Deephouse radio",
+    "description": "deephouse",
+    "type": "audio/mpeg",
+    "url": "http://dhr.com/",
+    "cros": true,
+    "stream": "http://ec1.everestcast.host:1490/stream?xi1amefeqvksbquhue3jidp6boikushz",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:cfb55d7d-9576-4dc8-ac00-e8e912e10578"
+  },
+  "freedom-fm": {
+    "title": "Freedom FM",
+    "description": "00s, 2000s, 90s, dance, pop",
+    "type": "audio/mpeg",
+    "url": "https://freedomfm.ie/",
+    "cros": false,
+    "stream": "https://edge3.audioxi.com/FREEDOMFM",
+    "features": "/img/europe/ireland/freedom-fm.webp",
+    "source": "radio-browser:aa9ee750-9e83-4360-89db-ab8f4c416a79"
+  },
+  "powerfm-dublin-320kbps-mp3": {
+    "title": "PowerFM Dublin 320Kbps MP3",
+    "description": "dance, drum and bass, electronic, house, jungle",
+    "type": "audio/mpeg",
+    "url": "https://www.powerfm.org/",
+    "cros": false,
+    "stream": "https://www.powerfm.org:8443/powerfm.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:65dc00f6-2a86-4195-a64f-91aed29bd153"
+  },
+  "wired-fm-fm-99-9-limerick-ireland": {
+    "title": "Wired FM - FM 99.9 - Limerick, Ireland",
+    "description": "college, education, science, technology",
+    "type": "audio/mpeg",
+    "url": "http://www.wiredfm.ie/",
+    "cros": false,
+    "stream": "https://s2.radio.co/sf0986595a/listen",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:04cf4250-cc1b-4a50-98e9-886058ab3096"
+  },
+  "rte-2fm": {
+    "title": "RTÉ 2FM",
+    "description": "music",
+    "type": "audio/aac",
+    "url": "https://www.rte.ie/radio/",
+    "cros": false,
+    "stream": "https://liveaudio.rte.ie/hls-radio/2fm/chunklist.m3u8",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8cd4957a-9a7f-4493-b231-196b434b34f5"
+  },
+  "radio-psychobilly": {
+    "title": "Radio Psychobilly",
+    "type": "audio/mpeg",
+    "url": "https://laut.fm/radio-psychobilly",
+    "cros": true,
+    "stream": "http://radio-psychobilly.stream.laut.fm/radio-psychobilly",
+    "features": "/img/europe/ireland/radio-psychobilly.jpg",
+    "source": "radio-browser:af936b96-04ed-4e29-9eb4-0cbeb1377fb6"
+  },
+  "retronow": {
+    "title": "RetroNow",
+    "description": "90s, club, dance",
+    "type": "audio/mpeg",
+    "url": "https://www.retronow.ie/",
+    "cros": true,
+    "stream": "http://retronow.radioca.st/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9bd7e003-fa39-4b83-b402-eb85434dbc0d"
+  },
+  "rte-raidio-na-gaeltachta-instant-audio": {
+    "title": "RTÉ Raidió na Gaeltachta",
+    "description": "gaelic, irish language, mixed",
+    "type": "audio/aac",
+    "url": "https://www.rte.ie/radio/rnag/",
+    "cros": false,
+    "stream": "https://liveaudio.rte.ie/hls-radio/rnag/chunklist.m3u8",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:17bd5838-0913-498e-b914-bbdd564e2ee5"
+  },
+  "dublins-q102": {
+    "title": "Dublin's Q102",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "http://www.q102.ie/",
+    "cros": false,
+    "stream": "https://onic.dublin.live.stream.broadcasting.news/stream-q102",
+    "features": "/img/europe/ireland/dublins-q102.webp",
+    "source": "radio-browser:4475900d-a213-4d33-81c8-86e278d08cb2"
+  },
+  "dublins-q102-80s": {
+    "title": "Dublin's Q102 80s",
+    "description": "1980s, 80s, decades",
+    "type": "audio/aac",
+    "url": "https://www.q102.ie/on-air/streams/q102-80s/",
+    "cros": true,
+    "stream": "http://wg.cdn.tibus.net/Q10280s",
+    "features": "/img/europe/ireland/dublins-q102-80s.webp",
+    "source": "radio-browser:e2b4f407-6a8f-404e-a0bf-bed8cc8088c6"
+  },
+  "free-fm-ireland": {
+    "title": "Free FM Ireland",
+    "description": "#free, #freefm, 80s, 90s, free fm",
+    "type": "audio/mpeg",
+    "url": "http://freefmradio.net/",
+    "cros": false,
+    "stream": "https://rocafmadrid.radioca.st/stream",
+    "features": "/img/europe/ireland/free-fm-ireland.jpg",
+    "source": "radio-browser:ca8c736b-8547-46a3-a5ea-b5c729f4dbf4"
+  },
+  "irish-pub-radio-e30883d9": {
+    "title": "Irish Pub Radio",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "http://www.irishpubradio.com/",
+    "cros": true,
+    "stream": "http://solid24.streamupsolutions.com:8026/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:e30883d9-2a3d-4c5b-8518-a472646f5a4a"
+  },
+  "irish-pub-radio-c5613036": {
+    "title": "Irish Pub Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.irishpubradio.com/listen.php",
+    "cros": true,
+    "stream": "http://23.81.35.187:8026/stream",
+    "features": "/img/europe/ireland/irish-pub-radio-c5613036.png",
+    "source": "radio-browser:c5613036-f32f-40c8-bce0-c980f55c5a11"
+  },
+  "todayfm-124b8ece": {
+    "title": "TodayFm",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "https://todayfm.com/",
+    "cros": false,
+    "stream": "https://edge.audioxi.com/TDAAC",
+    "features": "/img/europe/ireland/todayfm-124b8ece.png",
+    "source": "radio-browser:124b8ece-53b7-11ea-be63-52543be04c81"
+  },
+  "classic-hits-80s": {
+    "title": "Classic Hits 80s",
+    "description": "80's",
+    "type": "audio/mpeg",
+    "url": "https://www.classichits.ie/classic-hits-80s/",
+    "cros": false,
+    "stream": "https://edge7.audioxi.com/CH80S",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:264a1e04-46a9-4f46-944d-ca65e1c2ff36"
+  },
+  "christmas-fm-classics": {
+    "title": "Christmas FM Classics",
+    "type": "audio/mpeg",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2550_128.mp3?listenerId=94d1ac3bf877b65e4e17cd7e9bfec132&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1692448283",
+    "features": "/img/europe/ireland/christmas-fm-classics.png",
+    "source": "radio-browser:ba3115af-e5a8-4b36-afdd-8fc5d9d1ef02"
+  },
+  "98fm-dance": {
+    "title": "98fm Dance",
+    "type": "audio/mpeg",
+    "url": "https://www.98fm.com/",
+    "cros": false,
+    "stream": "https://edge.audioxi.com/98DANCE",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:147538f0-2ca5-4844-97af-90cd2be99c28"
+  },
+  "powerfm-dublin-320kbps-ogg-vorbis": {
+    "title": "PowerFM Dublin 320Kbps Ogg/Vorbis",
+    "type": "audio/ogg",
+    "url": "https://www.powerfm.org:8443/",
+    "cros": false,
+    "stream": "https://www.powerfm.org:8443/powerfm.ogg",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:e3119588-7d01-446c-9bcc-5cb9e302943f"
+  },
+  "mixlive-ie-insomniafm": {
+    "title": "MixLive.ie - InsomniaFM",
+    "description": "progressive trance",
+    "type": "audio/mpeg",
+    "url": "https://www.mixlive.ie/",
+    "cros": true,
+    "stream": "http://635.cloudrad.io:8092/;stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:3305af2f-65b0-11e8-b15b-52543be04c81"
+  },
+  "today-fm-80s": {
+    "title": "Today FM 80's",
+    "description": "80's hits",
+    "type": "audio/aac",
+    "url": "https://www.todayfm.com/",
+    "cros": false,
+    "stream": "https://edge3.audioxi.com/T80",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:51b12504-53a5-4a90-9cf0-097b0acfd891"
+  },
+  "christmas-fm-classical-carols-17b6bf00": {
+    "title": "Christmas FM Classical & Carols",
+    "type": "audio/mpeg",
+    "url": "https://play.christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2549_128.mp3?",
+    "features": "/img/europe/ireland/christmas-fm-classical-carols-17b6bf00.png",
+    "source": "radio-browser:17b6bf00-b9e6-42ee-99d0-13fbbec2c99e"
+  },
+  "solid-gold-radio-ireland": {
+    "title": "SOLID GOLD RADIO IRELAND",
+    "type": "audio/mpeg",
+    "url": "https://www.solidgoldradioireland.com/",
+    "cros": false,
+    "stream": "https://az11.yesstreaming.net:8020/radio.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:5c153996-c2f7-4bdb-a326-5b45dc7816a5"
+  },
+  "gem-new-wave-radio-d42c11ea": {
+    "title": "Gem New Wave Radio",
+    "description": "ad free, classics, gold, hits, pop",
+    "type": "audio/mpeg",
+    "url": "https://www.gemnewwave.com/",
+    "cros": false,
+    "stream": "https://gemradio.radioca.st/stream/1/",
+    "features": "/img/europe/ireland/gem-new-wave-radio-d42c11ea.png",
+    "source": "radio-browser:d42c11ea-5b19-4ef9-a99c-9a8fbef05a8d"
+  },
+  "dublin-digital-radio": {
+    "title": "Dublin Digital Radio",
+    "description": "alternative, art, community, independent, listener supported",
+    "type": "audio/mpeg",
+    "url": "https://listen.dublindigitalradio.com/home",
+    "cros": false,
+    "stream": "https://dublin-digital-radio.radiocult.fm/stream",
+    "features": "/img/europe/ireland/dublin-digital-radio.jpg",
+    "source": "radio-browser:11e3be6e-1b64-4fe1-9245-f302ac938cf2"
+  },
+  "corks-redfm": {
+    "title": "Cork's RedFM",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://www.redfm.ie/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/RED",
+    "features": "/img/europe/ireland/corks-redfm.png",
+    "source": "radio-browser:b75b0946-9f42-4c9d-bff2-ea13f9141356"
+  },
+  "nearfm": {
+    "title": "NearFM",
+    "type": "audio/mpeg",
+    "url": "http://nearfm.ie/",
+    "cros": true,
+    "stream": "http://stream11.shoutcastsolutions.com:8114/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6597cfec-22fa-11e9-a80b-52543be04c81"
+  },
+  "lmfm": {
+    "title": "LMFM",
+    "type": "audio/aac",
+    "url": "https://www.lmfm.ie/",
+    "cros": false,
+    "stream": "https://wg.cdn.tibus.net/LMFM?aw_0_1st.playerId=wireless-website&listenerid=94d1ac3bf877b65e4e17cd7e9bfec132&awparams=companionAds%3Atrue&aw_0_req.gdpr=false&aw_0_req.userConsentV2=undefined&_=284507",
+    "features": "/img/europe/ireland/lmfm.webp",
+    "source": "radio-browser:aa2dca41-8713-4efe-8ca8-42cb67e57c8e"
+  },
+  "flirt-fm-101-3": {
+    "title": "Flirt FM 101.3",
+    "description": "alternative, irish, irish language, student, student radio",
+    "type": "audio/mpeg",
+    "url": "https://www.flirtfm.ie/",
+    "cros": true,
+    "stream": "http://streams.radiomast.io/89e24041-fdab-4b2d-95bd-830f5bfda900",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:a67d4b9c-fc8f-482f-adeb-3c3d0a54c5fa"
+  },
+  "planetradioie": {
+    "title": "PlanetRadioie",
+    "description": "1960s and 1970s, 1980s hits, 1990s hits, classic hits",
+    "type": "audio/mpeg",
+    "url": "https://planetradio.ie/",
+    "cros": false,
+    "stream": "https://media.planetradio.ie/radio/8000/OnAir",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ab60fa96-0abd-4896-9156-91874f8240d2"
+  },
+  "kfm-97-6": {
+    "title": "Kfm 97.6",
+    "type": "audio/mpeg",
+    "url": "https://www.kfmradio.com/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/KFM?_=668840",
+    "features": "/img/europe/ireland/kfm-97-6.webp",
+    "source": "radio-browser:2b930575-e0cd-41fa-8d81-8d8963f1666d"
+  },
+  "mpb-radio-2-90s-00s": {
+    "title": "MPB Radio 2 90s & 00s",
+    "description": "pop music, pop, hit music, 90s music, rave",
+    "type": "audio/aac",
+    "url": "https://mpbradio2.com",
+    "cros": false,
+    "stream": "https://sc.mpbnl.nl/radio2-90s00s.mp3",
+    "features": "/img/europe/ireland/mpb-radio-2-90s-00s.png",
+    "source": "radio-browser:e2d36184-272d-4976-9518-4a174e17d11a"
+  },
+  "rte-radio-1-bccbc87b": {
+    "title": "RTÉ Radio 1",
+    "type": "audio/mpeg",
+    "url": "https://www.rte.ie/radio/radio1/",
+    "cros": true,
+    "stream": "http://icecast.rte.ie/ieradio1",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:bccbc87b-3ecf-489a-aacd-cd60249450c9"
+  },
+  "dundalk-fm": {
+    "title": "Dundalk FM",
+    "description": "community, local, variety",
+    "type": "audio/mpeg",
+    "url": "http://www.dundalkfm.com/",
+    "cros": true,
+    "stream": "http://80.249.249.245:8000/;?1485109331489",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9615d92c-0601-11e8-ae97-52543be04c81"
+  },
+  "lmfm-country": {
+    "title": "LMFM Country",
+    "type": "audio/aac",
+    "url": "https://www.lmfm.ie/player/lmfms-country-express/",
+    "cros": true,
+    "stream": "http://gbradio.cdn.tibus.net/LMFMCountry?aw_0_1st.platform=website&aw_0_1st.playerid=wireless-website&aw_0_req.gdpr=true&aw_0_awz.listenerid=#ADVERTISINGID&_=223438",
+    "features": "/img/europe/ireland/lmfm-country.webp",
+    "source": "radio-browser:3d52191b-37c2-4be6-9b56-dc43b17f36a4"
+  },
+  "clonmellon-community-radio": {
+    "title": "Clonmellon Community Radio",
+    "description": "60s, 70s, dance music, irish, irish music",
+    "type": "audio/mpeg",
+    "url": "https://www.clonmelloncommunityradio.com/",
+    "cros": false,
+    "stream": "https://eu8.fastcast4u.com/proxy/ccr?mp=/1",
+    "features": "/img/europe/ireland/clonmellon-community-radio.jpg",
+    "source": "radio-browser:1c33aa8c-bb01-412f-aa63-e94aa6c33770"
+  },
+  "onic-80s": {
+    "title": "Onic 80s",
+    "description": "80s",
+    "type": "audio/aac",
+    "url": "https://www.onic.ie/player/onic-country/",
+    "cros": false,
+    "stream": "https://live.onic.ie/stream-80s?_=184336",
+    "features": "/img/europe/ireland/onic-80s.webp",
+    "source": "radio-browser:6ed98dba-c585-42a8-85de-a2b45e8b7d45"
+  },
+  "ceol-fm": {
+    "title": "Ceol FM",
+    "description": "irish music",
+    "type": "audio/mpeg",
+    "url": "https://web.archive.org/web/20250118062911/https://www.ceol.fm/",
+    "cros": true,
+    "stream": "http://ceol.fm:8000/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:2b33fcdc-8eba-4a2d-9e93-59050bd80bb2"
+  },
+  "onic-movies": {
+    "title": "Onic Movies",
+    "description": "movie scores, movie soundtracks, movies",
+    "type": "audio/aac",
+    "url": "https://www.onic.ie/player/onic-movies/",
+    "cros": false,
+    "stream": "https://live.onic.ie/stream-movies?_=55552",
+    "features": "/img/europe/ireland/onic-movies.webp",
+    "source": "radio-browser:98301d1a-ed24-4653-afbe-e7113ea8f0e7"
+  },
+  "mpb-radio-2": {
+    "title": "MPB Radio 2",
+    "description": "pop music, pop, hit music, 70s, 80s",
+    "type": "audio/aac",
+    "url": "https://mpbradio2.com",
+    "cros": false,
+    "stream": "https://sc.mpbnl.nl/radio2.mp3",
+    "features": "/img/europe/ireland/mpb-radio-2.png",
+    "source": "radio-browser:128a4337-41ce-423a-bedf-28ff5d27e8dd"
+  },
+  "beat-102-103-instant-audio": {
+    "title": "Beat 102-103",
+    "description": "dance, general, hits, old school, pop",
+    "type": "audio/aac",
+    "url": "https://www.beat102103.com/",
+    "cros": true,
+    "stream": "http://stream.audioxi.com/BEATAAC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:2ac62767-b780-4c89-9bee-00098817a794"
+  },
+  "total-country-inchicore": {
+    "title": "Total Country Inchicore",
+    "type": "audio/mpeg",
+    "url": "https://www.totalcountryfm.com/",
+    "cros": false,
+    "stream": "https://totalcountry.radioca.st/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:4eddf8c5-0fe3-4009-8d0a-830b0f153dab"
+  },
+  "st-itas-hospital-radio": {
+    "title": "St. Ita's Hospital Radio",
+    "type": "audio/aac",
+    "url": "http://www.hospitalradio.ie/",
+    "cros": true,
+    "stream": "http://uk2.streamingpulse.com:8042/stream",
+    "features": "/img/europe/ireland/st-itas-hospital-radio.png",
+    "source": "radio-browser:79275323-ea2c-11e9-a96c-52543be04c81"
+  },
+  "circle-of-white-light-radio": {
+    "title": "Circle Of White Light Radio",
+    "description": "local talk, news, news talk, world",
+    "type": "audio/mpeg",
+    "url": "https://www.circleofwhitelight.com/",
+    "cros": false,
+    "stream": "https://eu4.fastcast4u.com/proxy/cowlradio?mp=/1",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:7daeeed1-ab41-44b2-af95-532ad0ab0fc7"
+  },
+  "rte-lyric-fm-8ea007b1": {
+    "title": "RTÉ lyric fm",
+    "description": "classical, music",
+    "type": "audio/aac",
+    "url": "https://www.rte.ie/radio/",
+    "cros": false,
+    "stream": "https://liveaudio.rte.ie/hls-radio/lyric/chunklist.m3u8",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8ea007b1-157d-4972-a967-ffcb4baa61c7"
+  },
+  "christmas-fm-classical": {
+    "title": "Christmas FM Classical",
+    "type": "audio/mpeg",
+    "url": "https://christmasfm.com/",
+    "cros": false,
+    "stream": "https://christmasfm.cdnstream1.com/2549_128.mp3?listenerId=94d1ac3bf877b65e4e17cd7e9bfec132&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1692448390",
+    "features": "/img/europe/ireland/christmas-fm-classical.png",
+    "source": "radio-browser:96570d0f-a8c9-4083-bfd1-0cd783663662"
+  },
+  "newstalk-ireland-aac": {
+    "title": "Newstalk Ireland AAC",
+    "type": "audio/aac",
+    "url": "http://www.newstalk.ie/",
+    "cros": false,
+    "stream": "https://live-bauerie.sharp-stream.com/NTAAC",
+    "features": "/img/europe/ireland/newstalk-ireland-aac.png",
+    "source": "radio-browser:52637865-3e18-49af-b28d-191f4ff201eb"
+  },
+  "solid-gold-radio-ireland-b42d1cbe": {
+    "title": "SOLID GOLD RADIO IRELAND",
+    "type": "audio/mpeg",
+    "url": "https://www.solidgoldradioireland.com/",
+    "cros": false,
+    "stream": "https://a1.asurahosting.com:10000/radio.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b42d1cbe-acf8-4a1f-a077-5675daefeab2"
+  },
+  "xt-independent-alternate": {
+    "title": "XT independent alternate",
+    "description": "alternative / indie, alternative rock",
+    "type": "audio/aac",
+    "url": "http://xt.ie/",
+    "cros": true,
+    "stream": "http://xt.stream.ie/xt",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:de9ea92b-48a3-43c8-8dba-10e6e18a5e57"
+  },
+  "club-fm-dublin": {
+    "title": "Club FM Dublin",
+    "type": "audio/mpeg",
+    "url": "http://www.clubfmdublin.com/",
+    "cros": false,
+    "stream": "https://c6.radioboss.fm:8225/stream",
+    "features": "/img/europe/ireland/club-fm-dublin.jpg",
+    "source": "radio-browser:001ea586-423e-4c2b-afee-460c60e24100"
+  },
+  "timewarp-ireland": {
+    "title": "Timewarp Ireland",
+    "type": "audio/mpeg",
+    "url": "https://timewarpireland.com/",
+    "cros": false,
+    "stream": "https://broadcast.shoutstream.co.uk:8052/stream",
+    "features": "/img/europe/ireland/timewarp-ireland.png",
+    "source": "radio-browser:e596d6e2-8acb-4cf2-b9aa-f3727f7a1252"
+  }
+}

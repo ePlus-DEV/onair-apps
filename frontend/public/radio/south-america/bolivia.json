@@ -1,0 +1,371 @@
+{
+  "radio-fides": {
+    "title": "Radio Fides",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofides.com/",
+    "cros": false,
+    "stream": "https://usa7.fastcast4u.com/proxy/grflores?mp=/stream/1/",
+    "features": "/img/south-america/bolivia/radio-fides.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/radio-fides?time=",
+    "favorite": true
+  },
+  "radio-chacaltaya": {
+    "title": "Radio Chacaltaya (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://radiochacaltayafm.com.bo/",
+    "cros": true,
+    "stream": "http://cast6.asurahosting.com:7847/stream/1/",
+    "features": "/img/south-america/bolivia/radio-chacaltaya.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/radio-chacaltaya?time="
+  },
+  "la-paz": {
+    "title": "Radio La Paz",
+    "type": "audio/mpeg",
+    "url": "https://fmlapaz.bo/",
+    "cros": false,
+    "stream": "https://spanel.gcomstreaming.com/8018/stream/1/",
+    "features": "/img/south-america/bolivia/la-paz.png"
+  },
+  "grupo-centro": {
+    "title": "Grupo Centro (Cochabamba)",
+    "type": "audio/mpeg",
+    "url": "https://grupocentro.com.bo/",
+    "cros": false,
+    "stream": "https://radio.yoemito.net:8004/stream",
+    "features": "/img/south-america/bolivia/grupo-centro.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/grupo-centro?time="
+  },
+  "radio-illimani": {
+    "title": "Radio Illimani",
+    "type": "audio/mpeg",
+    "url": "https://redpatrianueva.bo/",
+    "cros": false,
+    "stream": "https://rponline.presidencia.gob.bo/stream",
+    "features": "/img/south-america/bolivia/radio-illimani.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/radio-illimani?time="
+  },
+  "melodia-la-paz": {
+    "title": "Radio Melodía (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://radiomelodia.fm/",
+    "cros": true,
+    "stream": "http://stream.consultoradas.com:8194/stream/1/",
+    "features": "/img/south-america/bolivia/melodia-la-paz.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/melodia-la-paz?time="
+  },
+  "radio-disney": {
+    "title": "Radio Disney (Bolivia)",
+    "type": "audio/mpeg",
+    "url": "https://bo.radiodisney.com/",
+    "cros": false,
+    "stream": "https://22823.live.streamtheworld.com/DISNEY_BOL_SCAAC_SC",
+    "features": "/img/south-america/bolivia/radio-disney.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/radio-disney?time="
+  },
+  "stereo-la-paz": {
+    "title": "Radio Stereo (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://www.stereo97.fm/",
+    "cros": false,
+    "stream": "https://stream.consultoradas.com/8104/stream/1/",
+    "features": "/img/south-america/bolivia/stereo-la-paz.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/stereo-la-paz?time="
+  },
+  "global-sucre": {
+    "title": "Radio Global (Sucre)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioglobalbolivia.com/",
+    "cros": false,
+    "stream": "https://ares.disfrutaenlared.com/6048/stream/1/",
+    "features": "/img/south-america/bolivia/global-sucre.png"
+  },
+  "activa": {
+    "title": "Radio Activa (Santa Cruz)",
+    "type": "audio/mpeg",
+    "url": "https://www.919radioactiva.com/",
+    "cros": false,
+    "stream": "https://radio02.com:7002/;",
+    "features": "/img/south-america/bolivia/activa.png"
+  },
+  "ciudad": {
+    "title": "Radio Ciudad",
+    "type": "audio/mpeg",
+    "url": "https://ciudad91.net/",
+    "cros": true,
+    "stream": "http://streamingenbolivia.com:8002/stream/1/",
+    "features": "/img/south-america/bolivia/ciudad.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/ciudad?time="
+  },
+  "el-deber": {
+    "title": "El Deber Radio (Santa Cruz)",
+    "type": "audio/mpeg",
+    "url": "https://eldeber.com.bo/eldeberradio",
+    "cros": false,
+    "stream": "https://cast.az-streamingserver.com/proxy/grupoeld?mp=/stream",
+    "features": "/img/south-america/bolivia/el-deber.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/el-deber?time="
+  },
+  "fmbolivia": {
+    "title": "FM Bolivia (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://fmbolivia.com.bo/",
+    "cros": false,
+    "stream": "https://stm11.xcast.com.br:11300/stream/1/",
+    "features": "/img/south-america/bolivia/fmbolivia.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/fmbolivia?time="
+  },
+  "radio-betania": {
+    "title": "Radio Betania",
+    "type": "audio/mpeg",
+    "url": "https://radiobetania.com/",
+    "cros": false,
+    "stream": "https://emiteradio.com/proxy/radiobetania?mp=/stream",
+    "features": "/img/south-america/bolivia/radio-betania.png"
+  },
+  "aclo-potosi": {
+    "title": "Radio Aclo (Chuquisaca)",
+    "type": "audio/mpeg",
+    "url": "https://www.aclo.org.bo/",
+    "cros": true,
+    "stream": "http://cloudstream2030.conectarhosting.com:8192/stream/1/",
+    "features": "/img/south-america/bolivia/aclo-potosi.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/aclo-potosi?time="
+  },
+  "clasica-cochabamba": {
+    "title": "Radio Clásica FM (Cochabamba)",
+    "type": "audio/mpeg",
+    "url": "https://radioclasica100.com/",
+    "cros": false,
+    "stream": "https://live.turadiotv.com/9976/stream/1/",
+    "features": "/img/south-america/bolivia/clasica-cochabamba.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/clasica-cochabamba?time="
+  },
+  "estelar-fm-92-5": {
+    "title": "Estelar",
+    "type": "audio/mpeg",
+    "url": "http://www.estelarfm.com/",
+    "cros": false,
+    "stream": "https://turadioweb.net:8370/radio",
+    "features": "/img/south-america/bolivia/estelar-fm-92-5.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/estelar-fm-92-5?time="
+  },
+  "kollasuyo": {
+    "title": "Radio Kollasuyo (Potosí)",
+    "type": "audio/mpeg",
+    "url": "https://radiokollasuyo.bo/",
+    "cros": false,
+    "stream": "https://azura2.bitstreaming.net:8000/radio128.aac",
+    "features": "/img/south-america/bolivia/kollasuyo.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/kollasuyo?time="
+  },
+  "maritima": {
+    "title": "Radio Marítima",
+    "type": "audio/mpeg",
+    "url": "https://maritimafm.com/",
+    "cros": false,
+    "stream": "https://spanel.gcomstreaming.com/8004/stream/1/",
+    "features": "/img/south-america/bolivia/maritima.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/maritima?time="
+  },
+  "red-erbol": {
+    "title": "Radio Red Erbol (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://www.erbol.com.bo/",
+    "cros": false,
+    "stream": "https://radio.erbol.com.bo/",
+    "features": "/img/south-america/bolivia/red-erbol.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/red-erbol?time="
+  },
+  "maria-bolivia": {
+    "title": "Radio María (Bolivia)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.org.bo/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp6.com/proxy/rmbolivia?mp=/stream/1/",
+    "features": "/img/south-america/bolivia/maria-bolivia.png"
+  },
+  "guadalquivir-tarija": {
+    "title": "Radio Guadalquivir (Tarija)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://turadio.accesopanel.com:8120/stream/1/",
+    "features": "/img/south-america/bolivia/guadalquivir-tarija.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/guadalquivir-tarija?time="
+  },
+  "wkm": {
+    "title": "WKM Radio (Oruro)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.wkmradio.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5df7cf305396b836ef541c12/live.m3u8?partnertok=eyJhbGciOiJIUzI1NiIsImtpZCI6InR1bmVpbiIsInR5cCI6IkpXVCJ9.eyJ0cnVzdGVkX3BhcnRuZXIiOnRydWUsImlhdCI6MTYzMTI4OTk0NSwiaXNzIjoidGlzcnYifQ.fKTxm_WBYRKfwsZdMSAnqFOPEBaVb8JjtaXvgURyEfw",
+    "features": "/img/south-america/bolivia/wkm.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/wkm?time="
+  },
+  "radio-mega-dj": {
+    "title": "Radio Mega DJ",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/zyu31nv6twzuv",
+    "features": "/img/south-america/bolivia/radio-mega-dj.png"
+  },
+  "camargo-bolivia": {
+    "title": "Radio Camargo (Bolivia)",
+    "type": "audio/mpeg",
+    "url": "https://radiocamargo.com.bo/",
+    "cros": false,
+    "stream": "https://player.xcast.com.br/proxy/11646/stream/1/",
+    "features": "/img/south-america/bolivia/camargo-bolivia.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/camargo-bolivia?time="
+  },
+  "qhana": {
+    "title": "Radio Qhana (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://qhana.com.bo/",
+    "cros": true,
+    "stream": "http://cast6.asurahosting.com:7544/stream/1/",
+    "features": "/img/south-america/bolivia/qhana.png"
+  },
+  "doble-8-la-paz": {
+    "title": "Doble 8 (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://ladoble.com/",
+    "cros": true,
+    "stream": "http://r1.comcities.com:7000/stream",
+    "features": "/img/south-america/bolivia/doble-8-la-paz.png"
+  },
+  "san-gabriel-el-alto": {
+    "title": "Radio San Gabriel (El Alto)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiosangabriel.org.bo/rsg/",
+    "cros": false,
+    "stream": "https://spanel.gcomstreaming.com:7004/stream/1/",
+    "features": "/img/south-america/bolivia/san-gabriel-el-alto.png"
+  },
+  "la-bruja": {
+    "title": "Radio La Bruja FM",
+    "type": "audio/mpeg",
+    "url": "https://www.labrujafm.com/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/4bm88fecs7zuv",
+    "features": "/img/south-america/bolivia/la-bruja.png"
+  },
+  "majestad": {
+    "title": "Radio Majestad (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://www.majestadfm.com/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/qvqzs5zetwzuv",
+    "features": "/img/south-america/bolivia/majestad.png"
+  },
+  "uno": {
+    "title": "Radio Uno",
+    "type": "audio/mpeg",
+    "url": "https://radiounobolivia.com/",
+    "cros": true,
+    "stream": "http://radio.livestreamingmundial.com:8016/stream/1/",
+    "features": "/img/south-america/bolivia/uno.png"
+  },
+  "splendid-la-paz": {
+    "title": "Radio Splendid (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://radiosplendid.bo/",
+    "cros": true,
+    "stream": "http://spanel.gcomstreaming.com:8032/stream/1/",
+    "features": "/img/south-america/bolivia/splendid-la-paz.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/splendid-la-paz?time="
+  },
+  "el-sonido-de-la-vida-la-paz": {
+    "title": "Radio El Sonido de la Vida (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://www.sccbolivia.com/",
+    "cros": true,
+    "stream": "http://cloudstream2032.conectarhosting.com:9580/stream/1/",
+    "features": "/img/south-america/bolivia/el-sonido-de-la-vida-la-paz.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/el-sonido-de-la-vida-la-paz?time="
+  },
+  "transamericana": {
+    "title": "Radio Transamericana",
+    "type": "audio/mpeg",
+    "url": "https://transamericana.com/",
+    "cros": true,
+    "stream": "http://server.laradio.online:8233/stream/1/",
+    "features": "/img/south-america/bolivia/transamericana.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/transamericana?time="
+  },
+  "ambana": {
+    "title": "Radio Ambaná",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://s02.transmissaodigital.com:7354/stream/1/",
+    "features": "/img/south-america/bolivia/ambana.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/ambana?time="
+  },
+  "kantuta-oruro": {
+    "title": "Radio Kantuta (Oruro)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiokantuta.com/",
+    "cros": false,
+    "stream": "https://eu2.serviaudio.com/23128/stream/1/",
+    "features": "/img/south-america/bolivia/kantuta-oruro.png"
+  },
+  "deseo-la-paz": {
+    "title": "Radio Deseo (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://radiodeseo.com/",
+    "cros": true,
+    "stream": "http://conectperu.com:8396/stream/1/",
+    "features": "/img/south-america/bolivia/deseo-la-paz.png"
+  },
+  "altiplano-santa-cruz": {
+    "title": "Radio Altiplano (Santa Cruz)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.redadvenir.org/redadvenir/index.php",
+    "cros": false,
+    "stream": "https://streamer1.streamhost.org/salive/GMIredadvenirm/playlist.m3u8",
+    "features": "/img/south-america/bolivia/altiplano-santa-cruz.png"
+  },
+  "panamericana-la-paz": {
+    "title": "Radio Panamericana (La Paz)",
+    "type": "audio/mpeg",
+    "url": "https://www.panamericana.bo/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/pnwpbyfambruv",
+    "features": "/img/south-america/bolivia/panamericana-la-paz.png",
+    "schedule": "https://api.webrad.io/data/playlist/43/panamericana-la-paz?time="
+  },
+  "rkc-shinahota": {
+    "title": "RKC (Cochabamba)",
+    "type": "audio/mpeg",
+    "url": "https://kawsachuncoca.com/",
+    "cros": false,
+    "stream": "https://radio.yoemito.net:8006/stream",
+    "features": "/img/south-america/bolivia/rkc-shinahota.png"
+  },
+  "hit-santa-cruz": {
+    "title": "Radio Hit (Santa Cruz)",
+    "type": "audio/mpeg",
+    "url": "https://fmhit99.com/",
+    "cros": true,
+    "stream": "http://turadio.accesopanel.com:8040/stream/1/",
+    "features": "/img/south-america/bolivia/hit-santa-cruz.png"
+  },
+  "classica-santa-cruz": {
+    "title": "Classica (Santa Cruz)",
+    "type": "audio/mpeg",
+    "url": "http://www.classicafm.com/",
+    "cros": true,
+    "stream": "http://classicafm.scbbs.net:8000/stream/1/",
+    "features": "/img/south-america/bolivia/classica-santa-cruz.png"
+  },
+  "sucre": {
+    "title": "Radio Sucre",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://radios.imd.com.bo:7791/;",
+    "features": "/img/south-america/bolivia/sucre.png"
+  }
+}

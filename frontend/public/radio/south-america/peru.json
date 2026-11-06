@@ -1,0 +1,368 @@
+{
+  "romantica": {
+    "title": "Ritmo Romántica",
+    "type": "audio/mpeg",
+    "url": "https://www.ritmoromantica.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_RIT_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/romantica.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/romantica?time=",
+    "favorite": true
+  },
+  "rpp": {
+    "title": "Radio RPP Noticias",
+    "type": "audio/mpeg",
+    "url": "https://rpp.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fab3416b5f9ef165cfab6e9/icecast.audio",
+    "features": "/img/south-america/peru/rpp.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/rpp?time="
+  },
+  "onda": {
+    "title": "Onda Cero",
+    "type": "audio/mpeg",
+    "url": "https://www.ondacero.com.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/6598b65ab398c90871aff8cc/icecast.audio",
+    "features": "/img/south-america/peru/onda.png"
+  },
+  "corazon": {
+    "title": "Radio Corazón",
+    "type": "audio/mpeg",
+    "url": "https://corazon.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fada514fc16c006bd63370f/icecast.audio",
+    "features": "/img/south-america/peru/corazon.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/corazon?time="
+  },
+  "moda": {
+    "title": "Moda",
+    "type": "audio/mpeg",
+    "url": "https://www.moda.com.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_MOD_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/moda.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/moda?time="
+  },
+  "la-zona": {
+    "title": "La Zona",
+    "type": "audio/mpeg",
+    "url": "https://www.lazona.com.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fada54116646e098d97e6a5/icecast.audio",
+    "features": "/img/south-america/peru/la-zona.png"
+  },
+  "studio": {
+    "title": "Studio 92 (San Isidro)",
+    "type": "audio/mpeg",
+    "url": "https://www.studio92.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fada553978fe1080e3ac5ea/icecast.audio",
+    "features": "/img/south-america/peru/studio.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/studio?time="
+  },
+  "exitosa-lima": {
+    "title": "Radio Exitosa (Lima)",
+    "type": "audio/mpeg",
+    "url": "https://www.exitosanoticias.pe/",
+    "cros": false,
+    "stream": "https://neptuno-2-audio.mediaserver.digital/79525baf-b0f5-4013-a8bd-3c5c293c6561",
+    "features": "/img/south-america/peru/exitosa-lima.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/exitosa-lima?time="
+  },
+  "planeta": {
+    "title": "Planeta",
+    "type": "audio/mpeg",
+    "url": "https://www.planeta.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_PLA_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/planeta.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/planeta?time="
+  },
+  "la-karibena": {
+    "title": "La Karibeña",
+    "type": "audio/mpeg",
+    "url": "https://lakaribena.com.pe/",
+    "cros": false,
+    "stream": "https://karibena.egostreaming.pe/radio/6898b6e52d9e088a6de159/",
+    "features": "/img/south-america/peru/la-karibena.png"
+  },
+  "panamericana": {
+    "title": "Panamericana",
+    "type": "audio/mpeg",
+    "url": "https://www.radiopanamericana.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/6598b62dded1380470f4e539/icecast.audio",
+    "features": "/img/south-america/peru/panamericana.png"
+  },
+  "radiomar": {
+    "title": "Radiomar",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomar.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_MAR_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/radiomar.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/radiomar?time="
+  },
+  "felicidad": {
+    "title": "Radio Felicidad",
+    "type": "audio/mpeg",
+    "url": "https://www.felicidad.com.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fad731fcf097a068af3c8f7/icecast.audio",
+    "features": "/img/south-america/peru/felicidad.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/felicidad?time="
+  },
+  "kalle": {
+    "title": "La Kalle",
+    "type": "audio/mpeg",
+    "url": "https://lakalle.com.pe/",
+    "cros": false,
+    "stream": "https://lakalle.egostreaming.pe/radio/a7b9c3e4567f8d0123456789/",
+    "features": "/img/south-america/peru/kalle.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/kalle?time="
+  },
+  "z-lima": {
+    "title": "Radio Z Rock Pop (Lima)",
+    "type": "audio/mpeg",
+    "url": "https://zrockandpop.com.pe/",
+    "cros": false,
+    "stream": "https://radioz.egostreaming.pe/radio/3e4f6a1b2c3d4e567890abcd/",
+    "features": "/img/south-america/peru/z-lima.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/z-lima?time="
+  },
+  "oxigeno": {
+    "title": "Oxígeno (Lima)",
+    "type": "audio/mpeg",
+    "url": "https://www.oxigeno.com.pe/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fab0687bcd6c2389ee9480c/icecast.audio",
+    "features": "/img/south-america/peru/oxigeno.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/oxigeno?time="
+  },
+  "nueva-q": {
+    "title": "Nueva Q",
+    "type": "audio/mpeg",
+    "url": "https://www.radionuevaq.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_NQ_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/nueva-q.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/nueva-q?time="
+  },
+  "la-mega-lima": {
+    "title": "MegaMix (Lima)",
+    "type": "application/x-mpegURL",
+    "url": "https://audioplayer.pe/megamix",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/5fada56fe4e09508207a7951/live.m3u8",
+    "features": "/img/south-america/peru/la-mega-lima.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/la-mega-lima?time="
+  },
+  "inolvidable": {
+    "title": "La Inolvidable",
+    "type": "audio/mpeg",
+    "url": "https://www.lainolvidable.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_LI_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/inolvidable.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/inolvidable?time="
+  },
+  "viva": {
+    "title": "Viva FM",
+    "type": "audio/mpeg",
+    "url": "https://vivafm.com.pe/",
+    "cros": false,
+    "stream": "https://tupanel.info:8780//stream",
+    "features": "/img/south-america/peru/viva.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/viva?time="
+  },
+  "magica-lima": {
+    "title": "Mágica",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomagica.pe/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MAG_SC?csegid=20001&dist=20001&ttag=20001",
+    "features": "/img/south-america/peru/magica-lima.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/magica-lima?time="
+  },
+  "nuevo-tiempo-peru": {
+    "title": "Nuevo Tiempo Perú",
+    "type": "application/x-mpegURL",
+    "url": "https://www.nuevotiempo.org/radio/",
+    "cros": false,
+    "stream": "https://stream.live.novotempo.com/radio/smil:radionuevotiempo.smil/playlist.m3u8",
+    "features": "/img/south-america/peru/nuevo-tiempo-peru.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/nuevo-tiempo-peru?time="
+  },
+  "mas-91-9": {
+    "title": "Radio Cumbia Mix",
+    "type": "audio/mpeg",
+    "url": "https://radiocumbiamix.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/6598b6ab95a235085823b24f/icecast.audio",
+    "features": "/img/south-america/peru/mas-91-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/mas-91-9?time="
+  },
+  "generacion-kpop": {
+    "title": "Generación KPOP",
+    "type": "audio/mpeg",
+    "url": "http://www.generacionkpop.net/",
+    "cros": false,
+    "stream": "https://stream9.mexiserver.com/8242/stream/1/",
+    "features": "/img/south-america/peru/generacion-kpop.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/generacion-kpop?time="
+  },
+  "cumbia-lima": {
+    "title": "Perú Cumbia Radio (Lima)",
+    "type": "audio/mpeg",
+    "url": "https://www.perucumbia.com/",
+    "cros": false,
+    "stream": "https://tupanel.info:8270/stream/1/",
+    "features": "/img/south-america/peru/cumbia-lima.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/cumbia-lima?time="
+  },
+  "ovacion-lima": {
+    "title": "Radio Ovación (Lima)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.ovacion.pe/",
+    "cros": false,
+    "stream": "https://5c3fb01839654.streamlock.net:1963/ipradioovacion1/liveovacion1radio/playlist.m3u8",
+    "features": "/img/south-america/peru/ovacion-lima.png"
+  },
+  "uno": {
+    "title": "Radio Uno (Tacna)",
+    "type": "audio/mpeg",
+    "url": "https://radiouno.pe/",
+    "cros": false,
+    "stream": "https://stream2.eistreaming.com:10995/stream/1/",
+    "features": "/img/south-america/peru/uno.png"
+  },
+  "maria": {
+    "title": "Radio María",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomariaperu.org/",
+    "cros": true,
+    "stream": "http://51.178.178.127:8074/stream/1/",
+    "features": "/img/south-america/peru/maria.png"
+  },
+  "folk": {
+    "title": "Folk Radio",
+    "type": "audio/mpeg",
+    "url": "https://perufolkradio.com/",
+    "cros": false,
+    "stream": "https://raymistream.net/listen/perufolkradio/live",
+    "features": "/img/south-america/peru/folk.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/folk?time="
+  },
+  "antena-sur": {
+    "title": "Antena Sur",
+    "type": "audio/mpeg",
+    "url": "https://www.radioantenasur.com/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/tu63bf6g31zuv",
+    "features": "/img/south-america/peru/antena-sur.png"
+  },
+  "bethel": {
+    "title": "Bethel",
+    "type": "audio/mpeg",
+    "url": "https://bethel.fm/",
+    "cros": false,
+    "stream": "https://stre.vox.bethelradio.live7.la:7982/stream/1/",
+    "features": "/img/south-america/peru/bethel.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/bethel?time="
+  },
+  "inca": {
+    "title": "Radio Inca (Lima)",
+    "type": "audio/mpeg",
+    "url": "https://www.oigo.com/incasat/radioenvivo/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CRP_INC_SC",
+    "features": "/img/south-america/peru/inca.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/inca?time="
+  },
+  "nova-trujillo": {
+    "title": "Radio Nova (Trujillo)",
+    "type": "audio/mpeg",
+    "url": "https://radionova.pe/",
+    "cros": false,
+    "stream": "https://panel.innovatestream.pe:10989/stream/1/",
+    "features": "/img/south-america/peru/nova-trujillo.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/nova-trujillo?time="
+  },
+  "san-borja": {
+    "title": "Radio San Borja (San Borja)",
+    "type": "application/x-mpegURL",
+    "url": "https://radiosanborjatv.com/",
+    "cros": false,
+    "stream": "https://cast.stre.live7.la:3168/live/sanborjatevelive.m3u8",
+    "features": "/img/south-america/peru/san-borja.png"
+  },
+  "exito-lima": {
+    "title": "Radio Éxito (Lima)",
+    "type": "audio/mpeg",
+    "url": "http://radioexitoperu.com/",
+    "cros": true,
+    "stream": "http://67.212.179.138:7200/stream/1/",
+    "features": "/img/south-america/peru/exito-lima.png"
+  },
+  "integridad-lima": {
+    "title": "RRI",
+    "type": "audio/mpeg",
+    "url": "https://rri.pe/",
+    "cros": true,
+    "stream": "http://dattavolt.com:8164/stream/1/",
+    "features": "/img/south-america/peru/integridad-lima.png"
+  },
+  "melodia-arequipa": {
+    "title": "Radio Melodía (Arequipa)",
+    "type": "audio/mpeg",
+    "url": "https://radiomelodia.com.pe/",
+    "cros": false,
+    "stream": "https://stream.radiomelodia.com.pe:8000/radio.mp3",
+    "features": "/img/south-america/peru/melodia-arequipa.png"
+  },
+  "maranon": {
+    "title": "Radio Marañón (Jaén)",
+    "type": "audio/mpeg",
+    "url": "https://radiomaranon.org.pe/",
+    "cros": false,
+    "stream": "https://serverssl.innovatestream.pe:8080/http://167.114.118.120:7112/stream/1/",
+    "features": "/img/south-america/peru/maranon.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/maranon?time="
+  },
+  "comas": {
+    "title": "Comas FM",
+    "type": "audio/mpeg",
+    "url": "https://radiocomas.com.pe/",
+    "cros": false,
+    "stream": "https://tupanel.info:7390/stream/1/",
+    "features": "/img/south-america/peru/comas.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/comas?time="
+  },
+  "matucana": {
+    "title": "Matucana",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomatucana.com/",
+    "cros": true,
+    "stream": "http://radio.transmite.pe:9316/stream/1/",
+    "features": "/img/south-america/peru/matucana.png"
+  },
+  "turbo": {
+    "title": "Turbo Mix",
+    "type": "audio/mpeg",
+    "url": "https://www.turbomix.com.pe",
+    "cros": false,
+    "stream": "https://serverssl.innovatestream.pe:8080/http://167.114.118.120:7624/stream/1/",
+    "features": "/img/south-america/peru/turbo.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/turbo?time="
+  },
+  "elite": {
+    "title": "Radio Elite (Huaral)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioeliteperu.com/index.html",
+    "cros": true,
+    "stream": "http://149.56.241.147:8456/;",
+    "features": "/img/south-america/peru/elite.png",
+    "schedule": "https://api.webrad.io/data/playlist/13/elite?time="
+  }
+}

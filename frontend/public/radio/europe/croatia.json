@@ -1,0 +1,1291 @@
+{
+  "101": {
+    "title": "Radio 101 FM",
+    "type": "audio/mpeg",
+    "url": "https://radio101.hr/",
+    "cros": false,
+    "stream": "https://live.radio101.hr:9531/stream/1/",
+    "features": "/img/europe/croatia/101.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/101?time=",
+    "favorite": true
+  },
+  "105": {
+    "title": "Radio105",
+    "type": "audio/mpeg",
+    "url": "https://www.radio105.hr/",
+    "cros": false,
+    "stream": "https://azuracast.novi-net.net/radio/8050/radio105.aac",
+    "features": "/img/europe/croatia/105.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/105?time="
+  },
+  "bravo": {
+    "title": "bravo!",
+    "type": "audio/mpeg",
+    "url": "https://bravo.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8059/stream/1/",
+    "features": "/img/europe/croatia/bravo.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/bravo?time="
+  },
+  "otvoreni": {
+    "title": "Otvoreni Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.otvoreni.hr/",
+    "cros": false,
+    "stream": "https://stream.otvoreni.hr/stream48",
+    "features": "/img/europe/croatia/otvoreni.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/otvoreni?time="
+  },
+  "prvi-program": {
+    "title": "HR1 Prvi program",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/prvi-program/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/PROGRAM1_SC",
+    "features": "/img/europe/croatia/prvi-program.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/prvi-program?time="
+  },
+  "max": {
+    "title": "Radio Max",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomax.hr/",
+    "cros": false,
+    "stream": "https://azuracast.novi-net.net/radio/8010/radiomax.aac",
+    "features": "/img/europe/croatia/max.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/max?time="
+  },
+  "antena-zagreb": {
+    "title": "Antena Zagreb",
+    "type": "audio/mpeg",
+    "url": "https://www.antenazagreb.hr/",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8000/stream/1/",
+    "features": "/img/europe/croatia/antena-zagreb.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/antena-zagreb?time="
+  },
+  "hr2-drugi-program": {
+    "title": "HR2 Drugi program",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/drugi-program/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/PROGRAM2_SC",
+    "features": "/img/europe/croatia/hr2-drugi-program.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hr2-drugi-program?time="
+  },
+  "hrvatski-katolicki": {
+    "title": "Hrvatski Katolicki Radio",
+    "type": "audio/mpeg",
+    "url": "https://hkr.hkm.hr",
+    "cros": true,
+    "stream": "http://stream.hkr.hr:8000/hkr.aac",
+    "features": "/img/europe/croatia/hrvatski-katolicki.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hrvatski-katolicki?time="
+  },
+  "stubica": {
+    "title": "Radio Stubica",
+    "type": "audio/mpeg",
+    "url": "https://radio-stubica.hr/",
+    "cros": true,
+    "stream": "http://radiostubica.hc.hr:7010/;",
+    "features": "/img/europe/croatia/stubica.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/stubica?time="
+  },
+  "sljeme": {
+    "title": "Radio Sljeme",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/radio-sljeme",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLJEMEAAC_SC",
+    "features": "/img/europe/croatia/sljeme.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/sljeme?time="
+  },
+  "dalmacija": {
+    "title": "Radio Dalmacija",
+    "type": "audio/mpeg",
+    "url": "https://www.radiodalmacija.hr/",
+    "cros": true,
+    "stream": "http://shoutcast.pondi.hr:8000/stream/1/",
+    "features": "/img/europe/croatia/dalmacija.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/dalmacija?time="
+  },
+  "hit": {
+    "title": "Hit Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.hitradio.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8012/stream/1/",
+    "features": "/img/europe/croatia/hit.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hit?time="
+  },
+  "hr3-treci-program": {
+    "title": "HR3 Treci program",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/PROGRAM3_SC",
+    "features": "/img/europe/croatia/hr3-treci-program.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hr3-treci-program?time="
+  },
+  "kaj": {
+    "title": "Radio Kaj",
+    "type": "audio/mpeg",
+    "url": "https://kaj.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8050/stream/1/",
+    "features": "/img/europe/croatia/kaj.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/kaj?time="
+  },
+  "hr-r-split": {
+    "title": "HR R Split",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/radio-split/",
+    "cros": false,
+    "stream": "https://www.myipcast.com/radio/split",
+    "features": "/img/europe/croatia/hr-r-split.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hr-r-split?time="
+  },
+  "marija": {
+    "title": "Radio Marija",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomarija.hr/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp.com:8026/stream/1/",
+    "features": "/img/europe/croatia/marija.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/marija?time="
+  },
+  "zabavni": {
+    "title": "Zabavni Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.zabavni.hr/",
+    "cros": false,
+    "stream": "https://genf196.server4you.de:8585/stream/1/",
+    "features": "/img/europe/croatia/zabavni.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/zabavni?time="
+  },
+  "hr-r-rijeka": {
+    "title": "HR R Rijeka",
+    "type": "audio/mpeg",
+    "url": "https://radio.hrt.hr/radio-rijeka/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIJEKA_SC",
+    "features": "/img/europe/croatia/hr-r-rijeka.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hr-r-rijeka?time="
+  },
+  "koprivnica": {
+    "title": "Radio Koprivnica",
+    "type": "audio/mpeg",
+    "url": "https://rkc.hr/",
+    "cros": true,
+    "stream": "http://194.152.206.205:8000/;",
+    "features": "/img/europe/croatia/koprivnica.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/koprivnica?time="
+  },
+  "centar": {
+    "title": "Radio Centar",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocentar.hr",
+    "cros": false,
+    "stream": "https://radiocentar.hr:8282/stream.aac",
+    "features": "/img/europe/croatia/centar.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/centar?time="
+  },
+  "laganini-radio": {
+    "title": "Laganini",
+    "type": "audio/mpeg",
+    "url": "http://laganini.fm/",
+    "cros": true,
+    "stream": "http://194.145.208.251:8000/stream/1/",
+    "features": "/img/europe/croatia/laganini-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/laganini-radio?time="
+  },
+  "ritam": {
+    "title": "Radio Ritam",
+    "type": "audio/mpeg",
+    "url": "https://radioritam.hr/",
+    "cros": false,
+    "stream": "https://ec2s.crolive.com.hr:8455/stream",
+    "features": "/img/europe/croatia/ritam.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/ritam?time="
+  },
+  "jedan": {
+    "title": "Radio 1",
+    "type": "audio/mpeg",
+    "url": "https://radio1.hr/",
+    "cros": false,
+    "stream": "https://azuracast.novi-net.net/radio/8020/radio1.aac",
+    "features": "/img/europe/croatia/jedan.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/jedan?time="
+  },
+  "studio-m": {
+    "title": "Radio Studio M",
+    "type": "audio/mpeg",
+    "url": "https://www.studiom.hr/",
+    "cros": false,
+    "stream": "https://azuracast.novi-net.net/radio/8040/studiom.aac",
+    "features": "/img/europe/croatia/studio-m.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/studio-m?time="
+  },
+  "hrvatski-zupanja": {
+    "title": "Hrvatski Radio Zupanja",
+    "type": "audio/mpeg",
+    "url": "https://radiozupanja.hr/",
+    "cros": true,
+    "stream": "http://161.97.103.135:8090/live",
+    "features": "/img/europe/croatia/hrvatski-zupanja.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/hrvatski-zupanja?time="
+  },
+  "borovo": {
+    "title": "Radio Borovo",
+    "type": "audio/mpeg",
+    "url": "https://radio-borovo.hr/",
+    "cros": false,
+    "stream": "https://audio.radio-banovina.hr/9018/stream/1/",
+    "features": "/img/europe/croatia/borovo.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/borovo?time="
+  },
+  "istra": {
+    "title": "Radio Istra",
+    "type": "audio/mpeg",
+    "url": "https://www.radioistra.hr/",
+    "cros": false,
+    "stream": "https://uk1.streamingpulse.com/ssl/RadioIstra",
+    "features": "/img/europe/croatia/istra.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/istra?time="
+  },
+  "student": {
+    "title": "Radio Student",
+    "type": "audio/mpeg",
+    "url": "http://www.radiostudent.hr/",
+    "cros": true,
+    "stream": "http://161.53.122.184:8000/AAC128.aac",
+    "features": "/img/europe/croatia/student.png"
+  },
+  "labin": {
+    "title": "Radio Labin",
+    "type": "audio/mpeg",
+    "url": "https://radiolabin.hr/",
+    "cros": true,
+    "stream": "http://radiolabin.streamradio.com.hr:9100/stream/1/",
+    "features": "/img/europe/croatia/labin.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/labin?time="
+  },
+  "slavonski": {
+    "title": "Slavonski Radio (Osijek)",
+    "type": "audio/mpeg",
+    "url": "https://www.slavonskiradio.hr/",
+    "cros": false,
+    "stream": "https://ec2s.crolive.com.hr:8035/stream",
+    "features": "/img/europe/croatia/slavonski.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/slavonski?time="
+  },
+  "dunav": {
+    "title": "Radio Dunav",
+    "type": "audio/mpeg",
+    "url": "https://radio-dunav.com/",
+    "cros": true,
+    "stream": "http://cp8.shoutcheap.com:8203/stream/1/",
+    "features": "/img/europe/croatia/dunav.png"
+  },
+  "gold": {
+    "title": "Gold",
+    "type": "audio/mpeg",
+    "url": "https://goldfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8068/stream/1/",
+    "features": "/img/europe/croatia/gold.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/gold?time="
+  },
+  "057": {
+    "title": "Radio 057",
+    "type": "audio/mpeg",
+    "url": "https://www.057info.hr/",
+    "cros": true,
+    "stream": "http://streaming.radio057.hr:8000/radio057",
+    "features": "/img/europe/croatia/057.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/057?time="
+  },
+  "gradski-trogir": {
+    "title": "Gradski Radio Trogir",
+    "type": "audio/mpeg",
+    "url": "https://trogirskiportal.hr/radio_trogir/",
+    "cros": true,
+    "stream": "http://144.76.39.214:6022/stream/1/",
+    "features": "/img/europe/croatia/gradski-trogir.png"
+  },
+  "brac": {
+    "title": "Radio Brač",
+    "type": "audio/mpeg",
+    "url": "https://www.radiobrac.com/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8066/stream/1/",
+    "features": "/img/europe/croatia/brac.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/brac?time="
+  },
+  "drava": {
+    "title": "Radio Drava",
+    "type": "audio/mpeg",
+    "url": "https://www.radio-drava.hr/",
+    "cros": false,
+    "stream": "https://streaming.radio-drava.hr/live",
+    "features": "/img/europe/croatia/drava.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/drava?time="
+  },
+  "m": {
+    "title": "Radio M",
+    "type": "audio/mpeg",
+    "url": "https://www.radio-m.hr/",
+    "cros": true,
+    "stream": "http://radiomvelaluka.ddns.net:8000/stream",
+    "features": "/img/europe/croatia/m.png"
+  },
+  "maestral": {
+    "title": "Radio Maestral",
+    "type": "audio/mpeg",
+    "url": "https://www.radio-maestral.hr/",
+    "cros": false,
+    "stream": "https://ec2s.crolive.com.hr:1635/stream",
+    "features": "/img/europe/croatia/maestral.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/maestral?time="
+  },
+  "city": {
+    "title": "Radio City",
+    "type": "audio/mpeg",
+    "url": "https://cityportal.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8058/stream/1/",
+    "features": "/img/europe/croatia/city.png"
+  },
+  "zapresic": {
+    "title": "Radio ZFM",
+    "type": "audio/mpeg",
+    "url": "https://zfm.hr/",
+    "cros": false,
+    "stream": "https://ec2s.crolive.com.hr:7015/stream",
+    "features": "/img/europe/croatia/zapresic.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/zapresic?time="
+  },
+  "ludbreg": {
+    "title": "Radio Ludbreg",
+    "type": "audio/mpeg",
+    "url": "https://www.radio-ludbreg.hr/",
+    "cros": false,
+    "stream": "https://a1.asurahosting.com:9670/stream/1/",
+    "features": "/img/europe/croatia/ludbreg.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/ludbreg?time="
+  },
+  "sibenik": {
+    "title": "Radio Sibenik",
+    "type": "audio/mpeg",
+    "url": "https://radiosibenik.hr/",
+    "cros": true,
+    "stream": "http://144.76.219.22:8215/stream/1/",
+    "features": "/img/europe/croatia/sibenik.png",
+    "schedule": "https://api.webrad.io/data/playlist/77/sibenik?time="
+  },
+  "extra-fm": {
+    "title": "Extra FM",
+    "description": "folk",
+    "type": "audio/aac",
+    "url": "https://extrafm.hr/",
+    "cros": true,
+    "stream": "http://streams.extrafm.hr:8110/;",
+    "features": "/img/europe/croatia/extra-fm.png",
+    "source": "radio-browser:02a0222a-f54f-11e8-a471-52543be04c81"
+  },
+  "radio-banovina": {
+    "title": "Radio Banovina",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "http://www.radio-banovina.hr/",
+    "cros": true,
+    "stream": "http://stream1.radio-banovina.hr:8008/;",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96058859-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-dalmacija": {
+    "title": "Radio Dalmacija",
+    "description": "dalmatia, hits, pop, regional, split",
+    "type": "audio/aac",
+    "url": "https://www.radiodalmacija.hr/",
+    "cros": true,
+    "stream": "http://shoutcast.pondi.hr:8000/;",
+    "features": "/img/europe/croatia/radio-dalmacija.png",
+    "source": "radio-browser:0be05318-b6ad-11e8-aaf2-52543be04c81"
+  },
+  "radio-deejay-hr": {
+    "title": "Radio Deejay HR",
+    "description": "dance, electronica, pop",
+    "type": "audio/mpeg",
+    "url": "http://www.deejay.hr/",
+    "cros": true,
+    "stream": "http://live.deejay.hr:7002/;",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:962b1125-0601-11e8-ae97-52543be04c81"
+  },
+  "antena-zagreb-uzivo": {
+    "title": "Antena Zagreb Uživo",
+    "type": "audio/mpeg",
+    "url": "http://www.antenazagreb.hr/",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8002/;",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961fce21-0601-11e8-ae97-52543be04c81"
+  },
+  "otvoreni-radio-uzivo": {
+    "title": "Otvoreni radio - Uživo",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "http://www.otvoreni.hr/",
+    "cros": true,
+    "stream": "http://stream.otvoreni.hr/otvoreni",
+    "features": "/img/europe/croatia/otvoreni-radio-uzivo.png",
+    "source": "radio-browser:909693aa-3a65-4067-be27-7767626df624"
+  },
+  "otvoreni-radio": {
+    "title": "Otvoreni Radio",
+    "description": "croatian, easy listening, news, pop, rock",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": false,
+    "stream": "https://stream.otvoreni.hr/otvoreni",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:51501335-c294-4084-97d6-6ee4e8441c0d"
+  },
+  "hrt-hr-1-prvi-program": {
+    "title": "HRT HR 1 - Prvi program",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/prvi-program/",
+    "cros": true,
+    "stream": "http://25693.live.streamtheworld.com/PROGRAM1AAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961d713c-0601-11e8-ae97-52543be04c81"
+  },
+  "top-radio": {
+    "title": "Top Radio",
+    "type": "audio/aac",
+    "url": "https://topradio.hr/",
+    "cros": false,
+    "stream": "https://c5.hostingcentar.com/streams/topradio/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:82214351-bd2f-4826-9b4c-c8bc5459c789"
+  },
+  "yammat-fm": {
+    "title": "Yammat FM",
+    "type": "audio/aac",
+    "url": "https://www.yammat.fm/",
+    "cros": false,
+    "stream": "https://stream.yammat.fm/radio/8000/yammat.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ac78d4f5-ac2b-4d9e-8f33-2187a41fb539"
+  },
+  "hrt-hr-2-drugi-program": {
+    "title": "HRT HR 2 - Drugi program",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/drugi-program/",
+    "cros": true,
+    "stream": "http://22733.live.streamtheworld.com:3690/PROGRAM2AAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961d7b4f-0601-11e8-ae97-52543be04c81"
+  },
+  "bravo-instant-audio": {
+    "title": "Bravo",
+    "description": "croatian, international",
+    "type": "audio/aac",
+    "url": "https://br.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8059/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:fa82f10f-1711-43da-a3d8-71a40ec36a62"
+  },
+  "enter-zagreb": {
+    "title": "ENTER Zagreb",
+    "description": "zagreb",
+    "type": "audio/aac",
+    "url": "http://www.prvi.hr/enter",
+    "cros": true,
+    "stream": "http://live.enterzagreb.hr:8023/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961bc258-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-kaj": {
+    "title": "Radio Kaj",
+    "description": "pop, regional",
+    "type": "audio/aac",
+    "url": "http://www.radio-kaj.hr/",
+    "cros": false,
+    "stream": "https://s8.iqstreaming.com:2020/stream/radio-kaj2/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:38b81da5-2a3b-43c0-b444-ee0f7ad1c18d"
+  },
+  "antena-zagreb-rock": {
+    "title": "Antena Zagreb Rock",
+    "description": "classic rock, zagreb",
+    "type": "audio/aac",
+    "url": "http://www.prvi.hr/images/Antena/Logos/AntenaZagreb-Logo.png",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8019/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9626f5b0-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-stubica": {
+    "title": "Radio stubica",
+    "description": "folklore, pop music",
+    "type": "audio/aac",
+    "url": "https://radio-stubica.hr/",
+    "cros": true,
+    "stream": "http://radiostubica.hc.hr:7006/stream",
+    "features": "/img/europe/croatia/radio-stubica.png",
+    "source": "radio-browser:d0ee079a-b106-4e37-98db-b9fb03f141f9"
+  },
+  "jr-radio": {
+    "title": "JR Radio",
+    "description": "blues rock, heavy metal, pop rock, punk, rock",
+    "type": "audio/aac",
+    "url": "https://justrock.webador.com/",
+    "cros": true,
+    "stream": "http://stream.zeno.fm/pdkt234k698uv.mp3",
+    "features": "/img/europe/croatia/jr-radio.webp",
+    "source": "radio-browser:01c95dd5-7c23-43d2-be3e-6ae88a49dc26"
+  },
+  "radio101": {
+    "title": "Radio101",
+    "description": "local news, news, pop, pop rock, rock",
+    "type": "audio/mpeg",
+    "url": "http://radio101.hr/",
+    "cros": true,
+    "stream": "http://live.radio101.hr:9531/",
+    "features": "/img/europe/croatia/radio101.png",
+    "source": "radio-browser:3a395b1d-cffb-11e9-a861-52543be04c81"
+  },
+  "radio-sunce": {
+    "title": "Radio Sunce",
+    "description": "helth, world music",
+    "type": "audio/aac",
+    "url": "http://www.uzivoradio.com/sunce-split.html",
+    "cros": true,
+    "stream": "http://shoutcast.pondi.hr:8002/;*.mp3",
+    "features": "/img/europe/croatia/radio-sunce.gif",
+    "source": "radio-browser:963f2771-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-dalmacija-oliver": {
+    "title": "Radio Dalmacija - Oliver",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "https://www.radiodalmacija.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8275/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:2dcb60cb-87a8-4640-819a-5a0c1c6e5022"
+  },
+  "hrt-radio-sljeme": {
+    "title": "HRT Radio Sljeme",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-sljeme/",
+    "cros": true,
+    "stream": "http://25603.live.streamtheworld.com/SLJEMEAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961e9c8c-0601-11e8-ae97-52543be04c81"
+  },
+  "club-music-radio-70s-80s-90s": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: 70s 80s 90s ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8030/stream?type=http&nocache=773949",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:e1c36a3b-608a-4141-a03b-53edb7d6ba5d"
+  },
+  "radio-tvornica": {
+    "title": "Radio Tvornica",
+    "type": "audio/mpeg",
+    "url": "https://www.radiotvornica.hr/#",
+    "cros": false,
+    "stream": "https://c8.hostingcentar.com/streams/radiotvornica?type=http&nocache=50001",
+    "features": "/img/europe/croatia/radio-tvornica.png",
+    "source": "radio-browser:960125a3-5b14-4dfc-970f-0a508dbd618d"
+  },
+  "bravo-kids": {
+    "title": "bravo! kids",
+    "type": "audio/mpeg",
+    "url": "https://br.hr/",
+    "cros": false,
+    "stream": "https://audio.social3.hr/listen/bravo_kids/stream?3367",
+    "features": "/img/europe/croatia/bravo-kids.png",
+    "source": "radio-browser:e6a69e26-8320-404d-be82-d819ae50d64c"
+  },
+  "cmc-jugoton": {
+    "title": "CMC Jugoton",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8020/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:98cbe29c-83cc-4091-bc0f-52a39dcbc58c"
+  },
+  "naxi-house": {
+    "title": "Naxi House",
+    "type": "audio/mpeg",
+    "url": "https://www.naxi.rs/house",
+    "cros": true,
+    "stream": "http://naxidigital-house128.streaming.rs:8000/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:fb766cf5-cabe-4247-917b-b438f4c1b38a"
+  },
+  "radio-101": {
+    "title": "Radio 101",
+    "type": "audio/mpeg",
+    "url": "http://radio101.hr/",
+    "cros": true,
+    "stream": "http://live.radio101.hr:9531/stream.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8bdd8045-6ddf-4481-8fc0-7c68c68c71b7"
+  },
+  "hrt-hr-1-prvi-program-964939e3": {
+    "title": "HRT HR 1 - Prvi program",
+    "type": "audio/mpeg",
+    "url": "http://radio.hrt.hr/stream/6/",
+    "cros": true,
+    "stream": "http://25643.live.streamtheworld.com/PROGRAM1_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:964939e3-0601-11e8-ae97-52543be04c81"
+  },
+  "bravo-2b9512c9": {
+    "title": "bravo!",
+    "type": "audio/aac",
+    "url": "https://br.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8059/stream?4960",
+    "features": "/img/europe/croatia/bravo-2b9512c9.png",
+    "source": "radio-browser:2b9512c9-375c-46ab-b28f-ef7c83c69ea3"
+  },
+  "happy-fm-live": {
+    "title": "Happy FM - Live",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:9543/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1e6093d5-af5e-4502-813e-0fe5dc21c60d"
+  },
+  "happy-fm-party": {
+    "title": "Happy FM Party",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8390/stream?4606",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:19786bf9-022e-4c65-8d63-a09249a80925"
+  },
+  "radio-brac": {
+    "title": "Radio Brac",
+    "type": "audio/mpeg",
+    "url": "http://www.radio-brac.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8066/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f7a3de33-d88b-11e9-a861-52543be04c81"
+  },
+  "hrt-radio-rijeka": {
+    "title": "HRT Radio Rijeka",
+    "description": "hrt, public radio, rijeka",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-rijeka/",
+    "cros": true,
+    "stream": "http://23613.live.streamtheworld.com/RIJEKAAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961d03f2-0601-11e8-ae97-52543be04c81"
+  },
+  "hrt-hr-3-treci-program": {
+    "title": "HRT HR 3 - Treći program",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/treci-program/",
+    "cros": true,
+    "stream": "http://25503.live.streamtheworld.com:3690/PROGRAM3AAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961bd30f-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-techno-dance-kneginec": {
+    "title": "Radio Techno Dance Kneginec",
+    "description": "electronic",
+    "type": "audio/mpeg",
+    "url": "https://radios.hr",
+    "cros": true,
+    "stream": "http://stream.zeno.fm/8d2pyzm5wp8uv",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:55e5a025-8c6e-41ba-9397-b564f71f1b4b"
+  },
+  "novi-radio-zadar": {
+    "title": "Novi Radio Zadar",
+    "description": "hits, news, oldies, pop, rock",
+    "type": "audio/mpeg",
+    "url": "http://www.noviradio.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8022/stream",
+    "features": "/img/europe/croatia/novi-radio-zadar.png",
+    "source": "radio-browser:5cf3d24c-1b1f-11e8-a334-52543be04c81"
+  },
+  "cmc-dalmatina": {
+    "title": "CMC Dalmatina",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8040/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8c029f66-570d-45aa-ad39-447f7fb9b623"
+  },
+  "zagorski-radio": {
+    "title": "Zagorski radio",
+    "description": "folk, news, pop, regional",
+    "type": "audio/aac",
+    "url": "http://www.zagorski-radio.hr/",
+    "cros": false,
+    "stream": "https://s8.iqstreaming.com:2020/stream/zagorski/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6e5f90fa-a898-4f20-8f97-74843e988e33"
+  },
+  "online-radio-kneginec": {
+    "title": "Online Radio Kneginec",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "http://stream.zeno.fm/yetzdv442k8uv",
+    "cros": true,
+    "stream": "http://stream.zeno.fm/yetzdv442k8uv",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8e9af197-9772-49ae-a288-9bbc420827b5"
+  },
+  "hrt-radio-split": {
+    "title": "HRT Radio Split",
+    "description": "hrt, public radio, split",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-split/",
+    "cros": true,
+    "stream": "http://25643.live.streamtheworld.com:3690/SPLITAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:960e8b7b-0601-11e8-ae97-52543be04c81"
+  },
+  "antena-zagreb-hit": {
+    "title": "Antena Zagreb Hit",
+    "type": "audio/aac",
+    "url": "http://www.prvi.hr/antenazagreb",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8011/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9625ab4e-0601-11e8-ae97-52543be04c81"
+  },
+  "otvoreni-radio-fitness": {
+    "title": "Otvoreni Radio - Fitness",
+    "description": "fitness",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": false,
+    "stream": "https://stream.otvoreni.hr/fitness",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:d2f49a4a-54e3-4059-8f5c-2120962ae81e"
+  },
+  "radio-slavonija": {
+    "title": "Radio Slavonija",
+    "description": "local news, pop rock",
+    "type": "audio/mpeg",
+    "url": "http://www.radioslavonija.hr/trenutno-svira/Livestream2017.php",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8026/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:08edf6a5-e15a-11e8-a9cc-52543be04c81"
+  },
+  "hrt-radio-pula": {
+    "title": "HRT Radio Pula",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-pula/",
+    "cros": true,
+    "stream": "http://22733.live.streamtheworld.com:3690/PULAAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961f670f-0601-11e8-ae97-52543be04c81"
+  },
+  "gold-fm": {
+    "title": "Gold FM",
+    "description": "oldies",
+    "type": "audio/aac",
+    "url": "http://www.goldfm.hr/",
+    "cros": true,
+    "stream": "http://live.goldfm.hr:8068/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:a9254884-ff90-11e8-a1be-52543be04c81"
+  },
+  "otvoreni-radio-hot": {
+    "title": "Otvoreni Radio - Hot",
+    "description": "hits, hot hits",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": false,
+    "stream": "https://stream.otvoreni.hr/hot",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9a3bf13b-21b2-44ef-bd31-ccd371b80036"
+  },
+  "narodni-ne-pitaj-samo-sviraj": {
+    "title": "Narodni - Ne pitaj, samo sviraj!",
+    "type": "audio/aac",
+    "url": "https://narodni.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8348/;",
+    "features": "/img/europe/croatia/narodni-ne-pitaj-samo-sviraj.png",
+    "source": "radio-browser:503a6fa2-6aba-48c7-af7d-467303752dae"
+  },
+  "club-music-radio-exyu-pop-rock": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: ExYU POP-ROCK ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8080/stream?type=http&nocache=13098",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c2b49b9a-fb86-4848-9099-da0ba934b3de"
+  },
+  "cmc-tambure": {
+    "title": "CMC Tambure",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8050/autodj",
+    "features": "/img/europe/croatia/cmc-tambure.png",
+    "source": "radio-browser:fcc0a6f8-f4e3-4f13-98d5-9dee9d04d49e"
+  },
+  "banovina-turbo": {
+    "title": "Banovina Turbo",
+    "type": "audio/mpeg",
+    "url": "https://www.radio-banovina.hr/bozic",
+    "cros": false,
+    "stream": "https://audio.radio-banovina.hr:7010/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:16b39855-7723-4bec-b2cb-c439ea3f90af"
+  },
+  "happy-fm-klape": {
+    "title": "Happy FM - Klape",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8384/",
+    "features": "/img/europe/croatia/happy-fm-klape.png",
+    "source": "radio-browser:e001600c-c851-434c-bbb3-e07c34165a23"
+  },
+  "radio-marija": {
+    "title": "Radio Marija",
+    "description": "catholic",
+    "type": "audio/aac",
+    "url": "http://www.radiomarija.hr/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp4.com:8080/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96104374-0601-11e8-ae97-52543be04c81"
+  },
+  "cmc-zabavni": {
+    "title": "CMC Zabavni",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8085/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f804fb11-fa49-4b3a-ac21-edc6bde02065"
+  },
+  "antena-zagreb-live": {
+    "title": "Antena Zagreb - Live",
+    "description": "croatian, pop, rock",
+    "type": "audio/aac",
+    "url": "https://www.antenazagreb.hr/",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8000/;",
+    "features": "/img/europe/croatia/antena-zagreb-live.webp",
+    "source": "radio-browser:a0a53101-7ce3-4a69-aa5c-cac3cef968cd"
+  },
+  "cmc-kids": {
+    "title": "CMC Kids",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8090/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:28191f86-dda1-4598-a8c3-902fba32be72"
+  },
+  "happy-fm": {
+    "title": "Happy FM",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:9543/stream?4923",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:023be5bc-f3fd-43c0-b25d-4f94a7567454"
+  },
+  "cmc-rock": {
+    "title": "CMC Rock",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8060/autodj",
+    "features": "/img/europe/croatia/cmc-rock.png",
+    "source": "radio-browser:6ccd8884-92ce-4a3f-84c5-498820f7806f"
+  },
+  "ultra-split": {
+    "title": "Ultra Split",
+    "type": "audio/aac",
+    "url": "https://ultrasplit.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8061/;stream/1",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c3c19c7c-1377-4045-91b5-13c6fc3fc5c7"
+  },
+  "radio-zlatar": {
+    "title": "Radio Zlatar",
+    "type": "audio/aac",
+    "url": "https://www.radio-zlatar.hr/",
+    "cros": true,
+    "stream": "http://144.76.172.23:7059/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96236b8d-0601-11e8-ae97-52543be04c81"
+  },
+  "otvoreni-radio-chill": {
+    "title": "Otvoreni Radio - Chill",
+    "description": "chill, chillout",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": false,
+    "stream": "https://stream.otvoreni.hr/chill",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f4737266-8a7b-42c2-98de-78a30a72457e"
+  },
+  "top-radio-0b5c1211": {
+    "title": "Top Radio",
+    "description": "classic hits, classic rock, news talk, rock",
+    "type": "audio/aac",
+    "url": "https://topradio.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8000/streams/topradio/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:0b5c1211-b55d-4b3f-91ec-2abb365d8767"
+  },
+  "narodni-uzivo": {
+    "title": "Narodni - Uživo",
+    "description": "hits",
+    "type": "audio/aac",
+    "url": "https://narodni.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8059/;",
+    "features": "/img/europe/croatia/narodni-uzivo.png",
+    "source": "radio-browser:baceda46-01d3-485e-8026-cbbc3c4687b2"
+  },
+  "folk-radio-kneginec": {
+    "title": "Folk Radio Kneginec",
+    "type": "audio/mpeg",
+    "url": "https://www.facebook.com/groups/2984818395119540",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/yetzdv442k8uv",
+    "features": "/img/europe/croatia/folk-radio-kneginec.png",
+    "source": "radio-browser:94ec1212-bbd5-45fe-ae26-3f107c5c18c0"
+  },
+  "folkyton-radio": {
+    "title": "FolkyTon Radio",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://www.folkyton.com/",
+    "cros": false,
+    "stream": "https://ec2s.crolive.com.hr:6035/stream",
+    "features": "/img/europe/croatia/folkyton-radio.png",
+    "source": "radio-browser:761a166b-0350-48f0-a503-edb1a227233f"
+  },
+  "radio-maria-croatia": {
+    "title": "RADIO MARIA CROATIA",
+    "description": "catholic, catolica, christian, katholik, katoliška",
+    "type": "audio/aac",
+    "url": "http://www.radiomarija.hr/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp4.com:8080/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:99a57835-5f8b-11e9-a622-52543be04c81"
+  },
+  "otvoreni-radio-fitness-37305389": {
+    "title": "Otvoreni Radio Fitness",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": true,
+    "stream": "http://stream.otvoreni.hr/fitness",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:37305389-aca5-4988-88d6-eac424f0ef52"
+  },
+  "antena-zagreb-dance": {
+    "title": "Antena Zagreb Dance",
+    "type": "audio/aac",
+    "url": "http://www.prvi.hr/antenazagreb",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8015/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9626d18e-0601-11e8-ae97-52543be04c81"
+  },
+  "hrt-radio-dubrovnik": {
+    "title": "HRT Radio Dubrovnik",
+    "description": "dubrovnik, hrt, public radio",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-dubrovnik/",
+    "cros": true,
+    "stream": "http://27783.live.streamtheworld.com:3690/DUBROVNIKAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961d3c6b-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-sova": {
+    "title": "Radio Sova",
+    "description": "hits, news, sport",
+    "type": "audio/mpeg",
+    "url": "https://kisobran.uniri.hr/radio-sova",
+    "cros": true,
+    "stream": "http://evcast.mediacp.eu:1960/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:07d9f25e-b643-459b-a816-65b788628f96"
+  },
+  "cmc-lagano": {
+    "title": "CMC Lagano",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8030/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:d1d1bb28-585a-4217-8f69-810aaa51294a"
+  },
+  "club-music-radio-love-song": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: LOVE SONG ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8040/stream?type=http&nocache=869535",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:bdb99c18-e77f-4d6a-8a64-e2e121d2527c"
+  },
+  "radio-kaj-cb31301a": {
+    "title": "Radio Kaj",
+    "type": "audio/aac",
+    "url": "https://kaj.hr/",
+    "cros": true,
+    "stream": "http://s8.iqstreaming.com:8050/stream",
+    "features": "/img/europe/croatia/radio-kaj-cb31301a.png",
+    "source": "radio-browser:cb31301a-6e75-4d70-8139-e495cdeaaea2"
+  },
+  "otvoreni-fitness": {
+    "title": "Otvoreni Fitness",
+    "type": "audio/aac",
+    "url": "https://www.otvoreni.hr/",
+    "cros": true,
+    "stream": "http://stream2.otvoreni.hr/fitness",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:287714a6-50e4-41f9-b001-644eafa378fb"
+  },
+  "club-music-radio-cro-hits": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: CRO HITS ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8060/stream?type=http&nocache=823456",
+    "features": "/img/europe/croatia/club-music-radio-cro-hits.png",
+    "source": "radio-browser:2cd4de45-a896-47a4-9443-7553405c353b"
+  },
+  "radio-istra": {
+    "title": "Radio Istra",
+    "type": "audio/aac",
+    "url": "https://www.radioistra.hr/",
+    "cros": true,
+    "stream": "http://uk1.streamingpulse.com:7117/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b233072c-f994-403f-84ff-11cc258b2f19"
+  },
+  "radio-101-rock": {
+    "title": "Radio 101 Rock",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "https://radio101.hr/",
+    "cros": false,
+    "stream": "https://live.radio101.hr:8010/",
+    "features": "/img/europe/croatia/radio-101-rock.png",
+    "source": "radio-browser:2efbb8fa-330c-403b-aa71-90f64fe175ec"
+  },
+  "club-music-radio-folk": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: Folk ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8010/stream?type=http&nocache=401572",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:cce535eb-a691-43a2-8e0f-094b6dad73b8"
+  },
+  "radio-marija-hrvatska": {
+    "title": "Radio Marija Hrvatska",
+    "description": "catholic, christian",
+    "type": "audio/aac",
+    "url": "https://www.radiomarija.hr/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmcroatia?mp=/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:0d387023-d6cf-4478-9566-c166f4d3a29d"
+  },
+  "top-rock": {
+    "title": "TOP ROCK",
+    "type": "audio/aac",
+    "url": "http://streaming.topradio.hr/top-rock/",
+    "cros": true,
+    "stream": "http://116.202.235.114:8408/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1e945232-2289-4e1b-9e31-79f21ec3d466"
+  },
+  "klfm-org": {
+    "title": "KLFM.org",
+    "type": "audio/mpeg",
+    "url": "https://klfm.org/",
+    "cros": false,
+    "stream": "https://klfmorgborg.radioca.st/stream?type=http&nocache=1089",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:72b0ac2f-7ca0-4499-9935-42f8e9a9e699"
+  },
+  "radio-rojc": {
+    "title": "Radio Rojc",
+    "description": "community radio, cultural",
+    "type": "audio/aac",
+    "url": "https://radio.rojc.eu/",
+    "cros": false,
+    "stream": "https://cf.widecastcdn.live/Z07ww1NUNl/live.m3u8",
+    "features": "/img/europe/croatia/radio-rojc.webp",
+    "source": "radio-browser:261be74b-ec3c-4327-bba1-01ac505d556e"
+  },
+  "bravo-balade": {
+    "title": "bravo! balade",
+    "type": "audio/aac",
+    "url": "https://br.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8360/stream?1510",
+    "features": "/img/europe/croatia/bravo-balade.png",
+    "source": "radio-browser:92248da8-2e1d-438a-8c95-dc59c3f23ebe"
+  },
+  "ultra-split-72c20df5": {
+    "title": "ULTRA Split",
+    "description": "split, ultra stacion",
+    "type": "audio/aac",
+    "url": "http://ultrafm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8061/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:72c20df5-257c-11e9-a80b-52543be04c81"
+  },
+  "cmc-festival": {
+    "title": "CMC Festival",
+    "type": "audio/mpeg",
+    "url": "https://radio.cmc.com.hr/",
+    "cros": true,
+    "stream": "http://radio-stream.cmc.com.hr:8070/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1ed11948-1b47-4109-8b0e-77cc66eff280"
+  },
+  "hrvatski-katolicki-radio": {
+    "title": "Hrvatski Katolički Radio",
+    "description": "chatolic, christian, croatia, hkr, katolički",
+    "type": "audio/mpeg",
+    "url": "https://hkr.hkm.hr/",
+    "cros": false,
+    "stream": "https://stream.hkr.hr/hkr.mp3",
+    "features": "/img/europe/croatia/hrvatski-katolicki-radio.jpg",
+    "source": "radio-browser:5d429726-08ac-4785-8e12-292054d1d6cc"
+  },
+  "radio-808": {
+    "title": "Radio 808",
+    "type": "audio/mpeg",
+    "url": "https://radio808.com/",
+    "cros": true,
+    "stream": "http://stream.radio808.info:8003/",
+    "features": "/img/europe/croatia/radio-808.png",
+    "source": "radio-browser:d5eee22a-6fc0-11e8-83fa-52543be04c81"
+  },
+  "antena-zagreb-xmas": {
+    "title": "Antena Zagreb - Xmas",
+    "description": "christmas music, xmas",
+    "type": "audio/aac",
+    "url": "http://www.antenazagreb.hr/",
+    "cros": true,
+    "stream": "http://live.antenazagreb.hr:8015/;",
+    "features": "/img/europe/croatia/antena-zagreb-xmas.png",
+    "source": "radio-browser:87cbef7f-cf3b-430a-8ee5-1b2223468bfa"
+  },
+  "radio-dalmacija-furesta": {
+    "title": "Radio Dalmacija - Furešta",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "https://www.radiodalmacija.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8215/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:93173a0b-ae4c-48e9-ad92-bef4c8fc4151"
+  },
+  "hrt-radio-zadar": {
+    "title": "HRT Radio Zadar",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-zadar/",
+    "cros": true,
+    "stream": "http://28563.live.streamtheworld.com:3690/ZADARAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961e8d4e-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-dalmacija-rokija": {
+    "title": "Radio Dalmacija - Rokija",
+    "description": "pop",
+    "type": "audio/aac",
+    "url": "https://www.radiodalmacija.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8209/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f5667d3d-8ef3-4004-b658-2e6eb127f28f"
+  },
+  "happy-fm-fest": {
+    "title": "Happy FM Fest",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8372/stream?4956",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:3b40f3ef-4b79-481f-832e-7ce2cb274317"
+  },
+  "top-radio-pop": {
+    "title": "Top Radio Pop",
+    "type": "audio/mpeg",
+    "url": "https://topradio.hr/",
+    "cros": false,
+    "stream": "https://audio.social3.hr/listen/top_radio_pop/stream?5483",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f1d937f5-70be-45c0-bd26-bf512a705f7f"
+  },
+  "club-music-radio-tambura": {
+    "title": "..:: CLUB MUSIC RADIO ::....:: TAMBURA ::..",
+    "type": "audio/mpeg",
+    "url": "https://clubmusic-1.com/",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8070/stream?type=http&nocache=646624",
+    "features": "/img/europe/croatia/club-music-radio-tambura.png",
+    "source": "radio-browser:398e354d-303a-421a-953e-4e0a415b17ae"
+  },
+  "happy-fm-party-707f6233": {
+    "title": "Happy FM - Party",
+    "type": "audio/aac",
+    "url": "https://happyfm.hr/",
+    "cros": true,
+    "stream": "http://c5.hostingcentar.com:8390/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:707f6233-7b09-4059-9b2f-453502c3761d"
+  },
+  "hrt-radio-osijek": {
+    "title": "HRT Radio Osijek",
+    "type": "audio/aac",
+    "url": "http://radio.hrt.hr/radio-osijek/",
+    "cros": true,
+    "stream": "http://28033.live.streamtheworld.com/OSIJEKAAC_SC",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961da4c8-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-dj-grga": {
+    "title": "Radio DJ Grga",
+    "type": "audio/mpeg",
+    "url": "http://www.omiljeniradio.com/index.php/radio-uzivo-online-hrvatska/927-radio-dj-grga-radio-split-uzivo-online.html",
+    "cros": true,
+    "stream": "http://cmr-hosting.com:8430/stream?type=http&nocache=343",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:e099c756-d6e5-4970-8277-d0071f6e65d7"
+  }
+}

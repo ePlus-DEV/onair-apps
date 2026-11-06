@@ -1,0 +1,407 @@
+{
+    "cbs-buganda-fm": {
+        "title": "Radio CBS Ey'Obujjajja",
+        "type": "audio/mpeg",
+        "url": "https://cbsfm.ug/",
+        "cros": false,
+        "stream": "https://s5.voscast.com:9909/EYOBUJJAJJA",
+        "features": "/img/africa/uganda/cbs-buganda-fm.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/132/cbs-buganda-fm?time="
+    },
+    "cbs-buganda": {
+        "title": "Radio CBS Emmanduso",
+        "type": "audio/mpeg",
+        "url": "https://cbsfm.ug/",
+        "cros": false,
+        "stream": "https://s5.voscast.com:9905/EMMANDUSO",
+        "features": "/img/africa/uganda/cbs-buganda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/cbs-buganda?time="
+    },
+    "akaboozi-fm": {
+        "title": "Akaboozi",
+        "type": "audio/mpeg",
+        "url": "https://akaboozi.com/",
+        "cros": true,
+        "stream": "http://162.244.80.52:8732/stream/1/",
+        "features": "/img/africa/uganda/akaboozi-fm.png",
+        "favorite": false
+    },
+    "capital": {
+        "title": "91.3 Capital FM",
+        "type": "audio/mpeg",
+        "url": "https://capitalradio.co.ug/",
+        "cros": false,
+        "stream": "https://capitalfm.cloudrad.io/stream/1/",
+        "features": "/img/africa/uganda/capital.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/capital?time="
+    },
+    "100-2-galaxy-fm": {
+        "title": "Galaxy",
+        "type": "audio/mpeg",
+        "url": "https://www.galaxyfm.co.ug",
+        "cros": false,
+        "stream": "https://stream.radio.co/s1ef6287cc/listen",
+        "features": "/img/africa/uganda/100-2-galaxy-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/100-2-galaxy-fm?time="
+    },
+    "91-9-prime-uganda": {
+        "title": "91.9 Prime Radio",
+        "type": "audio/mpeg",
+        "url": "https://primeradio.ug/",
+        "cros": false,
+        "stream": "https://media2.streambrothers.com:8072/stream",
+        "features": "/img/africa/uganda/91-9-prime-uganda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/91-9-prime-uganda?time="
+    },
+    "simba": {
+        "title": "Radio Simba",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosimba.ug/",
+        "cros": false,
+        "stream": "https://www.radiosimba.ug:8000/stream",
+        "features": "/img/africa/uganda/simba.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/simba?time="
+    },
+    "radiocity": {
+        "title": "Radiocity",
+        "type": "audio/mpeg",
+        "url": "https://radiocity.ug/",
+        "cros": false,
+        "stream": "https://cast.gossdhosting.com/proxy/richard/stream",
+        "features": "/img/africa/uganda/radiocity.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/radiocity?time="
+    },
+    "kfm": {
+        "title": "KFM",
+        "type": "audio/mpeg",
+        "url": "https://www.kfm.co.ug/",
+        "cros": true,
+        "stream": "http://radio.kfm.co.ug:8000/stream",
+        "features": "/img/africa/uganda/kfm.png",
+        "favorite": false
+    },
+    "xfm": {
+        "title": "XFM",
+        "type": "audio/mpeg",
+        "url": "https://www.xfm.co.ug/",
+        "cros": false,
+        "stream": "https://stream.hydeinnovations.com:2020/stream/xfm/stream/1/",
+        "features": "/img/africa/uganda/xfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/xfm?time="
+    },
+    "impact-fm-kampala-uganda": {
+        "title": "Impact FM (Kampala Uganda)",
+        "type": "application/x-mpegURL",
+        "url": "http://imc.ug/",
+        "cros": true,
+        "stream": "http://streamfi-impactfm1.zettawiseroutes.com:8080/hls/stream_src.m3u8",
+        "features": "/img/africa/uganda/impact-fm-kampala-uganda.png",
+        "favorite": false
+    },
+    "arua-one-fm": {
+        "title": "Arua One FM",
+        "type": "audio/mpeg",
+        "url": "https://www.newvision.co.ug/",
+        "cros": false,
+        "stream": "https://stream.hydeinnovations.com:2020/stream/aruaone/stream/1/",
+        "features": "/img/africa/uganda/arua-one-fm.png",
+        "favorite": false
+    },
+    "bukedde-fm-100-5": {
+        "title": "Bukedde",
+        "type": "audio/mpeg",
+        "url": "https://www.bukedde.co.ug/",
+        "cros": false,
+        "stream": "https://stream.hydeinnovations.com:2020/stream/bukeddefm/stream/1/",
+        "features": "/img/africa/uganda/bukedde-fm-100-5.png",
+        "favorite": false
+    },
+    "beat": {
+        "title": "Beat FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://5230.cloudrad.io:8354/stream/1/",
+        "features": "/img/africa/uganda/beat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/beat?time="
+    },
+    "power-fm": {
+        "title": "Power FM",
+        "type": "audio/mpeg",
+        "url": "https://www.powerfm.co.ug/",
+        "cros": true,
+        "stream": "http://87.98.219.178:8452/stream/1/",
+        "features": "/img/africa/uganda/power-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/power-fm?time="
+    },
+    "sapientia": {
+        "title": "Radio Sapientia",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosapientia.com/",
+        "cros": true,
+        "stream": "http://streaming.radiosapientia.com:6300/sapientia",
+        "features": "/img/africa/uganda/sapientia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/sapientia?time="
+    },
+    "maria-101-8": {
+        "title": "Radio Maria",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.ug/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp2.com/proxy/rmuganda2?mp=/stream/1/",
+        "features": "/img/africa/uganda/maria-101-8.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/maria-101-8?time="
+    },
+    "pacis": {
+        "title": "Radio Pacis (Arua)",
+        "type": "audio/mpeg",
+        "url": "http://www.radiopacis.org/",
+        "cros": false,
+        "stream": "https://radiopacisuganda.radioca.st/stream/1/",
+        "features": "/img/africa/uganda/pacis.png",
+        "favorite": false
+    },
+    "spirit": {
+        "title": "Spirit",
+        "type": "audio/mpeg",
+        "url": "https://spiritfm.co.ug/",
+        "cros": true,
+        "stream": "http://194.163.149.74:8001/stream",
+        "features": "/img/africa/uganda/spirit.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/spirit?time="
+    },
+    "connect-kampala": {
+        "title": "Connect Uganda Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.connectuganda.com/",
+        "cros": false,
+        "stream": "https://player.connectuganda.com:8000/connect.mp3",
+        "features": "/img/africa/uganda/connect-kampala.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/connect-kampala?time="
+    },
+    "rupiny": {
+        "title": "Radio Rupiny",
+        "type": "audio/mpeg",
+        "url": "https://www.newvision.co.ug/",
+        "cros": false,
+        "stream": "https://stream.hydeinnovations.com:2020/stream/rupiny/stream",
+        "features": "/img/africa/uganda/rupiny.png",
+        "favorite": false
+    },
+    "one": {
+        "title": "Radio One",
+        "type": "audio/mpeg",
+        "url": "https://radioonefm90.com/",
+        "cros": false,
+        "stream": "https://radioone.loftuganda.tech/stream",
+        "features": "/img/africa/uganda/one.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/one?time="
+    },
+    "91-2-crooze-fm": {
+        "title": "91.2 Crooze FM",
+        "type": "audio/mpeg",
+        "url": "https://croozefm.com/",
+        "cros": true,
+        "stream": "http://mp.techsysug.com:21563/stream/1/",
+        "features": "/img/africa/uganda/91-2-crooze-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/91-2-crooze-fm?time="
+    },
+    "kwemala": {
+        "title": "Kwemala Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.kwemalafm.com/",
+        "cros": true,
+        "stream": "http://www.streamcontrol.net:10010/stream/1/",
+        "features": "/img/africa/uganda/kwemala.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/kwemala?time="
+    },
+    "sanyu": {
+        "title": "Sanyu FM",
+        "type": "audio/mpeg",
+        "url": "https://sanyufm.com/",
+        "cros": false,
+        "stream": "https://s44.myradiostream.com:8138/stream/1/",
+        "features": "/img/africa/uganda/sanyu.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/sanyu?time="
+    },
+    "yofochm": {
+        "title": "Yofochm Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://c13.radioboss.fm:18053/stream",
+        "features": "/img/africa/uganda/yofochm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/yofochm?time="
+    },
+    "mega": {
+        "title": "Mega FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://s31.myradiostream.com:9022/stream",
+        "features": "/img/africa/uganda/mega.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/mega?time="
+    },
+    "voice-of-teso": {
+        "title": "Voice of Teso Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://206.221.188.122:7241/stream/1/",
+        "features": "/img/africa/uganda/voice-of-teso.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/voice-of-teso?time="
+    },
+    "dembe-fm": {
+        "title": "Dembe FM",
+        "type": "audio/mpeg",
+        "url": "https://www.dembefm.ug/",
+        "cros": true,
+        "stream": "http://radio.dembefm.ug:8000/stream",
+        "features": "/img/africa/uganda/dembe-fm.png",
+        "favorite": false
+    },
+    "pearl-107-9": {
+        "title": "Pearl Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://dc4.serverse.com/proxy/pearlfm/stream/1/",
+        "features": "/img/africa/uganda/pearl-107-9.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/pearl-107-9?time="
+    },
+    "mcf": {
+        "title": "MCF Radio",
+        "type": "audio/mpeg",
+        "url": "https://mcfradio.co.ug/",
+        "cros": false,
+        "stream": "https://streams.radio.co/s79fbbb432/listen",
+        "features": "/img/africa/uganda/mcf.png",
+        "favorite": false
+    },
+    "ejazz": {
+        "title": "EJazz Radio",
+        "type": "audio/mpeg",
+        "url": "https://radio.ejazzug.com/",
+        "cros": false,
+        "stream": "https://eu1.reliastream.com/proxy/ejazzug?mp=/stream/1/",
+        "features": "/img/africa/uganda/ejazz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/ejazz?time="
+    },
+    "freedom-experience": {
+        "title": "Freedom Experience Radio",
+        "type": "audio/mpeg",
+        "url": "https://freedomexperienceradio.com/",
+        "cros": false,
+        "stream": "https://server.freedomflixtv.com:1045/stream",
+        "features": "/img/africa/uganda/freedom-experience.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/freedom-experience?time="
+    },
+    "acts": {
+        "title": "Acts Radio",
+        "type": "audio/mpeg",
+        "url": "https://actsradio.org/",
+        "cros": false,
+        "stream": "https://server.freedomflixtv.com:1065/stream",
+        "features": "/img/africa/uganda/acts.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/acts?time="
+    },
+    "kasese-guide": {
+        "title": "Kasese Guide Radio",
+        "type": "audio/mpeg",
+        "url": "https://kaseseguideradio.com/",
+        "cros": false,
+        "stream": "https://julycast.be/8240/stream/1/",
+        "features": "/img/africa/uganda/kasese-guide.png",
+        "favorite": false
+    },
+    "point-fm": {
+        "title": "Point FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/hg0axyr5bzzuv",
+        "features": "/img/africa/uganda/point-fm.png",
+        "favorite": false
+    },
+    "street-deejays": {
+        "title": "Street Deejays",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/nbwdnxz7na0uv.aac",
+        "features": "/img/africa/uganda/street-deejays.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/street-deejays?time="
+    },
+    "kdr": {
+        "title": "KDR",
+        "type": "audio/mpeg",
+        "url": "https://kdrfmradio.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/r2cwafaqua0uv",
+        "features": "/img/africa/uganda/kdr.png",
+        "favorite": false
+    },
+    "blithe": {
+        "title": "Blithe FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ur7mk7dxkd0uv",
+        "features": "/img/africa/uganda/blithe.png",
+        "favorite": false
+    },
+    "kkcr": {
+        "title": "KKCR",
+        "type": "audio/mpeg",
+        "url": "https://kkcr.urdt.net/",
+        "cros": false,
+        "stream": "https://kkcradio.urdt.net:8000/radio.mp3",
+        "features": "/img/africa/uganda/kkcr.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/132/kkcr?time="
+    },
+    "uganda-djs": {
+        "title": "Uganda DJs",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/uganda-djs-online-radio/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/vkunv86994zuv",
+        "features": "/img/africa/uganda/uganda-djs.png",
+        "favorite": false
+    },
+    "vega": {
+        "title": "Vega Radio Ug",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/vega-radio/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/kkgnwbqh838uv",
+        "features": "/img/africa/uganda/vega.png",
+        "favorite": false
+    }
+}

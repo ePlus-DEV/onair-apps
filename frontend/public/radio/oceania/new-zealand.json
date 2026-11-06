@@ -1,0 +1,347 @@
+{
+    "the-sound": {
+        "title": "Radio The Sound",
+        "type": "audio/mpeg",
+        "url": "https://www.thesound.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/sound_net_icy?Dist=TuneIn",
+        "features": "/img/oceania/new-zealand/the-sound.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-sound?time=",
+        "favorite": true
+    },
+    "the-rock": {
+        "title": "The Rock FM",
+        "type": "audio/mpeg",
+        "url": "https://www.therock.net.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/rock_net_icy?Dist=TuneIn",
+        "features": "/img/oceania/new-zealand/the-rock.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-rock?time="
+    },
+    "the-breeze": {
+        "title": "Radio The Breeze",
+        "type": "application/x-mpegURL",
+        "url": "https://www.thebreeze.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams3.mediaworks.nz/breeze-AKL-high/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/the-breeze.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-breeze?time="
+    },
+    "95bfm": {
+        "title": "Radio 95 b FM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://95bfm.com/",
+        "cros": false,
+        "stream": "https://streams.95bfm.com/stream128",
+        "features": "/img/oceania/new-zealand/95bfm.png"
+    },
+    "mai": {
+        "title": "Mai FM",
+        "type": "audio/mpeg",
+        "url": "https://www.maifm.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/mai_net_icy?Dist=TuneIn",
+        "features": "/img/oceania/new-zealand/mai.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/mai?time="
+    },
+    "coast": {
+        "title": "Coast",
+        "type": "audio/mpeg",
+        "url": "https://www.thecoast.net.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_011_aac",
+        "features": "/img/oceania/new-zealand/coast.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/coast?time="
+    },
+    "tarana": {
+        "title": "Radio Tarana (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.stuff.co.nz/",
+        "cros": false,
+        "stream": "https://peridot.streamguys1.com:7155/Tarana.aac",
+        "features": "/img/oceania/new-zealand/tarana.png"
+    },
+    "spice": {
+        "title": "Radio Spice",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://stream9.broadcast.co.nz:8000/radiospicewebsiteaudio.mp3",
+        "features": "/img/oceania/new-zealand/spice.png"
+    },
+    "humm": {
+        "title": "Humm FM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/humm_net_icy",
+        "features": "/img/oceania/new-zealand/humm.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/humm?time="
+    },
+    "niu": {
+        "title": "Niu FM",
+        "type": "audio/mpeg",
+        "url": "https://pmn.co.nz/radio-stations/niu-fm",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/NIUFM_SC",
+        "features": "/img/oceania/new-zealand/niu.png"
+    },
+    "george": {
+        "title": "Radio George (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.georgefm.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/george_net_icy",
+        "features": "/img/oceania/new-zealand/george.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/george?time="
+    },
+    "the-edge": {
+        "title": "The Edge (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.theedge.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams-edge-lb.mediaworks.nz/edge_net_icy?Dist=TuneIn",
+        "features": "/img/oceania/new-zealand/the-edge.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-edge?time="
+    },
+    "sleep": {
+        "title": "Sleep Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.sleepradio.co.nz/",
+        "cros": true,
+        "stream": "http://cast4.my-control-panel.com:9851/stream/1/",
+        "features": "/img/oceania/new-zealand/sleep.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/sleep?time="
+    },
+    "life-auckland": {
+        "title": "Life FM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.lifefm.co.nz/",
+        "cros": false,
+        "stream": "https://rhema-radio.streamguys1.com/rhema-lifefm.mp3",
+        "features": "/img/oceania/new-zealand/life-auckland.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/life-auckland?time="
+    },
+    "virsa-nz": {
+        "title": "Radio Virsa NZ",
+        "type": "audio/mpeg",
+        "url": "https://radiovirsanz.com/",
+        "cros": true,
+        "stream": "http://s8.voscast.com:7992/stream/1/",
+        "features": "/img/oceania/new-zealand/virsa-nz.png"
+    },
+    "hauraki": {
+        "title": "Radio Hauraki",
+        "type": "audio/mpeg",
+        "url": "https://www.hauraki.co.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_009_aac",
+        "features": "/img/oceania/new-zealand/hauraki.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/hauraki?time="
+    },
+    "national-wellington": {
+        "title": "RNZ National",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rnz.co.nz",
+        "cros": false,
+        "stream": "https://radionz.streamguys1.com/national/national/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/national-wellington.png"
+    },
+    "zm-auckland": {
+        "title": "ZM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.zmonline.com/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_008_aac",
+        "features": "/img/oceania/new-zealand/zm-auckland.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/zm-auckland?time="
+    },
+    "more-fm": {
+        "title": "More FM",
+        "type": "application/x-mpegURL",
+        "url": "https://www.morefm.co.nz/home.html",
+        "cros": false,
+        "stream": "https://digitalstreams3.mediaworks.nz/more-PMR-high/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/more-fm.png"
+    },
+    "apna": {
+        "title": "Radio Apna (Auckland)",
+        "type": "application/x-mpegURL",
+        "url": "https://apnanetwork.co.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_145/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/apna.png"
+    },
+    "samoa": {
+        "title": "Radio Samoa (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://radiosamoa.co.nz/",
+        "cros": false,
+        "stream": "https://radiosamoa.stream.broadcast.co.nz:8000/rsamoa8k",
+        "features": "/img/oceania/new-zealand/samoa.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/samoa?time="
+    },
+    "base": {
+        "title": "Base FM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.basefm.co.nz/",
+        "cros": false,
+        "stream": "https://stream.basefm.co.nz/Base320MP3",
+        "features": "/img/oceania/new-zealand/base.png"
+    },
+    "star-radio": {
+        "title": "Star Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.star.net.nz/",
+        "cros": false,
+        "stream": "https://rhema-radio.streamguys1.com/rhema-star.mp3",
+        "features": "/img/oceania/new-zealand/star-radio.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/star-radio?time="
+    },
+    "the-hits": {
+        "title": "The Hits",
+        "type": "audio/mpeg",
+        "url": "https://www.thehits.co.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_005_aac",
+        "features": "/img/oceania/new-zealand/the-hits.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-hits?time="
+    },
+    "gold-sport-auckland": {
+        "title": "Gold Sport (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.gold.co.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_016_aac",
+        "features": "/img/oceania/new-zealand/gold-sport-auckland.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/gold-sport-auckland?time="
+    },
+    "the-cheese": {
+        "title": "The Cheese",
+        "type": "audio/mpeg",
+        "url": "https://thecheese.co.nz/",
+        "cros": false,
+        "stream": "https://station.thecheese.co.nz/listen/the_cheese/aac",
+        "features": "/img/oceania/new-zealand/the-cheese.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/the-cheese?time="
+    },
+    "heads": {
+        "title": "Heads",
+        "type": "audio/mpeg",
+        "url": "https://www.headsfm.co.nz/",
+        "cros": true,
+        "stream": "http://167.114.156.116:8760/stream/1/",
+        "features": "/img/oceania/new-zealand/heads.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/heads?time="
+    },
+    "new-zealand-international": {
+        "title": "RNZ Pacific",
+        "type": "audio/mpeg",
+        "url": "https://www.rnz.co.nz/international",
+        "cros": false,
+        "stream": "https://stream-ice.radionz.co.nz/international_aac64",
+        "features": "/img/oceania/new-zealand/new-zealand-international.png"
+    },
+    "coast-fm-nz-christchurch": {
+        "title": "Coast FM NZ (Christchurch)",
+        "type": "audio/mpeg",
+        "url": "https://www.thecoast.net.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_050_aac",
+        "features": "/img/oceania/new-zealand/coast-fm-nz-christchurch.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/coast-fm-nz-christchurch?time="
+    },
+    "gaia-tauranga": {
+        "title": "Gaia FM (Tauranga)",
+        "type": "audio/mpeg",
+        "url": "https://gaiafm.stationplaylist.com/",
+        "cros": true,
+        "stream": "http://stream.stationplaylist.com:8000/stream/1/",
+        "features": "/img/oceania/new-zealand/gaia-tauranga.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/gaia-tauranga?time="
+    },
+    "one-dunedin": {
+        "title": "Radio One",
+        "type": "audio/mpeg",
+        "url": "https://www.r1.co.nz/",
+        "cros": false,
+        "stream": "https://play.r1.co.nz/live",
+        "features": "/img/oceania/new-zealand/one-dunedin.png"
+    },
+    "ski": {
+        "title": "Ski FM",
+        "type": "audio/mpeg",
+        "url": "https://skifmnetwork.co.nz/",
+        "cros": false,
+        "stream": "https://s2.radio.co/s6436891bc/listen",
+        "features": "/img/oceania/new-zealand/ski.png"
+    },
+    "flava": {
+        "title": "Flava (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://www.flava.co.nz/",
+        "cros": false,
+        "stream": "https://ais-nzme.streamguys1.com/nz_010_aac",
+        "features": "/img/oceania/new-zealand/flava.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/flava?time="
+    },
+    "the-most": {
+        "title": "Most FM (Taranaki)",
+        "type": "audio/mpeg",
+        "url": "https://mostfm.co.nz/",
+        "cros": true,
+        "stream": "http://gordon.mostfm.com:8000/high",
+        "features": "/img/oceania/new-zealand/the-most.png"
+    },
+    "active-wellington": {
+        "title": "Radio Active (Wellington)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioactive.fm/",
+        "cros": false,
+        "stream": "https://radio123-gecko.radioca.st/stream/1/",
+        "features": "/img/oceania/new-zealand/active-wellington.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/active-wellington?time="
+    },
+    "531pi-auckland": {
+        "title": "Radio 531pi (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://pmn.co.nz:443/stations/531-pi",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/531PI_SC",
+        "features": "/img/oceania/new-zealand/531pi-auckland.png"
+    },
+    "access": {
+        "title": "Wellington Access Radio (New Zealand)",
+        "type": "application/x-mpegURL",
+        "url": "https://accessradio.org.nz/",
+        "cros": false,
+        "stream": "https://live.accessmedia.nz/Wellington.stream_aac/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/access.png"
+    },
+    "fresh-fm": {
+        "title": "Fresh FM",
+        "type": "application/x-mpegURL",
+        "url": "https://www.freshfm.net/",
+        "cros": false,
+        "stream": "https://live.accessmedia.nz/Fresh.stream/playlist.m3u8",
+        "features": "/img/oceania/new-zealand/fresh-fm.png"
+    },
+    "power-hit": {
+        "title": "Power Hit FM (Christchurch)",
+        "type": "audio/mpeg",
+        "url": "https://www.powerhitfm.co.nz/",
+        "cros": false,
+        "stream": "https://pstnet1.shoutcastnet.com:16104/stream",
+        "features": "/img/oceania/new-zealand/power-hit.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/power-hit?time="
+    },
+    "mad": {
+        "title": "MAD FM (Auckland)",
+        "type": "audio/mpeg",
+        "url": "https://madfm.net/",
+        "cros": false,
+        "stream": "https://madfm-gecko.radioca.st/stream/1/",
+        "features": "/img/oceania/new-zealand/mad.png",
+        "schedule": "https://api.webrad.io/data/playlist/71/mad?time="
+    }
+}

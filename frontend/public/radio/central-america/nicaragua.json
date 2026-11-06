@@ -1,0 +1,360 @@
+{
+  "corporacion": {
+    "title": "Radio Corporación",
+    "type": "audio/mpeg",
+    "url": "https://radio-corporacion.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/gwkd66k0a7duv",
+    "features": "/img/central-america/nicaragua/corporacion.png",
+    "favorite": true
+  },
+  "nueva-ya": {
+    "title": "La Nueva Radio Ya",
+    "type": "audio/mpeg",
+    "url": "https://nuevaya.com.ni/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/eyz2zm6pg0quv",
+    "features": "/img/central-america/nicaragua/nueva-ya.png"
+  },
+  "tuani": {
+    "title": "La Tuani",
+    "type": "audio/mpeg",
+    "url": "https://www.latuani.com.ni/",
+    "cros": false,
+    "stream": "https://server.multimediamb.com:7000/stream/1/",
+    "features": "/img/central-america/nicaragua/tuani.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/tuani?time="
+  },
+  "clasica": {
+    "title": "Clásica",
+    "type": "audio/mpeg",
+    "url": "https://clasicafm.com.ni/",
+    "cros": true,
+    "stream": "http://165.98.68.45:8050/clasica.mp3",
+    "features": "/img/central-america/nicaragua/clasica.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/clasica?time="
+  },
+  "maranatha": {
+    "title": "Radio Maranatha",
+    "type": "audio/mpeg",
+    "url": "https://www.riosdeaguaviva.com.ni/",
+    "cros": false,
+    "stream": "https://stream2.305stream.com/proxy/client032?mp=/stream",
+    "features": "/img/central-america/nicaragua/maranatha.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/maranatha?time="
+  },
+  "hit": {
+    "title": "Radio Hit",
+    "type": "audio/mpeg",
+    "url": "https://radiohit1047.com/",
+    "cros": false,
+    "stream": "https://video1.getstreamhosting.com:8074/stream",
+    "features": "/img/central-america/nicaragua/hit.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/hit?time="
+  },
+  "tigre": {
+    "title": "Radio Tigre",
+    "type": "audio/mpeg",
+    "url": "https://radiotigre.com/",
+    "cros": true,
+    "stream": "http://66.113.177.13:8000/;",
+    "features": "/img/central-america/nicaragua/tigre.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/tigre?time="
+  },
+  "juvenil": {
+    "title": "Radio Juvenil",
+    "type": "audio/mpeg",
+    "url": "https://radiojuvenil.com/",
+    "cros": true,
+    "stream": "http://198.50.238.178:5744/stream/1/",
+    "features": "/img/central-america/nicaragua/juvenil.png"
+  },
+  "ondas": {
+    "title": "Radio Ondas de Luz",
+    "type": "audio/mpeg",
+    "url": "https://www.ondasdeluz.org/",
+    "cros": false,
+    "stream": "https://vivo.miradio.in:8102/stream/1/",
+    "features": "/img/central-america/nicaragua/ondas.png"
+  },
+  "primerisima": {
+    "title": "La Primerísima",
+    "type": "audio/mpeg",
+    "url": "https://radiolaprimerisima.com/",
+    "cros": true,
+    "stream": "http://polaris.hostingnica.net:9000/stream/1/",
+    "features": "/img/central-america/nicaragua/primerisima.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/primerisima?time="
+  },
+  "maria": {
+    "title": "Radio María",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.org.ni/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp4.com:8048/stream/1/",
+    "features": "/img/central-america/nicaragua/maria.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/maria?time="
+  },
+  "oxigeno": {
+    "title": "Oxígeno FM",
+    "type": "audio/mpeg",
+    "url": "http://radiooxigeno.com.ni/",
+    "cros": true,
+    "stream": "http://polaris.hostingnica.net:8060/stream/1/",
+    "features": "/img/central-america/nicaragua/oxigeno.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/oxigeno?time="
+  },
+  "radio-580": {
+    "title": "Radio 580",
+    "type": "audio/mpeg",
+    "url": "http://radio580.com.ni/",
+    "cros": true,
+    "stream": "http://170.84.134.39:9830/stream/1/",
+    "features": "/img/central-america/nicaragua/radio-580.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/radio-580?time="
+  },
+  "the-sound-of-the-carebbian": {
+    "title": "The Sound of the Caribbean Radio",
+    "type": "audio/mpeg",
+    "url": "http://thesoundofthecarebian.com/",
+    "cros": true,
+    "stream": "http://net1.citrus3.com:8324/stream/1/",
+    "features": "/img/central-america/nicaragua/the-sound-of-the-carebbian.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/the-sound-of-the-carebbian?time="
+  },
+  "radio-guarachera-96-5-fm": {
+    "title": "Radio Darío",
+    "type": "audio/mpeg",
+    "url": "https://www.radiodario893.com/",
+    "cros": true,
+    "stream": "http://51.161.13.49:8014/live",
+    "features": "/img/central-america/nicaragua/radio-guarachera-96-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/radio-guarachera-96-5-fm?time="
+  },
+  "amor-95-5-fm": {
+    "title": "Radio Amor",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://media-latam.com/8230/stream",
+    "features": "/img/central-america/nicaragua/amor-95-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/amor-95-5-fm?time="
+  },
+  "estrella": {
+    "title": "Radio Estrella del Mar",
+    "type": "audio/mpeg",
+    "url": "https://www.radioestrelladelmar.org/",
+    "cros": false,
+    "stream": "https://streamer.radio.co/sd5242d0b6/listen",
+    "features": "/img/central-america/nicaragua/estrella.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/estrella?time="
+  },
+  "restauracion": {
+    "title": "Radio Restauración",
+    "type": "audio/mpeg",
+    "url": "https://mirestauracion.org/",
+    "cros": true,
+    "stream": "http://srv.voxservidor.com:7048/stream/1/",
+    "features": "/img/central-america/nicaragua/restauracion.png"
+  },
+  "advent-stereo": {
+    "title": "Advent Stereo",
+    "type": "audio/mpeg",
+    "url": "http://www.adventstereo.org/",
+    "cros": true,
+    "stream": "http://streaming.admediasystem.net:9642/stream/1/",
+    "features": "/img/central-america/nicaragua/advent-stereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/advent-stereo?time="
+  },
+  "segovia": {
+    "title": "Radio Segovia",
+    "type": "audio/mpeg",
+    "url": "https://radiosegovia.net/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/dxkpx08drchvv",
+    "features": "/img/central-america/nicaragua/segovia.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/segovia?time="
+  },
+  "800-am": {
+    "title": "Radio 800 AM",
+    "type": "audio/mpeg",
+    "url": "https://radio800ni.com/",
+    "cros": false,
+    "stream": "https://radio42.globalhost1.com/8032/stream/1/",
+    "features": "/img/central-america/nicaragua/800-am.png"
+  },
+  "stereo-romance": {
+    "title": "Stereo Romance",
+    "type": "audio/mpeg",
+    "url": "https://www.stereo-romance.com/",
+    "cros": false,
+    "stream": "https://stereoromance.radioca.st/stream/1/",
+    "features": "/img/central-america/nicaragua/stereo-romance.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/stereo-romance?time="
+  },
+  "activa-101-1-fm": {
+    "title": "Radio Activa",
+    "type": "audio/mpeg",
+    "url": "https://radioactiva1011.com/",
+    "cros": false,
+    "stream": "https://media.dominiocreativo.com/activafm",
+    "features": "/img/central-america/nicaragua/activa-101-1-fm.png"
+  },
+  "rumbos-105-7": {
+    "title": "Radio Rumbos",
+    "type": "audio/mpeg",
+    "url": "https://larumbos.com/",
+    "cros": false,
+    "stream": "https://stream9.mexiserver.com/8358/;",
+    "features": "/img/central-america/nicaragua/rumbos-105-7.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/rumbos-105-7?time="
+  },
+  "la-costenisima": {
+    "title": "La Costeñísima",
+    "type": "audio/mpeg",
+    "url": "https://lacostenisima.com/",
+    "cros": true,
+    "stream": "http://flujos.mazorca.org:8000/lacostenisima.ogg",
+    "features": "/img/central-america/nicaragua/la-costenisima.png"
+  },
+  "bautista": {
+    "title": "Radio Bautista",
+    "type": "audio/mpeg",
+    "url": "https://turadiobautista1031fm.com/",
+    "cros": false,
+    "stream": "https://radios.herradoramedia.com:7001/live",
+    "features": "/img/central-america/nicaragua/bautista.png"
+  },
+  "radio-sabrosita-100-1-fm": {
+    "title": "Radio Sabrosita",
+    "type": "audio/mpeg",
+    "url": "https://www.radiosabrosita.com/",
+    "cros": false,
+    "stream": "https://polaris.hostingnica.net/8050/stream/1/",
+    "features": "/img/central-america/nicaragua/radio-sabrosita-100-1-fm.png"
+  },
+  "ometepe": {
+    "title": "Radio Ometepe",
+    "type": "audio/mpeg",
+    "url": "https://www.radioometepe.com/",
+    "cros": false,
+    "stream": "https://media-latam.com/8240/stream",
+    "features": "/img/central-america/nicaragua/ometepe.png"
+  },
+  "catolica-de-nicaragua": {
+    "title": "Radio Católica",
+    "type": "audio/mpeg",
+    "url": "http://www.radiocatolica.org/web/",
+    "cros": true,
+    "stream": "http://198.27.68.65:8555/stream/1/",
+    "features": "/img/central-america/nicaragua/catolica-de-nicaragua.png"
+  },
+  "sendas": {
+    "title": "Radio Sendas FM",
+    "type": "audio/mpeg",
+    "url": "https://radiosendasfm.com/",
+    "cros": false,
+    "stream": "https://s17.ssl-stream.com/proxy/radiosendasfm?mp=/stream/1/",
+    "features": "/img/central-america/nicaragua/sendas.png"
+  },
+  "dinamica": {
+    "title": "Radio Dinámica (Jinotega)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiodinamica103.com/",
+    "cros": true,
+    "stream": "http://144.217.67.108:8083/stream/1/",
+    "features": "/img/central-america/nicaragua/dinamica.png"
+  },
+  "estereo-getsemani": {
+    "title": "Estéreo Getsemani",
+    "type": "audio/mpeg",
+    "url": "https://estereogetsemani.blogspot.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/0x5qd65g09duv",
+    "features": "/img/central-america/nicaragua/estereo-getsemani.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/estereo-getsemani?time="
+  },
+  "rosita": {
+    "title": "Radio Rosita",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://radiohd.us/8012/stream",
+    "features": "/img/central-america/nicaragua/rosita.png"
+  },
+  "nicaragua-reggae-radio": {
+    "title": "Nicaragua Reggae Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://online.radiodifusion.net:8054/stream32",
+    "features": "/img/central-america/nicaragua/nicaragua-reggae-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/nicaragua-reggae-radio?time="
+  },
+  "stereo-digital": {
+    "title": "Stereo Digital",
+    "type": "audio/mpeg",
+    "url": "https://radiodigital1001.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/t6b78r7hfrruv",
+    "features": "/img/central-america/nicaragua/stereo-digital.png"
+  },
+  "preferida": {
+    "title": "Mi Preferida",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomipreferida.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/mu57hw1nxchvv",
+    "features": "/img/central-america/nicaragua/preferida.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/preferida?time="
+  },
+  "la-sandino-am": {
+    "title": "Radio La Sandino",
+    "type": "audio/mpeg",
+    "url": "https://www.lasandino.com.ni/",
+    "cros": true,
+    "stream": "http://165.98.68.45:8020/lasandino.mp3",
+    "features": "/img/central-america/nicaragua/la-sandino-am.png"
+  },
+  "yes": {
+    "title": "Radio Stereo Yes",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/2swf8e057reuv",
+    "features": "/img/central-america/nicaragua/yes.png"
+  },
+  "hermanos-96-3": {
+    "title": "Radio Hermanos",
+    "type": "audio/mpeg",
+    "url": "https://radiohermanos.org/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/vq7z0a3u7mruv",
+    "features": "/img/central-america/nicaragua/hermanos-96-3.png"
+  },
+  "poder-de-cristo": {
+    "title": "Radio Poder de Cristo",
+    "type": "audio/mpeg",
+    "url": "https://poderdecristo.com/",
+    "cros": false,
+    "stream": "https://poderdecristo1049.radioca.st/stream",
+    "features": "/img/central-america/nicaragua/poder-de-cristo.png",
+    "schedule": "https://api.webrad.io/data/playlist/20/poder-de-cristo?time="
+  },
+  "centro-870-am": {
+    "title": "Radio Centro",
+    "type": "audio/mpeg",
+    "url": "https://radiocentro870.com/",
+    "cros": true,
+    "stream": "http://polaris.hostingnica.net:8002/stream/1/",
+    "features": "/img/central-america/nicaragua/centro-870-am.png"
+  },
+  "zinica-fm": {
+    "title": "Radio Zinica",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://polaris.hostingnica.net/8006/stream/1/",
+    "features": "/img/central-america/nicaragua/zinica-fm.png"
+  }
+}

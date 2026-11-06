@@ -1,0 +1,180 @@
+{
+    "maria-88-7": {
+        "title": "Radio Maria",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.cg/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp2.com/proxy/rmcongo2?mp=/stream/1/",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/maria-88-7.png",
+        "favorite": true
+    },
+    "okapi": {
+        "title": "Radio Okapi",
+        "type": "audio/mpeg",
+        "url": "https://www.radiookapi.net/",
+        "cros": true,
+        "stream": "http://rs1.radiostreamer.com:8000/;",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/okapi.png",
+        "favorite": false
+    },
+    "mix": {
+        "title": "Radio Mix Congolaise",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/qe5g83upga0uv",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/mix.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/mix?time="
+    },
+    "congo-planet": {
+        "title": "Congo Planète Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio.congoplanet.com/Congo_Planet_Radio",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/congo-planet.png",
+        "favorite": false
+    },
+    "africa-online": {
+        "title": "Radio Africa Online",
+        "type": "audio/mpeg",
+        "url": "http://soukous.org/welcome.htm",
+        "cros": false,
+        "stream": "https://free.rcast.net/71432.m3u",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/africa-online.png",
+        "favorite": false
+    },
+    "ngoma": {
+        "title": "Radio Ngoma",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://african1paris.ice.infomaniak.ch/african1paris-64.mp3",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/ngoma.png",
+        "favorite": false
+    },
+    "ub": {
+        "title": "UB FM",
+        "type": "audio/mpeg",
+        "url": "https://ub-fm.com",
+        "cros": true,
+        "stream": "http://s2.voscast.com:11280/stream/1/",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/ub.png",
+        "favorite": false
+    },
+    "maendeleo": {
+        "title": "Radio Maendeleo",
+        "type": "audio/mpeg",
+        "url": "https://radiomaendeleo.info/",
+        "cros": false,
+        "stream": "https://ramaonline.ice.infomaniak.ch/ramaonline-128.mp3",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/maendeleo.png",
+        "favorite": false
+    },
+    "goma": {
+        "title": "Goma Webradio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/4d61wprrp7zuv",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/goma.png",
+        "favorite": false
+    },
+    "afrique-2": {
+        "title": "Afrique 2 Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/631enq80mwzuv",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/afrique-2.png",
+        "favorite": false
+    },
+    "kivu": {
+        "title": "Radio Kivu 1",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://serveur2.wanastream.com:25000/stream/1/",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/kivu.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/kivu?time="
+    },
+    "tamil-panpalai-africa": {
+        "title": "Tamil Panpalai Africa",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://tamilpanpalai.radioca.st/stream/3/",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/tamil-panpalai-africa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/tamil-panpalai-africa?time="
+    },
+    "ouragan": {
+        "title": "Ouragan FM",
+        "type": "audio/mpeg",
+        "url": "https://ouragan.cd/",
+        "cros": false,
+        "stream": "https://radio.ouragan.cd/listen/ouragan/radio.mp3",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/ouragan.png",
+        "favorite": false
+    },
+    "waza": {
+        "title": "Waza Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.vestaradio.com/WazaRadio",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/waza.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/waza?time="
+    },
+    "radio-bomoko": {
+        "title": "Radio Bomoko",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/3d2foixiwhjuv",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/radio-bomoko.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/radio-bomoko?time="
+    },
+    "tayna": {
+        "title": "Radio Tayna",
+        "type": "audio/mpeg",
+        "url": "https://radiotayna.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ide8zzvajbcvv",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/tayna.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/tayna?time="
+    },
+    "pourim": {
+        "title": "Radio Pourim",
+        "type": "audio/mpeg",
+        "url": "https://radiopourim.com/",
+        "cros": false,
+        "stream": "https://zoka.radioca.st/stream/1/",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/pourim.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/134/pourim?time="
+    },
+    "light-fm-kinshasa": {
+        "title": "Light Fm Kinshasa",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/485195/stream/541826",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/light-fm-kinshasa.png",
+        "favorite": false
+    },
+    "eventsrdc": {
+        "title": "Eventsrdc FM",
+        "type": "audio/mpeg",
+        "url": "https://www.fm.eventsrdc.com/",
+        "cros": false,
+        "stream": "https://gazplay.com/efmrdc/eventsrdcfm/icecast.audio",
+        "features": "/img/africa/congo-the-democratic-republic-of-the/eventsrdc.png",
+        "favorite": false
+    }
+}

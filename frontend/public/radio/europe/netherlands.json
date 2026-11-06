@@ -1,0 +1,383 @@
+{
+    "538": {
+        "title": "Radio 538",
+        "type": "audio/mpeg",
+        "url": "https://www.538.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO538_SC",
+        "features": "/img/europe/netherlands/538.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/538?time=",
+        "favorite": true
+    },
+    "slam-fm": {
+        "title": "SLAM!",
+        "type": "audio/mpeg",
+        "url": "https://www.slam.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SLAM_MP3_SC",
+        "features": "/img/europe/netherlands/slam-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/slam-fm?time="
+    },
+    "npo-1": {
+        "title": "NPO Radio 1",
+        "type": "audio/mpeg",
+        "url": "https://www.nporadio1.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/radio1-bb-aac",
+        "features": "/img/europe/netherlands/npo-1.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/npo-1?time="
+    },
+    "npo-2": {
+        "title": "NPO Radio 2",
+        "type": "audio/mpeg",
+        "url": "https://www.nporadio2.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/radio2-bb-mp3",
+        "features": "/img/europe/netherlands/npo-2.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/npo-2?time="
+    },
+    "3fm": {
+        "title": "NPO 3FM",
+        "type": "audio/mpeg",
+        "url": "https://www.npo3fm.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/3fm-bb-mp3",
+        "features": "/img/europe/netherlands/3fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/3fm?time="
+    },
+    "npo-klassiek": {
+        "title": "NPO Klassiek",
+        "type": "audio/mpeg",
+        "url": "https://www.npoklassiek.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/radio4-bb-mp3",
+        "features": "/img/europe/netherlands/npo-klassiek.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/npo-klassiek?time="
+    },
+    "npo-5": {
+        "title": "NPO Radio 5",
+        "type": "audio/mpeg",
+        "url": "http://www.nporadio5.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/radio5-bb-mp3",
+        "features": "/img/europe/netherlands/npo-5.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/npo-5?time="
+    },
+    "sky": {
+        "title": "Sky Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.skyradio.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SKYRADIO_SC",
+        "features": "/img/europe/netherlands/sky.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/sky?time="
+    },
+    "q-music": {
+        "title": "Qmusic",
+        "type": "audio/mpeg",
+        "url": "https://qmusic.nl/",
+        "cros": false,
+        "stream": "https://stream.qmusic.nl/qmusic/aaclow",
+        "features": "/img/europe/netherlands/q-music.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/q-music?time="
+    },
+    "10": {
+        "title": "Radio 10",
+        "type": "audio/mpeg",
+        "url": "https://www.radio10.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO10AAC_SC",
+        "features": "/img/europe/netherlands/10.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/10?time="
+    },
+    "100-nl": {
+        "title": "100%NL",
+        "type": "audio/mpeg",
+        "url": "https://www.100p.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/100PNL_MP3_SC",
+        "features": "/img/europe/netherlands/100-nl.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/100-nl?time="
+    },
+    "veronica": {
+        "title": "Radio Veronica",
+        "type": "audio/mpeg",
+        "url": "https://www.radioveronica.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/VERONICA_SC",
+        "features": "/img/europe/netherlands/veronica.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/veronica?time="
+    },
+    "arrow-classic-rock": {
+        "title": "Arrow Classic Rock",
+        "type": "audio/mpeg",
+        "url": "https://www.arrow.nl/",
+        "cros": false,
+        "stream": "https://stream.player.arrow.nl/arrow",
+        "features": "/img/europe/netherlands/arrow-classic-rock.png"
+    },
+    "omroep-brabant": {
+        "title": "Omroep Brabant",
+        "type": "audio/mpeg",
+        "url": "https://www.omroepbrabant.nl/",
+        "cros": false,
+        "stream": "https://av.omroepbrabant.nl/icecast/omroepbrabant/mp3hq",
+        "features": "/img/europe/netherlands/omroep-brabant.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/omroep-brabant?time="
+    },
+    "rijnmond": {
+        "title": "Radio Rijnmond",
+        "type": "audio/mpeg",
+        "url": "https://www.rijnmond.nl/",
+        "cros": false,
+        "stream": "https://d2e9xgjjdd9cr5.cloudfront.net/icecast/rijnmond/radio-aacp",
+        "features": "/img/europe/netherlands/rijnmond.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/rijnmond?time="
+    },
+    "groot-nieuws": {
+        "title": "Groot Nieuws Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.grootnieuwsradio.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/GNRAAC_SC",
+        "features": "/img/europe/netherlands/groot-nieuws.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/groot-nieuws?time="
+    },
+    "radionl": {
+        "title": "RadioNL",
+        "type": "audio/mpeg",
+        "url": "https://www.radionl.fm/",
+        "cros": false,
+        "stream": "https://stream.radionl.fm/radionl",
+        "features": "/img/europe/netherlands/radionl.png"
+    },
+    "classic-fm": {
+        "title": "classicnl",
+        "type": "audio/mpeg",
+        "url": "https://classic.nl/home",
+        "cros": false,
+        "stream": "https://classic.nl/streams/?s=main",
+        "features": "/img/europe/netherlands/classic-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/classic-fm?time="
+    },
+    "sublime": {
+        "title": "Sublime",
+        "type": "audio/mpeg",
+        "url": "https://sublime.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SUBLIME_SC",
+        "features": "/img/europe/netherlands/sublime.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/sublime?time="
+    },
+    "bnr-nieuwsradio": {
+        "title": "BNR Nieuwsradio",
+        "type": "audio/mpeg",
+        "url": "https://www.bnr.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BNR_NIEUWSRADIO_SC",
+        "features": "/img/europe/netherlands/bnr-nieuwsradio.png"
+    },
+    "m-utrecht": {
+        "title": "Radio M Utrecht",
+        "type": "audio/mpeg",
+        "url": "https://www.rtvutrecht.nl/",
+        "cros": false,
+        "stream": "https://media.rtvutrecht.nl/radiomutrecht-bb-mp3",
+        "features": "/img/europe/netherlands/m-utrecht.png"
+    },
+    "l1": {
+        "title": "L1 Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.l1.nl/l1tv/l1-nieuws",
+        "cros": false,
+        "stream": "https://d34pj260kw1xmk.cloudfront.net/icecast/l1/radio-bb-mp3",
+        "features": "/img/europe/netherlands/l1.png"
+    },
+    "soul": {
+        "title": "Soul Radio",
+        "type": "audio/mpeg",
+        "url": "https://soulradio.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SOULRADIO_SC",
+        "features": "/img/europe/netherlands/soul.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/soul?time="
+    },
+    "amorfm": {
+        "title": "AmorFM",
+        "type": "audio/mpeg",
+        "url": "https://amorfm.eu/",
+        "cros": false,
+        "stream": "https://amorfm_192.streampartner.nl/stream",
+        "features": "/img/europe/netherlands/amorfm.png"
+    },
+    "538-top-50": {
+        "title": "538 Top 50 Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.538.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR13AAC_SC",
+        "features": "/img/europe/netherlands/538-top-50.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/538-top-50?time="
+    },
+    "53l8": {
+        "title": "53L8!",
+        "type": "audio/mpeg",
+        "url": "https://www.538.nl",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR21_SC",
+        "features": "/img/europe/netherlands/53l8.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/53l8?time="
+    },
+    "538-party": {
+        "title": "538 Party",
+        "type": "audio/mpeg",
+        "url": "https://www.538.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR16_SC",
+        "features": "/img/europe/netherlands/538-party.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/538-party?time="
+    },
+    "q-dance": {
+        "title": "Q-Dance Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.q-dance.com/en/radio/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/Q_DANCEAAC_SC",
+        "features": "/img/europe/netherlands/q-dance.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/q-dance?time="
+    },
+    "sky-lovesongs": {
+        "title": "Sky Radio LoveSongs",
+        "type": "audio/mpeg",
+        "url": "https://www.skyradio.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SRGSTR03AAC_SC",
+        "features": "/img/europe/netherlands/sky-lovesongs.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/sky-lovesongs?time="
+    },
+    "decibel": {
+        "title": "Radio Decibel",
+        "type": "audio/mpeg",
+        "url": "https://www.decibel.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIODECIBEL_SC",
+        "features": "/img/europe/netherlands/decibel.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/decibel?time="
+    },
+    "slam-hardstyle": {
+        "title": "SLAM! Hardstyle",
+        "type": "audio/mpeg",
+        "url": "https://www.slam.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEB11_AAC_SC",
+        "features": "/img/europe/netherlands/slam-hardstyle.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/slam-hardstyle?time="
+    },
+    "slam-juize": {
+        "title": "SLAM! Juize",
+        "type": "audio/mpeg",
+        "url": "https://www.slam.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEB09_MP3_SC",
+        "features": "/img/europe/netherlands/slam-juize.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/slam-juize?time="
+    },
+    "masters-of-hardcore": {
+        "title": "Masters of Hardcore Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.mastersofhardcore.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MASTERSOFHARDCORE_SC",
+        "features": "/img/europe/netherlands/masters-of-hardcore.png"
+    },
+    "ujala": {
+        "title": "Ujala Radio",
+        "type": "audio/mpeg",
+        "url": "https://ujala.nl/",
+        "cros": false,
+        "stream": "https://stream.ujala.nl/ujala",
+        "features": "/img/europe/netherlands/ujala.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/ujala?time="
+    },
+    "funx": {
+        "title": "FunX",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-amsterdam-sb-mp3",
+        "features": "/img/europe/netherlands/funx.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/funx?time="
+    },
+    "funx-arab": {
+        "title": "NPO FunX Arab",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-arab-sb-mp3",
+        "features": "/img/europe/netherlands/funx-arab.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/funx-arab?time="
+    },
+    "funx-rotterdam": {
+        "title": "NPO FunX (Rotterdam)",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-rotterdam-sb-mp3",
+        "features": "/img/europe/netherlands/funx-rotterdam.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/funx-rotterdam?time="
+    },
+    "npo-funx-reggae": {
+        "title": "NPO FunX Reggae",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-reggae-bb-mp3",
+        "features": "/img/europe/netherlands/npo-funx-reggae.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/npo-funx-reggae?time="
+    },
+    "funx-slowjamz": {
+        "title": "FunX SlowJamz",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-slowjamz-sb-aac",
+        "features": "/img/europe/netherlands/funx-slowjamz.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/funx-slowjamz?time="
+    },
+    "funx-latin": {
+        "title": "FunX Latin",
+        "type": "audio/mpeg",
+        "url": "https://www.funx.nl/",
+        "cros": false,
+        "stream": "https://icecast.omroep.nl/funx-latin-bb-mp3",
+        "features": "/img/europe/netherlands/funx-latin.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/funx-latin?time="
+    },
+    "10-60-s-70-s-hits": {
+        "title": "Radio10 - 60's & 70's Hits",
+        "type": "audio/mpeg",
+        "url": "https://www.radio10.nl/themakanalen",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR18_SC",
+        "features": "/img/europe/netherlands/10-60-s-70-s-hits.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/10-60-s-70-s-hits?time="
+    },
+    "10-80-s-hits": {
+        "title": "Radio10 - 80's Hits",
+        "type": "audio/mpeg",
+        "url": "https://www.radio10.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR20_SC",
+        "features": "/img/europe/netherlands/10-80-s-hits.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/10-80-s-hits?time="
+    },
+    "10-90-s-hits": {
+        "title": "Radio 10 - 90's Hits",
+        "type": "audio/mpeg",
+        "url": "https://www.radio10.nl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TLPSTR22AAC_SC",
+        "features": "/img/europe/netherlands/10-90-s-hits.png",
+        "schedule": "https://api.webrad.io/data/playlist/119/10-90-s-hits?time="
+    }
+}

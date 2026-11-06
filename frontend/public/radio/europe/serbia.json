@@ -1,0 +1,388 @@
+{
+    "s1": {
+        "title": "Radio S1",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radios.rs/radio/1/radio-s1",
+        "cros": false,
+        "stream": "https://53a7ed211fc32.streamlock.net/asmedia/radios/playlist.m3u8",
+        "features": "/img/europe/serbia/s1.png",
+        "favorite": true
+    },
+    "s2": {
+        "title": "Radio S2",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radios.rs/radio/11/radio-s2",
+        "cros": false,
+        "stream": "https://5bc45691ca49f.streamlock.net/asmedia/index/playlist.m3u8",
+        "features": "/img/europe/serbia/s2.png",
+        "favorite": false
+    },
+    "s3": {
+        "title": "Radio S3",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radios.rs/radio/16/radio-s3",
+        "cros": false,
+        "stream": "https://5bc45691ca49f.streamlock.net/asmedia/pingvin/playlist.m3u8",
+        "features": "/img/europe/serbia/s3.png",
+        "favorite": false
+    },
+    "s4": {
+        "title": "Radio S4",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radios.rs/radio/21/radio-s4",
+        "cros": false,
+        "stream": "https://53be5ef2d13aa.streamlock.net/asmedia/gradski/playlist.m3u8",
+        "features": "/img/europe/serbia/s4.png",
+        "favorite": false
+    },
+    "s1-sg": {
+        "title": "Radio S1 CG",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radios.rs/radio/22/radio-s1-cg",
+        "cros": false,
+        "stream": "https://53a7ed211fc32.streamlock.net/asmedia/radios1-cg/playlist.m3u8",
+        "features": "/img/europe/serbia/s1-sg.png",
+        "favorite": false
+    },
+    "tdi": {
+        "title": "TDI Radio",
+        "type": "audio/mpeg",
+        "url": "https://tdiradio.com/",
+        "cros": false,
+        "stream": "https://streaming.tdiradio.com/tdiradio.mp3",
+        "features": "/img/europe/serbia/tdi.png",
+        "favorite": false
+    },
+    "pink": {
+        "title": "Radio Pink",
+        "type": "audio/mpeg",
+        "url": "https://pinkradio.com/",
+        "cros": true,
+        "stream": "http://pink.exyuserver.com/stream/1/",
+        "features": "/img/europe/serbia/pink.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/pink?time="
+    },
+    "naxi": {
+        "title": "Naxi Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.naxi.rs/",
+        "cros": true,
+        "stream": "http://naxi64.streaming.rs:9160/;",
+        "features": "/img/europe/serbia/naxi.png",
+        "favorite": false
+    },
+    "morava": {
+        "title": "Radio Morava",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomorava.rs/",
+        "cros": false,
+        "stream": "https://e3.radiomorava.rs/radio/8000/radiomorava128.mp3",
+        "features": "/img/europe/serbia/morava.png",
+        "favorite": false
+    },
+    "jat": {
+        "title": "Radio Jat",
+        "type": "audio/mpeg",
+        "url": "https://radiojat.rs/",
+        "cros": false,
+        "stream": "https://streaming.radiojat.rs/radiojat.mp3",
+        "features": "/img/europe/serbia/jat.png",
+        "favorite": false
+    },
+    "antena": {
+        "title": "Antena Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://www.antenaradio.rs:4560/stream/1/",
+        "features": "/img/europe/serbia/antena.png",
+        "favorite": false
+    },
+    "ok": {
+        "title": "OK Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.okradio.net/",
+        "cros": false,
+        "stream": "https://sslstream.okradio.net/stream/1/",
+        "features": "/img/europe/serbia/ok.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/ok?time="
+    },
+    "bubamara": {
+        "title": "Radio Bubamara",
+        "type": "audio/mpeg",
+        "url": "https://radiobubamara.mk/",
+        "cros": true,
+        "stream": "http://live.onlineradio.mk:8000/stream",
+        "features": "/img/europe/serbia/bubamara.png",
+        "favorite": false
+    },
+    "b-92": {
+        "title": "B92",
+        "type": "audio/mpeg",
+        "url": "https://www.b92.net/",
+        "cros": true,
+        "stream": "http://stream.b92.net:7999/radio-b92.mp3",
+        "features": "/img/europe/serbia/b-92.png",
+        "favorite": false
+    },
+    "top-fm": {
+        "title": "Top FM",
+        "type": "audio/mpeg",
+        "url": "https://www.topfm.rs/",
+        "cros": false,
+        "stream": "https://topfm128ssl.streaming.rs:9282/;",
+        "features": "/img/europe/serbia/top-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/top-fm?time="
+    },
+    "buca": {
+        "title": "Radio Buca",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://live.bucaradio.com:8080/stream/1/",
+        "features": "/img/europe/serbia/buca.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/buca?time="
+    },
+    "radio-sloboda": {
+        "title": "Radio Sloboda",
+        "type": "audio/mpeg",
+        "url": "http://radiosloboda.rs/",
+        "cros": true,
+        "stream": "http://audio.slobodafm.com:8000/stream/1/",
+        "features": "/img/europe/serbia/radio-sloboda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/radio-sloboda?time="
+    },
+    "as-fm": {
+        "title": "Radio As FM",
+        "type": "audio/mpeg",
+        "url": "https://radioas.fm/",
+        "cros": true,
+        "stream": "http://mastermedia.shoutca.st:8000/stream/1/",
+        "features": "/img/europe/serbia/as-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/as-fm?time="
+    },
+    "bum-bum": {
+        "title": "Bum Bum Radio",
+        "type": "audio/mpeg",
+        "url": "https://bumbumradio.rs/",
+        "cros": true,
+        "stream": "http://bumbum-stream.netlogic.rs:8000/stream/1/",
+        "features": "/img/europe/serbia/bum-bum.png",
+        "favorite": false
+    },
+    "dak": {
+        "title": "Radio Dak",
+        "type": "audio/mpeg",
+        "url": "https://radiodak.rs/",
+        "cros": false,
+        "stream": "https://stream.radiodak.rs/radiodak",
+        "features": "/img/europe/serbia/dak.png",
+        "favorite": false
+    },
+    "beograd-1": {
+        "title": "Radio Beograd 1",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radiobeograd.rs/",
+        "cros": false,
+        "stream": "https://rtsradio-live.morescreens.com/RTS_2_001/playlist.m3u8",
+        "features": "/img/europe/serbia/beograd-1.png",
+        "favorite": false
+    },
+    "beograd-2": {
+        "title": "Radio Beograd 2",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radiobeograd.rs/",
+        "cros": false,
+        "stream": "https://rtsradio-live.morescreens.com/RTS_2_002/playlist.m3u8",
+        "features": "/img/europe/serbia/beograd-2.png",
+        "favorite": false
+    },
+    "beograd-3": {
+        "title": "Radio Beograd 3",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radiobeograd.rs/",
+        "cros": false,
+        "stream": "https://rtsradio-live.morescreens.com/RTS_2_003/playlist.m3u8",
+        "features": "/img/europe/serbia/beograd-3.png",
+        "favorite": false
+    },
+    "beograd-202": {
+        "title": "Radio Beograd 202",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radiobeograd.rs/",
+        "cros": false,
+        "stream": "https://rtsradio-live.morescreens.com/RTS_2_004/playlist.m3u8",
+        "features": "/img/europe/serbia/beograd-202.png",
+        "favorite": false
+    },
+    "stari-grad-rsg": {
+        "title": "Radio Stari Grad - RSG",
+        "type": "audio/mpeg",
+        "url": "https://rsg.rs/",
+        "cros": true,
+        "stream": "http://stream.rsg.rs:8043/stream/1/",
+        "features": "/img/europe/serbia/stari-grad-rsg.png",
+        "favorite": false
+    },
+    "nostalgija": {
+        "title": "Radio Nostalgija",
+        "type": "audio/mpeg",
+        "url": "https://www.nostalgija.rs/",
+        "cros": true,
+        "stream": "http://nostalgie64.streaming.rs:9260/;",
+        "features": "/img/europe/serbia/nostalgija.png",
+        "favorite": false
+    },
+    "studio-b": {
+        "title": "Radio Studio B",
+        "type": "audio/mpeg",
+        "url": "https://studiob.rs/",
+        "cros": true,
+        "stream": "http://radio.studiob.rs:8004/;",
+        "features": "/img/europe/serbia/studio-b.png",
+        "favorite": false
+    },
+    "stara-carsija": {
+        "title": "Radio Stara Carsija",
+        "type": "audio/mpeg",
+        "url": "http://radiostaracarsija.com/w/",
+        "cros": true,
+        "stream": "http://radio.dukahosting.com:8026/;",
+        "features": "/img/europe/serbia/stara-carsija.png",
+        "favorite": false
+    },
+    "ljubav": {
+        "title": "Radio Ljubav",
+        "type": "audio/mpeg",
+        "url": "https://www.radioljubav.net/",
+        "cros": true,
+        "stream": "http://ljubav.streaming.rs:9340/;",
+        "features": "/img/europe/serbia/ljubav.png",
+        "favorite": false
+    },
+    "in-beograd": {
+        "title": "Radio IN Beograd",
+        "type": "audio/mpeg",
+        "url": "https://www.radioinbeograd.rs/",
+        "cros": true,
+        "stream": "http://radio3-64.streaming.rs:9210/;",
+        "features": "/img/europe/serbia/in-beograd.png",
+        "favorite": false
+    },
+    "rtv-belle-amie": {
+        "title": "Radio Belle Amie",
+        "type": "audio/mpeg",
+        "url": "https://belami.rs/",
+        "cros": true,
+        "stream": "http://radiostream.exe-net.net:5040/stream/1/",
+        "features": "/img/europe/serbia/rtv-belle-amie.png",
+        "favorite": false
+    },
+    "kosava-fm": {
+        "title": "Radio Košava",
+        "type": "audio/mpeg",
+        "url": "http://www.radiokosava.rs/",
+        "cros": true,
+        "stream": "http://163.172.116.41:8544/stream/1/",
+        "features": "/img/europe/serbia/kosava-fm.png",
+        "favorite": false
+    },
+    "novosti": {
+        "title": "Radio Novosti",
+        "type": "audio/mpeg",
+        "url": "https://radionovosti.com/",
+        "cros": true,
+        "stream": "http://www.radionovosti.rs:443/radionovosti56s.mp3",
+        "features": "/img/europe/serbia/novosti.png",
+        "favorite": false
+    },
+    "boom-93": {
+        "title": "Boom 93",
+        "type": "audio/mpeg",
+        "url": "https://boom93.rs/",
+        "cros": false,
+        "stream": "https://radio.boom93.com/stream/1/",
+        "features": "/img/europe/serbia/boom-93.png",
+        "favorite": false
+    },
+    "hit-104-9": {
+        "title": "Hit Radio",
+        "type": "audio/mpeg",
+        "url": "http://www.hitradio.rs",
+        "cros": true,
+        "stream": "http://144.76.219.22:9337/stream/1/",
+        "features": "/img/europe/serbia/hit-104-9.png",
+        "favorite": false
+    },
+    "city": {
+        "title": "City Radio",
+        "type": "audio/mpeg",
+        "url": "https://citysmart.media/smart-radio/",
+        "cros": true,
+        "stream": "http://city.yunethosting.net:8000/stream",
+        "features": "/img/europe/serbia/city.png",
+        "favorite": false
+    },
+    "cool": {
+        "title": "Cool Radio",
+        "type": "audio/mpeg",
+        "url": "https://coolradio.rs/",
+        "cros": false,
+        "stream": "https://live.coolradio.rs/cool128",
+        "features": "/img/europe/serbia/cool.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/cool?time="
+    },
+    "moravac": {
+        "title": "Radio Moravac",
+        "type": "audio/mpeg",
+        "url": "https://radiomoravac.forumcroatian.com/",
+        "cros": false,
+        "stream": "https://video.stream.rs:2020/stream/radiomoravac1",
+        "features": "/img/europe/serbia/moravac.png",
+        "favorite": false
+    },
+    "internet-pingvin": {
+        "title": "Internet Radio Pingvin",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopingvin.com/",
+        "cros": false,
+        "stream": "https://uzivo.radiopingvin.com/domaci1",
+        "features": "/img/europe/serbia/internet-pingvin.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/145/internet-pingvin?time="
+    },
+    "impuls": {
+        "title": "Radio Impuls",
+        "type": "audio/mpeg",
+        "url": "https://www.radioimpuls.rs/",
+        "cros": false,
+        "stream": "https://ubnt.xtraya.com/radioimpuls.mp3",
+        "features": "/img/europe/serbia/impuls.png",
+        "favorite": false
+    },
+    "lux": {
+        "title": "Lux Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.luxradio.net/",
+        "cros": false,
+        "stream": "https://lux-naxinacional.streaming.rs:8607/;",
+        "features": "/img/europe/serbia/lux.png",
+        "favorite": false
+    },
+    "kiss": {
+        "title": "Radio Kiss Info",
+        "type": "audio/mpeg",
+        "url": "https://kissinfo.rs/",
+        "cros": true,
+        "stream": "http://cast2.asurahosting.com:8587/stream",
+        "features": "/img/europe/serbia/kiss.png",
+        "favorite": false
+    }
+}

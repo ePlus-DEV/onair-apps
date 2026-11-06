@@ -1,0 +1,400 @@
+{
+    "alfayda": {
+        "title": "Radio Al Fayda",
+        "type": "audio/mpeg",
+        "url": "https://radioalfayda.net/",
+        "cros": false,
+        "stream": "https://usa5.fastcast4u.com/proxy/lyartech?mp=/stream/1/",
+        "features": "/img/africa/senegal/alfayda.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/135/alfayda?time="
+    },
+    "walf-fm": {
+        "title": "Walf FM",
+        "type": "audio/mpeg",
+        "url": "https://www.sunufm.com/walfadjri/",
+        "cros": true,
+        "stream": "http://betelgeuse.dribbcast.com:4244/stream",
+        "features": "/img/africa/senegal/walf-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/walf-fm?time="
+    },
+    "tetiane": {
+        "title": "Radio Tetiane",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/aehw3zpkf7duv",
+        "features": "/img/africa/senegal/tetiane.png",
+        "favorite": false
+    },
+    "xassida-online": {
+        "title": "Xassida Online",
+        "type": "audio/mpeg",
+        "url": "https://www.alkhadimiyyah.org/",
+        "cros": false,
+        "stream": "https://betelgeuse.dribbcast.com/proxy/xassidaonline?mp=/stream/1/",
+        "features": "/img/africa/senegal/xassida-online.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/xassida-online?time="
+    },
+    "futurs-medias": {
+        "title": "Radio Futurs (Medias)",
+        "type": "audio/mpeg",
+        "url": "https://www.igfm.sn/live.php?channel=rfm",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/kuk0syz5puquv",
+        "features": "/img/africa/senegal/futurs-medias.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/futurs-medias?time="
+    },
+    "sud-fm": {
+        "title": "Sud FM",
+        "type": "audio/mpeg",
+        "url": "https://sudfmsenradio.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/8hddc402zbruv",
+        "features": "/img/africa/senegal/sud-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/sud-fm?time="
+    },
+    "lamp-fall-fm": {
+        "title": "Lamp Fall FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ay2qtfx62neuv",
+        "features": "/img/africa/senegal/lamp-fall-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/lamp-fall-fm?time="
+    },
+    "dakar-musique": {
+        "title": "Dakar Musique",
+        "type": "audio/mpeg",
+        "url": "https://radio.dakarmusique.com/",
+        "cros": false,
+        "stream": "https://listen.senemultimedia.net:8092/stream",
+        "features": "/img/africa/senegal/dakar-musique.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/dakar-musique?time="
+    },
+    "iradio": {
+        "title": "iRadio",
+        "type": "audio/mpeg",
+        "url": "https://www.seneweb.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ymw4tvxhq9duv",
+        "features": "/img/africa/senegal/iradio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/iradio?time="
+    },
+    "pulaar-speaking": {
+        "title": "Pulaar Speaking Radio",
+        "type": "audio/mpeg",
+        "url": "http://www.radiopsa.org",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/npp99g7e3rquv.aac",
+        "features": "/img/africa/senegal/pulaar-speaking.png",
+        "favorite": false
+    },
+    "allodakar-tamtam": {
+        "title": "AlloDakar Radio TamTam",
+        "type": "audio/mpeg",
+        "url": "https://www.radioallodakar.net/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3644495_SC",
+        "features": "/img/africa/senegal/allodakar-tamtam.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/allodakar-tamtam?time="
+    },
+    "dingiral-fulbe": {
+        "title": "Radio Dingiral Fulbe",
+        "type": "audio/mpeg",
+        "url": "https://dingiralfulbe.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/4car6cf6sfeuv",
+        "features": "/img/africa/senegal/dingiral-fulbe.png",
+        "favorite": false
+    },
+    "xamsadine": {
+        "title": "Xamsadine",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/fnmh86syenzuv.aac",
+        "features": "/img/africa/senegal/xamsadine.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/xamsadine?time="
+    },
+    "sunuker": {
+        "title": "Radio Sunuker",
+        "type": "audio/mpeg",
+        "url": "https://sunuker.net/radio/",
+        "cros": true,
+        "stream": "http://radiosunuker223.primcast.com:6042/;",
+        "features": "/img/africa/senegal/sunuker.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/sunuker?time="
+    },
+    "maack-fm": {
+        "title": "Maack FM",
+        "type": "audio/mpeg",
+        "url": "https://maacktv.com/maackfm/",
+        "cros": false,
+        "stream": "https://rmf1.radioca.st/stream/1/",
+        "features": "/img/africa/senegal/maack-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/maack-fm?time="
+    },
+    "faydatidianiya": {
+        "title": "Radio Faydatidianiya",
+        "type": "audio/mpeg",
+        "url": "https://faydatidianiya.com/",
+        "cros": true,
+        "stream": "http://listen.senemultimedia.net:5526/stream/1/",
+        "features": "/img/africa/senegal/faydatidianiya.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/faydatidianiya?time="
+    },
+    "pikine-diaspora": {
+        "title": "Pikine Diaspora Radio",
+        "type": "audio/mpeg",
+        "url": "https://pikinediaspora.net/",
+        "cros": true,
+        "stream": "http://s8.voscast.com:8252/stream/1/",
+        "features": "/img/africa/senegal/pikine-diaspora.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/pikine-diaspora?time="
+    },
+    "talibe": {
+        "title": "Radio Talibé",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/c18krfbwqreuv",
+        "features": "/img/africa/senegal/talibe.png",
+        "favorite": false
+    },
+    "ecouter-baolmedias-fm-sur-sunu": {
+        "title": "Radio Baolmédias FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/xz2nta1zphruv",
+        "features": "/img/africa/senegal/ecouter-baolmedias-fm-sur-sunu.png",
+        "favorite": false
+    },
+    "west-africa-democracy": {
+        "title": "West Africa Democracy Radio",
+        "type": "audio/mpeg",
+        "url": "https://wadr.org/",
+        "cros": false,
+        "stream": "https://westafricademocracyradio.ice.infomaniak.ch/westafricademocracyradio.mp3",
+        "features": "/img/africa/senegal/west-africa-democracy.png",
+        "favorite": false
+    },
+    "medinacheikh": {
+        "title": "MedinaCheikh Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://radio.medinacheikh.net/",
+        "cros": false,
+        "stream": "https://radio.medinacheikh.net/audios/hls/stream.m3u8",
+        "features": "/img/africa/senegal/medinacheikh.png",
+        "favorite": false
+    },
+    "medinabaye": {
+        "title": "Radio Medinabaye Kaffrine",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/w4v1hckvewwtv",
+        "features": "/img/africa/senegal/medinabaye.png",
+        "favorite": false
+    },
+    "h24radio": {
+        "title": "H24 Radio",
+        "type": "audio/mpeg",
+        "url": "https://h24.sn/",
+        "cros": true,
+        "stream": "http://listen.senemultimedia.net:8070/stream",
+        "features": "/img/africa/senegal/h24radio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/h24radio?time="
+    },
+    "pakao": {
+        "title": "Pakao FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/88ckwu8hzk8uv",
+        "features": "/img/africa/senegal/pakao.png",
+        "favorite": false
+    },
+    "zik-fm": {
+        "title": "Zik FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/vtxarcfpmnruv",
+        "features": "/img/africa/senegal/zik-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/zik-fm?time="
+    },
+    "chaine-nationale": {
+        "title": "Radio Chaîne Nationale",
+        "type": "audio/mpeg",
+        "url": "https://www.rts.sn/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/6c5cv8nrt1duv",
+        "features": "/img/africa/senegal/chaine-nationale.png",
+        "favorite": false
+    },
+    "love-fm": {
+        "title": "Love FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/7cru7g7rcwzuv",
+        "features": "/img/africa/senegal/love-fm.png",
+        "favorite": false
+    },
+    "rewmi-fm-97-5": {
+        "title": "Rewmi FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rewmi.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/nkzsqg16t8quv",
+        "features": "/img/africa/senegal/rewmi-fm-97-5.png",
+        "favorite": false
+    },
+    "radio-thiossane": {
+        "title": "Radio Thiossane",
+        "type": "audio/mpeg",
+        "url": "https://radiothiossane.net/",
+        "cros": false,
+        "stream": "https://listen.senemultimedia.net:8112/stream",
+        "features": "/img/africa/senegal/radio-thiossane.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/radio-thiossane?time="
+    },
+    "radio-dakar-city": {
+        "title": "Radio Dakar City",
+        "type": "audio/mpeg",
+        "url": "https://radiodakarcity.com/",
+        "cros": true,
+        "stream": "http://listen.senemultimedia.net:8000/stream",
+        "features": "/img/africa/senegal/radio-dakar-city.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/radio-dakar-city?time="
+    },
+    "kawande": {
+        "title": "Radio Kawande",
+        "type": "audio/mpeg",
+        "url": "http://gasbakel.free.fr/radios/Radio%20kawande.html",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/7ns6amt68qruv",
+        "features": "/img/africa/senegal/kawande.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/kawande?time="
+    },
+    "xiisa": {
+        "title": "Radio Xiisa",
+        "type": "audio/mpeg",
+        "url": "http://gasbakel.free.fr/radios/RadioxKiisa.html",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/cynrezdwtzzuv",
+        "features": "/img/africa/senegal/xiisa.png",
+        "favorite": false
+    },
+    "fleuve-de-vie-senegal": {
+        "title": "Radio Fleuve de Vie Sénégal",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/fleuve-de-vie-senegal/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/tbb9mv10x1zuv",
+        "features": "/img/africa/senegal/fleuve-de-vie-senegal.png",
+        "favorite": false
+    },
+    "sen-vision-medias": {
+        "title": "Radio Sen Vision Médias",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/221RSVM/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/171yxqd9ewzuv",
+        "features": "/img/africa/senegal/sen-vision-medias.png",
+        "favorite": false
+    },
+    "radio-coran-afrique": {
+        "title": "Radio Coran Afrique",
+        "type": "audio/mpeg",
+        "url": "http://radiosoninkes.free.fr/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/hnp45knerm0uv",
+        "features": "/img/africa/senegal/radio-coran-afrique.png",
+        "favorite": false
+    },
+    "africa": {
+        "title": "Africa Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.africaradio.com/",
+        "cros": false,
+        "stream": "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+        "features": "/img/africa/senegal/africa.png",
+        "favorite": false
+    },
+    "urum-bi": {
+        "title": "Radio Urum-Bi",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://www.radioking.com/play/urumu-soodaan/63217",
+        "features": "/img/africa/senegal/urum-bi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/135/urum-bi?time="
+    },
+    "afreeka-beat": {
+        "title": "Afreeka Beat Radio",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/afreeka-beat-radio/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/run2muwghf9uv",
+        "features": "/img/africa/senegal/afreeka-beat.png",
+        "favorite": false
+    },
+    "africa7": {
+        "title": "Africa7",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/rnbifn09oqotv",
+        "features": "/img/africa/senegal/africa7.png",
+        "favorite": false
+    },
+    "al-misbax": {
+        "title": "Al Misbax Radio",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/al-misbax-radio-almsbah-klmt-alaslam/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/trmql5dzquzvv",
+        "features": "/img/africa/senegal/al-misbax.png",
+        "favorite": false
+    },
+    "sweet-senegal": {
+        "title": "Sweet Radio Senegal",
+        "type": "audio/mpeg",
+        "url": "https://sweetradiosenegal.mystrikingly.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/jemecjfbczhuv",
+        "features": "/img/africa/senegal/sweet-senegal.png",
+        "favorite": false
+    },
+    "central-fm-thies": {
+        "title": "Central FM Thies",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/hr5vbyqkunhvv",
+        "features": "/img/africa/senegal/central-fm-thies.png",
+        "favorite": false
+    }
+}

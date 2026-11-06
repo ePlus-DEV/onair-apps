@@ -1,0 +1,418 @@
+{
+    "studio-brussel": {
+        "title": "Studio Brussel",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/livestream/audio/studio-brussel/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/stubru-high.mp3",
+        "features": "/img/europe/belgium/studio-brussel.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/129/studio-brussel?time="
+    },
+    "mnm": {
+        "title": "MNM",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/kanalen/mnm/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/mnm.aac",
+        "features": "/img/europe/belgium/mnm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/mnm?time="
+    },
+    "nostalgie-vlaanderen": {
+        "title": "Nostalgie (Vlaanderen)",
+        "type": "audio/mpeg",
+        "url": "https://www.nostalgie.be/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/5gd04cwptg0uv",
+        "features": "/img/europe/belgium/nostalgie-vlaanderen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/nostalgie-vlaanderen?time="
+    },
+    "vrt-1": {
+        "title": "VRT Radio 1",
+        "type": "audio/mpeg",
+        "url": "https://radio1.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/radio1.aac",
+        "features": "/img/europe/belgium/vrt-1.png",
+        "favorite": false
+    },
+    "joefm": {
+        "title": "JOE",
+        "type": "audio/mpeg",
+        "url": "https://joe.be/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/JOEAAC_SC",
+        "features": "/img/europe/belgium/joefm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/joefm?time="
+    },
+    "rtbf-classic-21": {
+        "title": "RTBF Classic 21",
+        "type": "audio/mpeg",
+        "url": "https://www.rtbf.be/classic21",
+        "cros": false,
+        "stream": "https://radios.rtbf.be/classic21-64.aac",
+        "features": "/img/europe/belgium/rtbf-classic-21.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/rtbf-classic-21?time="
+    },
+    "q-music": {
+        "title": "Qmusic",
+        "type": "audio/mpeg",
+        "url": "https://qmusic.be/",
+        "cros": false,
+        "stream": "https://icecast-qmusicbe-cdp.triple-it.nl/qmusic.mp3",
+        "features": "/img/europe/belgium/q-music.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/q-music?time="
+    },
+    "klara": {
+        "title": "VRT Klara",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/kanalen/klara/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/klara.aac",
+        "features": "/img/europe/belgium/klara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/klara?time="
+    },
+    "klara-continuo": {
+        "title": "Klara Continuo",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/kanalen/klara/",
+        "cros": false,
+        "stream": "https://vrt.streamabc.net/vrt-klaracontinuo-mp3-128-6851541",
+        "features": "/img/europe/belgium/klara-continuo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/klara-continuo?time="
+    },
+    "nostalgie": {
+        "title": "Nostalgie Belgique",
+        "type": "audio/mpeg",
+        "url": "https://www.nostalgie.be/",
+        "cros": false,
+        "stream": "https://n01a-eu.rcs.revma.com/5gd04cwptg0uv",
+        "features": "/img/europe/belgium/nostalgie.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/nostalgie?time="
+    },
+    "zen-fm": {
+        "title": "Top Zen",
+        "type": "audio/mpeg",
+        "url": "https://www.topradio.be/player/topzen",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TOPZEN_SC",
+        "features": "/img/europe/belgium/zen-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/zen-fm?time="
+    },
+    "minerva": {
+        "title": "Radio Minerva",
+        "type": "audio/mpeg",
+        "url": "https://www.radiominerva.be/radio/index.php",
+        "cros": false,
+        "stream": "https://icecast.movemedia.be/minerva",
+        "features": "/img/europe/belgium/minerva.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/minerva?time="
+    },
+    "contact": {
+        "title": "Radio Contact",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocontact.be/",
+        "cros": false,
+        "stream": "https://radiocontact.ice.infomaniak.ch/radiocontact-mp3-128.mp3",
+        "features": "/img/europe/belgium/contact.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/contact?time="
+    },
+    "mnm-hits": {
+        "title": "MNM Hits",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/kanalen/mnm/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/mnm_hits.aac",
+        "features": "/img/europe/belgium/mnm-hits.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/mnm-hits?time="
+    },
+    "crooze-fm": {
+        "title": "Crooze.FM",
+        "type": "audio/mpeg",
+        "url": "https://crooze.eu/nl/",
+        "cros": true,
+        "stream": "http://streams.crooze.fm:8000/stream/2/",
+        "features": "/img/europe/belgium/crooze-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/crooze-fm?time="
+    },
+    "top-belgium": {
+        "title": "TOPradio",
+        "type": "audio/mpeg",
+        "url": "https://www.topradio.be/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TOP_RADIO_SC",
+        "features": "/img/europe/belgium/top-belgium.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/top-belgium?time="
+    },
+    "nrj": {
+        "title": "NRJ Belgique",
+        "type": "audio/mpeg",
+        "url": "https://www.nrj.be/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/xh00fwuptg0uv",
+        "features": "/img/europe/belgium/nrj.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/nrj?time="
+    },
+    "stad": {
+        "title": "Radio Stad",
+        "type": "audio/mpeg",
+        "url": "https://radiostad.com/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/rn6ppyyfs18uv",
+        "features": "/img/europe/belgium/stad.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/stad?time="
+    },
+    "instrumentals-forever": {
+        "title": "Instrumentals Forever",
+        "type": "audio/mpeg",
+        "url": "https://instrumentalsforever.eu/",
+        "cros": false,
+        "stream": "https://bluford.torontocast.com/proxy/tpwlyniw/stream",
+        "features": "/img/europe/belgium/instrumentals-forever.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/instrumentals-forever?time="
+    },
+    "rgr-fm": {
+        "title": "RGR FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rgrfm.be/",
+        "cros": false,
+        "stream": "https://media1.hostin.cc/rgr2.mp3",
+        "features": "/img/europe/belgium/rgr-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/rgr-fm?time="
+    },
+    "rtbf-pure-fm": {
+        "title": "RTBF Pure FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rtbf.be/pure/",
+        "cros": false,
+        "stream": "https://radios.rtbf.be/pure-64.aac",
+        "features": "/img/europe/belgium/rtbf-pure-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/rtbf-pure-fm?time="
+    },
+    "bel-rtl": {
+        "title": "Bel RTL",
+        "type": "audio/mpeg",
+        "url": "https://www.rtl.be/",
+        "cros": false,
+        "stream": "https://ais-edge-c1.ice.infomaniak.ch/belrtl-mp3-192.mp3",
+        "features": "/img/europe/belgium/bel-rtl.png",
+        "favorite": false
+    },
+    "das-hitfm": {
+        "title": "Das Hitradio FM",
+        "type": "audio/mpeg",
+        "url": "https://dashitradio.de/",
+        "cros": false,
+        "stream": "https://dashitradio-stream21.radiohost.de/dashitradio_128?",
+        "features": "/img/europe/belgium/das-hitfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/das-hitfm?time="
+    },
+    "2-vlaams-brabant": {
+        "title": "Radio 2 (Vlaams Brabant)",
+        "type": "audio/mpeg",
+        "url": "https://radio2.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/ra2vlb-high.mp3",
+        "features": "/img/europe/belgium/2-vlaams-brabant.png",
+        "favorite": false
+    },
+    "2-west-vlaanderen": {
+        "title": "Radio 2 (West Vlaanderen)",
+        "type": "audio/mpeg",
+        "url": "https://radio2.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/ra2wvl.aac",
+        "features": "/img/europe/belgium/2-west-vlaanderen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/2-west-vlaanderen?time="
+    },
+    "2-oost-vlaanderen": {
+        "title": "Radio 2 (Oost Vlaanderen)",
+        "type": "audio/mpeg",
+        "url": "https://radio2.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/ra2ovl.aac",
+        "features": "/img/europe/belgium/2-oost-vlaanderen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/2-oost-vlaanderen?time="
+    },
+    "2-antwerpen": {
+        "title": "Radio 2 (Antwerpen)",
+        "type": "audio/mpeg",
+        "url": "https://radio2.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/ra2ant-high.mp3",
+        "features": "/img/europe/belgium/2-antwerpen.png",
+        "favorite": false
+    },
+    "2-limburg": {
+        "title": "Radio 2 (Limburg)",
+        "type": "audio/mpeg",
+        "url": "https://radio2.be/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/ra2lim.aac",
+        "features": "/img/europe/belgium/2-limburg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/2-limburg?time="
+    },
+    "depeche-mode": {
+        "title": "Www.depechemode.be Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.depechemode.be/",
+        "cros": false,
+        "stream": "https://c2.radioboss.fm:18494/stream",
+        "features": "/img/europe/belgium/depeche-mode.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/depeche-mode?time="
+    },
+    "slow": {
+        "title": "Slow Radio",
+        "type": "audio/mpeg",
+        "url": "http://en.slowradio.com/",
+        "cros": true,
+        "stream": "http://bluford.torontocast.com:8078/slowradio",
+        "features": "/img/europe/belgium/slow.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/slow?time="
+    },
+    "italia": {
+        "title": "Radio Italia",
+        "type": "audio/mpeg",
+        "url": "https://www.radioitalia.be/",
+        "cros": false,
+        "stream": "https://str01.fluidstream.net/charleroi.mp3",
+        "features": "/img/europe/belgium/italia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/italia?time="
+    },
+    "hit-fm": {
+        "title": "Hit FM",
+        "type": "audio/mpeg",
+        "url": "https://hitfm.be/",
+        "cros": true,
+        "stream": "http://stream.hitfm.be/hitfm",
+        "features": "/img/europe/belgium/hit-fm.png",
+        "favorite": false
+    },
+    "radio-expres": {
+        "title": "Radio Expres",
+        "type": "audio/mpeg",
+        "url": "http://www.radioexpres.be/",
+        "cros": true,
+        "stream": "http://www.clubfmserver.be:8000/expres.mp3",
+        "features": "/img/europe/belgium/radio-expres.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/radio-expres?time="
+    },
+    "nostalgie-60": {
+        "title": "Nostalgie 60",
+        "type": "audio/mpeg",
+        "url": "https://www.nostalgie.be/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/q04c62u3ehuvv",
+        "features": "/img/europe/belgium/nostalgie-60.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/129/nostalgie-60?time="
+    },
+    "bruzz": {
+        "title": "Bruzz Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.bruzz.be/radioprogramma",
+        "cros": false,
+        "stream": "https://rrr.sz.xlcdn.com/?account=fmbrussel&file=BRUZZ_HQ&type=live&service=icecast&port=8000&output=pls",
+        "features": "/img/europe/belgium/bruzz.png",
+        "favorite": false
+    },
+    "reggae-connection": {
+        "title": "Reggae Connection",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/reggae-connection/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/fqwxrqhtknruv",
+        "features": "/img/europe/belgium/reggae-connection.png",
+        "favorite": false
+    },
+    "arabel": {
+        "title": "AraBel FM",
+        "type": "audio/mpeg",
+        "url": "https://www.arabel.fm/",
+        "cros": false,
+        "stream": "https://arabelfm.ice.infomaniak.ch/arabelprodcastfm.mp3",
+        "features": "/img/europe/belgium/arabel.png",
+        "favorite": false
+    },
+    "rtbf-musiq-3": {
+        "title": "RTBF Musiq 3",
+        "type": "audio/mpeg",
+        "url": "https://www.rtbf.be/musiq3",
+        "cros": false,
+        "stream": "https://radios.rtbf.be/musiq3-128.aac",
+        "features": "/img/europe/belgium/rtbf-musiq-3.png",
+        "favorite": false
+    },
+    "bruce": {
+        "title": "Bruce",
+        "type": "audio/mpeg",
+        "url": "https://www.bruce-radio.be/",
+        "cros": false,
+        "stream": "https://stream.bruce-radio.be/bruce-classic-rock",
+        "features": "/img/europe/belgium/bruce.png",
+        "favorite": false
+    },
+    "rtbf-vivacite-bruxelles": {
+        "title": "RTBF VivaCité (Bruxelles)",
+        "type": "audio/mpeg",
+        "url": "https://www.rtbf.be/vivacite",
+        "cros": false,
+        "stream": "https://radios.rtbf.be/vivabxl-64.aac",
+        "features": "/img/europe/belgium/rtbf-vivacite-bruxelles.png",
+        "favorite": false
+    },
+    "vibration": {
+        "title": "Vibration",
+        "type": "audio/mpeg",
+        "url": "https://vibration.fm/",
+        "cros": false,
+        "stream": "https://vibrationbelgique.ice.infomaniak.ch/vibrationbelgique-high.mp3",
+        "features": "/img/europe/belgium/vibration.png",
+        "favorite": false
+    },
+    "rtbf-la-premiere": {
+        "title": "RTBF La Première",
+        "type": "audio/mpeg",
+        "url": "https://www.rtbf.be/lapremiere",
+        "cros": false,
+        "stream": "https://radios.rtbf.be/laprem1ere-64.aac",
+        "features": "/img/europe/belgium/rtbf-la-premiere.png",
+        "favorite": false
+    },
+    "stubru-the-greates-switch": {
+        "title": "StuBru The Greatest Switch",
+        "type": "audio/mpeg",
+        "url": "https://www.vrt.be/vrtmax/kanalen/studio-brussel/",
+        "cros": false,
+        "stream": "https://icecast.vrtcdn.be/stubru_tgs-high.mp3",
+        "features": "/img/europe/belgium/stubru-the-greates-switch.png",
+        "favorite": false
+    }
+}

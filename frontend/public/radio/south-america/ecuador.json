@@ -1,0 +1,372 @@
+{
+    "la-suprema": {
+        "title": "La Suprema Estación (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.la961.com/",
+        "cros": false,
+        "stream": "https://dattavolt.com/8150/stream/1/",
+        "features": "/img/south-america/ecuador/la-suprema.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/la-suprema?time=",
+        "favorite": true
+    },
+    "alfa": {
+        "title": "Alfa Radio (Guayaquil)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.alfa.com.ec/",
+        "cros": false,
+        "stream": "https://alba-ec-alfa-alfa.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/ecuador/alfa.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/alfa?time="
+    },
+    "la-bruja": {
+        "title": "JC Radio La Bruja (Quito)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://s7.yesstreaming.net:8040/stream",
+        "features": "/img/south-america/ecuador/la-bruja.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/la-bruja?time="
+    },
+    "hcjb": {
+        "title": "Radio HCJB (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://hcjb.org/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8287/hcjb",
+        "features": "/img/south-america/ecuador/hcjb.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/hcjb?time="
+    },
+    "la-voz-cuenca": {
+        "title": "La Voz del Tomebamba (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.lavozdeltomebamba.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:8074/lavozdeltomebamba",
+        "features": "/img/south-america/ecuador/la-voz-cuenca.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/la-voz-cuenca?time="
+    },
+    "diblu": {
+        "title": "Diblu FM",
+        "type": "audio/mpeg",
+        "url": "https://diblu.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:9002/stream",
+        "features": "/img/south-america/ecuador/diblu.png"
+    },
+    "maria": {
+        "title": "Radio María (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://radiomariaecuador.org/",
+        "cros": false,
+        "stream": "https://radioserver11.profesionalhosting.com:19069/stream",
+        "features": "/img/south-america/ecuador/maria.png"
+    },
+    "tropicalida": {
+        "title": "Tropicálida Super Stereo (Guayaquil)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.tropicalida.com.ec/",
+        "cros": false,
+        "stream": "https://alba-ec-tropicalida-tropicalida.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/ecuador/tropicalida.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/tropicalida?time="
+    },
+    "disney": {
+        "title": "Radio Disney",
+        "type": "audio/mpeg",
+        "url": "https://ec.radiodisney.com/home",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ECU_GY_SC",
+        "features": "/img/south-america/ecuador/disney.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/disney?time="
+    },
+    "canela": {
+        "title": "Radio Canela",
+        "type": "audio/mpeg",
+        "url": "https://web.canelaradio.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:9280/stream",
+        "features": "/img/south-america/ecuador/canela.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/canela?time="
+    },
+    "otra-guayaquil": {
+        "title": "La Otra FM (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://web.laotrafm.com/",
+        "cros": false,
+        "stream": "https://laotrafm.makrodigital.com:9590/stream",
+        "features": "/img/south-america/ecuador/otra-guayaquil.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/otra-guayaquil?time="
+    },
+    "hcjb-machala": {
+        "title": "HCJB 2 (Machala)",
+        "type": "audio/mpeg",
+        "url": "https://hcjb2.org/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8013/hcjb2",
+        "features": "/img/south-america/ecuador/hcjb-machala.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/hcjb-machala?time="
+    },
+    "radio-america": {
+        "title": "Radio América Estereo (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://www.americaestereo.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com/stream/americaestereo",
+        "features": "/img/south-america/ecuador/radio-america.png"
+    },
+    "centro-977": {
+        "title": "Radio Centro",
+        "type": "audio/mpeg",
+        "url": "https://centroecuador.ec/",
+        "cros": false,
+        "stream": "https://sonicpanel.zonahost.in/8792/stream/1/",
+        "features": "/img/south-america/ecuador/centro-977.png"
+    },
+    "la-red": {
+        "title": "Radio La Red (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://lared.com.ec/",
+        "cros": false,
+        "stream": "https://icecast.radiolared.com.ec/radiolared",
+        "features": "/img/south-america/ecuador/la-red.png"
+    },
+    "exa": {
+        "title": "Exa",
+        "type": "audio/mpeg",
+        "url": "https://exafm.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ECUADOR_SC",
+        "features": "/img/south-america/ecuador/exa.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/exa?time="
+    },
+    "sucre": {
+        "title": "Radio Sucre (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://radiosucre.com.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8076/radiosucre",
+        "features": "/img/south-america/ecuador/sucre.png"
+    },
+    "galaxia": {
+        "title": "Radio Galaxia (Guayaquil)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.galaxia.com.ec/",
+        "cros": false,
+        "stream": "https://alba-ec-galaxia-galaxia.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/ecuador/galaxia.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/galaxia?time="
+    },
+    "jc-machala": {
+        "title": "JC Radio (Machala)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://s7.yesstreaming.net:8040/stream",
+        "features": "/img/south-america/ecuador/jc-machala.png"
+    },
+    "la-rumbera": {
+        "title": "Radio La Rumbera (Quito)",
+        "type": "application/x-mpegURL",
+        "url": "https://rumbera9970.com/",
+        "cros": false,
+        "stream": "https://cast.uncuartocomunicacion.com/hls/larumbera/live.m3u8",
+        "features": "/img/south-america/ecuador/la-rumbera.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/la-rumbera?time="
+    },
+    "caravana-carchi": {
+        "title": "Radio Caravana (Carchi)",
+        "type": "audio/mpeg",
+        "url": "https://radiocaravana.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:9006/stream",
+        "features": "/img/south-america/ecuador/caravana-carchi.png"
+    },
+    "la-metro": {
+        "title": "Radio La Metro (Quito)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.lametro.com.ec/",
+        "cros": false,
+        "stream": "https://alba-ec-lametro-lametro.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/ecuador/la-metro.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/la-metro?time="
+    },
+    "mundo": {
+        "title": "FM Mundo (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://fmmundo.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8066/fmmundo",
+        "features": "/img/south-america/ecuador/mundo.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/mundo?time="
+    },
+    "k1": {
+        "title": "Radio K1 (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiok1.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:8000/radiok1",
+        "features": "/img/south-america/ecuador/k1.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/k1?time="
+    },
+    "sonorama": {
+        "title": "Sonorama FM (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://www.sonorama.com.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:7013/stream",
+        "features": "/img/south-america/ecuador/sonorama.png"
+    },
+    "huancavilca-guayaquil": {
+        "title": "Radio Huancavilca (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://radiohuancavilca.com.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:7078/stream",
+        "features": "/img/south-america/ecuador/huancavilca-guayaquil.png"
+    },
+    "radioactiva-cuenca": {
+        "title": "Radioactiva (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioactiva.ec/",
+        "cros": true,
+        "stream": "http://dattavolt.com:8394/stream",
+        "features": "/img/south-america/ecuador/radioactiva-cuenca.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/radioactiva-cuenca?time="
+    },
+    "super-cuenca": {
+        "title": "Super FM (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.super949.com/",
+        "cros": true,
+        "stream": "http://dattavolt.com:8028/stream",
+        "features": "/img/south-america/ecuador/super-cuenca.png"
+    },
+    "punto-guayaquil": {
+        "title": "Radio Punto Rojo (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopuntorojo.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:8970/stream",
+        "features": "/img/south-america/ecuador/punto-guayaquil.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/punto-guayaquil?time="
+    },
+    "joya": {
+        "title": "Joya Stereo (Quito)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.joya.com.ec/",
+        "cros": false,
+        "stream": "https://alba-ec-joya-joya.stream.mediatiquestream.com/chunks.m3u8",
+        "features": "/img/south-america/ecuador/joya.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/joya?time="
+    },
+    "majestad": {
+        "title": "Radio Majestad (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://radiomajestad.com/",
+        "cros": false,
+        "stream": "https://sonicpanel.tmcreativos.com:8084/stream/1/",
+        "features": "/img/south-america/ecuador/majestad.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/majestad?time="
+    },
+    "rumba-guayaquil": {
+        "title": "Radio Rumba Network FM (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://radiorumba.fm/",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8078/radiorumbanetwork",
+        "features": "/img/south-america/ecuador/rumba-guayaquil.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/rumba-guayaquil?time="
+    },
+    "romance-guayaquil": {
+        "title": "Radio Romance (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioromance.com/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:9010/stream",
+        "features": "/img/south-america/ecuador/romance-guayaquil.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/romance-guayaquil?time="
+    },
+    "zaracay-quevedo": {
+        "title": "Radio Zaracay (Quevedo)",
+        "type": "audio/mpeg",
+        "url": "https://www.zaracayradio.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/as3xhhc0ts8uv",
+        "features": "/img/south-america/ecuador/zaracay-quevedo.png"
+    },
+    "tiempo-quito": {
+        "title": "Radio Nuevo Tiempo FM 92.1 FM (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://www.nuevotiempo.org.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.net/stream/radionuevotiempo",
+        "features": "/img/south-america/ecuador/tiempo-quito.png"
+    },
+    "complice-fm-cuenca": {
+        "title": "Radio Cómplice (Cuenca)",
+        "type": "audio/mpeg",
+        "url": "https://www.complicefm.com/",
+        "cros": true,
+        "stream": "http://dattavolt.com:8422/stream",
+        "features": "/img/south-america/ecuador/complice-fm-cuenca.png"
+    },
+    "platinum": {
+        "title": "Radio Platinum (Quito)",
+        "type": "audio/mpeg",
+        "url": "https://www.ecuadoradio.ec/",
+        "cros": false,
+        "stream": "https://streamingecuador.com:8160/radioplatinum",
+        "features": "/img/south-america/ecuador/platinum.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/platinum?time="
+    },
+    "quito": {
+        "title": "Radio Quito",
+        "type": "audio/mpeg",
+        "url": "https://www.ecuadoradio.ec/horarios-radio-quito",
+        "cros": false,
+        "stream": "https://streamingecuador.net:8332/radioquito",
+        "features": "/img/south-america/ecuador/quito.png"
+    },
+    "andina": {
+        "title": "Radio Andina",
+        "type": "audio/mpeg",
+        "url": "https://radioandinariobamba.com/",
+        "cros": false,
+        "stream": "https://grupomundodigital.com:8580/stream",
+        "features": "/img/south-america/ecuador/andina.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/andina?time="
+    },
+    "930-amambato": {
+        "title": "Radio Ambato",
+        "type": "audio/mpeg",
+        "url": "https://radioambato.com.ec/",
+        "cros": true,
+        "stream": "http://190.99.72.142:8000/radioambato",
+        "features": "/img/south-america/ecuador/930-amambato.png"
+    },
+    "cristal": {
+        "title": "Radio Cristal",
+        "type": "audio/mpeg",
+        "url": "https://radiocristal.com.ec/",
+        "cros": false,
+        "stream": "https://streaming.ecuastreaming.com/9958/stream/1/",
+        "features": "/img/south-america/ecuador/cristal.png"
+    },
+    "scandalo-potoviejo": {
+        "title": "Radio Scandalo (Portoviejo)",
+        "type": "audio/mpeg",
+        "url": "https://radioscandalo.com/",
+        "cros": true,
+        "stream": "http://str.manaideas.com:8000/stream/1/",
+        "features": "/img/south-america/ecuador/scandalo-potoviejo.png"
+    },
+    "morena": {
+        "title": "Radio Morena (Guayaquil)",
+        "type": "audio/mpeg",
+        "url": "https://radiomorena640.com/",
+        "cros": false,
+        "stream": "https://www.mistr3m.com:2020/stream/radiomorena",
+        "features": "/img/south-america/ecuador/morena.png",
+        "schedule": "https://api.webrad.io/data/playlist/44/morena?time="
+    }
+}

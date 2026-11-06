@@ -1,0 +1,378 @@
+{
+  "nrj-france": {
+    "title": "NRJ",
+    "type": "audio/mpeg",
+    "url": "https://www.nrj.fr/",
+    "cros": false,
+    "stream": "https://scdn.nrjaudio.fm/adwz2/fr/30001/mp3_128.mp3?origine=ecouterradioenligne",
+    "features": "/img/europe/france/nrj-france.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/nrj-france?time=",
+    "favorite": true
+  },
+  "skyrock": {
+    "title": "Skyrock FM",
+    "type": "audio/mpeg",
+    "url": "https://skyrock.fm/",
+    "cros": false,
+    "stream": "https://www.skyrock.fm/stream.php/ecouterradioenligne_64aac.aac",
+    "features": "/img/europe/france/skyrock.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/skyrock?time="
+  },
+  "rfi": {
+    "title": "RFI",
+    "type": "audio/mpeg",
+    "url": "https://www.rfi.fr/en/",
+    "cros": false,
+    "stream": "https://rfimonde-96k.ice.infomaniak.ch/rfimonde-96k.mp3",
+    "features": "/img/europe/france/rfi.png"
+  },
+  "rfm": {
+    "title": "RFM",
+    "type": "audio/mpeg",
+    "url": "http://www.rfm.fr/",
+    "cros": false,
+    "stream": "https://stream.rfm.fr/rfm.aac?aw_0_1st.playerid=lgrdrnwsEcouterRadioEnLigne",
+    "features": "/img/europe/france/rfm.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/rfm?time="
+  },
+  "france-inter": {
+    "title": "France Inter",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofrance.fr/franceinter",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/franceinter-midfi.mp3?ID=76zqey582k",
+    "features": "/img/europe/france/france-inter.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/france-inter?time="
+  },
+  "nostalgie": {
+    "title": "Nostalgie",
+    "type": "audio/mpeg",
+    "url": "https://www.nostalgie.fr/",
+    "cros": false,
+    "stream": "https://scdn.nrjaudio.fm/adwz2/fr/30601/mp3_128.mp3?origine=ecouterradioenligne",
+    "features": "/img/europe/france/nostalgie.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/nostalgie?time="
+  },
+  "europe-2": {
+    "title": "Europe 2",
+    "type": "audio/mpeg",
+    "url": "https://www.europe2.fr/",
+    "cros": false,
+    "stream": "https://europe2.lmn.fm/europe2.aac?aw_0_1st.playerid=lgrdnwsEcouterRadioEnLigne",
+    "features": "/img/europe/france/europe-2.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/europe-2?time="
+  },
+  "rire-et-chanson": {
+    "title": "Rire et Chansons",
+    "type": "audio/mpeg",
+    "url": "https://www.rireetchansons.fr/",
+    "cros": false,
+    "stream": "https://scdn.nrjaudio.fm/adwz2/fr/30401/mp3_128.mp3?origine=ecouterradioenligne",
+    "features": "/img/europe/france/rire-et-chanson.png"
+  },
+  "rtl": {
+    "title": "RTL",
+    "type": "audio/mpeg",
+    "url": "https://www.rtl.fr/",
+    "cros": false,
+    "stream": "https://icecast.rtl.fr/rtl-1-44-128?listen=wEbAg4KDwgDCgkFBA4NBAQCCA",
+    "features": "/img/europe/france/rtl.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/rtl?time="
+  },
+  "cherie": {
+    "title": "Chérie FM",
+    "type": "audio/mpeg",
+    "url": "https://www.cheriefm.fr/",
+    "cros": false,
+    "stream": "https://scdn.nrjaudio.fm/adwz2/fr/30201/mp3_128.mp3?origine=ecouterradioenligne",
+    "features": "/img/europe/france/cherie.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/cherie?time="
+  },
+  "france-info": {
+    "title": "France Info France",
+    "type": "audio/mpeg",
+    "url": "https://www.francetvinfo.fr/",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/franceinfo-midfi.mp3",
+    "features": "/img/europe/france/france-info.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/france-info?time="
+  },
+  "europe": {
+    "title": "Europe 1",
+    "type": "audio/mpeg",
+    "url": "https://www.europe1.fr/",
+    "cros": false,
+    "stream": "https://stream.europe1.fr/europe1.aac?aw_0_1st.playerid=lgrdrnwsEcouterRadioEnLigne",
+    "features": "/img/europe/france/europe.png"
+  },
+  "rtl2": {
+    "title": "RTL 2",
+    "type": "audio/mpeg",
+    "url": "https://www.rtl2.fr/",
+    "cros": false,
+    "stream": "https://icecast.rtl.fr/rtl2-1-44-128?listen=webAg4KDwgDCgkFBA4NBAQCCA",
+    "features": "/img/europe/france/rtl2.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/rtl2?time="
+  },
+  "france-culture": {
+    "title": "Radio France Culture",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofrance.fr/franceculture",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/franceculture-midfi.mp3",
+    "features": "/img/europe/france/france-culture.png"
+  },
+  "beur": {
+    "title": "Beur FM (Paris)",
+    "type": "audio/mpeg",
+    "url": "https://www.beurfm.net/",
+    "cros": false,
+    "stream": "https://beurfm.ice.infomaniak.ch/beurfm-high.mp3",
+    "features": "/img/europe/france/beur.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/beur?time="
+  },
+  "fip": {
+    "title": "Radio FIP",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofrance.fr/fip",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/fip-midfi.mp3",
+    "features": "/img/europe/france/fip.png"
+  },
+  "mfm": {
+    "title": "M Radio",
+    "type": "audio/mpeg",
+    "url": "https://mradio.fr/",
+    "cros": false,
+    "stream": "https://mfm.ice.infomaniak.ch/mfm-64.aac",
+    "features": "/img/europe/france/mfm.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/mfm?time="
+  },
+  "latina": {
+    "title": "Latina",
+    "type": "audio/mpeg",
+    "url": "https://www.latina.fr/",
+    "cros": false,
+    "stream": "https://start-latina.ice.infomaniak.ch/start-latina-high.mp3",
+    "features": "/img/europe/france/latina.png"
+  },
+  "fg-dj": {
+    "title": "FG DJ Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofg.com/",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/7081n2b6p98uv",
+    "features": "/img/europe/france/fg-dj.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/fg-dj?time="
+  },
+  "orient": {
+    "title": "Radio Orient",
+    "type": "audio/mpeg",
+    "url": "https://www.radioorient.com/",
+    "cros": false,
+    "stream": "https://n03a-eu.rcs.revma.com/7hnrkawf4p8uv.mp3",
+    "features": "/img/europe/france/orient.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/orient?time="
+  },
+  "jazz": {
+    "title": "Jazz Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.jazzradio.fr/",
+    "cros": false,
+    "stream": "https://jazzradio.ice.infomaniak.ch/jazzradio-high.aac",
+    "features": "/img/europe/france/jazz.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/jazz?time="
+  },
+  "ado": {
+    "title": "Swigg Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.swigg.fr/",
+    "cros": false,
+    "stream": "https://start-adofm.ice.infomaniak.ch/start-adofm-high.mp3",
+    "features": "/img/europe/france/ado.png"
+  },
+  "chante-france": {
+    "title": "Chante France",
+    "type": "audio/mpeg",
+    "url": "https://www.chantefrance.com/",
+    "cros": false,
+    "stream": "https://chantefrance.ice.infomaniak.ch/chantefrance-96.aac",
+    "features": "/img/europe/france/chante-france.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/chante-france?time="
+  },
+  "france-musique": {
+    "title": "Radio France Musique",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofrance.fr/francemusique",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/francemusique-midfi.mp3?ID=76zqey582k",
+    "features": "/img/europe/france/france-musique.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/france-musique?time="
+  },
+  "contact-fm": {
+    "title": "Contact la Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.mycontact.fr/",
+    "cros": false,
+    "stream": "https://n44a-eu.rcs.revma.com/6gygqc1gy7uvv",
+    "features": "/img/europe/france/contact-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/contact-fm?time="
+  },
+  "generations": {
+    "title": "Generations",
+    "type": "audio/mpeg",
+    "url": "https://generations.fr/",
+    "cros": false,
+    "stream": "https://generationfm.ice.infomaniak.ch/generationfm-high.mp3",
+    "features": "/img/europe/france/generations.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/generations?time="
+  },
+  "oui-fm": {
+    "title": "OÜI FM",
+    "type": "audio/mpeg",
+    "url": "https://www.ouifm.fr/",
+    "cros": false,
+    "stream": "https://ouifm.ice.infomaniak.ch/ouifm-high.mp3",
+    "features": "/img/europe/france/oui-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/oui-fm?time="
+  },
+  "africa-radio": {
+    "title": "Africa Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.africaradio.com/",
+    "cros": false,
+    "stream": "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+    "features": "/img/europe/france/africa-radio.png"
+  },
+  "classique": {
+    "title": "Radio Classique",
+    "type": "audio/mpeg",
+    "url": "https://www.radioclassique.fr/",
+    "cros": false,
+    "stream": "https://radioclassique.ice.infomaniak.ch/radioclassique-high.aac",
+    "features": "/img/europe/france/classique.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/classique?time="
+  },
+  "voltage": {
+    "title": "Voltage",
+    "type": "audio/mpeg",
+    "url": "https://www.voltage.fr/",
+    "cros": false,
+    "stream": "https://start-voltage.ice.infomaniak.ch/start-voltage-high.aac",
+    "features": "/img/europe/france/voltage.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/voltage?time="
+  },
+  "meuh": {
+    "title": "Radio Meuh",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomeuh.com/",
+    "cros": false,
+    "stream": "https://radiomeuh.ice.infomaniak.ch/radiomeuh-128.mp3",
+    "features": "/img/europe/france/meuh.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/meuh?time="
+  },
+  "alouette": {
+    "title": "Alouette",
+    "type": "audio/mpeg",
+    "url": "https://www.alouette.fr/",
+    "cros": false,
+    "stream": "https://alouette.ice.infomaniak.ch/alouette-high.aac",
+    "features": "/img/europe/france/alouette.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/alouette?time="
+  },
+  "vibration": {
+    "title": "Vibration",
+    "type": "audio/mpeg",
+    "url": "https://www.vibration.fr/",
+    "cros": false,
+    "stream": "https://vibration.ice.infomaniak.ch/vibration-high.mp3",
+    "features": "/img/europe/france/vibration.png"
+  },
+  "fun": {
+    "title": "Fun Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.funradio.fr/",
+    "cros": false,
+    "stream": "https://streaming.radio.rtl.fr/fun-1-44-128?listen=wEbAg4KDwgDCgkFBA4NBAQCCA",
+    "features": "/img/europe/france/fun.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/fun?time="
+  },
+  "le-mouv-ajaccio": {
+    "title": "Mouv' (Ajaccio)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofrance.fr/mouv",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/mouv-midfi.mp3",
+    "features": "/img/europe/france/le-mouv-ajaccio.png"
+  },
+  "monte-carlo-doualiya": {
+    "title": "Monte Carlo Doualiya",
+    "type": "audio/mpeg",
+    "url": "https://www.mc-doualiya.com/",
+    "cros": false,
+    "stream": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+    "features": "/img/europe/france/monte-carlo-doualiya.png"
+  },
+  "tropiques-paris": {
+    "title": "Tropiques FM (Paris)",
+    "type": "audio/mpeg",
+    "url": "https://www.tropiquesfm.com/",
+    "cros": false,
+    "stream": "https://listen.radioking.com/radio/8916/stream/19088",
+    "features": "/img/europe/france/tropiques-paris.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/tropiques-paris?time="
+  },
+  "maghreb-2": {
+    "title": "France Maghreb 2 France",
+    "type": "audio/mpeg",
+    "url": "https://www.francemaghreb2.fr/",
+    "cros": false,
+    "stream": "https://francemaghreb2.ice.infomaniak.ch/francemaghreb2-high.mp3",
+    "features": "/img/europe/france/maghreb-2.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/maghreb-2?time="
+  },
+  "hit-west": {
+    "title": "Hit West",
+    "type": "audio/mpeg",
+    "url": "https://hitwest.ouest-france.fr/",
+    "cros": false,
+    "stream": "https://hitwest-angers.ice.infomaniak.ch/hitwest-angers-128.aac",
+    "features": "/img/europe/france/hit-west.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/hit-west?time="
+  },
+  "metropolys": {
+    "title": "Radio Metropolys",
+    "type": "audio/mpeg",
+    "url": "https://www.metropolys.com/",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/rvwymh32w42vv",
+    "features": "/img/europe/france/metropolys.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/metropolys?time="
+  },
+  "la-grosse": {
+    "title": "La Grosse Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.lagrosseradio.com/",
+    "cros": false,
+    "stream": "https://hd.lagrosseradio.info/lagrosseradio-reggae-192.mp3",
+    "features": "/img/europe/france/la-grosse.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/la-grosse?time="
+  },
+  "france-bleu": {
+    "title": "France Bleu France",
+    "type": "audio/mpeg",
+    "url": "https://www.francebleu.fr/",
+    "cros": false,
+    "stream": "https://icecast.radiofrance.fr/fb1071-lofi.mp3",
+    "features": "/img/europe/france/france-bleu.png"
+  },
+  "salam-lyon": {
+    "title": "Radio Salam (Lyon)",
+    "type": "audio/mpeg",
+    "url": "https://radiosalam.com/",
+    "cros": false,
+    "stream": "https://radiosalam.ice.infomaniak.ch/radiosalam-128.mp3",
+    "features": "/img/europe/france/salam-lyon.png",
+    "schedule": "https://api.webrad.io/data/playlist/37/salam-lyon?time="
+  }
+}

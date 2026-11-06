@@ -1,0 +1,378 @@
+{
+  "tele-ginen": {
+    "title": "Radio Télé Ginen",
+    "type": "audio/mpeg",
+    "url": "https://rtghaiti.com/",
+    "cros": true,
+    "stream": "http://node-14.zeno.fm:80/f3bysky14neuv",
+    "features": "/img/north-america/haiti/tele-ginen.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/tele-ginen?time=",
+    "favorite": true
+  },
+  "caraibes-fm": {
+    "title": "Radio Caraibes FM",
+    "type": "audio/mpeg",
+    "url": "https://www.radiotelecaraibes.com/",
+    "cros": true,
+    "stream": "http://node-09.zeno.fm:80/85vrb424d4duv",
+    "features": "/img/north-america/haiti/caraibes-fm.png"
+  },
+  "kiskeya": {
+    "title": "Radio Kiskeya",
+    "type": "audio/mpeg",
+    "url": "http://www.radiokiskeya.com/",
+    "cros": true,
+    "stream": "http://node-23.zeno.fm:80/e1h2k2t62neuv",
+    "features": "/img/north-america/haiti/kiskeya.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/kiskeya?time="
+  },
+  "vision-2000": {
+    "title": "Radio Vision 2000",
+    "type": "audio/mpeg",
+    "url": "https://radiotelevision2000.com/home/",
+    "cros": true,
+    "stream": "http://162.220.59.26:9062/;",
+    "features": "/img/north-america/haiti/vision-2000.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/vision-2000?time="
+  },
+  "scoop-fm": {
+    "title": "Radio Scoop FM",
+    "type": "audio/mpeg",
+    "url": "https://www.scoopfmhaiti.com/",
+    "cros": true,
+    "stream": "http://node-14.zeno.fm:80/3g5qt517gkeuv",
+    "features": "/img/north-america/haiti/scoop-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/scoop-fm?time="
+  },
+  "lumiere": {
+    "title": "Radio Lumiere",
+    "type": "audio/mpeg",
+    "url": "https://www.radiolumiere.org/en/",
+    "cros": true,
+    "stream": "http://node-18.zeno.fm:80/hycg8t45puquv",
+    "features": "/img/north-america/haiti/lumiere.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/lumiere?time="
+  },
+  "zenith-fm": {
+    "title": "Zenith FM",
+    "type": "audio/mpeg",
+    "url": "http://www.radiotelezenith.net/",
+    "cros": true,
+    "stream": "http://node-19.zeno.fm:80/s3rqkr0w5neuv",
+    "features": "/img/north-america/haiti/zenith-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/zenith-fm?time="
+  },
+  "signal-fm": {
+    "title": "Signal FM",
+    "type": "audio/mpeg",
+    "url": "https://www.signalfmhaiti.com/",
+    "cros": true,
+    "stream": "http://node-02.zeno.fm:80/uttk3q6saxquv",
+    "features": "/img/north-america/haiti/signal-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/signal-fm?time="
+  },
+  "shalom-haiti": {
+    "title": "Radio Shalom Haiti",
+    "type": "audio/mpeg",
+    "url": "https://shalomhaiti.org/",
+    "cros": true,
+    "stream": "http://node-09.zeno.fm:80/5dqy4z55puquv",
+    "features": "/img/north-america/haiti/shalom-haiti.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/shalom-haiti?time="
+  },
+  "ibo": {
+    "title": "Radio IBO",
+    "type": "audio/mpeg",
+    "url": "https://www.radioibo.ht/",
+    "cros": true,
+    "stream": "http://node-11.zeno.fm:80/8sqv5nauyxquv",
+    "features": "/img/north-america/haiti/ibo.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/ibo?time="
+  },
+  "metropole-haiti": {
+    "title": "Radio Metropole Haiti",
+    "type": "audio/mpeg",
+    "url": "https://metropole.ht/",
+    "cros": true,
+    "stream": "http://node-05.zeno.fm:80/bagk1wn9mbruv",
+    "features": "/img/north-america/haiti/metropole-haiti.png"
+  },
+  "tele-eclair": {
+    "title": "Radio Tele Eclair",
+    "type": "audio/mpeg",
+    "url": "https://radioteleeclair.com/",
+    "cros": true,
+    "stream": "http://n04.radiojar.com:80/2b0gs3cu4tzuv",
+    "features": "/img/north-america/haiti/tele-eclair.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/tele-eclair?time="
+  },
+  "4veh": {
+    "title": "Radio 4VEH",
+    "type": "audio/mpeg",
+    "url": "https://4veh.org/",
+    "cros": true,
+    "stream": "http://node-11.zeno.fm:80/r966xy8qpxquv",
+    "features": "/img/north-america/haiti/4veh.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/4veh?time="
+  },
+  "galaxie": {
+    "title": "Radio Galaxie",
+    "type": "audio/mpeg",
+    "url": "https://radiogalaxiehaiti.com/live.html",
+    "cros": true,
+    "stream": "http://node-03.zeno.fm:80/6wghxqcn8a5tv",
+    "features": "/img/north-america/haiti/galaxie.png"
+  },
+  "voix-de-l-esperance": {
+    "title": "Voix de l'Espérance",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-12.zeno.fm:80/83eaqcp1g9duv",
+    "features": "/img/north-america/haiti/voix-de-l-esperance.png"
+  },
+  "carida-saint-marc": {
+    "title": "Carida FM Saint Marc)",
+    "type": "audio/mpeg",
+    "url": "https://carida.nbweb.co/",
+    "cros": true,
+    "stream": "http://usa13.fastcast4u.com:5615/stream/1/",
+    "features": "/img/north-america/haiti/carida-saint-marc.png"
+  },
+  "one": {
+    "title": "Radio One",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-12.zeno.fm:80/03rwbdr5x6duv",
+    "features": "/img/north-america/haiti/one.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/one?time="
+  },
+  "rch-2000": {
+    "title": "RCH 2000",
+    "type": "audio/mpeg",
+    "url": "http://rch2000.com/",
+    "cros": true,
+    "stream": "http://node-14.zeno.fm:80/03zpw4g52mzuv",
+    "features": "/img/north-america/haiti/rch-2000.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/rch-2000?time="
+  },
+  "energie-fm": {
+    "title": "Energie FM",
+    "type": "audio/mpeg",
+    "url": "https://energiefm.com/",
+    "cros": true,
+    "stream": "http://n11.radiojar.com:80/kvumcbeu9vzuv",
+    "features": "/img/north-america/haiti/energie-fm.png"
+  },
+  "timoun": {
+    "title": "Radio Timoun",
+    "type": "audio/mpeg",
+    "url": "http://www.radiotimounhaiti.com/",
+    "cros": true,
+    "stream": "https://streamingecuador.com:8004/franciscostereo",
+    "features": "/img/north-america/haiti/timoun.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/timoun?time="
+  },
+  "alleluia-fm-haiti-98-9": {
+    "title": "Alleluia FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-19.zeno.fm:80/qmcx9h70vd0uv",
+    "features": "/img/north-america/haiti/alleluia-fm-haiti-98-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/alleluia-fm-haiti-98-9?time="
+  },
+  "univers-fm": {
+    "title": "Univers FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-23.zeno.fm:80/7unxcs20vd0uv",
+    "features": "/img/north-america/haiti/univers-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/univers-fm?time="
+  },
+  "melodie-fm": {
+    "title": "Melodie FM",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomelodiehaiti.com/",
+    "cros": true,
+    "stream": "http://node-08.zeno.fm:80/w9q98pb5d4duv",
+    "features": "/img/north-america/haiti/melodie-fm.png"
+  },
+  "tete-a-tete": {
+    "title": "Radio Tete A Tete",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-10.zeno.fm:80/7u1qyt9se6quv",
+    "features": "/img/north-america/haiti/tete-a-tete.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/tete-a-tete?time="
+  },
+  "sweet-fm": {
+    "title": "Sweet FM",
+    "type": "audio/mpeg",
+    "url": "https://www.sweetfmhaiti.com/j3/index.php",
+    "cros": true,
+    "stream": "http://node-21.zeno.fm:80/0hmkqbr03mzuv",
+    "features": "/img/north-america/haiti/sweet-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/sweet-fm?time="
+  },
+  "soleil": {
+    "title": "Radio Soleil",
+    "type": "audio/mpeg",
+    "url": "http://www.radiosoleil.com/",
+    "cros": true,
+    "stream": "http://node-07.zeno.fm:80/kc8gdfzvha5tv",
+    "features": "/img/north-america/haiti/soleil.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/soleil?time="
+  },
+  "tele-superstar": {
+    "title": "Radio Télé SuperStar",
+    "type": "audio/mpeg",
+    "url": "https://www.superstarhaiti.com/",
+    "cros": true,
+    "stream": "http://node-01.zeno.fm:80/g8hm0q7ge7duv",
+    "features": "/img/north-america/haiti/tele-superstar.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/tele-superstar?time="
+  },
+  "rfm-haiti": {
+    "title": "RFM Haiti",
+    "type": "audio/mpeg",
+    "url": "http://rfmhaiti.com/",
+    "cros": true,
+    "stream": "http://node-15.zeno.fm:80/60a4dwpgyv5tv",
+    "features": "/img/north-america/haiti/rfm-haiti.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/rfm-haiti?time="
+  },
+  "solidarite": {
+    "title": "Radio Solidarite",
+    "type": "audio/mpeg",
+    "url": "http://www.radiosolidaritehaiti.net/",
+    "cros": true,
+    "stream": "http://s3.voscast.com:9566/stream/1/",
+    "features": "/img/north-america/haiti/solidarite.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/solidarite?time="
+  },
+  "intermix": {
+    "title": "Radio Intermix",
+    "type": "audio/mpeg",
+    "url": "https://www.radiointermix.com/",
+    "cros": true,
+    "stream": "http://sitegenial.com:8090/;",
+    "features": "/img/north-america/haiti/intermix.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/intermix?time="
+  },
+  "planet-compras": {
+    "title": "Planet Compas",
+    "type": "audio/mpeg",
+    "url": "https://planetcompas.com/live/",
+    "cros": true,
+    "stream": "http://usa3.fastcast4u.com:2040/stream/1/",
+    "features": "/img/north-america/haiti/planet-compras.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/planet-compras?time="
+  },
+  "planet-kreyol-fm": {
+    "title": "Planet Kreyol FM",
+    "type": "audio/mpeg",
+    "url": "https://radioplanetkreyol.fr.gd/Page-d-h-accueil.htm",
+    "cros": true,
+    "stream": "http://node-05.zeno.fm:80/bgtdxz0tn7zuv",
+    "features": "/img/north-america/haiti/planet-kreyol-fm.png"
+  },
+  "tropicale": {
+    "title": "Radio Tropicale",
+    "type": "audio/mpeg",
+    "url": "https://www.radiohaititropical.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/0kw6ux3dy4zuv.aac",
+    "features": "/img/north-america/haiti/tropicale.png"
+  },
+  "magik9-100-9-fm": {
+    "title": "Magik9",
+    "type": "audio/mpeg",
+    "url": "http://www.magik9.com/",
+    "cros": true,
+    "stream": "http://node-25.zeno.fm:80/nq6d116w5neuv",
+    "features": "/img/north-america/haiti/magik9-100-9-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/magik9-100-9-fm?time="
+  },
+  "la-brise-fm": {
+    "title": "La Brise FM",
+    "type": "audio/mpeg",
+    "url": "http://www.labrisefm.com/",
+    "cros": true,
+    "stream": "http://node-16.zeno.fm:80/63r779u3y6duv",
+    "features": "/img/north-america/haiti/la-brise-fm.png"
+  },
+  "sans-souci-fm": {
+    "title": "Sans Souci FM",
+    "type": "audio/mpeg",
+    "url": "http://radiosanssouci.com",
+    "cros": true,
+    "stream": "http://node-08.zeno.fm:80/wxc541y3e4duv",
+    "features": "/img/north-america/haiti/sans-souci-fm.png"
+  },
+  "tele-express-continental": {
+    "title": "Radio Télé Express Continental",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-13.zeno.fm:80/yr40ykmyc0quv",
+    "features": "/img/north-america/haiti/tele-express-continental.png"
+  },
+  "macaya-les-cayes": {
+    "title": "Radio Macaya (Les Cayes)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-15.zeno.fm:80/e7s1qpe5d4duv",
+    "features": "/img/north-america/haiti/macaya-les-cayes.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/macaya-les-cayes?time="
+  },
+  "levekanpe": {
+    "title": "Radio LeveKanpe",
+    "type": "audio/mpeg",
+    "url": "https://www.radiolevekanpehaiti.com/",
+    "cros": true,
+    "stream": "http://node-05.zeno.fm:80/dvkvu7qmr18uv",
+    "features": "/img/north-america/haiti/levekanpe.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/levekanpe?time="
+  },
+  "love-a-child-fm": {
+    "title": "Love a Child's Radio - English",
+    "type": "audio/mpeg",
+    "url": "https://loveachild.com/media/christian-radio-station-haiti/",
+    "cros": true,
+    "stream": "https://ctntv.getstreamhosting.com:8026/english",
+    "features": "/img/north-america/haiti/love-a-child-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/love-a-child-fm?time="
+  },
+  "impact-fm-91-7": {
+    "title": "Impact FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-05.zeno.fm:80/auct37d03yzuv",
+    "features": "/img/north-america/haiti/impact-fm-91-7.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/impact-fm-91-7?time="
+  },
+  "fenique-inter": {
+    "title": "Radio Fenique Inter",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-14.zeno.fm:80/ym8gkr28gm5tv",
+    "features": "/img/north-america/haiti/fenique-inter.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/fenique-inter?time="
+  },
+  "sun-gonaives": {
+    "title": "Radio Sun FM",
+    "type": "audio/mpeg",
+    "url": "https://www.sunfmhaiti.com/",
+    "cros": false,
+    "stream": "https://centova47.instainternet.com/proxy/radiosun?mp=/stream&1589213234923",
+    "features": "/img/north-america/haiti/sun-gonaives.png",
+    "schedule": "https://api.webrad.io/data/playlist/112/sun-gonaives?time="
+  }
+}

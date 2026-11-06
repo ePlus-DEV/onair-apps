@@ -1,0 +1,368 @@
+{
+    "radio-sokolad-98-fm": {
+        "title": "Radio Chocolate",
+        "type": "audio/mpeg",
+        "url": "https://chocoradio.ru/",
+        "cros": false,
+        "stream": "https://choco.hostingradio.ru:10010/fm",
+        "features": "/img/europe/russia/radio-sokolad-98-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-sokolad-98-fm?time=",
+        "favorite": true
+    },
+    "radio-monte-carlo-105-9-fm": {
+        "title": "Радио Monte Carlo",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://icecast227.ptspb.ru:8443/monte",
+        "features": "/img/europe/russia/radio-monte-carlo-105-9-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-monte-carlo-105-9-fm?time="
+    },
+    "radio-rekord-98-4-fm": {
+        "title": "Радио Рекорд ФМ",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radiorecord.ru/",
+        "cros": false,
+        "stream": "https://hls-01-radiorecord.hostingradio.ru/record/96/playlist.m3u8",
+        "features": "/img/europe/russia/radio-rekord-98-4-fm.png"
+    },
+    "hit-fm-107-4": {
+        "title": "Хит FM",
+        "type": "audio/mpeg",
+        "url": "https://hitfm.ru/",
+        "cros": false,
+        "stream": "https://hitfm.hostingradio.ru/hitfm96.aacp",
+        "features": "/img/europe/russia/hit-fm-107-4.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/hit-fm-107-4?time="
+    },
+    "radio-metro-102-4-fm": {
+        "title": "Радио МЕТРО",
+        "type": "audio/mpeg",
+        "url": "https://radiometro.ru/",
+        "cros": true,
+        "stream": "http://stream.radiometro.ru:8230/;",
+        "features": "/img/europe/russia/radio-metro-102-4-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-metro-102-4-fm?time="
+    },
+    "radio-dla-dvoih-90-6-fm": {
+        "title": "Радио для двоих",
+        "type": "audio/mpeg",
+        "url": "https://rddfm.ru/",
+        "cros": false,
+        "stream": "https://icecast-radiofortwo.cdnvideo.ru/radiofortwo",
+        "features": "/img/europe/russia/radio-dla-dvoih-90-6-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-dla-dvoih-90-6-fm?time="
+    },
+    "radio-megapolis-89-5-fm": {
+        "title": "Радио Мегаполис",
+        "type": "audio/mpeg",
+        "url": "https://megapolisfm.ru/",
+        "cros": false,
+        "stream": "https://megapolisfm.hostingradio.ru/megapolisfm96.aacp",
+        "features": "/img/europe/russia/radio-megapolis-89-5-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-megapolis-89-5-fm?time="
+    },
+    "radio-retro-fm-88-3": {
+        "title": "Радио Ретро FM",
+        "type": "application/x-mpegURL",
+        "url": "https://retrofm.ru/",
+        "cros": false,
+        "stream": "https://hls-01-retro.emgsound.ru/12/playlist.m3u8",
+        "features": "/img/europe/russia/radio-retro-fm-88-3.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-retro-fm-88-3?time="
+    },
+    "nase-radio-101-7-fm": {
+        "title": "НАШЕ Радио",
+        "type": "audio/mpeg",
+        "url": "https://www.nashe.ru/",
+        "cros": false,
+        "stream": "https://nashe1.hostingradio.ru/nashe-256",
+        "features": "/img/europe/russia/nase-radio-101-7-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/nase-radio-101-7-fm?time="
+    },
+    "russkoe-radio105-7-fm": {
+        "title": "Русское Радио ФМ",
+        "type": "audio/mpeg",
+        "url": "https://rusradio.ru/",
+        "cros": false,
+        "stream": "https://rusradio.hostingradio.ru/rusradio96.aacp",
+        "features": "/img/europe/russia/russkoe-radio105-7-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/russkoe-radio105-7-fm?time="
+    },
+    "radio-relax-90-8-fm": {
+        "title": "Радио Relax",
+        "type": "audio/mpeg",
+        "url": "https://relax-fm.ru/",
+        "cros": false,
+        "stream": "https://srv21.gpmradio.ru:8443/stream/air/aac/64/200",
+        "features": "/img/europe/russia/radio-relax-90-8-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-relax-90-8-fm?time="
+    },
+    "doroznoe-radio-96-fm": {
+        "title": "Дорожне радио",
+        "type": "audio/mpeg",
+        "url": "https://dorognoe.ru/",
+        "cros": false,
+        "stream": "https://dorognoe.hostingradio.ru:8000/dorognoe_acc",
+        "features": "/img/europe/russia/doroznoe-radio-96-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/doroznoe-radio-96-fm?time="
+    },
+    "radio-umor-fm-88-7": {
+        "title": "Радио Юмор FM",
+        "type": "audio/mpeg",
+        "url": "https://www.veseloeradio.ru/",
+        "cros": false,
+        "stream": "https://pub0101.101.ru:8000/stream/air/aac/64/102",
+        "features": "/img/europe/russia/radio-umor-fm-88-7.png"
+    },
+    "evropa-plus-100-5-fm": {
+        "title": "Европа Плюс",
+        "type": "application/x-mpegURL",
+        "url": "https://europaplus.ru/",
+        "cros": false,
+        "stream": "https://hls-01-regions.emgsound.ru/11_msk/playlist.m3u8",
+        "features": "/img/europe/russia/evropa-plus-100-5-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/evropa-plus-100-5-fm?time="
+    },
+    "comedy-radio-102-5-fm-moskva": {
+        "title": "Comedy Радио ФМ (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://comedy-radio.ru/",
+        "cros": false,
+        "stream": "https://srv21.gpmradio.ru:8443/stream/air/aac/64/202",
+        "features": "/img/europe/russia/comedy-radio-102-5-fm-moskva.png"
+    },
+    "radio-sanson-103-0-fm": {
+        "title": "Радио Шансон ФМ  (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://radioshanson.ru/",
+        "cros": false,
+        "stream": "https://chanson.hostingradio.ru:8041/chanson128.mp3",
+        "features": "/img/europe/russia/radio-sanson-103-0-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-sanson-103-0-fm?time="
+    },
+    "radio-difm-101-2": {
+        "title": "Радио DFM",
+        "type": "audio/mpeg",
+        "url": "https://dfm.ru/",
+        "cros": false,
+        "stream": "https://dfm.hostingradio.ru/dfm96.aacp",
+        "features": "/img/europe/russia/radio-difm-101-2.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-difm-101-2?time="
+    },
+    "radio-energy-104-2-fm": {
+        "title": "Радио Energy",
+        "type": "audio/mpeg",
+        "url": "https://www.energyfm.ru/",
+        "cros": false,
+        "stream": "https://srv12.gpmradio.ru:8443/stream/air/aac/64/99",
+        "features": "/img/europe/russia/radio-energy-104-2-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-energy-104-2-fm?time="
+    },
+    "radio-rock-fm-95-2": {
+        "title": "Радио Rock FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rockfm.ru/",
+        "cros": false,
+        "stream": "https://nashe1.hostingradio.ru/rock-128.mp3",
+        "features": "/img/europe/russia/radio-rock-fm-95-2.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-rock-fm-95-2?time="
+    },
+    "zhara": {
+        "title": "Жара FM",
+        "type": "application/x-mpegURL",
+        "url": "https://zharamedia.ru/",
+        "cros": false,
+        "stream": "https://hls02.zharafm.ru/hls/live_hi/index.m3u8",
+        "features": "/img/europe/russia/zhara.png"
+    },
+    "radio-maximum-103-7-fm-moskva": {
+        "title": "Радио Maximum ФМ (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://maximum.ru/",
+        "cros": false,
+        "stream": "https://maximum.hostingradio.ru/maximum96.aacp",
+        "features": "/img/europe/russia/radio-maximum-103-7-fm-moskva.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-maximum-103-7-fm-moskva?time="
+    },
+    "radio-ultra-70-19-fm-moskva": {
+        "title": "Радио Ultra ФМ (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://radioultra.ru/",
+        "cros": false,
+        "stream": "https://nashe1.hostingradio.ru:18000/ultra-128.mp3",
+        "features": "/img/europe/russia/radio-ultra-70-19-fm-moskva.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-ultra-70-19-fm-moskva?time="
+    },
+    "detskoe-radio-96-8-fm": {
+        "title": "Детское радио",
+        "type": "audio/mpeg",
+        "url": "https://detifm.ru/",
+        "cros": false,
+        "stream": "https://ic4.101.ru:8000/stream/air/aac/64/199",
+        "features": "/img/europe/russia/detskoe-radio-96-8-fm.png"
+    },
+    "radio-orfej-99-2-fm-moskva": {
+        "title": "Радио Орфей ФМ (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://orpheusradio.ru/",
+        "cros": false,
+        "stream": "https://orfeyfm.hostingradio.ru:8034/orfeyfm128.mp3",
+        "features": "/img/europe/russia/radio-orfej-99-2-fm-moskva.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-orfej-99-2-fm-moskva?time="
+    },
+    "radio-moscow-fm-105-3": {
+        "title": "Радио Capital FM (Moscow)",
+        "type": "audio/mpeg",
+        "url": "https://capitalfm.moscow/",
+        "cros": true,
+        "stream": "http://icecast.vgtrk.cdnvideo.ru/moscowfmen128",
+        "features": "/img/europe/russia/radio-moscow-fm-105-3.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-moscow-fm-105-3?time="
+    },
+    "like-fm-87-9": {
+        "title": "Like FM",
+        "type": "audio/mpeg",
+        "url": "https://www.likefm.ru/",
+        "cros": false,
+        "stream": "https://ic6.101.ru:8000/stream/air/aac/64/219",
+        "features": "/img/europe/russia/like-fm-87-9.png"
+    },
+    "el-doradio-101-4-fm": {
+        "title": "Эльдорадио",
+        "type": "audio/mpeg",
+        "url": "https://eldoradio.ru/",
+        "cros": false,
+        "stream": "https://emgspb.hostingradio.ru/eldoradio64.mp3",
+        "features": "/img/europe/russia/el-doradio-101-4-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/el-doradio-101-4-fm?time="
+    },
+    "radio-karnaval-92-8-fm": {
+        "title": "Радио Карнавал",
+        "type": "audio/mpeg",
+        "url": "https://radiokarnaval.ru/",
+        "cros": false,
+        "stream": "https://online.radiokarnaval.ru/karnaval48",
+        "features": "/img/europe/russia/radio-karnaval-92-8-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-karnaval-92-8-fm?time="
+    },
+    "radio-uniton-100-7-fm": {
+        "title": "Радио Юнитон",
+        "type": "audio/mpeg",
+        "url": "https://uniton.ru/",
+        "cros": false,
+        "stream": "https://online.uniton.ru/uniton",
+        "features": "/img/europe/russia/radio-uniton-100-7-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-uniton-100-7-fm?time="
+    },
+    "vana-st-petersburg": {
+        "title": "Радио ВАНЯ ФМ (Санкт Петербург)",
+        "type": "audio/mpeg",
+        "url": "https://radiovanya.ru/",
+        "cros": false,
+        "stream": "https://icecast-radiovanya.cdnvideo.ru/radiovanya",
+        "features": "/img/europe/russia/vana-st-petersburg.png"
+    },
+    "radio-business-fm-87-5": {
+        "title": "радио Business FM",
+        "type": "audio/mpeg",
+        "url": "https://www.bfm.ru/",
+        "cros": false,
+        "stream": "https://bfm.hostingradio.ru:8004/fm",
+        "features": "/img/europe/russia/radio-business-fm-87-5.png"
+    },
+    "radio-maak-fm-103-4-moskva": {
+        "title": "Радио Маяк ФМ (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://radiomayak.ru/",
+        "cros": true,
+        "stream": "http://icecast.vgtrk.cdnvideo.ru/mayakfm_mp3_192kbps",
+        "features": "/img/europe/russia/radio-maak-fm-103-4-moskva.png"
+    },
+    "abtoradio-90-3-fm": {
+        "title": "Abtoрадио",
+        "type": "audio/mpeg",
+        "url": "https://www.avtoradio.ru/",
+        "cros": false,
+        "stream": "https://pub0101.101.ru:8000/stream/air/aac/64/100",
+        "features": "/img/europe/russia/abtoradio-90-3-fm.png"
+    },
+    "radio-romantika-98-8-fm": {
+        "title": "Радио Романтика",
+        "type": "audio/mpeg",
+        "url": "https://www.radioromantika.ru/",
+        "cros": false,
+        "stream": "https://srv21.gpmradio.ru:8443/stream/air/aac/64/101",
+        "features": "/img/europe/russia/radio-romantika-98-8-fm.png"
+    },
+    "studio-93-2-fm": {
+        "title": "STUDIO 21 (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://studio21.ru/",
+        "cros": false,
+        "stream": "https://stream.studio21.ru/studio2196.aacp",
+        "features": "/img/europe/russia/studio-93-2-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/studio-93-2-fm?time="
+    },
+    "radio-7-104-7-fm-moskva": {
+        "title": "Радио 7 ФМ (Москва)",
+        "type": "application/x-mpegURL",
+        "url": "https://radio7.ru/",
+        "cros": false,
+        "stream": "https://hls-01-radio7.emgsound.ru/13/playlist.m3u8",
+        "features": "/img/europe/russia/radio-7-104-7-fm-moskva.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-7-104-7-fm-moskva?time="
+    },
+    "radio-fm-92-0": {
+        "title": "Москва FM (Москва)",
+        "type": "audio/mpeg",
+        "url": "https://www.mosfm.com/",
+        "cros": false,
+        "stream": "https://icecast-vgtrk.cdnvideo.ru/moscowfm128",
+        "features": "/img/europe/russia/radio-fm-92-0.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-fm-92-0?time="
+    },
+    "radio-kommersant-fm-93-6": {
+        "title": "Радио Коммерсантъ FM",
+        "type": "audio/mpeg",
+        "url": "https://www.kommersant.ru/fm",
+        "cros": false,
+        "stream": "https://kommersant77.hostingradio.ru:8016/kommersant64.mp3",
+        "features": "/img/europe/russia/radio-kommersant-fm-93-6.png"
+    },
+    "radio-zvezda-95-6-fm": {
+        "title": "Радио ЗВЕЗДА",
+        "type": "audio/mpeg",
+        "url": "https://www.radiozvezda.ru/",
+        "cros": false,
+        "stream": "https://icecast-zvezda.mediacdn.ru/radio/zvezda/zvezda_128",
+        "features": "/img/europe/russia/radio-zvezda-95-6-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-zvezda-95-6-fm?time="
+    },
+    "dnb-fm": {
+        "title": "DNB FM",
+        "type": "audio/mpeg",
+        "url": "https://dnbfm.ru/",
+        "cros": false,
+        "stream": "https://air.dnbfm.ru/radio/8000/play",
+        "features": "/img/europe/russia/dnb-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/dnb-fm?time="
+    },
+    "mix-fm-107-2": {
+        "title": "МИКС ФМ",
+        "type": "audio/mpeg",
+        "url": "https://radiomixfm.ru/",
+        "cros": false,
+        "stream": "https://cdn.radiomixfm.ru/mixfm",
+        "features": "/img/europe/russia/mix-fm-107-2.png"
+    },
+    "radio-gorod-fm-107-6": {
+        "title": "Радио Город FM",
+        "type": "audio/mpeg",
+        "url": "https://www.gorodfm.ru/",
+        "cros": true,
+        "stream": "http://radio.gorodfm.ru:8000/gorodfm",
+        "features": "/img/europe/russia/radio-gorod-fm-107-6.png",
+        "schedule": "https://api.webrad.io/data/playlist/74/radio-gorod-fm-107-6?time="
+    }
+}

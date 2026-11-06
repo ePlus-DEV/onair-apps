@@ -1,0 +1,390 @@
+{
+    "hitradio-oe3": {
+        "title": "Hitradio Ö3 (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://oe3.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/oe3-q2a",
+        "features": "/img/europe/austria/hitradio-oe3.png",
+        "favorite": true
+    },
+    "kronehit": {
+        "title": "KroneHit",
+        "type": "audio/mpeg",
+        "url": "https://www.kronehit.at/",
+        "cros": false,
+        "stream": "https://secureonair.krone.at/kronehit1058.mp3",
+        "features": "/img/europe/austria/kronehit.png",
+        "favorite": false
+    },
+    "oe1": {
+        "title": "Ö1",
+        "type": "audio/mpeg",
+        "url": "https://oe1.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/oe1-q1a",
+        "features": "/img/europe/austria/oe1.png",
+        "favorite": false
+    },
+    "fm4-orf": {
+        "title": "Radio FM4 (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://fm4.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/fm4-q2a",
+        "features": "/img/europe/austria/fm4-orf.png",
+        "favorite": false
+    },
+    "wien": {
+        "title": "Radio Wien",
+        "type": "audio/mpeg",
+        "url": "https://wien.orf.at/radio/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/wie-q2a",
+        "features": "/img/europe/austria/wien.png",
+        "favorite": false
+    },
+    "niederosterreich": {
+        "title": "Radio Niederösterreich",
+        "type": "audio/mpeg",
+        "url": "https://noe.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/noe-q2a",
+        "features": "/img/europe/austria/niederosterreich.png",
+        "favorite": false
+    },
+    "karnten": {
+        "title": "ORF Radio (Kärnten)",
+        "type": "audio/mpeg",
+        "url": "https://kaernten.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/ktn-q1a",
+        "features": "/img/europe/austria/karnten.png",
+        "favorite": false
+    },
+    "steiermark": {
+        "title": "Radio Steiermark",
+        "type": "audio/mpeg",
+        "url": "https://steiermark.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/stm-q2a",
+        "features": "/img/europe/austria/steiermark.png",
+        "favorite": false
+    },
+    "stephansdom": {
+        "title": "Radio Stephansdom (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://radioklassik.at/",
+        "cros": false,
+        "stream": "https://radioklassikstephansdom.ice.infomaniak.ch/radioklassikstephansdom.mp3",
+        "features": "/img/europe/austria/stephansdom.png",
+        "favorite": false
+    },
+    "u1-tirol": {
+        "title": "U1 Radio (Tirol)",
+        "type": "audio/mpeg",
+        "url": "https://u1-radio.at/",
+        "cros": false,
+        "stream": "https://u1-tirol-stream20.radiohost.de/u1-tirol-live_mp3-192",
+        "features": "/img/europe/austria/u1-tirol.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/u1-tirol?time="
+    },
+    "burgenland": {
+        "title": "Radio Burgenland",
+        "type": "audio/mpeg",
+        "url": "https://burgenland.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/bgl-q2a",
+        "features": "/img/europe/austria/burgenland.png",
+        "favorite": false
+    },
+    "salzburg": {
+        "title": "Radio Salzburg",
+        "type": "audio/mpeg",
+        "url": "https://salzburg.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/sbg-q2a",
+        "features": "/img/europe/austria/salzburg.png",
+        "favorite": false
+    },
+    "arabella": {
+        "title": "Radio Arabella",
+        "type": "audio/mpeg",
+        "url": "https://www.arabella.at/",
+        "cros": false,
+        "stream": "https://frontend.streams.arabella.at/arabella-wien/stream/mp3?aggregator=radios-co-at",
+        "features": "/img/europe/austria/arabella.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/arabella?time="
+    },
+    "antenne-steiermark": {
+        "title": "Antenne (Steiermark)",
+        "type": "audio/mpeg",
+        "url": "https://steiermark.antenne.at/player",
+        "cros": false,
+        "stream": "https://live.antenne.at/as",
+        "features": "/img/europe/austria/antenne-steiermark.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/antenne-steiermark?time="
+    },
+    "radio-88-6": {
+        "title": "88.6",
+        "type": "audio/mpeg",
+        "url": "https://www.radio886.at/",
+        "cros": false,
+        "stream": "https://radio886.at/streams/88.6_On_Air/radio_at_de_net/auto",
+        "features": "/img/europe/austria/radio-88-6.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/radio-88-6?time="
+    },
+    "antenne-kaernten": {
+        "title": "Antenne (Kärnten)",
+        "type": "audio/mpeg",
+        "url": "https://kaernten.antenne.at/player",
+        "cros": false,
+        "stream": "https://live.antenne.at/ak",
+        "features": "/img/europe/austria/antenne-kaernten.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/antenne-kaernten?time="
+    },
+    "antenne-vorarlberg": {
+        "title": "Antenne (Vorarlberg)",
+        "type": "audio/mpeg",
+        "url": "https://www.antennevorarlberg.at/",
+        "cros": false,
+        "stream": "https://edge61.radio.antennevorarlberg.at/av-live",
+        "features": "/img/europe/austria/antenne-vorarlberg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/antenne-vorarlberg?time="
+    },
+    "superfly-fm": {
+        "title": "Superfly FM (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://superfly.fm/",
+        "cros": true,
+        "stream": "http://stream01.superfly.fm:8080/live128",
+        "features": "/img/europe/austria/superfly-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/superfly-fm?time="
+    },
+    "radio-vorarlberg": {
+        "title": "Radio Vorarlberg",
+        "type": "audio/mpeg",
+        "url": "https://vorarlberg.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/vbg-q2a",
+        "features": "/img/europe/austria/radio-vorarlberg.png",
+        "favorite": false
+    },
+    "oberosterreich": {
+        "title": "Radio Oberösterreich (Linz)",
+        "type": "audio/mpeg",
+        "url": "https://ooe.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/ooe-q2a",
+        "features": "/img/europe/austria/oberosterreich.png",
+        "favorite": false
+    },
+    "uno": {
+        "title": "Radio Uno",
+        "type": "audio/mpeg",
+        "url": "https://radiouno-kaernten.at/",
+        "cros": false,
+        "stream": "https://radiouno.stream24.net/",
+        "features": "/img/europe/austria/uno.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/uno?time="
+    },
+    "tirol": {
+        "title": "Radio Tirol",
+        "type": "audio/mpeg",
+        "url": "https://tirol.orf.at/",
+        "cros": false,
+        "stream": "https://orf-live.ors-shoutcast.at/tir-q2a",
+        "features": "/img/europe/austria/tirol.png",
+        "favorite": false
+    },
+    "maria": {
+        "title": "Radio Maria (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.at/",
+        "cros": true,
+        "stream": "http://live.radiomaria.at:8000/rma",
+        "features": "/img/europe/austria/maria.png",
+        "favorite": false
+    },
+    "austria": {
+        "title": "Radio Austria",
+        "type": "audio/mpeg",
+        "url": "https://www.radioaustria.at/",
+        "cros": false,
+        "stream": "https://onair.securestream.radioaustria.at/radioaustria",
+        "features": "/img/europe/austria/austria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/austria?time="
+    },
+    "energy": {
+        "title": "Energy (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://energy.at/",
+        "cros": false,
+        "stream": "https://scdn.nrjaudio.fm/adwz1/at/36001/mp3_128.mp3?origine=radios",
+        "features": "/img/europe/austria/energy.png",
+        "favorite": false
+    },
+    "grun-weiss": {
+        "title": "Radio Grün Weiß",
+        "type": "audio/mpeg",
+        "url": "https://www.gruen-weiss.at/",
+        "cros": false,
+        "stream": "https://ice09.fluidstream.net/rgw.mp3",
+        "features": "/img/europe/austria/grun-weiss.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/grun-weiss?time="
+    },
+    "soundportal": {
+        "title": "Soundportal",
+        "type": "audio/mpeg",
+        "url": "https://soundportal.at/",
+        "cros": false,
+        "stream": "https://rs8.stream24.net/radio-soundportal.mp3",
+        "features": "/img/europe/austria/soundportal.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/soundportal?time="
+    },
+    "antenne-tirol": {
+        "title": "Antenne (Tirol)",
+        "type": "audio/mpeg",
+        "url": "https://www.antennetirol.at/",
+        "cros": false,
+        "stream": "https://frontend.streamonkey.net/anttirol-live?aggregator=radios-co-at",
+        "features": "/img/europe/austria/antenne-tirol.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/antenne-tirol?time="
+    },
+    "welle-1": {
+        "title": "Welle 1",
+        "type": "audio/mpeg",
+        "url": "https://welle1.at/",
+        "cros": false,
+        "stream": "https://live.welle1.at:17128/stream",
+        "features": "/img/europe/austria/welle-1.png",
+        "favorite": false
+    },
+    "life": {
+        "title": "Life Radio Tirol",
+        "type": "audio/mpeg",
+        "url": "http://www.liferadio.tirol/",
+        "cros": false,
+        "stream": "https://stream.liferadio.tirol/live/aac-128/radios.co.at",
+        "features": "/img/europe/austria/life.png",
+        "favorite": false
+    },
+    "lounge-fm": {
+        "title": "LoungeFM",
+        "type": "audio/mpeg",
+        "url": "https://www.lounge.fm/",
+        "cros": false,
+        "stream": "https://s35.derstream.net/digital.mp3",
+        "features": "/img/europe/austria/lounge-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/lounge-fm?time="
+    },
+    "harmonie": {
+        "title": "Radio Harmonie",
+        "type": "audio/mpeg",
+        "url": "https://www.radioharmonie.at/",
+        "cros": false,
+        "stream": "https://v2.radiodienst.de:9630/live",
+        "features": "/img/europe/austria/harmonie.png",
+        "favorite": false
+    },
+    "osttirol": {
+        "title": "Radio Osttirol",
+        "type": "audio/mpeg",
+        "url": "https://www.radio-osttirol.at/",
+        "cros": false,
+        "stream": "https://server10956.streamplus.de/stream/1/",
+        "features": "/img/europe/austria/osttirol.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/osttirol?time="
+    },
+    "energy-94-0": {
+        "title": "Energy (Salzburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.energy940.at/",
+        "cros": false,
+        "stream": "https://scdn.nrjaudio.fm/adwz1/at/36005/mp3_128.mp3?origine=radios",
+        "features": "/img/europe/austria/energy-94-0.png",
+        "favorite": false
+    },
+    "orange": {
+        "title": "Orange (Wien)",
+        "type": "audio/mpeg",
+        "url": "https://o94.at/",
+        "cros": false,
+        "stream": "https://securestream.o94.at/live.mp3",
+        "features": "/img/europe/austria/orange.png",
+        "favorite": false
+    },
+    "alpina": {
+        "title": "Radio Alpina",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://ice09.fluidstream.net/alpina.aac",
+        "features": "/img/europe/austria/alpina.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/alpina?time="
+    },
+    "kronehit-vollgas": {
+        "title": "Kronehit Vollgas",
+        "type": "audio/mpeg",
+        "url": "https://www.kronehit.at/",
+        "cros": false,
+        "stream": "https://secureonair.krone.at/kronehit11.mp3",
+        "features": "/img/europe/austria/kronehit-vollgas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/kronehit-vollgas?time="
+    },
+    "radieschen": {
+        "title": "Radio Radieschen",
+        "type": "audio/mpeg",
+        "url": "https://www.radio-radieschen.at/",
+        "cros": true,
+        "stream": "http://stream01.kapper.net:8005/radioradieschen",
+        "features": "/img/europe/austria/radieschen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/radieschen?time="
+    },
+    "freequenns": {
+        "title": "Radio Freequenns",
+        "type": "audio/mpeg",
+        "url": "https://www.freequenns.at",
+        "cros": false,
+        "stream": "https://www.freequenns.at/live",
+        "features": "/img/europe/austria/freequenns.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/freequenns?time="
+    },
+    "radiofabrik": {
+        "title": "Radio Fabrik (Salzburg)",
+        "type": "audio/mpeg",
+        "url": "https://radiofabrik.at/",
+        "cros": true,
+        "stream": "http://stream.radiofabrik.at:8000/rf_low.mp3",
+        "features": "/img/europe/austria/radiofabrik.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/117/radiofabrik?time="
+    },
+    "freies-freistadt": {
+        "title": "Freies Radio Freistadt",
+        "type": "audio/mpeg",
+        "url": "https://www.frf.at/",
+        "cros": true,
+        "stream": "http://develop.servus.at:8000/frf",
+        "features": "/img/europe/austria/freies-freistadt.png",
+        "favorite": false
+    }
+}

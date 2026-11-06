@@ -1,0 +1,369 @@
+{
+  "la-z": {
+    "title": "Z 101",
+    "type": "audio/mpeg",
+    "url": "https://z101digital.com/",
+    "cros": false,
+    "stream": "https://23043.live.streamtheworld.com/Z101FM_SC",
+    "features": "/img/north-america/dominican-republic/la-z.png",
+    "favorite": true
+  },
+  "disco": {
+    "title": "Radio Disco",
+    "type": "audio/mpeg",
+    "url": "https://www.rdmusica.com/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8050/stream",
+    "features": "/img/north-america/dominican-republic/disco.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/disco?time="
+  },
+  "kq": {
+    "title": "KQ 94.5 FM",
+    "type": "audio/mpeg",
+    "url": "https://kq94.net/",
+    "cros": true,
+    "stream": "https://radio.yaservers.com:7001/stream/1/",
+    "features": "/img/north-america/dominican-republic/kq.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/kq?time="
+  },
+  "amanecer": {
+    "title": "Radio Amanecer Internacional",
+    "type": "audio/mpeg",
+    "url": "http://radioamanecer.org/",
+    "cros": true,
+    "stream": "http://node-15.zeno.fm:80/2h5huhvvfq5tv",
+    "features": "/img/north-america/dominican-republic/amanecer.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/amanecer?time="
+  },
+  "mortal": {
+    "title": "Mortal",
+    "type": "audio/mpeg",
+    "url": "http://www.mortal1049.com/",
+    "cros": true,
+    "stream": "http://n0d.radiojar.com:80/x84tcy2wm2zuv",
+    "features": "/img/north-america/dominican-republic/mortal.png"
+  },
+  "kiss": {
+    "title": "Kiss",
+    "type": "audio/mpeg",
+    "url": "https://kiss949.com/category/noticias/",
+    "cros": false,
+    "stream": "https://rstream.hostdime.com/proxy/kiss949?mp=/8880?ver=825424",
+    "features": "/img/north-america/dominican-republic/kiss.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/kiss?time="
+  },
+  "kalle": {
+    "title": "La Kalle",
+    "type": "audio/mpeg",
+    "url": "https://emisorastelemicro.com/",
+    "cros": false,
+    "stream": "https://radio.telemicro.com.do/lakallesantiago",
+    "features": "/img/north-america/dominican-republic/kalle.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/kalle?time="
+  },
+  "mixx-104-5": {
+    "title": "MiXX",
+    "type": "audio/mpeg",
+    "url": "https://www.rdmusica.com/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8112/stream",
+    "features": "/img/north-america/dominican-republic/mixx-104-5.png"
+  },
+  "estrella": {
+    "title": "Estrella",
+    "type": "audio/mpeg",
+    "url": "http://estrella90.com/",
+    "cros": true,
+    "stream": "http://node-18.zeno.fm:80/t8r7m90te0quv",
+    "features": "/img/north-america/dominican-republic/estrella.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/estrella?time="
+  },
+  "primera": {
+    "title": "Primera 88.1",
+    "type": "audio/mpeg",
+    "url": "https://telemicro.com.do/primera-fm-88-1/",
+    "cros": true,
+    "stream": "http://n08.radiojar.com:80/5705c71sn2zuv",
+    "features": "/img/north-america/dominican-republic/primera.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/primera?time="
+  },
+  "sonido-santo-domingo": {
+    "title": "Sonido Suave (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8090/stream",
+    "features": "/img/north-america/dominican-republic/sonido-santo-domingo.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/sonido-santo-domingo?time="
+  },
+  "100-1-fm-santo-domingo": {
+    "title": "Radio 100.1 FM (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://1001fm.net/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8088/stream",
+    "features": "/img/north-america/dominican-republic/100-1-fm-santo-domingo.png"
+  },
+  "cdn": {
+    "title": "CDN",
+    "type": "audio/mpeg",
+    "url": "https://cdnradio.com.do/",
+    "cros": true,
+    "stream": "http://104.197.151.190:80/cdnlive",
+    "features": "/img/north-america/dominican-republic/cdn.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/cdn?time="
+  },
+  "super": {
+    "title": "Super K (La Vega)",
+    "type": "audio/mpeg",
+    "url": "http://superkfm.com/",
+    "cros": true,
+    "stream": "http://node-07.zeno.fm:80/dbnpgku8na0uv",
+    "features": "/img/north-america/dominican-republic/super.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/super?time="
+  },
+  "cima": {
+    "title": "Radio Cima (Santo Domingo)",
+    "type": "audio/x-mpegurl",
+    "url": "https://cima100fm.com/",
+    "cros": false,
+    "stream": "https://s01.digitalserver.org/8028/stream/1/",
+    "features": "/img/north-america/dominican-republic/cima.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/cima?time="
+  },
+  "super-q": {
+    "title": "Radio Super Q (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://superqfm.net/",
+    "cros": true,
+    "stream": "https://turbo.2cdn.eu/s1/9756/stream/1/",
+    "features": "/img/north-america/dominican-republic/super-q.png"
+  },
+  "bacharengue": {
+    "title": "El Bacharengue (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://elbacharengue.net/",
+    "cros": false,
+    "stream": "https://radio.streamingcpanel.com:7013/stream/1/",
+    "features": "/img/north-america/dominican-republic/bacharengue.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/bacharengue?time="
+  },
+  "pura-vida": {
+    "title": "Pura Vida",
+    "type": "audio/mpeg",
+    "url": "https://puravidafm.net/",
+    "cros": true,
+    "stream": "https://turbo.2cdn.eu/s1/9700/stream/1/",
+    "features": "/img/north-america/dominican-republic/pura-vida.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/pura-vida?time="
+  },
+  "canal": {
+    "title": "Canal",
+    "type": "audio/mpeg",
+    "url": "http://canal105.com/",
+    "cros": true,
+    "stream": "http://node-19.zeno.fm:80/b94afcu8na0uv",
+    "features": "/img/north-america/dominican-republic/canal.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/canal?time="
+  },
+  "exa": {
+    "title": "Exa (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://exafm.com/#!/republicadominicana/home",
+    "cros": false,
+    "stream": "https://25093.live.streamtheworld.com/XHEXA_SC",
+    "features": "/img/north-america/dominican-republic/exa.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/exa?time="
+  },
+  "turbo-santo-domingo": {
+    "title": "Turbo (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "http://turbo98.com/",
+    "cros": true,
+    "stream": "http://node-18.zeno.fm:80/vf867714pa0uv",
+    "features": "/img/north-america/dominican-republic/turbo-santo-domingo.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/turbo-santo-domingo?time="
+  },
+  "independencia": {
+    "title": "Independencia (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://telemicro.com.do/web/independencia-93-3/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/s3p6r5rct7zuv.aac",
+    "features": "/img/north-america/dominican-republic/independencia.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/independencia?time="
+  },
+  "ritmo": {
+    "title": "Ritmo 96",
+    "type": "audio/mpeg",
+    "url": "http://ritmo96.com/",
+    "cros": true,
+    "stream": "http://node-20.zeno.fm:80/y0br5ck4ququv",
+    "features": "/img/north-america/dominican-republic/ritmo.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/ritmo?time="
+  },
+  "raices": {
+    "title": "Raíces Radio",
+    "type": "audio/mpeg",
+    "url": "https://emisoraraices.org.do/",
+    "cros": false,
+    "stream": "https://radio5.domint.net:8120/stream",
+    "features": "/img/north-america/dominican-republic/raices.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/raices?time="
+  },
+  "escape": {
+    "title": "Escape (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://www.rdmusica.com/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8094/stream",
+    "features": "/img/north-america/dominican-republic/escape.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/escape?time="
+  },
+  "fuego-90-fm": {
+    "title": "Fuego",
+    "type": "audio/mpeg",
+    "url": "https://www.rdmusica.com/#",
+    "cros": false,
+    "stream": "https://radio5.domint.net:8110/stream",
+    "features": "/img/north-america/dominican-republic/fuego-90-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/fuego-90-fm?time="
+  },
+  "monumental": {
+    "title": "Monumental (Santiago)",
+    "type": "audio/mpeg",
+    "url": "https://monumentalfm.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/739af41sxeruv.aac",
+    "features": "/img/north-america/dominican-republic/monumental.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/monumental?time="
+  },
+  "disco-santiago": {
+    "title": "Disco 89 (Santiago)",
+    "type": "audio/mpeg",
+    "url": "https://www.disco89fm.com/",
+    "cros": false,
+    "stream": "https://rgradio.net/disco89/disco89.mp3",
+    "features": "/img/north-america/dominican-republic/disco-santiago.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/disco-santiago?time="
+  },
+  "suave-santiago": {
+    "title": "Suave (Santiago)",
+    "type": "audio/mpeg",
+    "url": "http://suave107.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/cta80ru8na0uv",
+    "features": "/img/north-america/dominican-republic/suave-santiago.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/suave-santiago?time="
+  },
+  "kv94": {
+    "title": "KV",
+    "type": "audio/mpeg",
+    "url": "https://www.kv94.com.do/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8064/stream",
+    "features": "/img/north-america/dominican-republic/kv94.png"
+  },
+  "caliente-santo-domingo": {
+    "title": "Caliente (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://caliente104fm.com/",
+    "cros": false,
+    "stream": "https://rs5.domint.net:8064/stream",
+    "features": "/img/north-america/dominican-republic/caliente-santo-domingo.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/caliente-santo-domingo?time="
+  },
+  "latidos": {
+    "title": "Latidos (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://www.latidosfm.com/",
+    "cros": true,
+    "stream": "http://rstream.hostdime.com:8010/stream/1/",
+    "features": "/img/north-america/dominican-republic/latidos.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/latidos?time="
+  },
+  "los-40": {
+    "title": "Los 40 (República Dominicana)",
+    "type": "audio/mpeg",
+    "url": "https://www.los40.do/",
+    "cros": false,
+    "stream": "https://radio4.domint.net:8114/stream",
+    "features": "/img/north-america/dominican-republic/los-40.png"
+  },
+  "eternidad-santo-domingo": {
+    "title": "Radio Eternidad (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://radioeternidad.com/",
+    "cros": false,
+    "stream": "https://ss.redradios.net:8001/stream",
+    "features": "/img/north-america/dominican-republic/eternidad-santo-domingo.png"
+  },
+  "salsa": {
+    "title": "Salsa Radio (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://radio.domiplay.net:2002/stream/1/",
+    "features": "/img/north-america/dominican-republic/salsa.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/salsa?time="
+  },
+  "amor": {
+    "title": "Amor",
+    "type": "audio/mpeg",
+    "url": "https://www.amorfm91.com/",
+    "cros": true,
+    "stream": "http://radio.domiplay.net:9190/stream/1/",
+    "features": "/img/north-america/dominican-republic/amor.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/amor?time="
+  },
+  "mega": {
+    "title": "Mega",
+    "type": "audio/mpeg",
+    "url": "https://empresasradiofonicas.com.do/emisora/mega-fm/",
+    "cros": false,
+    "stream": "https://radio5.domint.net:8170/stream",
+    "features": "/img/north-america/dominican-republic/mega.png"
+  },
+  "merengue": {
+    "title": "Sabor a Merengue (Santo Domingo)",
+    "type": "audio/mpeg",
+    "url": "https://saboramerengue.com/",
+    "cros": false,
+    "stream": "https://radio5.domint.net:8054/stream",
+    "features": "/img/north-america/dominican-republic/merengue.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/merengue?time="
+  },
+  "rumba": {
+    "title": "Rumba",
+    "type": "audio/mpeg",
+    "url": "https://www.rumba985fm.com/",
+    "cros": false,
+    "stream": "https://radio5.domint.net:8226/stream",
+    "features": "/img/north-america/dominican-republic/rumba.png",
+    "schedule": "https://api.webrad.io/data/playlist/12/rumba?time="
+  },
+  "super-santiago": {
+    "title": "Super Regional (Santiago)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://72.167.33.184:8000/stream/1/",
+    "features": "/img/north-america/dominican-republic/super-santiago.png"
+  },
+  "criolla-106-1-fm": {
+    "title": "Criolla",
+    "type": "audio/mpeg",
+    "url": "https://criolla106fm.com/",
+    "cros": false,
+    "stream": "https://rgradio.net/criolla106/criolla106",
+    "features": "/img/north-america/dominican-republic/criolla-106-1-fm.png"
+  },
+  "fm107": {
+    "title": "FM 107.5 (La Romana)",
+    "type": "audio/mpeg",
+    "url": "https://www.lafm107.com/",
+    "cros": true,
+    "stream": "http://radio.domiplay.net:9200/stream/1/",
+    "features": "/img/north-america/dominican-republic/fm107.png"
+  }
+}

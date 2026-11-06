@@ -1,0 +1,425 @@
+{
+    "srf-musikwelle": {
+        "title": "SRF Musikwelle",
+        "type": "application/x-mpegURL",
+        "url": "https://www.srf.ch/radio-srf-musikwelle",
+        "cros": false,
+        "stream": "https://lsaplus.swisstxt.ch/audio/drsmw_96.stream/playlist.m3u8",
+        "features": "/img/europe/switzerland/srf-musikwelle.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/131/srf-musikwelle?time="
+    },
+    "zurisee": {
+        "title": "Radio Zürisee",
+        "type": "audio/mpeg",
+        "url": "https://www.radiozuerisee.ch/",
+        "cros": false,
+        "stream": "https://mp3.radio.ch/radiozuerisee128k",
+        "features": "/img/europe/switzerland/zurisee.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/zurisee?time="
+    },
+    "beo": {
+        "title": "BeO",
+        "type": "audio/mpeg",
+        "url": "https://www.radiobeo.ch/",
+        "cros": true,
+        "stream": "http://stream11.radiobeo.ch:8000/radiobeo.mp3",
+        "features": "/img/europe/switzerland/beo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/beo?time="
+    },
+    "fm1-st-gallen": {
+        "title": "Radio FM1",
+        "type": "audio/mpeg",
+        "url": "https://www.radiofm1.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/radiofm1/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/fm1-st-gallen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/fm1-st-gallen?time="
+    },
+    "pilatus": {
+        "title": "Radio Pilatus",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopilatus.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/radiopilatus/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/pilatus.png",
+        "favorite": false
+    },
+    "suisse-classique": {
+        "title": "Radio Swiss Classic",
+        "type": "audio/mpeg",
+        "url": "https://www.radioswissclassic.ch/de",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/rsc_de/mp3_128",
+        "features": "/img/europe/switzerland/suisse-classique.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/suisse-classique?time="
+    },
+    "energy-zurich": {
+        "title": "Energy Zürich",
+        "type": "audio/mpeg",
+        "url": "https://energy.ch/",
+        "cros": false,
+        "stream": "https://energyzuerich.ice.infomaniak.ch/energyzuerich-high.mp3",
+        "features": "/img/europe/switzerland/energy-zurich.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/energy-zurich?time="
+    },
+    "goat": {
+        "title": "GOAT Radio",
+        "type": "audio/mpeg",
+        "url": "https://audio.20min.ch/",
+        "cros": false,
+        "stream": "https://20min.dmd2streaming.com/20minuten_radio_128.mp3",
+        "features": "/img/europe/switzerland/goat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/goat?time="
+    },
+    "basilisk": {
+        "title": "Radio Basilisk",
+        "type": "audio/mpeg",
+        "url": "https://www.basilisk.ch/",
+        "cros": false,
+        "stream": "https://radiobasilisk-64.ice.infomaniak.ch/radiobasilisk-64-128-2.mp3",
+        "features": "/img/europe/switzerland/basilisk.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/basilisk?time="
+    },
+    "srf-3": {
+        "title": "SRF 3",
+        "type": "audio/mpeg",
+        "url": "https://www.srf.ch/radio-srf-3",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/drs3/mp3_128",
+        "features": "/img/europe/switzerland/srf-3.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/srf-3?time="
+    },
+    "bern1": {
+        "title": "RADIO BERN1",
+        "type": "audio/mpeg",
+        "url": "https://www.radiobern1.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/radiobern1/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/bern1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/bern1?time="
+    },
+    "sunshine": {
+        "title": "Radio Sunshine",
+        "type": "audio/mpeg",
+        "url": "https://www.sunshine.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/rsunshine/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/sunshine.png",
+        "favorite": false
+    },
+    "24": {
+        "title": "Radio 24",
+        "type": "audio/mpeg",
+        "url": "https://www.radio24.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/radio24/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/24.png",
+        "favorite": false
+    },
+    "nrj-basel": {
+        "title": "NRJ Basel",
+        "type": "audio/mpeg",
+        "url": "https://energy.ch/",
+        "cros": false,
+        "stream": "https://energybasel.ice.infomaniak.ch/energybasel-high.mp3",
+        "features": "/img/europe/switzerland/nrj-basel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/nrj-basel?time="
+    },
+    "nrj-energy-bern": {
+        "title": "NRJ Energy Bern",
+        "type": "audio/mpeg",
+        "url": "https://energy.ch/",
+        "cros": false,
+        "stream": "https://energybern.ice.infomaniak.ch/energybern-high.mp3",
+        "features": "/img/europe/switzerland/nrj-energy-bern.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/nrj-energy-bern?time="
+    },
+    "1-fm-blues": {
+        "title": "1.FM - Blues Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/blues",
+        "cros": false,
+        "stream": "https://strm112.1.fm/blues_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-blues.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-blues?time="
+    },
+    "1-fm-dance-one": {
+        "title": "1.FM - Dance One Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/dance",
+        "cros": false,
+        "stream": "https://strm112.1.fm/dance_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-dance-one.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-dance-one?time="
+    },
+    "1-fm-50s-60s": {
+        "title": "1.FM 50s & 60s",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/60s_70s",
+        "cros": false,
+        "stream": "https://strm112.1.fm/60s_70s_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-50s-60s.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-50s-60s?time="
+    },
+    "1-fm-chillout-lounge": {
+        "title": "1.FM - Chillout Lounge",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/chilloutlounge",
+        "cros": false,
+        "stream": "https://strm112.1.fm/chilloutlounge_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-chillout-lounge.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-chillout-lounge?time="
+    },
+    "1-fm-otto-s-baroque-musick": {
+        "title": "1.FM - Otto's Baroque Musick",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/baroque",
+        "cros": false,
+        "stream": "https://strm112.1.fm/baroque_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-otto-s-baroque-musick.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-otto-s-baroque-musick?time="
+    },
+    "1-fm-high-voltage": {
+        "title": "1.FM - High Voltage",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/highvoltage",
+        "cros": false,
+        "stream": "https://strm112.1.fm/highvoltage_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-high-voltage.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-high-voltage?time="
+    },
+    "1-fm-urban-adult-choice": {
+        "title": "1.FM - Urban Adult Choice",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/oldschool",
+        "cros": false,
+        "stream": "https://strm112.1.fm/oldschool_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-urban-adult-choice.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-urban-adult-choice?time="
+    },
+    "1-fm-jamz": {
+        "title": "1.FM - Jamz",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/jamz",
+        "cros": false,
+        "stream": "https://strm112.1.fm/jamz_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-jamz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-jamz?time="
+    },
+    "1-fm-country": {
+        "title": "1.FM - Country One Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/country",
+        "cros": false,
+        "stream": "https://strm112.1.fm/country_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-country.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-country?time="
+    },
+    "1-fm-urban-gospel": {
+        "title": "1.FM - Urban Gospel",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/gospel",
+        "cros": false,
+        "stream": "https://strm112.1.fm/gospel_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-urban-gospel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-urban-gospel?time="
+    },
+    "1-fm-bay-smooth-jazz": {
+        "title": "1.FM - Bay Smooth Jazz",
+        "type": "audio/mpeg",
+        "url": "https://www.1.fm/station/smoothjazz",
+        "cros": false,
+        "stream": "https://strm112.1.fm/smoothjazz_mobile_mp3",
+        "features": "/img/europe/switzerland/1-fm-bay-smooth-jazz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1-fm-bay-smooth-jazz?time="
+    },
+    "swiss-pop": {
+        "title": "Radio Swiss Pop",
+        "type": "audio/mpeg",
+        "url": "https://www.radioswisspop.ch/de",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/rsp/aacp_96",
+        "features": "/img/europe/switzerland/swiss-pop.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/swiss-pop?time="
+    },
+    "argovia": {
+        "title": "Radio Argovia",
+        "type": "audio/mpeg",
+        "url": "https://www.argovia.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/argovia/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/argovia.png",
+        "favorite": false
+    },
+    "rts-couleur-3": {
+        "title": "RTS Couleur 3",
+        "type": "audio/mpeg",
+        "url": "https://www.rts.ch/couleur3",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/couleur3/mp3_128",
+        "features": "/img/europe/switzerland/rts-couleur-3.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/rts-couleur-3?time="
+    },
+    "1": {
+        "title": "Radio 1",
+        "type": "audio/mpeg",
+        "url": "https://www.radio1.ch/",
+        "cros": false,
+        "stream": "https://stream.radio1.ch/128k",
+        "features": "/img/europe/switzerland/1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/1?time="
+    },
+    "32": {
+        "title": "Radio 32",
+        "type": "audio/mpeg",
+        "url": "https://www.radio32.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/radio32/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/32.png",
+        "favorite": false
+    },
+    "rts-option-musique": {
+        "title": "RTS Option Musique",
+        "type": "audio/mpeg",
+        "url": "https://www.rts.ch/option-musique/",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/option-musique/mp3_128",
+        "features": "/img/europe/switzerland/rts-option-musique.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/rts-option-musique?time="
+    },
+    "srf-virus": {
+        "title": "Radio SRF Virus",
+        "type": "application/x-mpegURL",
+        "url": "https://www.srf.ch/radio-srf-virus/",
+        "cros": false,
+        "stream": "https://lsaplus.swisstxt.ch/audio/drsvirus_96.stream/playlist.m3u8?DVR",
+        "features": "/img/europe/switzerland/srf-virus.png",
+        "favorite": false
+    },
+    "rouge-fm": {
+        "title": "Rouge FM",
+        "type": "audio/mpeg",
+        "url": "https://rouge.ch/",
+        "cros": false,
+        "stream": "https://rougefm.ice.infomaniak.ch/rougefm-high.mp3",
+        "features": "/img/europe/switzerland/rouge-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/rouge-fm?time="
+    },
+    "top": {
+        "title": "Radio Top",
+        "type": "audio/mpeg",
+        "url": "https://www.toponline.ch/news/",
+        "cros": true,
+        "stream": "http://icecast.radiotop.ch/radiotop_128",
+        "features": "/img/europe/switzerland/top.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/top?time="
+    },
+    "rsi-rete-uno": {
+        "title": "RSI Rete Uno",
+        "type": "audio/mpeg",
+        "url": "https://www.rsi.ch/audio/rete-uno/live/",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/reteuno/mp3_128",
+        "features": "/img/europe/switzerland/rsi-rete-uno.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/rsi-rete-uno?time="
+    },
+    "central": {
+        "title": "Radio Central",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocentral.ch/",
+        "cros": false,
+        "stream": "https://stream.streambase.ch/rcentral/mp3-192/radiosonline/",
+        "features": "/img/europe/switzerland/central.png",
+        "favorite": false
+    },
+    "srf-2-kultur": {
+        "title": "SRF 2 Kultur",
+        "type": "audio/mpeg",
+        "url": "https://www.srf.ch/radio-srf-2-kultur",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/drs2/mp3_128",
+        "features": "/img/europe/switzerland/srf-2-kultur.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/srf-2-kultur?time="
+    },
+    "srf-1-zurich-schaffhausen": {
+        "title": "SRF 1 (Zürich Schaffhausen)",
+        "type": "audio/mpeg",
+        "url": "https://www.srf.ch/radio-srf-1",
+        "cros": false,
+        "stream": "https://stream.srg-ssr.ch/m/regi_zh_sh/mp3_128",
+        "features": "/img/europe/switzerland/srf-1-zurich-schaffhausen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/srf-1-zurich-schaffhausen?time="
+    },
+    "lfm": {
+        "title": "LFM",
+        "type": "audio/mpeg",
+        "url": "https://www.lfm.ch/",
+        "cros": false,
+        "stream": "https://lausannefm.ice.infomaniak.ch/lausannefm-high.mp3",
+        "features": "/img/europe/switzerland/lfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/lfm?time="
+    },
+    "one-fm": {
+        "title": "One FM",
+        "type": "audio/mpeg",
+        "url": "https://www.onefm.ch",
+        "cros": false,
+        "stream": "https://onefm.ice.infomaniak.ch/onefm-high.mp3",
+        "features": "/img/europe/switzerland/one-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/one-fm?time="
+    },
+    "christmas-fm": {
+        "title": "Christmas Radio.FM",
+        "type": "audio/mpeg",
+        "url": "http://www.christmasradio.fm/",
+        "cros": false,
+        "stream": "https://xmasfm1.dmd2streaming.com/christmasradiofm-128.mp3",
+        "features": "/img/europe/switzerland/christmas-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/christmas-fm?time="
+    },
+    "uzic-techno-minimal": {
+        "title": "UZIC - Techno-Minimal",
+        "type": "audio/mpeg",
+        "url": "https://www.uzic.ch/",
+        "cros": true,
+        "stream": "http://stream03.uzic.ch:9010/;",
+        "features": "/img/europe/switzerland/uzic-techno-minimal.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/131/uzic-techno-minimal?time="
+    }
+}

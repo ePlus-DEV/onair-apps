@@ -1,0 +1,378 @@
+{
+  "noti-uno": {
+    "title": "Noti Uno",
+    "type": "audio/mpeg",
+    "url": "https://www.notiuno.com/",
+    "cros": true,
+    "stream": "https://server20.servistreaming.com:9022/stream",
+    "features": "/img/north-america/puerto-rico/noti-uno.png",
+    "favorite": true
+  },
+  "mega": {
+    "title": "La Mega",
+    "type": "audio/mpeg",
+    "url": "https://www.lamusica.com/stations/wmeg",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/sbsystems-wmegfmaac-imc1",
+    "features": "/img/north-america/puerto-rico/mega.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/mega?time="
+  },
+  "nueva-vida": {
+    "title": "Nueva Vida",
+    "type": "audio/mpeg",
+    "url": "https://nuevavida.fm/",
+    "cros": true,
+    "stream": "http://node-03.zeno.fm:80/qgkv1nzpc84tv",
+    "features": "/img/north-america/puerto-rico/nueva-vida.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/nueva-vida?time="
+  },
+  "magic": {
+    "title": "Magic (Metro)",
+    "type": "audio/mpeg",
+    "url": "https://magic973.com",
+    "cros": false,
+    "stream": "https://stream.eleden.com:8210/magic.aac",
+    "features": "/img/north-america/puerto-rico/magic.png"
+  },
+  "kq105": {
+    "title": "KQ105",
+    "type": "audio/mpeg",
+    "url": "https://www.univision.com/radio/puerto-rico-wkaq-fm",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/univision-wkaqfmaac-imc1",
+    "features": "/img/north-america/puerto-rico/kq105.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/kq105?time="
+  },
+  "zeta": {
+    "title": "Zeta",
+    "type": "audio/mpeg",
+    "url": "https://www.lamusica.com/stations/wznt",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/sbsystems-wzntfmaac-imc1",
+    "features": "/img/north-america/puerto-rico/zeta.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/zeta?time="
+  },
+  "redentor": {
+    "title": "Redentor",
+    "type": "audio/mpeg",
+    "url": "https://redentor104fm.com/",
+    "cros": false,
+    "stream": "https://livestreamcdn.net:2000/stream/Redentor104.1FM",
+    "features": "/img/north-america/puerto-rico/redentor.png"
+  },
+  "la-nueva": {
+    "title": "La Nueva",
+    "type": "audio/mpeg",
+    "url": "https://www.lamusica.com/stations/woda",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/sbsystems-wodafmaac-imc1",
+    "features": "/img/north-america/puerto-rico/la-nueva.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/la-nueva?time="
+  },
+  "salsoul": {
+    "title": "Salsoul (San Juan)",
+    "type": "audio/mpeg",
+    "url": "https://salsoul.com/",
+    "cros": true,
+    "stream": "https://server20.servistreaming.com:9023/stream",
+    "features": "/img/north-america/puerto-rico/salsoul.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/salsoul?time="
+  },
+  "play": {
+    "title": "Play",
+    "type": "audio/mpeg",
+    "url": "https://www.lamusica.com/stations/wrxd",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/sbsystems-wrxdfmaac-imc1",
+    "features": "/img/north-america/puerto-rico/play.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/play?time="
+  },
+  "renacer": {
+    "title": "Radio Renacer",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://unoredradio.com:9850/;",
+    "features": "/img/north-america/puerto-rico/renacer.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/renacer?time="
+  },
+  "la-x": {
+    "title": "La X",
+    "type": "application/x-mpegURL",
+    "url": "https://lax.fm/portal/",
+    "cros": false,
+    "stream": "https://stream.eleden.com/lax.aac/lax.aac.stream/playlist.m3u8",
+    "features": "/img/north-america/puerto-rico/la-x.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/la-x?time="
+  },
+  "inspira": {
+    "title": "Inspira 88.1 FM",
+    "type": "audio/mpeg",
+    "url": "https://881inspira.fm/",
+    "cros": true,
+    "stream": "https://smioradio.com:1045/stream",
+    "features": "/img/north-america/puerto-rico/inspira.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/inspira?time="
+  },
+  "walo": {
+    "title": "Walo Radio (Humacao)",
+    "type": "audio/mpeg",
+    "url": "https://waloradio.com/",
+    "cros": true,
+    "stream": "http://server10.servistreaming.com:9031/stream?type=.mp3",
+    "features": "/img/north-america/puerto-rico/walo.png"
+  },
+  "faro-vega-baja": {
+    "title": "Faro de Santidad Vega (Baja)",
+    "type": "application/x-mpegURL",
+    "url": "https://farodesantidad.com/",
+    "cros": false,
+    "stream": "https://5dbcd1053301e.streamlock.net:4443/farodesantidad/farodesantidad/playlist.m3u8",
+    "features": "/img/north-america/puerto-rico/faro-vega-baja.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/faro-vega-baja?time="
+  },
+  "xlevel": {
+    "title": "XLevel",
+    "type": "application/x-mpegURL",
+    "url": "https://www.xlevelpr.com/",
+    "cros": false,
+    "stream": "https://play.amelbasoluciones.co:3027/live/xleveltvlive.m3u8",
+    "features": "/img/north-america/puerto-rico/xlevel.png"
+  },
+  "catolica": {
+    "title": "Católica Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.catolicaradiopr.com/",
+    "cros": false,
+    "stream": "https://live.turadio.stream:7017/catolicaradiopr",
+    "features": "/img/north-america/puerto-rico/catolica.png"
+  },
+  "universidad": {
+    "title": "Radio Universidad",
+    "type": "audio/mpeg",
+    "url": "https://www.wrtu.pr/",
+    "cros": true,
+    "stream": "http://streaming.radiouniversidad.pr:8062/;",
+    "features": "/img/north-america/puerto-rico/universidad.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/universidad?time="
+  },
+  "familia": {
+    "title": "La Estación de La Familia",
+    "type": "audio/mpeg",
+    "url": "https://estaciondelafamilia.com/",
+    "cros": false,
+    "stream": "https://stream.eleden.com:8320/laestaciondelafamiliapr.mp3",
+    "features": "/img/north-america/puerto-rico/familia.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/familia?time="
+  },
+  "wapa": {
+    "title": "Wapa Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.waparadiopr.com/",
+    "cros": false,
+    "stream": "https://livestreamcdn.net:2000/stream/WapaRadio",
+    "features": "/img/north-america/puerto-rico/wapa.png"
+  },
+  "wpab-ponce": {
+    "title": "WPAB (Ponce)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://server10.servistreaming.com:9059/stream/1/",
+    "features": "/img/north-america/puerto-rico/wpab-ponce.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/wpab-ponce?time="
+  },
+  "fm-96": {
+    "title": "FM 96",
+    "type": "audio/mpeg",
+    "url": "https://fm96puertorico.com/",
+    "cros": true,
+    "stream": "http://s2.nexuscast.com:8105/stream/1/",
+    "features": "/img/north-america/puerto-rico/fm-96.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/fm-96?time="
+  },
+  "victoria": {
+    "title": "Radio Victoria",
+    "type": "audio/mpeg",
+    "url": "https://www.victoria840.com/",
+    "cros": true,
+    "stream": "http://server10.servistreaming.com:9039/stream/1/",
+    "features": "/img/north-america/puerto-rico/victoria.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/victoria?time="
+  },
+  "maranatha": {
+    "title": "Maranatha Radio Ministries",
+    "type": "audio/mpeg",
+    "url": "https://www.maranatharadioministries.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/8h1fp5vzmtwtv",
+    "features": "/img/north-america/puerto-rico/maranatha.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/maranatha?time="
+  },
+  "once": {
+    "title": "Radio Once",
+    "type": "audio/mpeg",
+    "url": "https://www.radioonce.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/gw0kpk6wt4zuv.aac",
+    "features": "/img/north-america/puerto-rico/once.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/once?time="
+  },
+  "sacra": {
+    "title": "Radio Sacra",
+    "type": "application/x-mpegURL",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.eleden.com:1936/rsacrac.aac/rsacrac.aac.stream/playlist.m3u8?DVR",
+    "features": "/img/north-america/puerto-rico/sacra.png"
+  },
+  "paraiso": {
+    "title": "Radio Paraíso",
+    "type": "audio/mpeg",
+    "url": "https://www.paraiso92.org/",
+    "cros": false,
+    "stream": "https://stream.eleden.com:8240/wtpm.aac",
+    "features": "/img/north-america/puerto-rico/paraiso.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/paraiso?time="
+  },
+  "cima": {
+    "title": "Cima",
+    "type": "audio/mpeg",
+    "url": "https://cima103.com/",
+    "cros": false,
+    "stream": "https://stream.eleden.com:8262/rcima.aac",
+    "features": "/img/north-america/puerto-rico/cima.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/cima?time="
+  },
+  "fresh-999-fm-san-juan": {
+    "title": "Fresh 99.9 (San Juan)",
+    "type": "audio/mpeg",
+    "url": "https://fresh999.com/",
+    "cros": true,
+    "stream": "http://174.36.206.197:7068/stream/1/",
+    "features": "/img/north-america/puerto-rico/fresh-999-fm-san-juan.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/fresh-999-fm-san-juan?time="
+  },
+  "waba": {
+    "title": "Waba",
+    "type": "application/x-mpegURL",
+    "url": "http://waba850am.com/",
+    "cros": false,
+    "stream": "https://stream.eleden.com/waba.aac/waba.aac.stream/playlist.m3u8",
+    "features": "/img/north-america/puerto-rico/waba.png"
+  },
+  "cumbre": {
+    "title": "Cumbre",
+    "type": "audio/mpeg",
+    "url": "https://cumbre1470am.com/",
+    "cros": false,
+    "stream": "https://embed.unored.tv/stream/index.php?s=unoredradio.com&p=9822&m=;",
+    "features": "/img/north-america/puerto-rico/cumbre.png"
+  },
+  "unica": {
+    "title": "Única Radio (Arecibo)",
+    "type": "audio/mpeg",
+    "url": "https://new.unicaradioam.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/mynk236wt4zuv",
+    "features": "/img/north-america/puerto-rico/unica.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/unica?time="
+  },
+  "wipr": {
+    "title": "WIPR AM",
+    "type": "audio/mpeg",
+    "url": "https://wipr.pr/am/",
+    "cros": true,
+    "stream": "http://192.254.105.36:8080/broadwavehigh.mp3?src=2",
+    "features": "/img/north-america/puerto-rico/wipr.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/wipr?time="
+  },
+  "fm-107-san-juan": {
+    "title": "Mix",
+    "type": "audio/mpeg",
+    "url": "https://mix107pr.com/",
+    "cros": true,
+    "stream": "http://174.36.206.197:7062/stream/1/",
+    "features": "/img/north-america/puerto-rico/fm-107-san-juan.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/fm-107-san-juan?time="
+  },
+  "una-1340": {
+    "title": "Radio Una",
+    "type": "application/x-mpegURL",
+    "url": "http://radiouna1340.com/",
+    "cros": false,
+    "stream": "https://stream.eleden.com/una1340.aac/una1340.aac.stream/playlist.m3u8",
+    "features": "/img/north-america/puerto-rico/una-1340.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/una-1340?time="
+  },
+  "hot-102": {
+    "title": "Hot 102",
+    "type": "audio/mpeg",
+    "url": "https://hot102pr.com/escuchanos-en-vivo/",
+    "cros": true,
+    "stream": "https://server7.servistreaming.com/proxy/hotaac?mp=/stream",
+    "features": "/img/north-america/puerto-rico/hot-102.png"
+  },
+  "vida": {
+    "title": "Radio Vida (Carolina)",
+    "type": "audio/mpeg",
+    "url": "https://radiovidaoficial.com/",
+    "cros": true,
+    "stream": "http://166.88.21.98:9592/;",
+    "features": "/img/north-america/puerto-rico/vida.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/vida?time="
+  },
+  "wpra-mayagueez": {
+    "title": "WPRA (Mayagüez)",
+    "type": "audio/mpeg",
+    "url": "https://wpra990.com/",
+    "cros": false,
+    "stream": "https://stream.eleden.com:8290/wpra.mp3",
+    "features": "/img/north-america/puerto-rico/wpra-mayagueez.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/wpra-mayagueez?time="
+  },
+  "sol": {
+    "title": "Radio Wzol (San Juan)",
+    "type": "application/x-mpegURL",
+    "url": "https://radiosol.org/",
+    "cros": false,
+    "stream": "https://stream.eleden.com/wzol.aac/wzol.aac.stream/playlist.m3u8",
+    "features": "/img/north-america/puerto-rico/sol.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/sol?time="
+  },
+  "la-x94-cristiana": {
+    "title": "LA X94 - Radio Cristiana",
+    "type": "audio/mpeg",
+    "url": "https://www.lax94.com/",
+    "cros": false,
+    "stream": "https://securestreams6.autopo.st:2128/stream/1/",
+    "features": "/img/north-america/puerto-rico/la-x94-cristiana.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/la-x94-cristiana?time="
+  },
+  "super-k-hatillo": {
+    "title": "Superk (Hatillo)",
+    "type": "audio/mpeg",
+    "url": "http://www.superk106.com/",
+    "cros": true,
+    "stream": "http://centova2.whsh4u.com:9179/stream/1/",
+    "features": "/img/north-america/puerto-rico/super-k-hatillo.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/super-k-hatillo?time="
+  },
+  "procer": {
+    "title": "Radio Procer",
+    "type": "audio/mpeg",
+    "url": "http://www.radioprocer1380.com/",
+    "cros": false,
+    "stream": "https://embed.unored.tv/stream/index.php?s=unoredradio.com&p=9698&m=/;",
+    "features": "/img/north-america/puerto-rico/procer.png",
+    "schedule": "https://api.webrad.io/data/playlist/46/procer?time="
+  },
+  "x61": {
+    "title": "X61 Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.x61radio.com/",
+    "cros": true,
+    "stream": "http://unoredradio.com:9842/;",
+    "features": "/img/north-america/puerto-rico/x61.png"
+  }
+}

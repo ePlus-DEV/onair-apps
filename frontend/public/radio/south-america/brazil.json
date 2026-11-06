@@ -1,0 +1,378 @@
+{
+  "metropolitana-online": {
+    "title": "Rádio Metropolitana FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://metropolitanafm.com.br/",
+    "cros": false,
+    "stream": "https://ice.fabricahost.com.br/metropolitana985sp",
+    "features": "/img/south-america/brazil/metropolitana-online.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/metropolitana-online?time=",
+    "favorite": true
+  },
+  "89-a-rock": {
+    "title": "A Rádio Rock (Sao Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiorock.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_89FM_SC",
+    "features": "/img/south-america/brazil/89-a-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/89-a-rock?time="
+  },
+  "fm-o-dia": {
+    "title": "Rádio FM O Dia (Rio de Janeiro)",
+    "type": "audio/mpeg",
+    "url": "https://www.fmodia.com.br/",
+    "cros": false,
+    "stream": "https://streaming.livespanel.com:20000/live",
+    "features": "/img/south-america/brazil/fm-o-dia.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/fm-o-dia?time="
+  },
+  "mix-fm": {
+    "title": "Rádio Mix FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://radiomixfm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIXFM_SAOPAULOAAC_SC",
+    "features": "/img/south-america/brazil/mix-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/mix-fm?time="
+  },
+  "kiss": {
+    "title": "Kiss (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://kissfm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_KISSFM_ADP_SC",
+    "features": "/img/south-america/brazil/kiss.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/kiss?time="
+  },
+  "disney": {
+    "title": "Rádio Disney",
+    "type": "audio/mpeg",
+    "url": "https://radiodisney.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_BRA_SP_SC",
+    "features": "/img/south-america/brazil/disney.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/disney?time="
+  },
+  "jovem-pan": {
+    "title": "Rádio Jovem Pan (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://jovempan.com.br/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/c45wbq2us3buv",
+    "features": "/img/south-america/brazil/jovem-pan.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/jovem-pan?time="
+  },
+  "bh-fm": {
+    "title": "Rádio BH FM",
+    "type": "audio/mpeg",
+    "url": "https://bhfm.globo.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BHFMAAC_SC",
+    "features": "/img/south-america/brazil/bh-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/bh-fm?time="
+  },
+  "band": {
+    "title": "Band FM",
+    "type": "audio/mpeg",
+    "url": "https://www.band.uol.com.br/radios/band-fm/sao-paulo",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BANDFM_SPAAC_SC",
+    "features": "/img/south-america/brazil/band.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/band?time="
+  },
+  "energia": {
+    "title": "Rádio Energia 97 FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.97fm.com.br/",
+    "cros": true,
+    "stream": "http://streaming.inweb.com.br/energia",
+    "features": "/img/south-america/brazil/energia.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/energia?time="
+  },
+  "saudade": {
+    "title": "Rádio Saudade FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.saudadefm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SAUDADE_FM_SC",
+    "features": "/img/south-america/brazil/saudade.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/saudade?time="
+  },
+  "jb-fm": {
+    "title": "Rádio JB FM (Rio de Janeiro)",
+    "type": "audio/mpeg",
+    "url": "https://jb.fm/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/JBFMAAC1_SC",
+    "features": "/img/south-america/brazil/jb-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/jb-fm?time="
+  },
+  "alpha-sp": {
+    "title": "Alpha FM (Sao Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://alphafm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALPHAFMAAC_SC",
+    "features": "/img/south-america/brazil/alpha-sp.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/alpha-sp?time="
+  },
+  "bandeirantes": {
+    "title": "Rádio Bandeirantes AM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.band.uol.com.br/radio-bandeirantes",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOBANDEIRANTES_SC",
+    "features": "/img/south-america/brazil/bandeirantes.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/bandeirantes?time="
+  },
+  "98-fm": {
+    "title": "Rede 98 FM",
+    "type": "audio/mpeg",
+    "url": "https://98live.com.br/",
+    "cros": false,
+    "stream": "https://9554.brasilstream.com.br/stream",
+    "features": "/img/south-america/brazil/98-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/98-fm?time="
+  },
+  "transamerica": {
+    "title": "Transamérica Pop (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://transamericafm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_SPAAC_SC",
+    "features": "/img/south-america/brazil/transamerica.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/transamerica?time="
+  },
+  "tropical": {
+    "title": "Rádio Tropical FM",
+    "type": "audio/mpeg",
+    "url": "https://www.radiotropicalfm.com/",
+    "cros": false,
+    "stream": "https://stream2.svrdedicado.org/8500/stream/1/",
+    "features": "/img/south-america/brazil/tropical.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/tropical?time="
+  },
+  "93-fm": {
+    "title": "Rádio 93 FM (Rio de Janeiro)",
+    "type": "audio/mpeg",
+    "url": "https://radio93.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM93_SC",
+    "features": "/img/south-america/brazil/93-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/93-fm?time="
+  },
+  "105-fm": {
+    "title": "Rádio 105 FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://radio105fm.com.br/",
+    "cros": false,
+    "stream": "https://www.appradio.app:8010/live",
+    "features": "/img/south-america/brazil/105-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/105-fm?time="
+  },
+  "nativa-sao-paulo": {
+    "title": "Rádio Nativa (Sao Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.band.uol.com.br/radios/nativa/sao-paulo",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/NATIVA_SP_SC",
+    "features": "/img/south-america/brazil/nativa-sao-paulo.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/nativa-sao-paulo?time="
+  },
+  "transcontinental-fm": {
+    "title": "Rádio Transcontinental FM",
+    "type": "audio/mpeg",
+    "url": "https://transcontinentalfm.com.br/",
+    "cros": false,
+    "stream": "https://ice.fabricahost.com.br/transcontinentalsp48",
+    "features": "/img/south-america/brazil/transcontinental-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/transcontinental-fm?time="
+  },
+  "globo": {
+    "title": "Rádio Globo FM",
+    "type": "audio/mpeg",
+    "url": "https://radioglobo.globo.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_GLOBO_RJAAC.aac",
+    "features": "/img/south-america/brazil/globo.png"
+  },
+  "dumont-sp": {
+    "title": "Dumont FM (Sao Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://www.dumontfm.com.br/",
+    "cros": false,
+    "stream": "https://rrdns-dumont.webnow.com.br/dumont.aac",
+    "features": "/img/south-america/brazil/dumont-sp.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/dumont-sp?time="
+  },
+  "melodia-rj": {
+    "title": "Melodia (Rio de Janeiro)",
+    "type": "audio/mpeg",
+    "url": "https://www.melodia.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MELODIAFMAAC_SC",
+    "features": "/img/south-america/brazil/melodia-rj.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/melodia-rj?time="
+  },
+  "top-fm": {
+    "title": "Rádio Top FM",
+    "type": "audio/mpeg",
+    "url": "https://topfmsp.com.br/",
+    "cros": false,
+    "stream": "https://ice.fabricahost.com.br/topfm1041sp",
+    "features": "/img/south-america/brazil/top-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/top-fm?time="
+  },
+  "gazeta": {
+    "title": "Rádio Gazeta FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://gazetafm.com.br/",
+    "cros": false,
+    "stream": "https://shout25.crossradio.com.br:18002/stream/1/",
+    "features": "/img/south-america/brazil/gazeta.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/gazeta?time="
+  },
+  "novabrasil": {
+    "title": "NovaBrasil FM",
+    "type": "audio/mpeg",
+    "url": "https://novabrasilfm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/NOVABRASIL_SPAAC_SC",
+    "features": "/img/south-america/brazil/novabrasil.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/novabrasil?time="
+  },
+  "metropole": {
+    "title": "Rádio Metrópole - Metro 1",
+    "type": "audio/mpeg",
+    "url": "https://www.metro1.com.br/",
+    "cros": false,
+    "stream": "https://listen.radioking.com/radio/268642/stream/313975",
+    "features": "/img/south-america/brazil/metropole.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/metropole?time="
+  },
+  "jovem-pan-floripa": {
+    "title": "Jovem Pan Floripa",
+    "type": "application/x-mpegURL",
+    "url": "https://jovempan.com.br/afiliada/floripa-fm",
+    "cros": false,
+    "stream": "https://5a57bda70564a.streamlock.net/jfloripa/jfloripa.stream/playlist.m3u8",
+    "features": "/img/south-america/brazil/jovem-pan-floripa.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/jovem-pan-floripa?time="
+  },
+  "radio-amil-paradiso-fm-rio-de-janeiro": {
+    "title": "Rádio Amil Paradiso FM (Rio de Janeiro)",
+    "type": "audio/mpeg",
+    "url": "https://amilparadiso.fm/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/PARADISOAAC_SC",
+    "features": "/img/south-america/brazil/radio-amil-paradiso-fm-rio-de-janeiro.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/radio-amil-paradiso-fm-rio-de-janeiro?time="
+  },
+  "itapoan-fm": {
+    "title": "Itapoan FM",
+    "type": "audio/mpeg",
+    "url": "https://itapoanfm.com.br/",
+    "cros": false,
+    "stream": "https://cast.radiu.live:9300/stream/1/",
+    "features": "/img/south-america/brazil/itapoan-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/itapoan-fm?time="
+  },
+  "atlantida": {
+    "title": "Atlântida FM",
+    "type": "application/x-mpegURL",
+    "url": "https://redeatlantida.clicrbs.com.br/",
+    "cros": false,
+    "stream": "https://liverdatlpoa.rbsdirect.com.br/primary/atl_poa.sdp/playlist.m3u8",
+    "features": "/img/south-america/brazil/atlantida.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/atlantida?time="
+  },
+  "capital": {
+    "title": "Radio Capital",
+    "type": "audio/mpeg",
+    "url": "https://capitalcomvoce.com.br/",
+    "cros": false,
+    "stream": "https://ice.fabricahost.com.br/capitalfmsp",
+    "features": "/img/south-america/brazil/capital.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/capital?time="
+  },
+  "bahia-salvador": {
+    "title": "Rádio Bahia (Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.ibahia.com/mundobahiafm",
+    "cros": false,
+    "stream": "https://ice.fabricahost.com.br/radiobahiafm",
+    "features": "/img/south-america/brazil/bahia-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/bahia-salvador?time="
+  },
+  "feliz": {
+    "title": "Feliz FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://felizfm.fm/",
+    "cros": false,
+    "stream": "https://cloud1.cdnseguro.com:5520/stream/1/",
+    "features": "/img/south-america/brazil/feliz.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/feliz?time="
+  },
+  "gaucha": {
+    "title": "Rádio Gaúcha",
+    "type": "application/x-mpegURL",
+    "url": "https://radiogauchafm.com/",
+    "cros": false,
+    "stream": "https://liverdgaupoa.rbsdirect.com.br/primary/gaucha_rbs.sdp/playlist.m3u8",
+    "features": "/img/south-america/brazil/gaucha.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/gaucha?time="
+  },
+  "cbn": {
+    "title": "Rádio CBN FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://cbn.globo.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CBN_SPAAC_SC",
+    "features": "/img/south-america/brazil/cbn.png"
+  },
+  "alvorada-bh": {
+    "title": "Alvorada FM (Belo Horizonte)",
+    "type": "audio/mpeg",
+    "url": "https://www.alvoradafm.com.br/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALVORADAAAC_SC",
+    "features": "/img/south-america/brazil/alvorada-bh.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/alvorada-bh?time="
+  },
+  "guaiba": {
+    "title": "Rádio Guaiba",
+    "type": "audio/mpeg",
+    "url": "https://guaiba.com.br/",
+    "cros": true,
+    "stream": "http://c1.audiostream.com.br:8007/site",
+    "features": "/img/south-america/brazil/guaiba.png"
+  },
+  "clube-brasilia": {
+    "title": "Rádio Clube FM (Brasília)",
+    "type": "audio/mpeg",
+    "url": "https://clube.fm/",
+    "cros": false,
+    "stream": "https://8157.brasilstream.com.br/stream?origem=radiosaovivo",
+    "features": "/img/south-america/brazil/clube-brasilia.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/clube-brasilia?time="
+  },
+  "usp": {
+    "title": "Rádio USP FM (São Paulo)",
+    "type": "audio/mpeg",
+    "url": "https://jornal.usp.br/radio/",
+    "cros": false,
+    "stream": "https://flow.emm.usp.br:8008/radiousp-128.mp3",
+    "features": "/img/south-america/brazil/usp.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/usp?time="
+  },
+  "alphafm-brasilia": {
+    "title": "Alpha FM (Brasília)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ALPHAFMAAC_SC",
+    "features": "/img/south-america/brazil/alphafm-brasilia.png",
+    "schedule": "https://api.webrad.io/data/playlist/8/alphafm-brasilia?time="
+  }
+}

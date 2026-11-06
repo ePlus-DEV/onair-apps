@@ -1,0 +1,403 @@
+{
+    "los-40-principales": {
+        "title": "Los 40 Principales",
+        "type": "audio/mpeg",
+        "url": "https://los40.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_SC",
+        "features": "/img/europe/spain/los-40-principales.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/38/los-40-principales?time="
+    },
+    "cadena-cien": {
+        "title": "Cadena 100",
+        "type": "audio/mpeg",
+        "url": "https://www.cadena100.es/",
+        "cros": false,
+        "stream": "https://cadena100-cope-rrcast.flumotion.com/cope/cadena100-low.mp3",
+        "features": "/img/europe/spain/cadena-cien.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/cadena-cien?time="
+    },
+    "rock-fm": {
+        "title": "Rock FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rockfm.fm/",
+        "cros": false,
+        "stream": "https://rockfm-cope-rrcast.flumotion.com/cope/rockfm-low.mp3",
+        "features": "/img/europe/spain/rock-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/rock-fm?time="
+    },
+    "los-40-dance": {
+        "title": "Los 40 Dance",
+        "type": "audio/mpeg",
+        "url": "https://los40.com/los40_dance/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_DANCE_SC",
+        "features": "/img/europe/spain/los-40-dance.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/los-40-dance?time="
+    },
+    "cadena-dial": {
+        "title": "Cadena Dial",
+        "type": "audio/mpeg",
+        "url": "https://www.cadenadial.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENADIALAAC_SC",
+        "features": "/img/europe/spain/cadena-dial.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/cadena-dial?time="
+    },
+    "flaix": {
+        "title": "Flaix FM",
+        "type": "audio/mpeg",
+        "url": "https://www.flaixfm.cat/",
+        "cros": false,
+        "stream": "https://stream.flaixfm.cat/icecast",
+        "features": "/img/europe/spain/flaix.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/flaix?time="
+    },
+    "cadena-ser": {
+        "title": "Cadena SER",
+        "type": "audio/mpeg",
+        "url": "https://cadenaser.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENASER_SC",
+        "features": "/img/europe/spain/cadena-ser.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/cadena-ser?time="
+    },
+    "rne": {
+        "title": "RNE Radio (Nacional)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rtve.es/radio/",
+        "cros": false,
+        "stream": "https://ztnr.rtve.es/ztnr/1938076.m3u8",
+        "features": "/img/europe/spain/rne.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/rne?time="
+    },
+    "flaixbac": {
+        "title": "Radio Flaixbac (Barcelona)",
+        "type": "audio/mpeg",
+        "url": "https://www.flaixbac.cat/",
+        "cros": false,
+        "stream": "https://stream.flaixbac.cat/icecast",
+        "features": "/img/europe/spain/flaixbac.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/flaixbac?time="
+    },
+    "los40classic": {
+        "title": "Los 40 Classic",
+        "type": "audio/mpeg",
+        "url": "https://los40.com/los40_classic/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CLASSICAAC_SC",
+        "features": "/img/europe/spain/los40classic.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/los40classic?time="
+    },
+    "global-radio": {
+        "title": "Ibiza Global",
+        "type": "audio/mpeg",
+        "url": "https://www.ibizaglobalradio.com/",
+        "cros": false,
+        "stream": "https://nodo10-cloud01.streaming-pro.com:8025/ibizaglobalradio.mp3",
+        "features": "/img/europe/spain/global-radio.png",
+        "favorite": false
+    },
+    "canal-fiesta": {
+        "title": "Canal Fiesta",
+        "type": "application/x-mpegURL",
+        "url": "https://www.canalsur.es/CanalFiesta-1293.html",
+        "cros": false,
+        "stream": "https://cdnlive.codev8.net/rtvalive/smil:channel5.smil/playlist.m3u8",
+        "features": "/img/europe/spain/canal-fiesta.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/canal-fiesta?time="
+    },
+    "radiole": {
+        "title": "Radiolé",
+        "type": "audio/mpeg",
+        "url": "https://www.radiole.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOLE_ASO_COSTA_LUZ_SC",
+        "features": "/img/europe/spain/radiole.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/radiole?time="
+    },
+    "ibiza-sonica": {
+        "title": "Ibiza Sonica Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.ibizasonica.com/",
+        "cros": false,
+        "stream": "https://ibizasonica.streaming-pro.com:8000/ibizasonica",
+        "features": "/img/europe/spain/ibiza-sonica.png",
+        "favorite": false
+    },
+    "onda-cero": {
+        "title": "Onda Cero",
+        "type": "application/x-mpegURL",
+        "url": "https://www.ondacero.es/",
+        "cros": false,
+        "stream": "https://atres-live.ondacero.es/live/ondacero/bitrate_1.m3u8",
+        "features": "/img/europe/spain/onda-cero.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/onda-cero?time="
+    },
+    "maria": {
+        "title": "Radio María",
+        "type": "audio/mpeg",
+        "url": "https://radiomaria.es/",
+        "cros": true,
+        "stream": "http://51.77.84.64:8068/stream/1/",
+        "features": "/img/europe/spain/maria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/maria?time="
+    },
+    "radio-3": {
+        "title": "Radio RNE 3",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rtve.es/radio/radio3/",
+        "cros": false,
+        "stream": "https://rtvelivestream.akamaized.net/rtvesec/rne/rne_r3_main.m3u8",
+        "features": "/img/europe/spain/radio-3.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/radio-3?time="
+    },
+    "hit-fm": {
+        "title": "Hit FM",
+        "type": "audio/mpeg",
+        "url": "https://www.hitfm.es/",
+        "cros": false,
+        "stream": "https://adhandler.kissfmradio.cires21.com/get_link?url=https://bbhitfm.kissfmradio.cires21.com/bbhitfm.mp3",
+        "features": "/img/europe/spain/hit-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/hit-fm?time="
+    },
+    "rac1": {
+        "title": "RAC 1",
+        "type": "audio/mpeg",
+        "url": "https://www.rac1.cat/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC_1_SC",
+        "features": "/img/europe/spain/rac1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/rac1?time="
+    },
+    "cope": {
+        "title": "Cope FM",
+        "type": "audio/mpeg",
+        "url": "https://www.cope.es/emisoras/comunidad-de-madrid/madrid-provincia/madrid",
+        "cros": false,
+        "stream": "https://net1-cope-rrcast.flumotion.com/cope/net1-low.mp3",
+        "features": "/img/europe/spain/cope.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/cope?time="
+    },
+    "loca-fm": {
+        "title": "Loca FM",
+        "type": "audio/mpeg",
+        "url": "https://www.locafm.com/",
+        "cros": true,
+        "stream": "http://locafm01.we4stream.com:8045/live",
+        "features": "/img/europe/spain/loca-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/loca-fm?time="
+    },
+    "rac-105": {
+        "title": "RAC 105",
+        "type": "audio/mpeg",
+        "url": "https://www.rac105.cat",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RAC105_SC",
+        "features": "/img/europe/spain/rac-105.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/rac-105?time="
+    },
+    "catalunya": {
+        "title": "Catalunya Radio (Barcelona)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.ccma.cat/catradio/",
+        "cros": false,
+        "stream": "https://directes-radio-int.ccma.cat/live-content/catalunya-radio-hls/master.m3u8",
+        "features": "/img/europe/spain/catalunya.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/catalunya?time="
+    },
+    "marca": {
+        "title": "Radio Marca",
+        "type": "audio/mpeg",
+        "url": "https://www.marca.com/radio.html",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIOMARCA_NACIONALAAC_SC",
+        "features": "/img/europe/spain/marca.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/marca?time="
+    },
+    "clasica": {
+        "title": "Radio Clásica",
+        "type": "audio/mpeg",
+        "url": "https://www.rtve.es/radio/",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/crtve/rnerc/main/mp3/high",
+        "features": "/img/europe/spain/clasica.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/clasica?time="
+    },
+    "radio-5": {
+        "title": "Radio RNE 5",
+        "type": "audio/mpeg",
+        "url": "https://www.rtve.es/radio/",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/crtve/rne5/main/mp3/high?aggregator=tunein",
+        "features": "/img/europe/spain/radio-5.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/radio-5?time="
+    },
+    "es": {
+        "title": "esRadio",
+        "type": "audio/mpeg",
+        "url": "https://esradio.libertaddigital.com/",
+        "cros": false,
+        "stream": "https://libertaddigital-radio-live1.flumotion.com/libertaddigital/ld-live1-low.mp3",
+        "features": "/img/europe/spain/es.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/es?time="
+    },
+    "flamenco-radio-espana": {
+        "title": "Flamenco Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.canalsur.es/radio/flamencoradio.com-1313.html",
+        "cros": false,
+        "stream": "https://cdnlive.codev8.net/rtvalive/smil:channel7.smil/playlist.m3u8",
+        "features": "/img/europe/spain/flamenco-radio-espana.png",
+        "favorite": false
+    },
+    "spektra-valencia": {
+        "title": "Spektra FM (Valencia)",
+        "type": "audio/mpeg",
+        "url": "https://linktr.ee/spektra.fm",
+        "cros": false,
+        "stream": "https://stm2.emiteonline.com:9008/spektrafm",
+        "features": "/img/europe/spain/spektra-valencia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/spektra-valencia?time="
+    },
+    "radio-andalucia-espana": {
+        "title": "Radio Andalucia",
+        "type": "application/x-mpegURL",
+        "url": "https://www.canalsur.es/radio-555.html",
+        "cros": false,
+        "stream": "https://cdnlive.codev8.net/rtvalive/smil:channel9.smil/playlist.m3u8",
+        "features": "/img/europe/spain/radio-andalucia-espana.png",
+        "favorite": false
+    },
+    "q-fm": {
+        "title": "Q FM",
+        "type": "audio/mpeg",
+        "url": "https://www.qmusica.com/es",
+        "cros": false,
+        "stream": "https://eu8.fastcast4u.com/proxy/qfmserver2?mp=/stream/1/",
+        "features": "/img/europe/spain/q-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/q-fm?time="
+    },
+    "vaughan-zaragoza": {
+        "title": "Vaughan Radio (Zaragoza)",
+        "type": "audio/mpeg",
+        "url": "https://grupovaughan.com/vaughan-radio/",
+        "cros": false,
+        "stream": "https://nodo03-cloud01.streaming-pro.com:8058/vaughanradio.mp3",
+        "features": "/img/europe/spain/vaughan-zaragoza.png",
+        "favorite": false
+    },
+    "nervion-bilbao": {
+        "title": "Radio Nervión (Bilbao)",
+        "type": "audio/mpeg",
+        "url": "https://www.radionervion.com/",
+        "cros": false,
+        "stream": "https://nodo04-cloud01.streaming-pro.com:6131/radionervion.mp3",
+        "features": "/img/europe/spain/nervion-bilbao.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/nervion-bilbao?time="
+    },
+    "cadena-ser-sevilla": {
+        "title": "Cadena SER (Sevilla)",
+        "type": "audio/mpeg",
+        "url": "https://cadenaser.com/radio-sevilla/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SER_SEVILLA_SC",
+        "features": "/img/europe/spain/cadena-ser-sevilla.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/cadena-ser-sevilla?time="
+    },
+    "intereconomia": {
+        "title": "Radio Intereconomía",
+        "type": "audio/mpeg",
+        "url": "https://intereconomia.com/",
+        "cros": false,
+        "stream": "https://intereconomia.emitironline.com/",
+        "features": "/img/europe/spain/intereconomia.png",
+        "favorite": false
+    },
+    "chanquete-malaga": {
+        "title": "Chanquete FM (Málaga)",
+        "type": "audio/mpeg",
+        "url": "http://www.chanquetefm.com/",
+        "cros": true,
+        "stream": "http://185.23.192.118:8008/stream/1/",
+        "features": "/img/europe/spain/chanquete-malaga.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/chanquete-malaga?time="
+    },
+    "teletaxi": {
+        "title": "Radio TeleTaxi (Barcelona)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioteletaxi.com/",
+        "cros": false,
+        "stream": "https://radiott-web.streaming-pro.com:6103/radiott.mp3",
+        "features": "/img/europe/spain/teletaxi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/teletaxi?time="
+    },
+    "catalunya-informacio": {
+        "title": "Catalunya Informació",
+        "type": "audio/mpeg",
+        "url": "https://www.ccma.cat/catradio/",
+        "cros": false,
+        "stream": "https://shoutcast.ccma.cat/ccma/catalunyainformacioHD.mp3",
+        "features": "/img/europe/spain/catalunya-informacio.png",
+        "favorite": false
+    },
+    "aragon-zaragoza": {
+        "title": "Aragón Radio (Zaragoza)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.cartv.es/aragonradio",
+        "cros": false,
+        "stream": "https://cartv.streaming.aranova.es/hls/live/aragonradio_aragonradio1.m3u8",
+        "features": "/img/europe/spain/aragon-zaragoza.png",
+        "favorite": false
+    },
+    "megastar": {
+        "title": "MegaStar FM",
+        "type": "audio/mpeg",
+        "url": "https://www.megastar.fm/",
+        "cros": false,
+        "stream": "https://flucast-b02-01.flumotion.com/cope/megastar.mp3",
+        "features": "/img/europe/spain/megastar.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/38/megastar?time="
+    },
+    "olimpica-stereo": {
+        "title": "Olímpica Stereo (Zaragoza)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://eu1.lhdserver.es:3080/stream",
+        "features": "/img/europe/spain/olimpica-stereo.png",
+        "favorite": false
+    }
+}

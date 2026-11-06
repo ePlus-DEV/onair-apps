@@ -1,0 +1,403 @@
+{
+    "romantica": {
+        "title": "La Romántica",
+        "type": "audio/mpeg",
+        "url": "https://laromantica.fm/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:8068/stream",
+        "features": "/img/south-america/venezuela/romantica.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/14/romantica?time="
+    },
+    "exitos": {
+        "title": "Éxitos FM",
+        "type": "audio/mpeg",
+        "url": "https://mundour.com/live-exitos/",
+        "cros": true,
+        "stream": "https://acp4.lorini.net/proxy/ur2070?mp=/stream",
+        "features": "/img/south-america/venezuela/exitos.png",
+        "favorite": false
+    },
+    "fiestafm": {
+        "title": "Fiesta Latina",
+        "type": "audio/mpeg",
+        "url": "https://fiesta106.com.ve/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/e2kzfpr34d0uv",
+        "features": "/img/south-america/venezuela/fiestafm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/fiestafm?time="
+    },
+    "informativo-caracas": {
+        "title": "RNV Informativo (Caracas)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:29100/RNVINFORMATIVO",
+        "features": "/img/south-america/venezuela/informativo-caracas.png",
+        "favorite": false
+    },
+    "actualidad-union": {
+        "title": "Actualidad Unión Radio",
+        "type": "audio/mpeg",
+        "url": "https://unionradio.net/",
+        "cros": false,
+        "stream": "https://acp4.lorini.net/proxy/ur2080?mp=/stream",
+        "features": "/img/south-america/venezuela/actualidad-union.png",
+        "favorite": false
+    },
+    "la-mega": {
+        "title": "La Mega Estación",
+        "type": "audio/mpeg",
+        "url": "https://mundour.com/live-mega/",
+        "cros": false,
+        "stream": "https://acp4.lorini.net/proxy/ur2050?mp=/stream",
+        "features": "/img/south-america/venezuela/la-mega.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/la-mega?time="
+    },
+    "onda": {
+        "title": "Onda La Superestación",
+        "type": "audio/mpeg",
+        "url": "https://mundour.com/",
+        "cros": false,
+        "stream": "https://acp4.lorini.net/proxy/ur2060?mp=/stream",
+        "features": "/img/south-america/venezuela/onda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/onda?time="
+    },
+    "rumba": {
+        "title": "Rumba",
+        "type": "audio/mpeg",
+        "url": "https://www.rumbavenezuela.fm/",
+        "cros": false,
+        "stream": "https://cast20.plugstreaming.com:2020/stream/r981",
+        "features": "/img/south-america/venezuela/rumba.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/rumba?time="
+    },
+    "turistica": {
+        "title": "Turística (Guayana)",
+        "type": "audio/mpeg",
+        "url": "https://turisticafm.com/",
+        "cros": false,
+        "stream": "https://cp.panelchs.com:8174/stream/1/",
+        "features": "/img/south-america/venezuela/turistica.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/turistica?time="
+    },
+    "super-trendy-valencia": {
+        "title": "Súper Trendy (Valencia)",
+        "type": "audio/mpeg",
+        "url": "https://supertrendy.net/supertrendy-valencia/",
+        "cros": false,
+        "stream": "https://live.ajfnetwork.com.ve/musikvalencia/stream/1/",
+        "features": "/img/south-america/venezuela/super-trendy-valencia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/super-trendy-valencia?time="
+    },
+    "tama-stereo-103-9-fm-san-crist": {
+        "title": "Tama Stereo (San Cristobal)",
+        "type": "audio/mpeg",
+        "url": "https://www.tamastereo.com/",
+        "cros": false,
+        "stream": "https://guri.tepuyserver.net/8457/stream/1/",
+        "features": "/img/south-america/venezuela/tama-stereo-103-9-fm-san-crist.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/tama-stereo-103-9-fm-san-crist?time="
+    },
+    "mega": {
+        "title": "La Mega",
+        "type": "audio/mpeg",
+        "url": "https://mundour.com/live-mega/",
+        "cros": false,
+        "stream": "https://acp4.lorini.net/proxy/ur2050?mp=/stream",
+        "features": "/img/south-america/venezuela/mega.png",
+        "favorite": false
+    },
+    "candela": {
+        "title": "Candela Pura (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://candelapura.fm/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9020/stream",
+        "features": "/img/south-america/venezuela/candela.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/candela?time="
+    },
+    "minuto": {
+        "title": "Radio Minuto",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radiostream.interven.ca/listen/minuto790am/radio.mp3",
+        "features": "/img/south-america/venezuela/minuto.png",
+        "favorite": false
+    },
+    "bella": {
+        "title": "Bella",
+        "type": "audio/mpeg",
+        "url": "https://bellafm.com.ve/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9380/stream",
+        "features": "/img/south-america/venezuela/bella.png",
+        "favorite": false
+    },
+    "impresionante": {
+        "title": "La Radio Impresionante",
+        "type": "audio/mpeg",
+        "url": "https://laradioimpresionante.com/",
+        "cros": false,
+        "stream": "https://laradiossl.online:10489/stream/1/",
+        "features": "/img/south-america/venezuela/impresionante.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/impresionante?time="
+    },
+    "radiocanal-98-3": {
+        "title": "RadioCanal",
+        "type": "audio/mpeg",
+        "url": "https://radiocanal.com.ve/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9098/stream",
+        "features": "/img/south-america/venezuela/radiocanal-98-3.png",
+        "favorite": false
+    },
+    "sabor-maracaibo": {
+        "title": "Sabor 106.5 FM (Maracaibo)",
+        "type": "audio/mpeg",
+        "url": "https://sabor106.com/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9166/stream",
+        "features": "/img/south-america/venezuela/sabor-maracaibo.png",
+        "favorite": false
+    },
+    "hot": {
+        "title": "Hot",
+        "type": "audio/mpeg",
+        "url": "https://hot94.fm/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9016/stream",
+        "features": "/img/south-america/venezuela/hot.png",
+        "favorite": false
+    },
+    "rumbos": {
+        "title": "Radio Rumbos",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:19020/stream",
+        "features": "/img/south-america/venezuela/rumbos.png",
+        "favorite": false
+    },
+    "radiorama": {
+        "title": "Radiorama Stereo",
+        "type": "audio/mpeg",
+        "url": "https://www.radioramaradio.com/",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:44002/stream",
+        "features": "/img/south-america/venezuela/radiorama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/radiorama?time="
+    },
+    "rq": {
+        "title": "RQ 910 AM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9014/stream",
+        "features": "/img/south-america/venezuela/rq.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/rq?time="
+    },
+    "yvke": {
+        "title": "Mundial Radio",
+        "type": "audio/mpeg",
+        "url": "http://radiomundial.com.ve/",
+        "cros": true,
+        "stream": "http://190.9.128.238:8080/radiomundial",
+        "features": "/img/south-america/venezuela/yvke.png",
+        "favorite": false
+    },
+    "lider-barquisimeto": {
+        "title": "Líder (Barquisimeto)",
+        "type": "audio/mpeg",
+        "url": "https://circuitolider.com/",
+        "cros": false,
+        "stream": "https://acp4.lorini.net/proxy/15020?mp=/stream",
+        "features": "/img/south-america/venezuela/lider-barquisimeto.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/lider-barquisimeto?time="
+    },
+    "pop-caracas": {
+        "title": "Pop (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://circuitopopfm.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/h1vnadktvchvv",
+        "features": "/img/south-america/venezuela/pop-caracas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/pop-caracas?time="
+    },
+    "la-x-caracas": {
+        "title": "La X (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://circuitox.com/",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:39500/stream/1/",
+        "features": "/img/south-america/venezuela/la-x-caracas.png",
+        "favorite": false
+    },
+    "fiesta-caracas": {
+        "title": "Fiesta",
+        "type": "audio/mpeg",
+        "url": "https://fiesta106.fm/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9012/stream",
+        "features": "/img/south-america/venezuela/fiesta-caracas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/fiesta-caracas?time="
+    },
+    "adulto-caracas": {
+        "title": "Adulto Joven (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://www.88punto1fm.com/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:9168/stream",
+        "features": "/img/south-america/venezuela/adulto-caracas.png",
+        "favorite": false
+    },
+    "woao": {
+        "title": "Woao",
+        "type": "audio/mpeg",
+        "url": "https://www.woao.net/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/361as28sbc9uv",
+        "features": "/img/south-america/venezuela/woao.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/woao?time="
+    },
+    "dinamica": {
+        "title": "Dinámica (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiodinamica.com.ve/",
+        "cros": false,
+        "stream": "https://guri.tepuyserver.net:8040/stream/1/",
+        "features": "/img/south-america/venezuela/dinamica.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/dinamica?time="
+    },
+    "festiva": {
+        "title": "Festiva",
+        "type": "audio/mpeg",
+        "url": "https://www.festivafm.com/",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:28018/stream",
+        "features": "/img/south-america/venezuela/festiva.png",
+        "favorite": false
+    },
+    "chiquinquirena-maracaibo": {
+        "title": "Tu FM La Chiquinquireña",
+        "type": "audio/mpeg",
+        "url": "https://tufm909.com/",
+        "cros": false,
+        "stream": "https://server6.globalhostla.com:8098/stream",
+        "features": "/img/south-america/venezuela/chiquinquirena-maracaibo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/chiquinquirena-maracaibo?time="
+    },
+    "maria": {
+        "title": "Radio María (Caracas)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp2.com/proxy/rmvenezuela?mp=/stream/1/",
+        "features": "/img/south-america/venezuela/maria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/maria?time="
+    },
+    "activa": {
+        "title": "RNV Activa",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:29010/RNVACTIVA",
+        "features": "/img/south-america/venezuela/activa.png",
+        "favorite": false
+    },
+    "unica-99-9-fm": {
+        "title": "Única",
+        "type": "audio/mpeg",
+        "url": "https://unica999.net/",
+        "cros": false,
+        "stream": "https://unica-zikoxweb.radioca.st/stream/1/",
+        "features": "/img/south-america/venezuela/unica-99-9-fm.png",
+        "favorite": false
+    },
+    "rnv-musical": {
+        "title": "RNV Musical",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:29030/RNVMUSICAL",
+        "features": "/img/south-america/venezuela/rnv-musical.png",
+        "favorite": false
+    },
+    "conexion": {
+        "title": "Plataforma Conexion",
+        "type": "audio/mpeg",
+        "url": "https://www.conexion.com.ve/portal/index.php",
+        "cros": false,
+        "stream": "https://sp3.servidorrprivado.com/1458/;",
+        "features": "/img/south-america/venezuela/conexion.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/conexion?time="
+    },
+    "planeta-caracas": {
+        "title": "Planeta (Caracas)",
+        "type": "audio/mpeg",
+        "url": "https://www.planeta105fm.com/",
+        "cros": false,
+        "stream": "https://cast10.plugstreaming.com:2000/sslstream/planetafm/stream/1/",
+        "features": "/img/south-america/venezuela/planeta-caracas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/planeta-caracas?time="
+    },
+    "margarita-caracas": {
+        "title": "Radio Mundial (Margarita)",
+        "type": "audio/mpeg",
+        "url": "http://radiomundial.com.ve/mundial-margarita/",
+        "cros": true,
+        "stream": "http://190.9.128.238:8080/radiomundial",
+        "features": "/img/south-america/venezuela/margarita-caracas.png",
+        "favorite": false
+    },
+    "victoria-caracas": {
+        "title": "Victoria (Caracas)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://emisorasvirtuales.com.co:9252/live",
+        "features": "/img/south-america/venezuela/victoria-caracas.png",
+        "favorite": false
+    },
+    "no-es-fm": {
+        "title": "NoEsFm",
+        "type": "audio/mpeg",
+        "url": "https://noesfm.com/",
+        "cros": false,
+        "stream": "https://noesfm.radioca.st/stream/1/",
+        "features": "/img/south-america/venezuela/no-es-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/no-es-fm?time="
+    },
+    "power-fm": {
+        "title": "Power",
+        "type": "audio/mpeg",
+        "url": "https://elpodermasjoven.com.ve/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/brym6d3xvkdvv",
+        "features": "/img/south-america/venezuela/power-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/14/power-fm?time="
+    }
+}

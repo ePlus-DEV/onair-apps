@@ -1,0 +1,262 @@
+{
+    "al-bayane": {
+        "title": "Radio Al Bayane",
+        "type": "audio/mpeg",
+        "url": "https://www.albayane.info/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/seb77kna90duv",
+        "features": "/img/africa/cote-d-ivoire/al-bayane.png",
+        "favorite": true
+    },
+    "nationale-catholique": {
+        "title": "Radio Nationale Catholique",
+        "type": "audio/mpeg",
+        "url": "https://www.rnc-ci.net",
+        "cros": false,
+        "stream": "https://dc1.serverse.com/proxy/rncapp/stream",
+        "features": "/img/africa/cote-d-ivoire/nationale-catholique.png",
+        "favorite": false
+    },
+    "jam": {
+        "title": "Radio Jam",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/61201/stream/98566",
+        "features": "/img/africa/cote-d-ivoire/jam.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/jam?time="
+    },
+    "espoir": {
+        "title": "Radio Espoir",
+        "type": "audio/mpeg",
+        "url": "https://www.radioespoir.ci/",
+        "cros": false,
+        "stream": "https://dc1.serverse.com/proxy/radioespoir/stream",
+        "features": "/img/africa/cote-d-ivoire/espoir.png",
+        "favorite": false
+    },
+    "africa-no-1": {
+        "title": "Africa No.1",
+        "type": "audio/mpeg",
+        "url": "https://www.africaradio.com/",
+        "cros": false,
+        "stream": "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+        "features": "/img/africa/cote-d-ivoire/africa-no-1.png",
+        "favorite": false
+    },
+    "frequence-vie": {
+        "title": "Radio Frequence Vie",
+        "type": "audio/mpeg",
+        "url": "https://www.radiofrequencevie.com/",
+        "cros": true,
+        "stream": "http://51.158.97.118:8000/frequencevie.mp3",
+        "features": "/img/africa/cote-d-ivoire/frequence-vie.png",
+        "favorite": false
+    },
+    "nostalgie-fm": {
+        "title": "Nostalgie FM",
+        "type": "audio/mpeg",
+        "url": "https://www.nostalgie.ci/",
+        "cros": true,
+        "stream": "http://213.136.96.14:8000/nostalgie2.mp3",
+        "features": "/img/africa/cote-d-ivoire/nostalgie-fm.png",
+        "favorite": false
+    },
+    "voa-cote-d-ivoire": {
+        "title": "Voice of America Côte D’ivoire",
+        "type": "audio/mpeg",
+        "url": "https://www.voanews.com/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/gyac3bggq3quv",
+        "features": "/img/africa/cote-d-ivoire/voa-cote-d-ivoire.png",
+        "favorite": false
+    },
+    "maria": {
+        "title": "Radio Maria",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.ci/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp6.com/proxy/rmcosta?mp=/stream/1/",
+        "features": "/img/africa/cote-d-ivoire/maria.png",
+        "favorite": false
+    },
+    "rti1": {
+        "title": "RTI Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rti.ci/rti1",
+        "cros": false,
+        "stream": "https://www.enovativecdn.com/rticdn/smil:rti1.smil/playlist.m3u8",
+        "features": "/img/africa/cote-d-ivoire/rti1.png",
+        "favorite": false
+    },
+    "taarab-channel": {
+        "title": "Bongo Radio — Taarab and Mduara Channel",
+        "type": "audio/mpeg",
+        "url": "https://www.bongoradio.com/tarab/128kbps.html",
+        "cros": true,
+        "stream": "http://zilipendwaradio.com:8000/stream/5/",
+        "features": "/img/africa/cote-d-ivoire/taarab-channel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/taarab-channel?time="
+    },
+    "grooves-channel": {
+        "title": "Bongo Radio — African Grooves Channel",
+        "type": "audio/mpeg",
+        "url": "https://www.bongoradio.com/bongo-radio-african-grooves-channel/",
+        "cros": true,
+        "stream": "http://zilipendwaradio.com:8000/stream/4/",
+        "features": "/img/africa/cote-d-ivoire/grooves-channel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/grooves-channel?time="
+    },
+    "zilipendwa-channel": {
+        "title": "Bongo Radio — Zilipendwa Channel",
+        "type": "audio/mpeg",
+        "url": "https://www.bongoradio.com/bongo-radio-zilipendwa-channel/",
+        "cros": true,
+        "stream": "http://zilipendwaradio.com:8000/stream/3/",
+        "features": "/img/africa/cote-d-ivoire/zilipendwa-channel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/zilipendwa-channel?time="
+    },
+    "metro-compas": {
+        "title": "Metro Compas iRadio",
+        "type": "audio/mpeg",
+        "url": "https://www.metrocompas.com/",
+        "cros": true,
+        "stream": "http://91.121.86.167:8012/stream/1/",
+        "features": "/img/africa/cote-d-ivoire/metro-compas.png",
+        "favorite": false
+    },
+    "renndo": {
+        "title": "Radio Renndo",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://cast3.asurahosting.com/proxy/babayel/stream/1/",
+        "features": "/img/africa/cote-d-ivoire/renndo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/renndo?time="
+    },
+    "east-african": {
+        "title": "Bongo Radio — East African Music",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:9000/stream/2/",
+        "features": "/img/africa/cote-d-ivoire/east-african.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/east-african?time="
+    },
+    "uganda": {
+        "title": "Radio Uganda Boston",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/wmycbfbq0y5tv",
+        "features": "/img/africa/cote-d-ivoire/uganda.png",
+        "favorite": false
+    },
+    "african-music": {
+        "title": "African Music Mix",
+        "type": "audio/mpeg",
+        "url": "https://www.voanews.com/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/867wmhpgq3quv",
+        "features": "/img/africa/cote-d-ivoire/african-music.png",
+        "favorite": false
+    },
+    "trace-fm-cote-d-ivoire": {
+        "title": "Trace FM",
+        "type": "audio/mpeg",
+        "url": "https://trace.ci/",
+        "cros": false,
+        "stream": "https://stream.trace.tv/trace_fm_ci-midfi.aac?type=.flv",
+        "features": "/img/africa/cote-d-ivoire/trace-fm-cote-d-ivoire.png",
+        "favorite": false
+    },
+    "skyrock-abidjan": {
+        "title": "Skyrock Abidjan",
+        "type": "audio/mpeg",
+        "url": "https://skyrock.fm/",
+        "cros": false,
+        "stream": "https://icecast.skyrock.net/s/abidjan_aac_64k",
+        "features": "/img/africa/cote-d-ivoire/skyrock-abidjan.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/skyrock-abidjan?time="
+    },
+    "la-voie-sainte": {
+        "title": "Radio la Voie Sainte FM",
+        "type": "audio/mpeg",
+        "url": "https://radiolavoiesainte.net/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/55pri4szxwouv",
+        "features": "/img/africa/cote-d-ivoire/la-voie-sainte.png",
+        "favorite": false
+    },
+    "life-cote-d-ivoire": {
+        "title": "Life Radio Côte d’Ivoire",
+        "type": "audio/mpeg",
+        "url": "https://liferadio.ci/",
+        "cros": true,
+        "stream": "http://cast4.asurahosting.com:7466/stream",
+        "features": "/img/africa/cote-d-ivoire/life-cote-d-ivoire.png",
+        "favorite": false
+    },
+    "maria-cote-d-ivoire": {
+        "title": "Radio Maria Côte d'Ivoire-Man",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.ci/",
+        "cros": true,
+        "stream": "http://dreamsiteradiocp5.com:8139/stream/1/",
+        "features": "/img/africa/cote-d-ivoire/maria-cote-d-ivoire.png",
+        "favorite": false
+    },
+    "la-voix-de-l-esperance": {
+        "title": "Radio La Voix De L'esperance",
+        "type": "audio/mpeg",
+        "url": "https://lavoixdelesperance.org/",
+        "cros": true,
+        "stream": "http://35.181.33.195:8000/esperance.mp3",
+        "features": "/img/africa/cote-d-ivoire/la-voix-de-l-esperance.png",
+        "favorite": false
+    },
+    "zenithfm": {
+        "title": "Zenith FM",
+        "type": "audio/mpeg",
+        "url": "https://zenithradio.ci/",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/674149/stream/738352",
+        "features": "/img/africa/cote-d-ivoire/zenithfm.png",
+        "favorite": false
+    },
+    "menade-smaug": {
+        "title": "Menade Smaug Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/v78geu0tbc9uv",
+        "features": "/img/africa/cote-d-ivoire/menade-smaug.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/113/menade-smaug?time="
+    },
+    "gbeke-fm": {
+        "title": "Gbêkê FM",
+        "type": "audio/mpeg",
+        "url": "https://www.gbekefm.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/m0982tsy908uv",
+        "features": "/img/africa/cote-d-ivoire/gbeke-fm.png",
+        "favorite": false
+    },
+    "yellow-radio": {
+        "title": "Yellow Radio",
+        "type": "audio/mpeg",
+        "url": "https://yellow.radio/",
+        "cros": false,
+        "stream": "https://yellowradio.ice.infomaniak.ch/yellowradio.mp3",
+        "features": "/img/africa/cote-d-ivoire/yellow-radio.png",
+        "favorite": false
+    }
+}

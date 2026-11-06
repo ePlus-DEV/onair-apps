@@ -1,0 +1,262 @@
+{
+    "citi-fm": {
+        "title": "Citi FM (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://citinewsroom.com/",
+        "cros": false,
+        "stream": "https://citi973fm.radioca.st/stream/1/",
+        "features": "/img/africa/ghana/citi-fm.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/109/citi-fm?time="
+    },
+    "kessben-fm": {
+        "title": "Kessben FM (Kumansi)",
+        "type": "audio/mpeg",
+        "url": "https://kessbenonline.com/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/kessben933fmkumasi",
+        "features": "/img/africa/ghana/kessben-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/kessben-fm?time="
+    },
+    "hot-fm": {
+        "title": "Hot FM (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://hotfmghana.com/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/hot939fm",
+        "features": "/img/africa/ghana/hot-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/hot-fm?time="
+    },
+    "rfi-afrique": {
+        "title": "RFI Afrique (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://www.rfi.fr/fr/afrique/",
+        "cros": false,
+        "stream": "https://rfiafrique64k.ice.infomaniak.ch/rfiafrique-64.mp3",
+        "features": "/img/africa/ghana/rfi-afrique.png",
+        "favorite": false
+    },
+    "gh-1": {
+        "title": "GHRadio1 Stream",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/h7r9drn0c5zuv",
+        "features": "/img/africa/ghana/gh-1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/gh-1?time="
+    },
+    "ezra-fm": {
+        "title": "Ezra (Kumasi)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/7e2bsppbz38uv",
+        "features": "/img/africa/ghana/ezra-fm.png",
+        "favorite": false
+    },
+    "highlife": {
+        "title": "HighLife Radio Stream",
+        "type": "audio/mpeg",
+        "url": "https://www.highliferadio.com/",
+        "cros": false,
+        "stream": "https://hello.citrus3.com:2020/stream/highliferadio",
+        "features": "/img/africa/ghana/highlife.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/highlife?time="
+    },
+    "ghana-waves": {
+        "title": "Ghana Waves Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ysv26gcyv3duv",
+        "features": "/img/africa/ghana/ghana-waves.png",
+        "favorite": false
+    },
+    "live-fm": {
+        "title": "LiveXtra",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/7586sp6mua0uv",
+        "features": "/img/africa/ghana/live-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/live-fm?time="
+    },
+    "gbc-uniiq-fm": {
+        "title": "GBC Uniiq FM (Accra)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/11z7kg8xk8quv",
+        "features": "/img/africa/ghana/gbc-uniiq-fm.png",
+        "favorite": false
+    },
+    "starr": {
+        "title": "Starr",
+        "type": "audio/mpeg",
+        "url": "https://starrfm.com.gh/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/starrfm",
+        "features": "/img/africa/ghana/starr.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/starr?time="
+    },
+    "radio-xyz": {
+        "title": "Radio XYZ (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://myxyzonline.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/gp0iovrge7ptv",
+        "features": "/img/africa/ghana/radio-xyz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/radio-xyz?time="
+    },
+    "x-live": {
+        "title": "X Live Africa (Accra)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/d800ga42u8quv",
+        "features": "/img/africa/ghana/x-live.png",
+        "favorite": false
+    },
+    "ark-fm": {
+        "title": "Ark FM (Sunyani)",
+        "type": "audio/mpeg",
+        "url": "https://www.arknewsroom.com/homepage-big-slide/",
+        "cros": true,
+        "stream": "http://cp2.shoutcheap.com:8247/stream/1/",
+        "features": "/img/africa/ghana/ark-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/ark-fm?time="
+    },
+    "sunsum-fm": {
+        "title": "Sunsum FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/m087d3huy7zuv",
+        "features": "/img/africa/ghana/sunsum-fm.png",
+        "favorite": false
+    },
+    "atlantis": {
+        "title": "Atlantis Radio",
+        "type": "audio/mpeg",
+        "url": "https://atlantisradiogh.com/",
+        "cros": false,
+        "stream": "https://radio.streamcasterapp.com:8050/radio.mp3",
+        "features": "/img/africa/ghana/atlantis.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/atlantis?time="
+    },
+    "top-fm-online": {
+        "title": "Top FM Online",
+        "type": "audio/mpeg",
+        "url": "https://topfmonline.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/mxzcngxngz3vv",
+        "features": "/img/africa/ghana/top-fm-online.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/top-fm-online?time="
+    },
+    "otec": {
+        "title": "OTEC",
+        "type": "audio/mpeg",
+        "url": "https://otecfmghana.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/e9epazpy1xmtv",
+        "features": "/img/africa/ghana/otec.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/otec?time="
+    },
+    "lens": {
+        "title": "Lens Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.lensnetworks.com/proxy/lensradio?mp=/stream",
+        "features": "/img/africa/ghana/lens.png",
+        "favorite": false
+    },
+    "highlife-accra": {
+        "title": "HighLife Radio (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://www.highliferadio.com/",
+        "cros": false,
+        "stream": "https://hello.citrus3.com:2020/stream/highliferadio",
+        "features": "/img/africa/ghana/highlife-accra.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/highlife-accra?time="
+    },
+    "sweet-accra": {
+        "title": "Sweet Melodies FM (Accra)",
+        "type": "audio/mpeg",
+        "url": "https://www.sweetmelodiesfm.com/",
+        "cros": true,
+        "stream": "http://41.190.68.250:8000/stream",
+        "features": "/img/africa/ghana/sweet-accra.png",
+        "favorite": false
+    },
+    "the-original-word": {
+        "title": "The Original Word Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://178.32.107.151:5233/stream/1/",
+        "features": "/img/africa/ghana/the-original-word.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/the-original-word?time="
+    },
+    "oyerepa": {
+        "title": "Oyerepa FM",
+        "type": "audio/mpeg",
+        "url": "https://oyerepafmonline.com/",
+        "cros": false,
+        "stream": "https://oyerepa-atunwadigital.streamguys1.com/oyerepa",
+        "features": "/img/africa/ghana/oyerepa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/oyerepa?time="
+    },
+    "a1": {
+        "title": "A1 Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.a1radioonline.com/",
+        "cros": false,
+        "stream": "https://s16.myradiostream.com:15482/stream/1/",
+        "features": "/img/africa/ghana/a1.png",
+        "favorite": false
+    },
+    "zaa": {
+        "title": "Zaa Radio",
+        "type": "audio/mpeg",
+        "url": "https://zaaradio.com/",
+        "cros": true,
+        "stream": "http://stream.zaaradio.com:60700/Zaa",
+        "features": "/img/africa/ghana/zaa.png",
+        "favorite": false
+    },
+    "ghana-music": {
+        "title": "Ghana Music Radio",
+        "type": "audio/mpeg",
+        "url": "https://ghanamusic.com/",
+        "cros": false,
+        "stream": "https://streaming.radio.co/s92f890821/listen",
+        "features": "/img/africa/ghana/ghana-music.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/ghana-music?time="
+    },
+    "ultimate-kumasi": {
+        "title": "Ultimate Radio (Kumasi)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ag491gsnr68uv",
+        "features": "/img/africa/ghana/ultimate-kumasi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/109/ultimate-kumasi?time="
+    }
+}

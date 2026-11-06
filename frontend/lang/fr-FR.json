@@ -1,0 +1,751 @@
+{
+  "404": {
+    "content": "Désolé, la page demandée est introuvable."
+  },
+  "global_radio": {
+    "eplus_play_hint": "Écoutez directement sur ePlus OnAir. D’autres options figurent dans la fiche de chaque station.",
+    "playing_now": "En cours",
+    "other_listening_options": "Autres options d’écoute",
+    "external_options_hint": "Ces liens ouvrent le site du fournisseur dans un nouvel onglet.",
+    "listen_on_eplus": "Écouter sur ePlus",
+    "connecting_on_eplus": "Connexion…",
+    "resolver_unavailable": "Lecture indisponible sur ePlus. Écoutez sur Apple Music ou TuneIn.",
+    "hls_preview_title": "Expérimental : lire un lien HLS temporaire",
+    "hls_preview_help": "Si vous disposez d'une URL HLS temporaire émise par Apple et autorisée, vous pouvez la tester dans ce navigateur. Apple Music/TuneIn peut bloquer cette lecture. Aucune clé n'est obtenue ni renouvelée.",
+    "hls_preview_input": "URL HLS temporaire signée",
+    "hls_preview_placeholder": "Coller un lien Apple HLS .m3u8 temporaire",
+    "hls_preview_play": "Tester la lecture",
+    "hls_preview_stop": "Arrêter et effacer",
+    "hls_preview_audio": "Commandes de lecture HLS temporaire",
+    "hls_preview_privacy": "Le lien reste uniquement en mémoire dans cet onglet et est effacé à l'arrêt ou à la navigation. Aucune statistique ou historique n'est enregistré.",
+    "hls_preview_checking": "Connexion au flux HLS…",
+    "hls_preview_playing": "Lecture du flux HLS temporaire.",
+    "hls_preview_paused": "Lecture en pause. Relancez le test pour reprendre.",
+    "hls_preview_invalid": "Lien HLS signé Apple/TuneIn invalide.",
+    "hls_preview_expired": "Cette clé semble expirée. Obtenez un lien valide auprès d'un fournisseur autorisé.",
+    "hls_preview_station_mismatch": "Ce lien HLS appartient à une autre station Apple Music.",
+    "hls_preview_unavailable": "Lecture impossible : restrictions, expiration ou CORS. Écoutez sur Apple Music ou TuneIn.",
+    "hls_preview_unsupported": "Ce navigateur ne prend pas en charge ce flux HLS.",
+    "seasonal_note": "Cette station saisonnière peut être indisponible hors de la période des fêtes. Vérifiez sur Apple Music ou TuneIn.",
+    "seasonal": "Saisonnier",
+    "listen_on_tunein": "Écouter sur TuneIn",
+    "eyebrow": "Réseau international",
+    "title": "Radio mondiale",
+    "description": "Découvrez des réseaux de radio internationaux en dehors des catalogues par pays.",
+    "providers": "Fournisseurs radio",
+    "provider_count": "fournisseurs",
+    "external_badge": "Ouverture externe",
+    "apple_description": "Découvrez les six stations principales d'Apple Music et Holiday Hits, une station saisonnière, regroupées par fournisseur mondial.",
+    "explore_provider": "Découvrir les stations",
+    "external_note": "Les stations Apple Music s'ouvrent sur le site d'Apple. Elles ne sont pas diffusées dans ePlus OnAir ni comptées dans les statistiques locales.",
+    "by_country": "Explorer par pays",
+    "home": "Accueil",
+    "breadcrumb": "Fil d'Ariane",
+    "open_provider": "Ouvrir Apple Music",
+    "apple_access": "Connectez-vous à votre compte Apple pour écouter. Aucun abonnement Apple Music n'est requis pour ces six stations en direct. La disponibilité varie selon les régions.",
+    "stations": "Stations en direct",
+    "station_count": "stations",
+    "details": "Détails de la station",
+    "listen_on_apple": "Écouter sur Apple Music",
+    "origin": "Pays d'origine",
+    "how_listen": "Comment écouter",
+    "back_to_provider": "Toutes les stations Apple Music Radio"
+  },
+  "navmenu": {
+    "more": "Plus",
+    "information": "Informations",
+    "homepage": "Page d'accueil",
+    "about": "À propos",
+    "blog": "Blog",
+    "group": "Groupe",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact",
+    "language": "Langue:",
+    "old_version": "Ancienne version",
+    "statistics": "Statistiques",
+    "changelog": "Journal des modifications",
+    "cookie": "Politique relative aux cookies"
+  },
+  "terms": {
+    "content": "Bienvenue sur le site Web https://radio.eplus.dev (« ePlus OnAir »), un produit de ePlus.DEV. Veuillez lire attentivement l'Accord sur la fourniture et l'utilisation des services sur le site Web https://radio.eplus.dev avant d'utiliser les fonctionnalités du site Web « Radio » ePlus. Une fois inscrit, vous avez lu, compris, accepté et respecté les termes ci-dessous :",
+    "article_1": {
+      "title": "Article 1 : À but non lucratif",
+      "line_1": "Nous nous engageons à être gratuits pour toujours, sans frais d'aucune sorte.",
+      "line_2": "Nous reconnaissons l'utilisation de contenus gratuits provenant de toutes les stations, de développeurs de contenu du monde entier, afin de diffuser ce contenu à tous."
+    },
+    "article_2": {
+      "title": "Article 2 : Loi sur le droit d'auteur du millénaire numérique",
+      "line_1": "ePlus OnAir prend très au sérieux les questions de propriété intellectuelle et s'engage à répondre aux besoins des propriétaires de contenu tout en les aidant à gérer la publication de leur contenu en ligne. Il convient de noter que ePlus OnAir est un portail de station de radio qui relie à des sites Web tiers par des fenêtres contextuelles.",
+      "line_2": "Tout contenu sur ces sites Web tiers relève de la responsabilité de ces sites et non de ePlus OnAir. Nous n'avons aucune connaissance de la légalité du contenu sur les sites Web tiers, car il s'agit d'une question entre le site qui héberge le contenu audio et le propriétaire du contenu. ePlus OnAir n'héberge aucun contenu audio sur ses serveurs ou son réseau."
+    }
+  },
+  "world": {
+    "africa": {
+      "name": "Afrique",
+      "algeria": "Algérie",
+      "nigeria": "Nigeria",
+      "cameroon": "Cameroun",
+      "congo": "Congo",
+      "cote_d_ivoire": "Côte d'Ivoire",
+      "egypt": "Égypte",
+      "ghana": "Ghana",
+      "kenya": "Kenya",
+      "madagascar": "Madagascar",
+      "morocco": "Maroc",
+      "senegal": "Sénégal",
+      "south_africa": "Afrique du Sud",
+      "tunisia": "Tunisie",
+      "uganda": "Ouganda"
+    },
+    "asia": {
+      "name": "Asie",
+      "viet_nam": "Vietnam",
+      "singapore": "Singapour",
+      "korea": "Corée",
+      "china": "Chine",
+      "hong_kong": "Hong Kong",
+      "japan": "Japon",
+      "malaysia": "Malaisie",
+      "philippines": "Philippines",
+      "indonesia": "Indonésie",
+      "thailand": "Thaïlande",
+      "bangladesh": "Bangladesh",
+      "pakistan": "Pakistan",
+      "india": "Inde",
+      "taiwan": "Taïwan",
+      "israel": "Israël",
+      "sri_lanka": "Sri Lanka",
+      "nepal": "Népal"
+    },
+    "central_america": {
+      "name": "Amérique centrale",
+      "costa_rica": "Costa Rica",
+      "el_salvador": "Le Salvador",
+      "guatemala": "Guatemala",
+      "honduras": "Honduras",
+      "nicaragua": "Nicaragua",
+      "panama": "Panama"
+    },
+    "europe": {
+      "name": "Europe",
+      "united_kingdom": "Royaume-Uni",
+      "ukraine": "Ukraine",
+      "russia": "Russie",
+      "france": "France",
+      "greece": "Grèce",
+      "croatia": "Croatie",
+      "ireland": "Irlande",
+      "italy": "Italie",
+      "luxembourg": "Luxembourg",
+      "hungary": "Hongrie",
+      "netherlands": "Pays-Bas",
+      "norway": "Norvège",
+      "austria": "Autriche",
+      "poland": "Pologne",
+      "portugal": "Portugal",
+      "romania": "Roumanie",
+      "switzerland": "Suisse",
+      "slovenia": "Slovénie",
+      "serbia": "Serbie",
+      "finland": "Finlande",
+      "sweden": "Suède",
+      "bulgaria": "Bulgarie",
+      "belgium": "Belgique",
+      "czechia": "Tchéquie",
+      "denmark": "Danemark",
+      "estonia": "Estonie",
+      "germany": "Allemagne",
+      "spain": "Espagne",
+      "latvia": "Lettonie",
+      "lithuania": "Lituanie"
+    },
+    "north_america": {
+      "name": "Amérique du Nord",
+      "cuba": "Cuba",
+      "haiti": "Haïti",
+      "jamaica": "Jamaïque",
+      "mexico": "Mexique",
+      "puerto_rico": "Porto Rico",
+      "dominican_republic": "République dominicaine",
+      "trinidad_and_tobago": "Trinité-et-Tobago"
+    },
+    "oceania": {
+      "name": "Océanie",
+      "australia": "Australie",
+      "new_zealand": "Nouvelle-Zélande"
+    },
+    "south_america": {
+      "name": "Amérique du Sud",
+      "argentina": "Argentine",
+      "bolivia": "Bolivie",
+      "brazil": "Brésil",
+      "chile": "Chili",
+      "colombia": "Colombie",
+      "ecuador": "Équateur",
+      "paraguay": "Paraguay",
+      "peru": "Pérou",
+      "suriname": "Suriname",
+      "uruguay": "Uruguay",
+      "venezuela": "Venezuela"
+    }
+  },
+  "panel": {
+    "most_popular": "Le plus populaire à {name}",
+    "frequency": "Fréquence",
+    "play_from_radio": "Écouter la radio",
+    "country": "Pays",
+    "radio_in": "Radio à {name}",
+    "description": "Description",
+    "category": "Catégorie",
+    "schedule": "Programme",
+    "schedule_jump_to_now": "Aller à l'heure actuelle",
+    "schedule_now_marker": "Maintenant",
+    "schedule_gap_unknown": "Aucune émission n'est indiquée pour ce créneau.",
+    "schedule_gap_next": "À suivre (selon le programme) : {title} · {time}",
+    "schedule_gap_no_next": "Aucune autre émission n'est indiquée dans le programme du jour.",
+    "schedule_reference_note": "Horaires indicatifs de la station, susceptibles de changer selon le jour. Consultez le programme officiel.",
+    "schedule_official_note": "Source officielle des programmes.",
+    "schedule_official_link": "Voir le programme officiel",
+    "schedule_vietnam_timezone": "Heure du Vietnam (UTC+7)",
+    "schedule_provider_only": "La programmation varie selon le jour. Consultez le site officiel de la station.",
+    "playlist": "Liste de lecture",
+    "tunein_history_note": "Les titres et artistes sont relevés pendant cette session d'écoute. TuneIn peut avoir du retard.",
+    "tunein_history_unavailable": "TuneIn ne fournit pas actuellement le titre et l'artiste de cette station.",
+    "next": "Suivant",
+    "lyric": "Paroles",
+    "no_lyric": "Paroles indisponibles",
+    "updating": "Mise à jour...",
+    "channels": "Toutes les stations",
+    "station_count": "{count} stations",
+    "search_channels": "Rechercher des stations…",
+    "no_channels": "Aucune station trouvée"
+  },
+  "button": {
+    "back": "Retour",
+    "close": "Fermer"
+  },
+  "popup": {
+    "search": {
+      "text": "Recherche...",
+      "stats": "Page {page} sur {nbPages} - {nbHits} hits récupérés en {processingTimeMS} ms",
+      "category": "Filtrer par pays",
+      "popular_channels": "Chaînes populaires"
+    }
+  },
+  "notify": {
+    "success": "Succès",
+    "success_content": "Lecture en cours : {radio}",
+    "error": "Erreur",
+    "error_content": "Lecture impossible : {radio}"
+  },
+  "statistics_tooltip": {
+    "text": "Incidents : {num} | Temps d'arrêt : {time} min | {response} ms"
+  },
+  "table": {
+    "status": "Statut",
+    "commit": "Commit Git",
+    "created": "Créé le",
+    "updated": "Mis à jour le",
+    "published": "Publié",
+    "view": "Voir"
+  },
+  "alert": {
+    "play_button": "Par défaut du navigateur, vous devez appuyer sur le bouton ▶ pour commencer à écouter la radio.",
+    "stream_error": "Cette station ne peut pas être écoutée pour le moment. Réessayez plus tard ou choisissez une autre station."
+  },
+  "text": {
+    "guide": "Guide",
+    "the_last_90_days": "Les 90 derniers jours",
+    "hosted": "Hébergé sur {name} - Dernière mise à jour {time}",
+    "downtime": "Temps d'arrêt",
+    "uptime": "Temps de fonctionnement",
+    "darkmode": {
+      "dark": "Sombre",
+      "light": "Clair",
+      "system": "Système"
+    },
+    "offline": "Vous semblez hors ligne. Vérifiez votre connexion Internet et réessayez."
+  },
+  "player": {
+    "title": "Lecteur radio",
+    "choose_station": "Choisissez une station pour commencer",
+    "play": "Écouter la radio",
+    "pause": "Mettre en pause",
+    "retry": "Réessayer",
+    "connecting": "Connexion…",
+    "on_air": "En direct",
+    "ready": "Prêt à écouter",
+    "queue": "Stations et programmes",
+    "source": "Source audio",
+    "volume": "Volume",
+    "mute": "Couper le son",
+    "unmute": "Activer le son",
+    "keep_listening": "Continuez à écouter en parcourant le site",
+    "listen_country": "Écouter une station",
+    "explore": "Explorer les régions",
+    "previous": "Station précédente : {name}",
+    "next": "Station suivante : {name}",
+    "sidebar_label": "Stations et programmes",
+    "live": "En direct",
+    "primary_source": "Source principale",
+    "alternative_source": "Source secondaire",
+    "source_number": "Source {number}",
+    "stream_format": "Flux audio",
+    "proxy": "Proxy",
+    "direct": "Accès direct",
+    "ios_volume_hint": "Sur iPhone ou iPad, réglez le volume avec les boutons de l’appareil ou le Centre de contrôle.",
+    "sleep_timer": "Minuterie de sommeil",
+    "sleep_minutes": "Arrêter dans {minutes} minutes",
+    "sleep_cancel": "Annuler la minuterie",
+    "sleep_remaining": "Arrêt dans {minutes} min",
+    "compact_player": "Réduire le lecteur",
+    "expand_player": "Agrandir le lecteur",
+    "window_player": "Mini lecteur",
+    "dock_player": "Retour au lecteur",
+    "schedule_loading": "Chargement du programme…"
+  },
+  "site_pages": {
+    "common": {
+      "last_updated": "Dernière mise à jour"
+    },
+    "about": {
+      "eyebrow": "À propos",
+      "title": "À propos de ePlus OnAir",
+      "description": "Découvrez et écoutez des radios du monde entier, au même endroit.",
+      "sections": {
+        "discover": {
+          "title": "Découvrir des radios",
+          "body": "ePlus OnAir organise les stations de radio internet par région et par pays afin de retrouver des radios locales et internationales depuis une interface cohérente."
+        },
+        "playback": {
+          "title": "Lecture directe",
+          "body": "Choisissez une station et appuyez sur Lecture. Si le premier lien ne fonctionne pas, le site peut essayer un autre lien de cette station."
+        },
+        "availability": {
+          "title": "Les informations des stations peuvent changer",
+          "body": "Chaque station gère ses émissions et ses horaires. Une station peut interrompre sa diffusion, changer de programme ou mettre à jour le titre d’un morceau avec du retard."
+        }
+      },
+      "service": {
+        "title": "La radio en toute simplicité",
+        "body": "Trouvez vos stations préférées, enregistrez-les et continuez à écouter sur votre téléphone ou votre ordinateur.",
+        "action": "Start listening"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Confidentialité",
+      "title": "Politique de confidentialité",
+      "description": "Découvrez quelles informations le site conserve et ce qui se passe quand vous recherchez ou écoutez une radio.",
+      "sections": {
+        "accounts": {
+          "title": "Comptes et paiements",
+          "body": "ePlus OnAir ne nécessite pas de compte utilisateur et ne propose aucun parcours de paiement sur ce site. N'envoyez pas d'informations personnelles sensibles via les canaux publics du projet."
+        },
+        "preferences": {
+          "title": "Vos préférences enregistrées",
+          "body": "Votre navigateur peut garder sur cet appareil la langue, le thème, vos stations favorites et vos écoutes récentes pour faciliter vos prochaines visites."
+        },
+        "search": {
+          "title": "Services de recherche",
+          "body": "Lorsque vous recherchez une station, les mots saisis peuvent être transmis à un service tel qu’Algolia. Ce service applique sa propre politique de confidentialité."
+        },
+        "streams": {
+          "title": "Quand vous écoutez une station",
+          "body": "La lecture connecte votre appareil à la station ou au service qui diffuse son son. Ces services peuvent recevoir votre adresse IP et des informations de base sur votre navigateur."
+        },
+        "logs": {
+          "title": "Assurer le bon fonctionnement du site",
+          "body": "Les services chargés du site et de sa sécurité peuvent conserver votre adresse IP, votre navigateur, les pages visitées et les heures d’accès pour protéger le site et résoudre les problèmes."
+        },
+        "sharing": {
+          "title": "Vente et partage de données",
+          "body": "Nous ne vendons pas vos données personnelles. Le site principal utilise Google Analytics 4 pour mesurer les visites, les pages vues et la durée d’écoute par station. Les statistiques personnelles d’écoute sont également enregistrées sur votre appareil. Les fournisseurs de recherche et de radio peuvent recevoir des informations pendant leur utilisation."
+        },
+        "changes": {
+          "title": "Modifications de cette politique",
+          "body": "Cette politique peut évoluer si le site, les fournisseurs ou les pratiques de traitement changent. La version actuelle et sa date de mise à jour sont publiées ici."
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Conditions",
+      "title": "Conditions d'utilisation",
+      "description": "Les conditions applicables à l'utilisation de ePlus OnAir et de ses liens vers des services radio tiers.",
+      "sections": {
+        "service": {
+          "title": "Utilisation du service",
+          "body": "ePlus OnAir est fourni comme une interface gratuite de découverte et de lecture de radios. Vous pouvez l'utiliser à des fins personnelles licites pour accéder à des services radio publiquement accessibles."
+        },
+        "third_party": {
+          "title": "Stations et services partenaires",
+          "body": "Chaque station choisit ses émissions, ses horaires et les pays où elle peut être écoutée. Certaines diffusent des publicités ou peuvent s’arrêter sans préavis."
+        },
+        "copyright": {
+          "title": "Droits d'auteur et marques",
+          "body": "Les noms, logos, sons et autres contenus appartiennent à leurs propriétaires. Si vous détenez les droits et souhaitez une correction ou un retrait, envoyez-nous le lien de la page et les informations nécessaires à l’examen de votre demande."
+        },
+        "acceptable_use": {
+          "title": "Utiliser ePlus OnAir de manière responsable",
+          "body": "Respectez la loi. Ne perturbez pas le site ou les stations, ne contournez pas les restrictions sans autorisation, ne collectez pas de données au point de gêner le service et ne diffusez pas de logiciels malveillants."
+        },
+        "availability": {
+          "title": "Si vous n'arrivez pas à écouter une station",
+          "body": "Une station peut interrompre sa diffusion ou son lien d'écoute peut cesser de fonctionner. Réessayez plus tard ou choisissez une autre station. Nous proposons la liste selon les informations disponibles, sans pouvoir garantir que les émissions, les horaires et les titres des morceaux sont toujours exacts et accessibles."
+        },
+        "changes": {
+          "title": "Modification des conditions",
+          "body": "Ces conditions peuvent être mises à jour avec l'évolution du projet ou des services pris en charge. Toute utilisation après mise à jour relève des conditions alors publiées."
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Contact",
+      "title": "Contacter ePlus OnAir",
+      "description": "Une radio ne fonctionne pas, vous souhaitez proposer une station ou signaler un contenu ? Contactez-nous.",
+      "sections": {
+        "bug": {
+          "title": "Une station ou une page ne fonctionne pas",
+          "body": "Indiquez la station ou la page concernée, ce qui s’est passé et si vous utilisez un téléphone ou un ordinateur. Une capture d’écran peut aider."
+        },
+        "station": {
+          "title": "Mise à jour d'une station",
+          "body": "Pour ajouter une station ou corriger ses informations, envoyez son nom, son pays, son site officiel et, si vous l’avez, son lien d’écoute."
+        },
+        "copyright": {
+          "title": "Droits d'auteur ou retrait",
+          "body": "Si vous détenez les droits d’un contenu et souhaitez le corriger ou le supprimer, indiquez la page concernée et les informations permettant d’examiner votre demande."
+        }
+      },
+      "support": {
+        "title": "Besoin d’aide ?",
+        "body": "Envoyez-nous le nom de la station ou le lien de la page, avec quelques mots sur votre question ou le problème rencontré.",
+        "action": "Email support"
+      }
+    },
+    "statistics": {
+      "eyebrow": "Stations de radio",
+      "title": "Statistiques radio",
+      "description": "Découvrez combien de pays et de stations de radio sont disponibles sur ePlus OnAir.",
+      "metrics": {
+        "areas": "Régions",
+        "countries": "Pays",
+        "stations": "Stations"
+      },
+      "coverage_title": "Couverture par région",
+      "coverage_description": "Chaque région indique le nombre de pays et de stations répertoriés.",
+      "method_title": "À quoi correspondent ces chiffres ?",
+      "method_body": "Ces totaux viennent de notre liste de stations récemment mise à jour. Ils indiquent les stations répertoriées, pas celles qui diffusent actuellement ni le nombre d’auditeurs."
+    },
+    "error": {
+      "not_found_title": "Page introuvable",
+      "generic_title": "Une erreur s'est produite",
+      "generic_body": "Impossible de charger cette page. Revenez à l'accueil puis réessayez."
+    },
+    "cookie": {
+      "eyebrow": "Cookie Policy",
+      "title": "Cookie Policy",
+      "description": "Découvrez comment ePlus OnAir mémorise vos réglages et mesure les visites du site.",
+      "sections": {
+        "essential": {
+          "title": "Essential storage",
+          "body": "Votre navigateur conserve sur cet appareil la langue, le thème, vos favoris et les stations récemment écoutées pour faciliter votre prochaine visite."
+        },
+        "analytics": {
+          "title": "Statistiques de fréquentation",
+          "body": "Le site principal utilise Google Analytics 4 pour mesurer les visites, les pages vues et la durée d’écoute par station. Fermer cet avis n’arrête pas la mesure."
+        },
+        "third_party": {
+          "title": "Third-party services",
+          "body": "Lorsque vous recherchez ou écoutez une radio, d’autres services peuvent fournir le son, les images ou les programmes. Ils peuvent recevoir votre adresse IP et utiliser leurs propres cookies."
+        },
+        "choices": {
+          "title": "Your choices",
+          "body": "Vous pouvez effacer les données du site dans les paramètres de votre navigateur. Cela peut aussi supprimer vos favoris, votre historique d’écoute et vos préférences d’affichage sur cet appareil."
+        },
+        "changes": {
+          "title": "Updates",
+          "body": "Cette politique peut évoluer si le site ou ses services changent. Vous pouvez toujours consulter la dernière version ici."
+        }
+      }
+    }
+  },
+  "for_you": {
+    "title": "Pour vous",
+    "description": "Découvrez des stations liées à votre bibliothèque locale, sans compte.",
+    "show": "Afficher les suggestions",
+    "hide_panel": "Masquer les suggestions",
+    "loading": "Recherche de stations…",
+    "unavailable": "Impossible de charger les suggestions.",
+    "retry": "Réessayer",
+    "based_on_your_library": "Suggestions fondées sur votre bibliothèque locale, selon vos paramètres de confidentialité.",
+    "curated_intro": "Aucune préférence correspondante. Voici des stations réellement mises en avant.",
+    "reason_genre": "Genre similaire à vos favoris",
+    "reason_language": "Même langue que vos favoris",
+    "reason_country": "Pays déjà écouté",
+    "reason_featured": "Station mise en avant dans le catalogue",
+    "dismiss": "Masquer cette suggestion",
+    "empty": "Aucune nouvelle station correspondante.",
+    "privacy_note": "Les suggestions sont calculées sur cet appareil. Favoris et historique ne sont pas envoyés au serveur. Les éléments masqués réapparaissent après rechargement."
+  },
+  "surprise": {
+    "title": "Surprenez-moi",
+    "heading": "Découvrez une nouvelle station",
+    "description": "Choisissez une station au hasard dans le catalogue réel. La lecture ne démarre qu'après votre clic.",
+    "filters": "Filtres",
+    "action": "Écouter une station au hasard",
+    "loading": "Chargement du catalogue…",
+    "unavailable": "Impossible de charger ou lancer cette station. Réessayez.",
+    "country": "Pays",
+    "any_country": "Tous les pays",
+    "genre": "Genre",
+    "any_genre": "Tous les genres",
+    "language": "Langue",
+    "any_language": "Toutes les langues",
+    "available_count": "{count} stations correspondantes",
+    "empty": "Aucune station ne correspond à ces filtres.",
+    "selected": "Station sélectionnée"
+  },
+  "home": {
+    "live_badge": "Radio internet en direct",
+    "title": "Écoutez les radios du monde entier",
+    "description": "Parcourez les stations par région et par pays, découvrez des radios locales et écoutez-les en un clic.",
+    "start_listening": "Écouter maintenant",
+    "explore_countries": "Explorer les pays",
+    "countries": "Pays",
+    "regions": "Régions",
+    "streaming": "En direct",
+    "featured": "À la une",
+    "explore": "Découvrir",
+    "browse_country": "Parcourir par pays"
+  },
+  "sidebar": {
+    "browse_radio": "Explorer les radios",
+    "radio_regions": "Régions radio",
+    "live_badge": "RADIO EN DIRECT",
+    "description": "Découvrez des stations en direct du monde entier à tout moment."
+  },
+  "search": {
+    "unavailable": "La recherche est momentanément indisponible. Les stations populaires restent affichées ci-dessous.",
+    "suggestions": "Suggestions pour vous",
+    "recent": "Recherches récentes",
+    "clear": "Effacer",
+    "loading": "Chargement des stations…"
+  },
+  "chat": {
+    "open": "Ouvrir l'assistant",
+    "title": "Assistant",
+    "powered_by": "Propulsé par Mendable et Vercel",
+    "greeting": "Bonjour ! Comment puis-je vous aider ?",
+    "placeholder": "Saisissez votre message",
+    "send": "Envoyer"
+  },
+  "seo": {
+    "home_breadcrumb": "Accueil",
+    "country_title": "Radio en direct en {country}",
+    "country_description": "Écoutez {count} stations de radio en direct en {country}. Découvrez les stations locales sur ePlus OnAir.",
+    "country_description_empty": "Écoutez les stations de radio en direct en {country} sur ePlus OnAir.",
+    "station_title": "{station} en direct – {country}",
+    "station_description": "Écoutez {station} en direct depuis {country} sur ePlus OnAir."
+  },
+  "brand": {
+    "live_radio": "Radio en direct",
+    "slogan": "Listen Beyond Borders.",
+    "slogan_localized": "Écoutez au-delà des frontières."
+  },
+  "footer": {
+    "tagline": "Listen Beyond Borders.",
+    "description": "Trouvez des stations par région ou pays et écoutez-les instantanément sur tous vos appareils."
+  },
+  "library": {
+    "title": "Votre radio",
+    "recent": "Écoutées récemment",
+    "favorites": "Favoris",
+    "recent_empty": "Écoutez une station pour la retrouver ici.",
+    "favorites_empty": "Touchez le cœur pour ajouter une station aux favoris.",
+    "clear_recent": "Effacer l’historique récent",
+    "remove_recent": "Retirer de l’historique",
+    "listening_stats": "Durée d’écoute",
+    "listening_live": "Calcul du temps d’écoute en direct",
+    "listening_tracking_title": "Suivre le temps d’écoute",
+    "listening_tracking_description": "Désactiver le comptage et l’envoi d’analyses sur la durée d’écoute. Les statistiques enregistrées, la lecture et l’historique récent sont conservés.",
+    "listening_tracking_on": "Activé",
+    "listening_tracking_off": "Désactivé",
+    "listening_tracking_paused": "Le suivi de la durée d’écoute est désactivé. Vos anciennes statistiques restent visibles.",
+    "listening_delete_stats": "Effacer les statistiques d’écoute",
+    "listening_confirm_delete_title": "Supprimer toutes les statistiques d’écoute ?",
+    "listening_confirm_delete_description": "Supprimer définitivement la durée totale, le graphique quotidien et les durées par station sur ce navigateur ? Cette action est irréversible. Les favoris et l’historique récent seront conservés. Si le suivi est activé, le compteur redémarrera à zéro.",
+    "listening_confirm_delete_no": "Annuler",
+    "listening_confirm_delete_yes": "Oui, supprimer",
+    "listening_daily_chart": "Temps d’écoute par jour",
+    "listening_daily_hint": "Sélectionnez une barre pour voir la durée du jour.",
+    "listening_chart_range": "Période du graphique",
+    "listening_last_7": "7 jours",
+    "listening_last_30": "30 jours",
+    "listening_last_90": "90 jours",
+    "listening_period_total": "Temps d’écoute sur la période",
+    "listening_daily_empty": "Aucune durée d’écoute quotidienne enregistrée.",
+    "listening_stats_description": "Seule la lecture réelle sur cet appareil est comptabilisée, sans les pauses, chargements ou erreurs de flux.",
+    "listening_total": "Temps d’écoute total",
+    "listening_today": "Aujourd’hui",
+    "listening_stations": "Stations écoutées",
+    "listening_top_stations": "Durée par station",
+    "listening_empty": "Lancez une station pour commencer à comptabiliser votre temps d’écoute.",
+    "listening_hour_short": " h",
+    "listening_minute_short": " min",
+    "listening_second_short": " s",
+    "confirm_clear_recent_title": "Effacer tout l’historique d’écoute ?",
+    "confirm_clear_recent_description": "Supprimer toutes les stations récemment écoutées ? Les favoris et les statistiques d’écoute seront conservés.",
+    "confirm_clear_recent_yes": "Oui, effacer",
+    "confirm_clear_recent_no": "Non, conserver",
+    "add_favorite": "Ajouter aux favoris",
+    "remove_favorite": "Retirer des favoris",
+    "loading": "Chargement de vos stations…"
+  },
+  "redesign": {
+    "navigation": "Navigation",
+    "discover": "Découvrir",
+    "search": "Rechercher",
+    "library": "Bibliothèque",
+    "continue_listening": "Continuer l’écoute",
+    "paused": "En pause",
+    "now_playing": "Lecture",
+    "timer": "Minuteur",
+    "channel_list": "Stations",
+    "next_station": "Station suivante",
+    "library_description": "Vos favoris et votre historique sont enregistrés sur cet appareil.",
+    "all": "Tout",
+    "see_all": "Voir tout"
+  },
+  "cookie_consent": {
+    "title": "Informations sur les cookies et la mesure d'audience",
+    "body": "ePlus OnAir mémorise sur cet appareil vos préférences d’écoute et d’affichage.",
+    "accept": "Compris",
+    "analytics_body": "ePlus OnAir conserve vos préférences et utilise Google Analytics 4 sur son site principal pour mesurer les visites et la durée d’écoute des radios. Fermer cet avis informatif n’arrête pas la mesure.",
+    "learn_more": "Politique cookies"
+  },
+  "sharing": {
+    "share": "Partager la station",
+    "copied": "Lien copié.",
+    "manual": "Sélectionnez et copiez ce lien :"
+  },
+  "recovery": {
+    "buffering": "Mise en mémoire tampon du direct…",
+    "source_position": "Source {index} sur {total}",
+    "attempt": "Tentative {attempt} sur {limit}",
+    "reason_network": "Le navigateur signale un problème réseau. La station n'est pas forcément hors ligne.",
+    "reason_decode": "Impossible de décoder cette source, ou format non pris en charge.",
+    "reason_timeout": "Aucun son reçu avant le délai d'attente. Essayez une autre source.",
+    "reason_unknown": "Erreur de lecture signalée, cause non confirmée.",
+    "last_played": "Dernière lecture ici à {time}",
+    "local_observation": "Observation locale de cette session, pas un état mondial vérifié.",
+    "offline": "Vous semblez hors ligne. Vérifiez votre connexion avant de réessayer.",
+    "unsupported": "La dernière source ne peut pas être décodée ou est incompatible avec ce navigateur. Essayez une autre source.",
+    "exhausted": "La lecture a échoué après plusieurs tentatives. Réessayez ou changez de source ; la station peut fonctionner sur un autre appareil.",
+    "connecting": "Connexion ou mise en mémoire tampon…",
+    "report": "Signaler un problème de lecture",
+    "report_hint": "Ouvre un brouillon GitHub à vérifier et envoyer. Aucune URL de flux ni aucun historique d’écoute ne sont inclus."
+  },
+  "transfer": {
+    "title": "Transférer vos favoris",
+    "export": "Exporter les favoris",
+    "import": "Importer des favoris",
+    "export_error": "Impossible d’exporter les favoris. Réessayez.",
+    "description": "Vérifiez et fusionnez les favoris d’un autre appareil. Vos favoris actuels sont conservés.",
+    "limit": "Choisissez un fichier JSON de favoris ePlus OnAir (256 Kio et 200 stations maximum).",
+    "choose": "Choisir un fichier de favoris",
+    "invalid": "Ce fichier est invalide, trop volumineux ou utilise une version non prise en charge.",
+    "preview": "À ajouter : {add} · Déjà enregistrés : {duplicate} · Absents du catalogue : {missing} · Au-delà de 200 stations : {overflow}",
+    "done": "{count} favoris ajoutés à ce navigateur.",
+    "confirm": "Ajouter aux favoris",
+    "favorites_only": "Favoris uniquement",
+    "no_favorites": "Aucune station favorite correspondante dans ce pays."
+  },
+  "listener_settings": {
+    "title": "Paramètres",
+    "description": "Personnalisez votre expérience ePlus OnAir.",
+    "listening": "Écoute",
+    "live_resume": "Reprendre en direct",
+    "live_resume_hint": "Rejoindre le direct après une pause, sans ancien tampon.",
+    "reconnect": "Reconnexion automatique",
+    "reconnect_hint": "Réessayer un flux interrompu via les sources disponibles.",
+    "restore": "Retenir la dernière station",
+    "restore_hint": "Restaurer la station, sans lecture automatique au rechargement.",
+    "volume": "Mémoriser le volume",
+    "volume_hint": "Conserver le volume et le mode silencieux sur cet appareil.",
+    "appearance": "Apparence et langue",
+    "theme": "Thème",
+    "motion": "Réduire les animations",
+    "motion_hint": "Limiter les mouvements et transitions décoratifs.",
+    "privacy": "Confidentialité et données locales",
+    "privacy_hint": "Vos réglages et votre historique restent dans ce navigateur.",
+    "tracking_hint": "Mesurer le temps d'écoute uniquement sur cet appareil.",
+    "analytics_note": "Cette option ne désactive pas l'analyse du site (GA4). Voir la politique des cookies.",
+    "favorites": "Gérer les favoris",
+    "statistics": "Statistiques d'écoute",
+    "clear_history": "Effacer l'historique récent",
+    "clear_stats": "Effacer les statistiques",
+    "local_note": "Sans compte ni synchronisation. Effacer les données du navigateur réinitialise les réglages.",
+    "confirm_history": "Effacer l'historique récent ?",
+    "confirm_history_hint": "Seul l'historique récent sera supprimé. Vos favoris sont conservés.",
+    "confirm_stats": "Effacer les statistiques ?",
+    "confirm_stats_hint": "Les durées et graphiques seront supprimés. Vos favoris sont conservés.",
+    "cancel": "Annuler",
+    "confirm": "Supprimer"
+  },
+  "online_stats": {
+    "station_all_description": "Consultez les durées d’écoute enregistrées sur cet appareil.",
+    "station_search": "Rechercher une station…",
+    "station_sort": "Trier les stations",
+    "station_sort_most": "Les plus écoutées",
+    "station_sort_least": "Les moins écoutées",
+    "station_sort_name": "Nom A–Z",
+    "station_results": "Stations {from}–{to} sur {total}",
+    "station_no_results": "Aucune station ne correspond à votre recherche.",
+    "station_pagination": "Pagination des stations",
+    "station_previous": "Précédent",
+    "station_page": "Page {page} sur {total}",
+    "station_next": "Suivant",
+    "total": "Temps total en ligne",
+    "today": "En ligne aujourd'hui",
+    "listening_today": "Écoute aujourd'hui",
+    "listening": "Écoute",
+    "online": "En ligne",
+    "tracking": "Suivre le temps en ligne",
+    "definition": "Seul l'onglet visible, actif et connecté compte. Le comptage s'arrête après 5 minutes d'inactivité. La radio peut continuer en arrière-plan sans compter.",
+    "chart_kind": "Type de durée",
+    "daily_chart": "Temps en ligne par jour",
+    "daily_hint": "Choisissez un jour pour voir le temps passé sur le site.",
+    "period_total": "Temps en ligne sur la période",
+    "daily_empty": "Aucun temps en ligne enregistré sur cette période.",
+    "clear_title": "Effacer les statistiques en ligne et d’écoute ?",
+    "clear_description": "Supprimer les durées en ligne et d’écoute, les graphiques et les totaux par station dans ce navigateur ? Les favoris et l’historique restent intacts.",
+    "clear_action": "Effacer les statistiques de durée",
+    "compare_intro": "Deux durées distinctes : écoute de la radio et utilisation active du site.",
+    "manage_settings": "Réglages du suivi",
+    "listening_explanation": "Compte uniquement lorsque la radio joue réellement, y compris en arrière-plan.",
+    "online_explanation": "Compte le temps actif sur cet onglet et s'arrête après 5 minutes sans interaction.",
+    "new_counter_note": "Le suivi du temps en ligne commence avec cette fonction ; l'ancien historique d'écoute est conservé.",
+    "daily_compare": "Tendances quotidiennes",
+    "listening_trend": "Évolution quotidienne de l'écoute",
+    "online_trend": "Évolution quotidienne du temps en ligne",
+    "selected_day": "Jour sélectionné",
+    "select_day": "Choisir un jour à consulter",
+    "independent_scales": "Chaque mesure a sa propre échelle ; ne cumulez pas les deux durées.",
+    "filter_both": "Les deux",
+    "filter_listening": "Écoute",
+    "filter_online": "En ligne",
+    "chart_tooltip_hint": "Survolez le graphique ou touchez un jour pour voir les durées exactes.",
+    "scale_max": "Maximum",
+    "chart_hover_label": "Graphique quotidien. Survolez-le ou utilisez les flèches pour inspecter un jour.",
+    "combined_scales_note": "Les courbes utilisent des échelles distinctes (rose et vert). Survolez pour voir les durées réelles ; elles peuvent se chevaucher.",
+    "weekly_activity": "7 derniers jours",
+    "vs_previous_week": "par rapport aux 7 jours précédents",
+    "stations_played": "Stations écoutées",
+    "most_listened_station": "Station la plus écoutée",
+    "listening_peak": "Écoute maximale",
+    "online_peak": "Temps en ligne maximal",
+    "show_all": "Tout afficher",
+    "show_less": "Réduire"
+  }
+}

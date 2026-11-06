@@ -1,0 +1,414 @@
+{
+  "rodja": {
+    "title": "Radio Rodja (Bogor)",
+    "type": "audio/mpeg",
+    "signal": "756 AM",
+    "url": "https://www.radiorodja.com/",
+    "cros": false,
+    "stream": "https://radioislamindonesia.com/rodja-low.mp3",
+    "features": "/img/asia/indonesia/rodja.png",
+    "favorite": true
+  },
+  "suara-surabaya": {
+    "title": "Suara Surabaya",
+    "type": "audio/mpeg",
+    "signal": "100.0 FM",
+    "url": "https://www.suarasurabaya.net/",
+    "cros": false,
+    "stream": "https://c5.siar.us/proxy/ssfm/stream",
+    "features": "/img/asia/indonesia/suara-surabaya.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/suara-surabaya?time="
+  },
+  "prambors": {
+    "title": "Prambors",
+    "type": "audio/mpeg",
+    "signal": "102.2 FM",
+    "url": "https://www.pramborsfm.com/",
+    "cros": false,
+    "stream": "https://22253.live.streamtheworld.com/PRAMBORS_FM.mp3?dist=pramborsweb&tdsdk=js-2.9&pname=tdwidgets&pversion=2.9&banners=300x250&sbmid=fb62568d-e4b4-4b69-af58-def042897d60",
+    "features": "/img/asia/indonesia/prambors.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/prambors?time="
+  },
+  "hard-rock": {
+    "title": "Hard Rock FM",
+    "type": "audio/mpeg",
+    "signal": "87.6 FM",
+    "url": "https://hardrockfm.com/",
+    "cros": true,
+    "stream": "https://n13.radiojar.com/7csmg90fuqruv",
+    "features": "/img/asia/indonesia/hard-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/hard-rock?time="
+  },
+  "indika": {
+    "title": "Indika",
+    "type": "audio/mpeg",
+    "signal": "91.6 FM",
+    "url": "https://indikafm.com/",
+    "cros": false,
+    "stream": "https://s2.radio.co/sf58a82d7d/listen",
+    "features": "/img/asia/indonesia/indika.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/indika?time="
+  },
+  "mustang": {
+    "title": "Mustang (Jakarta)",
+    "type": "application/x-mpegURL",
+    "signal": "88.0 FM",
+    "url": "https://mustang88fm.com/",
+    "cros": false,
+    "stream": "https://wz.mari.co.id:1936/web_mustangfm/mustangfm/playlist.m3u8",
+    "features": "/img/asia/indonesia/mustang.png"
+  },
+  "delta-fm": {
+    "title": "Delta FM",
+    "type": "audio/mpeg",
+    "signal": "99.1 FM",
+    "url": "http://deltafm.net/streaming/",
+    "cros": true,
+    "stream": "http://live.deltafm.net:9002/deltafm",
+    "features": "/img/asia/indonesia/delta-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/delta-fm?time="
+  },
+  "bens-jakarta": {
+    "title": "Bens Radio (Jakarta)",
+    "type": "audio/mpeg",
+    "signal": "106.2 FM",
+    "url": "https://www.bensradio.com/",
+    "cros": true,
+    "stream": "https://node-16.zeno.fm/99v5msp3v68uv",
+    "features": "/img/asia/indonesia/bens-jakarta.png"
+  },
+  "ardan": {
+    "title": "Ardan FM",
+    "type": "audio/mpeg",
+    "signal": "105.9 FM",
+    "url": "http://ardanradio.com/",
+    "cros": true,
+    "stream": "http://listento.ardanradio.com:1059/stream/1/",
+    "features": "/img/asia/indonesia/ardan.png"
+  },
+  "cosmopolitan": {
+    "title": "Cosmopolitan",
+    "type": "audio/mpeg",
+    "signal": "90.4 FM",
+    "url": "https://cosmopolitanfm.com/",
+    "cros": true,
+    "stream": "https://n0c.radiojar.com/u7d8heq3bnzuv",
+    "features": "/img/asia/indonesia/cosmopolitan.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/cosmopolitan?time="
+  },
+  "nagaswara": {
+    "title": "Nagaswara",
+    "type": "audio/mpeg",
+    "signal": "99.7 FM",
+    "url": "https://www.nagaswarafm.com/",
+    "cros": false,
+    "stream": "https://live.nagaswarafm.com:8088/stream",
+    "features": "/img/asia/indonesia/nagaswara.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/nagaswara?time="
+  },
+  "swaragama-jogja": {
+    "title": "Swaragama (Jogja)",
+    "type": "audio/mpeg",
+    "signal": "101.7 FM",
+    "url": "https://swaragamafm.com/",
+    "cros": false,
+    "stream": "http://usa.jogjastreamers.com:8000/swaragama456789?s=67529584319283",
+    "features": "/img/asia/indonesia/swaragama-jogja.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/swaragama-jogja?time="
+  },
+  "dangdut": {
+    "title": "Swaragama (Jogja)",
+    "type": "audio/mpeg",
+    "signal": "97.1 FM",
+    "url": "https://www.rdifm.co.id/",
+    "cros": true,
+    "stream": "http://202.147.199.99:8000/stream/1/",
+    "features": "/img/asia/indonesia/dangdut.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/dangdut?time="
+  },
+  "i-fm": {
+    "title": "iRadio (Jakarta)",
+    "type": "audio/mpeg",
+    "signal": "89.6 FM",
+    "url": "https://www.rdifm.co.id/",
+    "cros": true,
+    "stream": "https://n0d.radiojar.com/4ywdgup3bnzuv",
+    "features": "/img/asia/indonesia/i-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/i-fm?time="
+  },
+  "muslim": {
+    "title": "Radio Muslim",
+    "type": "audio/mpeg",
+    "signal": "1467 AM",
+    "url": "https://radiomuslim.com/",
+    "cros": true,
+    "stream": "https://n0d.radiojar.com/4ywdgup3bnzuv",
+    "features": "/img/asia/indonesia/muslim.png"
+  },
+  "elshinta-jakarta": {
+    "title": "Radio Elshinta (Jakarta)",
+    "type": "application/x-mpegURL",
+    "signal": "90.0 FM",
+    "url": "https://elshinta.com/",
+    "cros": true,
+    "stream": "https://app-etslive-2.vidio.com/live/7166/master.m3u8?auth=aFErdkFlK1BDbXFMc3JNQ2p3QjFxbE1hTmwxQWViMUpLOHhjVmdYWVRnYlU3eUppNmhFR25HTHZUR1hXZnQxdng3SXZFbjYwbjdXVDRkRkF2VjJPbkFvZ280NzB4dEFkZDFpRXQ1WU9iNmFNSjFTN1hlVWZnRnFHaGpBMUlTeDBTM1B1SDh3YXZuckQwNzJXZWs1M1NscnVsSzdYTWUwSUtMaENNTFg5d0o3N2hJV1pOWjVFenhpcXRVK1FsVTNQSDhMNkl0dExxbzM3bVVGK0t2WDlrM2VTYXdUNVFSUUdELzFGbmVrUHA4U3g4MEo5d0drbG1hTEdzRDRwQm13cWRvTkJhdFZRdWhwRzl1MkNaNFNudmxsTHkwUGRDVURPWXdzQlVaZkErS1dEL0pqUHloL0FZRFJDa1M4cGpBSkN2dTBUYUJQTmFEZVh0akltS0dHYTc2SzJJZjNzdHg5dThYRHVqbGp1bEhuVFZzMGNXcENMWnhNYVh4NTZiYUJxUUZmTHZ0OHIzS0ZqNS9zbVpCUzJUTnY2VjdmYzNadmRzOEgxdG5hYmFtUHZPV1EwKytSYjlHRWdEZXJjUVhwQUoyOWcyM0ZiWVJlK2RLVk1aSXljRDl6NWFtUlNsQnU2OXdNeGZRd0VVUkNZajhLbERiZ1d2SmJxNHBWSTBOQ2RlRWFmcDlxakxhaFhwZHBCL29TVmd3bU1RRE5jNlJmOFZIc3BBdFhQNjBDbStWWDBsWXhyNFh6bkY2YXJYV1NINXNOeHU4WkpUa3ZDN1BYd245eXNiZjI0UXJvb2hBNGUrNWExVjNQb1RxL3Niem1QQm4xME1NUnBoNnpoNzVyT2Y2eVBCVXhIWTUzMjZwZ2ExdWNmSTFWajhzTnJSY3dxU3NENkNPY0x6WmxXM1d1aEd1MzZOaW9RRHd2U0h1Z09zU0RlbVJnRkVkT2hVMXBTU21UN3RraWp3V3FQUCtSVS9OMm0xTkIrQ01uUmFqb0tWL0dmMEs5SlZUMHBBd05DT00vR3FpcG96ZE1ZMm4xM2NtY2dadz09&trace_id=58f5c0af5528c6d11441a4490774d0b3/3513438922992833148",
+    "features": "/img/asia/indonesia/elshinta-jakarta.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/elshinta-jakarta?time="
+  },
+  "fajri-bogor": {
+    "title": "Radio Fajri (Bogor)",
+    "type": "audio/mpeg",
+    "signal": "99.3 FM",
+    "url": "https://fajrifm.com/",
+    "cros": true,
+    "stream": "http://coloid.fajrifm.com:9930/;",
+    "features": "/img/asia/indonesia/fajri-bogor.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/fajri-bogor?time="
+  },
+  "dahlia": {
+    "title": "Dahlia",
+    "type": "audio/mpeg",
+    "signal": "101.5 FM",
+    "url": "https://www.radiodahliafm.com/",
+    "cros": false,
+    "stream": "https://svara-stream.radioddns.net:8443/bandung_dahliafm",
+    "features": "/img/asia/indonesia/dahlia.png"
+  },
+  "oz": {
+    "title": "OZ (Bandung)",
+    "type": "audio/mpeg",
+    "signal": "103.1 FM",
+    "url": "http://bandung.ozradio.id/",
+    "cros": true,
+    "stream": "http://s3.vinhostmedia.com:1031/;",
+    "features": "/img/asia/indonesia/oz.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/oz?time="
+  },
+  "gajahmada": {
+    "title": "Gajahmada",
+    "type": "audio/mpeg",
+    "signal": "102.4 FM",
+    "url": "https://gajahmadafm.co.id/",
+    "cros": true,
+    "stream": "http://gajahmada.i.streaming.id:8000/live",
+    "features": "/img/asia/indonesia/gajahmada.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/gajahmada?time="
+  },
+  "rhema": {
+    "title": "88.6 Rhema FM",
+    "type": "audio/mpeg",
+    "signal": "88.6 FM",
+    "url": "https://rhemaradio.com/",
+    "cros": true,
+    "stream": "http://gajahmada.i.streaming.id:8000/live",
+    "features": "/img/asia/indonesia/rhema.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/rhema?time="
+  },
+  "suara-muslim": {
+    "title": "Suara Muslim",
+    "type": "audio/mpeg",
+    "signal": "93.8 FM",
+    "url": "https://suaramuslim.net/",
+    "cros": true,
+    "stream": "http://pu.klikhost.com:8052/stream/1/",
+    "features": "/img/asia/indonesia/suara-muslim.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/suara-muslim?time="
+  },
+  "smart-jakart": {
+    "title": "Smart (Jakarta)",
+    "type": "audio/mpeg",
+    "signal": "95.9 FM",
+    "url": "http://www.radiosmartfm.com/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/smart-jakarta",
+    "features": "/img/asia/indonesia/smart-jakart.png"
+  },
+  "pelita-kasih": {
+    "title": "Radio Pelita Kasih",
+    "type": "audio/mpeg",
+    "signal": "96.3 FM",
+    "url": "https://www.radiopelitakasih.com/",
+    "cros": false,
+    "stream": "https://live.indostreamserver.com/8030/stream/1/",
+    "features": "/img/asia/indonesia/pelita-kasih.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/pelita-kasih?time="
+  },
+  "cosmo-bandung": {
+    "title": "Radio Cosmo (Bandung)",
+    "type": "audio/mpeg",
+    "signal": "101.9 FM",
+    "url": false,
+    "cros": true,
+    "stream": "http://scg.streamingmurah.com:8074/stream/1/",
+    "features": "/img/asia/indonesia/cosmo-bandung.png"
+  },
+  "trax-fm": {
+    "title": "Trax FM",
+    "type": "audio/mpeg",
+    "signal": "101.4 FM",
+    "url": "https://traxonsky.com/",
+    "cros": true,
+    "stream": "https://n02.radiojar.com/rrqf78p3bnzuv",
+    "features": "/img/asia/indonesia/trax-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/trax-fm?time="
+  },
+  "retjo-jogja": {
+    "title": "Retjo Buntung (Jogja)",
+    "type": "audio/mpeg",
+    "signal": "99.4 FM",
+    "url": "https://radio.retjobuntungfm.com/",
+    "cros": true,
+    "stream": "http://scg.streamingmurah.com:9940/stream/1/",
+    "features": "/img/asia/indonesia/retjo-jogja.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/retjo-jogja?time="
+  },
+  "sonora-fm": {
+    "title": "Radio Sonora",
+    "type": "audio/mpeg",
+    "signal": "98.0 FM",
+    "url": "http://www.sonora.co.id/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/sonora-surabaya",
+    "features": "/img/asia/indonesia/sonora-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/sonora-fm?time="
+  },
+  "geronimo-jogja": {
+    "title": "Geronimo (Jogja)",
+    "type": "audio/mpeg",
+    "signal": "106.1 FM",
+    "url": "http://www.geronimo.fm/",
+    "cros": false,
+    "stream": "https://live2.indostreamserver.com/8018/stream/1/",
+    "features": "/img/asia/indonesia/geronimo-jogja.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/geronimo-jogja?time="
+  },
+  "pro1-makassar": {
+    "title": "PRO 1 RRI (Makassar)",
+    "type": "audio/mpeg",
+    "signal": "94.4 FM",
+    "url": "https://rri.co.id/home.html",
+    "cros": true,
+    "stream": "https://cdnmakassarpro1.rri.co.id/web-rrimakasarpro1.mp3",
+    "features": "/img/asia/indonesia/pro1-makassar.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/pro1-makassar?time="
+  },
+  "motion": {
+    "title": "Motion Radio (Jakarta)",
+    "type": "audio/mpeg",
+    "signal": "97.5 FM",
+    "url": "http://www.motionradiofm.com/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/motion-jakarta",
+    "features": "/img/asia/indonesia/motion.png"
+  },
+  "raka": {
+    "title": "Raka",
+    "type": "audio/mpeg",
+    "signal": "98.8 FM",
+    "url": "http://www.rakafm.co.id/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/raka-bandung",
+    "features": "/img/asia/indonesia/raka.png"
+  },
+  "serambi": {
+    "title": "Serambi FM (Banda Aceh)",
+    "type": "audio/mpeg",
+    "signal": "90.2 FM",
+    "url": "https://serambifm.com/",
+    "cros": true,
+    "stream": "http://live.serambifm.com:8902/stream/1/",
+    "features": "/img/asia/indonesia/serambi.png"
+  },
+  "k-lite-bandung": {
+    "title": "K Lite (Bandung)",
+    "type": "audio/mpeg",
+    "signal": "107.1 FM",
+    "url": "https://serambifm.com/",
+    "cros": false,
+    "stream": "https://svara-stream.radioddns.net:8443/bandung_klitefm_acc",
+    "features": "/img/asia/indonesia/k-lite-bandung.png"
+  },
+  "ras-jakarta": {
+    "title": "RAS (Jakarta)",
+    "type": "audio/mpeg",
+    "signal": "95.5 FM",
+    "url": "https://rasfmjakarta.com/",
+    "cros": false,
+    "stream": "https://i.klikhost.com/9006/;",
+    "features": "/img/asia/indonesia/ras-jakarta.png"
+  },
+  "kita-cirebon": {
+    "title": "Kita (Cirebon)",
+    "type": "audio/mpeg",
+    "signal": "94.3 FM",
+    "url": "https://www.radiokitafm.com/",
+    "cros": true,
+    "stream": "http://live.radiosunnah.net/;",
+    "features": "/img/asia/indonesia/kita-cirebon.png"
+  },
+  "most": {
+    "title": "Most",
+    "type": "application/x-mpegURL",
+    "signal": "105.8 FM",
+    "url": "https://most1058fm.com/",
+    "cros": false,
+    "stream": "https://wz.mari.co.id:1936/web_mostfm/mostfm/playlist.m3u8",
+    "features": "/img/asia/indonesia/most.png"
+  },
+  "pas": {
+    "title": "Radio Pas",
+    "type": "audio/mpeg",
+    "signal": "101.1 FM",
+    "url": "https://pasfmpati.com/radio/",
+    "cros": true,
+    "stream": "http://45.64.97.82:8886/stream/2/",
+    "features": "/img/asia/indonesia/pas.png"
+  },
+  "dengerin-musik-indonesia": {
+    "title": "Dengerin Musik",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://denger.in/",
+    "cros": true,
+    "stream": "http://stream.denger.in:8888/dmi",
+    "features": "/img/asia/indonesia/dengerin-musik-indonesia.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/dengerin-musik-indonesia?time="
+  },
+  "kis": {
+    "title": "Kis FM",
+    "type": "application/x-mpegURL",
+    "signal": "95.1 FM",
+    "url": "https://kis951fm.com/",
+    "cros": false,
+    "stream": "https://wz.mari.co.id:1936/web_kisfm/kisfm/playlist.m3u8",
+    "features": "/img/asia/indonesia/kis.png"
+  },
+  "el-shaddai-surakarta": {
+    "title": "El Shaddai FM (Surakarta)",
+    "type": "audio/mpeg",
+    "signal": "91.3 FM",
+    "url": "https://elshaddaifm.com/",
+    "cros": true,
+    "stream": "http://shaddai.onlivestreaming.net:9130/live",
+    "features": "/img/asia/indonesia/el-shaddai-surakarta.png",
+    "schedule": "https://api.webrad.io/data/playlist/57/el-shaddai-surakarta?time="
+  },
+  "bass-salatiga": {
+    "title": "Radio Bass (Salatiga)",
+    "type": "audio/mpeg",
+    "signal": "93.2 FM",
+    "url": "https://bassfm.id/",
+    "cros": false,
+    "stream": "https://bassfm.radio.yufid.com/;",
+    "features": "/img/asia/indonesia/bass-salatiga.png"
+  },
+  "klcbs": {
+    "title": "KLCBS",
+    "type": "audio/mpeg",
+    "signal": "100.4 FM",
+    "url": "https://www.klcbs.net/",
+    "cros": true,
+    "stream": "http://s3.vinhostmedia.com:1055/;",
+    "features": "/img/asia/indonesia/klcbs.png"
+  }
+}

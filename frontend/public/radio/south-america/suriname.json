@@ -1,0 +1,304 @@
+{
+    "pipel": {
+        "title": "Pipel Radio",
+        "type": "audio/mpeg",
+        "url": "https://pipel.sr/",
+        "cros": false,
+        "stream": "https://rs.suricloud.com/radio/8010/radio.mp3",
+        "features": "/img/south-america/suriname/pipel.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/114/pipel?time="
+    },
+    "apintie": {
+        "title": "Radio Apintie",
+        "type": "audio/mpeg",
+        "url": "https://www.apintie.sr/",
+        "cros": false,
+        "stream": "https://surilive.com:8000/stream/1/",
+        "features": "/img/south-america/suriname/apintie.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/apintie?time="
+    },
+    "garuda": {
+        "title": "Radio Garuda",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://162.244.80.245:8012/stream/1/",
+        "features": "/img/south-america/suriname/garuda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/garuda?time="
+    },
+    "srs-suriname": {
+        "title": "Radio SRS",
+        "type": "audio/mpeg",
+        "url": "https://radiosrs.sr/",
+        "cros": false,
+        "stream": "https://surilive.com:8060/stream/1/",
+        "features": "/img/south-america/suriname/srs-suriname.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/srs-suriname?time="
+    },
+    "10-magic-fm": {
+        "title": "Radio 10 Magic FM",
+        "type": "audio/mpeg",
+        "url": "https://www.radio10.sr/",
+        "cros": false,
+        "stream": "https://s5.radio.co/s85a633f73/listen",
+        "features": "/img/south-america/suriname/10-magic-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/10-magic-fm?time="
+    },
+    "rp": {
+        "title": "Radio RP",
+        "type": "audio/mpeg",
+        "url": "https://www.dbsuriname.com/radio/",
+        "cros": false,
+        "stream": "https://audio-edge-es6pf.mia.g.radiomast.io/2ce0ffa5-dd88-491e-9f9f-925a7ce36b13",
+        "features": "/img/south-america/suriname/rp.png",
+        "favorite": false
+    },
+    "abc": {
+        "title": "Radio ABC",
+        "type": "audio/mpeg",
+        "url": "https://abcsuriname.com/",
+        "cros": false,
+        "stream": "https://surilive.com:8020/stream/1/",
+        "features": "/img/south-america/suriname/abc.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/abc?time="
+    },
+    "koyeba": {
+        "title": "Radio Koyeba",
+        "type": "audio/mpeg",
+        "url": "https://radiokoyebasuriname.com/",
+        "cros": true,
+        "stream": "http://162.244.80.245:8020/stream/1/",
+        "features": "/img/south-america/suriname/koyeba.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/koyeba?time="
+    },
+    "shalom": {
+        "title": "Shalom Radio",
+        "type": "audio/mpeg",
+        "url": "https://shalomsuriname.com/",
+        "cros": true,
+        "stream": "http://162.244.80.245:8014/stream/1/",
+        "features": "/img/south-america/suriname/shalom.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/shalom?time="
+    },
+    "ishara": {
+        "title": "Radio Ishara",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://nickerie.webhop.net:8000/stream",
+        "features": "/img/south-america/suriname/ishara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/ishara?time="
+    },
+    "rapar": {
+        "title": "Radio Rapar",
+        "type": "audio/mpeg",
+        "url": "https://www.dbsuriname.com/radio/",
+        "cros": false,
+        "stream": "https://audio-edge-es6pf.mia.g.radiomast.io/d7e8093b-6a7e-4442-a096-37f259cb7092",
+        "features": "/img/south-america/suriname/rapar.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/rapar?time="
+    },
+    "trishul": {
+        "title": "Trishul Radio",
+        "type": "audio/mpeg",
+        "url": "https://radiotrishul.com/",
+        "cros": false,
+        "stream": "https://rs.suricloud.com/radio/8050/radio.mp3",
+        "features": "/img/south-america/suriname/trishul.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/trishul?time="
+    },
+    "sangeetmala": {
+        "title": "Sangeetmala Radio",
+        "type": "audio/mpeg",
+        "url": "https://sgmsuriname.com/",
+        "cros": false,
+        "stream": "https://rs.suricloud.com/radio/8030/radio.mp3",
+        "features": "/img/south-america/suriname/sangeetmala.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/sangeetmala?time="
+    },
+    "smooth-fm": {
+        "title": "Smooth FM",
+        "type": "audio/mpeg",
+        "url": "https://www.sccn.tv",
+        "cros": false,
+        "stream": "https://video1.getstreamhosting.com:8340/stream",
+        "features": "/img/south-america/suriname/smooth-fm.png",
+        "favorite": false
+    },
+    "rasonic-1": {
+        "title": "Radio Rasonic",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://108.59.9.147:8136/;",
+        "features": "/img/south-america/suriname/rasonic-1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/rasonic-1?time="
+    },
+    "anda": {
+        "title": "Radio Anda",
+        "type": "audio/mpeg",
+        "url": "https://suriname.nu/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/b2ukpxvty6duv",
+        "features": "/img/south-america/suriname/anda.png",
+        "favorite": false
+    },
+    "tamara": {
+        "title": "Radio Tamara",
+        "type": "audio/mpeg",
+        "url": "https://radiotamara.one/",
+        "cros": false,
+        "stream": "https://beta.surilive.com/tamara/stream",
+        "features": "/img/south-america/suriname/tamara.png",
+        "favorite": false
+    },
+    "shruti": {
+        "title": "Radio Shruti",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://rs.suricloud.com/radio/8000/radio.mp3",
+        "features": "/img/south-america/suriname/shruti.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/shruti?time="
+    },
+    "immanuel": {
+        "title": "Radio Immanuël",
+        "type": "audio/mpeg",
+        "url": "https://www.immanuelsr.com/",
+        "cros": false,
+        "stream": "https://surilive.com:8030/stream/1/",
+        "features": "/img/south-america/suriname/immanuel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/immanuel?time="
+    },
+    "rk2": {
+        "title": "Radio Kabar Katresnan RK2",
+        "type": "audio/mpeg",
+        "url": "https://www.stichtingpuas.sr/",
+        "cros": true,
+        "stream": "http://server.jvhost.net:8010/stream",
+        "features": "/img/south-america/suriname/rk2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/rk2?time="
+    },
+    "color-suriname-102-5-fm": {
+        "title": "Color Radio Suriname",
+        "type": "audio/mpeg",
+        "url": "https://www.colorradiosuriname.com/",
+        "cros": false,
+        "stream": "https://surilive.com:8070/stream/1/",
+        "features": "/img/south-america/suriname/color-suriname-102-5-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/color-suriname-102-5-fm?time="
+    },
+    "nio-fm": {
+        "title": "NIO FM",
+        "type": "audio/mpeg",
+        "url": "https://nio.sr/",
+        "cros": false,
+        "stream": "https://niofm.beheerstream.nl:8060/stream/1/",
+        "features": "/img/south-america/suriname/nio-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/nio-fm?time="
+    },
+    "lpm": {
+        "title": "Radio LPM",
+        "type": "audio/mpeg",
+        "url": "https://lpmnews.com/",
+        "cros": false,
+        "stream": "https://surilive.com:8050/stream/1/",
+        "features": "/img/south-america/suriname/lpm.png",
+        "favorite": false
+    },
+    "boskopu": {
+        "title": "Radio Boskopu",
+        "type": "audio/mpeg",
+        "url": "https://boskopu.wixsite.com/radio",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/wwgta3fqsfhvv",
+        "features": "/img/south-america/suriname/boskopu.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/boskopu?time="
+    },
+    "surja-vibes": {
+        "title": "Surja Vibes",
+        "type": "audio/mpeg",
+        "url": "https://www.surjavibes.com/",
+        "cros": false,
+        "stream": "https://s5.radio.co/s1735f3c1d/listen",
+        "features": "/img/south-america/suriname/surja-vibes.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/surja-vibes?time="
+    },
+    "neutral-radio": {
+        "title": "Neutral Radio",
+        "type": "audio/mpeg",
+        "url": "https://neutralradio.wixsite.com/neutralradio",
+        "cros": false,
+        "stream": "https://cast1.torontocast.com:2225/stream",
+        "features": "/img/south-america/suriname/neutral-radio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/neutral-radio?time="
+    },
+    "radio-9": {
+        "title": "Radio 9",
+        "type": "audio/mpeg",
+        "url": "https://radio9suriname.com/",
+        "cros": false,
+        "stream": "https://rs.suricloud.com/radio/8060/radio.mp3",
+        "features": "/img/south-america/suriname/radio-9.png",
+        "favorite": false
+    },
+    "ishara-hindi": {
+        "title": "Ishara Hindi FM",
+        "type": "audio/mpeg",
+        "url": "https://www.isharafm.com/",
+        "cros": true,
+        "stream": "http://nickerie.webhop.net:8000/stream",
+        "features": "/img/south-america/suriname/ishara-hindi.png",
+        "favorite": false
+    },
+    "limfm": {
+        "title": "LimFM",
+        "type": "audio/mpeg",
+        "url": "https://www.limfmsu.com/",
+        "cros": false,
+        "stream": "https://radiostream.limfmsu.com/radio",
+        "features": "/img/south-america/suriname/limfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/limfm?time="
+    },
+    "sranan": {
+        "title": "Sranan Radio",
+        "type": "audio/mpeg",
+        "url": "https://srananradio.com/",
+        "cros": true,
+        "stream": "http://my.surilive.com:8150/stream/1/",
+        "features": "/img/south-america/suriname/sranan.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/114/sranan?time="
+    },
+    "doubleb-boeskondee-media": {
+        "title": "Doubleb Boeskondee Media",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/rnf3xu9tgs8uv",
+        "features": "/img/south-america/suriname/doubleb-boeskondee-media.png",
+        "favorite": false
+    }
+}

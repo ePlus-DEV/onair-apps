@@ -1,0 +1,751 @@
+{
+  "404": {
+    "content": "抱歉，找不到您要访问的页面。"
+  },
+  "global_radio": {
+    "eplus_play_hint": "直接在 ePlus OnAir 收听。其他收听方式请查看电台详情。",
+    "playing_now": "正在播放",
+    "other_listening_options": "其他收听方式",
+    "external_options_hint": "这些链接将在新标签页中打开提供商的网站。",
+    "listen_on_eplus": "在 ePlus 收听",
+    "connecting_on_eplus": "连接中…",
+    "resolver_unavailable": "ePlus 暂时无法播放。请在 Apple Music 或 TuneIn 收听。",
+    "hls_preview_title": "实验功能：播放临时 HLS 链接",
+    "hls_preview_help": "如有合法获授权的 Apple 临时 HLS URL，可在本浏览器中测试。Apple Music/TuneIn 可能拒绝跨站播放。本功能不会获取或续签访问密钥。",
+    "hls_preview_input": "临时签名 HLS URL",
+    "hls_preview_placeholder": "粘贴临时 Apple HLS .m3u8 链接",
+    "hls_preview_play": "尝试播放",
+    "hls_preview_stop": "停止并清除",
+    "hls_preview_audio": "临时 HLS 播放控件",
+    "hls_preview_privacy": "链接只保存在本标签页内存中，停止或离开时即清除，不计入播放历史和收听统计。",
+    "hls_preview_checking": "正在连接 HLS…",
+    "hls_preview_playing": "正在播放临时 HLS 流。",
+    "hls_preview_paused": "播放已暂停，请重新尝试。",
+    "hls_preview_invalid": "Apple/TuneIn HLS 签名链接无效。",
+    "hls_preview_expired": "访问密钥似乎已过期，请通过授权提供商获取有效链接。",
+    "hls_preview_station_mismatch": "此 HLS 链接属于其他 Apple Music 电台。",
+    "hls_preview_unavailable": "无法播放：可能存在访问限制、密钥过期或 CORS 阻止。请前往 Apple Music 或 TuneIn。",
+    "hls_preview_unsupported": "此浏览器不支持该 HLS 流。",
+    "seasonal_note": "季节性电台可能在节假日之外暂停播放。请在 Apple Music 或 TuneIn 核实。",
+    "seasonal": "季节性",
+    "listen_on_tunein": "在 TuneIn 收听",
+    "eyebrow": "国际广播网络",
+    "title": "全球电台",
+    "description": "探索不受国家分类限制的国际广播网络。",
+    "providers": "电台提供商",
+    "provider_count": "家提供商",
+    "external_badge": "在外部打开",
+    "apple_description": "探索 Apple Music 的六个主要直播电台及季节性 Holiday Hits，按全球服务商分类，而非按国家分类。",
+    "explore_provider": "探索电台",
+    "external_note": "Apple Music 电台将在 Apple 网站打开，不会在 ePlus OnAir 内播放，也不会计入本地收听统计。",
+    "by_country": "按国家浏览",
+    "home": "首页",
+    "breadcrumb": "面包屑导航",
+    "open_provider": "打开 Apple Music",
+    "apple_access": "收听需要登录 Apple 账户。这六个直播电台无需订阅 Apple Music，实际可用性因地区而异。",
+    "stations": "直播电台",
+    "station_count": "个电台",
+    "details": "电台详情",
+    "listen_on_apple": "在 Apple Music 收听",
+    "origin": "来源国家",
+    "how_listen": "收听方式",
+    "back_to_provider": "所有 Apple Music Radio 电台"
+  },
+  "navmenu": {
+    "more": "更多",
+    "information": "网站信息",
+    "homepage": "主页",
+    "about": "关于我们",
+    "blog": "博客",
+    "group": "群组",
+    "terms": "使用条款",
+    "privacy": "隐私政策",
+    "contact": "联系我们",
+    "language": "语言：",
+    "old_version": "旧版网站",
+    "statistics": "统计",
+    "changelog": "更新日志",
+    "cookie": "Cookie 政策"
+  },
+  "terms": {
+    "content": "欢迎访问网站 https://radio.eplus.dev（“ePlus OnAir”），这是ePlus.DEV的产品。在使用“Radio”网站ePlus上的功能之前，请仔细阅读网站 https://radio.eplus.dev 上的服务提供和使用协议。一旦注册，您已经阅读、理解、接受并遵守以下条款：",
+    "article_1": {
+      "title": "第一条：非盈利",
+      "line_1": "我们承诺永久免费，不收取任何费用。",
+      "line_2": "我们承认来自世界各地的电台自由内容的使用，来自世界各地的内容开发者，所以我希望将这些内容传播给每个人。"
+    },
+    "article_2": {
+      "title": "第二条：数字千年版权法",
+      "line_1": "ePlus OnAir非常重视知识产权问题，并致力于满足内容所有者的需求，同时帮助他们管理其在线内容的发布。需要注意的是，ePlus OnAir是通过弹出窗口链接到第三方网站的广播电台门户。",
+      "line_2": "这些第三方网站上的任何内容都由这些网站负责，而不是ePlus OnAir。我们不知道第三方网站上的内容是否经过内容所有者的授权，因为这是托管音频内容的网站和内容所有者之间的事情。ePlus OnAir不在其服务器或网络上托管任何音频内容。"
+    }
+  },
+  "world": {
+    "africa": {
+      "name": "非洲",
+      "algeria": "阿尔及利亚",
+      "nigeria": "尼日利亚",
+      "cameroon": "喀麦隆",
+      "congo": "刚果",
+      "cote_d_ivoire": "科特迪瓦",
+      "egypt": "埃及",
+      "ghana": "加纳",
+      "kenya": "肯尼亚",
+      "madagascar": "马达加斯加",
+      "morocco": "摩洛哥",
+      "senegal": "塞内加尔",
+      "south_africa": "南非",
+      "tunisia": "突尼斯",
+      "uganda": "乌干达"
+    },
+    "asia": {
+      "name": "亚洲",
+      "viet_nam": "越南",
+      "singapore": "新加坡",
+      "korea": "韩国",
+      "china": "中国",
+      "hong_kong": "香港",
+      "japan": "日本",
+      "malaysia": "马来西亚",
+      "philippines": "菲律宾",
+      "indonesia": "印度尼西亚",
+      "thailand": "泰国",
+      "bangladesh": "孟加拉国",
+      "pakistan": "巴基斯坦",
+      "india": "印度",
+      "taiwan": "台湾",
+      "israel": "以色列",
+      "sri_lanka": "斯里兰卡",
+      "nepal": "尼泊尔"
+    },
+    "central_america": {
+      "name": "中美洲",
+      "costa_rica": "哥斯达黎加",
+      "el_salvador": "萨尔瓦多",
+      "guatemala": "危地马拉",
+      "honduras": "洪都拉斯",
+      "nicaragua": "尼加拉瓜",
+      "panama": "巴拿马"
+    },
+    "europe": {
+      "name": "欧洲",
+      "united_kingdom": "英国",
+      "ukraine": "乌克兰",
+      "russia": "俄罗斯",
+      "france": "法国",
+      "greece": "希腊",
+      "croatia": "克罗地亚",
+      "ireland": "爱尔兰",
+      "italy": "意大利",
+      "luxembourg": "卢森堡",
+      "hungary": "匈牙利",
+      "netherlands": "荷兰",
+      "norway": "挪威",
+      "austria": "奥地利",
+      "poland": "波兰",
+      "portugal": "葡萄牙",
+      "romania": "罗马尼亚",
+      "switzerland": "瑞士",
+      "slovenia": "斯洛文尼亚",
+      "serbia": "塞尔维亚",
+      "finland": "芬兰",
+      "sweden": "瑞典",
+      "bulgaria": "保加利亚",
+      "belgium": "比利时",
+      "czechia": "捷克",
+      "denmark": "丹麦",
+      "estonia": "爱沙尼亚",
+      "germany": "德国",
+      "spain": "西班牙",
+      "latvia": "拉脱维亚",
+      "lithuania": "立陶宛"
+    },
+    "north_america": {
+      "name": "北美洲",
+      "cuba": "古巴",
+      "haiti": "海地",
+      "jamaica": "牙买加",
+      "mexico": "墨西哥",
+      "puerto_rico": "波多黎各",
+      "dominican_republic": "多米尼加共和国",
+      "trinidad_and_tobago": "特立尼达和多巴哥"
+    },
+    "oceania": {
+      "name": "大洋洲",
+      "australia": "澳大利亚",
+      "new_zealand": "新西兰"
+    },
+    "south_america": {
+      "name": "南美洲",
+      "argentina": "阿根廷",
+      "bolivia": "玻利维亚",
+      "brazil": "巴西",
+      "chile": "智利",
+      "colombia": "哥伦比亚",
+      "ecuador": "厄瓜多尔",
+      "paraguay": "巴拉圭",
+      "peru": "秘鲁",
+      "suriname": "苏里南",
+      "uruguay": "乌拉圭",
+      "venezuela": "委内瑞拉"
+    }
+  },
+  "panel": {
+    "most_popular": "最受欢迎的 {name}",
+    "frequency": "频率",
+    "play_from_radio": "收听电台",
+    "country": "国家",
+    "radio_in": "{name} 的广播",
+    "description": "描述",
+    "category": "分类",
+    "schedule": "节目表",
+    "schedule_jump_to_now": "跳转到当前时段",
+    "schedule_now_marker": "现在",
+    "schedule_gap_unknown": "该时段暂无节目表信息。",
+    "schedule_gap_next": "接下来（节目表）：{title} · {time}",
+    "schedule_gap_no_next": "今日参考节目表中没有后续节目。",
+    "schedule_reference_note": "以下为广播台提供的参考时段，节目可能因日期而变化。请查看官方节目表获取最新信息。",
+    "schedule_official_note": "广播台官方节目表来源。",
+    "schedule_official_link": "查看官方节目表",
+    "schedule_vietnam_timezone": "越南时间 (UTC+7)",
+    "schedule_provider_only": "每日节目可能不同，请查看广播台官方网站。",
+    "playlist": "播放列表",
+    "tunein_history_note": "仅显示本次收听期间获取到的歌曲名称和歌手。TuneIn 更新可能延迟。",
+    "tunein_history_unavailable": "TuneIn 暂未提供此电台当前歌曲名称和歌手。",
+    "next": "下一个",
+    "lyric": "歌词",
+    "no_lyric": "暂无歌词",
+    "updating": "更新中...",
+    "channels": "全部电台",
+    "station_count": "{count} 个电台",
+    "search_channels": "搜索电台...",
+    "no_channels": "未找到电台"
+  },
+  "button": {
+    "back": "返回",
+    "close": "关闭"
+  },
+  "popup": {
+    "search": {
+      "text": "搜索...",
+      "stats": "第 {page} 页，共 {nbPages} 页 - 检索到 {nbHits} 条结果，耗时 {processingTimeMS} 毫秒",
+      "category": "按国家筛选",
+      "popular_channels": "热门频道"
+    }
+  },
+  "notify": {
+    "success": "成功",
+    "success_content": "正在播放：{radio}",
+    "error": "错误",
+    "error_content": "无法播放：{radio}"
+  },
+  "statistics_tooltip": {
+    "text": "事件：{num} | 停机时间：{time} 分钟 | {response}ms"
+  },
+  "table": {
+    "status": "状态",
+    "commit": "提交记录",
+    "created": "创建时间",
+    "updated": "更新时间",
+    "published": "发布时间",
+    "view": "查看"
+  },
+  "alert": {
+    "play_button": "根据浏览器的默认设置，您需要按 ▶ 按钮开始收听广播。",
+    "stream_error": "暂时无法播放这个电台。请稍后重试或选择其他电台。"
+  },
+  "text": {
+    "guide": "指南",
+    "the_last_90_days": "过去90天",
+    "hosted": "托管在{name}上 - 上次更新时间 {time}",
+    "downtime": "停机时间",
+    "uptime": "正常运行时间",
+    "darkmode": {
+      "dark": "暗黑模式",
+      "light": "明亮模式",
+      "system": "系统模式"
+    },
+    "offline": "似乎没有网络连接。请检查网络后重试。"
+  },
+  "player": {
+    "title": "电台播放器",
+    "choose_station": "选择电台开始收听",
+    "play": "播放电台",
+    "pause": "暂停播放",
+    "retry": "重试",
+    "connecting": "正在连接…",
+    "on_air": "正在播放",
+    "ready": "准备就绪",
+    "queue": "电台与节目表",
+    "source": "播放源",
+    "volume": "音量",
+    "mute": "静音",
+    "unmute": "取消静音",
+    "keep_listening": "浏览其他页面时继续收听",
+    "listen_country": "收听电台",
+    "explore": "探索地区",
+    "previous": "上一个电台：{name}",
+    "next": "下一个电台：{name}",
+    "sidebar_label": "电台与节目表",
+    "live": "直播",
+    "primary_source": "主音源",
+    "alternative_source": "备用音源",
+    "source_number": "音源 {number}",
+    "stream_format": "音频流",
+    "proxy": "代理",
+    "direct": "直连",
+    "ios_volume_hint": "在 iPhone 或 iPad 上，请使用设备音量键或控制中心调节音量。",
+    "sleep_timer": "睡眠定时器",
+    "sleep_minutes": "{minutes}分钟后停止",
+    "sleep_cancel": "取消定时器",
+    "sleep_remaining": "{minutes}分钟后停止",
+    "compact_player": "收起播放器",
+    "expand_player": "展开播放器",
+    "window_player": "迷你播放器",
+    "dock_player": "返回底部栏",
+    "schedule_loading": "正在加载节目表…"
+  },
+  "site_pages": {
+    "common": {
+      "last_updated": "最后更新"
+    },
+    "about": {
+      "eyebrow": "关于",
+      "title": "关于 ePlus OnAir",
+      "description": "在一个地方寻找并收听世界各地的直播电台。",
+      "sections": {
+        "discover": {
+          "title": "发现电台",
+          "body": "ePlus OnAir 按地区和国家整理互联网电台，让你可以在统一界面中查找本地和国际电台。"
+        },
+        "playback": {
+          "title": "直接播放",
+          "body": "选择喜欢的电台并点击播放。如果第一个播放地址不可用，网站可能会尝试该电台的其他地址。"
+        },
+        "availability": {
+          "title": "电台信息可能变化",
+          "body": "节目内容和播出时间由各电台管理。电台可能暂时停播、调整时间，歌曲名称也可能延迟更新。"
+        }
+      },
+      "service": {
+        "title": "轻松收听广播",
+        "body": "轻松寻找并收藏喜欢的电台，在手机或电脑上继续收听。",
+        "action": "Start listening"
+      }
+    },
+    "privacy": {
+      "eyebrow": "隐私",
+      "title": "隐私政策",
+      "description": "了解网站保存哪些信息，以及搜索或收听电台时会发生什么。",
+      "sections": {
+        "accounts": {
+          "title": "账户与付款",
+          "body": "ePlus OnAir 不要求用户注册，也不在本站提供付款或结账流程。请不要通过公开项目渠道提交敏感个人信息。"
+        },
+        "preferences": {
+          "title": "保存的设置",
+          "body": "浏览器可能在此设备上保存语言、界面颜色、收藏电台及最近收听记录，方便您下次继续使用。"
+        },
+        "search": {
+          "title": "搜索服务",
+          "body": "搜索电台时，您输入的文字可能会发送给 Algolia 等搜索服务。这些服务有各自的隐私政策。"
+        },
+        "streams": {
+          "title": "收听电台时",
+          "body": "播放电台会使设备连接到电台或音频提供商。对方可能收到您的 IP 地址和基本浏览器信息。"
+        },
+        "logs": {
+          "title": "保障网站正常运行",
+          "body": "网站运行和安全服务可能记录 IP 地址、浏览器、访问页面和访问时间，用于维护网站、安全防护和排查问题。"
+        },
+        "sharing": {
+          "title": "数据出售与共享",
+          "body": "我们不会出售个人信息。正式网站使用 Google Analytics 4 统计访问量、页面浏览量和各电台的收听时长。个人收听时长统计也保存在您的设备上。使用搜索或电台服务时，相关服务商可能收到信息。"
+        },
+        "changes": {
+          "title": "政策变更",
+          "body": "当网站、服务提供商或数据处理方式发生变化时，本政策可能更新。当前版本和更新时间会公布在本页。"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "条款",
+      "title": "使用条款",
+      "description": "使用 ePlus OnAir 及其第三方电台服务链接时适用的条件。",
+      "sections": {
+        "service": {
+          "title": "服务使用",
+          "body": "ePlus OnAir 作为免费的电台发现和播放界面提供。你可以为合法的个人用途访问公开可用的电台服务。"
+        },
+        "third_party": {
+          "title": "电台与其他服务",
+          "body": "各电台自行决定节目内容、播出时间和可收听地区。部分电台会播放广告，也可能不经通知就暂时停止服务。"
+        },
+        "copyright": {
+          "title": "版权与商标",
+          "body": "电台名称、标志、音频及其他内容属于各自的所有者。如果您拥有相关权利并希望更正或删除，请提供页面链接和核实所需的信息。"
+        },
+        "acceptable_use": {
+          "title": "合理使用 ePlus OnAir",
+          "body": "请遵守法律。请勿干扰网站或电台服务、未经许可绕过访问限制、大量抓取数据影响运行，或传播有害软件。"
+        },
+        "availability": {
+          "title": "无法收听广播时",
+          "body": "电台有时会暂停播出，或收听链接暂时失效。您可以稍后重试，也可以选择其他电台。我们根据现有信息提供电台列表，无法保证节目、播出时间和歌曲名称始终准确或可用。"
+        },
+        "changes": {
+          "title": "条款变更",
+          "body": "随着项目或支持服务的发展，本条款可能更新。更新后继续使用即表示按当前公布的条款使用服务。"
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "联系",
+      "title": "联系 ePlus OnAir",
+      "description": "无法收听、想推荐电台或有内容方面的问题？欢迎联系我们。",
+      "sections": {
+        "bug": {
+          "title": "电台或页面无法使用",
+          "body": "请告诉我们出问题的电台或页面、发生了什么，以及您使用的是手机还是电脑。截图也很有帮助。"
+        },
+        "station": {
+          "title": "更新电台",
+          "body": "如需添加电台或更正信息，请提供电台名称、国家、官网，以及您知道的收听地址。"
+        },
+        "copyright": {
+          "title": "版权或删除请求",
+          "body": "如果您拥有相关内容的权利并希望更正或删除，请提供页面链接和有助于核实的信息。"
+        }
+      },
+      "support": {
+        "title": "需要帮助吗？",
+        "body": "请发送电台名称或页面链接，并简单说明您遇到的问题或疑问。",
+        "action": "Email support"
+      }
+    },
+    "statistics": {
+      "eyebrow": "广播电台",
+      "title": "电台统计",
+      "description": "看看 ePlus OnAir 有多少国家和电台可供探索。",
+      "metrics": {
+        "areas": "地区",
+        "countries": "国家",
+        "stations": "电台"
+      },
+      "coverage_title": "按地区覆盖",
+      "coverage_description": "每个地区展示目前收录的国家和电台数量。",
+      "method_title": "这些数字代表什么？",
+      "method_body": "这些数字来自最近更新的电台列表，表示收录数量，不代表当前正在播放的电台数或收听人数。"
+    },
+    "error": {
+      "not_found_title": "找不到页面",
+      "generic_title": "发生错误",
+      "generic_body": "无法加载此页面。请返回首页后重试。"
+    },
+    "cookie": {
+      "eyebrow": "Cookie Policy",
+      "title": "Cookie Policy",
+      "description": "了解 ePlus OnAir 如何保存您的设置并统计网站访问量。",
+      "sections": {
+        "essential": {
+          "title": "Essential storage",
+          "body": "浏览器会在此设备上保存语言、界面颜色、收藏电台和收听记录，方便您再次使用。"
+        },
+        "analytics": {
+          "title": "网站访问统计",
+          "body": "正式网站使用 Google Analytics 4 统计访问量、页面浏览量和各电台收听时长。关闭 Cookie 通知不会停止统计。"
+        },
+        "third_party": {
+          "title": "Third-party services",
+          "body": "搜索或收听电台时，其他服务可能提供音频、图片或节目内容。这些服务可能收到 IP 地址并使用自己的 Cookie。"
+        },
+        "choices": {
+          "title": "Your choices",
+          "body": "您可以在浏览器设置中清除网站保存的数据。这可能同时删除此设备上的收藏、收听记录和界面设置。"
+        },
+        "changes": {
+          "title": "Updates",
+          "body": "网站或服务发生变化时，我们可能更新此政策。您随时可以在这里查看最新版本。"
+        }
+      }
+    }
+  },
+  "for_you": {
+    "title": "为你推荐",
+    "description": "无需账户，根据本机已保存的电台发现相关内容。",
+    "show": "查看推荐",
+    "hide_panel": "收起推荐",
+    "loading": "正在查找电台…",
+    "unavailable": "无法加载推荐。",
+    "retry": "重试",
+    "based_on_your_library": "根据本机已保存的电台推荐，并遵守当前的隐私设置。",
+    "curated_intro": "暂无匹配偏好，以下是目录中真实标记的精选电台。",
+    "reason_genre": "与你收藏电台相似的类型",
+    "reason_language": "与你收藏电台使用相同语言",
+    "reason_country": "来自你收听过的国家",
+    "reason_featured": "目录精选电台",
+    "dismiss": "隐藏此推荐",
+    "empty": "暂无符合条件的新电台。",
+    "privacy_note": "推荐仅在此设备计算。收藏和历史不会发送到目录服务器。刷新后隐藏的项目会恢复。"
+  },
+  "surprise": {
+    "title": "随机电台",
+    "heading": "发现新的广播电台",
+    "description": "从真实目录随机选择。只有点击按钮后才开始播放。",
+    "filters": "筛选",
+    "action": "随机播放",
+    "loading": "正在加载电台目录…",
+    "unavailable": "无法加载或播放该电台，请重试。",
+    "country": "国家",
+    "any_country": "所有国家",
+    "genre": "类型",
+    "any_genre": "所有类型",
+    "language": "语言",
+    "any_language": "所有语言",
+    "available_count": "找到 {count} 个电台",
+    "empty": "没有符合筛选条件的电台。",
+    "selected": "已选择电台"
+  },
+  "home": {
+    "live_badge": "在线直播电台",
+    "title": "畅听全球直播电台",
+    "description": "按地区和国家探索电台，发现本地节目，即刻开始收听。",
+    "start_listening": "立即收听",
+    "explore_countries": "探索国家和地区",
+    "countries": "国家和地区",
+    "regions": "区域",
+    "streaming": "直播中",
+    "featured": "精选推荐",
+    "explore": "探索",
+    "browse_country": "按国家和地区浏览"
+  },
+  "sidebar": {
+    "browse_radio": "浏览电台",
+    "radio_regions": "电台地区",
+    "live_badge": "直播电台",
+    "description": "随时探索全球各地的直播电台。"
+  },
+  "search": {
+    "unavailable": "搜索服务暂时不可用，下方仍显示热门电台。",
+    "suggestions": "为你推荐",
+    "recent": "最近搜索",
+    "clear": "清除",
+    "loading": "正在加载电台列表…"
+  },
+  "chat": {
+    "open": "打开聊天助手",
+    "title": "聊天助手",
+    "powered_by": "由 Mendable 和 Vercel 提供支持",
+    "greeting": "你好！今天有什么可以帮你？",
+    "placeholder": "输入消息",
+    "send": "发送"
+  },
+  "seo": {
+    "home_breadcrumb": "首页",
+    "country_title": "{country} 直播电台",
+    "country_description": "收听来自 {country} 的 {count} 家在线直播电台，在 ePlus OnAir 探索本地节目。",
+    "country_description_empty": "在 ePlus OnAir 收听来自 {country} 的在线直播电台。",
+    "station_title": "{station} 在线直播 – {country}",
+    "station_description": "在 ePlus OnAir 收听来自 {country} 的 {station} 直播。"
+  },
+  "brand": {
+    "live_radio": "直播电台",
+    "slogan": "Listen Beyond Borders.",
+    "slogan_localized": "聆听无国界。"
+  },
+  "footer": {
+    "tagline": "Listen Beyond Borders.",
+    "description": "按地区和国家寻找电台，在任何设备上即刻收听。"
+  },
+  "library": {
+    "title": "我的电台",
+    "recent": "最近收听",
+    "favorites": "收藏电台",
+    "recent_empty": "播放电台后会显示在这里。",
+    "favorites_empty": "点击爱心即可收藏电台。",
+    "clear_recent": "清除收听记录",
+    "remove_recent": "从历史记录中移除",
+    "listening_stats": "收听时长",
+    "listening_live": "正在实时统计收听时长",
+    "listening_tracking_title": "记录收听时长",
+    "listening_tracking_description": "关闭后将停止累计收听时长并停止发送收听时长分析事件。已保存的统计、播放和最近收听记录不受影响。",
+    "listening_tracking_on": "开启",
+    "listening_tracking_off": "关闭",
+    "listening_tracking_paused": "收听时长记录已关闭。之前保存的数据仍可查看。",
+    "listening_delete_stats": "删除收听统计",
+    "listening_confirm_delete_title": "删除全部收听统计？",
+    "listening_confirm_delete_description": "永久删除本浏览器上的总收听时长、每日图表和各电台时长？此操作无法撤销。收藏和最近收听记录会保留。若记录功能开启，将从零重新计时。",
+    "listening_confirm_delete_no": "取消",
+    "listening_confirm_delete_yes": "确认删除统计",
+    "listening_daily_chart": "每日收听时长",
+    "listening_daily_hint": "选择柱状条查看当天的收听时长。",
+    "listening_chart_range": "图表时间范围",
+    "listening_last_7": "7天",
+    "listening_last_30": "30天",
+    "listening_last_90": "90天",
+    "listening_period_total": "所选期间收听总时长",
+    "listening_daily_empty": "暂无每日收听数据。",
+    "listening_stats_description": "仅统计此设备上电台实际播放的时间，不包含暂停、缓冲或播放失败的时间。",
+    "listening_total": "总收听时长",
+    "listening_today": "今天",
+    "listening_stations": "收听电台数",
+    "listening_top_stations": "各电台收听时长",
+    "listening_empty": "播放电台后即可开始统计收听时长。",
+    "listening_hour_short": "小时",
+    "listening_minute_short": "分",
+    "listening_second_short": "秒",
+    "confirm_clear_recent_title": "清除所有收听记录？",
+    "confirm_clear_recent_description": "确定移除最近收听中的所有电台吗？收藏和收听时长统计将保留。",
+    "confirm_clear_recent_yes": "是，清除记录",
+    "confirm_clear_recent_no": "否，保留记录",
+    "add_favorite": "添加到收藏",
+    "remove_favorite": "取消收藏",
+    "loading": "正在加载您的电台…"
+  },
+  "redesign": {
+    "navigation": "导航",
+    "discover": "发现",
+    "search": "搜索",
+    "library": "资料库",
+    "continue_listening": "继续收听",
+    "paused": "已暂停",
+    "now_playing": "播放界面",
+    "timer": "定时",
+    "channel_list": "频道列表",
+    "next_station": "下一个电台",
+    "library_description": "收藏和收听记录保存在此设备上。",
+    "all": "全部",
+    "see_all": "查看全部"
+  },
+  "cookie_consent": {
+    "title": "Cookie 与访问分析通知",
+    "body": "ePlus OnAir 会在此设备上保存您的收听和显示偏好。",
+    "accept": "知道了",
+    "analytics_body": "ePlus OnAir 会保存您的偏好，并在正式网站使用 Google Analytics 4 统计访问量和电台收听时长。此通知仅用于告知，关闭后统计仍会继续。",
+    "learn_more": "Cookie 政策"
+  },
+  "sharing": {
+    "share": "分享电台",
+    "copied": "已复制链接。",
+    "manual": "请选择并复制此链接："
+  },
+  "recovery": {
+    "buffering": "正在缓冲直播音频…",
+    "source_position": "音源 {index}/{total}",
+    "attempt": "尝试 {attempt}/{limit}",
+    "reason_network": "浏览器报告网络问题，但不代表电台已离线。",
+    "reason_decode": "此音源无法解码，或格式可能不受支持。",
+    "reason_timeout": "连接超时前未收到音频，请尝试其他音源。",
+    "reason_unknown": "浏览器报告播放错误，原因尚未确认。",
+    "last_played": "本设备上次播放时间：{time}",
+    "local_observation": "仅为本设备当前会话的记录，不代表电台全局可用状态。",
+    "offline": "你似乎已离线。请检查网络后重试。",
+    "unsupported": "刚才的音源无法解码或不受此浏览器支持。请尝试其他音源。",
+    "exhausted": "多次重试后仍无法播放。请重试或选择其他音源；电台可能仍可在其他设备播放。",
+    "connecting": "正在连接或缓冲…",
+    "report": "报告播放问题",
+    "report_hint": "打开 GitHub 草稿供你检查并提交，不包含音频流链接或收听历史。"
+  },
+  "transfer": {
+    "title": "迁移收藏",
+    "export": "导出收藏",
+    "import": "导入收藏",
+    "export_error": "无法导出收藏，请重试。",
+    "description": "预览并合并其他设备的收藏，保留当前收藏。",
+    "limit": "请选择 ePlus OnAir 收藏 JSON 文件（最大 256 KiB、200 个电台）。",
+    "choose": "选择收藏文件",
+    "invalid": "文件无效、过大或版本不受支持。",
+    "preview": "新增：{add} · 已收藏：{duplicate} · 目录中不存在：{missing} · 超过 200 台上限：{overflow}",
+    "done": "已向此浏览器添加 {count} 个收藏电台。",
+    "confirm": "添加到收藏",
+    "favorites_only": "仅收藏电台",
+    "no_favorites": "此国家没有符合条件的收藏电台。"
+  },
+  "listener_settings": {
+    "title": "设置",
+    "description": "按你的习惯定制 ePlus OnAir。",
+    "listening": "收听体验",
+    "live_resume": "从直播位置继续",
+    "live_resume_hint": "暂停后再次播放时，连接到最新直播内容。",
+    "reconnect": "自动重新连接",
+    "reconnect_hint": "断线后通过可用音源重试。",
+    "restore": "记住上次电台",
+    "restore_hint": "恢复所选电台，但刷新页面后不会自动播放。",
+    "volume": "记住音量",
+    "volume_hint": "在此设备上保留音量和静音设置。",
+    "appearance": "外观与语言",
+    "theme": "主题",
+    "motion": "减少动画",
+    "motion_hint": "减少装饰动画与过渡效果。",
+    "privacy": "隐私与本地数据",
+    "privacy_hint": "设置和收听记录保存在当前浏览器。",
+    "tracking_hint": "仅在本设备记录收听时长。",
+    "analytics_note": "此开关不会关闭网站分析（GA4）。详见 Cookie 政策。",
+    "favorites": "管理收藏",
+    "statistics": "收听统计",
+    "clear_history": "清除最近收听记录",
+    "clear_stats": "删除收听统计",
+    "local_note": "无需账号，也不会跨设备同步。清除浏览器数据会重置本地设置。",
+    "confirm_history": "清除收听记录？",
+    "confirm_history_hint": "仅清除最近记录，收藏不会受影响。",
+    "confirm_stats": "删除收听统计？",
+    "confirm_stats_hint": "收听时长和图表将删除，收藏不受影响。",
+    "cancel": "取消",
+    "confirm": "删除"
+  },
+  "online_stats": {
+    "station_all_description": "查看此设备上保存的所有电台收听时长。",
+    "station_search": "搜索电台…",
+    "station_sort": "电台排序",
+    "station_sort_most": "收听最多",
+    "station_sort_least": "收听最少",
+    "station_sort_name": "名称 A–Z",
+    "station_results": "显示第 {from}–{to} 个，共 {total} 个电台",
+    "station_no_results": "没有匹配的电台。",
+    "station_pagination": "电台列表分页",
+    "station_previous": "上一页",
+    "station_page": "第 {page} / {total} 页",
+    "station_next": "下一页",
+    "total": "在线总时长",
+    "today": "今日在线时长",
+    "listening_today": "今日收听时长",
+    "listening": "收听",
+    "online": "在线",
+    "tracking": "记录在线时长",
+    "definition": "仅统计联网、可见且获得焦点的标签页。连续5分钟没有操作后暂停计时。后台播放电台不计入在线时长。",
+    "chart_kind": "时长类型",
+    "daily_chart": "每日在线时长",
+    "daily_hint": "选择日期查看网站使用时长。",
+    "period_total": "所选期间在线时长",
+    "daily_empty": "所选期间尚无在线记录。",
+    "clear_title": "删除在线与收听统计？",
+    "clear_description": "删除本浏览器的在线时长、收听时长、每日图表和电台统计？收藏与最近收听记录不会受到影响。",
+    "clear_action": "删除时间统计",
+    "compare_intro": "分别统计收听电台的时长和实际使用网站的时长。",
+    "manage_settings": "记录设置",
+    "listening_explanation": "仅统计电台实际播放的时间，包括后台播放。",
+    "online_explanation": "仅统计当前网站标签页的活跃时间；5分钟无操作后暂停。",
+    "new_counter_note": "在线时长从本功能上线后开始记录；原有收听记录保留。",
+    "daily_compare": "每日使用趋势",
+    "listening_trend": "每日电台收听趋势",
+    "online_trend": "每日在线时长趋势",
+    "selected_day": "选定日期",
+    "select_day": "选择要查看的日期",
+    "independent_scales": "两项指标采用独立刻度，请勿将时长相加。",
+    "filter_both": "全部",
+    "filter_listening": "收听",
+    "filter_online": "在线",
+    "chart_tooltip_hint": "将鼠标移到图表上或点击日期查看准确时长。",
+    "scale_max": "峰值",
+    "chart_hover_label": "每日时长图表。悬停或使用方向键查看具体日期。",
+    "combined_scales_note": "两条线使用独立刻度（粉色和绿色）。悬停可查看实际时长；两段时间可能重叠。",
+    "weekly_activity": "最近7天",
+    "vs_previous_week": "与前7天相比",
+    "stations_played": "已收听电台数",
+    "most_listened_station": "收听最多的电台",
+    "listening_peak": "收听峰值",
+    "online_peak": "在线峰值",
+    "show_all": "查看全部",
+    "show_less": "收起"
+  }
+}

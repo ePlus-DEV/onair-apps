@@ -1,6 +1,7 @@
 name: Validate application scaffold
 on:
   push:
+    branches: [main]
   pull_request:
 jobs:
   validate:

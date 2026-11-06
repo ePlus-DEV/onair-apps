@@ -1,5 +1,10 @@
 node_modules/
 dist/
+/frontend/dist
+/frontend/.nuxt/
+/frontend/.output/
+/frontend/public/search/
+/frontend/public/brand/social-preview.png
 .DS_Store
 .env
 .env.*

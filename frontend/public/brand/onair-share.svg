@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" role="img" aria-labelledby="title desc">
+  <title id="title">ePlus OnAir — Listen Beyond Borders.</title>
+  <desc id="desc">Official ePlus OnAir social sharing graphic.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#222338"/><stop offset="1" stop-color="#0b0d17"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#fb7185" stop-opacity=".30"/><stop offset="1" stop-color="#fb7185" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="970" cy="220" r="440" fill="url(#glow)"/>
+  <g transform="translate(95 187)">
+    <rect x="0" y="0" width="200" height="200" rx="46" fill="#171827" stroke="#fb7185" stroke-opacity=".32" stroke-width="3"/>
+    <circle cx="100" cy="73" r="12" fill="#fff1f2"/>
+    <path d="M100 92 66 166h68z" fill="none" stroke="#fff1f2" stroke-width="13" stroke-linejoin="round"/>
+    <path d="M52 37a76 76 0 0 0 0 92M148 37a76 76 0 0 1 0 92" stroke="#fb7185" stroke-width="12" fill="none" stroke-linecap="round"/>
+  </g>
+  <text x="337" y="292" font-family="Arial, Helvetica, sans-serif" font-size="97" font-weight="700" fill="#f8fafc">ePlus <tspan fill="#fb7185">OnAir</tspan></text>
+  <text x="341" y="355" font-family="Arial, Helvetica, sans-serif" font-size="35" letter-spacing=".3" fill="#cbd5e1">Listen Beyond Borders.</text>
+  <path d="M96 499H1104" stroke="#ffffff" opacity=".12" stroke-width="2"/>
+  <text x="100" y="552" font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#a1a1aa">Live radio from around the world</text>
+</svg>

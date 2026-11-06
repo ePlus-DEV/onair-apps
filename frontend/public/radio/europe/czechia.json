@@ -1,0 +1,303 @@
+{
+    "kiss-98-fm": {
+        "title": "Kiss",
+        "type": "audio/mpeg",
+        "url": "https://www.kiss.cz/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/asn0cmvb938uv",
+        "features": "/img/europe/czechia/kiss-98-fm.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/141/kiss-98-fm?time="
+    },
+    "evropa-2": {
+        "title": "Evropa 2",
+        "type": "audio/mpeg",
+        "url": "https://www.evropa2.cz/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/EVROPA2AAC_SC",
+        "features": "/img/europe/czechia/evropa-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/evropa-2?time="
+    },
+    "impuls": {
+        "title": "Rádio Impuls",
+        "type": "audio/mpeg",
+        "url": "https://www.impuls.cz/",
+        "cros": false,
+        "stream": "https://icecast5.play.cz/impuls128.mp3",
+        "features": "/img/europe/czechia/impuls.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/impuls?time="
+    },
+    "cesky-rozhlaszurnal": {
+        "title": "Český rozhlas Radiožurnál",
+        "type": "audio/mpeg",
+        "url": "https://radiozurnal.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://icecast1.play.cz/cro1128aac",
+        "features": "/img/europe/czechia/cesky-rozhlaszurnal.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/cesky-rozhlaszurnal?time="
+    },
+    "country": {
+        "title": "Country Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.countryradio.cz/",
+        "cros": false,
+        "stream": "https://icecast2.play.cz/country64.mp3",
+        "features": "/img/europe/czechia/country.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/country?time="
+    },
+    "dance": {
+        "title": "Dance Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.danceradio.cz/",
+        "cros": false,
+        "stream": "https://ice.actve.net/dance-radio128.mp3",
+        "features": "/img/europe/czechia/dance.png",
+        "favorite": false
+    },
+    "rferl-4-russian": {
+        "title": "Rádio Svobodná Evropa",
+        "type": "audio/mpeg",
+        "url": "https://www.svoboda.org/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/hcrb063nn3quv",
+        "features": "/img/europe/czechia/rferl-4-russian.png",
+        "favorite": false
+    },
+    "metal-heart": {
+        "title": "Metal Heart Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.metalheartradio.com/cs/",
+        "cros": false,
+        "stream": "https://cz.radio-streamhosting.com:8443/metalheartradio128mp3",
+        "features": "/img/europe/czechia/metal-heart.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/metal-heart?time="
+    },
+    "classic-fm-98-7": {
+        "title": "Classic FM",
+        "type": "audio/mpeg",
+        "url": "https://www.classicpraha.cz/",
+        "cros": false,
+        "stream": "https://icecast8.play.cz/classic128.mp3",
+        "features": "/img/europe/czechia/classic-fm-98-7.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/classic-fm-98-7?time="
+    },
+    "hana": {
+        "title": "Rádio Haná",
+        "type": "audio/mpeg",
+        "url": "https://www.radiohana.cz/",
+        "cros": false,
+        "stream": "https://icecast8.play.cz/hana128.mp3",
+        "features": "/img/europe/czechia/hana.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/hana?time="
+    },
+    "rockzone": {
+        "title": "RockZone",
+        "type": "audio/mpeg",
+        "url": "https://www.rockzone.cz/",
+        "cros": false,
+        "stream": "https://icecast2.play.cz/rockzone128.mp3",
+        "features": "/img/europe/czechia/rockzone.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/rockzone?time="
+    },
+    "dechovka": {
+        "title": "Rádio Dechovka",
+        "type": "audio/mpeg",
+        "url": "http://www.radiodechovka.cz/",
+        "cros": true,
+        "stream": "http://37.46.208.57:8000/stream-128.mp3",
+        "features": "/img/europe/czechia/dechovka.png",
+        "favorite": false
+    },
+    "frekvence-1": {
+        "title": "Frekvence 1",
+        "type": "audio/mpeg",
+        "url": "https://www.frekvence1.cz/",
+        "cros": false,
+        "stream": "https://ice.actve.net/fm-frekvence1-128",
+        "features": "/img/europe/czechia/frekvence-1.png",
+        "favorite": false
+    },
+    "1": {
+        "title": "Rádio 1",
+        "type": "audio/mpeg",
+        "url": "https://www.radio1.cz/",
+        "cros": false,
+        "stream": "https://icecast2.play.cz/radio1-128aac",
+        "features": "/img/europe/czechia/1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/1?time="
+    },
+    "color-music": {
+        "title": "Color Music Rádio",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocolor.cz/",
+        "cros": false,
+        "stream": "https://icecast6.play.cz/color192.mp3",
+        "features": "/img/europe/czechia/color-music.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/color-music?time="
+    },
+    "kiss-jizni-cechy": {
+        "title": "Kiss Jižní Čechy",
+        "type": "audio/mpeg",
+        "url": "https://www.kiss.cz/",
+        "cros": false,
+        "stream": "https://icecast4.play.cz/kissjc128.mp3",
+        "features": "/img/europe/czechia/kiss-jizni-cechy.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/kiss-jizni-cechy?time="
+    },
+    "kiss-hady": {
+        "title": "Kiss Hády",
+        "type": "audio/mpeg",
+        "url": "https://www.kiss.cz/",
+        "cros": false,
+        "stream": "https://icecast1.play.cz/kiss128.mp3",
+        "features": "/img/europe/czechia/kiss-hady.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/kiss-hady?time="
+    },
+    "free-107-0-fm": {
+        "title": "Free Rádio",
+        "type": "audio/mpeg",
+        "url": "http://www.freeradio.cz/",
+        "cros": false,
+        "stream": "https://icecast8.play.cz/freeradio128.mp3",
+        "features": "/img/europe/czechia/free-107-0-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/free-107-0-fm?time="
+    },
+    "cro-dvojka": {
+        "title": "ČRo Dvojka",
+        "type": "audio/mpeg",
+        "url": "https://dvojka.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://icecast4.play.cz/cro2-64.mp3",
+        "features": "/img/europe/czechia/cro-dvojka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/cro-dvojka?time="
+    },
+    "cro-brno": {
+        "title": "ČRo Brno",
+        "type": "audio/mpeg",
+        "url": "https://brno.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://rozhlas.stream/brno_mp3_128.mp3",
+        "features": "/img/europe/czechia/cro-brno.png",
+        "favorite": false
+    },
+    "cesky-rozhlas-vltava": {
+        "title": "Český rozhlas Vltava",
+        "type": "audio/mpeg",
+        "url": "https://vltava.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://icecast3.play.cz/cro3-64.mp3",
+        "features": "/img/europe/czechia/cesky-rozhlas-vltava.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/cesky-rozhlas-vltava?time="
+    },
+    "cro-jazz": {
+        "title": "ČRo Jazz",
+        "type": "audio/mpeg",
+        "url": "https://jazz.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://rozhlas.stream/jazz_mp3_256.mp3",
+        "features": "/img/europe/czechia/cro-jazz.png",
+        "favorite": false
+    },
+    "cro-wave": {
+        "title": "ČRo Radio Wave",
+        "type": "audio/mpeg",
+        "url": "https://wave.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://rozhlas.stream/wave_mp3_256.mp3",
+        "features": "/img/europe/czechia/cro-wave.png",
+        "favorite": false
+    },
+    "cro-plus": {
+        "title": "ČRo Plus",
+        "type": "audio/mpeg",
+        "url": "https://plus.rozhlas.cz/",
+        "cros": false,
+        "stream": "https://rozhlas.stream/plus_high.aac",
+        "features": "/img/europe/czechia/cro-plus.png",
+        "favorite": false
+    },
+    "jih": {
+        "title": "Rádio Jih",
+        "type": "audio/mpeg",
+        "url": "https://www.radiojih.cz/",
+        "cros": false,
+        "stream": "https://icecast6.play.cz/jih128.mp3",
+        "features": "/img/europe/czechia/jih.png",
+        "favorite": false
+    },
+    "krokodyl": {
+        "title": "Rádio Krokodýl",
+        "type": "audio/mpeg",
+        "url": "https://www.krokodyl.cz/",
+        "cros": false,
+        "stream": "https://icecast6.play.cz/krokodyl64.mp3",
+        "features": "/img/europe/czechia/krokodyl.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/krokodyl?time="
+    },
+    "rock-max": {
+        "title": "Rock Max",
+        "type": "audio/mpeg",
+        "url": "https://rockovyradio.cz/",
+        "cros": true,
+        "stream": "http://ice.abradio.cz:8000/rockmax128.mp3",
+        "features": "/img/europe/czechia/rock-max.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/rock-max?time="
+    },
+    "helax-93-7-fm": {
+        "title": "Rádio Helax",
+        "type": "audio/mpeg",
+        "url": "https://helax.cz/",
+        "cros": false,
+        "stream": "https://ice.abradio.cz/helax128.mp3",
+        "features": "/img/europe/czechia/helax-93-7-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/helax-93-7-fm?time="
+    },
+    "expres-fm": {
+        "title": "Expres FM",
+        "type": "audio/mpeg",
+        "url": "https://www.expresfm.cz/",
+        "cros": false,
+        "stream": "https://icecast8.play.cz/expres128mp3",
+        "features": "/img/europe/czechia/expres-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/expres-fm?time="
+    },
+    "zlin": {
+        "title": "Hitrádio Zlín",
+        "type": "audio/mpeg",
+        "url": "https://hitradiozlin.cz/",
+        "cros": false,
+        "stream": "https://ice.abradio.cz/radiozlin128.mp3",
+        "features": "/img/europe/czechia/zlin.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/zlin?time="
+    },
+    "hit90ka-hitdevadesatka": {
+        "title": "Hitrádio 90ka (Hitrádio devadesátka)",
+        "type": "audio/mpeg",
+        "url": "https://hitradio.cz/",
+        "cros": false,
+        "stream": "https://ice.abradio.cz/hit90128.mp3",
+        "features": "/img/europe/czechia/hit90ka-hitdevadesatka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/141/hit90ka-hitdevadesatka?time="
+    }
+}

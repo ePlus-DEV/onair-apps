@@ -1,0 +1,751 @@
+{
+  "404": {
+    "content": "Rất tiếc, trang bạn đang tìm không tồn tại."
+  },
+  "global_radio": {
+    "eplus_play_hint": "Nghe trực tiếp trên ePlus OnAir. Các cách nghe khác nằm trong chi tiết đài.",
+    "playing_now": "Đang nghe",
+    "other_listening_options": "Cách nghe khác",
+    "external_options_hint": "Các liên kết này mở website nhà cung cấp trong tab mới.",
+    "listen_on_eplus": "Nghe trên ePlus",
+    "connecting_on_eplus": "Đang kết nối…",
+    "resolver_unavailable": "Chưa thể phát trực tiếp trên ePlus. Hãy nghe qua Apple Music hoặc TuneIn.",
+    "hls_preview_title": "Thử nghiệm: phát liên kết HLS tạm thời",
+    "hls_preview_help": "Nếu bạn có URL HLS ngắn hạn do Apple cấp và được phép sử dụng, có thể thử phát ngay trên trình duyệt này. Apple Music/TuneIn có thể chặn phát từ website khác. Tính năng không lấy hoặc gia hạn accessKey.",
+    "hls_preview_input": "URL HLS có chữ ký tạm thời",
+    "hls_preview_placeholder": "Dán liên kết Apple HLS .m3u8 tạm thời",
+    "hls_preview_play": "Thử phát",
+    "hls_preview_stop": "Dừng và xóa URL",
+    "hls_preview_audio": "Điều khiển phát HLS tạm thời",
+    "hls_preview_privacy": "URL chỉ được giữ trong bộ nhớ của tab này và bị xóa khi dừng hoặc rời trang. Không lưu lịch sử hay thống kê thời gian nghe từ lần thử này.",
+    "hls_preview_checking": "Đang kết nối tới luồng HLS…",
+    "hls_preview_playing": "Đang phát luồng HLS tạm thời.",
+    "hls_preview_paused": "Đã tạm dừng. Bấm Thử phát để phát lại.",
+    "hls_preview_invalid": "Liên kết HLS Apple/TuneIn có chữ ký không hợp lệ.",
+    "hls_preview_expired": "accessKey có vẻ đã hết hạn. Hãy lấy liên kết hợp lệ qua nhà cung cấp được phép.",
+    "hls_preview_station_mismatch": "Liên kết HLS này thuộc một kênh Apple Music khác.",
+    "hls_preview_unavailable": "Không thể phát thử. Nguồn có thể chặn website ngoài, token hết hạn hoặc trình duyệt bị CORS. Hãy nghe qua Apple Music/TuneIn.",
+    "hls_preview_unsupported": "Trình duyệt này không hỗ trợ luồng HLS.",
+    "seasonal_note": "Kênh theo mùa có thể không phát ngoài dịp lễ. Hãy kiểm tra tình trạng phát trực tiếp trên Apple Music hoặc TuneIn.",
+    "seasonal": "Theo mùa",
+    "listen_on_tunein": "Nghe trên TuneIn",
+    "eyebrow": "Mạng radio quốc tế",
+    "title": "Global Radio",
+    "description": "Khám phá các mạng phát thanh quốc tế ngoài danh mục phân loại theo quốc gia.",
+    "providers": "Nhà cung cấp radio",
+    "provider_count": "nhà cung cấp",
+    "external_badge": "Mở bên ngoài",
+    "apple_description": "Khám phá sáu đài radio chính của Apple Music cùng kênh Holiday Hits theo mùa, được xếp theo nhà cung cấp toàn cầu thay vì quốc gia.",
+    "explore_provider": "Khám phá các đài",
+    "external_note": "Đài Apple Music mở trên trang của Apple, không phát trong ePlus OnAir và không tính vào thống kê nghe cục bộ.",
+    "by_country": "Duyệt radio theo quốc gia",
+    "home": "Trang chủ",
+    "breadcrumb": "Đường dẫn trang",
+    "open_provider": "Mở Apple Music",
+    "apple_access": "Đăng nhập bằng Tài khoản Apple để nghe. Sáu đài trực tiếp này không cần đăng ký Apple Music. Khả năng truy cập tùy thuộc khu vực.",
+    "stations": "Các đài phát trực tiếp",
+    "station_count": "đài",
+    "details": "Chi tiết đài",
+    "listen_on_apple": "Nghe trên Apple Music",
+    "origin": "Quốc gia xuất xứ",
+    "how_listen": "Cách nghe",
+    "back_to_provider": "Tất cả đài Apple Music Radio"
+  },
+  "navmenu": {
+    "more": "Thêm",
+    "information": "Thông tin",
+    "homepage": "Trang chủ",
+    "about": "Giới thiệu",
+    "blog": "Blog",
+    "group": "Nhóm",
+    "terms": "Điều khoản sử dụng",
+    "privacy": "Chính sách bảo mật",
+    "contact": "Liên Hệ",
+    "language": "Ngôn ngữ:",
+    "old_version": "Phiên bản cũ",
+    "statistics": "Thống kê",
+    "changelog": "Nhật ký thay đổi",
+    "cookie": "Chính sách cookie"
+  },
+  "terms": {
+    "content": "Chào mừng bạn đến với trang web https://radio.eplus.dev (\"ePlus OnAir\") - một sản phẩm của ePlus.DEV. Vui lòng đọc kỹ Thỏa thuận về cung cấp và sử dụng dịch vụ trên trang web https://radio.eplus.dev trước khi bạn sử dụng các tính năng trên trang web \"Radio\" của ePlus. Sau khi đăng ký, bạn đã đọc, hiểu, chấp nhận và tuân thủ các điều khoản dưới đây:",
+    "article_1": {
+      "title": "Bài viết 1: Phi lợi nhuận",
+      "line_1": "Chúng tôi cam kết miễn phí vĩnh viễn, không có bất kỳ phí nào.",
+      "line_2": "Chúng tôi công nhận việc sử dụng nội dung miễn phí từ khắp các đài, các nhà phát triển nội dung từ khắp nơi trên thế giới, vì vậy tôi muốn lan truyền nội dung này đến tất cả mọi người."
+    },
+    "article_2": {
+      "title": "Bài viết 2: Đạo luật Bản quyền Thiên niên kỷ Kỹ thuật số",
+      "line_1": "ePlus OnAir coi trọng vấn đề Sở hữu Trí tuệ và cam kết đáp ứng nhu cầu của chủ sở hữu nội dung trong việc quản lý xuất bản nội dung của họ trực tuyến. Cần lưu ý rằng ePlus OnAir là một cổng đài phát thanh liên kết đến các trang web bên thứ ba qua cửa sổ pop-up.",
+      "line_2": "Bất kỳ nội dung nào trên các trang web bên thứ ba đều là trách nhiệm của những trang web đó và không phải của ePlus OnAir. Chúng tôi không biết liệu nội dung trên các trang web bên thứ ba có được chủ sở hữu nội dung ủy quyền hay không, vì đó là một vấn đề giữa trang web chứa nội dung âm thanh và chủ sở hữu nội dung. ePlus OnAir không lưu trữ bất kỳ nội dung âm thanh nào trên máy chủ hoặc mạng của mình."
+    }
+  },
+  "world": {
+    "africa": {
+      "name": "Châu Phi",
+      "algeria": "Algeria",
+      "nigeria": "Nigeria",
+      "cameroon": "Cameroon",
+      "congo": "Congo",
+      "cote_d_ivoire": "Bờ Biển Ngà",
+      "egypt": "Ai Cập",
+      "ghana": "Ghana",
+      "kenya": "Kenya",
+      "madagascar": "Madagascar",
+      "morocco": "Morocco",
+      "senegal": "Senegal",
+      "south_africa": "Nam Phi",
+      "tunisia": "Tunisia",
+      "uganda": "Uganda"
+    },
+    "asia": {
+      "name": "Châu Á",
+      "viet_nam": "Việt Nam",
+      "singapore": "Singapore",
+      "korea": "Hàn Quốc",
+      "china": "Trung Quốc",
+      "hong_kong": "Hồng Kông",
+      "japan": "Nhật Bản",
+      "malaysia": "Malaysia",
+      "philippines": "Philippines",
+      "indonesia": "Indonesia",
+      "thailand": "Thái Lan",
+      "bangladesh": "Bangladesh",
+      "pakistan": "Pakistan",
+      "india": "Ấn Độ",
+      "taiwan": "Đài Loan",
+      "israel": "Israel",
+      "sri_lanka": "Sri Lanka",
+      "nepal": "Nepal"
+    },
+    "central_america": {
+      "name": "Trung Mỹ",
+      "costa_rica": "Costa Rica",
+      "el_salvador": "El Salvador",
+      "guatemala": "Guatemala",
+      "honduras": "Honduras",
+      "nicaragua": "Nicaragua",
+      "panama": "Panama"
+    },
+    "europe": {
+      "name": "Châu Âu",
+      "united_kingdom": "Vương quốc Anh",
+      "ukraine": "Ukraina",
+      "russia": "Nga",
+      "france": "Pháp",
+      "greece": "Hy Lạp",
+      "croatia": "Croatia",
+      "ireland": "Ireland",
+      "italy": "Ý",
+      "luxembourg": "Luxembourg",
+      "hungary": "Hungary",
+      "netherlands": "Hà Lan",
+      "norway": "Na Uy",
+      "austria": "Áo",
+      "poland": "Ba Lan",
+      "portugal": "Bồ Đào Nha",
+      "romania": "Romania",
+      "switzerland": "Thụy Sĩ",
+      "slovenia": "Slovenia",
+      "serbia": "Serbia",
+      "finland": "Phần Lan",
+      "sweden": "Thụy Điển",
+      "bulgaria": "Bulgaria",
+      "belgium": "Bỉ",
+      "czechia": "Cộng hòa Séc",
+      "denmark": "Đan Mạch",
+      "estonia": "Estonia",
+      "germany": "Đức",
+      "spain": "Tây Ban Nha",
+      "latvia": "Latvia",
+      "lithuania": "Litva"
+    },
+    "north_america": {
+      "name": "Bắc Mỹ",
+      "cuba": "Cuba",
+      "haiti": "Haiti",
+      "jamaica": "Jamaica",
+      "mexico": "Mê-xi-cô",
+      "puerto_rico": "Puerto Rico",
+      "dominican_republic": "Dominican Republic",
+      "trinidad_and_tobago": "Trinidad và Tobago"
+    },
+    "oceania": {
+      "name": "Châu Đại Dương",
+      "australia": "Úc",
+      "new_zealand": "New Zealand"
+    },
+    "south_america": {
+      "name": "Nam Mỹ",
+      "argentina": "Argentina",
+      "bolivia": "Bolivia",
+      "brazil": "Brazil",
+      "chile": "Chile",
+      "colombia": "Colombia",
+      "ecuador": "Ecuador",
+      "paraguay": "Paraguay",
+      "peru": "Peru",
+      "suriname": "Suriname",
+      "uruguay": "Uruguay",
+      "venezuela": "Venezuela"
+    }
+  },
+  "panel": {
+    "most_popular": "Thịnh hành tại {name}",
+    "frequency": "Tần số",
+    "play_from_radio": "Nghe radio",
+    "country": "Quốc gia",
+    "radio_in": "Radio tại {name}",
+    "description": "Mô tả",
+    "category": "Thể Loại",
+    "schedule": "Lịch phát sóng",
+    "schedule_jump_to_now": "Đến khung giờ hiện tại",
+    "schedule_now_marker": "Bây giờ",
+    "schedule_gap_unknown": "Chưa có thông tin chương trình cho thời điểm này.",
+    "schedule_gap_next": "Tiếp theo (theo lịch): {title} · {time}",
+    "schedule_gap_no_next": "Không có chương trình tiếp theo trong lịch tham khảo hôm nay.",
+    "schedule_reference_note": "Khung giờ tham khảo từ đài phát thanh; chương trình có thể thay đổi theo ngày. Xem lịch chính thức để kiểm tra mới nhất.",
+    "schedule_official_note": "Nguồn lịch chính thức của đài phát thanh.",
+    "schedule_official_link": "Xem lịch chính thức",
+    "schedule_vietnam_timezone": "Giờ Việt Nam (UTC+7)",
+    "schedule_provider_only": "Lịch cụ thể thay đổi theo ngày; vui lòng xem tại website chính thức của đài.",
+    "playlist": "Danh sách phát",
+    "tunein_history_note": "Chỉ lưu những tên bài hát và ca sĩ ghi nhận được trong phiên nghe hiện tại. TuneIn có thể cập nhật chậm.",
+    "tunein_history_unavailable": "TuneIn chưa cung cấp tên bài hát và ca sĩ đang phát của đài này.",
+    "next": "Kế tiếp",
+    "lyric": "Lời bài hát",
+    "no_lyric": "Chưa có lời bài hát",
+    "updating": "Đang cập nhật...",
+    "channels": "Tất cả đài",
+    "station_count": "{count} đài radio",
+    "search_channels": "Tìm đài radio...",
+    "no_channels": "Không tìm thấy đài radio"
+  },
+  "button": {
+    "back": "Quay lại",
+    "close": "Đóng"
+  },
+  "popup": {
+    "search": {
+      "text": "Tìm kiếm...",
+      "stats": "Trang {page}/{nbPages} - {nbHits} kết quả trong {processingTimeMS} mili giây",
+      "category": "Lọc theo quốc gia",
+      "popular_channels": "Kênh phổ biến"
+    }
+  },
+  "notify": {
+    "success": "Thành công",
+    "success_content": "Đang phát: {radio}",
+    "error": "Thất bại",
+    "error_content": "Không thể phát: {radio}"
+  },
+  "statistics_tooltip": {
+    "text": "Sự cố: {num} | Ngừng hoạt động: {time} phút | {response}ms"
+  },
+  "table": {
+    "status": "Trạng thái",
+    "commit": "Bản commit",
+    "created": "Khởi tạo",
+    "updated": "Cập nhật",
+    "published": "Phát hành",
+    "view": "Xem"
+  },
+  "alert": {
+    "play_button": "Theo mặc định của trình duyệt, bạn cần phải nhấn nút ▶ để bắt đầu nghe Radio.",
+    "stream_error": "Hiện chưa nghe được đài này. Hãy thử lại sau hoặc chọn đài khác."
+  },
+  "text": {
+    "guide": "Hướng dẫn",
+    "the_last_90_days": "90 ngày qua",
+    "hosted": "Máy chủ đặt tại {name} - Cập nhật lần cuối {time}",
+    "downtime": "Thời gian ngừng hoạt động",
+    "uptime": "Thời gian hoạt động",
+    "darkmode": {
+      "dark": "Tối",
+      "light": "Sáng",
+      "system": "Hệ thống"
+    },
+    "offline": "Có vẻ bạn đã mất kết nối mạng. Hãy kiểm tra Internet rồi thử lại."
+  },
+  "player": {
+    "title": "Trình phát radio",
+    "choose_station": "Chọn một đài để bắt đầu nghe",
+    "play": "Phát radio",
+    "pause": "Tạm dừng",
+    "retry": "Thử lại",
+    "connecting": "Đang kết nối…",
+    "on_air": "Đang phát",
+    "ready": "Sẵn sàng phát",
+    "queue": "Kênh & lịch phát sóng",
+    "source": "Nguồn phát",
+    "volume": "Âm lượng",
+    "mute": "Tắt tiếng",
+    "unmute": "Bật tiếng",
+    "keep_listening": "Tiếp tục nghe khi khám phá các trang khác",
+    "listen_country": "Nghe một đài",
+    "explore": "Khám phá khu vực",
+    "previous": "Đài trước: {name}",
+    "next": "Đài tiếp theo: {name}",
+    "sidebar_label": "Đài radio và lịch phát sóng",
+    "live": "Trực tiếp",
+    "primary_source": "Nguồn chính",
+    "alternative_source": "Nguồn dự phòng",
+    "source_number": "Nguồn {number}",
+    "stream_format": "Luồng phát",
+    "proxy": "Máy chủ trung gian",
+    "direct": "Trực tiếp",
+    "ios_volume_hint": "Trên iPhone hoặc iPad, hãy dùng nút âm lượng trên thiết bị hoặc Trung tâm điều khiển để chỉnh âm lượng.",
+    "sleep_timer": "Hẹn giờ ngủ",
+    "sleep_minutes": "Dừng sau {minutes} phút",
+    "sleep_cancel": "Hủy hẹn giờ",
+    "sleep_remaining": "Dừng sau {minutes} phút",
+    "compact_player": "Thu gọn trình phát",
+    "expand_player": "Mở rộng trình phát",
+    "window_player": "Trình phát cửa sổ",
+    "dock_player": "Trở về thanh phát",
+    "schedule_loading": "Đang tải lịch phát sóng…"
+  },
+  "site_pages": {
+    "common": {
+      "last_updated": "Cập nhật lần cuối"
+    },
+    "about": {
+      "eyebrow": "Giới thiệu",
+      "title": "Giới thiệu ePlus OnAir",
+      "description": "Tìm và nghe các đài radio trong nước, quốc tế ở cùng một nơi.",
+      "sections": {
+        "discover": {
+          "title": "Khám phá radio",
+          "body": "ePlus OnAir sắp xếp các đài radio trực tuyến theo khu vực và quốc gia để người nghe có thể tìm đài trong nước và quốc tế trên cùng một giao diện."
+        },
+        "playback": {
+          "title": "Phát trực tiếp",
+          "body": "Chọn đài bạn thích rồi nhấn Phát. Nếu đường phát đầu tiên gặp lỗi, website có thể thử đường phát khác của đài."
+        },
+        "availability": {
+          "title": "Thông tin đài có thể thay đổi",
+          "body": "Các đài tự quản lý chương trình và lịch phát sóng. Đôi khi đài tạm ngừng phát, đổi lịch hoặc cập nhật tên bài hát chậm hơn dự kiến."
+        }
+      },
+      "service": {
+        "title": "Nghe radio thật đơn giản",
+        "body": "Dễ dàng tìm đài yêu thích, lưu lại để nghe sau và tiếp tục nghe khi sử dụng điện thoại hoặc máy tính.",
+        "action": "Bắt đầu nghe"
+      }
+    },
+    "privacy": {
+      "eyebrow": "Quyền riêng tư",
+      "title": "Chính sách bảo mật",
+      "description": "Tìm hiểu website lưu thông tin gì và điều gì xảy ra khi bạn tìm kiếm hoặc nghe radio.",
+      "sections": {
+        "accounts": {
+          "title": "Tài khoản và thanh toán",
+          "body": "ePlus OnAir không yêu cầu tài khoản người dùng và không có quy trình thanh toán trên website này. Vui lòng không gửi thông tin cá nhân nhạy cảm qua các kênh công khai của dự án."
+        },
+        "preferences": {
+          "title": "Các lựa chọn đã lưu",
+          "body": "Trình duyệt có thể lưu ngôn ngữ, giao diện sáng/tối, đài yêu thích và đài nghe gần đây trên thiết bị này để bạn sử dụng thuận tiện hơn."
+        },
+        "search": {
+          "title": "Dịch vụ tìm kiếm",
+          "body": "Khi bạn tìm đài, từ khóa tìm kiếm có thể được gửi đến dịch vụ tìm kiếm như Algolia. Dịch vụ này có chính sách bảo mật riêng."
+        },
+        "streams": {
+          "title": "Khi bạn nghe radio",
+          "body": "Thiết bị của bạn kết nối với đài hoặc dịch vụ cung cấp âm thanh. Những dịch vụ này có thể nhận địa chỉ IP và thông tin cơ bản về trình duyệt."
+        },
+        "logs": {
+          "title": "Giữ website hoạt động ổn định",
+          "body": "Dịch vụ vận hành và bảo vệ website có thể lưu địa chỉ IP, trình duyệt, trang đã truy cập và thời gian truy cập để duy trì hoạt động, bảo vệ website và xử lý lỗi."
+        },
+        "sharing": {
+          "title": "Bán và chia sẻ dữ liệu",
+          "body": "Chúng tôi không bán dữ liệu cá nhân. Website chính thức dùng Google Analytics 4 để đo lượt truy cập, lượt xem trang và thời gian nghe radio theo từng đài. Thống kê thời gian nghe cá nhân cũng được lưu trên thiết bị của bạn. Dịch vụ tìm kiếm và các đài radio có thể nhận thông tin khi bạn sử dụng."
+        },
+        "changes": {
+          "title": "Thay đổi chính sách",
+          "body": "Chính sách này có thể được cập nhật khi website, nhà cung cấp hoặc cách xử lý dữ liệu thay đổi. Phiên bản hiện tại và ngày cập nhật được công bố tại trang này."
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "Điều khoản",
+      "title": "Điều khoản sử dụng",
+      "description": "Các điều kiện sử dụng ePlus OnAir và các liên kết tới dịch vụ radio của bên thứ ba.",
+      "sections": {
+        "service": {
+          "title": "Sử dụng dịch vụ",
+          "body": "ePlus OnAir được cung cấp như một giao diện miễn phí để khám phá và nghe radio. Bạn có thể sử dụng website cho mục đích cá nhân hợp pháp để truy cập các dịch vụ radio công khai."
+        },
+        "third_party": {
+          "title": "Đài radio và dịch vụ liên kết",
+          "body": "Mỗi đài tự quản lý nội dung, lịch phát và khu vực được phép nghe. Một số đài có quảng cáo hoặc tạm ngừng hoạt động mà không báo trước."
+        },
+        "copyright": {
+          "title": "Bản quyền và nhãn hiệu",
+          "body": "Tên đài, logo, âm thanh và nội dung khác thuộc về chủ sở hữu tương ứng. Nếu bạn có quyền sở hữu và muốn sửa hoặc gỡ nội dung, hãy gửi đường dẫn trang và thông tin để chúng tôi kiểm tra."
+        },
+        "acceptable_use": {
+          "title": "Sử dụng ePlus OnAir đúng cách",
+          "body": "Vui lòng tuân thủ pháp luật. Không làm gián đoạn website hay các đài, truy cập trái phép, thu thập dữ liệu với số lượng gây ảnh hưởng hoặc phát tán phần mềm độc hại."
+        },
+        "availability": {
+          "title": "Khi không nghe được radio",
+          "body": "Đôi khi đài tạm ngừng phát hoặc đường dẫn nghe gặp sự cố. Bạn có thể thử lại sau hoặc chọn đài khác. Chúng tôi cung cấp danh sách theo thông tin hiện có và không thể bảo đảm đài, lịch phát hay tên bài hát luôn chính xác và truy cập được."
+        },
+        "changes": {
+          "title": "Thay đổi điều khoản",
+          "body": "Điều khoản có thể được cập nhật khi dự án hoặc dịch vụ được hỗ trợ thay đổi. Việc tiếp tục sử dụng sau khi cập nhật đồng nghĩa bạn sử dụng dịch vụ theo điều khoản đang được công bố."
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "Liên hệ",
+      "title": "Liên hệ ePlus OnAir",
+      "description": "Bạn gặp khó khăn khi nghe, muốn đề xuất đài mới hoặc có câu hỏi về nội dung? Hãy liên hệ với chúng tôi.",
+      "sections": {
+        "bug": {
+          "title": "Đài hoặc trang không hoạt động",
+          "body": "Cho chúng tôi biết tên đài hoặc trang gặp lỗi, điều gì đã xảy ra và bạn đang dùng điện thoại hay máy tính. Bạn có thể gửi thêm ảnh chụp màn hình."
+        },
+        "station": {
+          "title": "Cập nhật đài",
+          "body": "Để thêm đài hoặc sửa thông tin, hãy gửi tên đài, quốc gia, website chính thức và đường dẫn nghe nếu có."
+        },
+        "copyright": {
+          "title": "Bản quyền hoặc yêu cầu gỡ",
+          "body": "Nếu bạn sở hữu nội dung được hiển thị và muốn sửa hoặc gỡ bỏ, hãy gửi đường dẫn liên quan cùng thông tin giúp chúng tôi kiểm tra yêu cầu."
+        }
+      },
+      "support": {
+        "title": "Bạn cần hỗ trợ?",
+        "body": "Gửi tên đài hoặc đường dẫn trang cùng vài dòng mô tả vấn đề hay câu hỏi của bạn.",
+        "action": "Gửi email hỗ trợ"
+      }
+    },
+    "statistics": {
+      "eyebrow": "Đài radio",
+      "title": "Thống kê radio",
+      "description": "Xem ePlus OnAir hiện có bao nhiêu quốc gia và đài radio để bạn khám phá.",
+      "metrics": {
+        "areas": "Khu vực",
+        "countries": "Quốc gia",
+        "stations": "Đài radio"
+      },
+      "coverage_title": "Độ phủ theo khu vực",
+      "coverage_description": "Mỗi khu vực cho biết số quốc gia và đài radio đang có trong danh sách.",
+      "method_title": "Các con số này có ý nghĩa gì?",
+      "method_body": "Số liệu lấy từ danh sách đài được cập nhật gần nhất. Đây là số đài được liệt kê, không phải số đài đang phát hoặc số người đang nghe."
+    },
+    "error": {
+      "not_found_title": "Không tìm thấy trang",
+      "generic_title": "Đã xảy ra lỗi",
+      "generic_body": "Không thể tải trang này. Vui lòng quay về trang chủ và thử lại."
+    },
+    "cookie": {
+      "eyebrow": "Cookie",
+      "title": "Chính sách cookie",
+      "description": "Tìm hiểu cách ePlus OnAir ghi nhớ cài đặt và thống kê lượt truy cập website.",
+      "sections": {
+        "essential": {
+          "title": "Lưu trữ cần thiết",
+          "body": "Trình duyệt lưu ngôn ngữ, giao diện, đài yêu thích và lịch sử nghe trên thiết bị này để bạn dễ dàng sử dụng lại."
+        },
+        "analytics": {
+          "title": "Thống kê lượt truy cập",
+          "body": "Website ePlus OnAir chính thức dùng Google Analytics 4 để thống kê lượt truy cập, lượt xem trang và thời gian nghe radio theo từng đài. Đóng thông báo cookie không dừng việc đo lường này."
+        },
+        "third_party": {
+          "title": "Dịch vụ bên thứ ba",
+          "body": "Khi tìm hoặc nghe đài, các dịch vụ khác có thể cung cấp âm thanh, hình ảnh hay lịch phát. Họ có thể nhận địa chỉ IP và sử dụng cookie riêng."
+        },
+        "choices": {
+          "title": "Lựa chọn của bạn",
+          "body": "Bạn có thể xóa dữ liệu website trong cài đặt trình duyệt. Khi đó, các đài yêu thích, lịch sử nghe và lựa chọn giao diện trên thiết bị này cũng có thể bị xóa."
+        },
+        "changes": {
+          "title": "Cập nhật",
+          "body": "Chúng tôi có thể cập nhật chính sách khi website hoặc các dịch vụ thay đổi. Bạn luôn có thể xem bản mới nhất tại đây."
+        }
+      }
+    }
+  },
+  "for_you": {
+    "title": "Dành cho bạn",
+    "description": "Khám phá các đài liên quan đến thư viện đã lưu mà không cần tài khoản.",
+    "show": "Xem gợi ý",
+    "hide_panel": "Ẩn gợi ý",
+    "loading": "Đang tìm đài phù hợp…",
+    "unavailable": "Không tải được gợi ý.",
+    "retry": "Thử lại",
+    "based_on_your_library": "Gợi ý dựa trên các đài đã lưu tại thiết bị, theo cài đặt riêng tư hiện tại.",
+    "curated_intro": "Chưa có sở thích phù hợp. Đây là các đài thực sự được đánh dấu nổi bật trong danh mục.",
+    "reason_genre": "Cùng thể loại với đài bạn lưu",
+    "reason_language": "Cùng ngôn ngữ với đài bạn lưu",
+    "reason_country": "Từ quốc gia bạn từng nghe",
+    "reason_featured": "Đài nổi bật trong danh mục",
+    "dismiss": "Ẩn gợi ý này",
+    "empty": "Chưa có đài mới phù hợp.",
+    "privacy_note": "Gợi ý được tính trên thiết bị. Favorites và lịch sử không được gửi lên máy chủ danh mục. Các mục đã ẩn sẽ hiện lại khi tải lại trang."
+  },
+  "surprise": {
+    "title": "Nghe ngẫu nhiên",
+    "heading": "Khám phá một đài radio mới",
+    "description": "Chọn ngẫu nhiên từ danh mục đài thực tế. Chỉ phát sau khi bạn nhấn nút.",
+    "filters": "Bộ lọc",
+    "action": "Phát đài bất kỳ",
+    "loading": "Đang tải danh mục đài…",
+    "unavailable": "Không tải hoặc phát được đài này. Hãy thử lại.",
+    "country": "Quốc gia",
+    "any_country": "Tất cả quốc gia",
+    "genre": "Thể loại",
+    "any_genre": "Tất cả thể loại",
+    "language": "Ngôn ngữ",
+    "any_language": "Tất cả ngôn ngữ",
+    "available_count": "Có {count} đài phù hợp",
+    "empty": "Không có đài phù hợp với bộ lọc.",
+    "selected": "Đài vừa chọn"
+  },
+  "home": {
+    "live_badge": "Radio trực tuyến",
+    "title": "Nghe radio trực tiếp khắp thế giới",
+    "description": "Khám phá các đài radio theo khu vực và quốc gia, tìm chương trình yêu thích và nghe ngay.",
+    "start_listening": "Nghe ngay",
+    "explore_countries": "Khám phá quốc gia",
+    "countries": "Quốc gia",
+    "regions": "Khu vực",
+    "streaming": "Phát sóng",
+    "featured": "Nổi bật",
+    "explore": "Khám phá",
+    "browse_country": "Duyệt theo quốc gia"
+  },
+  "sidebar": {
+    "browse_radio": "Khám phá radio",
+    "radio_regions": "Các khu vực phát sóng",
+    "live_badge": "RADIO TRỰC TIẾP",
+    "description": "Khám phá các đài radio khắp thế giới bất cứ lúc nào."
+  },
+  "search": {
+    "unavailable": "Tính năng tìm kiếm đang tạm gián đoạn. Các đài phổ biến vẫn hiển thị bên dưới.",
+    "suggestions": "Đề xuất cho bạn",
+    "recent": "Tìm kiếm gần đây",
+    "clear": "Xóa",
+    "loading": "Đang tải danh sách đài…"
+  },
+  "chat": {
+    "open": "Mở trợ lý trò chuyện",
+    "title": "Trợ lý trò chuyện",
+    "powered_by": "Được hỗ trợ bởi Mendable và Vercel",
+    "greeting": "Xin chào! Tôi có thể giúp gì cho bạn?",
+    "placeholder": "Nhập tin nhắn",
+    "send": "Gửi"
+  },
+  "seo": {
+    "home_breadcrumb": "Trang chủ",
+    "country_title": "Radio trực tiếp tại {country}",
+    "country_description": "Nghe {count} đài radio trực tuyến tại {country}. Khám phá các đài địa phương và nghe trên ePlus OnAir.",
+    "country_description_empty": "Nghe các đài radio trực tuyến tại {country} trên ePlus OnAir.",
+    "station_title": "{station} – Radio trực tiếp tại {country}",
+    "station_description": "Nghe trực tiếp {station} từ {country} trên ePlus OnAir."
+  },
+  "brand": {
+    "live_radio": "Radio trực tiếp",
+    "slogan": "Listen Beyond Borders.",
+    "slogan_localized": "Lắng nghe không biên giới."
+  },
+  "footer": {
+    "tagline": "Listen Beyond Borders.",
+    "description": "Tìm đài theo khu vực và quốc gia, rồi nghe ngay trên mọi thiết bị."
+  },
+  "library": {
+    "title": "Radio của bạn",
+    "recent": "Nghe gần đây",
+    "favorites": "Kênh yêu thích",
+    "recent_empty": "Phát một kênh để lưu vào danh sách nghe gần đây.",
+    "favorites_empty": "Bấm biểu tượng trái tim để lưu kênh yêu thích.",
+    "clear_recent": "Xóa lịch sử nghe",
+    "remove_recent": "Xóa khỏi lịch sử",
+    "listening_stats": "Thời gian nghe",
+    "listening_live": "Đang đếm thời gian nghe trực tiếp",
+    "listening_tracking_title": "Theo dõi thời gian nghe",
+    "listening_tracking_description": "Tắt để ngừng đếm thời gian và gửi thống kê thời lượng nghe radio. Dữ liệu cũ vẫn được giữ; radio và danh sách Nghe gần đây vẫn hoạt động.",
+    "listening_tracking_on": "Bật",
+    "listening_tracking_off": "Tắt",
+    "listening_tracking_paused": "Đã tắt theo dõi thời gian nghe. Dữ liệu thống kê đã lưu vẫn hiển thị.",
+    "listening_delete_stats": "Xóa thống kê thời gian nghe",
+    "listening_confirm_delete_title": "Xóa toàn bộ thống kê thời gian nghe?",
+    "listening_confirm_delete_description": "Xóa vĩnh viễn tổng thời gian nghe, biểu đồ theo ngày và thời lượng theo từng đài trên trình duyệt này? Không thể hoàn tác. Danh sách yêu thích và Nghe gần đây sẽ được giữ lại. Nếu tracking đang bật, thời gian sẽ được tính lại từ 0.",
+    "listening_confirm_delete_no": "Không, giữ lại",
+    "listening_confirm_delete_yes": "Có, xóa thống kê",
+    "listening_daily_chart": "Biểu đồ thời gian nghe theo ngày",
+    "listening_daily_hint": "Chọn một cột để xem thời gian nghe của ngày đó.",
+    "listening_chart_range": "Khoảng thời gian biểu đồ",
+    "listening_last_7": "7 ngày",
+    "listening_last_30": "30 ngày",
+    "listening_last_90": "90 ngày",
+    "listening_period_total": "Tổng thời gian nghe trong kỳ",
+    "listening_daily_empty": "Chưa có thời gian nghe theo ngày.",
+    "listening_stats_description": "Chỉ tính thời gian radio thực sự phát trên thiết bị này; không tính lúc tạm dừng, chờ tải hoặc stream lỗi.",
+    "listening_total": "Tổng thời gian nghe",
+    "listening_today": "Hôm nay",
+    "listening_stations": "Số đài đã nghe",
+    "listening_top_stations": "Thời gian theo từng đài",
+    "listening_empty": "Phát một đài radio để bắt đầu thống kê thời gian nghe.",
+    "listening_hour_short": " giờ",
+    "listening_minute_short": " phút",
+    "listening_second_short": " giây",
+    "confirm_clear_recent_title": "Xóa toàn bộ lịch sử nghe?",
+    "confirm_clear_recent_description": "Bạn có chắc muốn xóa tất cả đài trong Nghe gần đây? Danh sách yêu thích và thống kê thời gian nghe sẽ được giữ lại.",
+    "confirm_clear_recent_yes": "Có, xóa lịch sử",
+    "confirm_clear_recent_no": "Không, giữ lại",
+    "add_favorite": "Thêm vào yêu thích",
+    "remove_favorite": "Bỏ yêu thích",
+    "loading": "Đang tải các đài của bạn…"
+  },
+  "redesign": {
+    "navigation": "Điều hướng",
+    "discover": "Khám phá",
+    "search": "Tìm kiếm",
+    "library": "Thư viện",
+    "continue_listening": "Tiếp tục nghe",
+    "paused": "Đã tạm dừng",
+    "now_playing": "Đang nghe",
+    "timer": "Hẹn giờ",
+    "channel_list": "Danh sách kênh",
+    "next_station": "Kênh tiếp theo",
+    "library_description": "Kênh yêu thích và lịch sử nghe được lưu trên thiết bị này.",
+    "all": "Tất cả",
+    "see_all": "Xem tất cả"
+  },
+  "cookie_consent": {
+    "title": "Thông báo cookie và đo lường",
+    "body": "ePlus OnAir lưu các lựa chọn nghe và giao diện của bạn trên thiết bị này.",
+    "accept": "Đã hiểu",
+    "analytics_body": "ePlus OnAir lưu tùy chọn của bạn và sử dụng Google Analytics 4 trên website chính thức để thống kê lượt truy cập và thời gian nghe radio. Đây là thông báo cung cấp thông tin; đóng thông báo không tắt việc đo lường.",
+    "learn_more": "Chính sách cookie"
+  },
+  "sharing": {
+    "share": "Chia sẻ đài",
+    "copied": "Đã sao chép liên kết.",
+    "manual": "Chọn và sao chép liên kết này:"
+  },
+  "recovery": {
+    "buffering": "Đang tải âm thanh trực tiếp…",
+    "source_position": "Nguồn {index}/{total}",
+    "attempt": "Lần thử {attempt}/{limit}",
+    "reason_network": "Trình duyệt báo lỗi mạng. Điều này không có nghĩa đài đã ngừng phát.",
+    "reason_decode": "Nguồn này không giải mã được hoặc có thể dùng định dạng chưa hỗ trợ.",
+    "reason_timeout": "Chưa nhận được âm thanh trước khi hết thời gian chờ. Hãy thử nguồn khác.",
+    "reason_unknown": "Trình duyệt báo lỗi phát, chưa xác định chính xác nguyên nhân.",
+    "last_played": "Lần phát gần nhất trên thiết bị lúc {time}",
+    "local_observation": "Chỉ là ghi nhận trong phiên trên thiết bị, không xác nhận tình trạng toàn bộ đài.",
+    "offline": "Có vẻ bạn đang mất mạng. Kiểm tra kết nối trước khi thử lại.",
+    "unsupported": "Nguồn vừa thử không giải mã được hoặc chưa được trình duyệt hỗ trợ. Hãy thử nguồn khác.",
+    "exhausted": "Chưa thể phát sau các lần thử lại. Hãy thử lại hoặc chọn nguồn khác; đài vẫn có thể hoạt động trên thiết bị khác.",
+    "connecting": "Đang kết nối hoặc tải âm thanh…",
+    "report": "Báo lỗi phát",
+    "report_hint": "Mở bản nháp GitHub để bạn kiểm tra rồi gửi. Không kèm URL luồng phát hay lịch sử nghe."
+  },
+  "transfer": {
+    "title": "Chuyển danh sách yêu thích",
+    "export": "Xuất yêu thích",
+    "import": "Nhập yêu thích",
+    "export_error": "Không thể xuất danh sách yêu thích. Hãy thử lại.",
+    "description": "Xem trước rồi gộp yêu thích từ thiết bị khác. Danh sách hiện tại được giữ lại.",
+    "limit": "Chọn tệp JSON yêu thích của ePlus OnAir (tối đa 256 KiB và 200 đài).",
+    "choose": "Chọn tệp yêu thích",
+    "invalid": "Tệp không hợp lệ, quá lớn hoặc có phiên bản chưa được hỗ trợ.",
+    "preview": "Thêm: {add} · Đã lưu: {duplicate} · Không còn trong catalog: {missing} · Vượt giới hạn 200 đài: {overflow}",
+    "done": "Đã thêm {count} đài yêu thích vào trình duyệt này.",
+    "confirm": "Thêm vào yêu thích",
+    "favorites_only": "Chỉ đài yêu thích",
+    "no_favorites": "Không có đài yêu thích phù hợp trong quốc gia này."
+  },
+  "listener_settings": {
+    "title": "Cài đặt",
+    "description": "Điều chỉnh ePlus OnAir theo cách nghe của bạn.",
+    "listening": "Trải nghiệm nghe",
+    "live_resume": "Phát lại từ thời điểm Live",
+    "live_resume_hint": "Kết nối lại chương trình đang phát khi bấm Play sau Pause.",
+    "reconnect": "Tự kết nối lại",
+    "reconnect_hint": "Thử lại khi mất tín hiệu, sử dụng nguồn phát dự phòng.",
+    "restore": "Ghi nhớ đài gần nhất",
+    "restore_hint": "Khôi phục đài đã chọn, không tự phát nhạc khi mở lại trang.",
+    "volume": "Ghi nhớ âm lượng",
+    "volume_hint": "Giữ mức âm lượng và trạng thái tắt tiếng trên thiết bị.",
+    "appearance": "Giao diện & ngôn ngữ",
+    "theme": "Giao diện",
+    "motion": "Giảm hiệu ứng chuyển động",
+    "motion_hint": "Hạn chế hoạt ảnh và chuyển cảnh không cần thiết.",
+    "privacy": "Quyền riêng tư & dữ liệu",
+    "privacy_hint": "Cài đặt và lịch sử nghe được lưu trên trình duyệt này.",
+    "tracking_hint": "Chỉ ghi nhận thời gian nghe trên thiết bị này.",
+    "analytics_note": "Tùy chọn này không tắt phân tích website (GA4). Xem Chính sách cookie.",
+    "favorites": "Quản lý yêu thích",
+    "statistics": "Thống kê nghe",
+    "clear_history": "Xóa lịch sử nghe gần đây",
+    "clear_stats": "Xóa thống kê nghe",
+    "local_note": "Không cần tài khoản và không đồng bộ giữa các thiết bị. Xóa dữ liệu trình duyệt sẽ đặt lại cài đặt.",
+    "confirm_history": "Xóa lịch sử nghe?",
+    "confirm_history_hint": "Chỉ xóa các đài đã nghe gần đây. Danh sách yêu thích vẫn được giữ.",
+    "confirm_stats": "Xóa thống kê nghe?",
+    "confirm_stats_hint": "Tổng thời gian và biểu đồ nghe sẽ bị xóa. Danh sách yêu thích không thay đổi.",
+    "cancel": "Hủy",
+    "confirm": "Xóa"
+  },
+  "online_stats": {
+    "station_all_description": "Xem thời gian nghe của tất cả đài đã lưu trên thiết bị này.",
+    "station_search": "Tìm tên đài…",
+    "station_sort": "Sắp xếp đài",
+    "station_sort_most": "Nghe nhiều nhất",
+    "station_sort_least": "Nghe ít nhất",
+    "station_sort_name": "Tên A–Z",
+    "station_results": "Hiển thị {from}–{to} / {total} đài",
+    "station_no_results": "Không tìm thấy đài phù hợp.",
+    "station_pagination": "Phân trang danh sách đài",
+    "station_previous": "Trước",
+    "station_page": "Trang {page} / {total}",
+    "station_next": "Sau",
+    "total": "Tổng thời gian online",
+    "today": "Online hôm nay",
+    "listening_today": "Nghe radio hôm nay",
+    "listening": "Nghe radio",
+    "online": "Online",
+    "tracking": "Ghi nhận thời gian online",
+    "definition": "Chỉ tính khi tab website đang hiển thị, được chọn và có kết nối mạng; ngừng tính sau 5 phút không tương tác. Radio vẫn có thể phát nền mà không cộng thời gian online.",
+    "chart_kind": "Chọn loại thời gian",
+    "daily_chart": "Thời gian online theo ngày",
+    "daily_hint": "Chọn ngày để xem thời gian sử dụng website.",
+    "period_total": "Thời gian online trong khoảng đã chọn",
+    "daily_empty": "Chưa có thời gian online trong khoảng này.",
+    "clear_title": "Xóa thống kê online và nghe radio?",
+    "clear_description": "Xóa thời gian online, thời gian nghe, biểu đồ theo ngày và thống kê theo đài trên trình duyệt này? Danh sách yêu thích và lịch sử nghe không bị ảnh hưởng.",
+    "clear_action": "Xóa thống kê thời gian",
+    "compare_intro": "Hai loại thời gian được tính độc lập: nghe radio và sử dụng website.",
+    "manage_settings": "Cài đặt theo dõi",
+    "listening_explanation": "Chỉ tính khi radio đang phát thật, kể cả khi bạn chuyển sang tab khác.",
+    "online_explanation": "Chỉ tính khi bạn đang dùng tab website; tạm dừng sau 5 phút không tương tác.",
+    "new_counter_note": "Thống kê online được tính từ khi tính năng ra mắt; dữ liệu nghe radio trước đó được giữ nguyên.",
+    "daily_compare": "Xu hướng sử dụng theo ngày",
+    "listening_trend": "Xu hướng thời gian nghe radio theo ngày",
+    "online_trend": "Xu hướng thời gian online theo ngày",
+    "selected_day": "Ngày đang xem",
+    "select_day": "Chọn ngày để xem chi tiết",
+    "independent_scales": "Hai chỉ số dùng thang đo riêng; không cộng tổng thời gian lại.",
+    "filter_both": "Cả hai",
+    "filter_listening": "Nghe radio",
+    "filter_online": "Online",
+    "chart_tooltip_hint": "Rê chuột vào biểu đồ hoặc chạm để xem thời gian chính xác từng ngày.",
+    "scale_max": "Cao nhất",
+    "chart_hover_label": "Biểu đồ thời gian theo ngày. Rê chuột hoặc dùng phím mũi tên để xem chi tiết.",
+    "combined_scales_note": "Hai đường dùng thang đo riêng (hồng và xanh); rê chuột để xem thời gian thực. Hai khoảng thời gian có thể trùng nhau.",
+    "weekly_activity": "7 ngày gần đây",
+    "vs_previous_week": "so với 7 ngày trước",
+    "stations_played": "Tổng kênh đã nghe",
+    "most_listened_station": "Kênh nghe nhiều nhất",
+    "listening_peak": "Cao nhất (nghe radio)",
+    "online_peak": "Cao nhất (online)",
+    "show_all": "Xem tất cả",
+    "show_less": "Thu gọn"
+  }
+}

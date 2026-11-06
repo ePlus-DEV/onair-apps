@@ -1,0 +1,379 @@
+{
+  "bautista": {
+    "title": "Radio Bautista (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://tabernaculo.net/radio/",
+    "cros": false,
+    "stream": "https://s2.radio.co/s3a7dc3d82/listen",
+    "features": "/img/central-america/el-salvador/bautista.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/bautista?time=",
+    "favorite": true
+  },
+  "yxy": {
+    "title": "Radio YXY",
+    "type": "audio/mpeg",
+    "url": "https://yxy1057.com/",
+    "cros": true,
+    "stream": "http://158.69.200.1:8020/stream/1/",
+    "features": "/img/central-america/el-salvador/yxy.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/yxy?time="
+  },
+  "yskl": {
+    "title": "Radio YSKL (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://radioyskl.com/",
+    "cros": true,
+    "stream": "http://media.dominiocreativo.com:8000/stream/1/",
+    "features": "/img/central-america/el-salvador/yskl.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/yskl?time="
+  },
+  "abc": {
+    "title": "ABC Stereo",
+    "type": "audio/mpeg",
+    "url": "https://radiocorporacionelsalvador.com/",
+    "cros": false,
+    "stream": "https://streaming.rcs.com.sv/8008/stream",
+    "features": "/img/central-america/el-salvador/abc.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/abc?time="
+  },
+  "radio-la-chevere": {
+    "title": "Radio La Chévere (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://radiocorporacionelsalvador.com/",
+    "cros": false,
+    "stream": "https://streaming.rcs.com.sv/8006/stream",
+    "features": "/img/central-america/el-salvador/radio-la-chevere.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/radio-la-chevere?time="
+  },
+  "scan": {
+    "title": "Scan (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://miradio.com.sv/",
+    "cros": true,
+    "stream": "http://yxy.watahosting.com:8022/stream/1/",
+    "features": "/img/central-america/el-salvador/scan.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/scan?time="
+  },
+  "radio-fiesta": {
+    "title": "Radio Fiesta",
+    "type": "audio/mpeg",
+    "url": "https://www.fiesta.com.sv/",
+    "cros": false,
+    "stream": "https://sp4.colombiatelecom.com.co/8026/stream",
+    "features": "/img/central-america/el-salvador/radio-fiesta.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/radio-fiesta?time="
+  },
+  "luz": {
+    "title": "Radio Luz (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "http://radioluzfm.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/fx45x9d19nhvv",
+    "features": "/img/central-america/el-salvador/luz.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/luz?time="
+  },
+  "pop989": {
+    "title": "Pop FM  (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://miradio.com.sv/",
+    "cros": true,
+    "stream": "http://158.69.219.162:8024/stream/1/",
+    "features": "/img/central-america/el-salvador/pop989.png"
+  },
+  "cool": {
+    "title": "Cool",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocoolfm.com/",
+    "cros": true,
+    "stream": "http://media.dominiocreativo.com:8006/coolfm",
+    "features": "/img/central-america/el-salvador/cool.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/cool?time="
+  },
+  "ranchera": {
+    "title": "Ranchera",
+    "type": "audio/mpeg",
+    "url": "https://www.ranchera.com.sv/",
+    "cros": true,
+    "stream": "http://sp4.colombiatelecom.com.co:8024/stream",
+    "features": "/img/central-america/el-salvador/ranchera.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/ranchera?time="
+  },
+  "vox": {
+    "title": "Vox",
+    "type": "audio/mpeg",
+    "url": "http://www.voxfm.com/",
+    "cros": false,
+    "stream": "https://cast3.asurahosting.com/proxy/gabriel/stream",
+    "features": "/img/central-america/el-salvador/vox.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/vox?time="
+  },
+  "exa": {
+    "title": "Exa",
+    "type": "audio/mpeg",
+    "url": "https://exafm.com/elsalvador/",
+    "cros": false,
+    "stream": "https://exa.watahosting.com/radio/8028/stream/1/",
+    "features": "/img/central-america/el-salvador/exa.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/exa?time="
+  },
+  "que-buena-san-salvador": {
+    "title": "Radio Que Buena FM (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/radio-que-buena",
+    "features": "/img/central-america/el-salvador/que-buena-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/que-buena-san-salvador?time="
+  },
+  "pantera-san-salvador": {
+    "title": "Radio La Pantera (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://lapantera981.com/",
+    "cros": true,
+    "stream": "http://144.91.98.151:8020/live",
+    "features": "/img/central-america/el-salvador/pantera-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/pantera-san-salvador?time="
+  },
+  "verdad": {
+    "title": "Radio Verdad (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioverdad.com/",
+    "cros": true,
+    "stream": "http://cloudstream2036.conectarhosting.com:8168/stream/1/",
+    "features": "/img/central-america/el-salvador/verdad.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/verdad?time="
+  },
+  "femenina": {
+    "title": "Femenina (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://femenina.com.sv/",
+    "cros": false,
+    "stream": "https://sp4.colombiatelecom.com.co/8028/stream",
+    "features": "/img/central-america/el-salvador/femenina.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/femenina?time="
+  },
+  "laser": {
+    "title": "Radio Laser",
+    "type": "audio/mpeg",
+    "url": "https://www.laser.com.sv/",
+    "cros": false,
+    "stream": "https://sp4.colombiatelecom.com.co/8032/stream",
+    "features": "/img/central-america/el-salvador/laser.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/laser?time="
+  },
+  "restauracion-san-salvador": {
+    "title": "Radio Restauración (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.elim.org.sv/restauracion/",
+    "cros": true,
+    "stream": "http://cdn-radio.elim.org.sv:8007/stream/2/",
+    "features": "/img/central-america/el-salvador/restauracion-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/restauracion-san-salvador?time="
+  },
+  "plus-101-3": {
+    "title": "Plus 101.3",
+    "type": "audio/mpeg",
+    "url": "https://plus1013.com/",
+    "cros": true,
+    "stream": "http://media.dominiocreativo.com:9006/stream/1/",
+    "features": "/img/central-america/el-salvador/plus-101-3.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/plus-101-3?time="
+  },
+  "globo": {
+    "title": "FM Globo",
+    "type": "audio/mpeg",
+    "url": "https://globo933.com/",
+    "cros": false,
+    "stream": "https://globo.watahosting.com/radio/8026/stream/1/",
+    "features": "/img/central-america/el-salvador/globo.png"
+  },
+  "club": {
+    "title": "Radio Club",
+    "type": "audio/mpeg",
+    "url": "https://club925radio.com/",
+    "cros": true,
+    "stream": "http://158.69.200.1:8030/stream/1/",
+    "features": "/img/central-america/el-salvador/club.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/club?time="
+  },
+  "nueve": {
+    "title": "Radio 102 Nueve  (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.102nueve.com/",
+    "cros": false,
+    "stream": "https://streaming.rcs.com.sv/8012/stream",
+    "features": "/img/central-america/el-salvador/nueve.png"
+  },
+  "chaparrastique": {
+    "title": "Radio Chaparrastique",
+    "type": "audio/mpeg",
+    "url": "https://radiochaparrastique.net/",
+    "cros": true,
+    "stream": "http://144.91.98.151:8021/live",
+    "features": "/img/central-america/el-salvador/chaparrastique.png"
+  },
+  "paz-san-salvador": {
+    "title": "Radio Paz (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiopaz.com.sv/",
+    "cros": true,
+    "stream": "http://cp4.shoutcheap.com:8107/stream/1/",
+    "features": "/img/central-america/el-salvador/paz-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/paz-san-salvador?time="
+  },
+  "laser-san-salvador": {
+    "title": "Laser Espanol (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.laser.com.sv/",
+    "cros": false,
+    "stream": "https://sp4.colombiatelecom.com.co/8030/stream",
+    "features": "/img/central-america/el-salvador/laser-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/laser-san-salvador?time="
+  },
+  "mi-gente": {
+    "title": "Radio Cadena Mi Gente (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/wwnsypvway5tv",
+    "features": "/img/central-america/el-salvador/mi-gente.png"
+  },
+  "adventista": {
+    "title": "Radio Adventista (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioadventista965.com.sv/",
+    "cros": false,
+    "stream": "https://cloudstream2030.conectarhosting.com/9866/stream/1/",
+    "features": "/img/central-america/el-salvador/adventista.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/adventista?time="
+  },
+  "el-camino": {
+    "title": "El Camino",
+    "type": "audio/mpeg",
+    "url": "http://www.iglesiadelcamino.org/radio",
+    "cros": true,
+    "stream": "http://streamingcontrol.com:9108/stream/1/",
+    "features": "/img/central-america/el-salvador/el-camino.png"
+  },
+  "fuego-san-salvador": {
+    "title": "Radio Fuego (San Salvador)",
+    "type": "application/x-mpegURL",
+    "url": "https://megavision.univtec.com/#!/live/radio",
+    "cros": false,
+    "stream": "https://mgv-fuego.akamaized.net/hls/live/2039834/MGV_FUEGO/0/streamPlaylist.m3u8",
+    "features": "/img/central-america/el-salvador/fuego-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/fuego-san-salvador?time="
+  },
+  "doremix": {
+    "title": "Radio Doremix (Santa Ana)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://media.dominiocreativo.com:8056/doremix",
+    "features": "/img/central-america/el-salvador/doremix.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/doremix?time="
+  },
+  "maria-san-salvador": {
+    "title": "Radio María (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.org.sv/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmelsalvador2?mp=/stream/1/",
+    "features": "/img/central-america/el-salvador/maria-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/maria-san-salvador?time="
+  },
+  "elohim-1120-am": {
+    "title": "Radio Elohim",
+    "type": "audio/mpeg",
+    "url": "https://www.misioncristianaelohim.com/",
+    "cros": false,
+    "stream": "https://whmsonic.playerfullhd.com/9498/stream/1/",
+    "features": "/img/central-america/el-salvador/elohim-1120-am.png"
+  },
+  "cadena-cuscatlan": {
+    "title": "Radio Cadena Cuscatlán (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.cadenacuscatlan.com.sv/",
+    "cros": true,
+    "stream": "http://icecasthd.net:8298/;",
+    "features": "/img/central-america/el-salvador/cadena-cuscatlan.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/cadena-cuscatlan?time="
+  },
+  "campirana-metapan": {
+    "title": "Radio La Campirana (Metapán)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://195.154.33.87:7206/stream/1/",
+    "features": "/img/central-america/el-salvador/campirana-metapan.png"
+  },
+  "rx": {
+    "title": "Radio RX FM (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiorxfm.com/",
+    "cros": false,
+    "stream": "https://media.dominiocreativo.com/proxy/radiorxfm/radiorx",
+    "features": "/img/central-america/el-salvador/rx.png"
+  },
+  "102-1-fm-san-salvador": {
+    "title": "Vive FM",
+    "type": "audio/mpeg",
+    "url": "https://www.vivefm.net/",
+    "cros": true,
+    "stream": "http://streamserver.ml:7082/;",
+    "features": "/img/central-america/el-salvador/102-1-fm-san-salvador.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/102-1-fm-san-salvador?time="
+  },
+  "el-mundo": {
+    "title": "Radio El Mundo (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "http://www.radioelmundo.com.sv/",
+    "cros": true,
+    "stream": "http://streaming.mundoclasicaupa.com:8000/radioelmundo",
+    "features": "/img/central-america/el-salvador/el-mundo.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/el-mundo?time="
+  },
+  "galaxia": {
+    "title": "Radio Galaxia",
+    "type": "audio/mpeg",
+    "url": "https://radiocorporacionelsalvador.com/",
+    "cros": true,
+    "stream": "http://streaming.radionomy.com/JamendoLounge",
+    "features": "/img/central-america/el-salvador/galaxia.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/galaxia?time="
+  },
+  "impacto": {
+    "title": "Radio Impacto",
+    "type": "audio/mpeg",
+    "url": "https://impactosonsonate.com/",
+    "cros": false,
+    "stream": "https://hd.elsalvadordigital.net/8038/stream",
+    "features": "/img/central-america/el-salvador/impacto.png"
+  },
+  "carnaval-san-miguel": {
+    "title": "Radio Carnaval (San Miguel)",
+    "type": "audio/mpeg",
+    "url": "http://www.lacarnaval.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/k6qexbz0vd0uv",
+    "features": "/img/central-america/el-salvador/carnaval-san-miguel.png"
+  },
+  "mesias": {
+    "title": "Radio Mesías (San Salvador)",
+    "type": "audio/mpeg",
+    "url": "https://993radio.com/",
+    "cros": true,
+    "stream": "http://stream.miradio.in:8013/stream/1/",
+    "features": "/img/central-america/el-salvador/mesias.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/mesias?time="
+  },
+  "coco": {
+    "title": "Radio Coco",
+    "type": "audio/mpeg",
+    "url": "https://gruposamixfm.com/index.php/coco-94-9-fm-sonsonate/",
+    "cros": true,
+    "stream": "http://streaming.radionomy.com/JamendoLounge",
+    "features": "/img/central-america/el-salvador/coco.png",
+    "schedule": "https://api.webrad.io/data/playlist/36/coco?time="
+  }
+}

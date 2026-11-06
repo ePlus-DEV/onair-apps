@@ -1,0 +1,33 @@
+# ePlus OnAir
+
+> ePlus OnAir is an internet radio directory for discovering and listening to live radio stations from countries around the world.
+
+## Canonical site
+
+- https://radio.eplus.dev/
+
+## Discovery
+
+- Sitemap: https://radio.eplus.dev/sitemap.xml
+- Robots: https://radio.eplus.dev/robots.txt
+- Agent guide: https://radio.eplus.dev/agents.md
+
+## Site structure
+
+- /`area` — browse countries in a region
+- /`area`/`country` — browse radio stations in a country
+- /`area`/`country`/`station` — listen to a specific station
+- /about — project purpose and architecture overview
+- /statistics — build-time catalog coverage totals
+- /contact — bug, station-update, and rights-request guidance
+- /privacy-policy — privacy and third-party service policy
+- /terms-of-use — site and third-party stream terms
+
+## Public catalog data
+
+- World/country metadata: https://radio.eplus.dev/radio/world.json
+- Country station catalog: https://radio.eplus.dev/radio/{area}/{country}.json
+
+The JSON catalogs are read-only discovery data. Stream URLs and realtime schedule/current-song/lyric data can change independently of the static catalog.
+
+Station pages may include live program, track, schedule, and lyric data when available.

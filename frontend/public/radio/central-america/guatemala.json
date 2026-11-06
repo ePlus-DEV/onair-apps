@@ -1,0 +1,375 @@
+{
+  "949": {
+    "title": "949 Radio (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://949.com.gt/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2528_32.aac?v=223434",
+    "features": "/img/central-america/guatemala/949.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/949?time=",
+    "favorite": true
+  },
+  "emisoras-guatemala": {
+    "title": "Emisoras Unidas (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/z96sq8tndseuv",
+    "features": "/img/central-america/guatemala/emisoras-guatemala.png"
+  },
+  "viva": {
+    "title": "Radio Viva (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/uus2ugdadkhvv",
+    "features": "/img/central-america/guatemala/viva.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/viva?time="
+  },
+  "cultural": {
+    "title": "Radio Cultural TGN (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "http://www.radiocultural.org/site/",
+    "cros": true,
+    "stream": "http://stream.infinityhdstream.com:7054/stream/1/",
+    "features": "/img/central-america/guatemala/cultural.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/cultural?time="
+  },
+  "flix-107-4": {
+    "title": "Flix Capital",
+    "type": "audio/mpeg",
+    "url": "https://www.radioflix.cat/",
+    "cros": true,
+    "stream": "http://164.138.208.21:8084/;",
+    "features": "/img/central-america/guatemala/flix-107-4.png"
+  },
+  "radio-sonora": {
+    "title": "Radio Sonora (Ciudad de Guatemala)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.sonora.com.gt/",
+    "cros": false,
+    "stream": "https://d275a9tp5dqxmg.cloudfront.net/sonora.m3u8",
+    "features": "/img/central-america/guatemala/radio-sonora.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/radio-sonora?time="
+  },
+  "la-grande": {
+    "title": "La Grande (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/la-grande/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/3qzxcbhm8ueuv",
+    "features": "/img/central-america/guatemala/la-grande.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/la-grande?time="
+  },
+  "galaxia-la-picosa": {
+    "title": "Galaxia La Picosa FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.chapinradio.com/radios/galaxia-88-5-fm/",
+    "cros": false,
+    "stream": "https://d5kgfc2fq5zss.cloudfront.net/galaxia.m3u8",
+    "features": "/img/central-america/guatemala/galaxia-la-picosa.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/galaxia-la-picosa?time="
+  },
+  "tropicalida": {
+    "title": "Radio Tropicálida",
+    "type": "application/x-mpegURL",
+    "url": "https://www.chapinradio.com/radios/tropicalida-104-9-fm/",
+    "cros": false,
+    "stream": "https://dpg6lqacztqgr.cloudfront.net/tropicalida.m3u8",
+    "features": "/img/central-america/guatemala/tropicalida.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/tropicalida?time="
+  },
+  "xtrema-1013": {
+    "title": "Radio Xtrema",
+    "type": "application/x-mpegURL",
+    "url": "https://www.chapinradio.com/radios/xtrema-101-3-fm/",
+    "cros": false,
+    "stream": "https://d3nqeldtv052dy.cloudfront.net/xtrema.m3u8",
+    "features": "/img/central-america/guatemala/xtrema-1013.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/xtrema-1013?time="
+  },
+  "fabuestereo": {
+    "title": "Fabuestéreo FM",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/fabuestereo/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/9qt3nd2te0quv",
+    "features": "/img/central-america/guatemala/fabuestereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/fabuestereo?time="
+  },
+  "exitos": {
+    "title": "Radio Éxitos FM",
+    "type": "application/x-mpegURL",
+    "url": "",
+    "cros": false,
+    "stream": "https://d18i3y87cxlfxy.cloudfront.net/exitos.m3u8",
+    "features": "/img/central-america/guatemala/exitos.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/exitos?time="
+  },
+  "rhema-guatemala": {
+    "title": "Rhema Stereo (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "http://rcg.gt/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/rhema-stereo-917-fm",
+    "features": "/img/central-america/guatemala/rhema-guatemala.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/rhema-guatemala?time="
+  },
+  "vision-ciudad-de-guatemala": {
+    "title": "Stereo Visión (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/a8pma0hqe5zuv",
+    "features": "/img/central-america/guatemala/vision-ciudad-de-guatemala.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/vision-ciudad-de-guatemala?time="
+  },
+  "clasica-1065": {
+    "title": "Clásica (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://clasica1065.com/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2529_32.aac",
+    "features": "/img/central-america/guatemala/clasica-1065.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/clasica-1065?time="
+  },
+  "yosisideral": {
+    "title": "Yosi Sideral FM",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/yosi-sideral/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/t67dk5gm8ueuv",
+    "features": "/img/central-america/guatemala/yosisideral.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/yosisideral?time="
+  },
+  "la-marca-941": {
+    "title": "La Marca Reggaeton",
+    "type": "application/x-mpegURL",
+    "url": "https://www.chapinradio.com/radios/la-marca-94-1-fm/",
+    "cros": false,
+    "stream": "https://d2w2rv7garh5uu.cloudfront.net/lamarca.m3u8",
+    "features": "/img/central-america/guatemala/la-marca-941.png"
+  },
+  "red": {
+    "title": "La Red FM",
+    "type": "audio/mpeg",
+    "url": "https://www.lared1061.com/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2530_32.aac",
+    "features": "/img/central-america/guatemala/red.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/red?time="
+  },
+  "fm-globo-guatemala": {
+    "title": "Globo",
+    "type": "audio/mpeg",
+    "url": "https://globo989.com/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2531_32.aac",
+    "features": "/img/central-america/guatemala/fm-globo-guatemala.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/fm-globo-guatemala?time="
+  },
+  "punto": {
+    "title": "Radio Punto (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://www.grupoalius.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/qzhqyu07dkhvv",
+    "features": "/img/central-america/guatemala/punto.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/punto?time="
+  },
+  "radio-mia-937": {
+    "title": "Radio Mía",
+    "type": "audio/mpeg",
+    "url": "https://mia937.com/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2526_32.aac",
+    "features": "/img/central-america/guatemala/radio-mia-937.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/radio-mia-937?time="
+  },
+  "kiss-fm": {
+    "title": "Kiss FM (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/kiss-fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/qgusghhm8ueuv",
+    "features": "/img/central-america/guatemala/kiss-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/kiss-fm?time="
+  },
+  "alfa-973": {
+    "title": "Alfa FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.chapinradio.com/radios/alfa-97-3-fm/",
+    "cros": false,
+    "stream": "https://d1sdmx3ajepcvf.cloudfront.net/alfa.m3u8",
+    "features": "/img/central-america/guatemala/alfa-973.png"
+  },
+  "la-mega": {
+    "title": "La Mega (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://www.lamega.com.gt/",
+    "cros": false,
+    "stream": "https://sh4.radioonlinehd.com:8564/stream",
+    "features": "/img/central-america/guatemala/la-mega.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/la-mega?time="
+  },
+  "atmosfera": {
+    "title": "Atmósfera FM",
+    "type": "audio/mpeg",
+    "url": "https://emisorasunidas.com/atmosfera/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/pdkbxgv5f3quv",
+    "features": "/img/central-america/guatemala/atmosfera.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/atmosfera?time="
+  },
+  "ke-buena": {
+    "title": "Radio Ke Buena",
+    "type": "audio/mpeg",
+    "url": "https://www.grupoalius.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/m5p5sfrywhhvv",
+    "features": "/img/central-america/guatemala/ke-buena.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/ke-buena?time="
+  },
+  "ilumina": {
+    "title": "Ilumina FM (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://ilumina.fm/",
+    "cros": false,
+    "stream": "https://ss.redradios.net:8026/stream",
+    "features": "/img/central-america/guatemala/ilumina.png"
+  },
+  "stereo-100": {
+    "title": "Stereo Cien (Quetzaltenango)",
+    "type": "audio/mpeg",
+    "url": "https://stereo100.com.gt/",
+    "cros": false,
+    "stream": "https://sh1.radioonlinehd.com:8056/stream",
+    "features": "/img/central-america/guatemala/stereo-100.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/stereo-100?time="
+  },
+  "estrella": {
+    "title": "Radio Estrella (San Juan Sacatepéquez)",
+    "type": "audio/mpeg",
+    "url": "https://radioestrella.net/",
+    "cros": false,
+    "stream": "https://sh1.radioonlinehd.com:8000/;",
+    "features": "/img/central-america/guatemala/estrella.png"
+  },
+  "maria": {
+    "title": "Radio María",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.org.gt/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmguatemala2?mp=/stream",
+    "features": "/img/central-america/guatemala/maria.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/maria?time="
+  },
+  "actitud-100-9": {
+    "title": "Actitud",
+    "type": "audio/mpeg",
+    "url": "https://actitud.fm/",
+    "cros": false,
+    "stream": "https://ss.redradios.net:8002/stream",
+    "features": "/img/central-america/guatemala/actitud-100-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/actitud-100-9?time="
+  },
+  "fm-fama": {
+    "title": "Fama",
+    "type": "audio/mpeg",
+    "url": "https://fama1025.com/",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2525_32.aac",
+    "features": "/img/central-america/guatemala/fm-fama.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/fm-fama?time="
+  },
+  "estereo-salvacion": {
+    "title": "Estéreo Salvación",
+    "type": "audio/mpeg",
+    "url": "https://estereosalvaciongt.com/",
+    "cros": false,
+    "stream": "https://server.radiogs.org:7045/stream/1/",
+    "features": "/img/central-america/guatemala/estereo-salvacion.png"
+  },
+  "chimalteca-chimaltenango": {
+    "title": "La Chimalteca (Chimaltenango)",
+    "type": "audio/mpeg",
+    "url": "http://www.lachimalteca.com/",
+    "cros": true,
+    "stream": "http://centova2.rogohosting.com:8059/stream/1/",
+    "features": "/img/central-america/guatemala/chimalteca-chimaltenango.png"
+  },
+  "exa-fm": {
+    "title": "Exa FM (Cuidad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://exafm.com/guatemala/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/uvhdnfd73hhvv",
+    "features": "/img/central-america/guatemala/exa-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/exa-fm?time="
+  },
+  "eventos-catolicos": {
+    "title": "Eventos Católicos Radio",
+    "type": "audio/mpeg",
+    "url": "https://eventoscatolicos.org/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/1g9cduy10bruv",
+    "features": "/img/central-america/guatemala/eventos-catolicos.png"
+  },
+  "stereo-hits": {
+    "title": "Stereo Hits",
+    "type": "audio/mpeg",
+    "url": "http://stereohits967.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/cbf77nz72k8uv",
+    "features": "/img/central-america/guatemala/stereo-hits.png"
+  },
+  "tic-tac-guatemala": {
+    "title": "Radio Tic Tac",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://server3.sit-mexico.com:8006/live",
+    "features": "/img/central-america/guatemala/tic-tac-guatemala.png"
+  },
+  "norte-fm": {
+    "title": "Radio Norte",
+    "type": "audio/mpeg",
+    "url": "http://radionorte680.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/a68m31ux5k8uv",
+    "features": "/img/central-america/guatemala/norte-fm.png"
+  },
+  "tgw": {
+    "title": "Radio TGW (Ciudad de Guatemala)",
+    "type": "audio/mpeg",
+    "url": "https://radiotgw.gob.gt/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/8827exas36duv?rj-ttl=5&rj-tok=AAABcnH3UfQAaQZVmkkjBut3fg",
+    "features": "/img/central-america/guatemala/tgw.png"
+  },
+  "recuerdo-estereo": {
+    "title": "Recuerdo Stereo",
+    "type": "audio/mpeg",
+    "url": "http://www.corporacionradialfm.com/",
+    "cros": false,
+    "stream": "https://cloudstream2032.conectarhosting.com/8300/stream/1/",
+    "features": "/img/central-america/guatemala/recuerdo-estereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/9/recuerdo-estereo?time="
+  },
+  "occidental-estereo": {
+    "title": "Occidental Estéreo",
+    "type": "audio/mpeg",
+    "url": "https://www.occidentalradio.com/",
+    "cros": false,
+    "stream": "https://ss.redradios.net:8043/stream",
+    "features": "/img/central-america/guatemala/occidental-estereo.png"
+  },
+  "club": {
+    "title": "Club Radio (Antigua Guatemala)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://ais-sa2.cdnstream1.com/2539_32.aac",
+    "features": "/img/central-america/guatemala/club.png"
+  }
+}

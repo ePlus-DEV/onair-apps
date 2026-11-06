@@ -1,0 +1,369 @@
+{
+  "los-40-principales": {
+    "title": "Los 40 Principales",
+    "type": "audio/mpeg",
+    "url": "https://los40.com.ar/",
+    "cros": false,
+    "stream": "https://frontend.radiohdvivo.com/los40/live",
+    "features": "/img/south-america/argentina/los-40-principales.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/los-40-principales?time=",
+    "favorite": true
+  },
+  "radio-disney": {
+    "title": "Radio Disney (Argentina)",
+    "type": "audio/mpeg",
+    "url": "https://ar.radiodisney.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_ARG_BA_SC",
+    "features": "/img/south-america/argentina/radio-disney.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/radio-disney?time="
+  },
+  "radio-10": {
+    "title": "Radio 10",
+    "type": "application/x-mpegURL",
+    "url": "https://www.minutouno.com/radio10",
+    "cros": false,
+    "stream": "https://radio10.stweb.tv/radio10/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/radio-10.png"
+  },
+  "radio-pop": {
+    "title": "Pop FM (Buenos Aires)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.minutouno.com/radio-pop",
+    "cros": false,
+    "stream": "https://ny2.stweb.tv/popradio/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/radio-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/radio-pop?time="
+  },
+  "mega-98-3": {
+    "title": "Mega",
+    "type": "application/x-mpegURL",
+    "url": "",
+    "cros": false,
+    "stream": "https://mega.stweb.tv/mega983/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/mega-98-3.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/mega-98-3?time="
+  },
+  "rock-and-pop": {
+    "title": "FM Rock and Pop 95.9",
+    "type": "audio/mpeg",
+    "url": "https://fmrockandpop.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCKANDPOPAAC_SC",
+    "features": "/img/south-america/argentina/rock-and-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/rock-and-pop?time="
+  },
+  "vorterix": {
+    "title": "Vorterix",
+    "type": "audio/mpeg",
+    "url": "https://www.vorterix.com/",
+    "cros": false,
+    "stream": "https://ice2.edge-apps.net/radio1_high-20057.audio",
+    "features": "/img/south-america/argentina/vorterix.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/vorterix?time="
+  },
+  "aspen": {
+    "title": "Aspen (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://fmaspen.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ASPEN_SC",
+    "features": "/img/south-america/argentina/aspen.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/aspen?time="
+  },
+  "radio-vale": {
+    "title": "Radio Vale",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radiovale.fm/",
+    "cros": false,
+    "stream": "https://vale.stweb.tv/vale/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/radio-vale.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/radio-vale?time="
+  },
+  "del-plata": {
+    "title": "Radio AM 1030 Del Plata (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://amdelplata.com/",
+    "cros": false,
+    "stream": "https://frontend.radiohdvivo.com/delplata1030/live",
+    "features": "/img/south-america/argentina/del-plata.png"
+  },
+  "radio-metro": {
+    "title": "Metro 95.1",
+    "type": "audio/mpeg",
+    "url": "https://www.metro951.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/METRO_SC",
+    "features": "/img/south-america/argentina/radio-metro.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/radio-metro?time="
+  },
+  "popular-cordoba": {
+    "title": "La Popu (Córdoba)",
+    "type": "audio/mpeg",
+    "url": "https://www.cadena3.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LAPOPU_SC",
+    "features": "/img/south-america/argentina/popular-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/popular-cordoba?time="
+  },
+  "vida-rosario": {
+    "title": "Radio Vida FM (Rosario)",
+    "type": "audio/mpeg",
+    "url": "https://www.fmvida.com.ar/",
+    "cros": false,
+    "stream": "https://streaming450tb.locucionar.com/proxy/fmvida979?mp=/stream",
+    "features": "/img/south-america/argentina/vida-rosario.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/vida-rosario?time="
+  },
+  "radio-nacional-argentina": {
+    "title": "Radio Nacional AM870 (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://www.radionacional.com.ar/",
+    "cros": false,
+    "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad1",
+    "features": "/img/south-america/argentina/radio-nacional-argentina.png"
+  },
+  "la-red": {
+    "title": "La Red",
+    "type": "audio/mpeg",
+    "url": "https://www.lared.am/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LA_RED_AM910AAC_SC",
+    "features": "/img/south-america/argentina/la-red.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/la-red?time="
+  },
+  "cadena-tres": {
+    "title": "Cadena 3 (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://www.cadena3.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO3_SC",
+    "features": "/img/south-america/argentina/cadena-tres.png"
+  },
+  "rivadavia": {
+    "title": "Radio Rivadavia AM630",
+    "type": "audio/mpeg",
+    "url": "https://rivadavia.com.ar/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RIVADAVIAAAC_SC",
+    "features": "/img/south-america/argentina/rivadavia.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/rivadavia?time="
+  },
+  "continental": {
+    "title": "Continental AM (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://www.continental.com.ar/",
+    "cros": false,
+    "stream": "https://frontend.radiohdvivo.com/continental/live",
+    "features": "/img/south-america/argentina/continental.png"
+  },
+  "fm-cordoba": {
+    "title": "Fm Córdoba - Cadena Heat",
+    "type": "audio/mpeg",
+    "url": "https://www.cadenaheat.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CADENAHEAT_SC",
+    "features": "/img/south-america/argentina/fm-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/fm-cordoba?time="
+  },
+  "radio-am-750-buenos-aires": {
+    "title": "Radio AM 750 (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://www.pagina12.com.ar/am750/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AM750AAC_SC",
+    "features": "/img/south-america/argentina/radio-am-750-buenos-aires.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/radio-am-750-buenos-aires?time="
+  },
+  "sucesos-cordoba": {
+    "title": "Radio Sucesos (Córdoba)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://server1.dainusradio.com:2341/;",
+    "features": "/img/south-america/argentina/sucesos-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/sucesos-cordoba?time="
+  },
+  "sol-mendoza": {
+    "title": "Estación del Sol (Mendoza)",
+    "type": "audio/mpeg",
+    "url": "https://estaciondelsol.elsol.com.ar/",
+    "cros": false,
+    "stream": "https://streamserver-2.xyz/listen/estacion_del_sol/radio.aac",
+    "features": "/img/south-america/argentina/sol-mendoza.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/sol-mendoza?time="
+  },
+  "tkm-radio": {
+    "title": "Radio One",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radioone1037.fm/",
+    "cros": false,
+    "stream": "https://s8.stweb.tv/one/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/tkm-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/tkm-radio?time="
+  },
+  "rosario-3": {
+    "title": "Radio Rosario 3",
+    "type": "audio/mpeg",
+    "url": "https://www.rosario3.com/",
+    "cros": false,
+    "stream": "https://streaming320tb.locucionar.com/proxy/radio2?mp=/stream/1/",
+    "features": "/img/south-america/argentina/rosario-3.png"
+  },
+  "blue-100-7-fm": {
+    "title": "Blue 100.7",
+    "type": "audio/mpeg",
+    "url": "https://bluefm.com.ar/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BLUE_FM_100_7AAC_SC",
+    "features": "/img/south-america/argentina/blue-100-7-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/blue-100-7-fm?time="
+  },
+  "delta-capital-federal": {
+    "title": "Delta FM (Capital Federal)",
+    "type": "audio/mpeg",
+    "url": "https://fmdelta903.com/",
+    "cros": false,
+    "stream": "https://cdn.instream.audio/:9069/stream",
+    "features": "/img/south-america/argentina/delta-capital-federal.png"
+  },
+  "gamba-cordoba": {
+    "title": "Gamba FM (Córdoba)",
+    "type": "audio/mpeg",
+    "url": "https://gamba.fm/",
+    "cros": false,
+    "stream": "https://servidor1.hostradios.com:8132/stream",
+    "features": "/img/south-america/argentina/gamba-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/gamba-cordoba?time="
+  },
+  "fm-89-9": {
+    "title": "Con Vos FM",
+    "type": "application/x-mpegURL",
+    "url": "https://radioconvos.com.ar/",
+    "cros": false,
+    "stream": "https://server1.stweb.tv/rcvos/live/playlist.m3u8",
+    "features": "/img/south-america/argentina/fm-89-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/fm-89-9?time="
+  },
+  "suquia-cordoba": {
+    "title": "Radio Suquía (Córdoba)",
+    "type": "audio/mpeg",
+    "url": "https://suquia.ar/",
+    "cros": false,
+    "stream": "https://streaming01.shockmedia.com.ar:10945/stream/1/",
+    "features": "/img/south-america/argentina/suquia-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/suquia-cordoba?time="
+  },
+  "la-2x4": {
+    "title": "La 2x4",
+    "type": "audio/mpeg",
+    "url": "https://buenosaires.gob.ar/medios/la-2x4",
+    "cros": false,
+    "stream": "https://media.radios.ar:9270/stream",
+    "features": "/img/south-america/argentina/la-2x4.png"
+  },
+  "nacional-rock": {
+    "title": "Radio Nacional Rock",
+    "type": "audio/mpeg",
+    "url": "https://www.radionacional.com.ar/",
+    "cros": false,
+    "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad39",
+    "features": "/img/south-america/argentina/nacional-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/nacional-rock?time="
+  },
+  "latina": {
+    "title": "Latina FM (Buenos Aires)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.latina101.com.ar/",
+    "cros": false,
+    "stream": "https://stream-gtlc.telecentro.net.ar/hls/latinatvhls/main.m3u8",
+    "features": "/img/south-america/argentina/latina.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/latina?time="
+  },
+  "nacional-folklorica": {
+    "title": "Nacional Folklórica",
+    "type": "audio/mpeg",
+    "url": "https://www.radionacional.com.ar/",
+    "cros": false,
+    "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad38",
+    "features": "/img/south-america/argentina/nacional-folklorica.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/nacional-folklorica?time="
+  },
+  "sonic": {
+    "title": "Sonic FM (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://www.sonic.fm/",
+    "cros": true,
+    "stream": "http://streams.cloudcast.media:8000/listen.mp3",
+    "features": "/img/south-america/argentina/sonic.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/sonic?time="
+  },
+  "milenium": {
+    "title": "Milenium (Buenos Aires)",
+    "type": "audio/mpeg",
+    "url": "https://fmmilenium.com.ar/",
+    "cros": false,
+    "stream": "https://sonicpanel.hostradios.com/8002/stream",
+    "features": "/img/south-america/argentina/milenium.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/milenium?time="
+  },
+  "mucha-radio-fm": {
+    "title": "Mucha Radio FM",
+    "type": "audio/mpeg",
+    "url": "https://mucharadio.com.ar/",
+    "cros": false,
+    "stream": "https://us-b4-p-e-zs14-audio.cdn.mdstrm.com/live-audio-aw-bkp/60a2765c40105808346c569f",
+    "features": "/img/south-america/argentina/mucha-radio-fm.png"
+  },
+  "clasica": {
+    "title": "Radio Nacional Clásica",
+    "type": "audio/mpeg",
+    "url": "https://www.radionacional.com.ar/",
+    "cros": false,
+    "stream": "https://sa.mp3.icecast.magma.edge-access.net/sc_rad37",
+    "features": "/img/south-america/argentina/clasica.png"
+  },
+  "fonica-rosario": {
+    "title": "Radiofónica FM (Rosario)",
+    "type": "audio/mpeg",
+    "url": "https://radiofonica.com/",
+    "cros": true,
+    "stream": "http://radio02.ferozo.com:8628/stream/1/",
+    "features": "/img/south-america/argentina/fonica-rosario.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/fonica-rosario?time="
+  },
+  "el-mundo": {
+    "title": "Radio El Mundo (Capital Federal)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioelmundoam1070.com/",
+    "cros": true,
+    "stream": "http://streaming.escuchanosonline.com:8236/stream/1/",
+    "features": "/img/south-america/argentina/el-mundo.png"
+  },
+  "radio-770": {
+    "title": "Radio 770",
+    "type": "audio/mpeg",
+    "url": "https://r770.com.ar/",
+    "cros": false,
+    "stream": "https://cdn.instream.audio:9582/stream",
+    "features": "/img/south-america/argentina/radio-770.png"
+  },
+  "nuestra-cordoba": {
+    "title": "102.3 Más Que Música",
+    "type": "audio/mpeg",
+    "url": "https://www.cba24n.com.ar/",
+    "cros": false,
+    "stream": "https://radios.solumedia.com:6276/stream/1/",
+    "features": "/img/south-america/argentina/nuestra-cordoba.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/nuestra-cordoba?time="
+  },
+  "oktubre-fm": {
+    "title": "Oktubre FM",
+    "type": "audio/mpeg",
+    "url": "https://oktubre.fm/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OKTUBRE_SC",
+    "features": "/img/south-america/argentina/oktubre-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/18/oktubre-fm?time="
+  }
+}

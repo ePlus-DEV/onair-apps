@@ -1,9 +1,15 @@
 # ePlus OnAir Apps
 
-Cross-platform application packaging for [ePlus OnAir](https://radio.eplus.dev/).
+Cross-platform application for [ePlus OnAir](https://radio.eplus.dev/). The app frontend and station catalog live in `frontend/` in this repository.
 
-Source of truth for the UI, station catalog, playback rules and translations: [ePlus-DEV/radio.eplus.dev](https://github.com/ePlus-DEV/radio.eplus.dev).
+Android is under development. The debug build and emulator checks are for testing; a signed production release and physical-device validation are still required.
 
-This repository hosts native mobile and desktop shells. Do not duplicate or independently modify the radio catalog, SEO content, or the shared web interface here.
+## Android development
 
-> Initial scaffold is under development; no production binaries are available yet.
+1. Install Node 24 and JDK 21, then run `npm ci` at the repository root and in `frontend/`.
+2. Run `npm run sync:web` at the root, followed by `npx cap sync android`.
+3. Open `android/` in Android Studio or run the Gradle debug build with an Android SDK installed.
+
+Run `npm run check` at the root and `npm test` in `frontend/` for app-focused checks. The copied website's deployment and SEO checks remain available separately as `npm run test:upstream-web`; some require website-only files. The Android workflow also builds the debug APK, runs Java tests, and checks startup and native playback on an emulator.
+
+The catalog is bundled; station artwork uses the public OnAir host. Optional public CORS, Zing, and authorized-provider endpoints can be supplied through the `NUXT_PUBLIC_*` build environment variables described in [the architecture notes](docs/ARCHITECTURE.md).

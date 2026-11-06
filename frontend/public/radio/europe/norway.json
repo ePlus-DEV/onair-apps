@@ -1,0 +1,368 @@
+{
+    "nrj-norge": {
+        "title": "NRJ",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/nrj/",
+        "cros": false,
+        "stream": "https://nrj.p4groupaudio.com/NRJ_AH",
+        "features": "/img/europe/norway/nrj-norge.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrj-norge?time=",
+        "favorite": true
+    },
+    "beat-fm": {
+        "title": "The Beat",
+        "type": "audio/mpeg",
+        "url": "https://thebeat.no/",
+        "cros": false,
+        "stream": "https://stream.oneplay.no/beatoslo64",
+        "features": "/img/europe/norway/beat-fm.png"
+    },
+    "scansat": {
+        "title": "Scansat Radio",
+        "type": "audio/mpeg",
+        "url": "https://scansat.no/",
+        "cros": false,
+        "stream": "https://stream.scansat.no/scansat_mq",
+        "features": "/img/europe/norway/scansat.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/scansat?time="
+    },
+    "beiarn": {
+        "title": "Radio Beiarn",
+        "type": "audio/mpeg",
+        "url": "https://www.beiarradioen.no/",
+        "cros": true,
+        "stream": "http://cp10.shoutcheap.com:8122/stream/1/",
+        "features": "/img/europe/norway/beiarn.png"
+    },
+    "norge-olso": {
+        "title": "Radio Norge (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.no/radio-norge/",
+        "cros": false,
+        "stream": "https://live-bauerno.sharp-stream.com/radionorge_no_mp3",
+        "features": "/img/europe/norway/norge-olso.png"
+    },
+    "nrk-mp3-solo": {
+        "title": "NRK MP3 (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://p3.no/mp3/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_mp3_mp3_h",
+        "features": "/img/europe/norway/nrk-mp3-solo.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-mp3-solo?time="
+    },
+    "nrk-p1-stor-oslo": {
+        "title": "NRK P1 Stor-Oslo",
+        "type": "audio/mpeg",
+        "url": "https://www.nrk.no/stor-oslo/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_p1_stor-oslo_mp3_m",
+        "features": "/img/europe/norway/nrk-p1-stor-oslo.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-p1-stor-oslo?time="
+    },
+    "nrk-p2": {
+        "title": "NRK P2",
+        "type": "audio/mpeg",
+        "url": "https://radio.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_p2_mp3_l",
+        "features": "/img/europe/norway/nrk-p2.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-p2?time="
+    },
+    "nrk-p3": {
+        "title": "NRK P3",
+        "type": "audio/mpeg",
+        "url": "https://p3.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_p3_mp3_m",
+        "features": "/img/europe/norway/nrk-p3.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-p3?time="
+    },
+    "nrk-p3-radioresepsjonen": {
+        "title": "NRK P3 Radioresepsjonen",
+        "type": "application/x-mpegURL",
+        "url": "https://p3.no/radioresepsjonen/",
+        "cros": false,
+        "stream": "https://httpcache0-47115-httpcache0.dna.ip-only.net/47115-cachelive2/36/0/hls/nrk_p3/playlist.m3u8?bw_low=16&bw_high=130",
+        "features": "/img/europe/norway/nrk-p3-radioresepsjonen.png"
+    },
+    "p4-norge-89-7": {
+        "title": "P4 Lyden av",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/p4/",
+        "cros": false,
+        "stream": "https://p4.p4groupaudio.com/P04_AH",
+        "features": "/img/europe/norway/p4-norge-89-7.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/p4-norge-89-7?time="
+    },
+    "p11-bandit": {
+        "title": "P11 Bandit",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/p12/",
+        "cros": false,
+        "stream": "https://p11.p4groupaudio.com/P11_AH",
+        "features": "/img/europe/norway/p11-bandit.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/p11-bandit?time="
+    },
+    "p5-hits": {
+        "title": "P5 Hits (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/p5/",
+        "cros": false,
+        "stream": "https://p5.p4groupaudio.com/P05_AM",
+        "features": "/img/europe/norway/p5-hits.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/p5-hits?time="
+    },
+    "klem-fm": {
+        "title": "P7 Klem FM (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/p7/",
+        "cros": false,
+        "stream": "https://p7.p4groupaudio.com/P07_AH",
+        "features": "/img/europe/norway/klem-fm.png"
+    },
+    "p7-kristen": {
+        "title": "P7 Kristen Riksradio",
+        "type": "audio/mpeg",
+        "url": "https://www.p7.no/",
+        "cros": false,
+        "stream": "https://radio.p7.no/radio/8020/kristen_riksradio",
+        "features": "/img/europe/norway/p7-kristen.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/p7-kristen?time="
+    },
+    "p4-country": {
+        "title": "P10 Radio Country",
+        "type": "audio/mpeg",
+        "url": "https://www.lydenavnorge.no/p10/",
+        "cros": false,
+        "stream": "https://p10.p4groupaudio.com/P10_AM",
+        "features": "/img/europe/norway/p4-country.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/p4-country?time="
+    },
+    "nrl-p13": {
+        "title": "NRK P13",
+        "type": "audio/mpeg",
+        "url": "https://www.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_p13_mp3_l",
+        "features": "/img/europe/norway/nrl-p13.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrl-p13?time="
+    },
+    "nrk-alltid-nyheter": {
+        "title": "NRK Alltid Nyheter (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://radio.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_alltid_nyheter_mp3_h",
+        "features": "/img/europe/norway/nrk-alltid-nyheter.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-alltid-nyheter?time="
+    },
+    "nrk-klassisk": {
+        "title": "NRK Klassisk",
+        "type": "audio/mpeg",
+        "url": "https://radio.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_klassisk_mp3_h",
+        "features": "/img/europe/norway/nrk-klassisk.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-klassisk?time="
+    },
+    "nrk-jazz": {
+        "title": "NRK Jazz",
+        "type": "audio/mpeg",
+        "url": "https://www.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_jazz_mp3_h",
+        "features": "/img/europe/norway/nrk-jazz.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-jazz?time="
+    },
+    "nrk-sport": {
+        "title": "NRK Sport",
+        "type": "audio/mpeg",
+        "url": "https://radio.nrk.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_radio_sport_aac_l",
+        "features": "/img/europe/norway/nrk-sport.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-sport?time="
+    },
+    "nrk-super": {
+        "title": "NRK Super",
+        "type": "audio/mpeg",
+        "url": "https://nrksuper.no/",
+        "cros": false,
+        "stream": "https://lyd.nrk.no/nrk_super_mp3_l",
+        "features": "/img/europe/norway/nrk-super.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/nrk-super?time="
+    },
+    "rox": {
+        "title": "Radio Rox (Oslo)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorox.no/",
+        "cros": false,
+        "stream": "https://stream.oneplay.no/rox64",
+        "features": "/img/europe/norway/rox.png"
+    },
+    "1fm": {
+        "title": "1FM",
+        "type": "audio/mpeg",
+        "url": "https://www.1fm.no/",
+        "cros": false,
+        "stream": "https://s2.radio.co/s914ffa700/listen",
+        "features": "/img/europe/norway/1fm.png"
+    },
+    "metro": {
+        "title": "Radio Metro",
+        "type": "audio/mpeg",
+        "url": "https://radiometro.no/",
+        "cros": false,
+        "stream": "https://stream.oneplay.no/oslo64",
+        "features": "/img/europe/norway/metro.png"
+    },
+    "102": {
+        "title": "Radio 102",
+        "type": "audio/mpeg",
+        "url": "https://radio102.no/",
+        "cros": false,
+        "stream": "https://stream.radio102.no/radio102_hq",
+        "features": "/img/europe/norway/102.png"
+    },
+    "randsfjord-jevnaker": {
+        "title": "Radio Randsfjord (Jevnaker)",
+        "type": "audio/mpeg",
+        "url": "https://radiorandsfjord.no/",
+        "cros": false,
+        "stream": "https://stream.radiorandsfjord.no/randsfjord128.mp3",
+        "features": "/img/europe/norway/randsfjord-jevnaker.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/randsfjord-jevnaker?time="
+    },
+    "metal-express": {
+        "title": "Metal Express Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.metalexpressradio.com/",
+        "cros": false,
+        "stream": "https://s39.myradiostream.com/11590/stream/1/",
+        "features": "/img/europe/norway/metal-express.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/metal-express?time="
+    },
+    "latin-amerika-oslo": {
+        "title": "Radio Latin Amerika",
+        "type": "audio/mpeg",
+        "url": "https://www.radiolatinamerika.no",
+        "cros": false,
+        "stream": "https://stream.radiolatinamerika.no/latam_hq",
+        "features": "/img/europe/norway/latin-amerika-oslo.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/latin-amerika-oslo?time="
+    },
+    "bardufoss": {
+        "title": "Radio Bardufoss",
+        "type": "audio/mpeg",
+        "url": "https://bardufoss.no/",
+        "cros": false,
+        "stream": "https://stream.radio3.no/radiobardufoss192",
+        "features": "/img/europe/norway/bardufoss.png"
+    },
+    "ost": {
+        "title": "Radio Øst",
+        "type": "audio/mpeg",
+        "url": "https://www.radio-ost.no/",
+        "cros": false,
+        "stream": "https://stream.radio-ost.no/radioost_hq",
+        "features": "/img/europe/norway/ost.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/ost?time="
+    },
+    "haugaland": {
+        "title": "Radio Haugaland",
+        "type": "audio/mpeg",
+        "url": "https://radioh.no/",
+        "cros": true,
+        "stream": "http://radioip.no:8000/stream/1/",
+        "features": "/img/europe/norway/haugaland.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/haugaland?time="
+    },
+    "bo": {
+        "title": "Radio Bø",
+        "type": "audio/mpeg",
+        "url": "https://radiobo.no/",
+        "cros": false,
+        "stream": "https://nettradio.radiobo.com/radiobo-high",
+        "features": "/img/europe/norway/bo.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/bo?time="
+    },
+    "hallingdal": {
+        "title": "Radio Hallingdal",
+        "type": "audio/mpeg",
+        "url": "https://www.radiohallingdal.no/",
+        "cros": true,
+        "stream": "http://audio.visto.no/radiohallingdal",
+        "features": "/img/europe/norway/hallingdal.png"
+    },
+    "grenland": {
+        "title": "Radio Grenland",
+        "type": "audio/mpeg",
+        "url": "https://radiogrenland.no/",
+        "cros": false,
+        "stream": "https://audio.radiogrenland.no/grenland_hq",
+        "features": "/img/europe/norway/grenland.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/grenland?time="
+    },
+    "tonsberg": {
+        "title": "Radio Tønsberg",
+        "type": "audio/mpeg",
+        "url": "https://radiotonsberg.no/",
+        "cros": false,
+        "stream": "https://audio.radiotonsberg.no/tonsberg_mq",
+        "features": "/img/europe/norway/tonsberg.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/tonsberg?time="
+    },
+    "solorradioen": {
+        "title": "SolørRadioen",
+        "type": "audio/mpeg",
+        "url": "https://www.solorradioen.no",
+        "cros": false,
+        "stream": "https://lyd.radioene.no/solor.mp3",
+        "features": "/img/europe/norway/solorradioen.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/solorradioen?time="
+    },
+    "askoy": {
+        "title": "Radio Askøy",
+        "type": "audio/mpeg",
+        "url": "https://www.radioaskoy.no/",
+        "cros": false,
+        "stream": "https://radioaskoy.radioca.st/stream/1/",
+        "features": "/img/europe/norway/askoy.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/askoy?time="
+    },
+    "tromso": {
+        "title": "Radio Tromsø",
+        "type": "audio/mpeg",
+        "url": "https://radiotromso.no/",
+        "cros": false,
+        "stream": "https://stream.bardufoss.no/radiotromso",
+        "features": "/img/europe/norway/tromso.png"
+    },
+    "hamarradioen": {
+        "title": "HamarRadioen",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://lyd.radioene.no/hamar.mp3",
+        "features": "/img/europe/norway/hamarradioen.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/hamarradioen?time="
+    },
+    "metro-sorlandet": {
+        "title": "Radio Metro (Sørlandet)",
+        "type": "audio/mpeg",
+        "url": "https://radiometro.no/sorlandet-sist-spilt/",
+        "cros": false,
+        "stream": "https://stream.oneplay.no/sorlandet128",
+        "features": "/img/europe/norway/metro-sorlandet.png"
+    },
+    "alta": {
+        "title": "Radio Alta",
+        "type": "audio/mpeg",
+        "url": "https://www.altaposten.no/",
+        "cros": false,
+        "stream": "https://stream02.nordavis.no/radioalta-128k",
+        "features": "/img/europe/norway/alta.png",
+        "schedule": "https://api.webrad.io/data/playlist/115/alta?time="
+    }
+}

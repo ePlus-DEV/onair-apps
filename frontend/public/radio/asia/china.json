@@ -1,0 +1,401 @@
+{
+  "xiang-gang1tai": {
+    "title": "香港电台网站第1台",
+    "type": "application/x-mpegURL",
+    "signal": "92.6 FM",
+    "url": "https://www.rthk.hk/radio/radio1",
+    "cros": false,
+    "stream": "https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8",
+    "features": "/img/asia/china/xiang-gang1tai.png",
+    "favorite": true
+  },
+  "fu-shan883": {
+    "title": "佛山电台FM883",
+    "type": "application/x-mpegURL",
+    "signal": "88.3 FM",
+    "url": "http://www.radiofoshan.com.cn/fm883/",
+    "cros": true,
+    "stream": "http://61.142.208.174:1935/883/883.sdp/playlist.m3u8",
+    "features": "/img/asia/china/fu-shan883.png"
+  },
+  "bei-jing-yin-le": {
+    "title": "北京音乐广播",
+    "type": "application/x-mpegURL",
+    "signal": "97.4 FM",
+    "url": "http://fm974.rbc.cn/",
+    "cros": false,
+    "stream": "https://rtmp-push.tingtingfm.com/bjradio/fm974.m3u8?auth_key=1634828588-CBrEfvcH-0-eb354c141e70dda8061b94dc00900d48",
+    "features": "/img/asia/china/bei-jing-yin-le.png",
+    "schedule": "https://api-v3.tingtingfm.com/broadcast/get_radio_programs?version=h5_5.2&client=h5_Ucio1kxUWYWLPzq41GmRla8kCy9BzF&h_radio_id=R6gayOdeVM&api_sign=5242ff74e032695798bd958a30d5a55d"
+  },
+  "fu-shan94-6": {
+    "title": "佛山电台FM94.6",
+    "type": "application/x-mpegURL",
+    "signal": "94.6 FM",
+    "url": "http://www.946.com.cn/",
+    "cros": true,
+    "stream": "http://61.142.208.174:1935/946/946.sdp/playlist.m3u8",
+    "features": "/img/asia/china/fu-shan94-6.png"
+  },
+  "xiang-gang": {
+    "title": "香港电台网站第2台",
+    "type": "application/x-mpegURL",
+    "signal": "94.8 FM",
+    "url": "https://www.rthk.hk/radio/radio2",
+    "cros": false,
+    "stream": "https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8",
+    "features": "/img/asia/china/xiang-gang.png"
+  },
+  "bei-jing": {
+    "title": "北京广播网",
+    "type": "application/x-mpegURL",
+    "signal": "87.6 FM",
+    "url": "http://www.rbc.cn/",
+    "cros": true,
+    "stream": "http://123.56.16.201:1935/live/fm876/96K/tzwj_video.m3u8",
+    "features": "/img/asia/china/bei-jing.png"
+  },
+  "yin-le-zhi-sheng": {
+    "title": "中国广播网音乐之声",
+    "type": "audio/mp3",
+    "signal": "90.0 FM",
+    "url": "https://www.cnr.cn/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/388/64k.mp3",
+    "features": "/img/asia/china/yin-le-zhi-sheng.png"
+  },
+  "cri-news": {
+    "title": "环球资讯广播",
+    "type": "application/x-mpegURL",
+    "signal": "90.5 FM",
+    "url": "http://newsradio.cri.cn/",
+    "cros": true,
+    "stream": "http://sk.cri.cn/905.m3u8",
+    "features": "/img/asia/china/cri-news.png"
+  },
+  "xiang-gang4tai": {
+    "title": "香港电台网站第4台",
+    "type": "application/x-mpegURL",
+    "signal": "97.6 FM",
+    "url": "https://www.rthk.hk/radio/radio4",
+    "cros": false,
+    "stream": "https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8",
+    "features": "/img/asia/china/xiang-gang4tai.png"
+  },
+  "guang-dong-yin-le": {
+    "title": "广东电台音乐之声",
+    "type": "audio/mpeg",
+    "signal": "99.3 FM",
+    "url": null,
+    "cros": true,
+    "stream": "http://ctt5.rgd.com.cn/fm993",
+    "features": "/img/asia/china/guang-dong-yin-le.png",
+    "schedule": "https://webapi.qingting.fm/api/pc/radio/1280"
+  },
+  "fu-shan906": {
+    "title": "佛山电台FM906",
+    "type": "audio/mp3",
+    "signal": "90.6 FM",
+    "url": "http://www.radiofoshan.com.cn/fm906/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/1264/64k.mp3",
+    "features": "/img/asia/china/fu-shan906.png"
+  },
+  "chutian-music": {
+    "title": "Chutian Music Radio",
+    "type": "audio/mp3",
+    "signal": "105.8 FM",
+    "url": "http://news.hbtv.com.cn/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/1289/64k.mp3",
+    "features": "/img/asia/china/chutian-music.png"
+  },
+  "hangzhou-voice-of-west-lake-au": {
+    "title": "Hangzhou Voice Of West Lake Auto Radio",
+    "type": "audio/mp3",
+    "signal": "105.4 FM",
+    "url": "http://www.fm1054.com",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/1163/64k.mp3",
+    "features": "/img/asia/china/hangzhou-voice-of-west-lake-au.png"
+  },
+  "beijing-news": {
+    "title": "Beijing News Radio",
+    "type": "audio/mp3",
+    "signal": "100.6 FM",
+    "url": null,
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/339/64k.mp3",
+    "features": "/img/asia/china/beijing-news.png"
+  },
+  "online-chinese-classical-music": {
+    "title": "Online Chinese Classical Music Radio",
+    "type": "audio/mp3",
+    "signal": "Stream",
+    "url": "https://chinesemusicworld.com/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/339/64k.mp3",
+    "features": "/img/asia/china/online-chinese-classical-music.png"
+  },
+  "xiang-gang3tai": {
+    "title": "香港电台网站第3台",
+    "type": "application/x-mpegURL",
+    "signal": "97.9 FM",
+    "url": "https://www.rthk.hk/radio/radio3",
+    "cros": false,
+    "stream": "https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8",
+    "features": "/img/asia/china/xiang-gang3tai.png"
+  },
+  "news-plus": {
+    "title": "NEWS Plus",
+    "type": "application/x-mpegURL",
+    "signal": "846 AM",
+    "url": "http://chinaplus.cri.cn/",
+    "cros": true,
+    "stream": "http://sk.cri.cn/am846.m3u8",
+    "features": "/img/asia/china/news-plus.png"
+  },
+  "zhu-jiang-jing-ji": {
+    "title": "广东广播电视台珠江经济台",
+    "type": "application/x-mpegURL",
+    "signal": "97.4 FM",
+    "url": "https://www.gdtv.cn/tvChannelDetail/86",
+    "cros": false,
+    "stream": "https://rlizhi.gdtv.cn/audio/fm974.m3u8?auth_key=1634045934-0-0-5ad15a35d60e3e18ce6f09b81d3836a5",
+    "features": "/img/asia/china/zhu-jiang-jing-ji.png",
+    "schedule": "https://gdtv-api.gdtv.cn/api/tv/v2/tvMenu?tvChannelPk=86&beginAt=2021-10-06&endAt=2021-10-15"
+  },
+  "sha-men-yin-le": {
+    "title": "厦门音乐广播",
+    "type": "application/x-mpegURL",
+    "signal": "90.9 FM",
+    "url": null,
+    "cros": false,
+    "stream": "https://live1.kxm.xmtv.cn/aac_xmyy/sd/live.m3u8",
+    "features": "/img/asia/china/sha-men-yin-le.png"
+  },
+  "dongguan-traffic-music": {
+    "title": "Dongguan Traffic & Music Radio",
+    "type": "application/x-mpegURL",
+    "signal": "107.5 FM",
+    "url": "http://www.sun0769.com",
+    "cros": false,
+    "stream": "https://stream.sun0769.com/dgrtv1/mp4:tv11/index.m3u8?channel=1&t=1634911141&ttl=1200&key=1454a070051851ef7aa11a5f31d338a2",
+    "features": "/img/asia/china/dongguan-traffic-music.png"
+  },
+  "zhongshan-happy": {
+    "title": "Zhongshan Happy Radio",
+    "type": "audio/mp3",
+    "signal": "88.8 FM",
+    "url": "http://www.zsfm888.com/",
+    "cros": true,
+    "stream": "https://cdn-cms.tunein.com/service/Audio/notcompatible.enUS.mp3",
+    "features": "/img/asia/china/zhongshan-happy.png"
+  },
+  "qing-song": {
+    "title": "轻松调频",
+    "type": "audio/mp3",
+    "signal": "91.5 FM",
+    "url": "http://ezfm.cri.cn/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/1006/64k.mp3",
+    "features": "/img/asia/china/qing-song.png",
+    "schedule": "https://e-cros.herokuapp.com/http://ezfm.cri.cn/qertyuiy/program/programList?startTime=2021-10-12&endTime=2021-10-12"
+  },
+  "wai-yu": {
+    "title": "北京外语广播",
+    "type": "application/x-mpegURL",
+    "signal": "91.5 FM",
+    "url": "http://www.am774.com/",
+    "cros": false,
+    "stream": "https://rtmp-push.tingtingfm.com/bjradio/am774.m3u8?auth_key=1634909820-UFQMZyPZ-0-cfff414ecfce1cc47262d7531c3c6190",
+    "features": "/img/asia/china/wai-yu.png",
+    "schedule": "https://api-v3.tingtingfm.com//broadcast/get_radio_programs?version=h5_5.2&client=h5_Ucio1kxUWYWLPzq41GmRla8kCy9BzF&h_radio_id=kDOdG0o34e&api_sign=331e890e1b036596a5319ea4cb713e8c"
+  },
+  "hitoradio": {
+    "title": "Hitoradio",
+    "type": "application/x-mpegURL",
+    "signal": "107.7 FM",
+    "url": "http://www.hitoradio.com/newweb/",
+    "cros": true,
+    "stream": "https://www.youtube.com/watch?v=Ptg8ErmPjxM",
+    "features": "/img/asia/china/hitoradio.png"
+  },
+  "fu-shan985": {
+    "title": "佛山电台FM98.5",
+    "type": "application/x-mpegURL",
+    "signal": "98.5 FM",
+    "url": "http://www.radiofoshan.com.cn/fm985/index.html",
+    "cros": false,
+    "stream": "https://play.radiofoshan.com.cn/live/1400389414_BSID_41_audio.m3u8",
+    "features": "/img/asia/china/fu-shan985.png"
+  },
+  "zheng-zhou": {
+    "title": "郑州广播在线",
+    "type": "audio/mp3",
+    "signal": "94.4 FM",
+    "url": "http://www.zzradio.cn/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/4921/64k.mp3",
+    "features": "/img/asia/china/zheng-zhou.png"
+  },
+  "fu-shan901": {
+    "title": "佛山电台FM901",
+    "type": "audio/mp3",
+    "signal": "90.1 FM",
+    "url": "http://www.radiofoshan.com.cn/fm901/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/386/64k.mp3",
+    "features": "/img/asia/china/fu-shan901.png",
+    "schedule": "https://webapi.qingting.fm/api/pc/radio/1268"
+  },
+  "nanjing-traffic": {
+    "title": "Nanjing Traffic Radio",
+    "type": "audio/mp3",
+    "signal": "102.4 FM",
+    "url": "http://www.njgb.com/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/4962/64k.mp3",
+    "features": "/img/asia/china/nanjing-traffic.png",
+    "schedule": "https://webapi.qingting.fm/api/pc/radio/4962"
+  },
+  "li-zhi": {
+    "title": "荔枝台广播在线",
+    "type": "application/x-mpegURL",
+    "signal": "107.7 FM",
+    "url": "https://www.gdtv.cn/",
+    "cros": false,
+    "stream": "https://rlizhi.gdtv.cn/audio/fm1077.m3u8",
+    "features": "/img/asia/china/li-zhi.png",
+    "schedule": "https://gdtv-api.gdtv.cn/api/tv/v2/tvMenu?tvChannelPk=92&beginAt=2021-10-06&endAt=2021-10-15"
+  },
+  "cai-jing": {
+    "title": "江苏财经广播",
+    "type": "audio/mp3",
+    "signal": "585 AM",
+    "url": "https://www.vojs.cn/2014new/c/j/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/20015/64k.mp3",
+    "features": "/img/asia/china/cai-jing.png",
+    "schedule": "https://webapi.qingting.fm/api/pc/radio/20015"
+  },
+  "an-hui-sheng-huo": {
+    "title": "安徽生活广播",
+    "type": "audio/mp3",
+    "signal": "105.5 FM",
+    "url": "http://www.ahrtv.cn/fm1055/index.shtml",
+    "cros": true,
+    "stream": "https://lhttp.qtfm.cn/live/1948/64k.mp3",
+    "features": "/img/asia/china/an-hui-sheng-huo.png",
+    "schedule": "https://webapi.qingting.fm/api/pc/radio/1948"
+  },
+  "nan-fang-sheng-huo": {
+    "title": "广东南方生活广播",
+    "type": "application/x-mpegURL",
+    "signal": "93.6 FM",
+    "url": "https://www.gdtv.cn/",
+    "cros": false,
+    "stream": "https://rlizhi.gdtv.cn/audio/fm936.m3u8?auth_key=1634050328-0-0-5b41c9a9683e1daff107d3063cb6d092",
+    "features": "/img/asia/china/nan-fang-sheng-huo.png",
+    "schedule": "https://gdtv-api.gdtv.cn/api/tv/v2/tvMenu?tvChannelPk=89&beginAt=2021-10-06&endAt=2021-10-15"
+  },
+  "hua-yu": {
+    "title": "华语广播网",
+    "type": "audio/mp3",
+    "signal": "105.9 FM",
+    "url": "http://www.yesmyradio.com/",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/336/64k.mp3",
+    "features": "/img/asia/china/hua-yu.png"
+  },
+  "bei-jing-jiao-tong": {
+    "title": "北京 交通广播",
+    "type": "application/x-mpegURL",
+    "signal": "103.9 FM",
+    "url": "https://m.tingtingfm.com/",
+    "cros": false,
+    "stream": "https://rtmp-push.tingtingfm.com/bjradio/fm1039.m3u8?auth_key=1634912809-9JOr5JTY-0-7de4f6be17c7b4a5cb16dfffc1c27da4",
+    "features": "/img/asia/china/bei-jing-jiao-tong.png"
+  },
+  "qing-chun": {
+    "title": "陕西青春广播",
+    "type": "audio/mp3",
+    "signal": "105.5 FM",
+    "url": "http://www.sxtvs.com/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/4885/64k.mp3",
+    "features": "/img/asia/china/qing-chun.png"
+  },
+  "nong-cun": {
+    "title": "陕西农村广播",
+    "type": "audio/mp3",
+    "signal": "900 AM",
+    "url": "http://www.sxtvs.com/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/1602/64k.mp3",
+    "features": "/img/asia/china/nong-cun.png"
+  },
+  "shan-xi-yin-le": {
+    "title": "陕西音乐广播",
+    "type": "audio/mp3",
+    "signal": "98.8 FM",
+    "url": "http://www.sxtvs.com/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/4873/64k.mp3",
+    "features": "/img/asia/china/shan-xi-yin-le.png"
+  },
+  "an-hui-zong-he": {
+    "title": "安徽综合广播",
+    "type": "application/x-mpegURL",
+    "signal": "93.6 FM",
+    "url": "http://www.ahrtv.cn/am936/",
+    "cros": true,
+    "stream": "http://live2.ahtv.cn/aac_xwzhgb/xwzhgb/live.m3u8?_upt=27c48b361634919474",
+    "features": "/img/asia/china/an-hui-zong-he.png"
+  },
+  "qin-qiang": {
+    "title": "秦腔广播",
+    "type": "audio/mp3",
+    "signal": "101.1 FM",
+    "url": "http://www.sxtvs.com/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/1604/64k.mp3",
+    "features": "/img/asia/china/qin-qiang.png"
+  },
+  "shan-xi-xi-qu": {
+    "title": "陕西戏曲广播",
+    "type": "audio/mp3",
+    "signal": "747 AM",
+    "url": "http://www.sxtvs.com/",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/1606/64k.mp3",
+    "features": "/img/asia/china/shan-xi-xi-qu.png"
+  },
+  "shan-xi-gu-shi": {
+    "title": "陕西故事广播",
+    "type": "audio/mp3",
+    "signal": "603 AM",
+    "url": "http://www.snrtv.com/node_39547.htm",
+    "cros": false,
+    "stream": "https://lhttp.qtfm.cn/live/1608/64k.mp3",
+    "features": "/img/asia/china/shan-xi-gu-shi.png"
+  },
+  "fu-shan924": {
+    "title": "佛山电台FM924",
+    "type": "application/x-mpegURL",
+    "signal": "92.4 FM",
+    "url": "http://www.radiofoshan.com.cn/fm924/index.html",
+    "cros": true,
+    "stream": "https://play.radiofoshan.com.cn/live/1400389414_BSID_42_audio.m3u8",
+    "features": "/img/asia/china/fu-shan924.png"
+  },
+  "an-hui-nong-cun": {
+    "title": "安徽农村广播",
+    "type": "audio/mp3",
+    "signal": "1008 AM",
+    "url": "http://www.ahrtv.cn/am1008/index.shtml",
+    "cros": false,
+    "stream": "https://lhttp.qingting.fm/live/1950/64k.mp3",
+    "features": "/img/asia/china/an-hui-nong-cun.png"
+  }
+}

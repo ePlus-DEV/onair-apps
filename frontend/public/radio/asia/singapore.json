@@ -1,0 +1,358 @@
+{
+  "yes-933": {
+    "title": "Radio Y.E.S.",
+    "type": "audio/mpeg",
+    "url": "https://www.melisten.sg/radio/yes-933/",
+    "cros": false,
+    "stream": "https://22903.live.streamtheworld.com/YES933_SC?dist=radiosingapor",
+    "features": "/img/asia/singapore/yes-933.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/yes-933?time="
+  },
+  "love-972": {
+    "title": "LOVE 97.2FM",
+    "type": "audio/mpeg",
+    "signal": "97.2FM",
+    "url": "https://www.meradio.sg",
+    "cros": false,
+    "stream": "https://22893.live.streamtheworld.com/LOVE972FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/love-972.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/love-972?time="
+  },
+  "class-95": {
+    "title": "Radio Class 95",
+    "type": "audio/mpeg",
+    "signal": "95.0 FM",
+    "url": "https://www.meradio.sg/radio/class-95",
+    "cros": false,
+    "stream": "https://22903.live.streamtheworld.com/CLASS95AAC_SC",
+    "features": "/img/asia/singapore/class-95.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/class-95?time="
+  },
+  "987fm": {
+    "title": "Radio 987 FM",
+    "type": "audio/mpeg",
+    "signal": "98.7 FM",
+    "url": "https://www.meradio.sg/radio/987",
+    "cros": false,
+    "stream": "https://22903.live.streamtheworld.com/987FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/987fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/987fm?time="
+  },
+  "capital-958": {
+    "title": "Radio Capital",
+    "type": "audio/mpeg",
+    "signal": "95.8 FM",
+    "url": "https://www.meradio.sg/radio/capital-958",
+    "cros": false,
+    "stream": "https://22893.live.streamtheworld.com/CAPITAL958FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/capital-958.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/capital-958?time="
+  },
+  "gold-90-5-fm": {
+    "title": "Radio Gold",
+    "type": "audio/mpeg",
+    "signal": "90.5 FM",
+    "url": "https://www.melisten.sg/radio/gold-905",
+    "cros": false,
+    "stream": "https://19183.live.streamtheworld.com/GOLD905AAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/gold-90-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/gold-90-5-fm?time="
+  },
+  "one-fm": {
+    "title": "One FM",
+    "type": "audio/mpeg",
+    "signal": "91.3 FM",
+    "url": "https://www.onefm.sg",
+    "cros": false,
+    "stream": "https://23743.live.streamtheworld.com/ONE_FM_913_SC",
+    "features": "/img/asia/singapore/one-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/one-fm?time="
+  },
+  "oli": {
+    "title": "Radio Oli",
+    "type": "audio/mpeg",
+    "signal": "96.8 FM",
+    "url": "https://www.melisten.sg/radio/oli968?c=968fm",
+    "cros": false,
+    "stream": "https://22893.live.streamtheworld.com/OLI968FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/oli.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/oli?time="
+  },
+  "ria": {
+    "title": "Radio Ria",
+    "type": "audio/mpeg",
+    "signal": "89.7 FM",
+    "url": "https://www.melisten.sg/radio/oli968?c=968fm",
+    "cros": false,
+    "stream": "https://22893.live.streamtheworld.com/RIA897FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/ria.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/ria?time="
+  },
+  "kiss92": {
+    "title": "Radio Kiss92",
+    "type": "audio/mpeg",
+    "signal": "89.7 FM",
+    "url": "https://www.kiss92.sg/",
+    "cros": false,
+    "stream": "https://22283.live.streamtheworld.com/KISS_92AAC_SC",
+    "features": "/img/asia/singapore/kiss92.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/kiss92?time="
+  },
+  "ufm-1003": {
+    "title": "Radio UFM",
+    "type": "audio/mpeg",
+    "signal": "100.3 FM",
+    "url": "https://www.ufm1003.sg/",
+    "cros": false,
+    "stream": "https://23743.live.streamtheworld.com/UFM_1003_SC",
+    "features": "/img/asia/singapore/ufm-1003.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/ufm-1003?time="
+  },
+  "warna": {
+    "title": "Radio Warna",
+    "type": "audio/mpeg",
+    "signal": "94.2 FM",
+    "url": "https://www.melisten.sg/radio/warna-942fm",
+    "cros": false,
+    "stream": "https://22903.live.streamtheworld.com/WARNA942FMAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/warna.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/warna?time="
+  },
+  "883-jia": {
+    "title": "Radio 88.3JIA",
+    "type": "audio/mpeg",
+    "signal": "88.3 FM",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://22283.live.streamtheworld.com/883JIAAAC_SC",
+    "features": "/img/asia/singapore/883-jia.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/883-jia?time="
+  },
+  "883-jia-web-hits": {
+    "title": "Radio 88.3JIA",
+    "type": "audio/mpeg",
+    "signal": "88.3 FM",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://22253.live.streamtheworld.com/883JIA_SC",
+    "features": "/img/asia/singapore/88-3jia-web-hits.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/88-3jia-web-hits?time="
+  },
+  "883-jia-k-pop": {
+    "title": "Radio 88.3JIA",
+    "type": "audio/mpeg",
+    "signal": "88.3 FM",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/JIA_KPOP_S01.mp3",
+    "features": "/img/asia/singapore/88-3jia-k-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/88-3jia-k-pop?time="
+  },
+  "symphony": {
+    "title": "Radio Symphony",
+    "type": "audio/mpeg",
+    "signal": "92.4 FM",
+    "url": "https://www.melisten.sg/radio/symphony924",
+    "cros": false,
+    "stream": "https://22893.live.streamtheworld.com/SYMPHONY924AAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/symphony.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/symphony?time="
+  },
+  "cna938": {
+    "title": "Radio CNA938",
+    "type": "audio/mpeg",
+    "signal": "93.8 FM",
+    "url": "https://www.channelnewsasia.com/news/cna938",
+    "cros": false,
+    "stream": "https://22903.live.streamtheworld.com/938NOWAAC.aac?dist=radiosingapore",
+    "features": "/img/asia/singapore/cna938.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/cna938?time="
+  },
+  "power": {
+    "title": "Power 98 Love Songs",
+    "type": "audio/mpeg",
+    "signal": "98.0 FM",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/POWER98_LOVESONGS_SC",
+    "features": "/img/asia/singapore/power.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/power?time=",
+    "favorite": true
+  },
+  "power-98-raw": {
+    "title": "Power 98 Raw",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/POWER_98_RAW_S01.mp3",
+    "features": "/img/asia/singapore/power-98-raw.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/power-98-raw?time="
+  },
+  "power-98-retro": {
+    "title": "Power 98 Raw",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.camokakis.sg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/POWER_98_HITS_S01.mp3",
+    "features": "/img/asia/singapore/power-98-retro.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/power-98-retro?time="
+  },
+  "masti-24x7": {
+    "title": "Radio Masti 24x7",
+    "type": "application/x-mpegURL",
+    "signal": "Stream",
+    "url": "http://radiomasti.com.sg/index.html",
+    "cros": false,
+    "stream": "https://hls.rastream.com/radiomasti-masti24x7.web.hls/playlist.m3u8",
+    "features": "/img/asia/singapore/masti-24x7.png"
+  },
+  "desi-dance": {
+    "title": "Desi Dance",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://radiomasti.com.sg/index.html",
+    "cros": true,
+    "stream": "https://usa6.fastcast4u.com/proxy/vinsingh?mp=/stream",
+    "features": "/img/asia/singapore/desi-dance.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/desi-dance?time="
+  },
+  "money-89-3": {
+    "title": "Money FM",
+    "type": "audio/mpeg",
+    "signal": "89.3 FM",
+    "url": "https://www.moneyfm893.sg",
+    "cros": false,
+    "stream": "https://23683.live.streamtheworld.com/MONEY_893_SC",
+    "features": "/img/asia/singapore/money-89-3.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/money-89-3?time="
+  },
+  "973fm": {
+    "title": "Radio 973 FM",
+    "type": "audio/mpeg",
+    "signal": "97.3 FM",
+    "url": "http://973fm.weebly.com/",
+    "cros": false,
+    "stream": "https://c16.radioboss.fm:18115/stream",
+    "features": "/img/asia/singapore/973fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/973fm?time="
+  },
+  "bible-witness-web": {
+    "title": "Bible Witness Web Radio",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://biblewitness.com/webradio/",
+    "cros": false,
+    "stream": "https://19013.live.streamtheworld.com/SP_R3179571_SC",
+    "features": "/img/asia/singapore/bible-witness-web.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/bible-witness-web?time="
+  },
+  "naga-fm": {
+    "title": "Naga FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.nagafm.com/",
+    "cros": false,
+    "stream": "https://rdopanel.cobrasoftwares.org:1065/stream",
+    "features": "/img/asia/singapore/naga-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/naga-fm?time="
+  },
+  "ccn-cyprus-chinese": {
+    "title": "CCN Cyprus Chinese Radio Tv",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://ccnnetwork.cn",
+    "cros": false,
+    "stream": "https://cdn.istoikona.com/ccnradio/ccnradio/icecast.audio",
+    "features": "/img/asia/singapore/ccn-cyprus-chinese.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/ccn-cyprus-chinese?time="
+  },
+  "melody-with-brother-bjorn": {
+    "title": "Radio melody with Brother Bjorn",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.rmelody.net",
+    "cros": false,
+    "stream": "https://bjornfalcon-gecko.radioca.st/autodj",
+    "features": "/img/asia/singapore/melody-with-brother-bjorn.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/melody-with-brother-bjorn?time="
+  },
+  "orion-station": {
+    "title": "Orion Station",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.orionstation.net",
+    "cros": true,
+    "stream": "http://quasar.shoutca.st:8528/stream/1/",
+    "features": "/img/asia/singapore/orion-station.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/orion-station?time="
+  },
+  "96-3hao": {
+    "title": "96.3好FM",
+    "type": "audio/mpeg",
+    "signal": "96.3 FM",
+    "url": "https://www.963haofm.sg",
+    "cros": false,
+    "stream": "https://22283.live.streamtheworld.com/HAO_963AAC_SC",
+    "features": "/img/asia/singapore/96-3hao.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/96-3hao?time="
+  },
+  "predication": {
+    "title": "Radio Prédication",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://radiopredication.blogspot.com",
+    "cros": false,
+    "stream": "https://rbx2.hnux.com/http://4000.cloudrad.io:8220/stream/1/",
+    "features": "/img/asia/singapore/predication.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/predication?time="
+  },
+  "xradio": {
+    "title": "XRadio",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://xradio.zone/",
+    "cros": true,
+    "stream": "http://xradio.zone:9420/stream",
+    "features": "/img/asia/singapore/xradio.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/xradio?time="
+  },
+  "chutney": {
+    "title": "Radio Chutney",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.radiochutney.com/",
+    "cros": false,
+    "stream": "https://streamer.radio.co/sf30c61bda/listen",
+    "features": "/img/asia/singapore/chutney.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/chutney?time="
+  },
+  "18-9-rsfm": {
+    "title": "18.9 RSFM Singapore",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://18.9rsfmsingapore.com/",
+    "cros": false,
+    "stream": "https://stream.hornhost.com:6294/stream/1/",
+    "features": "/img/asia/singapore/18-9-rsfm.png"
+  },
+  "kast-kast": {
+    "title": "卡卡思  Radio (Kast Kast)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.kastkast.com/",
+    "cros": false,
+    "stream": "https://s3.radio.co/sef15894a2/listen",
+    "features": "/img/asia/singapore/kast-kast.png"
+  },
+  "axr": {
+    "title": "AXR",
+    "type": "audio/mpeg",
+    "url": "http://www.axr.online/",
+    "cros": false,
+    "stream": "https://23743.live.streamtheworld.com/AXRAAC_SC",
+    "features": "/img/asia/singapore/axr.png",
+    "schedule": "https://api.webrad.io/data/playlist/66/axr?time="
+  }
+}
