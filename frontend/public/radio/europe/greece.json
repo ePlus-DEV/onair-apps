@@ -1,0 +1,1271 @@
+{
+  "90": {
+    "title": "Σκύλος 90",
+    "description": "folk, greek",
+    "type": "audio/mpeg",
+    "url": "https://skylos90fm.gr/",
+    "cros": true,
+    "stream": "http://n01.radiojar.com/819r8wupdrruv?rj-ttl=5&rj-tok=AAABePEMVGgAGH9g3lsAx7imBA",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:854d0452-c4d3-48b9-9e00-8486ec1af61b"
+  },
+  "sfera": {
+    "title": "Radio Sfera",
+    "type": "audio/mpeg",
+    "url": "https://sfera.gr/",
+    "cros": false,
+    "stream": "https://sfera.live24.gr/sfera4132",
+    "features": "/img/europe/greece/sfera.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/sfera?time=",
+    "favorite": true
+  },
+  "derti-fm": {
+    "title": "Derti",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://derti.live24.gr/derty1000",
+    "features": "/img/europe/greece/derti-fm.png"
+  },
+  "athens-deejay": {
+    "title": "Athens Deejay",
+    "type": "audio/mpeg",
+    "url": "https://www.athensdeejay.gr/",
+    "cros": false,
+    "stream": "https://az10.yesstreaming.net:8140/radio.mp3",
+    "features": "/img/europe/greece/athens-deejay.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/athens-deejay?time="
+  },
+  "real-fm": {
+    "title": "Real FM",
+    "type": "audio/mpeg",
+    "url": "https://www.real.gr/",
+    "cros": false,
+    "stream": "https://realfm2.live24.gr/realfm",
+    "features": "/img/europe/greece/real-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/real-fm?time="
+  },
+  "nova-sport-fm": {
+    "title": "Nova Sport FM",
+    "type": "audio/mpeg",
+    "url": "https://www.sport-fm.gr/",
+    "cros": false,
+    "stream": "https://sportfm.live24.gr/sportfm7712",
+    "features": "/img/europe/greece/nova-sport-fm.png"
+  },
+  "cosmo": {
+    "title": "Κοσμοράδιο",
+    "type": "audio/mpeg",
+    "url": "https://www.cosmoradio.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8812/stream",
+    "features": "/img/europe/greece/cosmo.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/cosmo?time="
+  },
+  "love": {
+    "title": "Love Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.loveradio.gr/index.php",
+    "cros": false,
+    "stream": "https://loveradio.live24.gr/loveradio-1000",
+    "features": "/img/europe/greece/love.png"
+  },
+  "kalamaria-fm": {
+    "title": "Καλαμαριά FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://ice.greekstream.net/focusfm_128",
+    "features": "/img/europe/greece/kalamaria-fm.png"
+  },
+  "en-lefko": {
+    "title": "En Lefko",
+    "type": "audio/mpeg",
+    "url": "https://www.enlefko.fm/",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/enlefko877",
+    "features": "/img/europe/greece/en-lefko.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/en-lefko?time="
+  },
+  "athens-up": {
+    "title": "Athens Up Radio",
+    "type": "audio/mpeg",
+    "url": "https://athensupradio.wixsite.com/athensupradio",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/9ndpdg3c0s8uv",
+    "features": "/img/europe/greece/athens-up.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/athens-up?time="
+  },
+  "diesi-fm": {
+    "title": "δίεση FM",
+    "type": "audio/mpeg",
+    "url": "https://diesi.gr/",
+    "cros": false,
+    "stream": "https://n14a-eu.rcs.revma.com/gkfwrhqxbfhvv",
+    "features": "/img/europe/greece/diesi-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/diesi-fm?time="
+  },
+  "melodia-fm": {
+    "title": "Μελωδία",
+    "type": "audio/mpeg",
+    "url": "https://www.melodia.gr/",
+    "cros": false,
+    "stream": "https://n02a-eu.rcs.revma.com/8tdwa6ez1duvv",
+    "features": "/img/europe/greece/melodia-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/melodia-fm?time="
+  },
+  "skai-fm": {
+    "title": "ΣΚΑΪ",
+    "type": "audio/mpeg",
+    "url": "https://www.skairadio.gr/",
+    "cros": false,
+    "stream": "https://netradio.live24.gr/skai1003",
+    "features": "/img/europe/greece/skai-fm.png"
+  },
+  "kiss-fm": {
+    "title": "Kiss FM",
+    "type": "audio/mpeg",
+    "url": "https://www.kiss929.gr/",
+    "cros": false,
+    "stream": "https://netradio.live24.gr/kissfmathens",
+    "features": "/img/europe/greece/kiss-fm.png"
+  },
+  "pepper": {
+    "title": "Pepper",
+    "type": "audio/mpeg",
+    "url": "https://www.pepper966.gr/",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/pepper",
+    "features": "/img/europe/greece/pepper.png"
+  },
+  "dromos-fm": {
+    "title": "Δρόμος",
+    "type": "audio/mpeg",
+    "url": "https://www.dromosfm.gr/",
+    "cros": false,
+    "stream": "https://n23a-eu.rcs.revma.com/10q3enqxbfhvv",
+    "features": "/img/europe/greece/dromos-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/dromos-fm?time="
+  },
+  "galaxy-fm": {
+    "title": "Galaxy FM",
+    "type": "audio/mpeg",
+    "url": "https://www.galaxy92.gr/",
+    "cros": false,
+    "stream": "https://galaxy.live24.gr/galaxy9292",
+    "features": "/img/europe/greece/galaxy-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/galaxy-fm?time="
+  },
+  "ellinadiko-fm": {
+    "title": "Ελληνάδικο FM",
+    "type": "audio/mpeg",
+    "url": "https://ellinadikofm.gr/",
+    "cros": false,
+    "stream": "https://kazura.site:8000/radio.mp3",
+    "features": "/img/europe/greece/ellinadiko-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/ellinadiko-fm?time="
+  },
+  "best-92-6-fm": {
+    "title": "Best",
+    "type": "application/x-mpegURL",
+    "url": "https://best926.gr/",
+    "cros": true,
+    "stream": "http://best926live.mdc.akamaized.net/strmBest/userBest/playlist.m3u8",
+    "features": "/img/europe/greece/best-92-6-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/best-92-6-fm?time="
+  },
+  "metropolis": {
+    "title": "Metropolis Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.metrosport.gr/radio",
+    "cros": false,
+    "stream": "https://metromedia.live24.gr/metropolis955thess",
+    "features": "/img/europe/greece/metropolis.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/metropolis?time="
+  },
+  "imagine-fm": {
+    "title": "Imagine FM",
+    "type": "audio/mpeg",
+    "url": "https://www.imagine897.gr/el/",
+    "cros": false,
+    "stream": "https://imagine897.radioca.st/stream/1/",
+    "features": "/img/europe/greece/imagine-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/imagine-fm?time="
+  },
+  "red-fm": {
+    "title": "Red",
+    "type": "audio/mpeg",
+    "url": "https://www.redfm.gr/",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/redfm963",
+    "features": "/img/europe/greece/red-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/red-fm?time="
+  },
+  "plus": {
+    "title": "Plus Radio",
+    "type": "audio/mpeg",
+    "url": "https://plusradio.gr/",
+    "cros": false,
+    "stream": "https://eco.onestreaming.com:18814/stream",
+    "features": "/img/europe/greece/plus.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/plus?time="
+  },
+  "lampsi-fm": {
+    "title": "Λάμψη",
+    "type": "application/x-mpegURL",
+    "url": "https://www.lampsifm.gr/",
+    "cros": true,
+    "stream": "http://lampsifmlive.mdc.akamaized.net/strmLampsi/userLampsi/playlist.m3u8",
+    "features": "/img/europe/greece/lampsi-fm.png"
+  },
+  "zoo": {
+    "title": "Zoo Radio",
+    "type": "audio/mpeg",
+    "url": "http://zooradio.gr/",
+    "cros": true,
+    "stream": "http://s10.voscast.com:9940/stream/1/",
+    "features": "/img/europe/greece/zoo.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/zoo?time="
+  },
+  "glenti-fm": {
+    "title": "Γλέντι FM",
+    "type": "audio/mpeg",
+    "url": "https://glentifm.gr/",
+    "cros": false,
+    "stream": "https://onairmediagroup.live24.gr/glenti1011xanthi",
+    "features": "/img/europe/greece/glenti-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/glenti-fm?time="
+  },
+  "hot-fm-104-6": {
+    "title": "Hot FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://hotfm.live24.gr/hotfm",
+    "features": "/img/europe/greece/hot-fm-104-6.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/hot-fm-104-6?time="
+  },
+  "republic": {
+    "title": "Republic Radio",
+    "type": "audio/mpeg",
+    "url": "https://republicradio.gr/",
+    "cros": false,
+    "stream": "https://metromedia.live24.gr/republicthess",
+    "features": "/img/europe/greece/republic.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/republic?time="
+  },
+  "libero-fm": {
+    "title": "Libero",
+    "type": "audio/mpeg",
+    "url": "https://libero.fm/",
+    "cros": false,
+    "stream": "https://radio.libero.fm:10750/live",
+    "features": "/img/europe/greece/libero-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/libero-fm?time="
+  },
+  "alpha-98-9": {
+    "title": "Alpha",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/xcdg6yggzfeuv",
+    "features": "/img/europe/greece/alpha-98-9.png"
+  },
+  "thessaloniki": {
+    "title": "Ράδιο Thessaloniki",
+    "type": "audio/mpeg",
+    "url": "https://www.rthess.gr/",
+    "cros": false,
+    "stream": "https://eu7.fastcast4u.com/proxy/nmarog02?mp=/stream/1/",
+    "features": "/img/europe/greece/thessaloniki.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/thessaloniki?time="
+  },
+  "venus-fm": {
+    "title": "Venus",
+    "type": "audio/mpeg",
+    "url": "https://venusfm.gr/",
+    "cros": true,
+    "stream": "http://sh.onweb.gr:8808/stream/1/",
+    "features": "/img/europe/greece/venus-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/venus-fm?time="
+  },
+  "1055-rock": {
+    "title": "1055 Rock",
+    "type": "audio/mpeg",
+    "url": "https://1055rock.gr/",
+    "cros": true,
+    "stream": "http://radio.1055rock.gr:30000/stream/1/",
+    "features": "/img/europe/greece/1055-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/1055-rock?time="
+  },
+  "mad": {
+    "title": "Mad Radio",
+    "type": "audio/mpeg",
+    "url": "https://mad.gr/mad-radio/",
+    "cros": true,
+    "stream": "http://mediaserver.mad.tv/stream",
+    "features": "/img/europe/greece/mad.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/mad?time="
+  },
+  "ant1-south": {
+    "title": "ΑΝΤΕΝΝΑ Ν.Ελλάδας",
+    "type": "audio/mpeg",
+    "url": "https://ant1south.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8510/stream/1/",
+    "features": "/img/europe/greece/ant1-south.png"
+  },
+  "music-89-2": {
+    "title": "Music",
+    "type": "audio/mpeg",
+    "url": "https://www.music892.gr/",
+    "cros": false,
+    "stream": "https://netradio.live24.gr/music892",
+    "features": "/img/europe/greece/music-89-2.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/music-89-2?time="
+  },
+  "kriti-fm": {
+    "title": "Κρήτη FM Radio",
+    "type": "audio/mpeg",
+    "url": "https://kritifm.com/",
+    "cros": false,
+    "stream": "https://sh.onweb.gr:7047/;",
+    "features": "/img/europe/greece/kriti-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/kriti-fm?time="
+  },
+  "skai-92-6-fm": {
+    "title": "ΣΚΑΪ",
+    "type": "audio/mpeg",
+    "url": "https://skai93.gr/",
+    "cros": false,
+    "stream": "https://sh.onweb.gr:7032/;",
+    "features": "/img/europe/greece/skai-92-6-fm.png"
+  },
+  "epirus": {
+    "title": "Ράδιο Ήπειρος",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://neos.win:59454/stream",
+    "features": "/img/europe/greece/epirus.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/epirus?time="
+  },
+  "kiss-91-1-fm": {
+    "title": "Kiss",
+    "type": "audio/mpeg",
+    "url": "https://thekiss.gr/",
+    "cros": false,
+    "stream": "https://rdst.win:59110/stream",
+    "features": "/img/europe/greece/kiss-91-1-fm.png"
+  },
+  "smart-104-5": {
+    "title": "Smart Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://smartradio1045.live24.gr/smartradio1045",
+    "features": "/img/europe/greece/smart-104-5.png"
+  },
+  "ert-3-trito": {
+    "title": "ERT 3 Τρίτο",
+    "type": "audio/mpeg",
+    "url": "https://www.ertopen.com/",
+    "cros": false,
+    "stream": "https://radiostreaming.ert.gr/ert-trito",
+    "features": "/img/europe/greece/ert-3-trito.png"
+  },
+  "rso": {
+    "title": "RSO",
+    "type": "audio/mpeg",
+    "url": "https://www.rso.gr/",
+    "cros": true,
+    "stream": "http://tachyon.shoutca.st:8594/stream/1/",
+    "features": "/img/europe/greece/rso.png",
+    "schedule": "https://api.webrad.io/data/playlist/148/rso?time="
+  },
+  "blues-radio": {
+    "title": "Blues Radio",
+    "description": "blues",
+    "type": "audio/mpeg",
+    "url": "http://bluesradio.gr/",
+    "cros": true,
+    "stream": "http://cast3.radiohost.ovh:8352/",
+    "features": "/img/europe/greece/blues-radio.webp",
+    "source": "radio-browser:b9e1f76e-41fd-11e9-aa55-52543be04c81"
+  },
+  "kiss-fm-100-6": {
+    "title": "KISS FM 100.6",
+    "description": "00s, 80s, 90s, adult contemporary, pop",
+    "type": "audio/mpeg",
+    "url": "http://www.radiokiss.gr/",
+    "cros": true,
+    "stream": "http://live.radiokiss.gr/kissfm1006hq.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:bf841429-a5f3-11e8-abb8-52543be04c81"
+  },
+  "real-fm-97-8": {
+    "title": "Real FM 97.8",
+    "description": "greek, news, talk",
+    "type": "audio/mpeg",
+    "url": "http://www.real.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/realfm",
+    "features": "/img/europe/greece/real-fm-97-8.png",
+    "source": "radio-browser:961f9a79-0601-11e8-ae97-52543be04c81"
+  },
+  "trance-athena": {
+    "title": "Trance Athena",
+    "description": "electronic, melodic trance, music, trance, uplifting trance",
+    "type": "audio/mpeg",
+    "url": "https://www.tranceathena.com/",
+    "cros": true,
+    "stream": "http://cast.streams.ovh:8008/stream",
+    "features": "/img/europe/greece/trance-athena.jpg",
+    "source": "radio-browser:b5455fcb-e07e-11e9-a8ba-52543be04c81"
+  },
+  "kiss-92-9": {
+    "title": "Kiss 92.9",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "http://www.kiss929.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/kissfmathens",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961ddf4b-0601-11e8-ae97-52543be04c81"
+  },
+  "sport-fm-94-6": {
+    "title": "Sport FM 94.6",
+    "description": "greek, sport",
+    "type": "audio/mpeg",
+    "url": "http://www.sport-fm.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/sportfm7712",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96185f35-0601-11e8-ae97-52543be04c81"
+  },
+  "skai-100-3": {
+    "title": "Skai 100.3",
+    "type": "audio/mpeg",
+    "url": "http://www.skairadio.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/skai1003",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:2d35016c-59d8-11e9-a622-52543be04c81"
+  },
+  "zeppelin-106-7": {
+    "title": "Zeppelin 106.7",
+    "description": "alternative rock, classic rock, modern rock, soft rock, ροκ - adult rock",
+    "type": "audio/mpeg",
+    "url": "https://webradio.ert.gr/",
+    "cros": false,
+    "stream": "https://radiostreaming.ert.gr/ert-zeppelin",
+    "features": "/img/europe/greece/zeppelin-106-7.png",
+    "source": "radio-browser:605b2521-e764-42ba-8be0-473fc096a3b3"
+  },
+  "sfera-102-2": {
+    "title": "Sfera 102.2",
+    "description": "greek, pop, top 40",
+    "type": "audio/aac",
+    "url": "http://sfera.gr/",
+    "cros": true,
+    "stream": "http://sfera.live24.gr/sfera4132",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9611d448-0601-11e8-ae97-52543be04c81"
+  },
+  "fm-90-1": {
+    "title": "Παραπολιτικά FM 90.1",
+    "description": "greek, news, news talk, talk",
+    "type": "audio/mpeg",
+    "url": "http://www.parapolitikaradio.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/athinaradio",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:962418d1-0601-11e8-ae97-52543be04c81"
+  },
+  "ellinikos-93-2": {
+    "title": "Ellinikos 93.2",
+    "description": "ballads, eclectic, greek",
+    "type": "audio/mpeg",
+    "url": "http://www.ellinikos932.fm/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/orange9320",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96463caa-0601-11e8-ae97-52543be04c81"
+  },
+  "psyndora-psytrance": {
+    "title": "Psyndora Psytrance",
+    "description": "goa, non-stop music, psyndora, psytrance, trance",
+    "type": "audio/mpeg",
+    "url": "https://www.psyndora.com/",
+    "cros": true,
+    "stream": "http://cast.magicstreams.gr:9111/stream",
+    "features": "/img/europe/greece/psyndora-psytrance.png",
+    "source": "radio-browser:dcbbb866-0116-11ea-bbf2-52543be04c81"
+  },
+  "vanilla-radio-smooth-flavors": {
+    "title": "Vanilla Radio Smooth Flavors",
+    "type": "audio/mpeg",
+    "url": "https://www.vanillaradio.com/listen-smooth-flavors/",
+    "cros": false,
+    "stream": "https://smooth.vanillaradio.com:8032/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1e59df64-fe9a-4f40-924b-0659391dbec6"
+  },
+  "derti-98-6": {
+    "title": "Derti 98.6",
+    "description": "laika",
+    "type": "audio/aac",
+    "url": "http://live24.gr/radio/derti",
+    "cros": true,
+    "stream": "http://derti.live24.gr/derty1000",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96103291-0601-11e8-ae97-52543be04c81"
+  },
+  "galaxy-92": {
+    "title": "Galaxy 92",
+    "description": "electronic",
+    "type": "audio/mpeg",
+    "url": "http://www.galaxy92.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/galaxy9292",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961180ce-0601-11e8-ae97-52543be04c81"
+  },
+  "laikos-fm": {
+    "title": "Laikos FM",
+    "description": "greek pop",
+    "type": "audio/mpeg",
+    "url": "https://www.laikos.gr/en/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/laikos876",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:0f239691-88f0-11e8-aa66-52543be04c81"
+  },
+  "off-radio-athens": {
+    "title": "Off Radio - Athens",
+    "type": "audio/mpeg",
+    "url": "http://www.offradio.gr/",
+    "cros": true,
+    "stream": "http://s3.yesstreaming.net:7062/stream",
+    "features": "/img/europe/greece/off-radio-athens.png",
+    "source": "radio-browser:d286d583-aab7-11e8-a907-52543be04c81"
+  },
+  "love-radio-97-5": {
+    "title": "Love Radio 97.5",
+    "description": "ballads, greek",
+    "type": "audio/mpeg",
+    "url": "http://www.loveradio.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/loveradio-1000",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:960c2c57-0601-11e8-ae97-52543be04c81"
+  },
+  "era-deftero-programma": {
+    "title": "ERA Deftero Programma",
+    "description": "ert, public radio",
+    "type": "audio/mpeg",
+    "url": "http://webradio.ert.gr/deftero/",
+    "cros": true,
+    "stream": "http://radiostreaming.ert.gr/ert-deftero",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:960e5aeb-0601-11e8-ae97-52543be04c81"
+  },
+  "play-radio": {
+    "title": "Play radio",
+    "description": "dance, hits",
+    "type": "audio/mpeg",
+    "url": "http://www.playradio.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8222/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:960de34b-0601-11e8-ae97-52543be04c81"
+  },
+  "stone-radio": {
+    "title": "Stone Radio",
+    "description": "80s, alternative rock, classic rock, hair metal, hard rock",
+    "type": "audio/mpeg",
+    "url": "http://www.stoneradio.gr/",
+    "cros": true,
+    "stream": "http://eu4.fastcast4u.com:5248/;stream.mp3",
+    "features": "/img/europe/greece/stone-radio.png",
+    "source": "radio-browser:962faec2-0601-11e8-ae97-52543be04c81"
+  },
+  "best-92-6": {
+    "title": "Best 92.6",
+    "description": "best, best 92.6, bestara",
+    "type": "audio/mpeg",
+    "url": "http://best926.gr/",
+    "cros": true,
+    "stream": "http://best.live24.gr/best1222",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1dc47f93-28b1-11e8-91bf-52543be04c81"
+  },
+  "era-proto-programma": {
+    "title": "ERA Proto Programma",
+    "description": "ert, public radio",
+    "type": "audio/mpeg",
+    "url": "http://webradio.ert.gr/proto/",
+    "cros": true,
+    "stream": "http://radiostreaming.ert.gr/ert-proto",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961bcdba-0601-11e8-ae97-52543be04c81"
+  },
+  "era-kosmos": {
+    "title": "ERA Kosmos",
+    "description": "ert, public radio",
+    "type": "audio/mpeg",
+    "url": "http://webradio.ert.gr/kosmos/",
+    "cros": true,
+    "stream": "http://radiostreaming.ert.gr/ert-kosmos",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96183962-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-art-chillout": {
+    "title": "Radio Art - Chillout",
+    "description": "#chillout, chillout, electronic",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fChillout.mp3",
+    "features": "/img/europe/greece/radio-art-chillout.jpg",
+    "source": "radio-browser:701d3a6d-06e0-4d1f-9521-7742e725ba94"
+  },
+  "rebel-105-2": {
+    "title": "REBEL 105.2",
+    "description": "classic rock, rock",
+    "type": "audio/mpeg",
+    "url": "https://www.rebelfm.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/rebel1052",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:5ecf8e87-907f-4fbb-a640-0e634fb7fab7"
+  },
+  "radio-art-meditation": {
+    "title": "Radio Art - Meditation",
+    "description": "ambient, instrumental, soft music",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air-tunein.radioart.com/fMeditation.mp3",
+    "features": "/img/europe/greece/radio-art-meditation.webp",
+    "source": "radio-browser:5e715331-d8ae-11e8-a9cc-52543be04c81"
+  },
+  "psyndora-chillout": {
+    "title": "Psyndora Chillout",
+    "description": "2 stations, 24/7, chill, chillout, non-stop music",
+    "type": "audio/mpeg",
+    "url": "https://www.psyndora.com/",
+    "cros": true,
+    "stream": "http://cast.magicstreams.gr:9125/stream",
+    "features": "/img/europe/greece/psyndora-chillout.png",
+    "source": "radio-browser:3653b75c-0116-11ea-bbf2-52543be04c81"
+  },
+  "easy-fm-972": {
+    "title": "Easy FM 972",
+    "description": "alternative, alternative rock, pop, pop rock, rock",
+    "type": "audio/mpeg",
+    "url": "https://www.easy972.gr/",
+    "cros": false,
+    "stream": "https://stream.radiojar.com/cthtwxk5yvduv.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:370b93b5-f279-4b19-9b57-29049adffe00"
+  },
+  "metropolis-95-5": {
+    "title": "Metropolis 95.5",
+    "description": "talk & speech",
+    "type": "audio/mpeg",
+    "url": "https://radiofona.com.gr",
+    "cros": true,
+    "stream": "http://metropolis.live24.gr/metropolis955thess",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c8f270d9-4836-448b-83e0-773aab6f5440"
+  },
+  "radio-art-solo-piano": {
+    "title": "Radio Art - Solo Piano",
+    "description": "piano",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://live.radioart.com/fSolo_piano.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96c2b150-1cad-11e8-a334-52543be04c81"
+  },
+  "sport-fm-94-6-b40e9589": {
+    "title": "Sport FM 94.6",
+    "description": "sport, sports, sports news, sports talk",
+    "type": "audio/mpeg",
+    "url": "http://www.sport-fm.gr/player/",
+    "cros": true,
+    "stream": "http://sportfm.live24.gr/sportfm7712?344b685e2518b0370f0d731432f51438",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b40e9589-aa4b-11e9-88f4-52543be04c81"
+  },
+  "rythmos-94-9": {
+    "title": "Rythmos 94.9",
+    "description": "greek, pop, top 40",
+    "type": "audio/mpeg",
+    "url": "https://soundis.gr/rythmos949/",
+    "cros": true,
+    "stream": "http://stream.radiojar.com/aw1w2xfx1vduv",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96b37cae-4795-4e9a-92be-178f16216ecf"
+  },
+  "1055-rock-instant-audio": {
+    "title": "1055 Rock",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "http://www.1055rock.gr/home/",
+    "cros": true,
+    "stream": "http://radio.1055rock.gr:30000/1055",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961bccf9-0601-11e8-ae97-52543be04c81"
+  },
+  "best-radio-92-6": {
+    "title": "Best Radio 92.6",
+    "description": "electronic",
+    "type": "audio/mpeg",
+    "url": "http://www.best926.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/best1222",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:961f6001-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-art-relaxing-violin-piano-cello": {
+    "title": "Radio Art - Relaxing (Violin, Piano & Cello)",
+    "description": "cello, piano, relax, violin",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fRelaxing.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b27543a7-e09d-42ce-a6f8-2c7da0c75f56"
+  },
+  "disco-net": {
+    "title": "Disco Net",
+    "description": "70s, 80s, 90s, disco, pop",
+    "type": "audio/mpeg",
+    "url": "https://disco-net-radio6.webnode.gr/",
+    "cros": false,
+    "stream": "https://stream1.468.gr/8004/stream",
+    "features": "/img/europe/greece/disco-net.jpg",
+    "source": "radio-browser:4ea2d213-d064-422c-bde9-e57550318023"
+  },
+  "radio-art-piano-for-sleep": {
+    "title": "Radio Art - Piano for Sleep",
+    "description": "classical, piano, sleep",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fPiano_for_sleep.mp3",
+    "features": "/img/europe/greece/radio-art-piano-for-sleep.jpg",
+    "source": "radio-browser:9f57367e-96b1-4e52-97a0-0bc37cf6957a"
+  },
+  "parapolitika-90-1": {
+    "title": "Parapolitika 90.1",
+    "description": "greek, news, talk",
+    "type": "audio/mpeg",
+    "url": "https://www.parapolitika.gr/parapolitikafm/",
+    "cros": false,
+    "stream": "https://netradio.live24.gr/athinaradio",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8f174c53-5547-44d2-bb92-75a985cdb5ef"
+  },
+  "102-1": {
+    "title": "Χρώμα 102.1",
+    "description": "folk, greek, pop",
+    "type": "audio/mpeg",
+    "url": "https://xromafm.gr/",
+    "cros": true,
+    "stream": "http://streams.enjoyfm.gr:48500/xroma.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c54d6c66-8c62-4e3a-b745-705601904742"
+  },
+  "era-trito-programma": {
+    "title": "ERA Trito Programma",
+    "description": "ert, public radio",
+    "type": "audio/mpeg",
+    "url": "http://webradio.ert.gr/trito/",
+    "cros": true,
+    "stream": "http://radiostreaming.ert.gr/ert-trito",
+    "features": "/img/europe/greece/era-trito-programma.png",
+    "source": "radio-browser:961d1adb-0601-11e8-ae97-52543be04c81"
+  },
+  "rock-melodic-radio": {
+    "title": "Rock Melodic Radio",
+    "description": "aor, hard rock, melodic rock",
+    "type": "audio/mpeg",
+    "url": "http://rockmelodic-radio.com/",
+    "cros": true,
+    "stream": "http://live.rockmelodic-radio.com:8124/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:964ff6ca-0601-11e8-ae97-52543be04c81"
+  },
+  "athina-984": {
+    "title": "Athina 984",
+    "description": "news",
+    "type": "audio/mpeg",
+    "url": "http://athina984.gr/wp-site/",
+    "cros": true,
+    "stream": "http://athina984.live24.gr/athina984",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ca932026-594e-11e9-a622-52543be04c81"
+  },
+  "radio-art-cuban": {
+    "title": "Radio Art - Cuban",
+    "description": "cuban, music",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": false,
+    "stream": "https://live.radioart.com/fCuban_lounge.mp3",
+    "features": "/img/europe/greece/radio-art-cuban.jpg",
+    "source": "radio-browser:f5cb7a92-8a10-445d-b3aa-514b246bbbbf"
+  },
+  "skai-100-3-2d9dfa25": {
+    "title": "SKAI 100.3",
+    "type": "audio/mpeg",
+    "url": "https://www.skairadio.gr/",
+    "cros": false,
+    "stream": "https://skai.live24.gr/skai1003",
+    "features": "/img/europe/greece/skai-100-3-2d9dfa25.png",
+    "source": "radio-browser:2d9dfa25-7379-460b-8cd0-fe163af26ebe"
+  },
+  "89-2": {
+    "title": "Ρυθμός 89.2",
+    "description": "greek, mainstream, pop",
+    "type": "audio/mpeg",
+    "url": "https://www.rythmos892.gr/",
+    "cros": true,
+    "stream": "http://s4.onweb.gr:8892/stream?type=http&nocache=136101",
+    "features": "/img/europe/greece/89-2.jpg",
+    "source": "radio-browser:1be3981d-f3da-4371-891f-07300815f19c"
+  },
+  "stokokkino": {
+    "title": "stokokkino",
+    "description": "greek, left wing, news",
+    "type": "audio/mpeg",
+    "url": "http://www.stokokkino.gr/",
+    "cros": true,
+    "stream": "http://stream.radiojar.com/kokkino-ath.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9622b8e0-0601-11e8-ae97-52543be04c81"
+  },
+  "velvet-96-8": {
+    "title": "VELVET 96.8",
+    "type": "audio/mpeg",
+    "url": "http://www.velvet968.gr/",
+    "cros": true,
+    "stream": "http://s10.voscast.com:9942/;",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:00e0bb66-829b-11e8-aa66-52543be04c81"
+  },
+  "87-6": {
+    "title": "Λαϊκός 87,6",
+    "type": "audio/mpeg",
+    "url": "https://radiofona.com.gr",
+    "cros": true,
+    "stream": "http://derti.live24.gr/laikos876",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ae5b880e-f2a3-11e8-a471-52543be04c81"
+  },
+  "rainbow-89": {
+    "title": "Rainbow 89",
+    "description": "oldies, pop, rock",
+    "type": "audio/mpeg",
+    "url": "http://www.89rainbow.gr/",
+    "cros": true,
+    "stream": "http://n0e.radiojar.com/083wqknmsuhvv?rj-ttl=5&rj-tok=AAABhHgFMdoAMjpYSw5BtqF9Zg",
+    "features": "/img/europe/greece/rainbow-89.png",
+    "source": "radio-browser:e6545e9c-c670-4f92-8115-c7f2c117ceb6"
+  },
+  "radio-art-piano-guitar": {
+    "title": "Radio Art - Piano & Guitar",
+    "description": "guitar, instrumental, piano",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air-tunein.radioart.com/fPiano_and_guitar.mp3",
+    "features": "/img/europe/greece/radio-art-piano-guitar.webp",
+    "source": "radio-browser:3726ce71-ae38-11e8-aa67-52543be04c81"
+  },
+  "vanilla-radio-com-fresh-flavours-stream": {
+    "title": "Vanilla Radio.com - Fresh Flavours Stream",
+    "type": "audio/mpeg",
+    "url": "https://www.vanillaradio.com/listen-fresh-flavors/",
+    "cros": false,
+    "stream": "https://fresh.vanillaradio.com:8028/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:1b095119-ae01-401b-81af-7424ed770cda"
+  },
+  "radio-art-flamenco": {
+    "title": "Radio Art - Flamenco",
+    "description": "dance, flamenco",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fFlamenco.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9da93993-ec49-4ca6-9279-c47b7e80cf28"
+  },
+  "pepper-96-6-b0907d78": {
+    "title": "Pepper 96.6",
+    "description": "easy listening, smooth",
+    "type": "audio/mpeg",
+    "url": "http://pepper966.live24.gr/pepper9660",
+    "cros": true,
+    "stream": "http://pepper966.live24.gr/pepper9660",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b0907d78-8536-4327-9a26-d1a2c70d464f"
+  },
+  "radio-art-sleep": {
+    "title": "Radio Art - Sleep",
+    "description": "ambient, instrumental",
+    "type": "audio/mpeg",
+    "url": "http://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air-tunein.radioart.com/fSleep.mp3",
+    "features": "/img/europe/greece/radio-art-sleep.jpg",
+    "source": "radio-browser:bd8e4968-ae38-11e8-aa67-52543be04c81"
+  },
+  "radio-art-folk-and-soft-rock": {
+    "title": "Radio Art - Folk and Soft Rock",
+    "description": "soft rock",
+    "type": "audio/mpeg",
+    "url": "http://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air-tunein.radioart.com/fFolk_and_soft_rock.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:ceb18f8f-ae37-11e8-aa67-52543be04c81"
+  },
+  "derti-107-7": {
+    "title": "Derti 107.7",
+    "description": "greek, mainstream, pop",
+    "type": "audio/mpeg",
+    "url": "https://derti1077.blogspot.com/",
+    "cros": true,
+    "stream": "http://i5.streams.ovh:14008/stream?type=http&nocache=100540",
+    "features": "/img/europe/greece/derti-107-7.jpg",
+    "source": "radio-browser:9da2dd6b-1db8-4b09-ad35-af75c41b13ba"
+  },
+  "cosmoradio-95-1": {
+    "title": "Cosmoradio 95,1",
+    "description": "cosmoradio, kosmoradio",
+    "type": "audio/mpeg",
+    "url": "http://www.cosmoradio.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8689/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:960d1eb6-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-art-jazz-for-sleep": {
+    "title": "Radio Art - Jazz for Sleep",
+    "description": "jazz, relax, relaxing, sleep",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fJazz_for_sleep.mp3",
+    "features": "/img/europe/greece/radio-art-jazz-for-sleep.jpg",
+    "source": "radio-browser:c7ff0e18-52d5-4d2c-bce8-d88d784b2ffe"
+  },
+  "easy-97-2": {
+    "title": "Easy 97.2",
+    "description": "misc",
+    "type": "audio/mpeg",
+    "url": "https://radiofona.com.gr",
+    "cros": true,
+    "stream": "http://stream.radiojar.com/cthtwxk5yvduv",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8973b836-ddc2-4cf3-a19a-d3e86d3774d1"
+  },
+  "radio-art-yoga": {
+    "title": "Radio Art - Yoga",
+    "description": "ambient, instrumental, soft music",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air-tunein.radioart.com/fYoga.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6055627a-d8b5-11e8-a9cc-52543be04c81"
+  },
+  "7000fm": {
+    "title": "7000FM",
+    "description": "techno",
+    "type": "audio/mpeg",
+    "url": "https://7000fm.gr/",
+    "cros": false,
+    "stream": "https://stream.7000fm.gr/radio/8000/radio.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:4ed5e97c-7540-40d9-8ce1-7cea18080f08"
+  },
+  "94-1": {
+    "title": "Αρχάγγελος 94.1",
+    "description": "greek, mainstream, pop",
+    "type": "audio/mpeg",
+    "url": "https://www.radio941.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8536/;",
+    "features": "/img/europe/greece/94-1.jpg",
+    "source": "radio-browser:a645428e-9fd0-4afa-bba4-6ff8b591648e"
+  },
+  "kosmos": {
+    "title": "ΕΡΤ Kosmos",
+    "description": "ert, ert kosmos, public radio",
+    "type": "audio/mpeg",
+    "url": "https://webradio.ert.gr/kosmos/",
+    "cros": false,
+    "stream": "https://radiostreaming.ert.gr/ert-kosmos",
+    "features": "/img/europe/greece/kosmos.png",
+    "source": "radio-browser:b4489557-58f3-4971-bc3a-c57c9a6b497d"
+  },
+  "radio-arhaggelos": {
+    "title": "Radio Arhaggelos",
+    "type": "audio/mpeg",
+    "url": "http://www.radio941.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8536/stream?type=http&nocache=48875",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:61bf3524-9d6a-44b2-8825-4062696e3681"
+  },
+  "chillout-tree-pines": {
+    "title": "Chillout Tree Pines",
+    "description": "chillout, downtempo, lounge",
+    "type": "audio/mpeg",
+    "url": "https://www.chillouttreepines.com/",
+    "cros": true,
+    "stream": "http://n0f.radiojar.com/n4dzb3znn3quv.mp3?rj-ttl=5&rj-tok=AAABeKi_TokAUTY4EzBEHHiJzQ",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:33ef2a84-8ea6-4864-998e-09f3a823b753"
+  },
+  "deftero-laika": {
+    "title": "Déftero Laïká",
+    "type": "audio/mpeg",
+    "url": "https://www.ertecho.gr/radio/deytero-laika/",
+    "cros": true,
+    "stream": "http://radiostreaming.ert.gr/ert-talaika",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:77d13110-deb0-41d3-964d-b1458f9eb3d1"
+  },
+  "radio-art-classical-for-sleep": {
+    "title": "Radio Art - Classical for sleep",
+    "description": "classical",
+    "type": "audio/mpeg",
+    "url": "http://www.radioart.com/",
+    "cros": true,
+    "stream": "http://live.radioart.com/fClassical_for_sleep.mp3",
+    "features": "/img/europe/greece/radio-art-classical-for-sleep.webp",
+    "source": "radio-browser:564e60e1-ae3a-11e8-aa67-52543be04c81"
+  },
+  "plus-radio": {
+    "title": "Plus Radio",
+    "description": "pop, pop dance, rhythmic contemporary hits, top 40",
+    "type": "audio/mpeg",
+    "url": "http://plusradio.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8039/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b5bf4f76-8daf-11e8-aa66-52543be04c81"
+  },
+  "mousikos-98-6": {
+    "title": "Mousikos 98.6",
+    "description": "ballads, eclectic, greek",
+    "type": "audio/aac",
+    "url": "http://www.mousikos986.gr/",
+    "cros": true,
+    "stream": "http://netradio.live24.gr/derty1000",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96118e26-0601-11e8-ae97-52543be04c81"
+  },
+  "galaxy-music-the-deep-house": {
+    "title": "Galaxy Music The Deep House",
+    "type": "audio/mpeg",
+    "url": "https://alexiou.wixsite.com/radiogalaxy",
+    "cros": false,
+    "stream": "https://stream-51.zeno.fm/sgehc2mzwd0uv?zs=DutBe-m5Sz6waLQy8l8ejg",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:67a7fed2-8905-42f8-a799-96f143decfa9"
+  },
+  "disco-cafe": {
+    "title": "Disco Cafe",
+    "description": "chillout, disco, lounge, oldies",
+    "type": "audio/mpeg",
+    "url": "https://www.discocafe.eu/",
+    "cros": false,
+    "stream": "https://azuracast.streams.ovh:8260/radio.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:29995961-137e-4adb-bad1-71eaa989a598"
+  },
+  "athens-rock-96-9": {
+    "title": "Athens Rock 96.9",
+    "type": "audio/mpeg",
+    "url": "https://www.rockfm.gr/",
+    "cros": false,
+    "stream": "https://az10.yesstreaming.net/radio/8060/radio.mp3",
+    "features": "/img/europe/greece/athens-rock-96-9.png",
+    "source": "radio-browser:df716345-217b-4c1e-9f0a-8f58dce692aa"
+  },
+  "radio-art-meditation-2": {
+    "title": "Radio Art - Meditation(2)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fMeditation.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:2bbee379-1767-46d0-8441-f43d7189082a"
+  },
+  "imagine-897-thessaloniki-gr": {
+    "title": "Imagine 897 Thessaloniki,gr",
+    "description": "internathional, pop, rock",
+    "type": "audio/mpeg",
+    "url": "https://www.imagine897.gr/el/",
+    "cros": false,
+    "stream": "https://imagine897.radioca.st/stream",
+    "features": "/img/europe/greece/imagine-897-thessaloniki-gr.jpg",
+    "source": "radio-browser:08231184-20f1-4bc2-9ca5-d8fd34202f9d"
+  },
+  "kosmos-jazz-gr": {
+    "title": "Kosmos Jazz GR",
+    "description": "jazz, smooth jazz",
+    "type": "audio/mpeg",
+    "url": "https://www.ertecho.gr/radio/kosmos-jazz/",
+    "cros": false,
+    "stream": "https://radiostreaming.ert.gr/ert-webjazz",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9c5b9610-805c-478f-ac5d-b6b561b78cab"
+  },
+  "radio-art-ambient-piano": {
+    "title": "Radio Art - Ambient Piano",
+    "description": "instrumental, piano, relax",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fAmbient_piano.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c04ed475-b85a-4b99-ba69-c7edbedebdaf"
+  },
+  "88-8": {
+    "title": "Ι.Μ. Σπάρτης 88.8",
+    "description": "ecclesia, greek, orthodox christian, orthodoxy, εκκλησία",
+    "type": "audio/mpeg",
+    "url": "http://www.immspartis.gr/",
+    "cros": true,
+    "stream": "http://s4.onweb.gr:8862/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:38577bf8-3eac-11e9-aa55-52543be04c81"
+  },
+  "deejay-radio-97-5-fm-corfu-greece": {
+    "title": "DeeJay Radio 97.5 fm Corfu  Greece",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "http://www.djradio.gr/",
+    "cros": true,
+    "stream": "http://s4.onweb.gr:8470/",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:8d119a9d-7ff9-4226-bce2-feeaf80cc49b"
+  },
+  "zucca-radio": {
+    "title": "Zucca Radio",
+    "type": "audio/mpeg",
+    "url": "https://zuccaradio.com/",
+    "cros": false,
+    "stream": "https://stream.zuccaradio.com/stream",
+    "features": "/img/europe/greece/zucca-radio.jpg",
+    "source": "radio-browser:a4056fd3-3d24-48c0-ab75-979ac2a30159"
+  },
+  "94-5": {
+    "title": "Ήπειρος 94.5",
+    "description": "greek, traditional",
+    "type": "audio/mpeg",
+    "url": "https://www.facebook.com/radioepirus945/",
+    "cros": false,
+    "stream": "https://rdst.win:59450/stream",
+    "features": "/img/europe/greece/94-5.png",
+    "source": "radio-browser:ee53da76-a422-4c66-97bf-cb2965e86967"
+  },
+  "focus-103-6": {
+    "title": "Focus 103.6",
+    "description": "news, news talk",
+    "type": "audio/mpeg",
+    "url": "https://focusfm.gr/",
+    "cros": false,
+    "stream": "https://ice.greekstream.net/focusfm",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:c90a120f-1c4d-474c-9a8d-3750505c5670"
+  },
+  "101-1": {
+    "title": "Γλέντι 101.1",
+    "description": "folk, greek",
+    "type": "audio/mpeg",
+    "url": "http://www.glentifm.gr/",
+    "cros": true,
+    "stream": "http://onairmediagroup.live24.gr/glenti1011xanthi",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:f2cadd18-ad6d-4a27-9130-524fd02db594"
+  },
+  "radio-art-vocal-chillout": {
+    "title": "Radio Art - Vocal Chillout",
+    "description": "european music, music, vocal",
+    "type": "audio/mpeg",
+    "url": "https://www.radioart.com/",
+    "cros": true,
+    "stream": "http://air.radioart.com/fVocal_chillout.mp3",
+    "features": "/img/europe/greece/radio-art-vocal-chillout.webp",
+    "source": "radio-browser:2f80f012-f8da-4b80-856c-0bd2e6af78e9"
+  },
+  "vanilla-radio-deep-flavors": {
+    "title": "Vanilla Radio Deep Flavors",
+    "type": "audio/mpeg",
+    "url": "https://www.vanillaradio.com/",
+    "cros": false,
+    "stream": "https://stream.vanillaradio.com:8003/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:dc5e17c8-fd20-4886-ade1-1a77ed84944e"
+  },
+  "92-8": {
+    "title": "Αίολος 92.8",
+    "description": "folk, greek, pop",
+    "type": "audio/mpeg",
+    "url": "http://aeolosradio.gr/",
+    "cros": true,
+    "stream": "http://eco.onestreaming.com:8552/;",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:5ff773ab-807e-4981-9425-a36c982ff134"
+  },
+  "106-1": {
+    "title": "Δίστομο 106.1",
+    "description": "folk, greek, traditional",
+    "type": "audio/mpeg",
+    "url": "http://www.radiodistomo.gr/",
+    "cros": true,
+    "stream": "http://radio.icehosting.com:8091/live.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:516b56c9-96ec-4a56-b6c0-37e85b0a7d2f"
+  },
+  "rebetiko-sealabs": {
+    "title": "Rebetiko Sealabs",
+    "type": "audio/mpeg",
+    "url": "https://rebetiko.sealabs.net/",
+    "cros": false,
+    "stream": "https://rebetiko.sealabs.net/radio",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:e87fda89-97d8-4660-b049-0c0b8b84e6f3"
+  },
+  "kriti-fm-87-5": {
+    "title": "Kriti FM 87.5",
+    "description": "cretan music, greek",
+    "type": "audio/mpeg",
+    "url": "http://www.875.gr/",
+    "cros": true,
+    "stream": "http://s3.onweb.gr:8878/stream",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:96245f5e-0601-11e8-ae97-52543be04c81"
+  },
+  "corfu-dee-jay-97-5": {
+    "title": "Corfu Dee Jay 97.5",
+    "description": "dance, electronic, hiphop, pop, trance",
+    "type": "audio/mpeg",
+    "url": "https://djradio.gr/",
+    "cros": false,
+    "stream": "https://sh.onweb.gr:7083/stream?type=http&nocache=35812",
+    "features": "/img/europe/greece/corfu-dee-jay-97-5.png",
+    "source": "radio-browser:fbc3e197-536e-4ceb-8518-3dbce47821b1"
+  }
+}

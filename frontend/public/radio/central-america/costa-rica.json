@@ -1,0 +1,352 @@
+{
+  "besame-89-9": {
+    "title": "Bésame (San José)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_CR_SC",
+    "features": "/img/central-america/costa-rica/besame-89-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/besame-89-9?time=",
+    "favorite": true
+  },
+  "radio-musical-97-5-fm": {
+    "title": "Radio Musical (San José)",
+    "type": "audio/mpeg",
+    "url": "https://radiomusical.com/",
+    "cros": false,
+    "stream": "https://live.turadio.stream/9312/stream/1/",
+    "features": "/img/central-america/costa-rica/radio-musical-97-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/radio-musical-97-5-fm?time="
+  },
+  "stereo-vision": {
+    "title": "Stereo Visión",
+    "type": "audio/mpeg",
+    "url": "http://www.estereovision.com",
+    "cros": false,
+    "stream": "https://live.turadio.stream:7009/stream/1/",
+    "features": "/img/central-america/costa-rica/stereo-vision.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/stereo-vision?time="
+  },
+  "exa-fm-online": {
+    "title": "EXA (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.exacr.com",
+    "cros": false,
+    "stream": "https://d3karhducaqetz.cloudfront.net/exa.m3u8",
+    "features": "/img/central-america/costa-rica/exa-fm-online.png"
+  },
+  "radio-columbia": {
+    "title": "Radio Columbia (San José)",
+    "type": "audio/mpeg",
+    "url": "https://columbia.co.cr/",
+    "cros": false,
+    "stream": "https://streams.radio.co/s419eaa350/listen",
+    "features": "/img/central-america/costa-rica/radio-columbia.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/radio-columbia?time="
+  },
+  "radio-monumental": {
+    "title": "Monumental (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.monumental.co.cr",
+    "cros": false,
+    "stream": "https://dq36dvgzsdppg.cloudfront.net/monumental.m3u8",
+    "features": "/img/central-america/costa-rica/radio-monumental.png"
+  },
+  "fides-san-jose": {
+    "title": "Radio Fides (San José)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofides.co.cr",
+    "cros": false,
+    "stream": "https://centova.hostingtico.com:7010/stream/1/",
+    "features": "/img/central-america/costa-rica/fides-san-jose.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/fides-san-jose?time="
+  },
+  "wao-92-3-fm": {
+    "title": "WAO (San José)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://streamer.radio.co/s98074e491/listen",
+    "features": "/img/central-america/costa-rica/wao-92-3-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/wao-92-3-fm?time="
+  },
+  "la-mejor-fm": {
+    "title": "La Mejor (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.lamejor.co.cr/",
+    "cros": false,
+    "stream": "https://d1omaux5g7ow4v.cloudfront.net/lamejor.m3u8",
+    "features": "/img/central-america/costa-rica/la-mejor-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/la-mejor-fm?time="
+  },
+  "radio-omega-estereo": {
+    "title": "Radio Omega",
+    "type": "audio/x-mpegurl",
+    "url": "http://www.radioomega.fm/",
+    "cros": true,
+    "stream": "https://d1omaux5g7ow4v.cloudfront.net/lamejor.m3u8",
+    "features": "/img/central-america/costa-rica/radio-omega-estereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/radio-omega-estereo?time="
+  },
+  "zeta-fm": {
+    "title": "Zeta FM (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.zetafmcr.com/",
+    "cros": false,
+    "stream": "https://d2xc4ph8b44oek.cloudfront.net/zfm.m3u8",
+    "features": "/img/central-america/costa-rica/zeta-fm.png"
+  },
+  "vox-fm-105-5": {
+    "title": "VOX FM",
+    "type": "audio/mpeg",
+    "url": "http://www.voxradio.fm/",
+    "cros": false,
+    "stream": "https://centova.hostingtico.com:7072/stream/1/",
+    "features": "/img/central-america/costa-rica/vox-fm-105-5.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/vox-fm-105-5?time="
+  },
+  "dos": {
+    "title": "Radio Dos (San José)",
+    "type": "audio/mpeg",
+    "url": "http://www.radiodos.com/",
+    "cros": false,
+    "stream": "https://streamer.radio.co/s06e110935/listen",
+    "features": "/img/central-america/costa-rica/dos.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/dos?time="
+  },
+  "hit": {
+    "title": "Radio Hit (San José)",
+    "type": "audio/mpeg",
+    "url": "https://1047hit.com/",
+    "cros": true,
+    "stream": "http://streams.y2kwebs.com:9310/stream/1/",
+    "features": "/img/central-america/costa-rica/hit.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/hit?time="
+  },
+  "uncion-san-jose": {
+    "title": "Radio Unción (San José)",
+    "type": "audio/mpeg",
+    "url": "https://www.radios.hostingtico.com/radiouncion/",
+    "cros": false,
+    "stream": "https://centova.hostingtico.com:7016/;stream.mp3",
+    "features": "/img/central-america/costa-rica/uncion-san-jose.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/uncion-san-jose?time="
+  },
+  "best-fm": {
+    "title": "Best FM (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bestfm.co.cr/",
+    "cros": false,
+    "stream": "https://d2bvq5yazcohix.cloudfront.net/bestfm.m3u8",
+    "features": "/img/central-america/costa-rica/best-fm.png"
+  },
+  "caribe": {
+    "title": "Faro del Caribe",
+    "type": "audio/mpeg",
+    "url": "https://www.farodelcaribe.org",
+    "cros": true,
+    "stream": "http://unoredradio.com:9768/;stream.mp3_",
+    "features": "/img/central-america/costa-rica/caribe.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/caribe?time="
+  },
+  "radio-reloj": {
+    "title": "Momentos Reloj (San José)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.momentosreloj.co.cr/",
+    "cros": false,
+    "stream": "https://d1v9ov91qzrvmy.cloudfront.net/momentosreloj.m3u8",
+    "features": "/img/central-america/costa-rica/radio-reloj.png"
+  },
+  "los-40-costa-rica": {
+    "title": "Los 40",
+    "type": "audio/mpeg",
+    "url": "http://los40.co.cr/",
+    "cros": false,
+    "stream": "https://24253.live.streamtheworld.com/LOS40_CR_SC",
+    "features": "/img/central-america/costa-rica/los-40-costa-rica.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/los-40-costa-rica?time="
+  },
+  "la-caliente": {
+    "title": "La Caliente",
+    "type": "audio/mpeg",
+    "url": "https://www.multimedios.com/radio/programas/la-caliente-907-fm-costa-rica",
+    "cros": false,
+    "stream": "https://26603.live.streamtheworld.com/QTEJA_CRAAC_SC",
+    "features": "/img/central-america/costa-rica/la-caliente.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/la-caliente?time="
+  },
+  "pura-vida": {
+    "title": "Pura Vida",
+    "type": "audio/mpeg",
+    "url": "https://puravidafm.cr/",
+    "cros": false,
+    "stream": "https://live.turadio.stream:7008/stream/1/",
+    "features": "/img/central-america/costa-rica/pura-vida.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/pura-vida?time="
+  },
+  "sinfonola": {
+    "title": "Sinfonola",
+    "type": "audio/mpeg",
+    "url": "https://radiosinfonola.com/",
+    "cros": true,
+    "stream": "http://streams.y2kwebs.com:9972/stream/1/",
+    "features": "/img/central-america/costa-rica/sinfonola.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/sinfonola?time="
+  },
+  "maria-am-san-jose": {
+    "title": "Radio María (San José)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.cr",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmcostarica?mp=/stream/1/",
+    "features": "/img/central-america/costa-rica/maria-am-san-jose.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/maria-am-san-jose?time="
+  },
+  "columbia-estereo": {
+    "title": "Columbia Estéreo (San José)",
+    "type": "audio/mpeg",
+    "url": "https://columbiaestereo.com/index.php",
+    "cros": false,
+    "stream": "https://streamer.radio.co/s3293a5a15/listen",
+    "features": "/img/central-america/costa-rica/columbia-estereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/columbia-estereo?time="
+  },
+  "iq-radio": {
+    "title": "Radio IQ (San José)",
+    "type": "audio/mpeg",
+    "url": "http://www.iqmedios.com/",
+    "cros": true,
+    "stream": "http://centova.hostingtico.com:9942/stream/1/",
+    "features": "/img/central-america/costa-rica/iq-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/iq-radio?time="
+  },
+  "jazz": {
+    "title": "95.5 Jazz",
+    "type": "audio/mpeg",
+    "url": "http://955jazz.com/",
+    "cros": false,
+    "stream": "https://streamer.radio.co/s967167041/listen",
+    "features": "/img/central-america/costa-rica/jazz.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/jazz?time="
+  },
+  "nuevecinconueve": {
+    "title": "Radio 959",
+    "type": "application/x-mpegURL",
+    "url": "http://nuevecinconueve.com/959/",
+    "cros": false,
+    "stream": "https://streannlivepuravida.cachefly.net/puravida4/puravida4/playlist.m3u8",
+    "features": "/img/central-america/costa-rica/nuevecinconueve.png"
+  },
+  "life-san-jose": {
+    "title": "Life (San José)",
+    "type": "audio/mpeg",
+    "url": "https://radio.life.cr/",
+    "cros": false,
+    "stream": "https://radio.zarza.com/proxy/life?mp=/stream/1/",
+    "features": "/img/central-america/costa-rica/life-san-jose.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/life-san-jose?time="
+  },
+  "teletica": {
+    "title": "Teletica Radio",
+    "type": "application/x-mpegURL",
+    "url": "https://www.teleticaradio.com/",
+    "cros": false,
+    "stream": "https://g2qd375ol7an-hls-live.5centscdn.com/Radio/eae835e83c0494a376229f254f7d3392.sdp/playlist.m3u8",
+    "features": "/img/central-america/costa-rica/teletica.png"
+  },
+  "stereo": {
+    "title": "Radio 88 Stereo",
+    "type": "audio/mpeg",
+    "url": "https://www.88stereo.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/q7s0apzt1p8uv",
+    "features": "/img/central-america/costa-rica/stereo.png"
+  },
+  "malpais": {
+    "title": "Radio Malpaís (San José)",
+    "type": "audio/mpeg",
+    "url": "http://www.radiomalpais.com/radio/",
+    "cros": true,
+    "stream": "http://streamers.hostingtico.com:8006/stream/1/",
+    "features": "/img/central-america/costa-rica/malpais.png"
+  },
+  "actual": {
+    "title": "Radio Actual",
+    "type": "audio/mpeg",
+    "url": "http://www.radioactualfm.com/",
+    "cros": true,
+    "stream": "http://216.75.41.16:8070/live",
+    "features": "/img/central-america/costa-rica/actual.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/actual?time="
+  },
+  "colosal": {
+    "title": "Colosal",
+    "type": "audio/mpeg",
+    "url": "https://www.colosalstereo.com",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/pp8f79bu44zuv",
+    "features": "/img/central-america/costa-rica/colosal.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/colosal?time="
+  },
+  "casino": {
+    "title": "Radio Casino (Limón)",
+    "type": "audio/mpeg",
+    "url": "https://radiocasino.net/",
+    "cros": false,
+    "stream": "https://host.rowrigo.com/radio/8090/radiocasino",
+    "features": "/img/central-america/costa-rica/casino.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/casino?time="
+  },
+  "urbano": {
+    "title": "Radio Urbano",
+    "type": "audio/mpeg",
+    "url": "https://radiourbanocr.com",
+    "cros": true,
+    "stream": "https://s27.myradiostream.com/4236/;",
+    "features": "/img/central-america/costa-rica/urbano.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/urbano?time="
+  },
+  "u": {
+    "title": "Radio U",
+    "type": "application/x-mpegURL",
+    "url": "https://radios.ucr.ac.cr/radio-u/programas-1019/",
+    "cros": false,
+    "stream": "https://master.letio.com/io/?gs=8126&type=live.m3u8",
+    "features": "/img/central-america/costa-rica/u.png"
+  },
+  "radio-disney-costa-rica": {
+    "title": "Radio Disney (San José)",
+    "type": "audio/mpeg",
+    "url": "https://radiodisney.disneylatino.com/costa-rica",
+    "cros": true,
+    "stream": "https://ic.streann.com/disneycostarica",
+    "features": "/img/central-america/costa-rica/radio-disney-costa-rica.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/radio-disney-costa-rica?time="
+  },
+  "onda": {
+    "title": "Onda Brava (Liberia)",
+    "type": "audio/mpeg",
+    "url": "http://ondabravaradio.com/",
+    "cros": true,
+    "stream": "http://ca.radioboss.fm:8221/stream/1/",
+    "features": "/img/central-america/costa-rica/onda.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/onda?time="
+  },
+  "lira-alajuela": {
+    "title": "Radio Lira (Alajuela)",
+    "type": "audio/mpeg",
+    "url": "https://radiolira.org/",
+    "cros": true,
+    "stream": "http://streams.y2kwebs.com:9990/stream/1/",
+    "features": "/img/central-america/costa-rica/lira-alajuela.png",
+    "schedule": "https://api.webrad.io/data/playlist/27/lira-alajuela?time="
+  },
+  "crc": {
+    "title": "CRC Radio",
+    "type": "application/x-mpegURL",
+    "url": "https://crc891.com/",
+    "cros": false,
+    "stream": "https://streannlivepuravida.cachefly.net/puravida3/puravida3/playlist.m3u8",
+    "features": "/img/central-america/costa-rica/crc.png"
+  }
+}

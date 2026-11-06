@@ -1,0 +1,364 @@
+{
+  "audio": {
+    "title": "Radio Audio",
+    "type": "audio/mpeg",
+    "url": "https://aradioaudio.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/fvrx47wpg0quv",
+    "features": "/img/asia/nepal/audio.png",
+    "favorite": true
+  },
+  "hits-fm": {
+    "title": "Hits FM",
+    "type": "audio/mpeg",
+    "url": "https://www.hitsfm.com.np/",
+    "cros": false,
+    "stream": "https://usa15.fastcast4u.com/proxy/hitsfm912?mp=/stream/1/",
+    "features": "/img/asia/nepal/hits-fm.png"
+  },
+  "kantipur": {
+    "title": "Radio Kantipur",
+    "type": "audio/mpeg",
+    "url": "https://radiokantipur.com",
+    "cros": true,
+    "stream": "http://broadcast.radiokantipur.com:7248/stream/1/",
+    "features": "/img/asia/nepal/kantipur.png"
+  },
+  "nepal": {
+    "title": "Radio Nepal",
+    "type": "audio/mpeg",
+    "url": "https://radionepal.gov.np/",
+    "cros": true,
+    "stream": "https://radionepal.news/live/",
+    "features": "/img/asia/nepal/nepal.png"
+  },
+  "kalika-fm": {
+    "title": "Kalika FM",
+    "type": "audio/mpeg",
+    "url": "https://www.kalikanews.com/",
+    "cros": true,
+    "stream": "http://kalika-stream.softnep.com:7740/stream/1/",
+    "features": "/img/asia/nepal/kalika-fm.png"
+  },
+  "saptakoshi-fm": {
+    "title": "Saptakoshi FM",
+    "type": "audio/mpeg",
+    "url": "https://skonline.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:4535/stream",
+    "features": "/img/asia/nepal/saptakoshi-fm.png"
+  },
+  "image-fm": {
+    "title": "Image FM",
+    "type": "audio/mpeg",
+    "url": "https://www.imagefm.com.np/",
+    "cros": false,
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8040/radio.mp3",
+    "features": "/img/asia/nepal/image-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/image-fm?time="
+  },
+  "capital-fm": {
+    "title": "Capital FM",
+    "type": "audio/mpeg",
+    "url": "https://www.cfmonair.com/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8037/stream/1/",
+    "features": "/img/asia/nepal/capital-fm.png"
+  },
+  "times-fm": {
+    "title": "Times FM",
+    "type": "audio/mpeg",
+    "url": "https://timesfm906.com/",
+    "cros": false,
+    "stream": "https://streaming.webhostnepal.com/8028/;",
+    "features": "/img/asia/nepal/times-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/times-fm?time="
+  },
+  "nepaliko": {
+    "title": "Nepaliko Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://streaming.webhostnepal.com/9888/;",
+    "features": "/img/asia/nepal/nepaliko.png"
+  },
+  "synergy-fm": {
+    "title": "Synergy FM",
+    "type": "audio/mpeg",
+    "url": "https://synergyfm.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:3880/stream",
+    "features": "/img/asia/nepal/synergy-fm.png"
+  },
+  "classic-fm": {
+    "title": "Classic",
+    "type": "audio/mpeg",
+    "url": "https://classicfm.com.np/",
+    "cros": false,
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8060/radio.mp3",
+    "features": "/img/asia/nepal/classic-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/classic-fm?time="
+  },
+  "bhaktapur-fm": {
+    "title": "Bhaktapur FM",
+    "type": "audio/mpeg",
+    "url": "https://www.bhaktapurfm.com.np/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8309/stream/1/",
+    "features": "/img/asia/nepal/bhaktapur-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/bhaktapur-fm?time="
+  },
+  "lumbini": {
+    "title": "Radio Lumbini",
+    "type": "audio/mpeg",
+    "url": "https://radiolumbini.org/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8085/stream/1/",
+    "features": "/img/asia/nepal/lumbini.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/lumbini?time="
+  },
+  "shreenagar-fm": {
+    "title": "Shreenagar FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://live.itech.host:9593/live",
+    "features": "/img/asia/nepal/shreenagar-fm.png"
+  },
+  "image-news": {
+    "title": "Image News",
+    "type": "audio/mpeg",
+    "url": "https://www.imagenewsfm.com.np/",
+    "cros": false,
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8050/radio.mp3",
+    "features": "/img/asia/nepal/image-news.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/image-news?time="
+  },
+  "pathibhara-fm": {
+    "title": "Pathibhara FM",
+    "type": "audio/mpeg",
+    "url": "https://www.pathibharafm.org/",
+    "cros": false,
+    "stream": "https://live.itech.host:8749/stream",
+    "features": "/img/asia/nepal/pathibhara-fm.png"
+  },
+  "annapurna-fm": {
+    "title": "Radio Annapurna",
+    "type": "audio/mpeg",
+    "url": "https://www.radioannapurnanepal.com/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8091/stream/1/",
+    "features": "/img/asia/nepal/annapurna-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/annapurna-fm?time="
+  },
+  "nepal-fm": {
+    "title": "Nepal FM",
+    "type": "audio/mpeg",
+    "url": "https://nfmnews.com/?fbclid=IwAR1bgkO0d97uJcq02HbN-U1JGdl7YBH7tDU-1nfv_IxXvKfebyQSThCQrXg",
+    "cros": false,
+    "stream": "https://astream.nepalipatro.com.np:8147/index.html?sid=1",
+    "features": "/img/asia/nepal/nepal-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/nepal-fm?time="
+  },
+  "butwal-fm": {
+    "title": "Butwal FM",
+    "type": "audio/mpeg",
+    "url": "https://www.butwalfm.org/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8003/stream/1/",
+    "features": "/img/asia/nepal/butwal-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/butwal-fm?time="
+  },
+  "ilam-fm": {
+    "title": "Ilam FM",
+    "type": "audio/mpeg",
+    "url": "https://www.ilamfm.org/",
+    "cros": true,
+    "stream": "http://live.itech.host:9635/stream",
+    "features": "/img/asia/nepal/ilam-fm.png"
+  },
+  "thaha-sanchar": {
+    "title": "Radio Thaha Sanchar",
+    "type": "audio/mpeg",
+    "url": "https://www.thahasanchar.com/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8025/stream/1/",
+    "features": "/img/asia/nepal/thaha-sanchar.png"
+  },
+  "vijaya-fm": {
+    "title": "Vijaya FM",
+    "type": "audio/mpeg",
+    "url": "https://vijayafm.org.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:3320/live",
+    "features": "/img/asia/nepal/vijaya-fm.png"
+  },
+  "resunga": {
+    "title": "Radio Resunga",
+    "type": "audio/mpeg",
+    "url": "https://radioresunga.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:9066/live",
+    "features": "/img/asia/nepal/resunga.png"
+  },
+  "keeps-fm": {
+    "title": "Keeps",
+    "type": "audio/mpeg",
+    "url": "https://www.keepsfm.com/",
+    "cros": false,
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8280/radio.mp3",
+    "features": "/img/asia/nepal/keeps-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/keeps-fm?time="
+  },
+  "triveni": {
+    "title": "Radio Triveni",
+    "type": "audio/mpeg",
+    "url": "https://www.radiotriveni.org/live",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8031/stream/1/",
+    "features": "/img/asia/nepal/triveni.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/triveni?time="
+  },
+  "mero-fm": {
+    "title": "Mero FM",
+    "type": "audio/mpeg",
+    "url": "https://merofm.com/",
+    "cros": true,
+    "stream": "http://streaming.hamropatro.com:8553/;",
+    "features": "/img/asia/nepal/mero-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/mero-fm?time="
+  },
+  "buddha-awaaz": {
+    "title": "Radio Buddha Awaaz",
+    "type": "audio/mpeg",
+    "url": "https://www.buddhaawaaz.com/",
+    "cros": false,
+    "stream": "https://live.itech.host:9353/stream",
+    "features": "/img/asia/nepal/buddha-awaaz.png"
+  },
+  "krishnasar-fm": {
+    "title": "Krishnasar FM",
+    "type": "audio/mpeg",
+    "url": "https://www.krishnasaronline.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:8434/live",
+    "features": "/img/asia/nepal/krishnasar-fm.png"
+  },
+  "damauli-fm-94-2-fm": {
+    "title": "Damauli FM",
+    "type": "audio/mpeg",
+    "url": "https://damaulifm.org/",
+    "cros": false,
+    "stream": "https://live.itech.host:8786/live",
+    "features": "/img/asia/nepal/damauli-fm-94-2-fm.png"
+  },
+  "nepalbani": {
+    "title": "Radio Nepalbani",
+    "type": "audio/mpeg",
+    "url": "https://www.nepalbani.org.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:8676/stream",
+    "features": "/img/asia/nepal/nepalbani.png"
+  },
+  "good-news-fm": {
+    "title": "Good News FM",
+    "type": "audio/mpeg",
+    "url": "https://www.goodnewsfm.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:8167/stream",
+    "features": "/img/asia/nepal/good-news-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/good-news-fm?time="
+  },
+  "radiosagar": {
+    "title": "RadioSagar",
+    "type": "audio/mpeg",
+    "url": "https://radiosagar.org/",
+    "cros": false,
+    "stream": "https://eu1.fastcast4u.com/proxy/radiosag?mp=/stream/1/",
+    "features": "/img/asia/nepal/radiosagar.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/radiosagar?time="
+  },
+  "choice-fm": {
+    "title": "Choice FM",
+    "type": "audio/mpeg",
+    "url": "https://www.choicefm.org/",
+    "cros": false,
+    "stream": "https://live.itech.host:8466/live",
+    "features": "/img/asia/nepal/choice-fm.png"
+  },
+  "himal-online": {
+    "title": "Himal Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.himalradio.com/",
+    "cros": true,
+    "stream": "http://streaming.webhostnepal.com:8022/stream/1/",
+    "features": "/img/asia/nepal/himal-online.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/himal-online?time="
+  },
+  "ujyaalo-90-network": {
+    "title": "Ujyaalo 90 Network",
+    "type": "audio/mpeg",
+    "url": "https://www.ujyaaloonline.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/h527zwd11uquv",
+    "features": "/img/asia/nepal/ujyaalo-90-network.png"
+  },
+  "bheri": {
+    "title": "Radio Bheri",
+    "type": "audio/mpeg",
+    "url": "https://radiobheri.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:9060/live?",
+    "features": "/img/asia/nepal/bheri.png"
+  },
+  "star-fm": {
+    "title": "Star FM",
+    "type": "audio/mpeg",
+    "url": "https://www.starfm.com.np/",
+    "cros": false,
+    "stream": "https://live.itech.host:9544/stream",
+    "features": "/img/asia/nepal/star-fm.png"
+  },
+  "city": {
+    "title": "Radio City",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.com.np/",
+    "cros": true,
+    "stream": "http://onlineradio.websoftitnepal.com:8036/stream/1/",
+    "features": "/img/asia/nepal/city.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/city?time="
+  },
+  "makwanpur": {
+    "title": "Radio Makwanpur",
+    "type": "audio/mpeg",
+    "url": "https://radiomakawanpur.com/",
+    "cros": true,
+    "stream": "http://streaming.softnep.net:8057/stream/1/",
+    "features": "/img/asia/nepal/makwanpur.png"
+  },
+  "madhyabindu": {
+    "title": "Radio Madhyabindu",
+    "type": "audio/mpeg",
+    "url": "https://www.madhyabindufm.org.np/live-page",
+    "cros": true,
+    "stream": "https://streaming.softnep.net:10981/stream/1/",
+    "features": "/img/asia/nepal/madhyabindu.png"
+  },
+  "himalaya": {
+    "title": "Radio Himalaya",
+    "type": "audio/mpeg",
+    "url": "https://radiohimalaya.com/",
+    "cros": true,
+    "stream": "http://live.itech.host:8541/stream/1/",
+    "features": "/img/asia/nepal/himalaya.png",
+    "schedule": "https://api.webrad.io/data/playlist/128/himalaya?time="
+  },
+  "b-fm": {
+    "title": "B FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://radio-streaming-serv-1.hamropatro.com/radio/8290/radio.mp3",
+    "features": "/img/asia/nepal/b-fm.png"
+  }
+}

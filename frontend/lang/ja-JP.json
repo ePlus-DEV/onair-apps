@@ -1,0 +1,751 @@
+{
+  "404": {
+    "content": "お探しのページは見つかりませんでした。"
+  },
+  "global_radio": {
+    "eplus_play_hint": "ePlus OnAirで直接聴けます。ほかの視聴方法は各局の詳細ページにあります。",
+    "playing_now": "再生中",
+    "other_listening_options": "ほかの視聴方法",
+    "external_options_hint": "これらのリンクは提供元のサイトを新しいタブで開きます。",
+    "listen_on_eplus": "ePlusで聴く",
+    "connecting_on_eplus": "接続中…",
+    "resolver_unavailable": "ePlusで再生できません。Apple MusicまたはTuneInでお聴きください。",
+    "hls_preview_title": "実験的機能：一時的なHLSリンクを再生",
+    "hls_preview_help": "正当に利用できるApple発行の短期間有効なHLS URLを、このブラウザーで試すことができます。外部サイトからの再生は拒否される場合があります。アクセスキーの取得・更新は行いません。",
+    "hls_preview_input": "署名付きの一時HLS URL",
+    "hls_preview_placeholder": "一時的なApple HLS .m3u8リンクを貼り付け",
+    "hls_preview_play": "再生を試す",
+    "hls_preview_stop": "停止して消去",
+    "hls_preview_audio": "一時的なHLS再生コントロール",
+    "hls_preview_privacy": "URLはこのタブのメモリにのみ保持され、停止または移動時に消去されます。履歴や聴取時間には保存しません。",
+    "hls_preview_checking": "HLSソースに接続しています…",
+    "hls_preview_playing": "一時的なHLSストリームを再生中です。",
+    "hls_preview_paused": "一時停止しました。再度お試しください。",
+    "hls_preview_invalid": "Apple/TuneInの署名付きHLS URLが無効です。",
+    "hls_preview_expired": "アクセスキーの期限が切れているようです。正規の提供元から有効なリンクを取得してください。",
+    "hls_preview_station_mismatch": "このHLSリンクは別のApple Music局のものです。",
+    "hls_preview_unavailable": "再生できません。アクセス制限、期限切れ、またはCORSが原因の可能性があります。Apple MusicかTuneInをご利用ください。",
+    "hls_preview_unsupported": "このブラウザーはHLSに対応していません。",
+    "seasonal_note": "季節限定の放送はホリデーシーズン以外には利用できない場合があります。Apple MusicまたはTuneInでご確認ください。",
+    "seasonal": "季節限定",
+    "listen_on_tunein": "TuneInで聴く",
+    "eyebrow": "国際ラジオネットワーク",
+    "title": "グローバルラジオ",
+    "description": "国別の一覧とは別に、世界のラジオネットワークを探せます。",
+    "providers": "ラジオプロバイダー",
+    "provider_count": "プロバイダー",
+    "external_badge": "外部サイトで再生",
+    "apple_description": "Apple Musicの主要6局と季節限定のHoliday Hitsを、国別ではなくグローバルな提供元として紹介します。",
+    "explore_provider": "放送局を見る",
+    "external_note": "Apple Musicの放送局はAppleのサイトで開きます。ePlus OnAir内では再生されず、聴取統計にも含まれません。",
+    "by_country": "国別に探す",
+    "home": "ホーム",
+    "breadcrumb": "パンくずリスト",
+    "open_provider": "Apple Musicを開く",
+    "apple_access": "再生にはApple Accountへのサインインが必要です。これら6局のライブ放送にはApple Musicのサブスクリプションは不要です。地域により利用状況が異なります。",
+    "stations": "ライブ放送局",
+    "station_count": "局",
+    "details": "放送局の詳細",
+    "listen_on_apple": "Apple Musicで聴く",
+    "origin": "発信国",
+    "how_listen": "聴取方法",
+    "back_to_provider": "Apple Music Radioのすべての局"
+  },
+  "navmenu": {
+    "more": "その他",
+    "information": "サイト情報",
+    "homepage": "ホームページ",
+    "about": "このサイトについて",
+    "blog": "ブログ",
+    "group": "グループ",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "contact": "コンタクト",
+    "language": "言語：",
+    "old_version": "旧バージョン",
+    "statistics": "統計",
+    "changelog": "変更ログ",
+    "cookie": "Cookieポリシー"
+  },
+  "terms": {
+    "content": "ウェブサイト https://radio.eplus.dev (「ePlus OnAir」) へようこそ。ePlus.DEV の製品です。ウェブサイト https://radio.eplus.dev のサービス提供および利用に関する契約を注意深くお読みください。「Radio」ウェブサイト ePlus の機能を使用する前に。登録すると、以下の条件を読み、理解し、受け入れ、遵守したことになります。",
+    "article_1": {
+      "title": "第1条: 非営利",
+      "line_1": "私たちは、いかなる種類の料金もなく、永遠に無料であることを約束します。",
+      "line_2": "私たちは、世界中のステーションやコンテンツ開発者からの無料コンテンツの利用を認識しているため、このコンテンツをすべての人に広めたいと考えています。"
+    },
+    "article_2": {
+      "title": "第2条: デジタルミレニアム著作権法",
+      "line_1": "ePlus OnAir は知的財産の問題を非常に真剣に受け止めており、コンテンツ所有者のニーズに応えながら、オンラインでのコンテンツの公開を管理する手助けをすることに尽力しています。ePlus OnAir はポップアップによってサードパーティのウェブサイトにリンクするラジオステーションポータルであることに注意してください。",
+      "line_2": "これらのサードパーティのウェブサイト上のコンテンツは、それらのサイトの責任であり、ePlus OnAir の責任ではありません。サードパーティのウェブサイト上のコンテンツがコンテンツ所有者によって許可されているかどうかについては、オーディオコンテンツをホストするサイトとコンテンツ所有者の間の問題であるため、ePlus OnAir はその知識を持っていません。ePlus OnAir は、サーバーやネットワーク上にオーディオコンテンツをホストしていません。"
+    }
+  },
+  "world": {
+    "africa": {
+      "name": "アフリカ",
+      "algeria": "アルジェリア",
+      "nigeria": "ナイジェリア",
+      "cameroon": "カメルーン",
+      "congo": "コンゴ",
+      "cote_d_ivoire": "コートジボワール",
+      "egypt": "エジプト",
+      "ghana": "ガーナ",
+      "kenya": "ケニア",
+      "madagascar": "マダガスカル",
+      "morocco": "モロッコ",
+      "senegal": "セネガル",
+      "south_africa": "南アフリカ",
+      "tunisia": "チュニジア",
+      "uganda": "ウガンダ"
+    },
+    "asia": {
+      "name": "アジア",
+      "viet_nam": "ベトナム",
+      "singapore": "シンガポール",
+      "korea": "韓国",
+      "china": "中国",
+      "hong_kong": "香港",
+      "japan": "日本",
+      "malaysia": "マレーシア",
+      "philippines": "フィリピン",
+      "indonesia": "インドネシア",
+      "thailand": "タイ",
+      "bangladesh": "バングラデシュ",
+      "pakistan": "パキスタン",
+      "india": "インド",
+      "taiwan": "台湾",
+      "israel": "イスラエル",
+      "sri_lanka": "スリランカ",
+      "nepal": "ネパール"
+    },
+    "central_america": {
+      "name": "中米",
+      "costa_rica": "コスタリカ",
+      "el_salvador": "エルサルバドル",
+      "guatemala": "グアテマラ",
+      "honduras": "ホンジュラス",
+      "nicaragua": "ニカラグア",
+      "panama": "パナマ"
+    },
+    "europe": {
+      "name": "ヨーロッパ",
+      "united_kingdom": "イギリス",
+      "ukraine": "ウクライナ",
+      "russia": "ロシア",
+      "france": "フランス",
+      "greece": "ギリシャ",
+      "croatia": "クロアチア",
+      "ireland": "アイルランド",
+      "italy": "イタリア",
+      "luxembourg": "ルクセンブルク",
+      "hungary": "ハンガリー",
+      "netherlands": "オランダ",
+      "norway": "ノルウェー",
+      "austria": "オーストリア",
+      "poland": "ポーランド",
+      "portugal": "ポルトガル",
+      "romania": "ルーマニア",
+      "switzerland": "スイス",
+      "slovenia": "スロベニア",
+      "serbia": "セルビア",
+      "finland": "フィンランド",
+      "sweden": "スウェーデン",
+      "bulgaria": "ブルガリア",
+      "belgium": "ベルギー",
+      "czechia": "チェコ",
+      "denmark": "デンマーク",
+      "estonia": "エストニア",
+      "germany": "ドイツ",
+      "spain": "スペイン",
+      "latvia": "ラトビア",
+      "lithuania": "リトアニア"
+    },
+    "north_america": {
+      "name": "北米",
+      "cuba": "キューバ",
+      "haiti": "ハイチ",
+      "jamaica": "ジャマイカ",
+      "mexico": "メキシコ",
+      "puerto_rico": "プエルトリコ",
+      "dominican_republic": "ドミニカ共和国",
+      "trinidad_and_tobago": "トリニダード・トバゴ"
+    },
+    "oceania": {
+      "name": "オセアニア",
+      "australia": "オーストラリア",
+      "new_zealand": "ニュージーランド"
+    },
+    "south_america": {
+      "name": "南米",
+      "argentina": "アルゼンチン",
+      "bolivia": "ボリビア",
+      "brazil": "ブラジル",
+      "chile": "チリ",
+      "colombia": "コロンビア",
+      "ecuador": "エクアドル",
+      "paraguay": "パラグアイ",
+      "peru": "ペルー",
+      "suriname": "スリナム",
+      "uruguay": "ウルグアイ",
+      "venezuela": "ベネズエラ"
+    }
+  },
+  "panel": {
+    "most_popular": "{name} で最も人気のある",
+    "frequency": "周波数",
+    "play_from_radio": "ラジオを聴く",
+    "country": "国",
+    "radio_in": "{name}のラジオ",
+    "description": "説明",
+    "category": "カテゴリー",
+    "schedule": "スケジュール",
+    "schedule_jump_to_now": "現在の時間帯へ",
+    "schedule_now_marker": "現在",
+    "schedule_gap_unknown": "この時間帯の番組情報は掲載されていません。",
+    "schedule_gap_next": "次の予定番組：{title} · {time}",
+    "schedule_gap_no_next": "今日の参考番組表に次の番組は掲載されていません。",
+    "schedule_reference_note": "放送局の参考番組表です。日によって変更される場合があります。最新情報は公式番組表をご確認ください。",
+    "schedule_official_note": "放送局の公式番組表。",
+    "schedule_official_link": "公式番組表を見る",
+    "schedule_vietnam_timezone": "ベトナム時間 (UTC+7)",
+    "schedule_provider_only": "日によって番組が異なります。最新の番組表は公式サイトでご覧ください。",
+    "playlist": "プレイリスト",
+    "tunein_history_note": "この視聴中に確認できた曲名とアーティストのみ表示します。TuneIn の更新は遅れる場合があります。",
+    "tunein_history_unavailable": "この局の再生中の曲名とアーティストは現在 TuneIn から取得できません。",
+    "next": "次",
+    "lyric": "歌詞",
+    "no_lyric": "歌詞が見つかりません",
+    "updating": "更新中...",
+    "channels": "すべての局",
+    "station_count": "{count} 局",
+    "search_channels": "局を検索...",
+    "no_channels": "局が見つかりません"
+  },
+  "button": {
+    "back": "戻る",
+    "close": "閉じる"
+  },
+  "popup": {
+    "search": {
+      "text": "探す...",
+      "stats": "{nbPages} のページ {page} - {processingTimeMS} ミリ秒で取得された {nbHits} ヒット",
+      "category": "国でフィルタリング",
+      "popular_channels": "人気のチャンネル"
+    }
+  },
+  "notify": {
+    "success": "成功",
+    "success_content": "再生中: {radio}",
+    "error": "エラー",
+    "error_content": "再生できません: {radio}"
+  },
+  "statistics_tooltip": {
+    "text": "インシデント: {num} | ダウンタイム: {time} 分 | {response} ミリ秒"
+  },
+  "table": {
+    "status": "状態",
+    "commit": "コミット",
+    "created": "作成日時",
+    "updated": "更新日時",
+    "published": "公開済み",
+    "view": "表示"
+  },
+  "alert": {
+    "play_button": "ブラウザのデフォルトでは、ラジオを聞くには ▶ ボタンを押す必要があります。",
+    "stream_error": "現在この局を再生できません。後ほど試すか、別の局を選んでください。"
+  },
+  "text": {
+    "guide": "ガイド",
+    "the_last_90_days": "過去 90 日間",
+    "hosted": "{name}でホスト - 最終更新{time}",
+    "downtime": "ダウンタイム",
+    "uptime": "アップタイム",
+    "darkmode": {
+      "dark": "ダーク",
+      "light": "ライト",
+      "system": "システム"
+    },
+    "offline": "インターネットに接続されていないようです。接続を確認してもう一度お試しください。"
+  },
+  "player": {
+    "title": "ラジオプレーヤー",
+    "choose_station": "放送局を選んで聴き始める",
+    "play": "ラジオを再生",
+    "pause": "一時停止",
+    "retry": "再試行",
+    "connecting": "接続中…",
+    "on_air": "再生中",
+    "ready": "再生準備完了",
+    "queue": "放送局と番組表",
+    "source": "配信ソース",
+    "volume": "音量",
+    "mute": "ミュート",
+    "unmute": "ミュート解除",
+    "keep_listening": "ページを移動しても再生を続けます",
+    "listen_country": "放送局を聴く",
+    "explore": "地域を探す",
+    "previous": "前の放送局: {name}",
+    "next": "次の放送局: {name}",
+    "sidebar_label": "放送局と番組表",
+    "live": "ライブ",
+    "primary_source": "メイン",
+    "alternative_source": "代替",
+    "source_number": "音声ソース {number}",
+    "stream_format": "配信形式",
+    "proxy": "プロキシ",
+    "direct": "直接接続",
+    "ios_volume_hint": "iPhone／iPad では、本体の音量ボタンまたはコントロールセンターで音量を調整してください。",
+    "sleep_timer": "スリープタイマー",
+    "sleep_minutes": "{minutes}分後に停止",
+    "sleep_cancel": "タイマーを解除",
+    "sleep_remaining": "あと{minutes}分で停止",
+    "compact_player": "プレーヤーをコンパクトにする",
+    "expand_player": "プレーヤーを展開",
+    "window_player": "ミニプレーヤー",
+    "dock_player": "ドックに戻す",
+    "schedule_loading": "番組表を読み込み中…"
+  },
+  "site_pages": {
+    "common": {
+      "last_updated": "最終更新"
+    },
+    "about": {
+      "eyebrow": "概要",
+      "title": "ePlus OnAir について",
+      "description": "世界各地のラジオ局を、ひとつの場所で見つけて聴けます。",
+      "sections": {
+        "discover": {
+          "title": "ラジオを探す",
+          "body": "ePlus OnAir はインターネットラジオ局を地域・国別に整理し、国内外の放送局を一つの統一された画面から探せるようにします。"
+        },
+        "playback": {
+          "title": "直接再生",
+          "body": "好きな局を選んで再生ボタンを押してください。最初の再生先が使えない場合、別の再生先を試せることがあります。"
+        },
+        "availability": {
+          "title": "放送局の情報は変わることがあります",
+          "body": "放送内容や番組表は各放送局が管理しています。放送が一時的に止まったり、予定が変わったり、曲名の表示が遅れたりする場合があります。"
+        }
+      },
+      "service": {
+        "title": "もっと手軽にラジオを楽しもう",
+        "body": "お気に入りの局を見つけて保存し、スマートフォンやパソコンで気軽にラジオを楽しめます。",
+        "action": "Start listening"
+      }
+    },
+    "privacy": {
+      "eyebrow": "プライバシー",
+      "title": "プライバシーポリシー",
+      "description": "サイトに保存される情報と、ラジオの検索や再生時に何が起こるかをご案内します。",
+      "sections": {
+        "accounts": {
+          "title": "アカウントと支払い",
+          "body": "ePlus OnAir はユーザー登録を必要とせず、このサイトに決済機能もありません。公開のプロジェクト窓口へ機微な個人情報を送らないでください。"
+        },
+        "preferences": {
+          "title": "保存される設定",
+          "body": "言語、画面の色、お気に入り、最近聴いた局などを、この端末のブラウザーに保存することがあります。次回も使いやすくするためです。"
+        },
+        "search": {
+          "title": "検索サービス",
+          "body": "放送局を検索すると、入力した言葉が Algolia などの検索サービスに送られることがあります。各サービスのプライバシーポリシーが適用されます。"
+        },
+        "streams": {
+          "title": "ラジオを聴くとき",
+          "body": "再生すると、お使いの端末が放送局や音声配信サービスに接続します。それらのサービスには IP アドレスやブラウザーの基本情報が伝わる場合があります。"
+        },
+        "logs": {
+          "title": "サイトを安全に保つために",
+          "body": "サイトの運営・保護を行うサービスが、IP アドレス、ブラウザー、閲覧ページ、アクセス時刻などを記録し、運営や不具合の修正に使うことがあります。"
+        },
+        "sharing": {
+          "title": "データの販売と共有",
+          "body": "個人情報を販売しません。公式サイトでは Google Analytics 4 を使用してアクセス数、ページ閲覧数、放送局別の聴取時間を計測します。個人の聴取時間統計は端末内にも保存されます。検索やラジオ提供元に情報が伝わる場合があります。"
+        },
+        "changes": {
+          "title": "ポリシーの変更",
+          "body": "サイト、プロバイダー、データ処理方法の変更に応じて本ポリシーを更新する場合があります。最新の内容と更新日はこのページに掲載します。"
+        }
+      }
+    },
+    "terms": {
+      "eyebrow": "利用条件",
+      "title": "利用規約",
+      "description": "ePlus OnAir と第三者ラジオサービスへのリンクを利用する際の条件です。",
+      "sections": {
+        "service": {
+          "title": "サービスの利用",
+          "body": "ePlus OnAir は無料のラジオ検索・再生インターフェースとして提供されます。公開されているラジオサービスへ適法に個人利用する目的で使用できます。"
+        },
+        "third_party": {
+          "title": "放送局と外部サービス",
+          "body": "各放送局が番組、放送時間、聴取できる地域を決めています。広告が流れたり、予告なく放送が止まったりする場合があります。"
+        },
+        "copyright": {
+          "title": "著作権と商標",
+          "body": "放送局名、ロゴ、音声などの権利はそれぞれの所有者にあります。権利者として修正や削除を希望する場合は、対象ページのリンクと確認に必要な情報をお送りください。"
+        },
+        "acceptable_use": {
+          "title": "安心して利用するために",
+          "body": "法律を守ってご利用ください。サイトや放送局の運営を妨げたり、無断で制限を回避したり、大量のデータ取得で負荷をかけたり、有害なソフトウェアを配布したりしないでください。"
+        },
+        "availability": {
+          "title": "ラジオが聴けないとき",
+          "body": "放送局が一時的に放送を休止したり、再生用のリンクが使えなくなったりする場合があります。時間をおいて再度試すか、別の局を選んでください。局の一覧は入手できる情報をもとに提供しており、放送、番組表、曲名が常に正確で利用できるとは限りません。"
+        },
+        "changes": {
+          "title": "規約の変更",
+          "body": "プロジェクトや対応サービスの変化に伴い規約を更新する場合があります。更新後の利用には、その時点で公開されている規約が適用されます。"
+        }
+      }
+    },
+    "contact": {
+      "eyebrow": "お問い合わせ",
+      "title": "ePlus OnAir へのお問い合わせ",
+      "description": "ラジオが聴けない、局を追加したい、掲載内容を問い合わせたいときはこちらからご連絡ください。",
+      "sections": {
+        "bug": {
+          "title": "局やページが動かない",
+          "body": "問題が起きた局やページ、起きたこと、スマートフォンかパソコンかをお知らせください。画面の画像があると助かります。"
+        },
+        "station": {
+          "title": "放送局情報の更新",
+          "body": "放送局の追加や情報の修正には、局名、国、公式サイト、分かれば再生先のリンクをお送りください。"
+        },
+        "copyright": {
+          "title": "著作権・削除依頼",
+          "body": "掲載内容の権利をお持ちで修正や削除を希望する場合は、対象ページのリンクと確認に必要な情報をお送りください。"
+        }
+      },
+      "support": {
+        "title": "お困りですか？",
+        "body": "放送局名やページのリンクと、問題やご質問の内容を簡単にお知らせください。",
+        "action": "Email support"
+      }
+    },
+    "statistics": {
+      "eyebrow": "ラジオ局",
+      "title": "ラジオ統計",
+      "description": "ePlus OnAir で探せる国やラジオ局の数をご覧いただけます。",
+      "metrics": {
+        "areas": "地域",
+        "countries": "国",
+        "stations": "放送局"
+      },
+      "coverage_title": "地域別カバレッジ",
+      "coverage_description": "地域ごとに、掲載している国と放送局の数を表示します。",
+      "method_title": "数字について",
+      "method_body": "数字は最近更新された放送局一覧から数えています。現在放送中の局数や、聴いている人数を表すものではありません。"
+    },
+    "error": {
+      "not_found_title": "ページが見つかりません",
+      "generic_title": "エラーが発生しました",
+      "generic_body": "ページを読み込めませんでした。ホームページに戻ってもう一度お試しください。"
+    },
+    "cookie": {
+      "eyebrow": "Cookie Policy",
+      "title": "Cookie Policy",
+      "description": "ePlus OnAir が設定を記憶し、サイトのアクセス数を調べる方法をご案内します。",
+      "sections": {
+        "essential": {
+          "title": "Essential storage",
+          "body": "ブラウザーは、この端末に言語、画面の色、お気に入り、再生履歴などを保存します。次回も使いやすくするためです。"
+        },
+        "analytics": {
+          "title": "サイトのアクセス数",
+          "body": "公式サイトでは Google Analytics 4 を使ってアクセス数、ページ閲覧数、放送局別の聴取時間を計測します。この案内を閉じても計測は止まりません。"
+        },
+        "third_party": {
+          "title": "Third-party services",
+          "body": "検索や再生の際に、外部サービスから音声、画像、番組情報が届くことがあります。それらのサービスには IP アドレスが伝わり、独自の Cookie が使われる場合があります。"
+        },
+        "choices": {
+          "title": "Your choices",
+          "body": "ブラウザーの設定でサイトに保存されたデータを削除できます。その場合、お気に入り、再生履歴、表示設定も消えることがあります。"
+        },
+        "changes": {
+          "title": "Updates",
+          "body": "サイトやサービスの変更に合わせて、この方針を更新する場合があります。最新版はいつでもこちらでご覧いただけます。"
+        }
+      }
+    }
+  },
+  "for_you": {
+    "title": "あなたへのおすすめ",
+    "description": "端末に保存したライブラリに関連する局を、アカウントなしで探せます。",
+    "show": "おすすめを見る",
+    "hide_panel": "おすすめを隠す",
+    "loading": "放送局を検索中…",
+    "unavailable": "おすすめを読み込めませんでした。",
+    "retry": "再試行",
+    "based_on_your_library": "現在のプライバシー設定に従い、端末のライブラリに保存された局から提案しています。",
+    "curated_intro": "一致する好みがないため、実際に注目局に指定された局を表示します。",
+    "reason_genre": "保存済みの局と同じジャンル",
+    "reason_language": "保存済みの局と同じ言語",
+    "reason_country": "以前に聴いた国の局",
+    "reason_featured": "カタログの注目局",
+    "dismiss": "このおすすめを隠す",
+    "empty": "一致する新しい局がありません。",
+    "privacy_note": "おすすめは端末内で計算します。お気に入りと履歴はサーバーに送信されません。非表示は再読み込みで解除されます。"
+  },
+  "surprise": {
+    "title": "おまかせ再生",
+    "heading": "新しいラジオ局を発見",
+    "description": "実際のカタログからランダムに選びます。ボタンを押した場合にのみ再生します。",
+    "filters": "絞り込み",
+    "action": "ランダム再生",
+    "loading": "放送局カタログを読み込み中…",
+    "unavailable": "放送局を読み込むか再生できませんでした。もう一度お試しください。",
+    "country": "国",
+    "any_country": "すべての国",
+    "genre": "ジャンル",
+    "any_genre": "すべてのジャンル",
+    "language": "言語",
+    "any_language": "すべての言語",
+    "available_count": "一致する放送局: {count}局",
+    "empty": "条件に一致する放送局がありません。",
+    "selected": "選択した放送局"
+  },
+  "home": {
+    "live_badge": "インターネットラジオ生放送",
+    "title": "世界中のラジオをライブで楽しもう",
+    "description": "地域や国から放送局を探して、お気に入りのラジオをすぐに再生できます。",
+    "start_listening": "聴き始める",
+    "explore_countries": "国から探す",
+    "countries": "国",
+    "regions": "地域",
+    "streaming": "ライブ配信",
+    "featured": "おすすめ",
+    "explore": "探す",
+    "browse_country": "国別に探す"
+  },
+  "sidebar": {
+    "browse_radio": "ラジオを探す",
+    "radio_regions": "地域別ラジオ",
+    "live_badge": "ライブ配信",
+    "description": "世界中のラジオ局をいつでも見つけて楽しめます。"
+  },
+  "search": {
+    "unavailable": "現在検索を利用できません。以下の人気放送局は引き続き表示されます。",
+    "suggestions": "おすすめ",
+    "recent": "最近の検索",
+    "clear": "消去",
+    "loading": "放送局を読み込み中…"
+  },
+  "chat": {
+    "open": "チャットボットを開く",
+    "title": "チャットボット",
+    "powered_by": "Mendable と Vercel を利用",
+    "greeting": "こんにちは！何かお手伝いできますか？",
+    "placeholder": "メッセージを入力",
+    "send": "送信"
+  },
+  "seo": {
+    "home_breadcrumb": "ホーム",
+    "country_title": "{country} のライブ ラジオ",
+    "country_description": "{country} のインターネットラジオ {count} 局をライブで楽しめます。ePlus OnAir で現地の放送局を探しましょう。",
+    "country_description_empty": "ePlus OnAir で {country} のインターネットラジオをライブで聴きましょう。",
+    "station_title": "{station} ライブ ラジオ – {country}",
+    "station_description": "ePlus OnAir で {country} の {station} をライブで聴きましょう。"
+  },
+  "brand": {
+    "live_radio": "ライブ ラジオ",
+    "slogan": "Listen Beyond Borders.",
+    "slogan_localized": "国境を越えて、耳を傾けよう。"
+  },
+  "footer": {
+    "tagline": "Listen Beyond Borders.",
+    "description": "地域や国から放送局を探して、どの端末からでもすぐに聴けます。"
+  },
+  "library": {
+    "title": "マイラジオ",
+    "recent": "最近聴いた局",
+    "favorites": "お気に入り",
+    "recent_empty": "再生したラジオ局がここに表示されます。",
+    "favorites_empty": "ハートを押すとお気に入りに保存できます。",
+    "clear_recent": "履歴を消去",
+    "remove_recent": "履歴から削除",
+    "listening_stats": "聴取時間",
+    "listening_live": "聴取時間をリアルタイムで計測中",
+    "listening_tracking_title": "聴取時間の記録",
+    "listening_tracking_description": "オフにすると聴取時間の計測と聴取時間に関する分析イベントの送信を停止します。保存済みの統計、再生、最近聴いた局はそのままです。",
+    "listening_tracking_on": "オン",
+    "listening_tracking_off": "オフ",
+    "listening_tracking_paused": "聴取時間の計測はオフです。保存済みの統計は引き続き表示されます。",
+    "listening_delete_stats": "聴取時間の統計を削除",
+    "listening_confirm_delete_title": "聴取時間の統計をすべて削除しますか？",
+    "listening_confirm_delete_description": "このブラウザーに保存された合計時間、日別グラフ、局別の聴取時間を完全に削除します。元に戻せません。お気に入りと最近聴いた局は残ります。計測がオンならゼロから再開します。",
+    "listening_confirm_delete_no": "キャンセル",
+    "listening_confirm_delete_yes": "はい、統計を削除",
+    "listening_daily_chart": "日別の聴取時間",
+    "listening_daily_hint": "棒グラフを選ぶと、その日の聴取時間が表示されます。",
+    "listening_chart_range": "グラフの期間",
+    "listening_last_7": "7日間",
+    "listening_last_30": "30日間",
+    "listening_last_90": "90日間",
+    "listening_period_total": "期間中の聴取時間",
+    "listening_daily_empty": "日別の聴取データはまだありません。",
+    "listening_stats_description": "この端末で実際に再生された時間のみを記録します。一時停止、読み込み待ち、再生エラーは含みません。",
+    "listening_total": "合計聴取時間",
+    "listening_today": "今日",
+    "listening_stations": "聴取した局数",
+    "listening_top_stations": "局ごとの聴取時間",
+    "listening_empty": "ラジオ局を再生すると聴取時間が記録されます。",
+    "listening_hour_short": "時間",
+    "listening_minute_short": "分",
+    "listening_second_short": "秒",
+    "confirm_clear_recent_title": "聴取履歴をすべて削除しますか？",
+    "confirm_clear_recent_description": "最近聴いた局をすべて削除しますか？お気に入りと聴取時間の統計は保持されます。",
+    "confirm_clear_recent_yes": "はい、履歴を削除",
+    "confirm_clear_recent_no": "いいえ、保持する",
+    "add_favorite": "お気に入りに追加",
+    "remove_favorite": "お気に入りから削除",
+    "loading": "保存した放送局を読み込み中…"
+  },
+  "redesign": {
+    "navigation": "ナビゲーション",
+    "discover": "見つける",
+    "search": "検索",
+    "library": "ライブラリ",
+    "continue_listening": "続きを聴く",
+    "paused": "一時停止中",
+    "now_playing": "再生画面",
+    "timer": "タイマー",
+    "channel_list": "チャンネル",
+    "next_station": "次の放送局",
+    "library_description": "お気に入りと再生履歴はこの端末に保存されます。",
+    "all": "すべて",
+    "see_all": "すべて見る"
+  },
+  "cookie_consent": {
+    "title": "Cookieとアクセス解析のお知らせ",
+    "body": "ePlus OnAir は、お使いの端末に再生や表示の設定を保存します。",
+    "accept": "了解",
+    "analytics_body": "ePlus OnAir は設定を保存し、公式サイトで Google Analytics 4 を使ってアクセス数とラジオ聴取時間を計測します。この案内を閉じても計測は止まりません。",
+    "learn_more": "Cookieポリシー"
+  },
+  "sharing": {
+    "share": "放送局を共有",
+    "copied": "リンクをコピーしました。",
+    "manual": "このリンクを選択してコピーしてください："
+  },
+  "recovery": {
+    "buffering": "ライブ音声をバッファリング中…",
+    "source_position": "ソース {index} / {total}",
+    "attempt": "試行 {attempt} / {limit}",
+    "reason_network": "ブラウザーでネットワークエラーが発生しました。放送局の停止を意味するものではありません。",
+    "reason_decode": "このソースをデコードできないか、形式が非対応の可能性があります。",
+    "reason_timeout": "接続がタイムアウトするまでに音声を受信できませんでした。別のソースを試してください。",
+    "reason_unknown": "再生エラーが発生しましたが、原因は確認できていません。",
+    "last_played": "この端末で最後に再生した時刻: {time}",
+    "local_observation": "この端末のセッション内の記録です。放送局全体の稼働状況を保証しません。",
+    "offline": "オフラインのようです。接続を確認してから再試行してください。",
+    "unsupported": "最後の音源をデコードできないか、このブラウザーが対応していません。別の音源をお試しください。",
+    "exhausted": "再試行後も再生できませんでした。再試行するか、別の音源を選んでください。他の端末では再生できる場合があります。",
+    "connecting": "接続またはバッファリング中…",
+    "report": "再生の問題を報告",
+    "report_hint": "確認して送信できるGitHubの下書きを開きます。ストリームURLや視聴履歴は含まれません。"
+  },
+  "transfer": {
+    "title": "お気に入りを移行",
+    "export": "お気に入りをエクスポート",
+    "import": "お気に入りをインポート",
+    "export_error": "エクスポートできませんでした。再試行してください。",
+    "description": "別の端末のお気に入りを確認して追加します。現在のお気に入りは保持されます。",
+    "limit": "ePlus OnAirのお気に入りJSONファイルを選択してください（最大256 KiB、200局）。",
+    "choose": "お気に入りファイルを選択",
+    "invalid": "ファイルが無効、大きすぎる、または未対応のバージョンです。",
+    "preview": "追加：{add} · 保存済み：{duplicate} · カタログにない局：{missing} · 200局の上限超過：{overflow}",
+    "done": "このブラウザーに{count}局を追加しました。",
+    "confirm": "お気に入りに追加",
+    "favorites_only": "お気に入りのみ",
+    "no_favorites": "この国に一致するお気に入りの放送局はありません。"
+  },
+  "listener_settings": {
+    "title": "設定",
+    "description": "ePlus OnAirを自分好みにカスタマイズ。",
+    "listening": "再生設定",
+    "live_resume": "ライブ位置から再開",
+    "live_resume_hint": "一時停止後は最新の放送に接続し直します。",
+    "reconnect": "自動再接続",
+    "reconnect_hint": "接続が切れたら利用可能なストリームで再試行します。",
+    "restore": "最後の局を記憶",
+    "restore_hint": "局を復元しますが、再読み込み時には自動再生しません。",
+    "volume": "音量を記憶",
+    "volume_hint": "この端末の音量とミュートを記憶します。",
+    "appearance": "外観と言語",
+    "theme": "テーマ",
+    "motion": "アニメーションを減らす",
+    "motion_hint": "装飾的な動きや切り替え効果を抑えます。",
+    "privacy": "プライバシーとローカルデータ",
+    "privacy_hint": "設定や再生履歴はこのブラウザーに保存されます。",
+    "tracking_hint": "この端末での再生時間のみ記録します。",
+    "analytics_note": "この設定でサイト解析（GA4）は無効になりません。Cookieポリシーをご覧ください。",
+    "favorites": "お気に入りを管理",
+    "statistics": "再生統計",
+    "clear_history": "最近の再生履歴を削除",
+    "clear_stats": "再生統計を削除",
+    "local_note": "アカウントや端末間同期はありません。ブラウザーデータを消すと設定も消えます。",
+    "confirm_history": "再生履歴を削除しますか？",
+    "confirm_history_hint": "最近の履歴のみ削除します。お気に入りは保持されます。",
+    "confirm_stats": "再生統計を削除しますか？",
+    "confirm_stats_hint": "合計時間とグラフを削除します。お気に入りは保持されます。",
+    "cancel": "キャンセル",
+    "confirm": "削除"
+  },
+  "online_stats": {
+    "station_all_description": "この端末に保存された全放送局の聴取時間を表示します。",
+    "station_search": "放送局を検索…",
+    "station_sort": "並び替え",
+    "station_sort_most": "再生時間が長い順",
+    "station_sort_least": "再生時間が短い順",
+    "station_sort_name": "名前順（A–Z）",
+    "station_results": "{total}局中 {from}～{to}局を表示",
+    "station_no_results": "一致する放送局がありません。",
+    "station_pagination": "放送局リストのページ",
+    "station_previous": "前へ",
+    "station_page": "{page} / {total} ページ",
+    "station_next": "次へ",
+    "total": "オンライン合計時間",
+    "today": "今日のオンライン時間",
+    "listening_today": "今日のラジオ再生",
+    "listening": "ラジオ再生",
+    "online": "オンライン",
+    "tracking": "オンライン時間を記録",
+    "definition": "画面に表示され、フォーカスがある接続中のタブのみ計測します。操作が5分間ない場合は停止します。バックグラウンド再生は含まれません。",
+    "chart_kind": "時間の種類",
+    "daily_chart": "日別オンライン時間",
+    "daily_hint": "日付を選ぶとサイト利用時間を確認できます。",
+    "period_total": "選択期間のオンライン時間",
+    "daily_empty": "この期間のオンライン記録はありません。",
+    "clear_title": "オンラインと再生の統計を削除しますか？",
+    "clear_description": "このブラウザーのオンライン時間、再生時間、日別グラフ、局別の集計を削除しますか？お気に入りと再生履歴は保持されます。",
+    "clear_action": "時間の統計を削除",
+    "compare_intro": "ラジオを聴いた時間とサイトを利用した時間を別々に集計します。",
+    "manage_settings": "記録設定",
+    "listening_explanation": "ラジオの音声が実際に再生されている間だけ集計します。バックグラウンド再生も含みます。",
+    "online_explanation": "このサイトのタブを操作している間だけ集計し、操作が5分間ないと停止します。",
+    "new_counter_note": "オンライン時間は機能導入以降の記録です。以前の再生時間は維持されます。",
+    "daily_compare": "日別の利用傾向",
+    "listening_trend": "日別ラジオ再生時間の推移",
+    "online_trend": "日別オンライン時間の推移",
+    "selected_day": "選択した日",
+    "select_day": "詳細を見る日を選択",
+    "independent_scales": "2つの指標には別々の目盛りを使います。時間を合算しないでください。",
+    "filter_both": "両方",
+    "filter_listening": "ラジオ再生",
+    "filter_online": "オンライン",
+    "chart_tooltip_hint": "グラフにカーソルを合わせるか、タップすると日別の時間を確認できます。",
+    "scale_max": "最大",
+    "chart_hover_label": "日別の時間グラフ。ホバーか矢印キーで日付を確認できます。",
+    "combined_scales_note": "2本の線はそれぞれ別の目盛りを使います。実際の時間はホバーで確認してください。時間帯は重なる場合があります。",
+    "weekly_activity": "過去7日間",
+    "vs_previous_week": "前の7日間との比較",
+    "stations_played": "聴いた局数",
+    "most_listened_station": "最も聴いた局",
+    "listening_peak": "再生時間の最大値",
+    "online_peak": "オンライン時間の最大値",
+    "show_all": "すべて表示",
+    "show_less": "折りたたむ"
+  }
+}

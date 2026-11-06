@@ -1,0 +1,382 @@
+{
+    "lviv-wave": {
+        "title": "Радіо Львівська хвиля",
+        "type": "audio/mpeg",
+        "url": "https://lviv.fm/",
+        "cros": false,
+        "stream": "https://onair.lviv.fm:8443/lviv32.fm",
+        "features": "/img/europe/ukraine/lviv-wave.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/lviv-wave?time=",
+        "favorite": true
+    },
+    "kiss-fm": {
+        "title": "KISS FM",
+        "type": "audio/mpeg",
+        "url": "https://www.kissfm.ua/",
+        "cros": false,
+        "stream": "https://online.kissfm.ua/KissFM",
+        "features": "/img/europe/ukraine/kiss-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/kiss-fm?time="
+    },
+    "hit-fm": {
+        "title": "Хіт FM",
+        "type": "audio/mpeg",
+        "url": "https://www.hitfm.ua/",
+        "cros": false,
+        "stream": "https://online.hitfm.ua/HitFM_Live",
+        "features": "/img/europe/ukraine/hit-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/hit-fm?time="
+    },
+    "nashe": {
+        "title": "Наше радіо",
+        "type": "audio/mpeg",
+        "url": "https://www.nasheradio.ua/",
+        "cros": false,
+        "stream": "https://online.nasheradio.ua/NasheRadio",
+        "features": "/img/europe/ukraine/nashe.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/nashe?time="
+    },
+    "classic-radio": {
+        "title": "Classic Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.classicradio.com.ua/",
+        "cros": false,
+        "stream": "https://online.classicradio.com.ua/ClassicRadio",
+        "features": "/img/europe/ukraine/classic-radio.png"
+    },
+    "slager-fm": {
+        "title": "Шлягер FM",
+        "type": "audio/mpeg",
+        "url": "https://shlager.fm/",
+        "cros": false,
+        "stream": "https://cast.brg.ua/shlager_main_public_mp3_hq",
+        "features": "/img/europe/ukraine/slager-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/slager-fm?time="
+    },
+    "zakarpattya-fm": {
+        "title": "Закарпаття ФМ",
+        "type": "audio/mpeg",
+        "url": "https://zakarpattyafm.com.ua/",
+        "cros": true,
+        "stream": "http://195.234.148.51:8000/stream/1/",
+        "features": "/img/europe/ukraine/zakarpattya-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/zakarpattya-fm?time="
+    },
+    "ur-2-promin": {
+        "title": "Радіо Промінь",
+        "type": "audio/mpeg",
+        "url": "https://promin.fm/",
+        "cros": false,
+        "stream": "https://radio.ukr.radio/ur2-mp3",
+        "features": "/img/europe/ukraine/ur-2-promin.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/ur-2-promin?time="
+    },
+    "roks": {
+        "title": "Radio ROKS",
+        "type": "audio/mpeg",
+        "url": "https://www.radioroks.ua/",
+        "cros": false,
+        "stream": "https://online.radioroks.ua/RadioROKS_Live",
+        "features": "/img/europe/ukraine/roks.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/roks?time="
+    },
+    "lux-fm": {
+        "title": "Люкс ФМ",
+        "type": "application/x-mpegURL",
+        "url": "https://lux.fm/",
+        "cros": false,
+        "stream": "https://streamvideo.luxnet.ua/lux/smil:lux.stream.smil/playlist.m3u8",
+        "features": "/img/europe/ukraine/lux-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/lux-fm?time="
+    },
+    "tvoe": {
+        "title": "Твоє радіо",
+        "type": "audio/mpeg",
+        "url": "https://www.tvoeradio.com",
+        "cros": false,
+        "stream": "https://complex.in.ua/tvoeRadio",
+        "features": "/img/europe/ukraine/tvoe.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/tvoe?time="
+    },
+    "melodia": {
+        "title": "Радіо Мелодія",
+        "type": "audio/mpeg",
+        "url": "https://www.melodiafm.ua/",
+        "cros": false,
+        "stream": "https://online.melodiafm.ua/MelodiaFM_Live",
+        "features": "/img/europe/ukraine/melodia.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/melodia?time="
+    },
+    "stilnoe-perec-fm": {
+        "title": "Стильне радіо",
+        "type": "audio/mpeg",
+        "url": "https://perec.fm/",
+        "cros": false,
+        "stream": "https://radio.urg.ua/radio-stilnoe",
+        "features": "/img/europe/ukraine/stilnoe-perec-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/stilnoe-perec-fm?time="
+    },
+    "uh": {
+        "title": "УХ-радіо",
+        "type": "audio/mpeg",
+        "url": "https://uhradio.ua/",
+        "cros": true,
+        "stream": "http://193.169.80.7:8001/efir",
+        "features": "/img/europe/ukraine/uh.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/uh?time="
+    },
+    "relax": {
+        "title": "Радио Relax",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorelax.ua/",
+        "cros": false,
+        "stream": "https://online.radiorelax.ua/RadioRelax_Live",
+        "features": "/img/europe/ukraine/relax.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/relax?time="
+    },
+    "avto": {
+        "title": "Авторадіо",
+        "type": "audio/mpeg",
+        "url": "https://avtoradio.ua/",
+        "cros": false,
+        "stream": "https://cast.mediaonline.net.ua/avtoradio",
+        "features": "/img/europe/ukraine/avto.png"
+    },
+    "halychyna-fm": {
+        "title": "FM Галичина",
+        "type": "audio/mpeg",
+        "url": "https://www.galychyna.fm/",
+        "cros": true,
+        "stream": "http://stream320.galychyna.fm:8000/WebSite",
+        "features": "/img/europe/ukraine/halychyna-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/halychyna-fm?time="
+    },
+    "nezalezhnist": {
+        "title": "Радіо Незалежність",
+        "type": "audio/mpeg",
+        "url": "http://radio-n.com/",
+        "cros": true,
+        "stream": "http://rad.radio-n.com:8000/stream/1/",
+        "features": "/img/europe/ukraine/nezalezhnist.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/nezalezhnist?time="
+    },
+    "mfm": {
+        "title": "MFM Station",
+        "type": "audio/mpeg",
+        "url": "https://mfm.ua/",
+        "cros": false,
+        "stream": "https://radio.mfm.ua/online128",
+        "features": "/img/europe/ukraine/mfm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/mfm?time="
+    },
+    "kyiv-fm": {
+        "title": "Радіо Київ",
+        "type": "audio/mpeg",
+        "url": "https://radio.kyiv24.news/",
+        "cros": true,
+        "stream": "http://cdn.vsnw.net:8090/kyiv_fm_128k",
+        "features": "/img/europe/ukraine/kyiv-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/kyiv-fm?time="
+    },
+    "kultura": {
+        "title": "Радіо Культура",
+        "type": "audio/mpeg",
+        "url": "https://suspilne.radio/",
+        "cros": true,
+        "stream": "http://radio.ukr.radio:8000/ur3-mp3",
+        "features": "/img/europe/ukraine/kultura.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/kultura?time="
+    },
+    "dj-fm": {
+        "title": "DJFM",
+        "type": "audio/mpeg",
+        "url": "https://djfm.ua/",
+        "cros": false,
+        "stream": "https://cast.brg.ua/djfm_main_public_mp3_hq",
+        "features": "/img/europe/ukraine/dj-fm.png"
+    },
+    "relax-instrumental": {
+        "title": "Радио Relax — Музыка без слов",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorelax.ua/",
+        "cros": false,
+        "stream": "https://online.radiorelax.ua/RadioRelax_Instrumental",
+        "features": "/img/europe/ukraine/relax-instrumental.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/relax-instrumental?time="
+    },
+    "trek": {
+        "title": "Радіо Трек",
+        "type": "audio/mpeg",
+        "url": "https://radiotrek.rv.ua/",
+        "cros": true,
+        "stream": "http://online2.radiotrek.rv.ua:8000/MP3_128",
+        "features": "/img/europe/ukraine/trek.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/trek?time="
+    },
+    "lux-lviv": {
+        "title": "Люкс ФМ",
+        "type": "application/x-mpegURL",
+        "url": "https://lviv.lux.fm/",
+        "cros": false,
+        "stream": "https://streamvideo.luxnet.ua/luxlviv/luxlviv.stream/playlist.m3u8",
+        "features": "/img/europe/ukraine/lux-lviv.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/lux-lviv?time="
+    },
+    "ur-1": {
+        "title": "Перший канал",
+        "type": "audio/mpeg",
+        "url": "http://www.nrcu.gov.ua/",
+        "cros": false,
+        "stream": "https://radio.nrcu.gov.ua/ur1-mp3-m",
+        "features": "/img/europe/ukraine/ur-1.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/ur-1?time="
+    },
+    "loungefm": {
+        "title": "Lounge FM",
+        "type": "audio/mpeg",
+        "url": "https://www.loungefm.com.ua",
+        "cros": false,
+        "stream": "https://cast.mediaonline.net.ua/loungefm320",
+        "features": "/img/europe/ukraine/loungefm.png"
+    },
+    "lounge-fm-terrace": {
+        "title": "Lounge FM Terrace",
+        "type": "audio/mpeg",
+        "url": "https://loungefm.com.ua/terrace",
+        "cros": false,
+        "stream": "https://cast.mediaonline.net.ua/terrace320",
+        "features": "/img/europe/ukraine/lounge-fm-terrace.png"
+    },
+    "power-fm": {
+        "title": "Power FM",
+        "type": "audio/mpeg",
+        "url": "https://powerfm.ua/",
+        "cros": false,
+        "stream": "https://cast.brg.ua/powerfm_main_public_mp3_hq",
+        "features": "/img/europe/ukraine/power-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/power-fm?time="
+    },
+    "nostalgie": {
+        "title": "Nostalgie",
+        "type": "application/x-mpegURL",
+        "url": "https://nostalgi.com.ua/",
+        "cros": false,
+        "stream": "https://streamvideol1.luxnet.ua/nostalgi/nostalgi.stream/playlist.m3u8",
+        "features": "/img/europe/ukraine/nostalgie.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/nostalgie?time="
+    },
+    "svitle": {
+        "title": "Світле радіо",
+        "type": "audio/mpeg",
+        "url": "https://svitle.org/",
+        "cros": true,
+        "stream": "http://online.svitle.org:6728/fm",
+        "features": "/img/europe/ukraine/svitle.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/svitle?time="
+    },
+    "c4": {
+        "title": "Радіо C4",
+        "type": "audio/mpeg",
+        "url": "https://c4.com.ua/",
+        "cros": false,
+        "stream": "https://radio.c4.com.ua:8443/320",
+        "features": "/img/europe/ukraine/c4.png"
+    },
+    "maria": {
+        "title": "Радіо Марія",
+        "type": "audio/mpeg",
+        "url": "http://radiomaria.org.ua/",
+        "cros": true,
+        "stream": "http://www.radiomaria.org.ua:8000/stream160",
+        "features": "/img/europe/ukraine/maria.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/maria?time="
+    },
+    "best-fm": {
+        "title": "Best FM",
+        "type": "audio/mpeg",
+        "url": "https://bestfm.ua/",
+        "cros": true,
+        "stream": "http://radio.perec.fm:8000/bestfm",
+        "features": "/img/europe/ukraine/best-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/best-fm?time="
+    },
+    "roks-hard-n-heavy": {
+        "title": "Hard'n'Heavy від Radio ROKS",
+        "type": "audio/mpeg",
+        "url": "https://www.radioroks.ua/",
+        "cros": false,
+        "stream": "https://online.radioroks.ua/RadioROKS_HardnHeavy",
+        "features": "/img/europe/ukraine/roks-hard-n-heavy.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/roks-hard-n-heavy?time="
+    },
+    "fresh-fm-ukraine": {
+        "title": "Fresh FM",
+        "type": "audio/mpeg",
+        "url": "https://freshfm.ua/",
+        "cros": true,
+        "stream": "http://193.53.83.3:8000/fresh-fm_mp3",
+        "features": "/img/europe/ukraine/fresh-fm-ukraine.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/fresh-fm-ukraine?time="
+    },
+    "syaivo": {
+        "title": "Радіо Сяйво",
+        "type": "audio/mpeg",
+        "url": "https://syaivo.fm/",
+        "cros": false,
+        "stream": "https://stream.ntktv.ua/syaivo.mp3",
+        "features": "/img/europe/ukraine/syaivo.png"
+    },
+    "kalush-fm": {
+        "title": "Калуш FM",
+        "type": "audio/mpeg",
+        "url": "http://kalushfm.com.ua/",
+        "cros": true,
+        "stream": "http://195.182.22.130:8000/Streamogg",
+        "features": "/img/europe/ukraine/kalush-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/kalush-fm?time="
+    },
+    "lounge-fm-acoustic": {
+        "title": "Lounge FM Acoustic",
+        "type": "audio/mpeg",
+        "url": "https://loungefm.com.ua/acoustic",
+        "cros": false,
+        "stream": "https://cast.mediaonline.net.ua/acoustic320",
+        "features": "/img/europe/ukraine/lounge-fm-acoustic.png"
+    },
+    "ec": {
+        "title": "Радіо ЄС",
+        "type": "audio/mpeg",
+        "url": "http://www.radioec.com.ua/",
+        "cros": true,
+        "stream": "http://live.radioec.com.ua:8000/kiev",
+        "features": "/img/europe/ukraine/ec.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/ec?time="
+    },
+    "informant": {
+        "title": "Інформатор ФМ",
+        "type": "audio/mpeg",
+        "url": "https://informator.fm/",
+        "cros": true,
+        "stream": "http://main.inf.fm:9101/stream/1/",
+        "features": "/img/europe/ukraine/informant.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/informant?time="
+    },
+    "vezha": {
+        "title": "Вежа",
+        "type": "audio/mpeg",
+        "url": "https://www.vezha.org/",
+        "cros": false,
+        "stream": "https://myradio24.org/69829",
+        "features": "/img/europe/ukraine/vezha.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/vezha?time="
+    },
+    "24": {
+        "title": "Максимум",
+        "type": "application/x-mpegURL",
+        "url": "https://maximum.fm/",
+        "cros": false,
+        "stream": "https://streamvideo.luxnet.ua/maximum/smil:maximum.stream.smil/playlist.m3u8",
+        "features": "/img/europe/ukraine/24.png",
+        "schedule": "https://api.webrad.io/data/playlist/140/24?time="
+    }
+}

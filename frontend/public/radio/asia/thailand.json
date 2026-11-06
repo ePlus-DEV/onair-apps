@@ -1,0 +1,404 @@
+{
+  "green": {
+    "title": "COOLfahrenheit (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "106.5 FM",
+    "url": "https://greenwave.atimeonline.com/",
+    "cros": false,
+    "stream": "https://atimeonline3.smartclick.co.th/green",
+    "features": "/img/asia/thailand/green.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/green?time=",
+    "favorite": true
+  },
+  "cool": {
+    "title": "COOLfahrenheit (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "93.0 FM",
+    "url": "https://www.coolism.net/index.php",
+    "cros": true,
+    "stream": "http://coolism-web3rd.cdn.byteark.com:5002/stream/1/",
+    "features": "/img/asia/thailand/cool.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/cool?time="
+  },
+  "mellow": {
+    "title": "Mellow",
+    "type": "application/x-mpegURL",
+    "signal": "97.5 FM",
+    "url": "https://mellow975.mcot.net/home",
+    "cros": false,
+    "stream": "https://mcotdigital-3bgyw0.cdn.byteark.com/radiocdn_edge/fm975.stream_aac/playlist.m3u8",
+    "features": "/img/asia/thailand/mellow.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/eazy-fm?time="
+  },
+  "eazy-fm": {
+    "title": "Eazy FM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "105.5 FM",
+    "url": "https://eazyfm.teroradio.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/EAZYFM_1055AAC_SC",
+    "features": "/img/asia/thailand/eazy-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/eazy-fm?time="
+  },
+  "fm95-modern": {
+    "title": "FM95 Modern Radio",
+    "type": "audio/mpeg",
+    "signal": "95.0 FM",
+    "url": "https://radio.mcot.net/",
+    "cros": true,
+    "stream": "http://rstream.mcot.net:8000/fm95",
+    "features": "/img/asia/thailand/fm95-modern.png"
+  },
+  "rr-one": {
+    "title": "101 RR One (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "101.0 FM",
+    "url": "https://fm101talk.com/",
+    "cros": false,
+    "stream": "https://media.login.in.th:8443/smilehost/8135",
+    "features": "/img/asia/thailand/rr-one.png"
+  },
+  "met": {
+    "title": "Met",
+    "type": "application/x-mpegURL",
+    "signal": "107.0 FM",
+    "url": "https://met107.mcot.net/",
+    "cros": false,
+    "stream": "https://mcotdigital-w9rpgl.cdn.byteark.com/radiocdn_edge/fm107.stream_aac/playlist.m3u8",
+    "features": "/img/asia/thailand/met.png"
+  },
+  "virginhitz": {
+    "title": "HITZ",
+    "type": "audio/mpeg",
+    "signal": "95.5 FM",
+    "url": "https://hitz955.teroradio.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/HITZ_955AAC_SC",
+    "features": "/img/asia/thailand/virginhitz.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/virginhitz?time="
+  },
+  "chill": {
+    "title": "Chill",
+    "type": "audio/mpeg",
+    "signal": "89.0 FM",
+    "url": "https://chillfm.fm/",
+    "cros": false,
+    "stream": "https://atimeonline3.smartclick.co.th/chill",
+    "features": "/img/asia/thailand/chill.png"
+  },
+  "big": {
+    "title": "Big FM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "102.8 FM",
+    "url": "http://www.bigfm.fm/",
+    "cros": false,
+    "stream": "https://media.login.in.th:8443/smilehost/8195",
+    "features": "/img/asia/thailand/big.png"
+  },
+  "mcot": {
+    "title": "Mcot Radio FM",
+    "type": "audio/mpeg",
+    "signal": "100.5 FM",
+    "url": "https://news1005.mcot.net/",
+    "cros": true,
+    "stream": "http://rstream.mcot.net:8000/fm1005",
+    "features": "/img/asia/thailand/mcot.png"
+  },
+  "active": {
+    "title": "99 Active Radio (Bangkok)",
+    "type": "application/x-mpegURL",
+    "signal": "99.0 FM",
+    "url": "https://fm99activeradio.mcot.net/index",
+    "cros": true,
+    "stream": "https://mcotdigital-gvwieh.cdn.byteark.com/radiocdn_edge/fm99.stream_aac/playlist.m3u8",
+    "features": "/img/asia/thailand/active.png"
+  },
+  "one-fm": {
+    "title": "103.5 FM One",
+    "type": "audio/mpeg",
+    "signal": "103.5 FM",
+    "url": "https://www.fmone1035.com/",
+    "cros": false,
+    "stream": "https://fmone.plathong.net/7010/stream/1/",
+    "features": "/img/asia/thailand/one-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/one-fm?time="
+  },
+  "city": {
+    "title": "City Radio",
+    "type": "audio/mpeg",
+    "signal": "90.3 FM",
+    "url": "https://www.cityradiopattaya.com/",
+    "cros": true,
+    "stream": "http://n13.radiojar.com/493e3018b9quv",
+    "features": "/img/asia/thailand/city.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/city?time="
+  },
+  "thailand-88": {
+    "title": "88 FM NBT Radio Thailand (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "88.0 FM",
+    "url": "https://nbt.prd.go.th/",
+    "cros": true,
+    "stream": "http://prdonline.prd.go.th:8200/;",
+    "features": "/img/asia/thailand/thailand-88.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/thailand-88?time="
+  },
+  "mitikao905": {
+    "title": "Mitikao",
+    "type": "audio/mpeg",
+    "signal": "90.5 FM",
+    "url": "http://www.smartbomb.co.th/",
+    "cros": true,
+    "stream": "http://live3.smartbomb.co.th:8624/stream/1/",
+    "features": "/img/asia/thailand/mitikao905.png"
+  },
+  "fung-fung-fung": {
+    "title": "Fung Fung Fung",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.onair.one/?page_id=26",
+    "cros": false,
+    "stream": "https://plus.onair.network/radio/8130/radio.mp3",
+    "features": "/img/asia/thailand/fung-fung-fung.png"
+  },
+  "pongpan": {
+    "title": "Pongpan Radio",
+    "type": "audio/mpeg",
+    "signal": "107.5 FM",
+    "url": false,
+    "cros": true,
+    "stream": "http://radio.portradiothai.com:6010/;",
+    "features": "/img/asia/thailand/pongpan.png"
+  },
+  "88-fm": {
+    "title": "Radio Thailand FM",
+    "type": "audio/mpeg",
+    "signal": "88.0 FM",
+    "url": "https://nbt.prd.go.th/",
+    "cros": true,
+    "stream": "http://prdonline.prd.go.th:8200/;",
+    "features": "/img/asia/thailand/88-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/88-fm?time="
+  },
+  "fm91": {
+    "title": "FM 91",
+    "type": "audio/mpeg",
+    "signal": "91.0 FM",
+    "url": "https://www.fm91bkk.com/",
+    "cros": false,
+    "stream": "https://www.fm91bkk.com:8900/stream/1/",
+    "features": "/img/asia/thailand/fm91.png"
+  },
+  "city-life": {
+    "title": "City Life",
+    "type": "audio/mpeg",
+    "signal": "93.8 FM",
+    "url": "https://www.fm91bkk.com/",
+    "cros": true,
+    "stream": "http://onair.onair.network:8076/stream/1/",
+    "features": "/img/asia/thailand/city-life.png"
+  },
+  "phuket": {
+    "title": "Phuket FM Radio",
+    "type": "audio/mpeg",
+    "signal": "91.5 FM",
+    "url": "https://phuketfmradio.com/",
+    "cros": true,
+    "stream": "https://stream.phuketfmradio.com/pfmMP3",
+    "features": "/img/asia/thailand/phuket.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/phuket?time="
+  },
+  "cu": {
+    "title": "Cu Radio (Bangkok)",
+    "type": "application/x-mpegURL",
+    "signal": "101.5 FM",
+    "url": "https://curadio.chula.ac.th/",
+    "cros": true,
+    "stream": "https://media.curadio.chula.ac.th/live/liveradio128/playlist.m3u8",
+    "features": "/img/asia/thailand/cu.png"
+  },
+  "sunshine": {
+    "title": "Sunshine Radio (Pattaya)",
+    "type": "audio/mpeg",
+    "signal": "107.8 FM",
+    "url": "http://www.sunshinefm.com/pattaya/",
+    "cros": true,
+    "stream": "http://c1.hostpleng.cloud:8046/live",
+    "features": "/img/asia/thailand/sunshine.png"
+  },
+  "anurak": {
+    "title": "อนุรักษ์เรดิโอ",
+    "type": "audio/mpeg",
+    "signal": "104.8 FM",
+    "url": "https://www.anurakradio.com/",
+    "cros": true,
+    "stream": "http://112.121.150.133:8143/live",
+    "features": "/img/asia/thailand/anurak.png"
+  },
+  "fat-93": {
+    "title": "Fat (Chiang Rai)",
+    "type": "audio/mpeg",
+    "signal": "93.0 FM",
+    "url": "https://www.fat93.com/",
+    "cros": true,
+    "stream": "http://112.121.151.133:8272/stream",
+    "features": "/img/asia/thailand/fat-93.png"
+  },
+  "96-5": {
+    "title": "Radio 96.5 FM",
+    "type": "application/x-mpegURL",
+    "signal": "96.5 FM",
+    "url": "https://thinkingradio.mcot.net/",
+    "cros": false,
+    "stream": "https://mcotdigital-9ksau4.cdn.byteark.com/radiocdn_edge/fm965.stream_aac/playlist.m3u8",
+    "features": "/img/asia/thailand/96-5.png"
+  },
+  "modern-9875": {
+    "title": "DontreeSeason Modern 9875 FM (Chiangmai)",
+    "type": "audio/mpeg",
+    "signal": "98.8 FM",
+    "url": "https://www.dseason.net/home.php",
+    "cros": true,
+    "stream": "http://112.121.150.133:9102/stream/1/",
+    "features": "/img/asia/thailand/modern-9875.png"
+  },
+  "chiang-mai-93-75": {
+    "title": "เชียงใหม่เรดิโอ",
+    "type": "audio/mpeg",
+    "signal": "93.8 FM",
+    "url": "https://www.chiangmairadio.com/",
+    "cros": true,
+    "stream": "http://112.121.151.133:8124/live",
+    "features": "/img/asia/thailand/chiang-mai-93-75.png"
+  },
+  "kiss-fm": {
+    "title": "Kiss FM (Pattaya)",
+    "type": "audio/mpeg",
+    "signal": "91.7 FM",
+    "url": "https://www.kissfmpattaya.com/",
+    "cros": true,
+    "stream": "http://s1.thailandstreaming.net:8020/stream/1/",
+    "features": "/img/asia/thailand/kiss-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/kiss-fm?time="
+  },
+  "chiangmai": {
+    "title": "Radio Chiangmai FM (Chiang Mai)",
+    "type": "audio/mpeg",
+    "signal": "98.0 FM",
+    "url": "https://www.chiangmairadio.com/",
+    "cros": true,
+    "stream": "http://112.121.151.133:8124/live",
+    "features": "/img/asia/thailand/chiangmai.png"
+  },
+  "mun-music": {
+    "title": "MUNmusic",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://munmusic.net/",
+    "cros": false,
+    "stream": "https://www.radioking.com/play/munmusic",
+    "features": "/img/asia/thailand/mun-music.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/mun-music?time="
+  },
+  "mun-forward": {
+    "title": "MUNforward",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://munforward.com/",
+    "cros": false,
+    "stream": "https://cdn-th2.livestreaming.in.th/shoutcast/8730",
+    "features": "/img/asia/thailand/mun-forward.png"
+  },
+  "like": {
+    "title": "103 Like FM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "103.0 FM",
+    "url": "https://www.103likefm.com/",
+    "cros": false,
+    "stream": "https://radio10.plathong.net/7064/stream/1/",
+    "features": "/img/asia/thailand/like.png"
+  },
+  "love-93": {
+    "title": "Love Radio (Pattani)",
+    "type": "audio/mpeg",
+    "signal": "93.0 FM",
+    "url": "http://www.greater.co.th/page/",
+    "cros": false,
+    "stream": "https://radio14.plathong.net/8060/stream/1/",
+    "features": "/img/asia/thailand/love-93.png"
+  },
+  "trip": {
+    "title": "Radio Trip (Phuket)",
+    "type": "audio/mpeg",
+    "signal": "89.8 FM",
+    "url": "http://www.radiotripphuket.com/",
+    "cros": false,
+    "stream": "https://cdn-th2.login.in.th/shoutcast/1150",
+    "features": "/img/asia/thailand/trip.png"
+  },
+  "q-fm": {
+    "title": "97 QFM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "97.0 FM",
+    "url": "http://97qfm.com/home.php?events=1",
+    "cros": false,
+    "stream": "https://cdn-th2.livestreaming.in.th/shoutcast/8610",
+    "features": "/img/asia/thailand/q-fm.png"
+  },
+  "buddy": {
+    "title": "Buddy Radio",
+    "type": "audio/mpeg",
+    "signal": "104.5 FM",
+    "url": "http://www.buddyyala.com/",
+    "cros": false,
+    "stream": "https://apps4.mcot.net/stream579.aac",
+    "features": "/img/asia/thailand/buddy.png"
+  },
+  "live-phuket": {
+    "title": "LIVE (Phuket)",
+    "type": "audio/mpeg",
+    "signal": "89.5 FM",
+    "url": "http://www.buddyyala.com/",
+    "cros": false,
+    "stream": "https://4118.radio4.thzhost.com/stream/1/",
+    "features": "/img/asia/thailand/live-phuket.png"
+  },
+  "ddtv": {
+    "title": "DDTV (Bangkok)",
+    "type": "application/x-mpegURL",
+    "signal": "88.8 FM",
+    "url": "https://www.8875fm.com",
+    "cros": true,
+    "stream": "http://58.82.164.201:1935/live/_definst_/ddtv/playlist.m3u8",
+    "features": "/img/asia/thailand/ddtv.png"
+  },
+  "chill-89": {
+    "title": "Chill 89 FM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "89.0 FM",
+    "url": "https://chill.atimeonline.com/",
+    "cros": true,
+    "stream": "https://atimeonline.smartclick.co.th/chill",
+    "features": "/img/asia/thailand/chill-89.png"
+  },
+  "fm-105": {
+    "title": "Radio Thailand FM 105.00",
+    "type": "audio/mpeg",
+    "signal": "105.0 FM",
+    "url": "https://nbt.prd.go.th/",
+    "cros": true,
+    "stream": "http://prdonline.prd.go.th:8210/;",
+    "features": "/img/asia/thailand/fm-105.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/fm-105?time="
+  },
+  "capitol-fm-bangkok": {
+    "title": "Capitol FM (Bangkok)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.capitol.fm/",
+    "cros": true,
+    "stream": "http://atlanticthai.primcast.com:5898/stream/1/",
+    "features": "/img/asia/thailand/capitol-fm-bangkok.png",
+    "schedule": "https://api.webrad.io/data/playlist/96/capitol-fm-bangkok?time="
+  }
+}

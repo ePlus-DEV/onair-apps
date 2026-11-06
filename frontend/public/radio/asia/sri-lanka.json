@@ -1,0 +1,352 @@
+{
+  "abc-hiru-fm": {
+    "title": "ABC Hiru FM",
+    "type": "audio/mpeg",
+    "url": "https://www.hirufm.lk/",
+    "cros": true,
+    "stream": "http://209.133.216.3:7018/stream/1/",
+    "features": "/img/asia/sri-lanka/abc-hiru-fm.png",
+    "favorite": true
+  },
+  "abc-shaa-fm": {
+    "title": "ABC Shaa FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.shaafm.lk/",
+    "cros": false,
+    "stream": "https://eu10b.serverse.com:1936/shaafm/shaafm/playlist.m3u8",
+    "features": "/img/asia/sri-lanka/abc-shaa-fm.png"
+  },
+  "red-fm-sri-lanka": {
+    "title": "Red FM",
+    "type": "audio/mpeg",
+    "url": "https://www.redfm.lk/",
+    "cros": false,
+    "stream": "https://shaincast.caster.fm:47830/listen.mp3",
+    "features": "/img/asia/sri-lanka/red-fm-sri-lanka.png"
+  },
+  "sooriyan-fm": {
+    "title": "Sooriyan FM",
+    "type": "audio/mpeg",
+    "url": "https://www.sooriyanfm.lk/",
+    "cros": true,
+    "stream": "http://209.133.216.3:7071/stream/1/",
+    "features": "/img/asia/sri-lanka/sooriyan-fm.png"
+  },
+  "shakthi-fm": {
+    "title": "Shakthi FM",
+    "type": "audio/mpeg",
+    "url": "https://shakthifm.com/",
+    "cros": true,
+    "stream": "http://live.trusl.com:1160/stream/1/",
+    "features": "/img/asia/sri-lanka/shakthi-fm.png"
+  },
+  "fm-derana": {
+    "title": "FM Derana",
+    "type": "audio/mpeg",
+    "url": "https://www.fmderana.lk/",
+    "cros": false,
+    "stream": "https://cp12.serverse.com/proxy/fmderana/stream/1/",
+    "features": "/img/asia/sri-lanka/fm-derana.png"
+  },
+  "sun-fm": {
+    "title": "Sun FM",
+    "type": "audio/mpeg",
+    "url": "https://www.sunfm.lk/",
+    "cros": true,
+    "stream": "http://209.133.216.3:7058/stream/1/",
+    "features": "/img/asia/sri-lanka/sun-fm.png"
+  },
+  "y-fm": {
+    "title": "Y FM",
+    "type": "audio/mpeg",
+    "url": "https://yfm.lk/",
+    "cros": true,
+    "stream": "http://live.trusl.com:1180/stream/1/",
+    "features": "/img/asia/sri-lanka/y-fm.png"
+  },
+  "sirasa-fm": {
+    "title": "Sirasa FM",
+    "type": "audio/mpeg",
+    "url": "https://sirasafm.lk/",
+    "cros": true,
+    "stream": "http://live.trusl.com:1170/stream/1/",
+    "features": "/img/asia/sri-lanka/sirasa-fm.png"
+  },
+  "neth-fm": {
+    "title": "Neth FM",
+    "type": "audio/mpeg",
+    "url": "http://nethnews.lk/",
+    "cros": true,
+    "stream": "http://cp11.serverse.com:7669/stream/1/",
+    "features": "/img/asia/sri-lanka/neth-fm.png"
+  },
+  "varnam-fm": {
+    "title": "Varnam FM",
+    "type": "audio/mpeg",
+    "url": "https://startamilradio.com/",
+    "cros": true,
+    "stream": "http://s3.voscast.com:8402/stream/1/",
+    "features": "/img/asia/sri-lanka/varnam-fm.png"
+  },
+  "rhythm-fm": {
+    "title": "Rhythm FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://live.tnlrn.com:8030/live.mp3",
+    "features": "/img/asia/sri-lanka/rhythm-fm.png"
+  },
+  "siyatha-fm": {
+    "title": "Siyatha FM",
+    "type": "audio/mpeg",
+    "url": "https://siyathafm.lk/",
+    "cros": true,
+    "stream": "https://s9.voscast.com:9393/live",
+    "features": "/img/asia/sri-lanka/siyatha-fm.png"
+  },
+  "abc-gold-fm": {
+    "title": "ABC Gold FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.goldfm.lk/",
+    "cros": false,
+    "stream": "https://eu10b.serverse.com:1936/goldfm/goldfm/playlist.m3u8",
+    "features": "/img/asia/sri-lanka/abc-gold-fm.png"
+  },
+  "yes-fm": {
+    "title": "Yes FM ශ්‍රී ලංකාව",
+    "type": "audio/mpeg",
+    "url": "https://yesfmonline.com",
+    "cros": true,
+    "stream": "http://live.trusl.com:1150/stream/1/",
+    "features": "/img/asia/sri-lanka/yes-fm.png"
+  },
+  "kiss-fm": {
+    "title": "Kiss FM",
+    "type": "audio/mpeg",
+    "url": "http://kissfm.lk",
+    "cros": true,
+    "stream": "http://s3.voscast.com:8404/stream/1/",
+    "features": "/img/asia/sri-lanka/kiss-fm.png"
+  },
+  "rasa-fm": {
+    "title": "Rasa FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://shaincast.caster.fm:47814/listen.mp3",
+    "features": "/img/asia/sri-lanka/rasa-fm.png"
+  },
+  "thendral": {
+    "title": "SLBC Thendral FM",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.20:8000/Threndralstream",
+    "features": "/img/asia/sri-lanka/thendral.png"
+  },
+  "lite-fm": {
+    "title": "Lite FM",
+    "type": "audio/mpeg",
+    "url": "https://www.lite87.com/",
+    "cros": false,
+    "stream": "https://live.tnlrn.com:8020/live.mp3",
+    "features": "/img/asia/sri-lanka/lite-fm.png"
+  },
+  "v-fm": {
+    "title": "V FM Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.vfm.lk/",
+    "cros": false,
+    "stream": "https://eu2-centova.serverse.com/proxy/fmlanka/stream",
+    "features": "/img/asia/sri-lanka/v-fm.png"
+  },
+  "sinhala-commercial-service": {
+    "title": "SLBC Sinhala Commercial Service",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.6:8000/Scomstream",
+    "features": "/img/asia/sri-lanka/sinhala-commercial-service.png"
+  },
+  "fox-91-4": {
+    "title": "Fox",
+    "type": "audio/mpeg",
+    "url": "http://www.fox914.com",
+    "cros": false,
+    "stream": "https://cp11.serverse.com/proxy/foxfm/stream/;stream.mp3",
+    "features": "/img/asia/sri-lanka/fox-91-4.png"
+  },
+  "slbc-tamil-national-service": {
+    "title": "SLBC Tamil National Service",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.6:8000/Tnsstream",
+    "features": "/img/asia/sri-lanka/slbc-tamil-national-service.png"
+  },
+  "shraddha": {
+    "title": "Shraddha Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.shraddha.lk/radio-old/",
+    "cros": false,
+    "stream": "https://cp11.serverse.com/proxy/kqxjpewq?mp=/stream/1/",
+    "features": "/img/asia/sri-lanka/shraddha.png"
+  },
+  "city": {
+    "title": "SLBC City FM",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.20:8000/citystream",
+    "features": "/img/asia/sri-lanka/city.png"
+  },
+  "real": {
+    "title": "Real Radio",
+    "type": "audio/mpeg",
+    "url": "http://realradio.lk/",
+    "cros": true,
+    "stream": "http://s3.voscast.com:8406/stream/1/",
+    "features": "/img/asia/sri-lanka/real.png"
+  },
+  "slbc-sri-lanka": {
+    "title": "SLBC Radio",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.20:8000/RSLstream",
+    "features": "/img/asia/sri-lanka/slbc-sri-lanka.png"
+  },
+  "sha-lanka": {
+    "title": "Sha Lanka Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://us10a.serverse.com/proxy/taaiqpqr?mp=/stream",
+    "features": "/img/asia/sri-lanka/sha-lanka.png",
+    "schedule": "https://api.webrad.io/data/playlist/130/sha-lanka?time="
+  },
+  "tnlradio": {
+    "title": "TNL Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://live.tnlrn.com:8010/live.mp3",
+    "features": "/img/asia/sri-lanka/tnlradio.png"
+  },
+  "bathusha": {
+    "title": "Bathusha Radio",
+    "type": "audio/mpeg",
+    "url": "http://bathusha.lk/",
+    "cros": true,
+    "stream": "http://eu10.fastcast4u.com:8270/stream/1/",
+    "features": "/img/asia/sri-lanka/bathusha.png",
+    "schedule": "https://api.webrad.io/data/playlist/130/bathusha?time="
+  },
+  "lakhanda-fm": {
+    "title": "Lakhanda FM",
+    "type": "audio/mpeg",
+    "url": "https://www.lakhandaradio.lk/",
+    "cros": false,
+    "stream": "https://cp12.serverse.com/proxy/itnfm?mp=/stream",
+    "features": "/img/asia/sri-lanka/lakhanda-fm.png"
+  },
+  "vasantham": {
+    "title": "Vasantham",
+    "type": "audio/mpeg",
+    "url": "https://www.vasanthamfm.lk/",
+    "cros": false,
+    "stream": "https://cp12.serverse.com/proxy/vasanthamfm?mp=/stream",
+    "features": "/img/asia/sri-lanka/vasantham.png"
+  },
+  "live": {
+    "title": "LiveFM",
+    "type": "audio/mpeg",
+    "url": "https://livefm.lk/",
+    "cros": true,
+    "stream": "http://cp11.serverse.com:7118/stream",
+    "features": "/img/asia/sri-lanka/live.png",
+    "schedule": "https://api.webrad.io/data/playlist/130/live?time="
+  },
+  "freefm-lk": {
+    "title": "Freefm.lk",
+    "type": "audio/mpeg",
+    "url": "https://freefm.lk/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/z7q96fbw7rquv",
+    "features": "/img/asia/sri-lanka/freefm-lk.png"
+  },
+  "slbc-asia-english": {
+    "title": "SLBC Asia English",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.6:8000/Asiastream",
+    "features": "/img/asia/sri-lanka/slbc-asia-english.png"
+  },
+  "e-fm": {
+    "title": "E FM",
+    "type": "audio/mpeg",
+    "url": "http://efm.lk/",
+    "cros": true,
+    "stream": "http://207.148.74.192:7860/stream.mp3",
+    "features": "/img/asia/sri-lanka/e-fm.png"
+  },
+  "shree-fm": {
+    "title": "Shree FM",
+    "type": "audio/mpeg",
+    "url": "http://shreefm.lk/",
+    "cros": true,
+    "stream": "http://207.148.74.192:7860/stream2.mp3",
+    "features": "/img/asia/sri-lanka/shree-fm.png"
+  },
+  "slbc-tamil": {
+    "title": "SLBC Tamil National Service",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.6:8000/Tnsstream",
+    "features": "/img/asia/sri-lanka/slbc-tamil.png"
+  },
+  "kalutara": {
+    "title": "Radio Kalutara",
+    "type": "audio/mpeg",
+    "url": "https://www.radiokalutara.lk/",
+    "cros": true,
+    "stream": "http://66.70.245.224:8016/stream/1/",
+    "features": "/img/asia/sri-lanka/kalutara.png"
+  },
+  "ran-fm": {
+    "title": "Ran FM",
+    "type": "audio/mpeg",
+    "url": "http://ranfm.lk/",
+    "cros": true,
+    "stream": "http://207.148.74.192:7860/ran.mp3",
+    "features": "/img/asia/sri-lanka/ran-fm.png"
+  },
+  "slbc-kandurata-fm": {
+    "title": "SLBC Kandurata FM",
+    "type": "audio/mpeg",
+    "url": "https://sinhala.newsslbc.lk/",
+    "cros": true,
+    "stream": "http://220.247.227.20:8000/kandystream",
+    "features": "/img/asia/sri-lanka/slbc-kandurata-fm.png"
+  },
+  "waharaka": {
+    "title": "Waharaka Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.waharaka.com/",
+    "cros": true,
+    "stream": "http://s6.voscast.com:8112/stream/1/",
+    "features": "/img/asia/sri-lanka/waharaka.png",
+    "schedule": "https://api.webrad.io/data/playlist/130/waharaka?time="
+  },
+  "bestcoast-fm": {
+    "title": "bestcoast.fm",
+    "type": "audio/mpeg",
+    "url": "https://bestcoast.fm/",
+    "cros": false,
+    "stream": "https://streams.radio.co/sea5dddd6b/listen",
+    "features": "/img/asia/sri-lanka/bestcoast-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/130/bestcoast-fm?time="
+  }
+}

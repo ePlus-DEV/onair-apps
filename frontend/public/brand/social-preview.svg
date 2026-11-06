@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="ePlus OnAir - Live radio from around the world">
+<defs>
+<linearGradient id="bg"><stop stop-color="#070D2C"/><stop offset=".47" stop-color="#21113C"/><stop offset=".78" stop-color="#70274F"/><stop offset="1" stop-color="#F05D63"/></linearGradient>
+<linearGradient id="brand"><stop stop-color="#FE4D5D"/><stop offset=".55" stop-color="#F6819B"/><stop offset="1" stop-color="#FFDAE2"/></linearGradient>
+<linearGradient id="wave"><stop stop-color="#9E51F5"/><stop offset=".35" stop-color="#FD4D83"/><stop offset=".7" stop-color="#FF6D5C"/><stop offset="1" stop-color="#FFCB82"/></linearGradient>
+<linearGradient id="sign" x2="1" y2="1"><stop stop-color="#FA273E"/><stop offset=".55" stop-color="#D41330"/><stop offset="1" stop-color="#8C0D34"/></linearGradient>
+<radialGradient id="globe"><stop stop-color="#A14E81" stop-opacity=".28"/><stop offset=".8" stop-color="#1B1744" stop-opacity=".75"/><stop offset="1" stop-color="#8A488A" stop-opacity=".2"/></radialGradient>
+<radialGradient id="glow"><stop stop-color="#FF7A83" stop-opacity=".8"/><stop offset="1" stop-color="#FF5E93" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="16" height="16" patternUnits="userSpaceOnUse"><circle cx="3" cy="3" r="2" fill="#EFC7ED" opacity=".62"/></pattern>
+<filter id="blur"><feGaussianBlur stdDeviation="8"/></filter>
+<clipPath id="sphere"><circle cx="866" cy="265" r="246"/></clipPath>
+</defs>
+<rect width="1200" height="630" fill="url(#bg)"/>
+<circle cx="1048" cy="110" r="320" fill="url(#glow)" opacity=".54"/>
+<circle cx="400" cy="595" r="260" fill="url(#glow)" opacity=".19"/>
+<circle cx="866" cy="265" r="248" fill="url(#globe)" stroke="#F6A0D8" stroke-opacity=".3" stroke-width="2"/>
+<g clip-path="url(#sphere)">
+<g fill="url(#dots)" opacity=".8">
+<path d="M707 72L753 37L813 51L837 89L812 110L774 119L768 151L804 173L792 207L743 210L713 258L676 247L654 205L682 175L667 122Z"/>
+<path d="M782 235L834 215L868 243L856 275L882 295L867 343L836 407L803 435L786 398L803 351L779 317L771 272Z"/>
+<path d="M860 91L907 73L955 87L999 110L1055 135L1073 181L1012 190L1007 232L960 215L932 245L913 220L874 203L838 164Z"/>
+<path d="M999 293L1049 299L1080 343L1064 388L1015 391L991 352Z"/>
+</g>
+<ellipse cx="866" cy="265" rx="174" ry="247" fill="none" stroke="#FFC5DB" stroke-opacity=".3" stroke-width="1.6"/>
+<ellipse cx="866" cy="265" rx="82" ry="245" fill="none" stroke="#FFC5DB" stroke-opacity=".3"/>
+<g fill="none" stroke="#FFC4E5" stroke-opacity=".34" stroke-width="1.5">
+<path d="M630 261Q863 115 1107 250"/>
+<path d="M642 320Q860 410 1095 308"/>
+<path d="M645 216Q866 339 1088 196"/>
+</g></g>
+<g fill="none" stroke="#FFB4CB" stroke-opacity=".76" stroke-width="2">
+<path d="M677 255Q800 54 1017 169"/>
+<path d="M826 230Q997 89 1115 274"/>
+<path d="M740 349Q940 144 1130 199"/>
+</g>
+<g fill="#FFD8AC"><circle cx="677" cy="255" r="5"/><circle cx="1017" cy="169" r="6"/><circle cx="1115" cy="274" r="5"/><circle cx="826" cy="230" r="5"/><circle cx="1130" cy="199" r="6"/></g>
+<g fill="#FFE0B8" opacity=".66" filter="url(#blur)">
+<circle cx="677" cy="255" r="14"/><circle cx="1017" cy="169" r="18"/><circle cx="1115" cy="274" r="15"/><circle cx="826" cy="230" r="16"/>
+</g>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="78" y="226" font-size="107" letter-spacing="-5" font-weight="800" fill="#FFF9FE">ePlus</text>
+<g fill="none" stroke="#FF526B" stroke-width="9" stroke-linecap="round">
+<path d="M425 128Q450 130 454 164"/><path d="M429 105Q478 107 484 164"/><path d="M432 82Q505 88 513 164"/>
+</g>
+<text x="82" y="336" font-size="109" letter-spacing="-6" font-weight="800" fill="url(#brand)">OnAir</text>
+<text x="84" y="395" font-size="31" font-weight="600" fill="#FFF">Live radio from around the world</text>
+<text x="84" y="443" font-size="19" letter-spacing="5" fill="#D7B5DE">LISTEN BEYOND BORDERS</text>
+</g>
+<rect x="716" y="295" width="379" height="193" rx="34" fill="#3B1334" stroke="#FFC1A3" stroke-width="8"/>
+<rect x="730" y="309" width="351" height="165" rx="26" fill="url(#sign)" stroke="#FFA6A3" stroke-width="5"/>
+<rect x="744" y="323" width="323" height="137" rx="18" fill="none" stroke="#FFB0AC" stroke-opacity=".53" stroke-width="3"/>
+<text x="906" y="409" font-family="Arial, Helvetica, sans-serif" font-weight="900" font-size="74" text-anchor="middle" letter-spacing="2" fill="#FFF5E8">ON AIR</text>
+<g fill="#FFF5E8"><circle cx="756" cy="334" r="5"/><circle cx="1056" cy="334" r="5"/><circle cx="756" cy="448" r="5"/><circle cx="1056" cy="448" r="5"/></g>
+<g stroke="#FF835F" stroke-width="14" stroke-linecap="round"><path d="M875 268l-21 -32"/><path d="M907 251v-40"/><path d="M938 268l22 -33"/></g>
+<path d="M854 486h107l18 31H834Z" fill="#25112D"/><rect x="815" y="515" width="181" height="12" rx="6" fill="#2B142A"/>
+<g fill="#F775C2" opacity=".34">
+<rect x="35" y="524" width="10" height="57" rx="2"/><rect x="60" y="487" width="10" height="88" rx="2"/><rect x="86" y="517" width="10" height="61" rx="2"/><rect x="111" y="478" width="10" height="89" rx="2"/><rect x="136" y="520" width="10" height="53" rx="2"/><rect x="165" y="501" width="10" height="81" rx="2"/>
+<rect x="1136" y="420" width="12" height="120" rx="2"/><rect x="1109" y="451" width="12" height="110" rx="2"/><rect x="1084" y="473" width="12" height="91" rx="2"/><rect x="1164" y="445" width="12" height="126" rx="2"/>
+</g>
+<path d="M-40 495C159 475 208 634 412 584C590 540 615 453 804 548C951 623 1038 486 1240 508" fill="none" stroke="#FE789F" stroke-opacity=".38" stroke-width="33" filter="url(#blur)"/>
+<g fill="none" stroke="url(#wave)" stroke-width="3" opacity=".93">
+<path d="M-35 493C169 474 214 620 414 576C576 535 616 460 809 546C947 610 1060 482 1238 500"/>
+<path d="M-35 507C169 488 214 634 414 590C576 549 616 474 809 560C947 624 1060 496 1238 514"/>
+<path d="M-35 521C169 502 214 648 414 604C576 563 616 488 809 574C947 638 1060 510 1238 528"/>
+<path d="M-35 535C169 516 214 662 414 618C576 577 616 502 809 588C947 652 1060 524 1238 542"/>
+<path d="M-35 549C169 530 214 676 414 632C576 591 616 516 809 602C947 666 1060 538 1238 556"/>
+</g></svg>

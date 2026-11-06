@@ -1,0 +1,424 @@
+{
+    "zet": {
+        "title": "Radio Zet",
+        "type": "audio/mpeg",
+        "url": "https://www.radiozet.pl/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ZETAAC_SC",
+        "features": "/img/europe/poland/zet.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/41/zet?time="
+    },
+    "trojka-polskie": {
+        "title": "Trójka",
+        "type": "application/x-mpegURL",
+        "url": "https://trojka.polskieradio.pl/",
+        "cros": false,
+        "stream": "https://stream13.polskieradio.pl/pr3/pr3.sdp/playlist.m3u8",
+        "features": "/img/europe/poland/trojka-polskie.png",
+        "favorite": false
+    },
+    "rmf": {
+        "title": "Radio RMF",
+        "type": "audio/mpeg",
+        "url": "https://www.rmf.fm/",
+        "cros": false,
+        "stream": "https://rs9-krk2-cyfronet.rmfstream.pl/RMFFM48",
+        "features": "/img/europe/poland/rmf.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/rmf?time="
+    },
+    "jedynka": {
+        "title": "Radio Jedynka",
+        "type": "application/x-mpegURL",
+        "url": "https://jedynka.polskieradio.pl/",
+        "cros": false,
+        "stream": "https://stream11.polskieradio.pl/pr1/pr1.sdp/playlist.m3u8",
+        "features": "/img/europe/poland/jedynka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/jedynka?time="
+    },
+    "anty": {
+        "title": "Antyradio",
+        "type": "audio/mpeg",
+        "url": "https://www.antyradio.pl/",
+        "cros": false,
+        "stream": "https://an03.cdn.eurozet.pl/ant-waw.mp3",
+        "features": "/img/europe/poland/anty.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/anty?time="
+    },
+    "maryja": {
+        "title": "Radio Maryja",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaryja.pl/",
+        "cros": false,
+        "stream": "https://radiomaryja.fastcast4u.com/proxy/radiomaryja?mp=/stream/1/",
+        "features": "/img/europe/poland/maryja.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/maryja?time="
+    },
+    "tylko-polskie": {
+        "title": "Tylko Polskie Przeboje",
+        "type": "audio/mpeg",
+        "url": "https://open.fm/",
+        "cros": false,
+        "stream": "https://stream.open.fm/111",
+        "features": "/img/europe/poland/tylko-polskie.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/tylko-polskie?time="
+    },
+    "piekary-slaskie": {
+        "title": "Radio Piekary (Piekary Śląskie)",
+        "type": "audio/mpeg",
+        "url": "https://radiopiekary.pl/",
+        "cros": false,
+        "stream": "https://stream.radiopiekary.pl/",
+        "features": "/img/europe/poland/piekary-slaskie.png",
+        "favorite": false
+    },
+    "chill": {
+        "title": "Radio Chill",
+        "type": "audio/mpeg",
+        "url": "https://www.chillizet.pl/",
+        "cros": false,
+        "stream": "https://r.dcs.redcdn.pl/sc/o2/Eurozet/live/chillizet.livx?audio=5",
+        "features": "/img/europe/poland/chill.png",
+        "favorite": false
+    },
+    "maxxx-wroclaw": {
+        "title": "Radio RMF MAXXX (Wrocław)",
+        "type": "audio/mpeg",
+        "url": "https://www.rmfmaxxx.pl/",
+        "cros": false,
+        "stream": "https://rs102-krk-cyfronet.rmfstream.pl/RMFMAXXX48",
+        "features": "/img/europe/poland/maxxx-wroclaw.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/maxxx-wroclaw?time="
+    },
+    "rmf-classic-krakow": {
+        "title": "RMF Classic (Kraków)",
+        "type": "audio/mpeg",
+        "url": "https://www.rmfclassic.pl/",
+        "cros": false,
+        "stream": "https://rs101-krk-cyfronet.rmfstream.pl/rmf_classic",
+        "features": "/img/europe/poland/rmf-classic-krakow.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/rmf-classic-krakow?time="
+    },
+    "vanessa-raciborz": {
+        "title": "Radio Vanessa (Racibórz)",
+        "type": "audio/mpeg",
+        "url": "https://www.vanessa.fm/",
+        "cros": false,
+        "stream": "https://s1.slotex.pl:7358/stream/1/",
+        "features": "/img/europe/poland/vanessa-raciborz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/vanessa-raciborz?time="
+    },
+    "fest-katowice": {
+        "title": "Radio Fest (Katowice)",
+        "type": "audio/mpeg",
+        "url": "http://www.radiofest.pl/",
+        "cros": false,
+        "stream": "https://sluchaj2.radiopark.biz.pl:8443/fest",
+        "features": "/img/europe/poland/fest-katowice.png",
+        "favorite": false
+    },
+    "park-kedzierzyn": {
+        "title": "Radio Park (Kędzierzyn Koźle)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopark.fm/",
+        "cros": true,
+        "stream": "http://sluchaj.radiopark.com.pl:8048/;",
+        "features": "/img/europe/poland/park-kedzierzyn.png",
+        "favorite": false
+    },
+    "opole": {
+        "title": "Radio Opole FM",
+        "type": "audio/mpeg",
+        "url": "https://radio.opole.pl/",
+        "cros": true,
+        "stream": "http://dab.radio.opole.pl:8070/1",
+        "features": "/img/europe/poland/opole.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/opole?time="
+    },
+    "silesia": {
+        "title": "Radio Silesia",
+        "type": "audio/mpeg",
+        "url": "https://silesia.fm/",
+        "cros": false,
+        "stream": "https://s1.slotex.pl:7926/stream/1/",
+        "features": "/img/europe/poland/silesia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/silesia?time="
+    },
+    "alex": {
+        "title": "Radio Alex (Zakopane)",
+        "type": "audio/mpeg",
+        "url": "https://radioalex.pl/",
+        "cros": false,
+        "stream": "https://stream12.hosterion.pl/stream/radioalex/stream",
+        "features": "/img/europe/poland/alex.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/alex?time="
+    },
+    "kolor": {
+        "title": "Radio Kolor",
+        "type": "audio/mpeg",
+        "url": "https://radiokolor.pl/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/zbq79057xd3vv",
+        "features": "/img/europe/poland/kolor.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/kolor?time="
+    },
+    "dwojka": {
+        "title": "Radio Dwójka",
+        "type": "application/x-mpegURL",
+        "url": "https://www.polskieradio.pl/8,Dwojka",
+        "cros": false,
+        "stream": "https://stream12.polskieradio.pl/pr2/pr2.sdp/playlist.m3u8",
+        "features": "/img/europe/poland/dwojka.png",
+        "favorite": false
+    },
+    "rzeszow": {
+        "title": "Radio Rzeszow",
+        "type": "audio/mpeg",
+        "url": "https://radio.rzeszow.pl/",
+        "cros": false,
+        "stream": "https://streaming.g-news.pl:8040/rzeszow",
+        "features": "/img/europe/poland/rzeszow.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/rzeszow?time="
+    },
+    "akademickie-wroclaw": {
+        "title": "Muzyczne Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.muzyczneradio.pl/",
+        "cros": false,
+        "stream": "https://stream.rcs.revma.com/gzwc1xcq042vv",
+        "features": "/img/europe/poland/akademickie-wroclaw.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/akademickie-wroclaw?time="
+    },
+    "ccm": {
+        "title": "Radio CCM (Gliwice)",
+        "type": "audio/mpeg",
+        "url": "https://radioccm.pl/",
+        "cros": false,
+        "stream": "https://das-edge11-live365-dal03.cdnstream.com/a16565",
+        "features": "/img/europe/poland/ccm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/ccm?time="
+    },
+    "wroclaw": {
+        "title": "Radio Wroclaw",
+        "type": "audio/mpeg",
+        "url": "https://www.radiowroclaw.pl/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:9241/prw",
+        "features": "/img/europe/poland/wroclaw.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/wroclaw?time="
+    },
+    "katowice-102-2": {
+        "title": "Radio Katowice",
+        "type": "audio/mpeg",
+        "url": "https://www.radio.katowice.pl/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:9213/radiokatowice",
+        "features": "/img/europe/poland/katowice-102-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/katowice-102-2?time="
+    },
+    "centrum": {
+        "title": "Radio Centrum",
+        "type": "audio/mpeg",
+        "url": "https://www.rc.fm/",
+        "cros": true,
+        "stream": "http://shot2.inten.pl:8888/rcfm.mp3",
+        "features": "/img/europe/poland/centrum.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/centrum?time="
+    },
+    "radio-90": {
+        "title": "Radio 90",
+        "type": "audio/mpeg",
+        "url": "https://www.radio90.pl/",
+        "cros": false,
+        "stream": "https://srv0.streamradiowy.eu/radio90",
+        "features": "/img/europe/poland/radio-90.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/radio-90?time="
+    },
+    "bialystok": {
+        "title": "Polskie Radio Bialystok",
+        "type": "audio/mpeg",
+        "url": "https://www.radio.bialystok.pl/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:15477/radiobialystok",
+        "features": "/img/europe/poland/bialystok.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/bialystok?time="
+    },
+    "naklo": {
+        "title": "Radio Naklo",
+        "type": "audio/mpeg",
+        "url": "https://naklo.fm/",
+        "cros": false,
+        "stream": "https://sluchaj.107i5.fm/stream/1/",
+        "features": "/img/europe/poland/naklo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/naklo?time="
+    },
+    "smoothjazz-com-pl": {
+        "title": "SmoothJazz.com.pl Radio",
+        "type": "audio/mpeg",
+        "url": "https://smoothjazz.com.pl/",
+        "cros": false,
+        "stream": "https://bcast.vigormultimedia.com:48888/sjcompl256mp3",
+        "features": "/img/europe/poland/smoothjazz-com-pl.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/smoothjazz-com-pl?time="
+    },
+    "gdansk": {
+        "title": "Radio Gdańsk",
+        "type": "audio/mpeg",
+        "url": "https://m.radiogdansk.pl/wiadomosci/",
+        "cros": false,
+        "stream": "https://stream.task.gda.pl:8443/rg1",
+        "features": "/img/europe/poland/gdansk.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/gdansk?time="
+    },
+    "rdc": {
+        "title": "RDC",
+        "type": "audio/mpeg",
+        "url": "https://www.rdc.pl/",
+        "cros": false,
+        "stream": "https://stream2.nadaje.com:11141/rdc",
+        "features": "/img/europe/poland/rdc.png",
+        "favorite": false
+    },
+    "pik-bydgoszcz": {
+        "title": "Radio Pik (Bydgoszcz)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopik.pl/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:9005/;",
+        "features": "/img/europe/poland/pik-bydgoszcz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/pik-bydgoszcz?time="
+    },
+    "merkury-poznan": {
+        "title": "Radio Poznań S.A",
+        "type": "audio/mpeg",
+        "url": "https://radiopoznan.fm/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:8579/poznan",
+        "features": "/img/europe/poland/merkury-poznan.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/merkury-poznan?time="
+    },
+    "rekord-radom": {
+        "title": "Radio Rekord (Radom)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorekord.pl/",
+        "cros": false,
+        "stream": "https://stream3.nadaje.com:8007/radom2",
+        "features": "/img/europe/poland/rekord-radom.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/rekord-radom?time="
+    },
+    "planet-fm": {
+        "title": "Planeta FM",
+        "type": "audio/mpeg",
+        "url": "https://www.planeta.pl/",
+        "cros": false,
+        "stream": "https://pa.cdn.eurozet.pl/pla-net.mp3",
+        "features": "/img/europe/poland/planet-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/planet-fm?time="
+    },
+    "czworka": {
+        "title": "Czworka 4",
+        "type": "application/x-mpegURL",
+        "url": "https://www.polskieradio.pl/10,Czworka",
+        "cros": false,
+        "stream": "https://stream14.polskieradio.pl/pr4/pr4.sdp/playlist.m3u8",
+        "features": "/img/europe/poland/czworka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/czworka?time="
+    },
+    "warszawa-106-2": {
+        "title": "Radio Warszawa",
+        "type": "audio/mpeg",
+        "url": "https://radiowarszawa.com.pl/",
+        "cros": true,
+        "stream": "http://streaming01.technologicznie.net:8765/radio_warszawa.mp3",
+        "features": "/img/europe/poland/warszawa-106-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/warszawa-106-2?time="
+    },
+    "fara": {
+        "title": "Radio Fara (Przemyśl)",
+        "type": "audio/mpeg",
+        "url": "https://sluchaj.radiofara.pl/",
+        "cros": true,
+        "stream": "http://62.133.128.22:8000/stream/1/",
+        "features": "/img/europe/poland/fara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/fara?time="
+    },
+    "szczecin-92": {
+        "title": "Radio Szczecin",
+        "type": "audio/mpeg",
+        "url": "https://radioszczecin.pl/",
+        "cros": false,
+        "stream": "https://stream4.nadaje.com:11987/prs",
+        "features": "/img/europe/poland/szczecin-92.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/szczecin-92?time="
+    },
+    "radio-5": {
+        "title": "Radio 5 (Suwałki)",
+        "type": "audio/mpeg",
+        "url": "https://radio5.com.pl/",
+        "cros": false,
+        "stream": "https://streaming.radio5.com.pl:8888/radio5suwalki",
+        "features": "/img/europe/poland/radio-5.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/radio-5?time="
+    },
+    "fiat": {
+        "title": "Radio Fiat (Częstochowa)",
+        "type": "audio/mpeg",
+        "url": "https://fiat.fm/",
+        "cros": true,
+        "stream": "http://188.164.243.74:8010/default",
+        "features": "/img/europe/poland/fiat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/fiat?time="
+    },
+    "olsztyn": {
+        "title": "Radio Olsztyn",
+        "type": "audio/mpeg",
+        "url": "https://radioolsztyn.pl/posluchaj/",
+        "cros": true,
+        "stream": "http://54.38.52.115:8000/RO",
+        "features": "/img/europe/poland/olsztyn.png",
+        "favorite": false
+    },
+    "rodzina": {
+        "title": "Radio Rodzina",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorodzina.pl/",
+        "cros": false,
+        "stream": "https://sluchaj.radiorodzina.pl/RadioRodzinaWroclawLIVE.mp3",
+        "features": "/img/europe/poland/rodzina.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/41/rodzina?time="
+    }
+}

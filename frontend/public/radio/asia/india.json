@@ -1,0 +1,313 @@
+{
+  "air-vividh": {
+    "title": "Air Vividh Bharati",
+    "type": "application/x-mpegURL",
+    "url": "https://www.vividhbharti.org/",
+    "cros": false,
+    "stream": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio001/playlist.m3u8",
+    "features": "/img/asia/india/air-vividh.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/air-vividh?time=",
+    "favorite": true
+  },
+  "live-kirtan-sri-harmandir-sahi": {
+    "title": "Live Kirtan Sri Harmandir Sahib, Sri Amritsar",
+    "type": "audio/mpeg",
+    "url": "https://sgpc.net/",
+    "cros": false,
+    "stream": "https://live.sgpc.net:8443/stream/1/",
+    "features": "/img/asia/india/live-kirtan-sri-harmandir-sahi.png"
+  },
+  "fm-gold": {
+    "title": "Air FM Gold (Mumbai)",
+    "type": "application/x-mpegURL",
+    "url": "https://prasarbharati.gov.in/homepage-air/",
+    "cros": false,
+    "stream": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio007/hlspbaudio007_Auto.m3u8",
+    "features": "/img/asia/india/fm-gold.png"
+  },
+  "air-fm-gold": {
+    "title": "Air FM Gold (Delhi)",
+    "type": "application/x-mpegURL",
+    "url": "https://prasarbharati.gov.in/homepage-air/",
+    "cros": false,
+    "stream": "https://airhlspush.pc.cdn.bitgravity.com/httppush/hlspbaudio005/hlspbaudio005_Auto.m3u8",
+    "features": "/img/asia/india/air-fm-gold.png"
+  },
+  "bbc-hindi": {
+    "title": "BBC Hindi Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.com/hindi",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_hindi_radio",
+    "features": "/img/asia/india/bbc-hindi.png"
+  },
+  "bbc-bangla": {
+    "title": "BBC Bangla UK",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.com/bengali/radio",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_bangla_radio",
+    "features": "/img/asia/india/bbc-bangla.png"
+  },
+  "bbc-tamil": {
+    "title": "BBC Tamil Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.com/tamil",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_tamil_radio",
+    "features": "/img/asia/india/bbc-tamil.png"
+  },
+  "calm": {
+    "title": "Calm Radio",
+    "type": "audio/mpeg",
+    "url": "https://calmradio.com/",
+    "cros": false,
+    "stream": "https://streams.calmradio.com/api/239/128/stream",
+    "features": "/img/asia/india/calm.png"
+  },
+  "city": {
+    "title": "Radio City (Mumbai)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.in/",
+    "cros": false,
+    "stream": "https://prclive4.listenon.in/Hindi",
+    "features": "/img/asia/india/city.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/city?time="
+  },
+  "city-chennai": {
+    "title": "Radio City (Chennai)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.in/",
+    "cros": false,
+    "stream": "https://prclive4.listenon.in/Tamil",
+    "features": "/img/asia/india/city-chennai.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/city-chennai?time="
+  },
+  "city-kannada": {
+    "title": "Radio City Kannada",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.in/radiocity-kannada",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/waxzfy3zrf9uv",
+    "features": "/img/asia/india/city-kannada.png"
+  },
+  "bhakti": {
+    "title": "Radio City Bhakti",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/b08cq4nvyc9uv",
+    "features": "/img/asia/india/bhakti.png"
+  },
+  "planet-city-hindi": {
+    "title": "Radio City Hindi",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.in/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/pxc55r5uyc9uv",
+    "features": "/img/asia/india/planet-city-hindi.png"
+  },
+  "city-tamil": {
+    "title": "Radio City Tamil",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocity.in/web-radio",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/cwhuuebvyc9uv",
+    "features": "/img/asia/india/city-tamil.png"
+  },
+  "sharda": {
+    "title": "Radio Sharda",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/1zg4ymqz72quv",
+    "features": "/img/asia/india/sharda.png"
+  },
+  "telugu": {
+    "title": "Telugu FM",
+    "type": "audio/mpeg",
+    "url": "http://telugufm.epizy.com/?i=1",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/yc3meeygey5tv",
+    "features": "/img/asia/india/telugu.png"
+  },
+  "ctbc-tamil": {
+    "title": "CTBC Radio",
+    "type": "audio/mpeg",
+    "url": "http://ctbc.com/",
+    "cros": true,
+    "stream": "http://ctbcfmradio.primcast.com:4086/stream/1/",
+    "features": "/img/asia/india/ctbc-tamil.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/ctbc-tamil?time="
+  },
+  "kalasama-tamil": {
+    "title": "Kalasam FM",
+    "type": "audio/mpeg",
+    "url": "https://www.kalasam.com",
+    "cros": true,
+    "stream": "http://173.192.207.51:8084/stream/1/",
+    "features": "/img/asia/india/kalasama-tamil.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/kalasama-tamil?time="
+  },
+  "hits-of-bollywood": {
+    "title": "Hits Of Bollywood",
+    "type": "audio/mpeg",
+    "url": "https://hitsofbollywood.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/8ty8szwpwfeuv",
+    "features": "/img/asia/india/hits-of-bollywood.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/hits-of-bollywood?time="
+  },
+  "kerala": {
+    "title": "Kerala Radio",
+    "type": "audio/mpeg",
+    "url": "https://zeno.fm/radio/keral-aradio/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/94zh55546qzuv",
+    "features": "/img/asia/india/kerala.png"
+  },
+  "chennai-rainbow": {
+    "title": "Chennai FM Rainbow",
+    "type": "application/x-mpegURL",
+    "url": "https://prasarbharati.gov.in/",
+    "cros": false,
+    "stream": "https://air.pc.cdn.bitgravity.com/air/live/pbaudio022/playlist.m3u8",
+    "features": "/img/asia/india/chennai-rainbow.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/chennai-rainbow?time="
+  },
+  "bollywood-radio": {
+    "title": "Bollywood Radio and Beyond",
+    "type": "audio/mpeg",
+    "url": "https://www.bollywoodradioandbeyond.com/",
+    "cros": false,
+    "stream": "https://s6.yesstreaming.net/proxy/john1237?mp=/stream/1/",
+    "features": "/img/asia/india/bollywood-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/bollywood-radio?time="
+  },
+  "tamilsun-fm": {
+    "title": "TamilSun FM",
+    "type": "audio/mpeg",
+    "url": "https://www.tamilsunradio.com/",
+    "cros": true,
+    "stream": "http://usa2.fastcast4u.com:3596/;",
+    "features": "/img/asia/india/tamilsun-fm.png"
+  },
+  "teluguone-tori": {
+    "title": "Telugu One Tori FM UK GMT",
+    "type": "audio/mpeg",
+    "url": "https://www.toucheradio.com/",
+    "cros": false,
+    "stream": "https://stream.teluguoneradio.com/index.html?sid=1",
+    "features": "/img/asia/india/teluguone-tori.png"
+  },
+  "chann-pardesi": {
+    "title": "Radio Chann Pardesi",
+    "type": "audio/mpeg",
+    "url": "http://channpardesi.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/yk787xymf24tv",
+    "features": "/img/asia/india/chann-pardesi.png"
+  },
+  "ishq": {
+    "title": "ISHQ",
+    "type": "audio/mpeg",
+    "url": "https://www.ishq.com/radio/",
+    "cros": false,
+    "stream": "https://prclive4.listenon.in/Ishq",
+    "features": "/img/asia/india/ishq.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/ishq?time="
+  },
+  "tamil-christian": {
+    "title": "Tamil Christian Radio",
+    "type": "audio/mpeg",
+    "url": "https://tamilchristianradio.org/",
+    "cros": false,
+    "stream": "https://eu2.fastcast4u.com/proxy/tamilchristianradio?mp=/stream/1/",
+    "features": "/img/asia/india/tamil-christian.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/tamil-christian?time="
+  },
+  "india": {
+    "title": "Radio India",
+    "type": "audio/mpeg",
+    "url": "http://radioindialtd.com/",
+    "cros": true,
+    "stream": "http://162.244.80.52:4614/stream/1/",
+    "features": "/img/asia/india/india.png"
+  },
+  "non-stop-hindi": {
+    "title": "Non Stop Hindi Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://198.178.123.14:8216/stream/1/",
+    "features": "/img/asia/india/non-stop-hindi.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/non-stop-hindi?time="
+  },
+  "geethavani-tamil": {
+    "title": "Geethavani FM",
+    "type": "audio/mpeg",
+    "url": "https://www.geethavaani.com/",
+    "cros": true,
+    "stream": "http://centova.radioservers.biz:8037/stream/1/",
+    "features": "/img/asia/india/geethavani-tamil.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/geethavani-tamil?time="
+  },
+  "punjabi": {
+    "title": "Punjabi Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.panjabradio.co.uk/",
+    "cros": true,
+    "stream": "http://radio3.citrus3.com:8584/stream/1/",
+    "features": "/img/asia/india/punjabi.png"
+  },
+  "lankasri-tamil": {
+    "title": "Lankasri Radio",
+    "type": "audio/mpeg",
+    "url": "https://lankasri.com/",
+    "cros": true,
+    "stream": "http://5984.cloudrad.io:8032/stream/1/",
+    "features": "/img/asia/india/lankasri-tamil.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/lankasri-tamil?time="
+  },
+  "retro-bollywood": {
+    "title": "Radio Retro Bollywood",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/v2zfmxef798uv",
+    "features": "/img/asia/india/retro-bollywood.png"
+  },
+  "bombay-beats": {
+    "title": "Bombay Beats",
+    "type": "audio/mpeg",
+    "url": "https://www.1.fm/hello",
+    "cros": false,
+    "stream": "https://strmreg.1.fm/bombaybeats_mobile_mp3",
+    "features": "/img/asia/india/bombay-beats.png",
+    "schedule": "https://api.webrad.io/data/playlist/3/bombay-beats?time="
+  },
+  "shakti": {
+    "title": "Shakti FM",
+    "type": "audio/mpeg",
+    "url": "https://shakthifm.com/",
+    "cros": true,
+    "stream": "http://live.trusl.com:1160/stream/1/",
+    "features": "/img/asia/india/shakti.png"
+  },
+  "sikh-net": {
+    "title": "Sikh Net",
+    "type": "audio/mpeg",
+    "url": "https://www.sikhnet.com/",
+    "cros": true,
+    "stream": "http://radio2.sikhnet.com:8049/live",
+    "features": "/img/asia/india/sikh-net.png"
+  },
+  "sai-global-harmony": {
+    "title": "Radio Sai Global Harmony",
+    "type": "audio/mpeg",
+    "url": "https://archive.sssmediacentre.org/www/",
+    "cros": false,
+    "stream": "https://stream.sssmediacentre.org:8000/autobhajan",
+    "features": "/img/asia/india/sai-global-harmony.png"
+  }
+}

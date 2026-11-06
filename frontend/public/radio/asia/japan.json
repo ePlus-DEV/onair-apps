@@ -1,0 +1,309 @@
+{
+  "ottava": {
+    "title": "Ottava",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://ottava.jp/",
+    "cros": false,
+    "stream": "https://ottava2.out.airtime.pro/ottava2_a",
+    "features": "/img/asia/japan/ottava.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/ottava?time=",
+    "favorite": true
+  },
+  "shonan-beach-fm": {
+    "title": "湘南ビーチFM",
+    "type": "audio/mpeg",
+    "signal": "78.9 FM",
+    "url": "https://www.beachfm.co.jp/",
+    "cros": false,
+    "stream": "https://shonanbeachfm.out.airtime.pro/shonanbeachfm_c",
+    "features": "/img/asia/japan/shonan-beach-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/shonan-beach-fm?time="
+  },
+  "nhk-1": {
+    "title": "R1 NHKラジオ第1",
+    "type": "application/x-mpegURL",
+    "signal": "594 AM",
+    "url": "https://www.nhk.or.jp/radio/",
+    "cros": false,
+    "stream": "https://nhkradioakr1-i.akamaihd.net/hls/live/511633/1-r1/1-r1-01.m3u8",
+    "features": "/img/asia/japan/nhk-1.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/nhk-1?time="
+  },
+  "nhk-2": {
+    "title": "R2 NHKラジオ第2",
+    "type": "application/x-mpegURL",
+    "signal": "693 AM",
+    "url": "https://www.nhk.or.jp/radio/",
+    "cros": false,
+    "stream": "https://nhkradioakr2-i.akamaihd.net/hls/live/511929/1-r2/1-r2-01.m3u8",
+    "features": "/img/asia/japan/nhk-2.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/nhk-2?time="
+  },
+  "nhk-fm": {
+    "title": "NHK FM",
+    "type": "application/x-mpegURL",
+    "signal": "82.5 FM",
+    "url": "https://www.nhk.or.jp/radio/",
+    "cros": false,
+    "stream": "https://nhkradioakfm-i.akamaihd.net/hls/live/512290/1-fm/1-fm-01.m3u8",
+    "features": "/img/asia/japan/nhk-fm.png"
+  },
+  "musashino-fm": {
+    "title": "むさしのFM",
+    "type": "audio/mpeg",
+    "signal": "78.2 FM",
+    "url": "http://www.musashino-fm.co.jp/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB032-MP3",
+    "features": "/img/asia/japan/musashino-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/musashino-fm?time="
+  },
+  "umeda-fm-be-happy-789": {
+    "title": "ウメダfm Be Happy!",
+    "type": "audio/mpeg",
+    "signal": "78.9 FM",
+    "url": "https://www.be-happy789.com/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB068-MP3",
+    "features": "/img/asia/japan/umeda-fm-be-happy-789.png"
+  },
+  "big-b-jpop": {
+    "title": "Big B Radio #Jpop",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://bigbradio.net/jpop",
+    "cros": false,
+    "stream": "https://antares.dribbcast.com/proxy/jpop?mp=/s",
+    "features": "/img/asia/japan/big-b-jpop.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/big-b-jpop?time="
+  },
+  "jpopsuki": {
+    "title": "JPopsuki Radio",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://jpopsuki.eu/",
+    "cros": true,
+    "stream": "http://jpopsuki.fm:8000/stream",
+    "features": "/img/asia/japan/jpopsuki.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/jpopsuki?time="
+  },
+  "fm-karatsu": {
+    "title": "FMからつ﻿",
+    "type": "audio/mpeg",
+    "signal": "86.8 FM",
+    "url": "http://www.fmkaratsu.com/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB092-MP3",
+    "features": "/img/asia/japan/fm-karatsu.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-karatsu?time="
+  },
+  "jphip": {
+    "title": "JPHiP Radio",
+    "type": "audio/MPEG",
+    "signal": "Stream",
+    "url": "http://radio.jphip.com/",
+    "cros": true,
+    "stream": "http://radio.jphip.com:8800/;",
+    "features": "/img/asia/japan/jphip.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/jphip?time="
+  },
+  "fm-nishi-tokyo": {
+    "title": "FM西東京",
+    "type": "audio/mpeg",
+    "signal": "84.2 FM",
+    "url": "https://842fm.com/",
+    "cros": true,
+    "stream": "https://musicbird.leanstream.co/JCB031-MP3",
+    "features": "/img/asia/japan/fm-nishi-tokyo.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-nishi-tokyo?time="
+  },
+  "kiku-fm": {
+    "title": "FMひらかた",
+    "type": "application/x-mpegURL",
+    "signal": "77.9 FM",
+    "url": "http://www.kiku-fm779.com/",
+    "cros": false,
+    "stream": "https://host02.media-gather.jp/_media__mg00009kj5c_live/_definst_/1359071597_3874/playlist.m3u8",
+    "features": "/img/asia/japan/kiku-fm.png"
+  },
+  "fm-karuizawa": {
+    "title": "FM軽井沢",
+    "type": "audio/mpeg",
+    "signal": "77.5 FM",
+    "url": "https://fm-karuizawa.co.jp/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB108-MP3",
+    "features": "/img/asia/japan/fm-karuizawa.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-karuizawa?time="
+  },
+  "omg-k-pop": {
+    "title": "OMG K Pop",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.omgkpop.com/",
+    "cros": true,
+    "stream": "http://stream.omgkpop.com:8234/stream",
+    "features": "/img/asia/japan/omg-k-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/omg-k-pop?time="
+  },
+  "shonan": {
+    "title": "レディオ湘南 FM",
+    "type": "audio/mpeg",
+    "signal": "83.1 FM",
+    "url": "https://www.radioshonan.co.jp/index.html",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB101-MP3",
+    "features": "/img/asia/japan/shonan.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/shonan?time="
+  },
+  "kishi-wada": {
+    "title": "ラヂオきしわだ",
+    "type": "audio/mpeg",
+    "signal": "79.7 FM",
+    "url": "https://www.radiokishiwada.jp/",
+    "cros": true,
+    "stream": "http://61.89.201.27:8000/radikishi.mp3",
+    "features": "/img/asia/japan/kishi-wada.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/kishi-wada?time="
+  },
+  "ban-ban": {
+    "title": "Ban Ban ラジオ",
+    "type": "application/x-mpegURL",
+    "signal": "86.9 FM",
+    "url": "https://www.banban.jp/radio/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30078/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/ban-ban.png"
+  },
+  "fm-tachikawa": {
+    "title": "エフエムたちかわ",
+    "type": "application/x-mpegURL",
+    "signal": "84.4 FM",
+    "url": "http://fm844.co.jp/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30033/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-tachikawa.png"
+  },
+  "fm-miki": {
+    "title": "FMみっきぃ",
+    "type": "audio/mpeg",
+    "signal": "76.1 FM",
+    "url": "http://www.fm-miki.jp/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB110-MP3",
+    "features": "/img/asia/japan/fm-miki.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-miki?time="
+  },
+  "fm-edogawa": {
+    "title": "FMえどがわ",
+    "type": "audio/mpeg",
+    "signal": "84.3 FM",
+    "url": "http://www.fm843.co.jp/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB033-MP3",
+    "features": "/img/asia/japan/fm-edogawa.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-edogawa?time="
+  },
+  "fm-nirai": {
+    "title": "FMニライ",
+    "type": "application/x-mpegURL",
+    "signal": "79.2 FM",
+    "url": "https://www.fmnirai.com/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30003/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-nirai.png"
+  },
+  "fm-uruma": {
+    "title": "FMうるま",
+    "type": "application/x-mpegURL",
+    "signal": "86.8 FM",
+    "url": "https://fmuruma.com/index_2.html",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30011/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-uruma.png"
+  },
+  "chofu-fm": {
+    "title": "調布FM",
+    "type": "application/x-mpegURL",
+    "signal": "83.8 FM",
+    "url": "https://www.chofu-fm.com/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30039/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/chofu-fm.png"
+  },
+  "fm-jaga": {
+    "title": "FM-Jaga",
+    "type": "application/x-mpegURL",
+    "signal": "77.8 FM",
+    "url": "https://www.jaga.fm/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30016/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-jaga.png"
+  },
+  "mid-fm": {
+    "title": "Mid-FM",
+    "type": "application/x-mpegURL",
+    "signal": "76.1 FM",
+    "url": "http://midfm761.com/index.html",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30004/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/mid-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/mid-fm?time="
+  },
+  "fm-chiao": {
+    "title": "エフエム熱海湯河原 Ciao!",
+    "type": "application/x-mpegURL",
+    "signal": "79.6 FM",
+    "url": "http://www.ciao796.com/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30062/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-chiao.png",
+    "schedule": "https://api.webrad.io/data/playlist/144/fm-chiao?time="
+  },
+  "fm-chupea": {
+    "title": "FMちゅーピー",
+    "type": "audio/mpeg",
+    "signal": "76.6 FM",
+    "url": "https://chupea.fm/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB082-MP3",
+    "features": "/img/asia/japan/fm-chupea.png"
+  },
+  "fm-yutopia": {
+    "title": "FMゆーとぴあ",
+    "type": "application/x-mpegURL",
+    "signal": "76.3 FM",
+    "url": "http://www.yutopia.or.jp/~fm763/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30030/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/fm-yutopia.png"
+  },
+  "sea-wave": {
+    "title": "Sea Wave FMいわき",
+    "type": "application/x-mpegURL",
+    "signal": "76.2 FM",
+    "url": "https://www.fm-iwaki.co.jp/",
+    "cros": false,
+    "stream": "https://mtist.as.smartstream.ne.jp/30009/livestream/playlist.m3u8",
+    "features": "/img/asia/japan/sea-wave.png"
+  },
+  "fm-odawara": {
+    "title": "FMおだわら",
+    "type": "audio/mpeg",
+    "signal": "87.9 FM",
+    "url": "https://fm-odawara.com/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB017-MP3",
+    "features": "/img/asia/japan/fm-odawara.png"
+  },
+  "fm-pipi": {
+    "title": "FMおだわら",
+    "type": "audio/mpeg",
+    "signal": "76.3 FM",
+    "url": "https://fmpipi.co.jp/",
+    "cros": false,
+    "stream": "https://musicbird.leanstream.co/JCB043-MP3",
+    "features": "/img/asia/japan/fm-pipi.png"
+  }
+}

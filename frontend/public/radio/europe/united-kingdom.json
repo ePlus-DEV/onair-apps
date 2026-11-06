@@ -1,0 +1,1419 @@
+{
+  "bbc-1": {
+    "title": "BBC Radio 1",
+    "type": "application/x-mpegURL",
+    "category": "BBC Radio 1",
+    "url": "http://www.bbc.co.uk/radio1",
+    "cros": false,
+    "stream": "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/ak/bbc_radio_one.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-1.png"
+  },
+  "bbc-2": {
+    "title": "BBC Radio 2",
+    "type": "audio/mpeg",
+    "category": "BBC Radio 2",
+    "url": "http://www.bbc.co.uk/radio2",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_two",
+    "features": "/img/europe/united-kingdom/bbc-2.png"
+  },
+  "bbc-3": {
+    "title": "BBC Radio 3",
+    "type": "application/x-mpegURL",
+    "category": "BBC Radio 3",
+    "url": "http://www.bbc.co.uk/radio32",
+    "cros": false,
+    "stream": "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/ak/bbc_radio_three.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-3.png"
+  },
+  "bbc-4": {
+    "title": "BBC Radio 4",
+    "type": "audio/mpeg",
+    "category": "BBC Radio 4",
+    "url": "http://www.bbc.co.uk/radio4",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_fourfm",
+    "features": "/img/europe/united-kingdom/bbc-4.png"
+  },
+  "bbc-4-extra": {
+    "title": "BBC Radio 4 Extra",
+    "type": "audio/mpeg",
+    "category": "BBC Radio 4 Extra",
+    "url": "http://www.bbc.co.uk/radio4extra",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_four_extra",
+    "features": "/img/europe/united-kingdom/bbc-4-extra.png"
+  },
+  "bbc-5-live": {
+    "title": "BBC Radio 5 Live",
+    "type": "audio/mpeg",
+    "category": "Sport",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_five_live",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_five_live_online_nonuk",
+    "features": "/img/europe/united-kingdom/bbc-5-live.png"
+  },
+  "bbc-6": {
+    "title": "BBC Radio 6",
+    "type": "application/x-mpegURL",
+    "category": "BBC Radio 6",
+    "url": "http://www.bbc.co.uk/6music",
+    "cros": false,
+    "stream": "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/ak/bbc_6music.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-6.png"
+  },
+  "bbc-world-service": {
+    "title": "BBC Radio World Service",
+    "type": "audio/mpeg",
+    "category": "BBC Radio 6",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "features": "/img/europe/united-kingdom/bbc-world-service.png"
+  },
+  "bbc-asian": {
+    "title": "BBC Radio Asian Network",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "http://www.bbc.co.uk/asiannetwork",
+    "cros": false,
+    "stream": "https://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/low/ak/bbc_asian_network.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-asian.png"
+  },
+  "classic-rock": {
+    "title": "Absolute Classic Rock",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/absolute-classic-rock",
+    "cros": false,
+    "stream": "https://stream-ar.planetradio.co.uk/absoluteclassicrockhigh.aac",
+    "features": "/img/europe/united-kingdom/classic-rock.png"
+  },
+  "planet-rock": {
+    "title": "Planet Rock",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/planet-rock/",
+    "cros": false,
+    "stream": "https://stream-mz.planetradio.co.uk/planetrock.mp3",
+    "features": "/img/europe/united-kingdom/planet-rock.png"
+  },
+  "jazz-fm": {
+    "title": "Jazz FM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.jazzfm.com",
+    "cros": false,
+    "stream": "https://stream-al.planetradio.co.uk/jazz.mp3",
+    "features": "/img/europe/united-kingdom/jazz-fm.png"
+  },
+  "classic-fm": {
+    "title": "Classic FM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.classicfm.com",
+    "cros": true,
+    "stream": "http://vis.media-ice.musicradio.com/ClassicFMMP3",
+    "features": "/img/europe/united-kingdom/classic-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/classic-fm?time="
+  },
+  "capital-fm": {
+    "title": "Capital FM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.capitalfm.com",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/Capital",
+    "features": "/img/europe/united-kingdom/capital.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/capital?time="
+  },
+  "heart-uk": {
+    "title": "Heart UK",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.heart.co.uk",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/HeartUK",
+    "features": "/img/europe/united-kingdom/heart.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/heart?time=",
+    "favorite": true
+  },
+  "virgin": {
+    "title": "Virgin Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://virginradio.co.uk",
+    "cros": false,
+    "stream": "https://radio.virginradio.co.uk/stream",
+    "features": "/img/europe/united-kingdom/virgin.png"
+  },
+  "1mix": {
+    "title": "1 Mix EDM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.1mix.co.uk/",
+    "cros": true,
+    "stream": "http://fr1.1mix.co.uk:8060/320",
+    "features": "/img/europe/united-kingdom/1mix.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/1mix?time="
+  },
+  "smooth": {
+    "title": "Smooth Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.smoothradio.com/",
+    "cros": false,
+    "stream": "https://media-ice.musicradio.com/SmoothUKMP3",
+    "features": "/img/europe/united-kingdom/smooth.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/smooth?time="
+  },
+  "rinse-fm": {
+    "title": "Rinse FM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://rinse.fm/",
+    "cros": false,
+    "stream": "https://streamer-uk.rinse.fm:8443/stream",
+    "features": "/img/europe/united-kingdom/rinse-fm.png"
+  },
+  "radio-x": {
+    "title": "Radio X",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.radiox.co.uk/",
+    "cros": false,
+    "stream": "https://media-ice.musicradio.com/RadioXLondonMP3",
+    "features": "/img/europe/united-kingdom/radio-x.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/x?time="
+  },
+  "absolute": {
+    "title": "Absolute Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/absolute-radio/",
+    "cros": false,
+    "stream": "https://stream-ar.planetradio.co.uk/absoluteradiohigh.aac",
+    "features": "/img/europe/united-kingdom/absolute.png"
+  },
+  "discover-trance-uk": {
+    "title": "Discover Trance",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.discovertrance.com/",
+    "cros": false,
+    "stream": "https://uk01.discovertrance.com/9216/",
+    "features": "/img/europe/united-kingdom/discover-trance-uk.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/discover-trance-uk?time="
+  },
+  "caroline": {
+    "title": "Radio Caroline",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.radiocaroline.co.uk/",
+    "cros": true,
+    "stream": "http://sc6.radiocaroline.net:8040/stream/1/",
+    "features": "/img/europe/united-kingdom/caroline.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/caroline?time="
+  },
+  "kiss-london": {
+    "title": "KISS (London)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/kiss/",
+    "cros": false,
+    "stream": "https://stream-kiss.planetradio.co.uk/kissnational.mp3",
+    "features": "/img/europe/united-kingdom/kiss-london.png"
+  },
+  "greatest-hits-radio": {
+    "title": "Greatest Hits Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/greatest-hits/",
+    "cros": false,
+    "stream": "https://stream-mz.planetradio.co.uk/net2national.aac",
+    "features": "/img/europe/united-kingdom/greatest-hits-radio.png"
+  },
+  "more-worthing": {
+    "title": "More Radio (Worthing)",
+    "type": "audio/mpeg",
+    "url": "https://www.moreradio.online/",
+    "cros": false,
+    "stream": "https://s2.xrad.io:9596/stream/1/",
+    "features": "/img/europe/united-kingdom/more-worthing.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/more-worthing?time="
+  },
+  "manx": {
+    "title": "Manx Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.manxradio.com/",
+    "cros": false,
+    "stream": "https://listen-manxradio.sharp-stream.com/manxradioam.aac",
+    "features": "/img/europe/united-kingdom/manx.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/manx?time="
+  },
+  "kane-fm": {
+    "title": "Kane FM (London)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.kanefm.com/",
+    "cros": false,
+    "stream": "https://stream.kanefm.com:10375/listen",
+    "features": "/img/europe/united-kingdom/kane-fm.png"
+  },
+  "sunshine-hereford": {
+    "title": "Sunshine Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.sunshineradio.co.uk/",
+    "cros": false,
+    "stream": "https://icecast.easystream.co.uk:8000/herefordFM",
+    "features": "/img/europe/united-kingdom/sunshine-hereford.png"
+  },
+  "talksport": {
+    "title": "Talk Sport",
+    "type": "audio/mpeg",
+    "url": "https://talksport.com/",
+    "cros": false,
+    "stream": "https://radio.talksport.com/stream",
+    "features": "/img/europe/united-kingdom/talksport.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/talksport?time="
+  },
+  "william-hill-racing": {
+    "title": "William Hill Racing Radio",
+    "type": "application/x-mpegURL",
+    "url": "https://news.williamhill.com/",
+    "cros": false,
+    "stream": "https://betamg-i.akamaihd.net/hls/live/513429/willhill/racingradio/playlist.m3u8",
+    "features": "/img/europe/united-kingdom/william-hill-racing.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/william-hill-racing?time="
+  },
+  "sheffield": {
+    "title": "Sheffield Live",
+    "type": "audio/mpeg",
+    "url": "https://web.sheffieldlive.org/",
+    "cros": true,
+    "stream": "http://live.sheffieldlive.org:8000/stream/1/",
+    "features": "/img/europe/united-kingdom/sheffield.png"
+  },
+  "1xtra": {
+    "title": "BBC Radio 1 Xtra",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_1xtra",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_1xtra",
+    "features": "/img/europe/united-kingdom/1xtra.png"
+  },
+  "solar": {
+    "title": "Solar Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "http://www.solarradio.com/",
+    "cros": false,
+    "stream": "https://strm5.radiostreamer.co.uk/proxy/mp3high22?mp=/stream/1/",
+    "features": "/img/europe/united-kingdom/solar.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/solar?time="
+  },
+  "choice-london": {
+    "title": "Capital Xtra (London)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.capitalxtra.com/",
+    "cros": false,
+    "stream": "https://media-ice.musicradio.com/CapitalXTRALondonMP3",
+    "features": "/img/europe/united-kingdom/choice-london.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/choice-london?time="
+  },
+  "bbc-glasgow": {
+    "title": "BBC Radio Scotland (Glasgow)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_radio_scotland_fm",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_radio_scotland_fm",
+    "features": "/img/europe/united-kingdom/bbc-glasgow.png"
+  },
+  "absolute-80s": {
+    "title": "Absolute 80s Radio",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/absolute-80s/",
+    "cros": false,
+    "stream": "https://stream-ar.planetradio.co.uk/absolute80shigh.aac",
+    "features": "/img/europe/united-kingdom/absolute-80s.png"
+  },
+  "magic-london": {
+    "title": "Radio Magic FM (London)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://planetradio.co.uk/magic/",
+    "cros": false,
+    "stream": "https://stream-mz.planetradio.co.uk/magicnational.mp3",
+    "features": "/img/europe/united-kingdom/magic-london.png"
+  },
+  "talk": {
+    "title": "talkRADIO",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://talkradio.co.uk",
+    "cros": false,
+    "stream": "https://radio.talkradio.co.uk/stream",
+    "features": "/img/europe/united-kingdom/talk.png"
+  },
+  "fun-radio-uk": {
+    "title": "Fun Kids",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.funkidslive.com/",
+    "cros": false,
+    "stream": "https://listen-funkids.sharp-stream.com/funkids.mp3",
+    "features": "/img/europe/united-kingdom/fun-radio-uk.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/fun-radio-uk?time="
+  },
+  "sanskar-leicester": {
+    "title": "Sanskar Radio (Leicester)",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "http://sanskarradio.com/",
+    "cros": false,
+    "stream": "https://radio.canstream.co.uk:8024/live.mp3",
+    "features": "/img/europe/united-kingdom/sanskar-leicester.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/sanskar-leicester?time="
+  },
+  "island": {
+    "title": "Island FM",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "https://www.islandfm.com/",
+    "cros": false,
+    "stream": "https://n07a-eu.rcs.revma.com/epatpyebanzuv",
+    "features": "/img/europe/united-kingdom/island.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/island?time="
+  },
+  "serenade-radio": {
+    "title": "Serenade Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.serenade-radio.com/",
+    "cros": true,
+    "stream": "http://4534.cloudrad.io:8284/stream/1/",
+    "features": "/img/europe/united-kingdom/serenade-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/serenade-radio?time="
+  },
+  "greatest-hits-harrogate": {
+    "title": "Greatest Hits Radio (Harrogate and the Yorkshire Dales)",
+    "type": "audio/mpeg",
+    "url": "https://planetradio.co.uk/greatest-hits/harrogate-yorkshire-dales/",
+    "cros": false,
+    "stream": "https://stream-mz.planetradio.co.uk/net2harrogate.aac",
+    "features": "/img/europe/united-kingdom/greatest-hits-harrogate.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/greatest-hits-harrogate?time="
+  },
+  "amazing": {
+    "title": "Amazing Radio",
+    "type": "audio/mpeg",
+    "url": "https://amazingradio.com/",
+    "cros": true,
+    "stream": "https://stream5.amazingradio.com:8443/stream.mp3?redirected=1",
+    "features": "/img/europe/united-kingdom/amazing.png"
+  },
+  "lbc": {
+    "title": "LBC",
+    "type": "audio/mpeg",
+    "url": "https://www.lbc.co.uk/",
+    "cros": false,
+    "stream": "https://media-ice.musicradio.com/LBCLondonMP3",
+    "features": "/img/europe/united-kingdom/lbc.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/lbc?time="
+  },
+  "more-hastings": {
+    "title": "More Radio (Hastings)",
+    "type": "audio/mpeg",
+    "url": "https://www.moreradio.online/",
+    "cros": false,
+    "stream": "https://s2.xrad.io:9592/stream/1/",
+    "features": "/img/europe/united-kingdom/more-hastings.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/more-hastings?time="
+  },
+  "hayes-fm": {
+    "title": "Radio Hayes",
+    "type": "audio/mpeg",
+    "url": "https://hayesfm.co.uk/",
+    "cros": false,
+    "stream": "https://s19.myradiostream.com/8026/stream/1/",
+    "features": "/img/europe/united-kingdom/hayes-fm.png"
+  },
+  "absolute-aberdeen": {
+    "title": "Absolute Radio (Aberdeen)",
+    "type": "audio/mpeg",
+    "url": "https://planetradio.co.uk/absolute-radio/",
+    "cros": false,
+    "stream": "https://stream-ar.planetradio.co.uk/absoluteradiohigh.aac",
+    "features": "/img/europe/united-kingdom/absolute-aberdeen.png"
+  },
+  "mearns-stonehaven": {
+    "title": "Mearns FM (Stonehaven)",
+    "type": "audio/mpeg",
+    "url": "https://www.mearnsfm.org.uk/",
+    "cros": false,
+    "stream": "https://stream3.hippynet.co.uk/stream/mearnsfm",
+    "features": "/img/europe/united-kingdom/mearns-stonehaven.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/mearns-stonehaven?time="
+  },
+  "original-aberdeen": {
+    "title": "Original 106 Aberdeen (Durris)",
+    "type": "audio/mpeg",
+    "url": "https://www.originalfm.com/",
+    "cros": false,
+    "stream": "https://listen-original.sharp-stream.com/original106.mp3",
+    "features": "/img/europe/united-kingdom/original-aberdeen.png",
+    "schedule": "https://api.webrad.io/data/playlist/42/original-aberdeen?time="
+  },
+  "shmu-aberdeen": {
+    "title": "Shmu FM (Aberdeen)",
+    "type": "audio/mpeg",
+    "url": "http://www.shmu.org.uk/",
+    "cros": true,
+    "stream": "http://stream.shmu.org.uk:8000/shmufm_high.mp3",
+    "features": "/img/europe/united-kingdom/shmu-aberdeen.png"
+  },
+  "talk-aberdeen": {
+    "title": "Talk Sport UK (Aberdeen)",
+    "type": "audio/mpeg",
+    "url": "https://talksport.com/",
+    "cros": false,
+    "stream": "https://radio.talksport.com/stream",
+    "features": "/img/europe/united-kingdom/talk-aberdeen.png"
+  },
+  "blast-belfast": {
+    "title": "Blast FM (Belfast)",
+    "type": "audio/mpeg",
+    "url": "http://blast106.com/",
+    "cros": true,
+    "stream": "http://radiocentre.duckdns.org:8000/blast",
+    "features": "/img/europe/united-kingdom/blast-belfast.png"
+  },
+  "bbc-world-service-instant-audio": {
+    "title": "BBC World Service",
+    "description": "news, talk",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.co.uk/programmes/w172xzjgf6lxp7y",
+    "cros": true,
+    "stream": "http://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "features": "/img/europe/united-kingdom/bbc-world-service.png",
+    "source": "radio-browser:98adecf7-2683-4408-9be7-02d3f9098eb8"
+  },
+  "classic-fm-uk": {
+    "title": "Classic FM UK",
+    "description": "classical",
+    "type": "audio/mpeg",
+    "url": "http://www.classicfm.com/",
+    "cros": true,
+    "stream": "http://ice-the.musicradio.com/ClassicFMMP3",
+    "features": "/img/europe/united-kingdom/classic-fm-uk.png",
+    "source": "radio-browser:96063f25-0601-11e8-ae97-52543be04c81"
+  },
+  "lbc-radio": {
+    "title": "LBC Radio",
+    "description": "political talk",
+    "type": "audio/mpeg",
+    "url": "http://www.lbc.co.uk/",
+    "cros": true,
+    "stream": "http://media-sov.musicradio.com/LBC973MP3Low",
+    "features": "/img/europe/united-kingdom/lbc-radio.png",
+    "source": "radio-browser:9614bbb6-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-caroline": {
+    "title": "Radio Caroline",
+    "description": "country, pop, rock",
+    "type": "audio/mpeg",
+    "url": "http://www.radiocaroline.co.uk/",
+    "cros": true,
+    "stream": "http://78.129.202.200:8040/;",
+    "features": "/img/europe/united-kingdom/radio-caroline.ico",
+    "source": "radio-browser:9606ceae-0601-11e8-ae97-52543be04c81"
+  },
+  "capital-fm-london": {
+    "title": "Capital FM London",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "http://www.capitalfm.com/london/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/CapitalMP3",
+    "features": "/img/europe/united-kingdom/capital-fm-london.jpg",
+    "source": "radio-browser:96200095-0601-11e8-ae97-52543be04c81"
+  },
+  "heart-80s": {
+    "title": "Heart 80s",
+    "description": "80s, national, pop, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.heart.co.uk/80s",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/Heart80sMP3",
+    "features": "/img/europe/united-kingdom/heart-80s.png",
+    "source": "radio-browser:c4077677-dc2f-11e9-a8ba-52543be04c81"
+  },
+  "heart-london-106-2-mp3": {
+    "title": "Heart London 106.2 [MP3]",
+    "description": "commercial, hot adult contemporary, london",
+    "type": "audio/mpeg",
+    "url": "http://www.heart.co.uk/london",
+    "cros": true,
+    "stream": "http://ice-sov.musicradio.com/HeartLondonMP3",
+    "features": "/img/europe/united-kingdom/heart-london-106-2-mp3.webp",
+    "source": "radio-browser:9608ade8-0601-11e8-ae97-52543be04c81"
+  },
+  "lbc-uk": {
+    "title": "LBC UK",
+    "description": "news talk, talk",
+    "type": "audio/aac",
+    "url": "https://www.lbc.co.uk/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/LBCUK",
+    "features": "/img/europe/united-kingdom/lbc-uk.webp",
+    "source": "radio-browser:6efe216d-bf7e-11e9-8502-52543be04c81"
+  },
+  "smooth-radio": {
+    "title": "Smooth Radio",
+    "description": "easy listening, smooth, soft music",
+    "type": "audio/aac",
+    "url": "http://www.smoothradio.com/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/SmoothEastMids",
+    "features": "/img/europe/united-kingdom/smooth-radio.png",
+    "source": "radio-browser:962b27a3-0601-11e8-ae97-52543be04c81"
+  },
+  "tmm-1": {
+    "title": "TMM 1",
+    "description": "alternative, alternative rock, garage, indie, indie pop",
+    "type": "audio/mpeg",
+    "url": "https://www.themusicmachine.co.uk/",
+    "cros": false,
+    "stream": "https://listen-msmn.sharp-stream.com/nme1.mp3",
+    "features": "/img/europe/united-kingdom/tmm-1.webp",
+    "source": "radio-browser:9619e7d7-0601-11e8-ae97-52543be04c81"
+  },
+  "lbc-london-national-stream": {
+    "title": "LBC London (National stream)",
+    "description": "news, talk",
+    "type": "audio/mpeg",
+    "url": "http://lbc.co.uk/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/LBCUKMP3Low",
+    "features": "/img/europe/united-kingdom/lbc-london-national-stream.png",
+    "source": "radio-browser:963ad02f-0601-11e8-ae97-52543be04c81"
+  },
+  "heart-70s": {
+    "title": "Heart 70s",
+    "description": "70s, national, pop, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.heart.co.uk/70s",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/Heart70sMP3",
+    "features": "/img/europe/united-kingdom/heart-70s.png",
+    "source": "radio-browser:e7205cd4-dc30-11e9-a8ba-52543be04c81"
+  },
+  "gold": {
+    "title": "Gold",
+    "description": "classic hits, national, oldies, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.mygoldmusic.co.uk/",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/GoldMP3",
+    "features": "/img/europe/united-kingdom/gold.png",
+    "source": "radio-browser:0a1e0bb0-dc37-11e9-a8ba-52543be04c81"
+  },
+  "classic-fm-instant-audio": {
+    "title": "Classic FM",
+    "description": "classic fm, classical",
+    "type": "audio/mpeg",
+    "url": "https://www.classicfm.com/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/ClassicFMMP3",
+    "features": "/img/europe/united-kingdom/classic-fm.png",
+    "source": "radio-browser:32da2113-229c-11e9-a80b-52543be04c81"
+  },
+  "smooth-chill": {
+    "title": "Smooth Chill",
+    "description": "chillout, national, public radio, smooth, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.smoothradio.com/chill/",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/ChillMP3",
+    "features": "/img/europe/united-kingdom/smooth-chill.png",
+    "source": "radio-browser:478fd7f4-dc36-11e9-a8ba-52543be04c81"
+  },
+  "heart-dance": {
+    "title": "Heart Dance",
+    "description": "dance, national, pop, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.heart.co.uk/dance",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/HeartDanceMP3",
+    "features": "/img/europe/united-kingdom/heart-dance.png",
+    "source": "radio-browser:fa76f16f-dc31-11e9-a8ba-52543be04c81"
+  },
+  "jazz-london-radio": {
+    "title": "Jazz London Radio",
+    "description": "jazz",
+    "type": "audio/mpeg",
+    "url": "http://www.jazzlondonradio.com/",
+    "cros": true,
+    "stream": "http://radio.canstream.co.uk:8075/live.mp3",
+    "features": "/img/europe/united-kingdom/jazz-london-radio.ico",
+    "source": "radio-browser:961f9f7f-0601-11e8-ae97-52543be04c81"
+  },
+  "heart-90s": {
+    "title": "Heart 90s",
+    "description": "90s, national, pop, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.heart.co.uk/90s",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/Heart90sMP3",
+    "features": "/img/europe/united-kingdom/heart-90s.png",
+    "source": "radio-browser:52bb00fe-dc31-11e9-a8ba-52543be04c81"
+  },
+  "tmm-2": {
+    "title": "TMM 2",
+    "description": "alternative, hiphop, electronic",
+    "type": "audio/mpeg",
+    "url": "https://www.themusicmachine.co.uk/",
+    "cros": false,
+    "stream": "https://listen-msmn.sharp-stream.com/nme2.mp3",
+    "features": "/img/europe/united-kingdom/tmm-2.webp",
+    "source": "radio-browser:9619e894-0601-11e8-ae97-52543be04c81"
+  },
+  "classic-fm-relax": {
+    "title": "Classic FM Relax",
+    "type": "audio/aac",
+    "url": "https://internetradiouk.com",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/ClassicFM-M-Relax",
+    "features": "/img/europe/united-kingdom/classic-fm-relax.png",
+    "source": "radio-browser:ba093e53-c020-484b-a6a6-b184e7382744"
+  },
+  "radiox-uk": {
+    "title": "RadioX UK",
+    "type": "audio/mpeg",
+    "url": "https://www.radiox.co.uk/",
+    "cros": true,
+    "stream": "http://icecast.thisisdax.com/RadioXUKMP3",
+    "features": "/img/europe/united-kingdom/radiox-uk.jpg",
+    "source": "radio-browser:03387f8e-4a8b-4b2b-8740-5d35a5cc8c48"
+  },
+  "lbc-london-london-stream-aac": {
+    "title": "LBC London (London stream) AAC",
+    "description": "london, news, talk",
+    "type": "audio/aac",
+    "url": "http://www.lbc.co.uk/faq/online-listen-live/",
+    "cros": true,
+    "stream": "http://media-sov.musicradio.com/LBCLondon",
+    "features": "/img/europe/united-kingdom/lbc-london-london-stream-aac.ico",
+    "source": "radio-browser:961917f2-0601-11e8-ae97-52543be04c81"
+  },
+  "heart-london-106-2-aac": {
+    "title": "Heart London 106.2 [AAC]",
+    "description": "adult contemporary, pop rock",
+    "type": "audio/aac",
+    "url": "http://www.heart.co.uk/london",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/HeartLondon",
+    "features": "/img/europe/united-kingdom/heart-london-106-2-aac.png",
+    "source": "radio-browser:9639448b-0601-11e8-ae97-52543be04c81"
+  },
+  "lbc-london-news": {
+    "title": "LBC London News",
+    "description": "news",
+    "type": "audio/aac",
+    "url": "http://lbc.co.uk/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/LBC1152",
+    "features": "/img/europe/united-kingdom/lbc-london-news.png",
+    "source": "radio-browser:973c88e9-bf3d-11e8-aaf2-52543be04c81"
+  },
+  "bbc-radio-4-128k": {
+    "title": "BBC Radio 4 (128k)",
+    "description": "comedy, drama, news, talk",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/radio4",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_55057080/live/ww/bbc_radio_fourfm/bbc_radio_fourfm.isml/bbc_radio_fourfm-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-4-128k.png",
+    "source": "radio-browser:98137c2d-ce68-4e33-8cb7-ddf3692ecc9d"
+  },
+  "classic-fm-uk-1ee17d63": {
+    "title": "Classic FM UK",
+    "description": "classical",
+    "type": "audio/aac",
+    "url": "http://www.classicfm.com/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/ClassicFM",
+    "features": "/img/europe/united-kingdom/classic-fm-uk-1ee17d63.png",
+    "source": "radio-browser:1ee17d63-1702-11e8-ae97-52543be04c81"
+  },
+  "heart-uk-instant-audio": {
+    "title": "Heart UK",
+    "description": "adult contemporary, national, pop, public radio, variety",
+    "type": "audio/mpeg",
+    "url": "https://www.heart.co.uk/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/HeartUKMP3",
+    "features": "/img/europe/united-kingdom/heart-uk.png",
+    "source": "radio-browser:283402b5-dc2e-11e9-a8ba-52543be04c81"
+  },
+  "bbc-afrique-radio": {
+    "title": "BBC Afrique Radio",
+    "description": "africa, afrique, news, talk",
+    "type": "audio/aac",
+    "url": "https://www.bbc.com/afrique/bbc_afrique_radio/liveradio",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_afrique_radio.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-afrique-radio.png",
+    "source": "radio-browser:33d17f6d-df26-4524-8e55-79acfc796ac7"
+  },
+  "best-smooth-jazz-uk": {
+    "title": "BEST SMOOTH JAZZ - UK",
+    "type": "audio/mpeg",
+    "url": "http://bestsmoothjazz.com/",
+    "cros": true,
+    "stream": "http://64.95.243.43:8002/stream",
+    "features": "/img/europe/united-kingdom/best-smooth-jazz-uk.png",
+    "source": "radio-browser:def842a8-e3aa-11e8-a9cc-52543be04c81"
+  },
+  "techno-fm": {
+    "title": "Techno.FM",
+    "description": "techno",
+    "type": "audio/mpeg",
+    "url": "https://techno.fm/",
+    "cros": true,
+    "stream": "http://stream.techno.fm/radio.mp3",
+    "features": "/img/europe/united-kingdom/techno-fm.ico",
+    "source": "radio-browser:b342f658-2726-11e8-91bf-52543be04c81"
+  },
+  "1mix-radio-trance": {
+    "title": "1Mix Radio Trance",
+    "description": "club, trance",
+    "type": "audio/mpeg",
+    "url": "http://www.1mix.co.uk/",
+    "cros": true,
+    "stream": "http://fr2.1mix.co.uk:8060/192",
+    "features": "/img/europe/united-kingdom/1mix-radio-trance.jpg",
+    "source": "radio-browser:62bfcbb9-0503-11e9-a1be-52543be04c81"
+  },
+  "lbc-london-london-stream-mp3": {
+    "title": "LBC London (London stream) MP3",
+    "description": "london, news, talk",
+    "type": "audio/mpeg",
+    "url": "http://www.lbc.co.uk/online-listen-live-faq-3608",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/LBCLondonMP3Low",
+    "features": "/img/europe/united-kingdom/lbc-london-london-stream-mp3.ico",
+    "source": "radio-browser:961bdac0-0601-11e8-ae97-52543be04c81"
+  },
+  "different-drumz-dnb-radio": {
+    "title": "Different Drumz DnB Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.differentdrumz.co.uk/",
+    "cros": true,
+    "stream": "http://andromeda.shoutca.st:8031/",
+    "features": "/img/europe/united-kingdom/different-drumz-dnb-radio.png",
+    "source": "radio-browser:961bd688-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-x-instant-audio": {
+    "title": "Radio X",
+    "description": "indie, pop",
+    "type": "audio/aac",
+    "url": "http://www.radiox.co.uk/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/RadioXUK",
+    "features": "/img/europe/united-kingdom/radio-x.png",
+    "source": "radio-browser:9617bbd8-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-x-manchester": {
+    "title": "Radio X Manchester",
+    "type": "audio/aac",
+    "url": "http://www.radiox.co.uk/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/RadioXManchester",
+    "features": "/img/europe/united-kingdom/radio-x-manchester.png",
+    "source": "radio-browser:961796d7-0601-11e8-ae97-52543be04c81"
+  },
+  "love-radio-only-love-songs-70s80s90s": {
+    "title": "LOVE.radio Only Love Songs 70s80s90s",
+    "description": "love, love songs, lovesongs, romantic",
+    "type": "audio/aac",
+    "url": "https://love.radio/",
+    "cros": false,
+    "stream": "https://loveradio.streamingmedia.it/england",
+    "features": "/img/europe/united-kingdom/love-radio-only-love-songs-70s80s90s.webp",
+    "source": "radio-browser:6dea6c7d-9b22-4698-889f-e7c34203ee6a"
+  },
+  "bbc-arabic-radio": {
+    "title": "BBC Arabic Radio",
+    "description": "arabic, news, talk",
+    "type": "audio/aac",
+    "url": "https://www.bbc.com/arabic/bbc_arabic_radio/liveradio",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_arabic_radio.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-arabic-radio.png",
+    "source": "radio-browser:fc4319aa-3c6a-4111-9529-dee11d079981"
+  },
+  "bbc-news-hd-720p": {
+    "title": "BBC News HD (720P)",
+    "description": "england, english, london, news, uk",
+    "type": "application/x-mpegURL",
+    "url": "https://bbc.co.uk/news",
+    "cros": false,
+    "stream": "https://vs-hls-push-ww-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_news_channel_hd/t=3840/v=pv14/b=5070016/main.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-news-hd-720p.png",
+    "source": "radio-browser:ea391ded-00f0-47e0-841c-d92663e11854"
+  },
+  "classic-fm-at-the-movies": {
+    "title": "Classic FM at the Movies",
+    "type": "audio/aac",
+    "url": "http://classicfm.com/",
+    "cros": true,
+    "stream": "http://media-sov.musicradio.com/ClassicFM-M-Movies",
+    "features": "/img/europe/united-kingdom/classic-fm-at-the-movies.png",
+    "source": "radio-browser:9f1574b3-b2c1-11e9-acb2-52543be04c81"
+  },
+  "bbc-radio-5-live-128k": {
+    "title": "BBC Radio 5 Live (128k)",
+    "description": "news, sports, talk",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/5live",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_89021708/live/ww/bbc_radio_five_live/bbc_radio_five_live.isml/bbc_radio_five_live-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-5-live-128k.png",
+    "source": "radio-browser:cae35448-1285-4f12-b3e0-2f4fdde00002"
+  },
+  "bbc-radio-2-128k": {
+    "title": "BBC Radio 2 (128k)",
+    "description": "adult contemporary",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/radio2",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_74208725/live/ww/bbc_radio_two/bbc_radio_two.isml/bbc_radio_two-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-2-128k.png",
+    "source": "radio-browser:3606ef8c-cd58-4440-8c47-dbf1e0cacdac"
+  },
+  "bbc-radio-1": {
+    "title": "BBC Radio 1",
+    "type": "audio/aac",
+    "url": "http://www.bbc.co.uk/radio1",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/ms6/live/3441A116-B12E-4D2F-ACA8-C1984642FA4B/audio/simulcast/hls/nonuk/pc_hd_abr_v2/ak/bbc_radio_one.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-1.webp",
+    "source": "radio-browser:fdbdc2b0-c184-437b-8643-9a5bfa45c253"
+  },
+  "gbnews": {
+    "title": "GBNews",
+    "description": "news, news talk, talk",
+    "type": "audio/mpeg",
+    "url": "https://www.gbnews.uk/",
+    "cros": true,
+    "stream": "http://listen-gbnews.sharp-stream.com/gbnews.mp3",
+    "features": "/img/europe/united-kingdom/gbnews.webp",
+    "source": "radio-browser:14569027-6e99-41d0-bf1e-25a0627f971a"
+  },
+  "danceradiouk-dance-uk": {
+    "title": "DanceRadioUK - Dance UK",
+    "description": "dance, house, trance",
+    "type": "audio/aac",
+    "url": "http://www.danceradiouk.com/",
+    "cros": true,
+    "stream": "http://uk2.internet-radio.com:8024/stream",
+    "features": "/img/europe/united-kingdom/danceradiouk-dance-uk.ico",
+    "source": "radio-browser:962a93da-0601-11e8-ae97-52543be04c81"
+  },
+  "bbc-radio-6-music": {
+    "title": "BBC Radio 6 Music",
+    "description": "alternative, blues, dance, eclectic, electronic",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_6music",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d320000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-6-music.png",
+    "source": "radio-browser:1c6dcd6f-88c6-4fd4-8191-078435168e85"
+  },
+  "chillout-ibiza-fm": {
+    "title": "Chillout Ibiza FM",
+    "description": "chillout, relaxing",
+    "type": "audio/mpeg",
+    "url": "http://www.chilloutibizafm.com/",
+    "cros": false,
+    "stream": "https://edge3.peta.live365.net/b05055_128mp3",
+    "features": "/img/europe/united-kingdom/chillout-ibiza-fm.ico",
+    "source": "radio-browser:d69fbc2c-530a-4d40-ac9f-56532356b248"
+  },
+  "heart-80s-962e9a46": {
+    "title": "Heart 80s",
+    "description": "80s",
+    "type": "audio/mpeg",
+    "url": "http://heart.co.uk/80s",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/Heart80sMP3",
+    "features": "/img/europe/united-kingdom/heart-80s-962e9a46.png",
+    "source": "radio-browser:962e9a46-0601-11e8-ae97-52543be04c81"
+  },
+  "linn-jazz": {
+    "title": "Linn Jazz",
+    "description": "jazz",
+    "type": "audio/mpeg",
+    "url": "https://www.linn.co.uk/linn-radio",
+    "cros": true,
+    "stream": "http://radio.linn.co.uk:8000/autodj",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:73490696-3343-4fa2-8045-b8d11e3bb0fb"
+  },
+  "linn-classical": {
+    "title": "Linn Classical",
+    "description": "classical",
+    "type": "audio/mpeg",
+    "url": "https://www.linn.co.uk/linn-radio",
+    "cros": true,
+    "stream": "http://radio.linn.co.uk:8004/autodj",
+    "features": "/img/europe/united-kingdom/linn-classical.png",
+    "source": "radio-browser:686a0847-a519-460d-b351-831e1a80d516"
+  },
+  "exclusively-dire-straits": {
+    "title": "Exclusively Dire Straits",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "https://exclusive.radio/",
+    "cros": false,
+    "stream": "https://streaming.exclusive.radio/er/direstraits/icecast.audio",
+    "features": "/img/europe/united-kingdom/exclusively-dire-straits.ico",
+    "source": "radio-browser:70ce5567-4d1e-4a07-baa5-f5f08ca4b2f6"
+  },
+  "bbc-world-service-a347209e": {
+    "title": "BBC World Service",
+    "description": "news",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service_east_asia",
+    "features": "/img/europe/united-kingdom/bbc-world-service-a347209e.jpg",
+    "source": "radio-browser:a347209e-6ce6-4c94-81ed-003c1275188f"
+  },
+  "bbc-world-service-14b6c684": {
+    "title": "BBC World Service",
+    "description": "news",
+    "type": "audio/aac",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-world-service-14b6c684.png",
+    "source": "radio-browser:14b6c684-bb7c-4926-b2a3-fd5a02bf7867"
+  },
+  "capital-dance": {
+    "title": "Capital Dance",
+    "type": "audio/mpeg",
+    "url": "https://www.capitaldance.com/",
+    "cros": false,
+    "stream": "https://icecast.thisisdax.com/CapitalDanceMP3",
+    "features": "/img/europe/united-kingdom/capital-dance.png",
+    "source": "radio-browser:df3607fb-311d-43b1-bd0c-98d91a4f2df4"
+  },
+  "virgin-radio-chilled": {
+    "title": "Virgin Radio Chilled",
+    "type": "audio/mpeg",
+    "url": "https://virginradio.co.uk/radioplayer/live/virginradio-player-chilled.html",
+    "cros": false,
+    "stream": "https://radio.virginradio.co.uk/stream-chilled?aw_0_1st.platform=vr-web",
+    "features": "/img/europe/united-kingdom/virgin-radio-chilled.png",
+    "source": "radio-browser:8e630042-ef66-4063-a403-7632117ef5c8"
+  },
+  "naim-jazz-320k-aac": {
+    "title": "Naim Jazz [320k aac]",
+    "type": "audio/aac",
+    "url": "https://www.naimaudio.com/",
+    "cros": true,
+    "stream": "http://mscp3.live-streams.nl:8340/jazz-high.aac",
+    "features": "/img/europe/united-kingdom/naim-jazz-320k-aac.png",
+    "source": "radio-browser:7b6de1b4-ec9e-4598-9409-2a2f03c48cb7"
+  },
+  "smooth-radio-london-102-2": {
+    "title": "Smooth Radio London 102.2",
+    "description": "adult contemporary, middle of the road",
+    "type": "audio/mpeg",
+    "url": "https://www.smoothradio.com/london",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/SmoothLondonMP3",
+    "features": "/img/europe/united-kingdom/smooth-radio-london-102-2.png",
+    "source": "radio-browser:f468711f-a403-11e8-abb8-52543be04c81"
+  },
+  "gold-am-1548-london": {
+    "title": "Gold AM 1548 London",
+    "description": "classic hits, london, oldies",
+    "type": "audio/mpeg",
+    "url": "http://www.mygoldmusic.co.uk/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/GoldMP3",
+    "features": "/img/europe/united-kingdom/gold-am-1548-london.png",
+    "source": "radio-browser:96222e78-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-seva-novgorodsev": {
+    "title": "Радио Сева (Radio Seva Novgorodsev)",
+    "description": "music, rock, talk, музыка, разговорное",
+    "type": "audio/mpeg",
+    "url": "https://seva.ru/",
+    "cros": false,
+    "stream": "https://seva.ru/radio/stream",
+    "features": "/img/europe/united-kingdom/radio-seva-novgorodsev.png",
+    "source": "radio-browser:30820d12-0409-44b7-b5e8-edc594910d92"
+  },
+  "bbc-radio-3-128k": {
+    "title": "BBC Radio 3 (128k)",
+    "description": "classical",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/radio3",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_23461179/live/ww/bbc_radio_three/bbc_radio_three.isml/bbc_radio_three-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-3-128k.png",
+    "source": "radio-browser:03e68f6d-1ca3-459f-891a-c55d84711646"
+  },
+  "bbc-radio-4-extra-128k": {
+    "title": "BBC Radio 4 Extra (128k)",
+    "description": "comedy, drama, entertainment",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/radio4extra",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_26173715/live/ww/bbc_radio_four_extra/bbc_radio_four_extra.isml/bbc_radio_four_extra-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-4-extra-128k.png",
+    "source": "radio-browser:ccd9d009-b369-4451-9ebb-a2138bed734f"
+  },
+  "bbc-world-service-3e1ea4e1": {
+    "title": "BBC World Service",
+    "description": "news",
+    "type": "audio/aac",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_world_service",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_vlow/ak/bbc_world_service.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-world-service-3e1ea4e1.png",
+    "source": "radio-browser:3e1ea4e1-aac3-4617-93e3-b35b67b1ff86"
+  },
+  "radio-x-london-mp3": {
+    "title": "Radio X London (MP3)",
+    "type": "audio/mpeg",
+    "url": "http://www.radiox.co.uk/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/RadioXLondonMP3",
+    "features": "/img/europe/united-kingdom/radio-x-london-mp3.png",
+    "source": "radio-browser:96112075-0601-11e8-ae97-52543be04c81"
+  },
+  "weymouth-rocks-medium-bitrate": {
+    "title": "Weymouth Rocks (Medium Bitrate)",
+    "description": "punk, rock, ska",
+    "type": "audio/aac",
+    "url": "http://cast1.asurahosting.com:8621/med",
+    "cros": true,
+    "stream": "http://cast1.asurahosting.com:8621/med",
+    "features": "/img/europe/united-kingdom/weymouth-rocks-medium-bitrate.png",
+    "source": "radio-browser:62ef2552-35e9-433a-b747-efdae52bfe4f"
+  },
+  "truckersfm": {
+    "title": "TruckersFM",
+    "description": "pop music, top 40, variety",
+    "type": "audio/mpeg",
+    "url": "https://truckers.fm/",
+    "cros": true,
+    "stream": "http://radio.truckers.fm/",
+    "features": "/img/europe/united-kingdom/truckersfm.ico",
+    "source": "radio-browser:b445d099-6958-11ea-b1cf-52543be04c81"
+  },
+  "heart": {
+    "title": "Heart",
+    "description": "oldies, pop, public radio, variety",
+    "type": "audio/aac",
+    "url": "http://www.heart.co.uk/northlancs/",
+    "cros": true,
+    "stream": "http://media-the.musicradio.com/HeartNorthLancsCumbria",
+    "features": "/img/europe/united-kingdom/heart.png",
+    "source": "radio-browser:963c8518-0601-11e8-ae97-52543be04c81"
+  },
+  "dance-uk-radio-danceradiouk": {
+    "title": "Dance UK Radio danceradiouk",
+    "description": "club, dance, house, trance",
+    "type": "audio/mpeg",
+    "url": "https://danceradiouk.com/",
+    "cros": true,
+    "stream": "http://51.89.148.171:8022/stream",
+    "features": "/img/europe/united-kingdom/dance-uk-radio-danceradiouk.ico",
+    "source": "radio-browser:0dc3dc2d-04a1-4d53-9995-e1104fc637f6"
+  },
+  "tmm-2-hq": {
+    "title": "TMM 2 (HQ)",
+    "description": "alternative, hiphop, electronic",
+    "type": "audio/mpeg",
+    "url": "https://www.themusicmachine.co.uk/",
+    "cros": false,
+    "stream": "https://listen-msmn.sharp-stream.com/nme2high.mp3",
+    "features": "/img/europe/united-kingdom/tmm-2-hq.webp",
+    "source": "radio-browser:2c788192-ca75-42c9-ace6-866087380796"
+  },
+  "radio-caroline-9605a234": {
+    "title": "Radio Caroline",
+    "description": "nostalgia, pop, rock",
+    "type": "audio/mpeg",
+    "url": "http://www.radiocaroline.audio/caroline-flashback.html",
+    "cros": true,
+    "stream": "http://sc6.radiocaroline.net:8040/;stream.mp3",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:9605a234-0601-11e8-ae97-52543be04c81"
+  },
+  "nts-radio-1": {
+    "title": "NTS Radio 1",
+    "description": "community radio, dj sets, eclectic, freeform",
+    "type": "audio/mpeg",
+    "url": "http://www.nts.live/",
+    "cros": true,
+    "stream": "http://stream-relay-geo.ntslive.net/stream",
+    "features": "/img/europe/united-kingdom/nts-radio-1.ico",
+    "source": "radio-browser:961e6cac-0601-11e8-ae97-52543be04c81"
+  },
+  "bbc-radio-6-music-128k": {
+    "title": "BBC Radio 6 Music (128k)",
+    "description": "alternative",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/6music",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_81827798/live/ww/bbc_6music/bbc_6music.isml/bbc_6music-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-radio-6-music-128k.png",
+    "source": "radio-browser:eec6dc9b-79de-4609-8c6d-88f2bfeb8110"
+  },
+  "chill": {
+    "title": "Chill",
+    "type": "audio/mpeg",
+    "url": "http://www.helpmechill.com/",
+    "cros": true,
+    "stream": "http://media-ice.musicradio.com/ChillMP3",
+    "features": "/img/europe/united-kingdom/chill.webp",
+    "source": "radio-browser:9618f5ba-0601-11e8-ae97-52543be04c81"
+  },
+  "1mix-edm-radio": {
+    "title": "1Mix EDM Radio",
+    "description": "edm, trance",
+    "type": "audio/mpeg",
+    "url": "http://www.1mix.co.uk/edm-home",
+    "cros": true,
+    "stream": "http://fr1.1mix.co.uk:8060/",
+    "features": "/img/europe/united-kingdom/1mix-edm-radio.jpg",
+    "source": "radio-browser:d177cdd0-175c-11ea-a620-52543be04c81"
+  },
+  "exclusively-supertramp": {
+    "title": "Exclusively Supertramp",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "https://exclusive.radio/",
+    "cros": false,
+    "stream": "https://streaming.exclusive.radio/er/supertramp/icecast.audio",
+    "features": "/img/europe/united-kingdom/exclusively-supertramp.ico",
+    "source": "radio-browser:dfa6d153-83de-4112-bd36-2156720bdfc5"
+  },
+  "radio-caroline-aac-96-kbps": {
+    "title": "Radio Caroline AAC 96 kbps",
+    "description": "rock",
+    "type": "audio/aac",
+    "url": "https://www.radiocaroline.co.uk/",
+    "cros": true,
+    "stream": "http://78.129.202.200:8030/;",
+    "features": "/img/europe/united-kingdom/radio-caroline-aac-96-kbps.ico",
+    "source": "radio-browser:b157c703-f875-4c97-8f6a-b435e76c66f0"
+  },
+  "radio-caroline-flashback": {
+    "title": "Radio Caroline Flashback",
+    "description": "60s, 70s, pop, pop rock",
+    "type": "audio/mpeg",
+    "url": "http://www.carolineflashback.co.uk/#home.html",
+    "cros": true,
+    "stream": "http://sc2.radiocaroline.net:10558/;",
+    "features": "/img/europe/united-kingdom/radio-caroline-flashback.jpg",
+    "source": "radio-browser:1a8ae079-d15a-4309-9df0-55590df8e3c2"
+  },
+  "nonstopplay-dance-radio": {
+    "title": "NonStopPlay Dance Radio",
+    "description": "dance",
+    "type": "audio/mpeg",
+    "url": "http://www.nonstopplay.com/",
+    "cros": true,
+    "stream": "http://stream.nonstopplay.co.uk/nsp-192k-mp3",
+    "features": "/img/europe/united-kingdom/nonstopplay-dance-radio.png",
+    "source": "radio-browser:da0ae3e2-1770-11ea-a620-52543be04c81"
+  },
+  "1mix-radio-trance-uk-32kb-aac": {
+    "title": "1Mix Radio - Trance (UK) 32kb aac+",
+    "description": "trance",
+    "type": "audio/aac",
+    "url": "https://www.1mix.co.uk/",
+    "cros": true,
+    "stream": "http://fr2.1mix.co.uk:9000/aacb",
+    "features": "/img/europe/united-kingdom/1mix-radio-trance-uk-32kb-aac.gif",
+    "source": "radio-browser:e6a37934-c787-4a10-b18f-b8a68feab730"
+  },
+  "lbc-news": {
+    "title": "LBC News",
+    "description": "london, news, uk",
+    "type": "audio/aac",
+    "url": "https://www.globalplayer.com/live/lbcnews/uk/",
+    "cros": false,
+    "stream": "https://media-ssl.musicradio.com/LBCNewsUK",
+    "features": "/img/europe/united-kingdom/lbc-news.png",
+    "source": "radio-browser:8e32c763-b926-4e57-9b8f-d60f1c5b48e3"
+  },
+  "trancepulse-fm": {
+    "title": "TrancePulse FM",
+    "description": "trance, trancepulse",
+    "type": "audio/aac",
+    "url": "https://trancepulsefm.ie/",
+    "cros": true,
+    "stream": "http://live.trance.ie:8000/stream",
+    "features": "/img/europe/united-kingdom/trancepulse-fm.jpg",
+    "source": "radio-browser:a5be3d91-3546-11ea-8dd7-52543be04c81"
+  },
+  "naim-radio-lossless-flac": {
+    "title": "Naim Radio [lossless flac]",
+    "type": "audio/ogg",
+    "url": "https://www.naimaudio.com/radio/player",
+    "cros": true,
+    "stream": "http://mscp3.live-streams.nl:8360/flac.flac",
+    "features": "/img/europe/united-kingdom/naim-radio-lossless-flac.png",
+    "source": "radio-browser:49bc6344-102d-4c30-a7d8-b64112837509"
+  },
+  "naim-classical": {
+    "title": "Naim Classical",
+    "type": "audio/aac",
+    "url": "https://www.naimaudio.com/",
+    "cros": true,
+    "stream": "http://mscp3.live-streams.nl:8250/class-high.aac",
+    "features": "/img/europe/united-kingdom/naim-classical.png",
+    "source": "radio-browser:af518728-8669-440a-ab6a-b103dec0144c"
+  },
+  "1mix-radio-trance-uk-320kb-mp3": {
+    "title": "1Mix Radio - Trance (UK) 320kb mp3",
+    "description": "trance",
+    "type": "audio/mpeg",
+    "url": "https://www.1mix.co.uk/",
+    "cros": true,
+    "stream": "http://fr2.1mix.co.uk:9000/320b",
+    "features": "/img/europe/united-kingdom/1mix-radio-trance-uk-320kb-mp3.jpg",
+    "source": "radio-browser:3a0cdb51-c7d5-4446-b954-982e95ce18af"
+  },
+  "bsj-fm-best-smooth-jazz": {
+    "title": "BSJ.FM Best Smooth Jazz",
+    "type": "audio/ogg",
+    "url": "https://bsj.fm/",
+    "cros": false,
+    "stream": "https://bsj.lucasmultimedia.com:8002/stream.ogg",
+    "features": "/img/europe/united-kingdom/bsj-fm-best-smooth-jazz.ico",
+    "source": "radio-browser:57d9c792-5ead-4b1b-ae00-7ad1aa3b09e7"
+  },
+  "nts-radio-2": {
+    "title": "NTS Radio 2",
+    "description": "community radio, dj sets, eclectic, freeform",
+    "type": "audio/mpeg",
+    "url": "http://www.nts.live/",
+    "cros": true,
+    "stream": "http://stream-relay-geo.ntslive.net/stream2",
+    "features": "/img/europe/united-kingdom/nts-radio-2.png",
+    "source": "radio-browser:9634ab94-0601-11e8-ae97-52543be04c81"
+  },
+  "britcom-2-pumpkin-fm": {
+    "title": "BritCom 2 - Pumpkin FM",
+    "description": "british comedy, comedy, old time radio",
+    "type": "audio/mpeg",
+    "url": "https://pumpkinfm.com/",
+    "cros": false,
+    "stream": "https://cast2.asurahosting.com/proxy/britcom2/stream",
+    "features": "/img/europe/united-kingdom/britcom-2-pumpkin-fm.jpg",
+    "source": "radio-browser:47416a39-4289-47a9-8747-056843a60c0b"
+  },
+  "bbc-live-news-128k": {
+    "title": "BBC Live News (128k)",
+    "description": "news",
+    "type": "application/x-mpegURL",
+    "url": "https://www.bbc.co.uk/sounds/play/live:bbc_sounds_news",
+    "cros": true,
+    "stream": "http://as-hls-ww-live.akamaized.net/pool_53367543/live/ww/bbc_sounds_news/bbc_sounds_news.isml/bbc_sounds_news-audio%3d128000.norewind.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-live-news-128k.png",
+    "source": "radio-browser:59813592-9a30-4e5c-bfc6-665724728582"
+  },
+  "london-soul-radio": {
+    "title": "London Soul Radio",
+    "description": "boogie woogie, disco, funk, gospel, groove",
+    "type": "audio/mpeg",
+    "url": "http://www.thesouloflondonradio.com/",
+    "cros": true,
+    "stream": "http://londonsoulradio.out.airtime.pro:8000/londonsoulradio_a",
+    "features": "/img/europe/united-kingdom/london-soul-radio.png",
+    "source": "radio-browser:88321903-6939-11e9-af37-52543be04c81"
+  },
+  "exclusively-ac-dc": {
+    "title": "Exclusively AC/DC",
+    "description": "classic rock",
+    "type": "audio/mpeg",
+    "url": "https://play.exclusive.radio/",
+    "cros": false,
+    "stream": "https://streaming.exclusive.radio/er/acdc/icecast.audio",
+    "features": "/img/europe/united-kingdom/exclusively-ac-dc.ico",
+    "source": "radio-browser:ba93ec29-66c9-4bee-8f71-b71481001c8e"
+  },
+  "naim-radio-320k-aac": {
+    "title": "Naim Radio [320k aac]",
+    "type": "audio/aac",
+    "url": "https://www.naimaudio.com/radio/player",
+    "cros": true,
+    "stream": "http://mscp3.live-streams.nl:8360/high.aac",
+    "features": "/img/europe/united-kingdom/naim-radio-320k-aac.png",
+    "source": "radio-browser:4d2047f0-faea-4b03-90dc-bb27a55fbf02"
+  },
+  "british-comedy-1": {
+    "title": "British Comedy 1",
+    "type": "audio/mpeg",
+    "url": "https://rokitradio.com/",
+    "cros": true,
+    "stream": "http://streaming04.liveboxstream.uk:8077/stream",
+    "features": "/img/europe/united-kingdom/british-comedy-1.ico",
+    "source": "radio-browser:1fad9bad-0100-4785-a114-61df3de6d088"
+  },
+  "soul-radio-only-classic-soul": {
+    "title": "SOUL RADIO Only Classic Soul",
+    "description": "50s, 60s, 70s, classic soul, oldies",
+    "type": "audio/aac",
+    "url": "https://soulradio.uk/",
+    "cros": false,
+    "stream": "https://listen.soulradio.uk/uk",
+    "features": "/img/europe/united-kingdom/soul-radio-only-classic-soul.png",
+    "source": "radio-browser:9f61ef81-bf7d-4bc4-8135-3fc8be52dafb"
+  },
+  "1mix-radio-trance-1-uk-320kb-mp3": {
+    "title": "1Mix Radio - Trance #1 (UK) 320kb mp3",
+    "description": "trance",
+    "type": "audio/mpeg",
+    "url": "https://www.1mix.co.uk/",
+    "cros": true,
+    "stream": "http://fr2.1mix.co.uk:9000/320",
+    "features": "/img/europe/united-kingdom/1mix-radio-trance-1-uk-320kb-mp3.jpg",
+    "source": "radio-browser:d053be00-d771-4253-9f05-e5334d3b23ce"
+  },
+  "bbc-somali-radio": {
+    "title": "BBC Somali Radio",
+    "description": "news, somali, talk",
+    "type": "audio/aac",
+    "url": "https://www.bbc.com/somali/bbc_somali_radio/liveradio",
+    "cros": true,
+    "stream": "http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_somali_radio.m3u8",
+    "features": "/img/europe/united-kingdom/bbc-somali-radio.png",
+    "source": "radio-browser:9b70e005-d5fb-4996-bb40-f52945da1091"
+  },
+  "magic-radio-uk": {
+    "title": "Magic Radio UK",
+    "description": "00s, 70s, 80s, 90s, adult",
+    "type": "audio/mpeg",
+    "url": "https://hellorayo.co.uk/magic/play/",
+    "cros": false,
+    "stream": "https://stream-mz.hellorayo.co.uk/magicnational.mp3?direct=true&aw_0_1st.playerid=BMUK_TuneIn&aw_0_1st.skey=7374499933&stationCode=mag",
+    "features": "/img/europe/united-kingdom/magic-radio-uk.webp",
+    "source": "radio-browser:172d8c95-fecd-40b7-af6f-9cdf4e8829e4"
+  }
+}

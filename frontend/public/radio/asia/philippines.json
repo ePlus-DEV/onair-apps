@@ -1,0 +1,421 @@
+{
+  "love": {
+    "title": "Love Radio",
+    "type": "audio/mpeg",
+    "signal": "97.2FM",
+    "url": "https://www.loveradio.com.ph/",
+    "cros": false,
+    "stream": "https://s3.radio.co/sd43d6cc6d/listen",
+    "features": "/img/asia/philippines/love.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/love?time=",
+    "favorite": true
+  },
+  "yes": {
+    "title": "Yes",
+    "type": "audio/mpeg",
+    "signal": "101.1 FM",
+    "url": "https://www.yesthebest.com.ph/",
+    "cros": false,
+    "stream": "https://s2.radio.co/sa85100da7/listen",
+    "features": "/img/asia/philippines/yes.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/yes?time="
+  },
+  "monster": {
+    "title": "Monster Radio RX (Pasig City)",
+    "type": "audio/mpeg",
+    "signal": "93.1 FM",
+    "url": "https://www.rx931.com/",
+    "cros": false,
+    "stream": "https://sg-icecast.eradioportal.com:8443/monsterrx",
+    "features": "/img/asia/philippines/monster.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/monster?time="
+  },
+  "dzas": {
+    "title": "DZAS AM",
+    "type": "audio/mpeg",
+    "signal": "702 AM",
+    "url": "https://dzas.febc.ph/",
+    "cros": false,
+    "stream": "https://sg-icecast.eradioportal.com:8443/febc_dzas",
+    "features": "/img/asia/philippines/dzas.png"
+  },
+  "qradio": {
+    "title": "QRadio 105.1  (Quezon City)",
+    "type": "audio/mpeg",
+    "signal": "105.1 FM",
+    "url": "https://qradio105.com/",
+    "cros": false,
+    "stream": "https://sg-icecast.eradioportal.com:8443/q105",
+    "features": "/img/asia/philippines/qradio.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/qradio?time="
+  },
+  "easy-rock": {
+    "title": "Easy Rock",
+    "type": "audio/mpeg",
+    "signal": "96.3 FM",
+    "url": "https://www.easyrock.com.ph/",
+    "cros": false,
+    "stream": "https://s4.radio.co/s778110174/listen",
+    "features": "/img/asia/philippines/easy-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/easy-rock?time="
+  },
+  "energy-fm": {
+    "title": "Energy FM",
+    "type": "audio/mpeg",
+    "signal": "106.7 FM",
+    "url": false,
+    "cros": true,
+    "stream": "http://ph-icecast.eradioportal.com:8000/energyfm_manila",
+    "features": "/img/asia/philippines/energy-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/energy-fm?time="
+  },
+  "dzmm-quezon-city": {
+    "title": "DZMM Radyo (Patrol)",
+    "type": "audio/mpeg",
+    "signal": "630 AM",
+    "url": "https://news.abs-cbn.com/dzmm/home",
+    "cros": true,
+    "stream": "https://node-13.zeno.fm/vcv559su7mruv",
+    "features": "/img/asia/philippines/dzmm-quezon-city.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/dzmm-quezon-city?time="
+  },
+  "mellow-manila": {
+    "title": "DZMM Radyo (Patrol)",
+    "type": "audio/mpeg",
+    "signal": "630 AM",
+    "url": "https://www.mellow947.fm/",
+    "cros": false,
+    "stream": "https://s3.free-shoutcast.com/stream/18342/stream/1/",
+    "features": "/img/asia/philippines/mellow-manila.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/mellow-manila?time="
+  },
+  "y-101": {
+    "title": "Y 101 FM",
+    "type": "audio/mpeg",
+    "signal": "101.0 FM",
+    "url": "https://www.y101fm.com/",
+    "cros": false,
+    "stream": "https://prod-34-83-204-199.wostreaming.net/y101fm-y101fmmp3-ibc1",
+    "features": "/img/asia/philippines/y-101.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/y-101?time="
+  },
+  "jam-manila": {
+    "title": "Jam (Manila)",
+    "type": "text/html",
+    "signal": "88.3 FM",
+    "url": false,
+    "cros": false,
+    "stream": "https://player.twitch.tv/?channel=jam883ph&width=196&height=58&autoplay=false&parent=radio.org.ph",
+    "features": "/img/asia/philippines/jam-manila.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/jam-manila?time="
+  },
+  "dzbb": {
+    "title": "Super Radyo DZBB (Manila)",
+    "type": "text/html",
+    "signal": "594 AM",
+    "url": "https://www.gmanetwork.com/radio/dzbb",
+    "cros": false,
+    "stream": "https://www.youtube.com/embed/mWqsExDMZfk?controls=0&modestbranding=1&rel=0&showinfo=0",
+    "features": "/img/asia/philippines/dzbb.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/dzbb?time="
+  },
+  "cool-goa": {
+    "title": "Cool (Goa)",
+    "type": "audio/mpeg",
+    "signal": "90.1 FM",
+    "url": "http://coolfm901hangout.weebly.com/#/",
+    "cros": false,
+    "stream": "https://coolfmhits.radioca.st/stream/1/",
+    "features": "/img/asia/philippines/cool-goa.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/cool-goa?time="
+  },
+  "rakista-manila": {
+    "title": "Rakista Radio (Manila)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://rakista.com/",
+    "cros": true,
+    "stream": "http://206.190.138.197:8000/stream/1/",
+    "features": "/img/asia/philippines/rakista-manila.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/rakista-manila?time="
+  },
+  "star-manila": {
+    "title": "Star FM (Manila)",
+    "type": "audio/mpeg",
+    "signal": "102.7 FM",
+    "url": "https://www.bomboradyo.com/",
+    "cros": true,
+    "stream": "https://node-28.zeno.fm/n51d54pctrquv",
+    "features": "/img/asia/philippines/star-manila.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/star-manila?time="
+  },
+  "ng-bayan": {
+    "title": "Radyo Pilipinas 1",
+    "type": "audio/mpeg",
+    "signal": "738 AM",
+    "url": "http://www.radyopilipinas.ph/",
+    "cros": true,
+    "stream": "https://node-16.zeno.fm/aq6rqr5m108uv",
+    "features": "/img/asia/philippines/ng-bayan.png"
+  },
+  "dzxl": {
+    "title": "DZXL",
+    "type": "text/html",
+    "signal": "558 AM",
+    "url": "https://rmn.ph/",
+    "cros": false,
+    "stream": "https://www.youtube.com/embed/nvC1yfx9Fgs?controls=0&modestbranding=1&rel=0&showinfo=0",
+    "features": "/img/asia/philippines/dzxl.png"
+  },
+  "veritas": {
+    "title": "Radio Veritas (Quezon City)",
+    "type": "text/html",
+    "signal": "846 AM",
+    "url": "https://www.veritas846.ph/",
+    "cros": false,
+    "stream": "https://www.youtube.com/embed/LF8gRSuh3qg?controls=0&modestbranding=1&rel=0&showinfo=0",
+    "features": "/img/asia/philippines/veritas.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/veritas?time="
+  },
+  "rj-100": {
+    "title": "RJFM",
+    "type": "audio/mpeg",
+    "signal": "100.3 FM",
+    "url": "https://www.rjplanet.com/",
+    "cros": true,
+    "stream": "http://111.125.66.36:8000/streamfm",
+    "features": "/img/asia/philippines/rj-100.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/rj-100?time="
+  },
+  "boracay-kalibo": {
+    "title": "Boracay Beach Radio (Kalibo)",
+    "type": "audio/mpeg",
+    "signal": "97.3 FM",
+    "url": "https://boracaybeachradio.com/",
+    "cros": true,
+    "stream": "http://s7.viastreaming.net:8390/;",
+    "features": "/img/asia/philippines/boracay-kalibo.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/boracay-kalibo?time="
+  },
+  "el-shaddai": {
+    "title": "El Shaddai",
+    "type": "audio/mpeg",
+    "signal": "1314 AM",
+    "url": "http://www.deltabroadcastingsystem.com/",
+    "cros": true,
+    "stream": "http://ph-icecast-win.eradioportal.com:8000/dwxi-streaming",
+    "features": "/img/asia/philippines/el-shaddai.png"
+  },
+  "maria": {
+    "title": "Radio Maria",
+    "type": "audio/mpeg",
+    "signal": "99.7 FM",
+    "url": "http://www.radiomaria.ph/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmphilippine?mp=/stream/1/",
+    "features": "/img/asia/philippines/maria.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/maria?time="
+  },
+  "magic-cebu": {
+    "title": "Magic",
+    "type": "audio/mpeg",
+    "signal": "107.0 FM",
+    "url": "https://enchos.com/",
+    "cros": false,
+    "stream": "https://magic.radioca.st/stream/1/",
+    "features": "/img/asia/philippines/magic-cebu.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/magic-cebu?time="
+  },
+  "natin-pasay": {
+    "title": "Radyo Natin",
+    "type": "audio/mpeg",
+    "signal": "91.1 FM",
+    "url": "https://radyonatinfm.com/",
+    "cros": true,
+    "stream": "http://ph-icecast-win.eradioportal.com:8000/radyo_natin",
+    "features": "/img/asia/philippines/natin-pasay.png"
+  },
+  "ok-legazpi": {
+    "title": "OK (Legazpi)",
+    "type": "audio/mpeg",
+    "signal": "97.1 FM",
+    "url": "https://okfmlegazpi.pbnbicol.com/",
+    "cros": true,
+    "stream": "http://199.195.194.140:8063/xstream",
+    "features": "/img/asia/philippines/ok-legazpi.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/ok-legazpi?time="
+  },
+  "win": {
+    "title": "Win Radio (Manila)",
+    "type": "audio/mpeg",
+    "signal": "91.5 FM",
+    "url": "https://winradioph.net/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/915-win-radio-manila",
+    "features": "/img/asia/philippines/win.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/win?time="
+  },
+  "rp1-cebu": {
+    "title": "Radyo Pilipinas (Cebu)",
+    "type": "audio/mpeg",
+    "signal": "576 AM",
+    "url": "http://www.radyopilipinas.ph/",
+    "cros": true,
+    "stream": "https://node-13.zeno.fm/aq6rqr5m108uv",
+    "features": "/img/asia/philippines/rp1-cebu.png"
+  },
+  "dyrd": {
+    "title": "DYRD",
+    "type": "audio/mpeg",
+    "signal": "1161 AM",
+    "url": "https://dyrdam.com/",
+    "cros": true,
+    "stream": "http://live.kiss102fmbohol.com:8000/dyrdam",
+    "features": "/img/asia/philippines/dyrd.png"
+  },
+  "untv": {
+    "title": "Radyo La Verdad",
+    "type": "audio/mpeg",
+    "signal": "1350 AM",
+    "url": "https://www.radyolaverdad.com/",
+    "cros": false,
+    "stream": "https://edge1.radyolaverdad.com/on-air/media_b64000_161.aac",
+    "features": "/img/asia/philippines/untv.png"
+  },
+  "pilipinas": {
+    "title": "Radio Pilipinas (Manila)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.radiopilipinas.com/",
+    "cros": true,
+    "stream": "https://stream.rcast.net/66166",
+    "features": "/img/asia/philippines/pilipinas.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/pilipinas?time="
+  },
+  "the-master-s-touch": {
+    "title": "The Master's Touch",
+    "type": "audio/mpeg",
+    "signal": "98.7 FM",
+    "url": "https://dzfe.febc.ph/",
+    "cros": false,
+    "stream": "https://sg-icecast.eradioportal.com:8443/febc_dzfe",
+    "features": "/img/asia/philippines/the-master-s-touch.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/the-master-s-touch?time="
+  },
+  "dyrt-nohol": {
+    "title": "DYTR Radio (Bohol)",
+    "type": "audio/mpeg",
+    "signal": "1115 AM",
+    "url": false,
+    "cros": false,
+    "stream": "https://us3.streamingpulse.com/ssl/8052",
+    "features": "/img/asia/philippines/dyrt-nohol.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/dyrt-nohol?time="
+  },
+  "bombo": {
+    "title": "Bombo Radyo",
+    "type": "audio/mpeg",
+    "signal": "837 AM",
+    "url": "https://www.bomboradyo.com/streaming/",
+    "cros": true,
+    "stream": "https://node-21.zeno.fm/fak4mwd4vrquv",
+    "features": "/img/asia/philippines/bombo.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/bombo?time="
+  },
+  "sports-918": {
+    "title": "Radyo Pilipinas 2",
+    "type": "audio/mpeg",
+    "signal": "918 AM",
+    "url": "http://www.radyopilipinas.ph/rp-two",
+    "cros": true,
+    "stream": "http://122.53.138.32:8000/dzsr.mp3",
+    "features": "/img/asia/philippines/sports-918.png"
+  },
+  "channel-a": {
+    "title": "Channel A Radio",
+    "type": "audio/mpeg",
+    "signal": "98.5 FM",
+    "url": "https://a985fm.radiostream321.com/",
+    "cros": true,
+    "stream": "http://us5freenew.listen2myradio.com:18189/stream",
+    "features": "/img/asia/philippines/channel-a.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/channel-a?time="
+  },
+  "cyber-pinoy": {
+    "title": "Cyber Pinoy Radio",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://cyberpinoyradio.net/",
+    "cros": false,
+    "stream": "https://securestreams.autopo.st:1215/stream/1/",
+    "features": "/img/asia/philippines/cyber-pinoy.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/cyber-pinoy?time="
+  },
+  "fm2-104-3": {
+    "title": "DW FM2",
+    "type": "audio/mpeg",
+    "signal": "104.3 FM",
+    "url": "http://pbs-fm.com/",
+    "cros": true,
+    "stream": "https://node-30.zeno.fm/205fny7m108uv",
+    "features": "/img/asia/philippines/fm2-104-3.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/fm2-104-3?time="
+  },
+  "subic-bay": {
+    "title": "Subic Bay FM",
+    "type": "text/html",
+    "signal": "89.5 FM",
+    "url": "https://turntheradioon-bayfm.blogspot.com/",
+    "cros": false,
+    "stream": "https://player.twitch.tv/?channel=live895subicdj&width=196&height=58&autoplay=false&parent=radio.org.ph",
+    "features": "/img/asia/philippines/subic-bay.png"
+  },
+  "pilipino": {
+    "title": "Radyo Pilipino",
+    "type": "audio/mpeg",
+    "signal": "1296 AM",
+    "url": "https://www.radyopilipino.com/",
+    "cros": true,
+    "stream": "http://161.49.84.30:89/broadwave.mp3",
+    "features": "/img/asia/philippines/pilipino.png"
+  },
+  "wrok-cebu": {
+    "title": "WRock (Cebu City)",
+    "type": "audio/mpeg",
+    "signal": "96.3 FM",
+    "url": "https://963wrock.com/",
+    "cros": false,
+    "stream": "https://wrockceb.radioca.st/stream/1/",
+    "features": "/img/asia/philippines/wrok-cebu.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/wrok-cebu?time="
+  },
+  "995-play-fm": {
+    "title": "99.5 Play FM",
+    "type": "text/html",
+    "signal": "99.5 FM",
+    "url": "https://995play.fm/",
+    "cros": false,
+    "stream": "https://player.twitch.tv/?channel=995playfm&width=196&height=58&autoplay=false&parent=radio.org.ph",
+    "features": "/img/asia/philippines/995-play-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/995-play-fm?time="
+  },
+  "magic": {
+    "title": "Magic FM",
+    "type": "audio/mpeg",
+    "signal": "89.9 FM",
+    "url": "https://995play.fm/",
+    "cros": true,
+    "stream": "https://node-25.zeno.fm/sh37pvfd938uv?rj-ttl=5&rj-tok=AAABfSliIl0AfbHpBFLDsgpQsg",
+    "features": "/img/asia/philippines/magic.png",
+    "schedule": "https://api.webrad.io/data/playlist/61/magic?time="
+  },
+  "dzrh": {
+    "title": "DZRH (Pasay City)",
+    "type": "audio/mpeg",
+    "signal": "666 AM",
+    "url": "https://dzrh.com.ph/",
+    "cros": false,
+    "stream": "https://streamingv2.shoutcast.com/dzrhmanila",
+    "features": "/img/asia/philippines/dzrh.png"
+  }
+}

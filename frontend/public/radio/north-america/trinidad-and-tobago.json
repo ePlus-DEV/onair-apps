@@ -1,0 +1,382 @@
+{
+  "103": {
+    "title": "Radio 103 FM (Saint James)",
+    "type": "audio/mpeg",
+    "url": "https://103fm.tt/",
+    "cros": false,
+    "stream": "https://s4.myradiostream.com/14348/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/103.png",
+    "favorite": true
+  },
+  "107": {
+    "title": "107.7 FM Music For Life (Port of Spain)",
+    "type": "application/x-mpegURL",
+    "url": "https://ojoworldtt.com/",
+    "cros": false,
+    "stream": "https://fms.ttrn.org/live/1077fm.sdp/playlist.m3u8",
+    "features": "/img/north-america/trinidad-and-tobago/107.png"
+  },
+  "win": {
+    "title": "Win Radio Masala (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://winradio101.com/",
+    "cros": false,
+    "stream": "https://stream.radio.co:80/s9f46a9bb1/listen",
+    "features": "/img/north-america/trinidad-and-tobago/win.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/win?time="
+  },
+  "boom": {
+    "title": "Boom 94 FM (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://boomchampionstt.com/",
+    "cros": true,
+    "stream": "http://s8.yesstreaming.net:7103/live",
+    "features": "/img/north-america/trinidad-and-tobago/boom.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/boom?time="
+  },
+  "wefm": {
+    "title": "WEFM (Port of Spain)",
+    "type": "application/x-mpegURL",
+    "url": "https://ojoworldtt.com/",
+    "cros": false,
+    "stream": "https://fms.ttrn.org/live/961wefm.sdp/playlist.m3u8",
+    "features": "/img/north-america/trinidad-and-tobago/wefm.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/wefm?time="
+  },
+  "bacchanal": {
+    "title": "Bacchanal Radio (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://bacchanalradioonline.weebly.com/",
+    "cros": true,
+    "stream": "http://c13.radioboss.fm:8237/stream",
+    "features": "/img/north-america/trinidad-and-tobago/bacchanal.png"
+  },
+  "vibe-ct": {
+    "title": "Vibe CT (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/vibect105fm/",
+    "cros": false,
+    "stream": "https://streams.radiomast.io/c35d311e-cc60-41b9-b0c5-339e62c14dee",
+    "features": "/img/north-america/trinidad-and-tobago/vibe-ct.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/vibe-ct?time="
+  },
+  "slam": {
+    "title": "SLAM (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/slam1005fm/",
+    "cros": false,
+    "stream": "https://streams.radiomast.io/68540e88-54b8-4924-b098-5a668f7da7b6",
+    "features": "/img/north-america/trinidad-and-tobago/slam.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/slam?time="
+  },
+  "red": {
+    "title": "Red (Morichal)",
+    "type": "audio/mpeg",
+    "url": "http://red967fm.com/",
+    "cros": true,
+    "stream": "http://104.238.99.1:8000/red967.mp3",
+    "features": "/img/north-america/trinidad-and-tobago/red.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/red?time="
+  },
+  "sangeet": {
+    "title": "Sangeet (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/sangeet1061fm/",
+    "cros": false,
+    "stream": "https://www.radiomast.io/stream/22e2c991-fc0c-4242-8cba-0a64d0aea809/listen",
+    "features": "/img/north-america/trinidad-and-tobago/sangeet.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/sangeet?time="
+  },
+  "sweet": {
+    "title": "Sweet (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://www.sweet100fm.com",
+    "cros": true,
+    "stream": "http://media.streambrothers.com:18448/stream",
+    "features": "/img/north-america/trinidad-and-tobago/sweet.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/sweet?time="
+  },
+  "w-107-1": {
+    "title": "W 107.1 FM The Word",
+    "type": "audio/mpeg",
+    "url": "http://w107fm.com/",
+    "cros": true,
+    "stream": "http://104.238.99.1:8000/w107_128.mp3",
+    "features": "/img/north-america/trinidad-and-tobago/w-107-1.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/w-107-1?time="
+  },
+  "wack": {
+    "title": "Wack Radio (San Fernando)",
+    "type": "audio/mpeg",
+    "url": "https://www.wackradio901fm.com/",
+    "cros": true,
+    "stream": "http://node-13.zeno.fm:80/n3vg32ukh0quv",
+    "features": "/img/north-america/trinidad-and-tobago/wack.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/wack?time="
+  },
+  "jaagriti": {
+    "title": "Jaagriti FM (Morichal)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://cdn001.tegotv.com/icecast/RadioJaagriti/icecast.audio",
+    "features": "/img/north-america/trinidad-and-tobago/jaagriti.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/jaagriti?time="
+  },
+  "best-mix": {
+    "title": "Remix (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/951remix/",
+    "cros": false,
+    "stream": "https://www.radiomast.io/stream/aae72a18-3fa0-4b9a-a4c4-5a19655e1c68/listen",
+    "features": "/img/north-america/trinidad-and-tobago/best-mix.png"
+  },
+  "aakash-fm": {
+    "title": "Aakash Vani (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/aakashvani1065/",
+    "cros": false,
+    "stream": "https://streams.radiomast.io/3ccc1156-fcf8-4ba7-9a0c-28e3a465e1ae",
+    "features": "/img/north-america/trinidad-and-tobago/aakash-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/aakash-fm?time="
+  },
+  "hott": {
+    "title": "Hott (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "http://www.hott93.com/",
+    "cros": true,
+    "stream": "https://ice41.securenetsystems.net:80/HOTT93",
+    "features": "/img/north-america/trinidad-and-tobago/hott.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/hott?time="
+  },
+  "star": {
+    "title": "Star (Port of Spain)",
+    "type": "application/x-mpegURL",
+    "url": "https://ojoworldtt.com/",
+    "cros": false,
+    "stream": "https://fms.ttrn.org/live/star947.sdp/playlist.m3u8",
+    "features": "/img/north-america/trinidad-and-tobago/star.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/star?time="
+  },
+  "more": {
+    "title": "More FM (Scarborough)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.radio.co:80/se599d8fd9/listen",
+    "features": "/img/north-america/trinidad-and-tobago/more.png"
+  },
+  "isaac": {
+    "title": "Isaac (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://familyfocusbroadcasting.com/",
+    "cros": true,
+    "stream": "https://ice66.securenetsystems.net:80/FFBN",
+    "features": "/img/north-america/trinidad-and-tobago/isaac.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/isaac?time="
+  },
+  "power": {
+    "title": "Power 102 (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://power102fm.com/",
+    "cros": true,
+    "stream": "https://s8.yesstreaming.net:7169/stream",
+    "features": "/img/north-america/trinidad-and-tobago/power.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/power?time="
+  },
+  "music": {
+    "title": "Music Radio (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://www.musicradio97.com/",
+    "cros": true,
+    "stream": "https://ice42.securenetsystems.net:80/MR97",
+    "features": "/img/north-america/trinidad-and-tobago/music.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/music?time="
+  },
+  "enfx": {
+    "title": "ENFX Radio Trinidad (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://enfxradio.com/",
+    "cros": false,
+    "stream": "https://enfxradio.radioca.st/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/enfx.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/enfx?time="
+  },
+  "i95-5-fm": {
+    "title": "i95.5 FM",
+    "type": "audio/mpeg",
+    "url": "http://i955fm.com/",
+    "cros": true,
+    "stream": "http://104.238.99.1:8000/i955fm.mp3",
+    "features": "/img/north-america/trinidad-and-tobago/i95-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/i95-5-fm?time="
+  },
+  "90fm": {
+    "title": "Radio 90.5 FM (Saint Clair)",
+    "type": "audio/mpeg",
+    "url": "https://www.radio90fm.com/",
+    "cros": true,
+    "stream": "https://ice42.securenetsystems.net:80/CR90",
+    "features": "/img/north-america/trinidad-and-tobago/90fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/90fm?time="
+  },
+  "tambrin": {
+    "title": "Radio Tambrin (Scarborough)",
+    "type": "audio/mpeg",
+    "url": "https://www.tambrintobago.com/",
+    "cros": true,
+    "stream": "https://ice42.securenetsystems.net:80/TAMBRIN",
+    "features": "/img/north-america/trinidad-and-tobago/tambrin.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/tambrin?time="
+  },
+  "sky-99-5-fm": {
+    "title": "Sky",
+    "type": "audio/mpeg",
+    "url": "https://tbcradionetwork.co.tt/sky995fm/",
+    "cros": false,
+    "stream": "https://www.radiomast.io/stream/efe56859-e3cb-4563-8e94-0320488b7cbd/listen",
+    "features": "/img/north-america/trinidad-and-tobago/sky-99-5-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/sky-99-5-fm?time="
+  },
+  "heartbeat": {
+    "title": "Heartbeat (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://heartbeatradiott.com/",
+    "cros": true,
+    "stream": "https://ice42.securenetsystems.net:80/CLCL",
+    "features": "/img/north-america/trinidad-and-tobago/heartbeat.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/heartbeat?time="
+  },
+  "next": {
+    "title": "Next 99 FM (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://www.next99fm.com/",
+    "cros": true,
+    "stream": "http://media.streambrothers.com:18442/stream",
+    "features": "/img/north-america/trinidad-and-tobago/next.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/next?time="
+  },
+  "talk": {
+    "title": "Talk City (Tabago)",
+    "type": "audio/mpeg",
+    "url": "https://www.talkcity91fm.com",
+    "cros": true,
+    "stream": "http://media.streambrothers.com:18450/stream",
+    "features": "/img/north-america/trinidad-and-tobago/talk.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/talk?time="
+  },
+  "omg-hits": {
+    "title": "OMG Hits Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://streaming.radio.co:80/s3928a1fef/listen",
+    "features": "/img/north-america/trinidad-and-tobago/omg-hits.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/omg-hits?time="
+  },
+  "taj": {
+    "title": "Taj",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://ice66.securenetsystems.net:80/TAJ",
+    "features": "/img/north-america/trinidad-and-tobago/taj.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/taj?time="
+  },
+  "soca": {
+    "title": "Soca Switch Radio",
+    "type": "audio/mpeg",
+    "url": "https://socaswitchradio.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/r65746h1wxquv.aac",
+    "features": "/img/north-america/trinidad-and-tobago/soca.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/soca?time="
+  },
+  "phun": {
+    "title": "Phun Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://185.105.4.50:8414/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/phun.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/phun?time="
+  },
+  "storm-hd-valencia": {
+    "title": "Storm HD Radio (Valencia)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://5.189.142.165:8385/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/storm-hd-valencia.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/storm-hd-valencia?time="
+  },
+  "4-elements": {
+    "title": "4 Elements Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.4elementsradio.com/",
+    "cros": true,
+    "stream": "http://orion.shoutca.st:8537/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/4-elements.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/4-elements?time="
+  },
+  "2-much": {
+    "title": "2 Much Radio",
+    "type": "audio/mpeg",
+    "url": "https://2muchradio.com/",
+    "cros": true,
+    "stream": "http://rosetta.shoutca.st:8667/stream",
+    "features": "/img/north-america/trinidad-and-tobago/2-much.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/2-much?time="
+  },
+  "fully-catholic": {
+    "title": "Fully Catholic Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.fullycatholic.com/",
+    "cros": true,
+    "stream": "http://198.50.238.178:5344/stream/1/",
+    "features": "/img/north-america/trinidad-and-tobago/fully-catholic.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/fully-catholic?time="
+  },
+  "street": {
+    "title": "The Street (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://freeuk21.listen2myradio.com:25423/;",
+    "features": "/img/north-america/trinidad-and-tobago/street.png"
+  },
+  "woods": {
+    "title": "Woods Hit Radio (Port of Spain)",
+    "type": "audio/mpeg",
+    "url": "https://woodsnetworkac.webs.com/",
+    "cros": true,
+    "stream": "http://node-16.zeno.fm:80/2f33725t4mzuv",
+    "features": "/img/north-america/trinidad-and-tobago/woods.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/woods?time="
+  },
+  "pure-97-7": {
+    "title": "Pure",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://freeuk29.listen2myradio.com:32847/;",
+    "features": "/img/north-america/trinidad-and-tobago/pure-97-7.png"
+  },
+  "global-reggae": {
+    "title": "Global Fm Reggae Radio",
+    "type": "audio/mpeg",
+    "url": "https://globalfmreggaeradio.blogspot.com/",
+    "cros": false,
+    "stream": "https://edge.mixlr.com/channel/jwnej",
+    "features": "/img/north-america/trinidad-and-tobago/global-reggae.png",
+    "schedule": "https://api.webrad.io/data/playlist/58/global-reggae?time="
+  },
+  "u97-5fm": {
+    "title": "U97.5FM",
+    "type": "audio/mpeg",
+    "url": "https://975radio.com/",
+    "cros": true,
+    "stream": "https://c17.radioboss.fm:18165/stream",
+    "features": "/img/north-america/trinidad-and-tobago/u97-5fm.png"
+  }
+}

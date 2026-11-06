@@ -1,0 +1,392 @@
+{
+    "mosaique": {
+        "title": "موزاييك FM",
+        "type": "audio/mpeg",
+        "url": "https://www.mosaiquefm.net/ar/",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosalive",
+        "features": "/img/africa/tunisia/mosaique.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/78/mosaique?time="
+    },
+    "sabra": {
+        "title": "صبرة FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://manager5.streamradio.fr:1905/stream",
+        "features": "/img/africa/tunisia/sabra.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/sabra?time="
+    },
+    "monastir": {
+        "title": "إذاعة المنستير",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosalive",
+        "features": "/img/africa/tunisia/monastir.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/monastir?time="
+    },
+    "ifm": {
+        "title": "إذاعة إ أف أم",
+        "type": "audio/mpeg",
+        "url": "https://www.ifm.tn/fr",
+        "cros": false,
+        "stream": "https://live.ifm.tn/radio/8000/ifmlive",
+        "features": "/img/africa/tunisia/ifm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/ifm?time="
+    },
+    "zitouna": {
+        "title": "إذاعة الزيتونة",
+        "type": "audio/mpeg",
+        "url": "https://www.tunisvista.com/medias/radio-zitouna-fm-tunis-online-streaming-tunisie.html",
+        "cros": false,
+        "stream": "https://stream.radiozitouna.tn/radio/8030/radio.mp3",
+        "features": "/img/africa/tunisia/zitouna.png",
+        "favorite": false
+    },
+    "nationale": {
+        "title": "الإذاعة الوطنية التونسية",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radionationale.tn/",
+        "cros": true,
+        "stream": "http://webcam.radiotunisienne.tn:1935/radiotn/nationale_video/playlist.m3u8",
+        "features": "/img/africa/tunisia/nationale.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/nationale?time="
+    },
+    "jawhara": {
+        "title": "جوهرة أف أم",
+        "type": "audio/mpeg",
+        "url": "https://www.jawharafm.net/ar/",
+        "cros": false,
+        "stream": "https://streaming2.toutech.net/jawharafm",
+        "features": "/img/africa/tunisia/jawhara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/jawhara?time="
+    },
+    "nougoum": {
+        "title": "نجوم أف أم",
+        "type": "audio/mpeg",
+        "url": "https://www.nogoumfm.net/",
+        "cros": false,
+        "stream": "https://audio.nrpstream.com/listen/nogoumfm/radio.mp3",
+        "features": "/img/africa/tunisia/nougoum.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/nougoum?time="
+    },
+    "rtci": {
+        "title": "إذاعة RTCI",
+        "type": "audio/mpeg",
+        "url": "http://www.rtci.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/rtci",
+        "features": "/img/africa/tunisia/rtci.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/rtci?time="
+    },
+    "express": {
+        "title": "إذاعة اكسبراس",
+        "type": "audio/mpeg",
+        "url": "https://radioexpressfm.com/",
+        "cros": false,
+        "stream": "https://expressfm.ice.infomaniak.ch/expressfm-64.mp3",
+        "features": "/img/africa/tunisia/express.png",
+        "favorite": false
+    },
+    "tataouine": {
+        "title": "إذاعة تطاوين",
+        "type": "audio/mpeg",
+        "url": "http://www.radiotataouine.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/tataouine",
+        "features": "/img/africa/tunisia/tataouine.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/tataouine?time="
+    },
+    "sfax": {
+        "title": "إذاعة صفاقس",
+        "type": "audio/mpeg",
+        "url": "http://www.radiosfax.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/sfax",
+        "features": "/img/africa/tunisia/sfax.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/sfax?time="
+    },
+    "le-kef": {
+        "title": "إذاعة الكاف",
+        "type": "audio/mpeg",
+        "url": "http://www.radiokef.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/kef",
+        "features": "/img/africa/tunisia/le-kef.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/le-kef?time="
+    },
+    "jeunes": {
+        "title": "إذاعة الشباب",
+        "type": "audio/mpeg",
+        "url": "http://www.radiojeunes.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/jeunes",
+        "features": "/img/africa/tunisia/jeunes.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/jeunes?time="
+    },
+    "gafsa": {
+        "title": "إذاعة قفصة",
+        "type": "audio/mpeg",
+        "url": "http://www.radiogafsa.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/gafsa",
+        "features": "/img/africa/tunisia/gafsa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/gafsa?time="
+    },
+    "oxygene": {
+        "title": "إذاعة أكسجين",
+        "type": "audio/mpeg",
+        "url": "https://www.radiooxygene.tn/",
+        "cros": false,
+        "stream": "https://radiooxygenefm.ice.infomaniak.ch/radiooxygenefm-64.mp3",
+        "features": "/img/africa/tunisia/oxygene.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/oxygene?time="
+    },
+    "mosaique-fm-tarab": {
+        "title": "موزاييك طرب",
+        "type": "audio/mpeg",
+        "url": "https://www.mosaiquefm.net/ar/",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosatarab",
+        "features": "/img/africa/tunisia/mosaique-fm-tarab.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/mosaique-fm-tarab?time="
+    },
+    "babnet": {
+        "title": "إذاعة باب بنات التونسية",
+        "type": "audio/mpeg",
+        "url": "https://www.babnet.net/index.php",
+        "cros": false,
+        "stream": "https://radio.babnet.net/?type=http",
+        "features": "/img/africa/tunisia/babnet.png",
+        "favorite": false
+    },
+    "culturelle": {
+        "title": "إذاعة تونس الثقافية",
+        "type": "audio/mpeg",
+        "url": "http://www.radioculturelle.tn/",
+        "cros": true,
+        "stream": "http://rtstream.tanitweb.com/culturelle",
+        "features": "/img/africa/tunisia/culturelle.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/culturelle?time="
+    },
+    "ulysse": {
+        "title": "إذاعة أوليس أف أم",
+        "type": "audio/mpeg",
+        "url": "https://ulysse-fm.net/",
+        "cros": true,
+        "stream": "http://51.178.31.38:8000/stream",
+        "features": "/img/africa/tunisia/ulysse.png",
+        "favorite": false
+    },
+    "mosaique-fm-tounsi": {
+        "title": "موزاييك أف أم التونسي",
+        "type": "audio/mpeg",
+        "url": "https://www.mosaiquefm.net/ar/",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosatounsi",
+        "features": "/img/africa/tunisia/mosaique-fm-tounsi.png",
+        "favorite": false
+    },
+    "karama": {
+        "title": "إذاعة الكرامة",
+        "type": "audio/mpeg",
+        "url": "https://karamafm.com/",
+        "cros": false,
+        "stream": "https://hosting.studioradiomedia.fr:2680/stream",
+        "features": "/img/africa/tunisia/karama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/karama?time="
+    },
+    "hawana": {
+        "title": "إذاعة هوانا",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio4.pro-fhi.net:19062/stream/1/",
+        "features": "/img/africa/tunisia/hawana.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/hawana?time="
+    },
+    "abc-dance": {
+        "title": "أب س رقص",
+        "type": "audio/mpeg",
+        "url": "https://www.abcdanceradio.com/",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/324967/stream/374263",
+        "features": "/img/africa/tunisia/abc-dance.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/abc-dance?time="
+    },
+    "mosaique-fm-gold": {
+        "title": "موزاييك غولد",
+        "type": "audio/mpeg",
+        "url": "https://www.mosaiquefm.net/ar/",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosagold",
+        "features": "/img/africa/tunisia/mosaique-fm-gold.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/mosaique-fm-gold?time="
+    },
+    "fouedb-melogy": {
+        "title": "إذاعة فوادب طرب",
+        "type": "audio/mpeg",
+        "url": "https://fouedb.webnode.fr/",
+        "cros": false,
+        "stream": "https://ais-edge37-live365-dal02.cdnstream.com/a82574?hash=1652559451472.mp3",
+        "features": "/img/africa/tunisia/fouedb-melogy.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/fouedb-melogy?time="
+    },
+    "diwan-91-2": {
+        "title": "إذاعة الديوان",
+        "type": "audio/mpeg",
+        "url": "https://diwanfm.net/",
+        "cros": false,
+        "stream": "https://streaming.diwanfm.net/stream",
+        "features": "/img/africa/tunisia/diwan-91-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/diwan-91-2?time="
+    },
+    "fouedb-tunisian": {
+        "title": "إذاعة فوادب موسيقى تونسية",
+        "type": "audio/mpeg",
+        "url": "https://fouedb.webnode.fr/",
+        "cros": false,
+        "stream": "https://ais-edge50-live365-dal02.cdnstream.com/a82574?hash=1653154585787.mp3",
+        "features": "/img/africa/tunisia/fouedb-tunisian.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/fouedb-tunisian?time="
+    },
+    "mosaique-fm-dj": {
+        "title": "موزاييك أف أم دي جاي",
+        "type": "audio/mpeg",
+        "url": "https://www.mosaiquefm.net/ar/",
+        "cros": false,
+        "stream": "https://radio.mosaiquefm.net/mosadj",
+        "features": "/img/africa/tunisia/mosaique-fm-dj.png",
+        "favorite": false
+    },
+    "fouedb-music": {
+        "title": "إذاعة فوادب",
+        "type": "audio/mpeg",
+        "url": "https://fouedb.webnode.fr/radio-fouedb/radio-fouedb-music/",
+        "cros": false,
+        "stream": "https://ais-edge50-live365-dal02.cdnstream.com/a82574",
+        "features": "/img/africa/tunisia/fouedb-music.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/fouedb-music?time="
+    },
+    "surf-rock": {
+        "title": "سيرف روك",
+        "type": "audio/mpeg",
+        "url": "https://www.surfrockradio.com/",
+        "cros": false,
+        "stream": "https://radio.dripfeed.net/listen/surfrockradio/radio.mp3",
+        "features": "/img/africa/tunisia/surf-rock.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/surf-rock?time="
+    },
+    "misk": {
+        "title": "إذاعة مسك",
+        "type": "audio/mpeg",
+        "url": "http://www.misk.art/",
+        "cros": false,
+        "stream": "https://live.misk.art/stream",
+        "features": "/img/africa/tunisia/misk.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/misk?time="
+    },
+    "med": {
+        "title": "إذاعة تونيزياماد",
+        "type": "audio/mpeg",
+        "url": "https://radiotunisiamed.wixsite.com/radiotunisiamed",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/v7v98w9vhchvv.aac",
+        "features": "/img/africa/tunisia/med.png",
+        "favorite": false
+    },
+    "knooz": {
+        "title": "كنوز أف أم",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://streaming.knoozfm.net:8000/knoozfm",
+        "features": "/img/africa/tunisia/knooz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/knooz?time="
+    },
+    "mfm-tunisie": {
+        "title": "أم أف أم",
+        "type": "audio/mpeg",
+        "url": "https://www.mfmtunisie.net/",
+        "cros": false,
+        "stream": "https://mfmtunisie.toutech.net/mfmlive",
+        "features": "/img/africa/tunisia/mfm-tunisie.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/mfm-tunisie?time="
+    },
+    "quran": {
+        "title": "إذاعة القرآن الكريم",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://s2.voscast.com:12312/stream/1/",
+        "features": "/img/africa/tunisia/quran.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/quran?time="
+    },
+    "med-tunisie": {
+        "title": "Radio Med",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream6.tanitweb.com/radiomed",
+        "features": "/img/africa/tunisia/med-tunisie.png",
+        "favorite": false
+    },
+    "msaken": {
+        "title": "Radio Msaken FM 99.8",
+        "type": "audio/mpeg",
+        "url": "https://www.rm-fm.net/ar/",
+        "cros": false,
+        "stream": "https://stream.rm-fm.net/live",
+        "features": "/img/africa/tunisia/msaken.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/78/msaken?time="
+    },
+    "smash": {
+        "title": "Radio Smash",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://manager8.streamradio.fr:1495/stream",
+        "features": "/img/africa/tunisia/smash.png",
+        "favorite": false
+    },
+    "adib": {
+        "title": "Radio Adib FM",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/adib-fm/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/kh0w3pzs1zhvv",
+        "features": "/img/africa/tunisia/adib.png",
+        "favorite": false
+    }
+}

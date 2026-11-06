@@ -1,0 +1,324 @@
+{
+    "mahatet-masr": {
+        "title": "محطة مصر",
+        "type": "audio/mpeg",
+        "url": "https://mahatetmasr.com/",
+        "cros": false,
+        "stream": "https://s3.radio.co/s9cb11828c/listen",
+        "features": "/img/africa/egypt/mahatet-masr.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/126/mahatet-masr?time="
+    },
+    "nogoum-fm": {
+        "title": "نجوم أف أم",
+        "type": "audio/mpeg",
+        "url": "https://www.nogoumfm.net/",
+        "cros": false,
+        "stream": "https://audio.nrpstream.com/listen/nogoumfm/radio.mp3",
+        "features": "/img/africa/egypt/nogoum-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/nogoum-fm?time="
+    },
+    "mega-fm-92-7": {
+        "title": "ميجا أف أم",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://nebula.shoutca.st:8211/stream/1/",
+        "features": "/img/africa/egypt/mega-fm-92-7.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/mega-fm-92-7?time="
+    },
+    "arab-mix-fm": {
+        "title": "Arab Mix FM",
+        "type": "audio/mpeg",
+        "url": "https://mixfm.neocities.org/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/efx5psd00qruv",
+        "features": "/img/africa/egypt/arab-mix-fm.png",
+        "favorite": false
+    },
+    "9090": {
+        "title": "راديو 9090",
+        "type": "audio/mpeg",
+        "url": "https://www.9090.fm/",
+        "cros": false,
+        "stream": "https://9090streaming.mobtada.com/9090FMEGYPT",
+        "features": "/img/africa/egypt/9090.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/9090?time="
+    },
+    "nile-fm": {
+        "title": "Nile FM",
+        "type": "audio/mpeg",
+        "url": "https://nilefm.com/",
+        "cros": false,
+        "stream": "https://audio.nrpstream.com/listen/nile_fm/radio.mp3",
+        "features": "/img/africa/egypt/nile-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/nile-fm?time="
+    },
+    "hits": {
+        "title": "راديو هيتس",
+        "type": "audio/mpeg",
+        "url": "http://radiohits882.com/ar",
+        "cros": false,
+        "stream": "https://radiohits882.radioca.st/stream/1/",
+        "features": "/img/africa/egypt/hits.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/hits?time="
+    },
+    "el-gouna": {
+        "title": "إذاعة الجونة استمع",
+        "type": "audio/mpeg",
+        "url": "http://www.romolo.com/",
+        "cros": true,
+        "stream": "http://82.201.132.237:8000/;",
+        "features": "/img/africa/egypt/el-gouna.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/el-gouna?time="
+    },
+    "moga": {
+        "title": "راديو موجة",
+        "type": "audio/mpeg",
+        "url": "https://radiomoga.com/",
+        "cros": false,
+        "stream": "https://eu4.fastcast4u.com/proxy/faguwa00?mp=/stream/1/",
+        "features": "/img/africa/egypt/moga.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/moga?time="
+    },
+    "banha": {
+        "title": "راديو بنها سيتي",
+        "type": "audio/mpeg",
+        "url": "http://banhacity.com/radio.php",
+        "cros": true,
+        "stream": "http://whsh4u-panel.com:14113/stream/1/",
+        "features": "/img/africa/egypt/banha.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/banha?time="
+    },
+    "egonair": {
+        "title": "راديو مصر على الهوا",
+        "type": "audio/mpeg",
+        "url": "https://egonair.com/",
+        "cros": false,
+        "stream": "https://radio.socialgenix.com/8004/stream",
+        "features": "/img/africa/egypt/egonair.png",
+        "favorite": false
+    },
+    "copt4g-akbat-el3alam": {
+        "title": "إذاعة أقباط العام",
+        "type": "audio/mpeg",
+        "url": "http://copt4g.com/",
+        "cros": false,
+        "stream": "https://usa18.fastcast4u.com/proxy/copt4gmain?mp=/stream/1/",
+        "features": "/img/africa/egypt/copt4g-akbat-el3alam.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/copt4g-akbat-el3alam?time="
+    },
+    "tiba": {
+        "title": "إذاعة تيبة",
+        "type": "audio/mpeg",
+        "url": "https://www.tibaradio.com",
+        "cros": true,
+        "stream": "http://s1.voscast.com:10026/stream/1/",
+        "features": "/img/africa/egypt/tiba.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/tiba?time="
+    },
+    "next": {
+        "title": "Radio Next | راديو نكست",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/z6duygngt68uv",
+        "features": "/img/africa/egypt/next.png",
+        "favorite": false
+    },
+    "al-quran-al-kareem": {
+        "title": "إذاعة القرآن الكريم",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio.radioquraan.com:9994/stream/1/",
+        "features": "/img/africa/egypt/al-quran-al-kareem.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/al-quran-al-kareem?time="
+    },
+    "adha-t-alqran-alkrym": {
+        "title": "إذاعة القرآن الكريم",
+        "type": "audio/mpeg",
+        "url": "https://www.maspero.eg/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/8s5u5tpdtwzuv",
+        "features": "/img/africa/egypt/adha-t-alqran-alkrym.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/adha-t-alqran-alkrym?time="
+    },
+    "nagham-fm": {
+        "title": "نغم أف أم",
+        "type": "audio/mpeg",
+        "url": "http://www.naghamfm1053.com/en",
+        "cros": false,
+        "stream": "https://ahmsamir.radioca.st/stream/1/",
+        "features": "/img/africa/egypt/nagham-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/nagham-fm?time="
+    },
+    "arabic-90s-fm": {
+        "title": "التسعينات أف أم",
+        "type": "audio/mpeg",
+        "url": "https://news.ninetiesfm.com/",
+        "cros": false,
+        "stream": "https://eu1.fastcast4u.com/proxy/prontofm?mp=/stream/1/",
+        "features": "/img/africa/egypt/arabic-90s-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/arabic-90s-fm?time="
+    },
+    "st-markos": {
+        "title": "راديو كنيسة مارمرقس",
+        "type": "audio/mpeg",
+        "url": "https://www.stmarkos.org/index.php/ar/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/hrec7yp7nzzuv",
+        "features": "/img/africa/egypt/st-markos.png",
+        "favorite": false
+    },
+    "call-to-salvation": {
+        "title": "راديو نداء الخلاص",
+        "type": "audio/mpeg",
+        "url": "https://arabicchristianradio.com/",
+        "cros": false,
+        "stream": "https://i7.streams.ovh/sc/hoperad2/stream",
+        "features": "/img/africa/egypt/call-to-salvation.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/call-to-salvation?time="
+    },
+    "sawa": {
+        "title": "راديو سوا",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radiosawa.com/",
+        "cros": false,
+        "stream": "https://mbnv-audio-ingest.akamaized.net/hls/live/2038905/MBNV_SAWA_LEVANT_AUDIO_HLS/merge.m3u8",
+        "features": "/img/africa/egypt/sawa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/sawa?time="
+    },
+    "duckburg": {
+        "title": "راديو مدينة البط",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio.madinatelbatt.com:8000/stream/1/",
+        "features": "/img/africa/egypt/duckburg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/duckburg?time="
+    },
+    "better-life": {
+        "title": "راديو الحياة الأفضل",
+        "type": "audio/mpeg",
+        "url": "https://www.betterlifeteam.com/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/kc1d6k9ymy5tv",
+        "features": "/img/africa/egypt/better-life.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/better-life?time="
+    },
+    "arab-mix": {
+        "title": "راديو مكس عربي",
+        "type": "audio/mpeg",
+        "url": "https://4dj.neocities.org/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/na3vpvn10qruv",
+        "features": "/img/africa/egypt/arab-mix.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/arab-mix?time="
+    },
+    "shaabi-95": {
+        "title": "شعبيي أف أم",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio95.radioca.st/stream/1/",
+        "features": "/img/africa/egypt/shaabi-95.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/shaabi-95?time="
+    },
+    "misrfone": {
+        "title": "إذاعة مصرفون",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://s2.voscast.com:8612/stream/1/",
+        "features": "/img/africa/egypt/misrfone.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/misrfone?time="
+    },
+    "rakoty": {
+        "title": "راديو الاسكندرية القبطية",
+        "type": "application/x-mpegURL",
+        "url": "",
+        "cros": true,
+        "stream": "http://sc-e1.streamcyclone.com:1935/rakoty_live/rakotyaudio/playlist.m3u8",
+        "features": "/img/africa/egypt/rakoty.png",
+        "favorite": false
+    },
+    "saint-mary-church-zeitoun": {
+        "title": "راديو عذراء الزيتون",
+        "type": "audio/mpeg",
+        "url": "https://www.stmaryztn.org/saintmary/ar/",
+        "cros": false,
+        "stream": "https://cast.az-streamingserver.com/proxy/stmary?mp=/stream",
+        "features": "/img/africa/egypt/saint-mary-church-zeitoun.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/saint-mary-church-zeitoun?time="
+    },
+    "arabesk": {
+        "title": "أربيسك أف أم",
+        "type": "audio/mpeg",
+        "url": "http://www.arabesquefm.com/",
+        "cros": true,
+        "stream": "http://185.4.87.79:8000/stream.mp3",
+        "features": "/img/africa/egypt/arabesk.png",
+        "favorite": false
+    },
+    "radyw-alaqbat-24": {
+        "title": "راديو الأقباط 24",
+        "type": "audio/mpeg",
+        "url": "http://www.copt4g.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/q9ntzp9c1d0uv",
+        "features": "/img/africa/egypt/radyw-alaqbat-24.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/radyw-alaqbat-24?time="
+    },
+    "radyw-alwan-fm": {
+        "title": "راديو ألوان FM",
+        "type": "audio/mpeg",
+        "url": "https://alwanfm.net/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/fhhhcrvxhchvv",
+        "features": "/img/africa/egypt/radyw-alwan-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/126/radyw-alwan-fm?time="
+    },
+    "radyw-alrjal-fm": {
+        "title": "راديو الرجال FM",
+        "type": "audio/mpeg",
+        "url": "https://menradio.yoo7.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ebitxokyr7ptv",
+        "features": "/img/africa/egypt/radyw-alrjal-fm.png",
+        "favorite": false
+    },
+    "adha-t-alqds": {
+        "title": "إذاعة القدس",
+        "type": "audio/mpeg",
+        "url": "https://alqudsradiolive.blogspot.com/",
+        "cros": true,
+        "stream": "http://91.144.31.235:8000/live.nsv",
+        "features": "/img/africa/egypt/adha-t-alqds.png",
+        "favorite": false
+    }
+}

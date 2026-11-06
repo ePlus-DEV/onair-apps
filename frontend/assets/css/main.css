@@ -1,0 +1,517 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+/* Tailwind 4 defaults dark: to prefers-color-scheme. Nuxt Color Mode
+   toggles a .dark class, so make dark: follow that class explicitly. */
+@custom-variant dark (&:where(.dark, .dark *));
+
+
+@layer base {
+  :root, html.light, html.dark {
+    --radio-player-height: 80px;
+    --radio-mobile-nav-height: 0px;
+    --radio-mobile-player-gap: 0px;
+    --ui-bg: var(--radio-surface);
+    --ui-bg-muted: var(--radio-surface-muted);
+    --ui-bg-elevated: var(--radio-surface-elevated);
+    --ui-bg-accented: var(--radio-surface-soft);
+    --ui-border: var(--radio-border);
+    --ui-border-muted: var(--radio-border);
+    --ui-border-accented: var(--radio-border-strong);
+    --ui-text: var(--radio-text);
+    --ui-text-muted: var(--radio-text-muted);
+    --ui-text-dimmed: var(--radio-text-muted);
+    --ui-text-highlighted: var(--radio-text);
+  }
+  :root,
+  html.light,
+  html[data-theme="light"] {
+    color-scheme: light;
+
+    --radio-page-bg: #f8fafc;
+    --radio-surface: #ffffff;
+    --radio-surface-elevated: #ffffff;
+    --radio-surface-soft: #f1f5f9;
+    --radio-surface-muted: #f8fafc;
+    --radio-artwork-bg: #f1f5f9;
+    --radio-hover: #f1f5f9;
+    --radio-border: rgb(226 232 240 / 0.9);
+    --radio-border-strong: rgb(203 213 225 / 0.95);
+    --radio-text: #0f172a;
+    --radio-text-muted: #64748b;
+    --radio-inverse-bg: #0f172a;
+    --radio-inverse-text: #ffffff;
+    --radio-track: #e2e8f0;
+    --radio-header-bg: rgb(255 255 255 / 0.9);
+    --radio-overlay: rgb(15 23 42 / 0.55);
+    --radio-badge-bg: #e2e8f0;
+    --radio-badge-text: #334155;
+    --radio-badge-border: #cbd5e1;
+
+    /* Library station dialog is teleported outside .radio-stats-dashboard.
+       Keep its colors on the document theme, not a scoped page selector. */
+    --radio-station-dialog-bg: #ffffff;
+    --radio-station-dialog-field: #f1f5f9;
+    --radio-station-dialog-hover: #f8fafc;
+    --radio-station-dialog-border: #dbe3ef;
+
+  }
+
+  html.dark,
+  html[data-theme="dark"] {
+    color-scheme: dark;
+
+    --radio-page-bg: #101119;
+    --radio-surface: #1a1b26;
+    --radio-surface-elevated: #1a1b26;
+    --radio-surface-soft: #111827;
+    --radio-surface-muted: #0b1220;
+    --radio-artwork-bg: #181923;
+    --radio-hover: rgb(255 255 255 / 0.06);
+    --radio-border: rgb(255 255 255 / 0.1);
+    --radio-border-strong: rgb(255 255 255 / 0.16);
+    --radio-text: #f8fafc;
+    --radio-text-muted: #94a3b8;
+    --radio-inverse-bg: #f8fafc;
+    --radio-inverse-text: #101119;
+    --radio-track: rgb(255 255 255 / 0.15);
+    --radio-header-bg: rgb(2 6 23 / 0.86);
+    --radio-overlay: rgb(2 6 23 / 0.72);
+    --radio-badge-bg: #303c55;
+    --radio-badge-text: #f1f5f9;
+    --radio-badge-border: rgb(148 163 184 / 0.4);
+
+    --radio-station-dialog-bg: #1b2238;
+    --radio-station-dialog-field: #121a2e;
+    --radio-station-dialog-hover: #263149;
+    --radio-station-dialog-border: rgb(148 163 184 / 0.26);
+
+  }
+
+  html {
+    scroll-behavior: smooth;
+    background: var(--radio-page-bg);
+    color: var(--radio-text);
+  }
+
+  body,
+  #__nuxt {
+    min-width: 320px;
+    min-height: 100vh;
+    background: var(--radio-page-bg);
+    color: var(--radio-text);
+  }
+
+  body {
+    overflow-x: clip;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  button,
+  input,
+  select,
+  textarea {
+    color: inherit;
+  }
+
+  a[href],
+  button:not(:disabled),
+  [role="button"]:not([aria-disabled="true"]) {
+    cursor: pointer;
+  }
+
+  button:disabled,
+  [aria-disabled="true"] {
+    cursor: not-allowed;
+  }
+
+  select option {
+    background: var(--radio-surface);
+    color: var(--radio-text);
+  }
+
+  ::selection {
+    background: rgb(244 63 94 / 0.24);
+  }
+}
+
+@layer utilities {
+  .radio-shell {
+    padding-bottom: calc(var(--radio-player-height) + var(--radio-mobile-nav-height) + var(--radio-mobile-player-gap) + env(safe-area-inset-bottom));
+  }
+
+  /* The floating mini-player does not occupy the fixed bottom dock slot. */
+  .radio-shell-player-mini {
+    padding-bottom: calc(var(--radio-mobile-nav-height) + env(safe-area-inset-bottom));
+  }
+
+  .radio-player-dock {
+    min-height: calc(var(--radio-player-height) + env(safe-area-inset-bottom));
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .radio-right-panel {
+    top: 96px;
+    height: calc(100dvh - 112px - var(--radio-player-height) - env(safe-area-inset-bottom));
+  }
+
+  /* The desktop navigation scrolls independently even on short pages.
+     Its sticky container owns the viewport height; inner content owns scroll. */
+  @media (min-width: 1280px) {
+    .radio-desktop-sidebar {
+      position: sticky;
+      top: 104px;
+      align-self: start;
+      min-height: 0;
+      height: calc(100dvh - 104px - var(--radio-player-height) - 16px - env(safe-area-inset-bottom));
+    }
+
+    /* Expand sidebar when the full-height player dock is hidden. */
+    .radio-shell-player-mini .radio-desktop-sidebar {
+      height: calc(100dvh - 104px - 16px - env(safe-area-inset-bottom));
+    }
+
+    .radio-desktop-sidebar-scroll {
+      box-sizing: border-box;
+      height: 100%;
+      min-height: 0;
+      overflow-y: auto;
+      overscroll-behavior-y: contain;
+      scrollbar-gutter: stable;
+      padding-right: 8px;
+      padding-bottom: 16px;
+    }
+  }
+
+  @media (min-width: 1536px) {
+    .radio-shell-queue .radio-app-content {
+      grid-template-columns: 224px minmax(0, 1fr) 320px;
+    }
+
+    .radio-shell-queue .radio-queue-slot {
+      display: block;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    .radio-bar, .radio-player-dock .animate-spin, .radio-player-dock .animate-pulse { animation: none; }
+  }
+
+  .radio-hero {
+    background: transparent;
+  }
+
+  .radio-station-card {
+    border-color: var(--radio-border);
+    background: var(--radio-surface);
+    color: var(--radio-text);
+  }
+
+  .radio-station-card:hover {
+    border-color: rgb(244 63 94 / 0.46);
+    box-shadow: 0 18px 38px -28px rgb(244 63 94 / 0.32);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .radio-station-card,
+    .radio-station-card img {
+      transition-duration: 0.01ms;
+      transform: none;
+    }
+  }
+
+  .radio-surface {
+    border-color: var(--radio-border);
+    background: var(--radio-surface);
+    color: var(--radio-text);
+    @apply rounded-3xl border shadow-sm shadow-slate-200/40 dark:shadow-none;
+  }
+
+  .radio-surface-soft {
+    border-color: var(--radio-border);
+    background: var(--radio-surface-soft);
+    color: var(--radio-text);
+    @apply rounded-2xl border;
+  }
+
+  .radio-themed-surface {
+    border-color: var(--radio-border);
+    background: var(--radio-surface);
+    color: var(--radio-text);
+  }
+
+  .radio-themed-elevated {
+    border-color: var(--radio-border);
+    background: var(--radio-surface-elevated);
+    color: var(--radio-text);
+  }
+
+  .radio-themed-soft {
+    border-color: var(--radio-border);
+    background: var(--radio-surface-soft);
+    color: var(--radio-text);
+  }
+
+  .radio-themed-muted {
+    background: var(--radio-surface-muted);
+    color: var(--radio-text);
+  }
+
+  .radio-themed-artwork {
+    background: var(--radio-artwork-bg);
+  }
+
+  .radio-muted {
+    color: var(--radio-text-muted);
+  }
+
+  /* Neutral informational chips remain distinct from cards in both themes. */
+  .radio-count-badge,
+  .radio-neutral-badge {
+    background: var(--radio-badge-bg);
+    color: var(--radio-badge-text);
+    border: 1px solid var(--radio-badge-border);
+    font-variant-numeric: tabular-nums;
+  }
+
+  .radio-hover:hover {
+    background: var(--radio-hover);
+    color: var(--radio-text);
+  }
+
+  .radio-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(148 163 184 / 0.45) transparent;
+  }
+
+  .radio-scrollbar::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  .radio-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .radio-scrollbar::-webkit-scrollbar-thumb {
+    border: 2px solid transparent;
+    border-radius: 999px;
+    background: rgb(148 163 184 / 0.4);
+    background-clip: padding-box;
+  }
+
+  .radio-scrollbar::-webkit-scrollbar-thumb:hover {
+    background: rgb(100 116 139 / 0.55);
+    background-clip: padding-box;
+  }
+
+  .radio-search-popover {
+    background:
+      linear-gradient(180deg, color-mix(in srgb, var(--radio-surface) 92%, rgb(244 63 94) 8%), var(--radio-surface));
+    border-color: rgb(244 63 94 / 0.34);
+    color: var(--radio-text);
+    box-shadow: 0 28px 80px -32px rgb(0 0 0 / 0.72), 0 0 0 1px rgb(244 63 94 / 0.08);
+  }
+
+  .radio-search-panel-input {
+    background: var(--radio-surface-soft);
+    border-color: rgb(244 63 94 / 0.42);
+    color: var(--radio-text);
+  }
+
+  .radio-search-panel-input::placeholder {
+    color: var(--radio-text-muted);
+  }
+
+  .radio-search-panel-row:hover,
+  .radio-search-panel-row:focus-visible {
+    background: color-mix(in srgb, var(--radio-surface-soft) 76%, rgb(244 63 94) 24%);
+  }
+
+
+  /* Nuxt UI UModal is teleported to document body, so scoped Library
+     component styles never reach its dialog or station rows. */
+  .radio-station-stats-modal {
+    background-color: var(--radio-station-dialog-bg);
+    color: var(--radio-text);
+    border: 1px solid var(--radio-station-dialog-border);
+    box-shadow: 0 28px 72px -30px rgb(0 0 0 / 0.65);
+  }
+
+  .radio-station-stats-overlay {
+    background-color: rgb(2 6 23 / 0.68);
+    backdrop-filter: blur(2px);
+  }
+
+  .radio-station-stats-modal .stats-station-input {
+    background: var(--radio-station-dialog-field);
+    color: var(--radio-text);
+    border: 1px solid var(--radio-station-dialog-border);
+  }
+
+  .radio-station-stats-modal .stats-station-input::placeholder { color: var(--radio-text-muted); }
+  .radio-station-stats-modal .stats-station-input:hover { border-color: var(--radio-border-strong); }
+  .radio-station-stats-modal .stats-station-input:focus-visible { border-color: #f43f8e; outline-color: #f43f8e; }
+  .radio-station-stats-modal select.stats-station-input option { background: var(--radio-station-dialog-field); color: var(--radio-text); }
+  .radio-station-stats-modal .stats-ranking-row:hover,
+  .radio-station-stats-modal .stats-ranking-row:focus-within { background: var(--radio-station-dialog-hover); }
+  .radio-station-stats-modal .stats-ranking-artwork,
+  .radio-station-stats-modal .stats-rank { background: var(--radio-station-dialog-field); }
+  .radio-station-stats-modal .stats-ranking-artwork { border: 1px solid var(--radio-station-dialog-border); }
+  .radio-station-stats-modal .stats-track { background: var(--radio-track); }
+  .radio-station-stats-modal .stats-progress { background: #f43f8e; }
+
+  .radio-interactive {
+    @apply transition duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400/40 focus-visible:ring-offset-2 focus-visible:ring-offset-transparent;
+  }
+}
+
+
+@media (pointer: coarse) {
+  /* Avoid browser input zoom while the mobile keyboard is open. */
+  input[type="search"], textarea { font-size: 16px; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+@layer utilities {
+  .radio-resume-card { background: linear-gradient(110deg, var(--radio-surface), var(--radio-surface-soft)); }
+  .radio-player-tool { min-height: 64px; width: 100%; display: flex; flex-direction: column; justify-content: center; gap: 8px; font-size: 11px; }
+  .radio-now-playing { padding-top: env(safe-area-inset-top); padding-bottom: env(safe-area-inset-bottom); }
+  .radio-now-playing-artwork { max-width: min(100%, 32dvh); }
+  .radio-now-playing-artwork-image { inline-size: min(100%, 220px); block-size: auto; max-block-size: min(100%, 220px); }
+  @media (min-width: 1024px) {
+    .radio-now-playing-artwork { max-width: min(360px, 32vw, 54dvh); }
+    .radio-now-playing-artwork-image { inline-size: min(100%, 240px); max-block-size: min(100%, 240px); }
+  }
+  .radio-mobile-navigation { background: var(--radio-surface-elevated); border-top: 1px solid var(--radio-border); min-height: calc(64px + env(safe-area-inset-bottom)); padding-bottom: env(safe-area-inset-bottom); }
+  .radio-country-compact > div:last-child { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+  .radio-country-compact .radio-station-card { display: flex; align-items: center; border-radius: 12px; }
+  .radio-country-compact .radio-themed-artwork { aspect-ratio: auto; width: 42px; height: 44px; flex-shrink: 0; padding: 6px; background: transparent; }
+  .radio-country-compact .radio-themed-artwork span { display: none; }
+  .radio-country-compact .radio-station-card > div:last-child { min-width: 0; flex: 1; gap: 4px; border: 0; padding: 6px; }
+  @media (min-width: 640px) { .radio-country-compact .radio-themed-artwork { width: 56px; height: 56px; padding: 10px; } }
+  @media (min-width: 1024px) { .radio-country-compact > div:last-child { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+  @media (max-width: 639px) {
+    :root, html.light, html.dark {
+      --radio-player-height: 80px;
+      --radio-mobile-nav-height: 64px;
+      --radio-mobile-player-gap: 8px;
+    }
+    .radio-player-dock {
+      inset-inline: 8px;
+      bottom: calc(var(--radio-mobile-nav-height) + var(--radio-mobile-player-gap) + env(safe-area-inset-bottom));
+      min-height: var(--radio-player-height);
+      padding-bottom: 0;
+      border: 1px solid var(--radio-border);
+      border-radius: 18px;
+      box-shadow: 0 18px 48px -28px rgb(0 0 0 / 0.8), 0 0 0 1px rgb(244 63 94 / 0.08);
+    }
+    .radio-player-dock .radio-player-console {
+      min-height: 72px;
+      padding-bottom: 0;
+    }
+  }
+}
+
+@layer utilities {
+  .radio-mobile-nav-item { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 5px; min-height: 64px; font-size: 11px; font-weight: 500; }
+  .radio-mobile-nav-item:focus-visible { outline: 2px solid #f43f5e; outline-offset: -4px; border-radius: 12px; }
+}
+
+@layer utilities {
+ .radio-library-artwork { inline-size: 3rem; block-size: 3rem; }
+}
+
+@layer utilities {
+  /* The Nuxt UI primary button uses dark text on rose by default. Keep the
+     station detail Play/Pause label and its icon white in dark mode. */
+  html.dark .radio-station-detail-action,
+  html[data-theme="dark"] .radio-station-detail-action {
+    color: #fff !important;
+  }
+
+  html.dark .radio-station-detail-action .iconify,
+  html[data-theme="dark"] .radio-station-detail-action .iconify {
+    color: inherit !important;
+  }
+}
+
+
+
+/* Shared, theme-aware page skeletons. Respect reduced-motion preferences. */
+@keyframes radio-skeleton-shimmer {
+  from { background-position-x: 200%; }
+  to { background-position-x: -200%; }
+}
+
+@layer utilities {
+  .radio-page-skeleton {
+    min-height: min(65dvh, 650px);
+  }
+
+  .radio-skeleton {
+    background-color: var(--radio-surface-soft);
+    background-image: linear-gradient(
+      100deg,
+      transparent 15%,
+      color-mix(in srgb, var(--radio-border-strong) 65%, transparent) 45%,
+      transparent 78%
+    );
+    background-size: 200% 100%;
+    animation: radio-skeleton-shimmer 1.8s ease-in-out infinite;
+  }
+
+  .radio-skeleton-card {
+    background: var(--radio-surface);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .radio-skeleton { animation: none; background-image: none; }
+  }
+}
+
+/* Explicit listener accessibility preference; OS reduced-motion still applies. */
+html.radio-reduce-motion *, html.radio-reduce-motion *::before, html.radio-reduce-motion *::after {
+  animation-duration: 0.01ms !important;
+  animation-iteration-count: 1 !important;
+  scroll-behavior: auto !important;
+  transition-duration: 0.01ms !important;
+}
+
+/*
+ * Approved Library Statistics dashboard palette (November 2026).
+ * Scoped to this route, dark mode only. Other pages keep their established
+ * semantic theme and the global audio player remains mounted exactly once.
+ */
+html.dark .radio-shell.radio-stats-shell,
+html[data-theme="dark"] .radio-shell.radio-stats-shell {
+  --radio-page-bg: #0e1228;
+  --radio-surface: #1b2038;
+  --radio-surface-elevated: #1b223e;
+  --radio-surface-soft: #151c33;
+  --radio-surface-muted: #11182d;
+  --radio-border: rgb(149 164 206 / 0.19);
+  --radio-border-strong: rgb(149 164 206 / 0.28);
+  --radio-hover: rgb(244 114 182 / .09);
+  --radio-track: #151a30;
+  --radio-header-bg: rgb(12 17 38 / .94);
+  background-color: var(--radio-page-bg);
+  background-image:
+    radial-gradient(ellipse 530px 480px at -110px 53%, rgb(122 33 165 / .18), transparent 75%),
+    radial-gradient(ellipse 550px 430px at calc(100% + 160px) 79%, rgb(83 34 138 / .16), transparent 78%);
+  background-repeat: no-repeat;
+}
+html.dark .radio-stats-shell .radio-player-dock {
+  background: linear-gradient(100deg, #171a33, #1a203e);
+  border-color: rgb(149 164 206 / .25);
+}

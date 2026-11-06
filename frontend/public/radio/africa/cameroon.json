@@ -1,0 +1,80 @@
+{
+    "africa-no-1": {
+        "title": "Africa No.1",
+        "type": "audio/mpeg",
+        "url": "https://www.africaradio.com/",
+        "cros": false,
+        "stream": "https://african1paris.ice.infomaniak.ch/african1paris-128.mp3",
+        "features": "/img/africa/cameroon/africa-no-1.png",
+        "favorite": true
+    },
+    "bongo": {
+        "title": "Bongo Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:8000/stream/1/",
+        "features": "/img/africa/cameroon/bongo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/bongo?time="
+    },
+    "pan-allstars": {
+        "title": "Pan African Allstars",
+        "type": "audio/mpeg",
+        "url": "https://panafricanallstarsradio.com/",
+        "cros": true,
+        "stream": "http://lin2.ash.fast-serv.com:8580/;",
+        "features": "/img/africa/cameroon/pan-allstars.png",
+        "favorite": false
+    },
+    "african-heritage": {
+        "title": "Ahenfie Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.ahenfieonlineradio.com/",
+        "cros": false,
+        "stream": "https://s43.myradiostream.com/20122/stream/1/",
+        "features": "/img/africa/cameroon/african-heritage.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/african-heritage?time="
+    },
+    "bongo-east-african": {
+        "title": "Bongo Radio (East African Music Channel)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:8000/stream/2/",
+        "features": "/img/africa/cameroon/bongo-east-african.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/bongo-east-african?time="
+    },
+    "bongo-zilipendwa": {
+        "title": "Bongo Radio (Zilipendwa Channel)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:8000/stream/3/",
+        "features": "/img/africa/cameroon/bongo-zilipendwa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/bongo-zilipendwa?time="
+    },
+    "bongo-african-grooves": {
+        "title": "Bongo Radio (African Grooves Channel)",
+        "type": "audio/mpeg",
+        "url": "https://www.bongoradio.com/",
+        "cros": true,
+        "stream": "http://bongoradio.com:8000/stream/4/",
+        "features": "/img/africa/cameroon/bongo-african-grooves.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/bongo-african-grooves?time="
+    },
+    "bongo-taarab-and-mduara": {
+        "title": "Bongo Radio (Taarab and Mduara Channel)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:8000/stream/5/",
+        "features": "/img/africa/cameroon/bongo-taarab-and-mduara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/110/bongo-taarab-and-mduara?time="
+    }
+}

@@ -1,0 +1,359 @@
+{
+  "zip": {
+    "title": "Zip FM (Kingston)",
+    "type": "audio/mpeg",
+    "url": "https://zipfm.net/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/8b0hqm93yceuv",
+    "features": "/img/north-america/jamaica/zip.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/zip?time=",
+    "favorite": true
+  },
+  "love-101": {
+    "title": "Love 101 FM (Kingston)",
+    "type": "audio/mpeg",
+    "url": "https://love101.org/",
+    "cros": true,
+    "stream": "http://node-16.zeno.fm:80/y6g5utrtpy5tv",
+    "features": "/img/north-america/jamaica/love-101.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/love-101?time="
+  },
+  "fame": {
+    "title": "Fame FM (Kingston)",
+    "type": "audio/mpeg",
+    "url": "http://www.fame95fm.com/",
+    "cros": true,
+    "stream": "http://node-14.zeno.fm:80/d5mn12bchkeuv",
+    "features": "/img/north-america/jamaica/fame.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/fame?time="
+  },
+  "power-106": {
+    "title": "Power FM (Kingston)",
+    "type": "audio/mpeg",
+    "url": "https://go-jamaica.com/power/",
+    "cros": true,
+    "stream": "http://node-10.zeno.fm:80/kke12ee08wquv",
+    "features": "/img/north-america/jamaica/power-106.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/power-106?time="
+  },
+  "mello": {
+    "title": "Mello Radio (Montego Bay)",
+    "type": "audio/mpeg",
+    "url": "https://zeno.fm/radio/mello-fm8vphgd7myfeuv/",
+    "cros": true,
+    "stream": "http://peridot.streamguys.com:5660/live",
+    "features": "/img/north-america/jamaica/mello.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/mello?time="
+  },
+  "radio-jamaica": {
+    "title": "Radio Jamaica",
+    "type": "audio/mpeg",
+    "url": "http://rjr94fm.com/",
+    "cros": true,
+    "stream": "http://node-07.zeno.fm:80/ebqnzkvyv9duv",
+    "features": "/img/north-america/jamaica/radio-jamaica.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/radio-jamaica?time="
+  },
+  "reggae-141": {
+    "title": "Reggae 141",
+    "type": "audio/mpeg",
+    "url": "https://www.reggae141.com/index.php/en/",
+    "cros": false,
+    "stream": "https://hestia2.cdnstream.com/1301_128",
+    "features": "/img/north-america/jamaica/reggae-141.png"
+  },
+  "suncity": {
+    "title": "Suncity",
+    "type": "audio/mpeg",
+    "url": "https://www.suncityradio.fm/",
+    "cros": false,
+    "stream": "https://edge.mixlr.com/channel/ibrdq",
+    "features": "/img/north-america/jamaica/suncity.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/suncity?time="
+  },
+  "gospel": {
+    "title": "Gospel Ja",
+    "type": "audio/mpeg",
+    "url": "https://www.gospelja.com/",
+    "cros": false,
+    "stream": "https://media.usamogul.com:7001/stream",
+    "features": "/img/north-america/jamaica/gospel.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/gospel?time="
+  },
+  "raggakings": {
+    "title": "Raggakings Radio FM",
+    "type": "audio/mpeg",
+    "url": "https://raggakings.radio/wprk/",
+    "cros": true,
+    "stream": "https://raggakings.radio:8443/stream.ogg",
+    "features": "/img/north-america/jamaica/raggakings.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/raggakings?time="
+  },
+  "ja": {
+    "title": "Jaradio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-11.zeno.fm:80/a0g20s5hyfeuv",
+    "features": "/img/north-america/jamaica/ja.png"
+  },
+  "ncu": {
+    "title": "NCU Radio",
+    "type": "audio/mpeg",
+    "url": "http://ncu.fm/",
+    "cros": true,
+    "stream": "http://node-21.zeno.fm:80/n8fydg9gwuquv",
+    "features": "/img/north-america/jamaica/ncu.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/ncu?time="
+  },
+  "pondends": {
+    "title": "Radio PONdENDS",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://s7.voscast.com:7000/stream/1/",
+    "features": "/img/north-america/jamaica/pondends.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/pondends?time="
+  },
+  "klas-sport": {
+    "title": "KLAS Sports Radio (Kingston)",
+    "type": "audio/mpeg",
+    "url": "https://www.klassportsradio.com/",
+    "cros": true,
+    "stream": "http://node-20.zeno.fm:80/4uw093pbyvduv",
+    "features": "/img/north-america/jamaica/klas-sport.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/klas-sport?time="
+  },
+  "tbc": {
+    "title": "TBC Radio (Kingston)",
+    "type": "audio/mpeg",
+    "url": "https://tbcradio.org/",
+    "cros": false,
+    "stream": "https://live.wostreaming.net/direct/tbcradio-tbcradioaac-ibc1",
+    "features": "/img/north-america/jamaica/tbc.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/tbc?time="
+  },
+  "ggfm": {
+    "title": "GGFM",
+    "type": "audio/mpeg",
+    "url": "https://ggfmja.org/",
+    "cros": true,
+    "stream": "http://usa14.fastcast4u.com:5192/stream/1/",
+    "features": "/img/north-america/jamaica/ggfm.png"
+  },
+  "hitz": {
+    "title": "Hitz 92 (Kingston)",
+    "type": "audio/mpeg",
+    "url": "http://radiohitz92fm.com/",
+    "cros": true,
+    "stream": "http://node-06.zeno.fm:80/mbng1nnyxrquv",
+    "features": "/img/north-america/jamaica/hitz.png"
+  },
+  "newstalk": {
+    "title": "Newstalk",
+    "type": "audio/mpeg",
+    "url": "https://newstalk93fm.net/",
+    "cros": true,
+    "stream": "https://newstalk93fm.radioca.st/stream/1/",
+    "features": "/img/north-america/jamaica/newstalk.png"
+  },
+  "tun-it-up": {
+    "title": "Tun-it-up Radio",
+    "type": "audio/mpeg",
+    "url": "https://tunitup.com/",
+    "cros": true,
+    "stream": "https://tunitup2020.radioca.st/stream/1/",
+    "features": "/img/north-america/jamaica/tun-it-up.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/tun-it-up?time="
+  },
+  "yfdv-reggae": {
+    "title": "UFDV Reggae Airways Radio",
+    "type": "audio/mpeg",
+    "url": "http://ufdvradio.com/",
+    "cros": true,
+    "stream": "http://us10a.serverse.com:8031/stream",
+    "features": "/img/north-america/jamaica/yfdv-reggae.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/yfdv-reggae?time="
+  },
+  "talk-jamaica": {
+    "title": "Talk Jamaica Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.radio.co/s865966bbf/listen",
+    "features": "/img/north-america/jamaica/talk-jamaica.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/talk-jamaica?time="
+  },
+  "jamaican-roots": {
+    "title": "Jamaican Roots Radio",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://node-01.zeno.fm:80/bfkd9wv4p0quv",
+    "features": "/img/north-america/jamaica/jamaican-roots.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/jamaican-roots?time="
+  },
+  "vibes-links": {
+    "title": "Vibes Link FM",
+    "type": "audio/mpeg",
+    "url": "http://vibeslinkfm.com",
+    "cros": true,
+    "stream": "https://ca3ssl.rcast.net/stream/61673.mp3",
+    "features": "/img/north-america/jamaica/vibes-links.png"
+  },
+  "kingdom-nubia": {
+    "title": "KNR - Kingdom Nubia Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.kingdomnubia.com/",
+    "cros": false,
+    "stream": "https://usa10.fastcast4u.com/knr0",
+    "features": "/img/north-america/jamaica/kingdom-nubia.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/kingdom-nubia?time="
+  },
+  "ufdv": {
+    "title": "UFDV Gospel Radio",
+    "type": "audio/mpeg",
+    "url": "http://ufdvgospel.com/",
+    "cros": true,
+    "stream": "http://us10a.serverse.com:8145/stream",
+    "features": "/img/north-america/jamaica/ufdv.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/ufdv?time="
+  },
+  "tony-culture-time": {
+    "title": "Tony Culture Time",
+    "type": "audio/mpeg",
+    "url": "https://www.tonyculturetime.com/",
+    "cros": true,
+    "stream": "https://s39.myradiostream.com/11784/stream/1/",
+    "features": "/img/north-america/jamaica/tony-culture-time.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/tony-culture-time?time="
+  },
+  "mountzionradio": {
+    "title": "Mountzionradio",
+    "type": "application/x-mpegURL",
+    "url": "https://mountzionradio.co.uk/",
+    "cros": false,
+    "stream": "https://201.netromedia.com/offcom/offcom/playlist.m3u8",
+    "features": "/img/north-america/jamaica/mountzionradio.png"
+  },
+  "tops-radio": {
+    "title": "Tops Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.topsradiofm.com/",
+    "cros": false,
+    "stream": "https://edge.mixlr.com/channel/ttmfu",
+    "features": "/img/north-america/jamaica/tops-radio.png"
+  },
+  "praise": {
+    "title": "Praise Hymn Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.praisehymnradio.com/",
+    "cros": true,
+    "stream": "http://s2.voscast.com:8916/stream/1/",
+    "features": "/img/north-america/jamaica/praise.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/praise?time="
+  },
+  "wblr-97-5-biglink": {
+    "title": "WBLR Biglink Radio",
+    "type": "audio/mpeg",
+    "url": "https://biglinkradio.webs.com/",
+    "cros": true,
+    "stream": "http://node-08.zeno.fm:80/kr7qn188urquv",
+    "features": "/img/north-america/jamaica/wblr-97-5-biglink.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/wblr-97-5-biglink?time="
+  },
+  "vibeslink": {
+    "title": "VibesLink Radio",
+    "type": "audio/mpeg",
+    "url": "http://vibeslinkfm.com/",
+    "cros": true,
+    "stream": "https://ca3ssl.rcast.net/stream/61673.mp3",
+    "features": "/img/north-america/jamaica/vibeslink.png"
+  },
+  "gospelfm": {
+    "title": "Gospel FM",
+    "type": "audio/mpeg",
+    "url": "https://www.gospelfmjamaica.com/",
+    "cros": true,
+    "stream": "http://node-12.zeno.fm:80/zpksre88rm0uv",
+    "features": "/img/north-america/jamaica/gospelfm.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/gospelfm?time="
+  },
+  "five-star": {
+    "title": "Five Star FM",
+    "type": "audio/mpeg",
+    "url": "https://www.fivestarfmradio.com/",
+    "cros": true,
+    "stream": "http://s7.citrus3.com:8128/stream",
+    "features": "/img/north-america/jamaica/five-star.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/five-star?time="
+  },
+  "zanj": {
+    "title": "Zanj Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.zanj.org/",
+    "cros": true,
+    "stream": "http://node-06.zeno.fm:80/yx5d62e3wy5tv",
+    "features": "/img/north-america/jamaica/zanj.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/zanj?time="
+  },
+  "go-figure": {
+    "title": "Go Figure Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.gofigureradio.com/",
+    "cros": false,
+    "stream": "https://ny.mysonicserver.com/8038/stream",
+    "features": "/img/north-america/jamaica/go-figure.png"
+  },
+  "vybzyaad": {
+    "title": "VybzYaad Radio",
+    "type": "audio/mpeg",
+    "url": "https://vybzyaad.com/",
+    "cros": false,
+    "stream": "https://sonic.mediacp.eu/8070/stream",
+    "features": "/img/north-america/jamaica/vybzyaad.png"
+  },
+  "bess": {
+    "title": "Bes' 100 FM",
+    "type": "audio/mpeg",
+    "url": "https://bessfm.com/",
+    "cros": true,
+    "stream": "http://streaming510.radionomy.com:80/bes-100-fm",
+    "features": "/img/north-america/jamaica/bess.png"
+  },
+  "jam-rock-one": {
+    "title": "Jam Rock One Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.jamrockone.com/",
+    "cros": false,
+    "stream": "https://jroradio.com:8000/stream/1/",
+    "features": "/img/north-america/jamaica/jam-rock-one.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/jam-rock-one?time="
+  },
+  "fyah": {
+    "title": "Fyah",
+    "type": "audio/mpeg",
+    "url": "https://fyah105.com/",
+    "cros": false,
+    "stream": "https://listen.radioking.com/radio/459389/stream/514595",
+    "features": "/img/north-america/jamaica/fyah.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/fyah?time="
+  },
+  "fit": {
+    "title": "Fit FM",
+    "type": "audio/mpeg",
+    "url": "https://www.fitfmja.com/",
+    "cros": false,
+    "stream": "https://studio25.radiolize.com/radio/8040/radio.mp3",
+    "features": "/img/north-america/jamaica/fit.png"
+  },
+  "reggae-empire": {
+    "title": "Reggae Empire Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.reggaeempireradio.com/",
+    "cros": true,
+    "stream": "https://usa1.fastcast4u.com/proxy/reggaeem?mp=/stream/1/",
+    "features": "/img/north-america/jamaica/reggae-empire.png",
+    "schedule": "https://api.webrad.io/data/playlist/59/reggae-empire?time="
+  }
+}

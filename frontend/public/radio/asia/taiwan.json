@@ -1,0 +1,174 @@
+{
+  "icrt": {
+    "title": "ICRT",
+    "type": "audio/mpeg",
+    "url": "http://www.icrt.com.tw/",
+    "cros": false,
+    "stream": "https://live.leanstream.co/ICRTFM-MP3",
+    "features": "/img/asia/taiwan/icrt.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/icrt?time=",
+    "favorite": true
+  },
+  "i-bcc-music-network": {
+    "title": "中廣音樂網",
+    "type": "audio/mpeg",
+    "url": "https://www.bcc.com.tw/news3_index.asp",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/ndk05tyy2tzuv",
+    "features": "/img/asia/taiwan/i-bcc-music-network.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/i-bcc-music-network?time="
+  },
+  "ufo": {
+    "title": "飛碟聯播網",
+    "type": "audio/mpeg",
+    "url": "http://www.uforadio.com.tw/",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/4yevzvbeewzuv",
+    "features": "/img/asia/taiwan/ufo.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/ufo?time="
+  },
+  "super-fm-98-5-music": {
+    "title": "寶島聯播網-寶島新聲",
+    "type": "audio/mpeg",
+    "url": "http://www.superfm98-5.com.tw/",
+    "cros": true,
+    "stream": "http://stream.superfm99-1.com.tw:8555/",
+    "features": "/img/asia/taiwan/super-fm-98-5-music.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/super-fm-98-5-music?time="
+  },
+  "i-like-bcc-pop-network": {
+    "title": "中廣流行網",
+    "type": "audio/mpeg",
+    "url": "https://www.bcc.com.tw/news2_index.asp",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/s1zttsg3qtzuv",
+    "features": "/img/asia/taiwan/i-like-bcc-pop-network.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/i-like-bcc-pop-network?time="
+  },
+  "bcc-news-network": {
+    "title": "中廣新聞網",
+    "type": "audio/mpeg",
+    "url": "https://www.bcc.com.tw/",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/78fm9wyy2tzuv",
+    "features": "/img/asia/taiwan/bcc-news-network.png"
+  },
+  "news-98-fm": {
+    "title": "九八新聞台",
+    "type": "audio/mpeg",
+    "url": "http://www.news98.com.tw/",
+    "cros": false,
+    "stream": "https://stream.rcs.revma.com/55tyxsy4qtzuv",
+    "features": "/img/asia/taiwan/news-98-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/news-98-fm?time="
+  },
+  "super-fm": {
+    "title": "大千電台",
+    "type": "audio/mpeg",
+    "url": "http://www.superfm99-1.com.tw/",
+    "cros": true,
+    "stream": "http://stream.superfm99-1.com.tw:8554/",
+    "features": "/img/asia/taiwan/super-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/super-fm?time="
+  },
+  "fly": {
+    "title": "飛揚調頻",
+    "type": "audio/mpeg",
+    "url": "https://www.flyradio.com.tw",
+    "cros": false,
+    "stream": "https://n14.rcs.revma.com/e0tdah74hv8uv",
+    "features": "/img/asia/taiwan/fly.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/fly?time="
+  },
+  "classical-fm-97-7": {
+    "title": "好家庭聯播網-古典音樂台",
+    "type": "audio/mpeg",
+    "url": "https://www.family977.com.tw/",
+    "cros": true,
+    "stream": "http://onair.family977.com.tw:8000/live.mp3",
+    "features": "/img/asia/taiwan/classical-fm-97-7.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/classical-fm-97-7?time="
+  },
+  "ic-broadcasting": {
+    "title": "IC之音竹科廣播FM97.5",
+    "type": "audio/mpeg",
+    "url": "https://www.ic975.com/",
+    "cros": false,
+    "stream": "https://n01a-eu.rcs.revma.com/7mnq8rt7k5zuv",
+    "features": "/img/asia/taiwan/ic-broadcasting.png"
+  },
+  "city-fm-98-3": {
+    "title": "城市廣播網-大苗栗廣播",
+    "type": "audio/mpeg",
+    "url": "http://www.cityfm.tw/",
+    "cros": true,
+    "stream": "http://fm983.cityfm.tw:8080/983.mp3",
+    "features": "/img/asia/taiwan/city-fm-98-3.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/city-fm-98-3?time="
+  },
+  "good-news-fm": {
+    "title": "佳音廣播電台",
+    "type": "application/x-mpegURL",
+    "url": "http://www.goodnews.org.tw/goodnews.php",
+    "cros": false,
+    "stream": "https://stream.ginnet.cloud/live0119lo-p4rb/_definst_/fm909/playlist.m3u8",
+    "features": "/img/asia/taiwan/good-news-fm.png"
+  },
+  "smile-taiwan": {
+    "title": "微微笑廣播網-高雄下港之聲",
+    "type": "audio/mpeg",
+    "url": "https://www.smileradio.com.tw/radio-list.asp?pg=1",
+    "cros": true,
+    "stream": "http://59.120.255.155:8081/",
+    "features": "/img/asia/taiwan/smile-taiwan.png"
+  },
+  "tbs": {
+    "title": "臺北廣播電臺",
+    "type": "application/x-mpegURL",
+    "url": "http://www.radio.gov.taipei/#",
+    "cros": false,
+    "stream": "https://stream.ginnet.cloud/live0130lo-yfyo/_definst_/fm/playlist.m3u8",
+    "features": "/img/asia/taiwan/tbs.png"
+  },
+  "national-education": {
+    "title": "國立教育廣播電臺",
+    "type": "audio/mpeg",
+    "url": "https://www.ner.gov.tw/",
+    "cros": true,
+    "stream": "https://cast.ner.gov.tw/1",
+    "features": "/img/asia/taiwan/national-education.png"
+  },
+  "shih-hsin-station": {
+    "title": "世新廣播電台",
+    "type": "application/x-mpegURL",
+    "url": "https://shrs.shu.edu.tw/",
+    "cros": false,
+    "stream": "https://stream.ginnet.cloud/live0115lo-89xv/_definst_/am729/playlist.m3u8",
+    "features": "/img/asia/taiwan/shih-hsin-station.png"
+  },
+  "voice-of-fu-jen-catholic-unive": {
+    "title": "輔大之聲",
+    "type": "audio/mpeg",
+    "url": "https://www.fjucomm.com/fjuvoice885/",
+    "cros": true,
+    "stream": "http://140.136.115.115:8000/fjuvoice885.mp3",
+    "features": "/img/asia/taiwan/voice-of-fu-jen-catholic-unive.png"
+  },
+  "city-fm-92-9": {
+    "title": "城市廣播網",
+    "type": "audio/mpeg",
+    "url": "http://www.cityfm.tw/",
+    "cros": true,
+    "stream": "http://fm929.cityfm.tw:8080/929.mp3",
+    "features": "/img/asia/taiwan/city-fm-92-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/142/city-fm-92-9?time="
+  },
+  "smile-taiwan-tainan": {
+    "title": "微微笑廣播網-台南凱旋電台",
+    "type": "audio/mpeg",
+    "url": "https://www.smileradio.com.tw/",
+    "cros": true,
+    "stream": "http://59.125.209.209:8081/",
+    "features": "/img/asia/taiwan/smile-taiwan-tainan.png"
+  }
+}

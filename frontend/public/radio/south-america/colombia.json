@@ -1,0 +1,377 @@
+{
+  "caracol-en-vivo": {
+    "title": "Caracol Radio",
+    "type": "audio/mpeg",
+    "url": "https://caracol.com.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CARACOL_RADIOAAC_SC",
+    "features": "/img/south-america/colombia/caracol-en-vivo.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/caracol-en-vivo?time=",
+    "favorite": true
+  },
+  "radioactiva": {
+    "title": "Radio Acktiva",
+    "type": "audio/mpeg",
+    "url": "https://www.radioacktiva.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_ACTIVA_SC",
+    "features": "/img/south-america/colombia/radioactiva.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/radioactiva?time="
+  },
+  "rcn": {
+    "title": "RCN La Radio",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/627c1c39637d89088290f64d/live.m3u8",
+    "features": "/img/south-america/colombia/rcn.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/rcn?time="
+  },
+  "el-sol": {
+    "title": "Radio El Sol RCN",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/elsol",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632c9b89aa9ace684913b815/live.m3u8",
+    "features": "/img/south-america/colombia/el-sol.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/el-sol?time="
+  },
+  "los-40-urban-bogota": {
+    "title": "Los 40 (Bogotá)",
+    "type": "audio/mpeg",
+    "url": "https://los40.com.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC_SC",
+    "features": "/img/south-america/colombia/los-40-urban-bogota.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/los-40-urban-bogota?time="
+  },
+  "w-radio": {
+    "title": "W Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.wradio.com.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WRADIO_SC",
+    "features": "/img/south-america/colombia/w-radio.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/w-radio?time="
+  },
+  "la-mega": {
+    "title": "La Mega",
+    "type": "application/x-mpegURL",
+    "url": "https://www.lamega.com.co/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632c9ae6660fef03fe3855fe/live.m3u8",
+    "features": "/img/south-america/colombia/la-mega.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/la-mega?time="
+  },
+  "uno": {
+    "title": "Radio Uno",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/radiouno",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632c9bbcaa9ace684913b81b/live.m3u8",
+    "features": "/img/south-america/colombia/uno.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/uno?time="
+  },
+  "la-fm": {
+    "title": "La FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.lafm.com.co/",
+    "cros": false,
+    "stream": "https://us-b4-p-e-cg11-audio.cdn.mdstrm.com/live-audio/6271a4d5d206c3172f3c9a9c/632c9b23d1dcd7027f32f7fe/chunks.m3u8",
+    "features": "/img/south-america/colombia/la-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/la-fm?time="
+  },
+  "principales": {
+    "title": "Los 40 Principales",
+    "type": "audio/mpeg",
+    "url": "https://los40.com.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_COLOMBIAAAC_SC",
+    "features": "/img/south-america/colombia/principales.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/principales?time="
+  },
+  "vibra": {
+    "title": "Vibra FM",
+    "type": "audio/mpeg",
+    "url": "https://vibra.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIBRA_SC",
+    "features": "/img/south-america/colombia/vibra.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/vibra?time="
+  },
+  "tropicana": {
+    "title": "Tropicana FM",
+    "type": "audio/mpeg",
+    "url": "https://www.tropicanafm.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/TROPICANA_SC",
+    "features": "/img/south-america/colombia/tropicana.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/tropicana?time="
+  },
+  "rumba-santa-marta": {
+    "title": "Rumba (Santa Marta)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/rumbasantamarta",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632ce8986d2e8108b23d249f/live.m3u8",
+    "features": "/img/south-america/colombia/rumba-santa-marta.png"
+  },
+  "fantastica": {
+    "title": "Fantástica",
+    "type": "application/x-mpegURL",
+    "url": "https://fantastica.rcnradio.com/?city=Bogota",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632c9c1cbc02c60329991efa/live.m3u8",
+    "features": "/img/south-america/colombia/fantastica.png"
+  },
+  "olimpica": {
+    "title": "Radio Olímpica",
+    "type": "audio/mpeg",
+    "url": "https://olimpicastereo.com.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OLP_BOGOTAAAC_SC",
+    "features": "/img/south-america/colombia/olimpica.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/olimpica?time="
+  },
+  "la-x": {
+    "title": "La X",
+    "type": "audio/mpeg",
+    "url": "https://www.laxmasmusica.com/",
+    "cros": false,
+    "stream": "https://s5.radio.co/s980fc5249/listen",
+    "features": "/img/south-america/colombia/la-x.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/la-x?time="
+  },
+  "besame": {
+    "title": "Bésame",
+    "type": "audio/mpeg",
+    "url": "https://www.besame.fm/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BESAME_MEDELLINAAC_SC",
+    "features": "/img/south-america/colombia/besame.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/besame?time="
+  },
+  "candela": {
+    "title": "Candela Estéreo",
+    "type": "audio/mpeg",
+    "url": "https://www.candelaestereo.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CANDELAESTEREO_SC",
+    "features": "/img/south-america/colombia/candela.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/candela?time="
+  },
+  "estrella-medellin": {
+    "title": "Estrella Estéreo (Medellín)",
+    "type": "audio/mpeg",
+    "url": "https://estrellacolombia.com/",
+    "cros": false,
+    "stream": "https://securestreams3.autopo.st:1404/stream/1/",
+    "features": "/img/south-america/colombia/estrella-medellin.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/estrella-medellin?time="
+  },
+  "minuto-bogota": {
+    "title": "Minuto de Dios (Bogotá)",
+    "type": "audio/mpeg",
+    "url": "https://minutodedios.fm/",
+    "cros": true,
+    "stream": "http://sp4.colombiatelecom.com.co:8002/stream",
+    "features": "/img/south-america/colombia/minuto-bogota.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/minuto-bogota?time="
+  },
+  "radionica": {
+    "title": "Radiónica",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radionica.rocks/",
+    "cros": false,
+    "stream": "https://streaming.rtvc.gov.co/Radio_Radionica/Radionica.stream/playlist.m3u8",
+    "features": "/img/south-america/colombia/radionica.png"
+  },
+  "ipuc": {
+    "title": "Radio Ipuc",
+    "type": "audio/mpeg",
+    "url": "https://ipuc.org.co/",
+    "cros": false,
+    "stream": "https://play14.tikast.com:22038/stream/1/",
+    "features": "/img/south-america/colombia/ipuc.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/ipuc?time="
+  },
+  "paisa-estereo": {
+    "title": "Paisa Estéreo",
+    "type": "audio/mpeg",
+    "url": "https://www.rimixradio.com/audio/paisa.html",
+    "cros": false,
+    "stream": "https://radiolatina.info/7094/;",
+    "features": "/img/south-america/colombia/paisa-estereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/paisa-estereo?time="
+  },
+  "mix-radio-bogota": {
+    "title": "Mixradio FM (Bogotá)",
+    "type": "audio/mpeg",
+    "url": "https://mixradio.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MIX_BOGOTAAAC_SC",
+    "features": "/img/south-america/colombia/mix-radio-bogota.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/mix-radio-bogota?time="
+  },
+  "fantastica-bogota-104-4": {
+    "title": "Radio Fantástica (Bogotá)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/fantastica",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632c9c1cbc02c60329991efa/live.m3u8",
+    "features": "/img/south-america/colombia/fantastica-bogota-104-4.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/fantastica-bogota-104-4?time="
+  },
+  "bmor-medellin": {
+    "title": "BMor (Medellín)",
+    "type": "audio/mpeg",
+    "url": "https://www.b-mor.co/",
+    "cros": false,
+    "stream": "https://streamingmediaradio.live:8086/stream/1/",
+    "features": "/img/south-america/colombia/bmor-medellin.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/bmor-medellin?time="
+  },
+  "maria": {
+    "title": "Radio María (Bogotá)",
+    "type": "audio/mpeg",
+    "url": "https://radiomariacol.org/",
+    "cros": false,
+    "stream": "https://dreamsiteradiocp2.com/proxy/rmcolombia2?mp=/stream/1/",
+    "features": "/img/south-america/colombia/maria.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/maria?time="
+  },
+  "latina": {
+    "title": "Latina Stereo",
+    "type": "audio/mpeg",
+    "url": "https://latinastereo.com/",
+    "cros": true,
+    "stream": "http://198.27.68.65:8296/stream",
+    "features": "/img/south-america/colombia/latina.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/latina?time="
+  },
+  "cristal-medellin": {
+    "title": "Radio Cristal (Medellín)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/radiocristal",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/632cb55bb4ced508985f3ef8/live.m3u8",
+    "features": "/img/south-america/colombia/cristal-medellin.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/cristal-medellin?time="
+  },
+  "vida-am": {
+    "title": "Vida",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/VIDA_BOGOTA_SC",
+    "features": "/img/south-america/colombia/vida-am.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/vida-am?time="
+  },
+  "energia": {
+    "title": "Radio Energía",
+    "type": "audio/mpeg",
+    "url": "https://energia1025.com/",
+    "cros": true,
+    "stream": "http://audio2.energia1025.com:8000/stream/1/",
+    "features": "/img/south-america/colombia/energia.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/energia?time="
+  },
+  "fundingue": {
+    "title": "Fundingue Radio",
+    "type": "audio/mpeg",
+    "url": "http://www.fundingue.com",
+    "cros": false,
+    "stream": "https://s1-ssl.vpsradio.com/listen/fundingue/radio.acc",
+    "features": "/img/south-america/colombia/fundingue.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/fundingue?time="
+  },
+  "tiempo-medellin": {
+    "title": "Radio Tiempo (Medellín)",
+    "type": "audio/mpeg",
+    "url": "https://radiotiempo.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RT_MEDELLINAAC_SC",
+    "features": "/img/south-america/colombia/tiempo-medellin.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/tiempo-medellin?time="
+  },
+  "barranquilla-estereo": {
+    "title": "Barranquilla Estéreo",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://radio.yaservers.com:6060/stream/1/",
+    "features": "/img/south-america/colombia/barranquilla-estereo.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/barranquilla-estereo?time="
+  },
+  "verdad-y-vida-medellin": {
+    "title": "Verdad y Vida Radio (Medellín)",
+    "type": "audio/mpeg",
+    "url": "https://radioverdadyvida.com/",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/zznllllp06cuv",
+    "features": "/img/south-america/colombia/verdad-y-vida-medellin.png"
+  },
+  "boom-fm": {
+    "title": "Boom FM",
+    "type": "audio/mpeg",
+    "url": "https://boom991fm.com/",
+    "cros": false,
+    "stream": "https://streamming.dobitsoluciones.com:7030/stream/1/",
+    "features": "/img/south-america/colombia/boom-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/boom-fm?time="
+  },
+  "reina": {
+    "title": "La Reina",
+    "type": "audio/mpeg",
+    "url": "https://lareinadelvallenato.co/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RNA_BARRANQUILLA_SC",
+    "features": "/img/south-america/colombia/reina.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/reina?time="
+  },
+  "cacica-valledupar": {
+    "title": "Cacica Stereo (Valledupar)",
+    "type": "audio/mpeg",
+    "url": "https://www.cacicastereo.com/",
+    "cros": true,
+    "stream": "http://sonic.paulatina.co:7062/stream/1/",
+    "features": "/img/south-america/colombia/cacica-valledupar.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/cacica-valledupar?time="
+  },
+  "melodia": {
+    "title": "Melodía Stereo",
+    "type": "application/x-mpegURL",
+    "url": "https://www.cadenamelodia.com/",
+    "cros": false,
+    "stream": "https://r90.letio.com/io/?gs=7000&type=master.m3u8",
+    "features": "/img/south-america/colombia/melodia.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/melodia?time="
+  },
+  "pachanguera": {
+    "title": "La Pachanguera",
+    "type": "audio/mpeg",
+    "url": "https://www.lapachanguerafm.com/es/",
+    "cros": true,
+    "stream": "http://radiolatina.info:8772/stream/1/",
+    "features": "/img/south-america/colombia/pachanguera.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/pachanguera?time="
+  },
+  "la-carinosa": {
+    "title": "La Cariñosa",
+    "type": "application/x-mpegURL",
+    "url": "https://www.rcnmundo.com/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/627c1c39637d89088290f64d/live.m3u8",
+    "features": "/img/south-america/colombia/la-carinosa.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/la-carinosa?time="
+  },
+  "vallenato": {
+    "title": "123 Vallenato",
+    "type": "audio/mpeg",
+    "url": "https://rimix.fm/123-vallenato/",
+    "cros": false,
+    "stream": "https://radiolatina.info/7087/;",
+    "features": "/img/south-america/colombia/vallenato.png",
+    "schedule": "https://api.webrad.io/data/playlist/11/vallenato?time="
+  }
+}

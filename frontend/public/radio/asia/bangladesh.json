@@ -1,0 +1,374 @@
+{
+  "dhaka": {
+    "title": "Dhaka FM",
+    "type": "audio/mpeg",
+    "url": "http://dhakafm904.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/u9mphfk604zuv.aac",
+    "features": "/img/asia/bangladesh/dhaka.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/dhaka?time=",
+    "favorite": true
+  },
+  "abc": {
+    "title": "ABC Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.abcradio.fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/h7n8ug96eeruv",
+    "features": "/img/asia/bangladesh/abc.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/abc?time="
+  },
+  "foorti": {
+    "title": "Radio Foorti",
+    "type": "audio/mpeg",
+    "url": "http://www.radiofoorti.fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/cwa3vg8s8druv",
+    "features": "/img/asia/bangladesh/foorti.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/foorti?time="
+  },
+  "bbc-bangla": {
+    "title": "BBC Bangla",
+    "type": "audio/mpeg",
+    "url": "https://www.bbc.com/bengali/radio",
+    "cros": false,
+    "stream": "https://stream.live.vc.bbcmedia.co.uk/bbc_bangla_radio",
+    "features": "/img/asia/bangladesh/bbc-bangla.png"
+  },
+  "betar": {
+    "title": "Betar Bangla",
+    "type": "audio/mpeg",
+    "url": "https://betarbangla1503.net/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/ykrq6wgrkfeuv",
+    "features": "/img/asia/bangladesh/betar.png"
+  },
+  "shadhin": {
+    "title": "Radio Shadhin",
+    "type": "audio/mpeg",
+    "url": "https://radioshadhin.fm/",
+    "cros": true,
+    "stream": "http://stream.zeno.fm/umq9q5uuva5tv",
+    "features": "/img/asia/bangladesh/shadhin.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/shadhin?time="
+  },
+  "today": {
+    "title": "Radio Today FM",
+    "type": "audio/mpeg",
+    "url": "https://www.radiotodaynews.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/0zha3rfq02quv",
+    "features": "/img/asia/bangladesh/today.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/today?time="
+  },
+  "peoples": {
+    "title": "Peoples Radio",
+    "type": "audio/mpeg",
+    "url": "https://peoplesradio.fm/",
+    "cros": false,
+    "stream": "https://s3.myradiostream.com/14498/;",
+    "features": "/img/asia/bangladesh/peoples.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/peoples?time="
+  },
+  "bangla-net": {
+    "title": "Radio Bangla Net",
+    "type": "audio/mpeg",
+    "url": "https://radiobanglanet.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/SP_R3563475_SC",
+    "features": "/img/asia/bangladesh/bangla-net.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bangla-net?time="
+  },
+  "goongoon-hd-sound": {
+    "title": "Radio GoonGoon HD Sound",
+    "type": "audio/mpeg",
+    "url": "https://radiogoongoon.com/",
+    "cros": true,
+    "stream": "http://audio.streamcast.xyz:8000/radio.mp3",
+    "features": "/img/asia/bangladesh/goongoon-hd-sound.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/goongoon-hd-sound?time="
+  },
+  "bangladesh-betar": {
+    "title": "Bangladesh Betar",
+    "type": "audio/mpeg",
+    "url": "http://www.betar.gov.bd/",
+    "cros": true,
+    "stream": "http://as3.digitalsynapsebd.com:8263/stream/1/",
+    "features": "/img/asia/bangladesh/bangladesh-betar.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bangladesh-betar?time="
+  },
+  "padma": {
+    "title": "Radio Padma",
+    "type": "audio/mpeg",
+    "url": "https://padmanews24.com/",
+    "cros": false,
+    "stream": "https://radiopadmabd.radioca.st/stream/1/",
+    "features": "/img/asia/bangladesh/padma.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/padma?time="
+  },
+  "bhumi": {
+    "title": "Radio Bhumi",
+    "type": "audio/mpeg",
+    "url": "https://radiobhumi.fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/ybf1umk1k18uv",
+    "features": "/img/asia/bangladesh/bhumi.png"
+  },
+  "capital": {
+    "title": "Radio Capital",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocapital.fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/4nzaapqw34zuv.aac",
+    "features": "/img/asia/bangladesh/capital.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/capital?time="
+  },
+  "ekattor": {
+    "title": "Radio Ekattor",
+    "type": "audio/mpeg",
+    "url": "http://ekattor.fm/",
+    "cros": true,
+    "stream": "http://162.254.149.187:5566/;",
+    "features": "/img/asia/bangladesh/ekattor.png"
+  },
+  "bangladesh-betar-am": {
+    "title": "Bangladesh Betar",
+    "type": "audio/mpeg",
+    "url": "http://www.betar.gov.bd/",
+    "cros": true,
+    "stream": "http://as3.digitalsynapsebd.com:8582/stream/1/",
+    "features": "/img/asia/bangladesh/bangladesh-betar-am.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bangladesh-betar-am?time="
+  },
+  "bangla-wadio": {
+    "title": "Bangla Wadio",
+    "type": "audio/mpeg",
+    "url": "https://www.banglawadio.com/",
+    "cros": true,
+    "stream": "http://192.144.82.203:9334/stream/1/",
+    "features": "/img/asia/bangladesh/bangla-wadio.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bangla-wadio?time="
+  },
+  "spice": {
+    "title": "Spice FM",
+    "type": "audio/mpeg",
+    "url": "https://spicefmbd.com/",
+    "cros": true,
+    "stream": "http://162.254.149.187:9300/stream/1/",
+    "features": "/img/asia/bangladesh/spice.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/spice?time="
+  },
+  "colours": {
+    "title": "Colours",
+    "type": "audio/mpeg",
+    "url": "http://www.colours.fm/",
+    "cros": true,
+    "stream": "http://colours.fm:8000/stream/1/",
+    "features": "/img/asia/bangladesh/colours.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/colours?time="
+  },
+  "shongi": {
+    "title": "Radio Shongi",
+    "type": "audio/mpeg",
+    "url": "https://www.radioshongi.com/index.php",
+    "cros": true,
+    "stream": "http://mirage.ihostman.com:8201/stream/1/",
+    "features": "/img/asia/bangladesh/shongi.png"
+  },
+  "bangla-95": {
+    "title": "Bangla Radio",
+    "type": "audio/mpeg",
+    "url": "http://banglaradio.fm/",
+    "cros": true,
+    "stream": "http://103.23.42.189:6020/;",
+    "features": "/img/asia/bangladesh/bangla-95.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bangla-95?time="
+  },
+  "roots-air": {
+    "title": "Roots Air",
+    "type": "audio/mpeg",
+    "url": "http://www.rootsairbd.xyz/",
+    "cros": true,
+    "stream": "http://live64.zeilsteen.com:7054/index.html?sid=1",
+    "features": "/img/asia/bangladesh/roots-air.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/roots-air?time="
+  },
+  "dhoni": {
+    "title": "Radio Dhoni",
+    "type": "audio/mpeg",
+    "url": "http://radiodhoni.fm/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/qyheeu5q54zuv",
+    "features": "/img/asia/bangladesh/dhoni.png"
+  },
+  "bongonet": {
+    "title": "Radio BongOnet",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": false,
+    "stream": "https://stream.bongonet.net/proxy/radiobongonet?mp=/stream/1/",
+    "features": "/img/asia/bangladesh/bongonet.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bongonet?time="
+  },
+  "folk-nama": {
+    "title": "Folk Nama",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/z5r35gyr6x8uv",
+    "features": "/img/asia/bangladesh/folk-nama.png"
+  },
+  "go-yesteryears": {
+    "title": "Go Yesteryears",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/tn1b0xxr6x8uv",
+    "features": "/img/asia/bangladesh/go-yesteryears.png"
+  },
+  "robichhaya": {
+    "title": "Robichhaya",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": false,
+    "stream": "https://stream.bongonet.net/proxy/robichhaya?mp=/stream/1/",
+    "features": "/img/asia/bangladesh/robichhaya.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/robichhaya?time="
+  },
+  "mono-phone": {
+    "title": "Mono Phone",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": false,
+    "stream": "https://stream.bongonet.net/proxy/monophone?mp=/stream/1/",
+    "features": "/img/asia/bangladesh/mono-phone.png"
+  },
+  "discobani-kolkata": {
+    "title": "DiscoBani Kolkata",
+    "type": "audio/mpeg",
+    "url": "https://www.bongonet.net/",
+    "cros": false,
+    "stream": "https://stream.bongonet.net/proxy/discobanikolkata?mp=/stream/1/",
+    "features": "/img/asia/bangladesh/discobani-kolkata.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/discobani-kolkata?time="
+  },
+  "abirvab": {
+    "title": "Radio Abirvab",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/yxc3k2pxyrquv",
+    "features": "/img/asia/bangladesh/abirvab.png"
+  },
+  "traffic": {
+    "title": "Traffic FM",
+    "type": "audio/mpeg",
+    "url": "https://trafficfm.org/",
+    "cros": true,
+    "stream": "http://as3.digitalsynapsebd.com:8263/stream/1/",
+    "features": "/img/asia/bangladesh/traffic.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/traffic?time="
+  },
+  "betar-torongo": {
+    "title": "বেতার তরঙ্গ",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/v7tnp975wqzuv",
+    "features": "/img/asia/bangladesh/betar-torongo.png"
+  },
+  "goongoon": {
+    "title": "Radio Goongoon",
+    "type": "audio/mpeg",
+    "url": "https://radiogoongoon.com/",
+    "cros": false,
+    "stream": "https://audio.streamcast.xyz/radio/8000/radio.mp3",
+    "features": "/img/asia/bangladesh/goongoon.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/goongoon?time="
+  },
+  "amber": {
+    "title": "Radio Amber",
+    "type": "audio/mpeg",
+    "url": "http://radioamber.com/#/home",
+    "cros": true,
+    "stream": "http://118.179.215.45:8000/;",
+    "features": "/img/asia/bangladesh/amber.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/amber?time="
+  },
+  "jago": {
+    "title": "Jago FM",
+    "type": "audio/mpeg",
+    "url": "https://www.jago.fm/",
+    "cros": true,
+    "stream": "http://128.199.184.111:12496/stream/1/",
+    "features": "/img/asia/bangladesh/jago.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/jago?time="
+  },
+  "dhol": {
+    "title": "Radio Dhol",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/uek65thb4qzuv",
+    "features": "/img/asia/bangladesh/dhol.png"
+  },
+  "fmmoon": {
+    "title": "FMmoon",
+    "type": "audio/mpeg",
+    "url": "https://fmmoon.com/",
+    "cros": true,
+    "stream": "http://eu9.fastcast4u.com:3115/stream/1/",
+    "features": "/img/asia/bangladesh/fmmoon.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/fmmoon?time="
+  },
+  "bushra": {
+    "title": "Radio Bushra",
+    "type": "audio/mpeg",
+    "url": "https://radiobushra.blogspot.com/",
+    "cros": true,
+    "stream": "https://stream.zeno.fm/mzuka1fdxzzuv",
+    "features": "/img/asia/bangladesh/bushra.png"
+  },
+  "bengali-live": {
+    "title": "Bengali Radio Live",
+    "type": "audio/mpeg",
+    "url": "http://www.bengaliradiolive.com/",
+    "cros": false,
+    "stream": "https://tunzilla.com/http://s2.xrad.io:8072/;stream/1",
+    "features": "/img/asia/bangladesh/bengali-live.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/bengali-live?time="
+  },
+  "carnival": {
+    "title": "Radio Carnival",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocarnivalbd.com/",
+    "cros": true,
+    "stream": "http://centova32.instainternet.com:8195/stream/1/",
+    "features": "/img/asia/bangladesh/carnival.png",
+    "schedule": "https://api.webrad.io/data/playlist/64/carnival?time="
+  },
+  "betar-chittagong": {
+    "title": "Bangladesh Betar (Chittagong)",
+    "type": "audio/mpeg",
+    "url": "http://www.betar.gov.bd/",
+    "cros": true,
+    "stream": "http://as2.digitalsynapsebd.com:8920/stream/1/",
+    "features": "/img/asia/bangladesh/betar-chittagong.png"
+  },
+  "betar-khulna": {
+    "title": "Bangladesh Betar (Khulna)",
+    "type": "audio/mpeg",
+    "url": "http://www.betar.gov.bd/",
+    "cros": true,
+    "stream": "http://as2.digitalsynapsebd.com:9248/stream/1/",
+    "features": "/img/asia/bangladesh/betar-khulna.png"
+  },
+  "bangladesh-betar-rajshahi": {
+    "title": "Bangladesh Betar (Rajshahi)",
+    "type": "audio/mpeg",
+    "url": "http://www.betar.gov.bd/",
+    "cros": true,
+    "stream": "http://as2.digitalsynapsebd.com:9240/stream/1/",
+    "features": "/img/asia/bangladesh/bangladesh-betar-rajshahi.png"
+  }
+}

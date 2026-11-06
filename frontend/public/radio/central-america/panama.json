@@ -1,0 +1,401 @@
+{
+    "los-40-principales-panama": {
+        "title": "Los 40 Panama",
+        "type": "audio/mpeg",
+        "url": "https://los40.com.pa/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_PAN_SC",
+        "features": "/img/central-america/panama/los-40-principales-panama.png",
+        "favorite": true
+    },
+    "hola": {
+        "title": "Hola Panamá",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8124/stream",
+        "features": "/img/central-america/panama/hola.png",
+        "favorite": false
+    },
+    "ky": {
+        "title": "La Ky",
+        "type": "audio/mpeg",
+        "url": "https://laky925.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LAKY_PANAMAAAC_SC",
+        "features": "/img/central-america/panama/ky.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/ky?time="
+    },
+    "rpc": {
+        "title": "RPC Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rpcradio.com/",
+        "cros": false,
+        "stream": "https://s9.stweb.tv/thinkindot-fast-3/live/playlist.m3u8",
+        "features": "/img/central-america/panama/rpc.png",
+        "favorite": false
+    },
+    "fabulosa": {
+        "title": "Fabulosa Estéreo FM",
+        "type": "audio/mpeg",
+        "url": "https://fabulosaestereo.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8130/stream",
+        "features": "/img/central-america/panama/fabulosa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/fabulosa?time="
+    },
+    "wao": {
+        "title": "Wao",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://ic.streann.com:8000/wao",
+        "features": "/img/central-america/panama/wao.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/wao?time="
+    },
+    "omega": {
+        "title": "Omega Stereo",
+        "type": "audio/mpeg",
+        "url": "https://www.omegastereo.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8048/stream",
+        "features": "/img/central-america/panama/omega.png",
+        "favorite": false
+    },
+    "mega-panama": {
+        "title": "La Mega",
+        "type": "audio/mpeg",
+        "url": "https://lamegapanama.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8152/stream",
+        "features": "/img/central-america/panama/mega-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/mega-panama?time="
+    },
+    "antena": {
+        "title": "Antena 8 FM",
+        "type": "audio/mpeg",
+        "url": "https://www.antena8.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ANT8_SC",
+        "features": "/img/central-america/panama/antena.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/antena?time="
+    },
+    "stereo-89": {
+        "title": "Stereo89",
+        "type": "audio/mpeg",
+        "url": "https://stereo89.com/",
+        "cros": false,
+        "stream": "https://ic.streann.com/Stereo89",
+        "features": "/img/central-america/panama/stereo-89.png",
+        "favorite": false
+    },
+    "chiriqui": {
+        "title": "Radio Chiriquí (San José de David)",
+        "type": "audio/mpeg",
+        "url": "https://radiochiriqui.com/",
+        "cros": false,
+        "stream": "https://radiolatina.info/8180/stream",
+        "features": "/img/central-america/panama/chiriqui.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/chiriqui?time="
+    },
+    "disney-panama": {
+        "title": "Radio Disney",
+        "type": "audio/mpeg",
+        "url": "https://pa.radiodisney.com/home",
+        "cros": false,
+        "stream": "https://ic.streann.com/disneypanama",
+        "features": "/img/central-america/panama/disney-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/disney-panama?time="
+    },
+    "ultra-stereo": {
+        "title": "Ultra Stereo",
+        "type": "audio/mpeg",
+        "url": "https://fmultrastereo.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8134/stream",
+        "features": "/img/central-america/panama/ultra-stereo.png",
+        "favorite": false
+    },
+    "tropi": {
+        "title": "TropiQ FM",
+        "type": "audio/mpeg",
+        "url": "https://tropiq.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8140/stream",
+        "features": "/img/central-america/panama/tropi.png",
+        "favorite": false
+    },
+    "super-q": {
+        "title": "Súper Q FM",
+        "type": "audio/mpeg",
+        "url": "https://superqpanama.net/superqdigital/",
+        "cros": false,
+        "stream": "https://sqserver.superqpanama.net:8005/superqpanama",
+        "features": "/img/central-america/panama/super-q.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/super-q?time="
+    },
+    "maria": {
+        "title": "Radio María",
+        "type": "audio/mpeg",
+        "url": "https://radiomaria.pa/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp2.com/proxy/rmpanama2?mp=/stream/1/",
+        "features": "/img/central-america/panama/maria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/maria?time="
+    },
+    "crisol-panama": {
+        "title": "Radio Crisol FM",
+        "type": "audio/mpeg",
+        "url": "https://sertv.gob.pa/",
+        "cros": false,
+        "stream": "https://pcbrothers.net/8002/stream/1/",
+        "features": "/img/central-america/panama/crisol-panama.png",
+        "favorite": false
+    },
+    "lasser": {
+        "title": "Radio Lasser",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://sonicpanel.tmcreativos.com:8040/stream/1/",
+        "features": "/img/central-america/panama/lasser.png",
+        "favorite": false
+    },
+    "infinity": {
+        "title": "Infinity Panamá",
+        "type": "audio/mpeg",
+        "url": "https://www.infinitypanama.com/",
+        "cros": true,
+        "stream": "http://s2.mexside.net:8048/stream/1/",
+        "features": "/img/central-america/panama/infinity.png",
+        "favorite": false
+    },
+    "reforma-panama": {
+        "title": "Radio Reforma",
+        "type": "audio/mpeg",
+        "url": "https://radioreformaseoye.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8072/stream",
+        "features": "/img/central-america/panama/reforma-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/reforma-panama?time="
+    },
+    "marbella": {
+        "title": "Marbella Stereo (Colón)",
+        "type": "audio/mpeg",
+        "url": "https://www.marbellastereo.net/",
+        "cros": false,
+        "stream": "https://sonic.dattalive.com/8318/stream",
+        "features": "/img/central-america/panama/marbella.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/marbella?time="
+    },
+    "lo-nuestro": {
+        "title": "Lo Nuestro",
+        "type": "audio/mpeg",
+        "url": "https://fmlonuestro.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8136/stream",
+        "features": "/img/central-america/panama/lo-nuestro.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/lo-nuestro?time="
+    },
+    "hot": {
+        "title": "Hot Stereo",
+        "type": "audio/mpeg",
+        "url": "https://hotstereofm.com/",
+        "cros": false,
+        "stream": "https://acp2.lorini.net:30515/stream",
+        "features": "/img/central-america/panama/hot.png",
+        "favorite": false
+    },
+    "estereo-vida": {
+        "title": "Estéreo Vida",
+        "type": "audio/mpeg",
+        "url": "https://www.stereovida.org/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/fz1rcfd1x1zuv",
+        "features": "/img/central-america/panama/estereo-vida.png",
+        "favorite": false
+    },
+    "radio-10": {
+        "title": "Radio 10",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://uk2freenew.listen2myradio.com:4783/;",
+        "features": "/img/central-america/panama/radio-10.png",
+        "favorite": false
+    },
+    "estereo-azul": {
+        "title": "Estéreo Azul",
+        "type": "audio/mpeg",
+        "url": "https://www.estereoazul.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ESTEREOAZULAAC_SC",
+        "features": "/img/central-america/panama/estereo-azul.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/estereo-azul?time="
+    },
+    "panama": {
+        "title": "Radio Panamá",
+        "type": "audio/mpeg",
+        "url": "https://radiopanama.com.pa/",
+        "cros": false,
+        "stream": "https://streaming.radiopanama.com.pa/stream",
+        "features": "/img/central-america/panama/panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/panama?time="
+    },
+    "cool-fm": {
+        "title": "Cool FM",
+        "type": "audio/mpeg",
+        "url": "https://www.coolfmpanama.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/COOLFM_SC",
+        "features": "/img/central-america/panama/cool-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/cool-fm?time="
+    },
+    "hit-panama": {
+        "title": "Panamá Hit Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8024/stream",
+        "features": "/img/central-america/panama/hit-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/hit-panama?time="
+    },
+    "ancon": {
+        "title": "Radio Ancón",
+        "type": "audio/mpeg",
+        "url": "https://radioancon.com/",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8144/stream",
+        "features": "/img/central-america/panama/ancon.png",
+        "favorite": false
+    },
+    "portobelo-stereo": {
+        "title": "Portobelo Stereo (Colón)",
+        "type": "audio/mpeg",
+        "url": "https://www.portobelostereo.tv/",
+        "cros": false,
+        "stream": "https://radios.solumedia.com:6084/stream/1/",
+        "features": "/img/central-america/panama/portobelo-stereo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/portobelo-stereo?time="
+    },
+    "claret": {
+        "title": "Radio Claret Digital",
+        "type": "audio/mpeg",
+        "url": "https://radioclaret.net/",
+        "cros": false,
+        "stream": "https://uk7freenew.listen2myradio.com/stream.mp3?ipport=82.145.41.50_14205",
+        "features": "/img/central-america/panama/claret.png",
+        "favorite": false
+    },
+    "presidente": {
+        "title": "Stereo Presidente",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://www.streaming507.net:8126/stream",
+        "features": "/img/central-america/panama/presidente.png",
+        "favorite": false
+    },
+    "nacional-fm": {
+        "title": "Nacional FM",
+        "type": "audio/mpeg",
+        "url": "https://sertv.gob.pa/nacionalfm/",
+        "cros": true,
+        "stream": "http://pcbrothers.net:8008/stream/1/",
+        "features": "/img/central-america/panama/nacional-fm.png",
+        "favorite": false
+    },
+    "original": {
+        "title": "Original AM",
+        "type": "audio/mpeg",
+        "url": "https://amoriginal.net/",
+        "cros": false,
+        "stream": "https://amoriginal.radioca.st/stream/1/",
+        "features": "/img/central-america/panama/original.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/original?time="
+    },
+    "mia-panama": {
+        "title": "Radio Mía (Ciudad de Panamá)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://185.105.4.53:8104/stream/1/",
+        "features": "/img/central-america/panama/mia-panama.png",
+        "favorite": false
+    },
+    "stereo-panama": {
+        "title": "Original Stereo",
+        "type": "audio/mpeg",
+        "url": "https://www.originalstereo.net/",
+        "cros": false,
+        "stream": "https://original.radioca.st/stream/1/",
+        "features": "/img/central-america/panama/stereo-panama.png",
+        "favorite": false
+    },
+    "super-veraguas": {
+        "title": "Super Stereo (Veraguas)",
+        "type": "audio/mpeg",
+        "url": "https://www.superstereo995.com/",
+        "cros": true,
+        "stream": "http://11618.cloudrad.io:9124/stream/1/",
+        "features": "/img/central-america/panama/super-veraguas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/super-veraguas?time="
+    },
+    "la-buena-panama": {
+        "title": "La Buena Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.labuenaradiopanama.com/",
+        "cros": false,
+        "stream": "https://s3.voscast.com:8607/live",
+        "features": "/img/central-america/panama/la-buena-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/la-buena-panama?time="
+    },
+    "kw-continente": {
+        "title": "KW Continente",
+        "type": "audio/mpeg",
+        "url": "https://kwcontinente.com/",
+        "cros": false,
+        "stream": "https://s1.voscast.com:11355/stream.ogg",
+        "features": "/img/central-america/panama/kw-continente.png",
+        "favorite": false
+    },
+    "onda-veraguas": {
+        "title": "Ondas Centrales (Veraguas)",
+        "type": "audio/mpeg",
+        "url": "https://www.ondascentrales.com/",
+        "cros": false,
+        "stream": "https://mtl9.hnux.com/http://144.217.233.87:9126/stream/1/",
+        "features": "/img/central-america/panama/onda-veraguas.png",
+        "favorite": false
+    },
+    "stereo-89-panama": {
+        "title": "Stereo 89",
+        "type": "audio/mpeg",
+        "url": "https://stereo89.com/",
+        "cros": true,
+        "stream": "http://ic.streann.com:8000/Stereo89",
+        "features": "/img/central-america/panama/stereo-89-panama.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/7/stereo-89-panama?time="
+    }
+}

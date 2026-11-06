@@ -1,0 +1,381 @@
+{
+    "el-bahdja": {
+        "title": "إذاعة البهجة",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/ElBayedh_64K.mp3",
+        "features": "/img/africa/algeria/el-bahdja.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/el-bahdja?time=",
+        "favorite": true
+    },
+    "jil-fm": {
+        "title": "جيل أف أم",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/news/ar/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Jeunesse_64K.mp3",
+        "features": "/img/africa/algeria/jil-fm.png"
+    },
+    "chaine-3": {
+        "title": "القناة الثالثة",
+        "type": "audio/mpeg",
+        "url": "https://my.radioalgerie.dz/fr/chaine3",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Chaine3_64K.mp3",
+        "features": "/img/africa/algeria/chaine-3.png"
+    },
+    "algerienne-chaine-2": {
+        "title": "القناة الثانية",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Chaine2_64K.mp3",
+        "features": "/img/africa/algeria/algerienne-chaine-2.png"
+    },
+    "coran": {
+        "title": "إذاعة القرآن الكريم",
+        "type": "audio/mpeg",
+        "url": "https://my.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Coran_64K.mp3",
+        "features": "/img/africa/algeria/coran.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/coran?time="
+    },
+    "setif": {
+        "title": "إذاعة سطيف",
+        "type": "audio/mpeg",
+        "url": "https://radio-setif.com/",
+        "cros": true,
+        "stream": "http://webradio.tda.dz:8001/Setif_64K.mp3",
+        "features": "/img/africa/algeria/setif.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/setif?time="
+    },
+    "tlemcen": {
+        "title": "إذاعة تلمسان",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Tlemcen_64K.mp3",
+        "features": "/img/africa/algeria/tlemcen.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/tlemcen?time="
+    },
+    "dzair-echaabia": {
+        "title": "إذاعة دزاير الشبابية",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radio-dzair.net/proxy/chaabia/chaabia",
+        "features": "/img/africa/algeria/dzair-echaabia.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-echaabia?time="
+    },
+    "jijel": {
+        "title": "إذاعة جيجل",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/ar/live/18-Jijel",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Jijel_64K.mp3",
+        "features": "/img/africa/algeria/jijel.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/jijel?time="
+    },
+    "algeria-koran-culture": {
+        "title": "الإذاعة الثقافية",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Culture_64K.mp3",
+        "features": "/img/africa/algeria/algeria-koran-culture.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/algeria-koran-culture?time="
+    },
+    "alger-chaine-1": {
+        "title": "القناة الأولى",
+        "type": "audio/mpeg",
+        "url": "https://my.radioalgerie.dz/ar/chaine1",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Chaine1_64K.mp3",
+        "features": "/img/africa/algeria/alger-chaine-1.png"
+    },
+    "guelma": {
+        "title": "أذاعة قالمة",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Guelma_64K.mp3",
+        "features": "/img/africa/algeria/guelma.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/guelma?time="
+    },
+    "saoura-bechar": {
+        "title": "إذاعة ساور بشار",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Bechar_64K.mp3",
+        "features": "/img/africa/algeria/saoura-bechar.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/saoura-bechar?time="
+    },
+    "dzair-raina": {
+        "title": "إذاعة دزاير راينا",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radio-dzair.net/proxy/raina/raina",
+        "features": "/img/africa/algeria/dzair-raina.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-raina?time="
+    },
+    "hawana-fm": {
+        "title": "إذاعة هوانا",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio4.pro-fhi.net:19062/stream/1/",
+        "features": "/img/africa/algeria/hawana-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/hawana-fm?time="
+    },
+    "algerie-internationale": {
+        "title": "الإذاعة الدولية",
+        "type": "audio/mpeg",
+        "url": "http://radioalgerie.dz/news/fr/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Internationale_64K.mp3",
+        "features": "/img/africa/algeria/algerie-internationale.png"
+    },
+    "dzair-al-andaloussia": {
+        "title": "إذاعة دزاير الأندلسية",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radio-dzair.net/proxy/andaloussia/andaloussia",
+        "features": "/img/africa/algeria/dzair-al-andaloussia.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-al-andaloussia?time="
+    },
+    "batna": {
+        "title": "إذاعة باتنة",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://webradio.tda.dz:8001/Batna_64K.mp3",
+        "features": "/img/africa/algeria/batna.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/batna?time="
+    },
+    "dzair-aures": {
+        "title": "إذاعة دزاير أوراس",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radiodzair.net:8050/stream/1/",
+        "features": "/img/africa/algeria/dzair-aures.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-aures?time="
+    },
+    "dzair": {
+        "title": "إذاعة دزاير",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radiodzair.net:8060/stream/1/",
+        "features": "/img/africa/algeria/dzair.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair?time="
+    },
+    "dzair-orientale": {
+        "title": "إذاعة دزاير شرقي",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radiodzair.net:8070/stream/1/",
+        "features": "/img/africa/algeria/dzair-orientale.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-orientale?time="
+    },
+    "dzair-izuran": {
+        "title": "Radio Dzair Izuran",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radio-dzair.net/proxy/izuran/izuran",
+        "features": "/img/africa/algeria/dzair-izuran.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-izuran?time="
+    },
+    "naama-fm": {
+        "title": "إذاعة النعامة",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Naama_64K.mp3",
+        "features": "/img/africa/algeria/naama-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/naama-fm?time="
+    },
+    "ain-temouchent": {
+        "title": "إذاعة عين تموشنت",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/46-Ain-Timouchent",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/AinTimouchent_64K.mp3",
+        "features": "/img/africa/algeria/ain-temouchent.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/ain-temouchent?time="
+    },
+    "dzair-sahara": {
+        "title": "إذاعة دزاير الصحراء",
+        "type": "audio/mpeg",
+        "url": "https://radio-dzair.com/",
+        "cros": false,
+        "stream": "https://radio-dzair.net/proxy/sahara/sahara",
+        "features": "/img/africa/algeria/dzair-sahara.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/dzair-sahara?time="
+    },
+    "relizane": {
+        "title": "إذاعة غليزان",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/news/ar/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Relizan_64K.mp3",
+        "features": "/img/africa/algeria/relizane.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/relizane?time="
+    },
+    "mila": {
+        "title": "إذاعة ميلة",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/43-Mila",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Mila_64K.mp3",
+        "features": "/img/africa/algeria/mila.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/mila?time="
+    },
+    "adrar": {
+        "title": "إذاعة أدرار",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": true,
+        "stream": "http://webradio.tda.dz:8001/Adrar_64K.mp3",
+        "features": "/img/africa/algeria/adrar.png"
+    },
+    "chlef": {
+        "title": "إذاعة الشلف",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Chlef_64K.mp3",
+        "features": "/img/africa/algeria/chlef.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/chlef?time="
+    },
+    "laghouat": {
+        "title": "إذاعة الأغواط",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Laghouat_64K.mp3",
+        "features": "/img/africa/algeria/laghouat.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/laghouat?time="
+    },
+    "oum-bouaghi": {
+        "title": "أذاعة أم البواقي",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/04-Oum-Bouaghi",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/OumBouaghi_64K.mp3",
+        "features": "/img/africa/algeria/oum-bouaghi.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/oum-bouaghi?time="
+    },
+    "soummam-bejaia": {
+        "title": "إذاعة بجاية",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Bejaia_64K.mp3",
+        "features": "/img/africa/algeria/soummam-bejaia.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/soummam-bejaia?time="
+    },
+    "biskra": {
+        "title": "إذاعة بسكرة",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Biskra_64K.mp3",
+        "features": "/img/africa/algeria/biskra.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/biskra?time="
+    },
+    "radio-bechar": {
+        "title": "إذاعة بشار",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Bechar_64K.mp3",
+        "features": "/img/africa/algeria/radio-bechar.png"
+    },
+    "blida": {
+        "title": "إذاعة البليدة",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/09-Blida",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Blida_64K.mp3",
+        "features": "/img/africa/algeria/blida.png"
+    },
+    "tamanrasset": {
+        "title": "إذاعة تمنراست",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalgerie.dz/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Tamanrasset_64K.mp3",
+        "features": "/img/africa/algeria/tamanrasset.png"
+    },
+    "tebessa": {
+        "title": "إذاعة تبسة",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/news/ar/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Tebessa_64K.mp3",
+        "features": "/img/africa/algeria/tebessa.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/tebessa?time="
+    },
+    "tiaret": {
+        "title": "إذاعة تيارت",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/14-Tiaret",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Tiaret_64K.mp3",
+        "features": "/img/africa/algeria/tiaret.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/tiaret?time="
+    },
+    "tizi-ouzou": {
+        "title": "إذاعة تزي وزو",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/TiziOuzou_64K.mp3",
+        "features": "/img/africa/algeria/tizi-ouzou.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/tizi-ouzou?time="
+    },
+    "djelfa": {
+        "title": "إذاعة الجلفة",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/news/ar/",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Djelfa_64K.mp3",
+        "features": "/img/africa/algeria/djelfa.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/djelfa?time="
+    },
+    "saida": {
+        "title": "إذاعة سعيدة",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Saida_64K.mp3",
+        "features": "/img/africa/algeria/saida.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/saida?time="
+    },
+    "skikda": {
+        "title": "إذاعة سكيكدة",
+        "type": "audio/mpeg",
+        "url": "https://radioalgerie.dz/player/fr/live/21-Skikda",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/Skikda_64K.mp3",
+        "features": "/img/africa/algeria/skikda.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/skikda?time="
+    },
+    "radio-sidi-belabbes": {
+        "title": "إذاعة سيدي بلعباس",
+        "type": "audio/mpeg",
+        "url": "https://news.radioalgerie.dz/ar",
+        "cros": false,
+        "stream": "https://webradio.tda.dz/SidiBelabes_64K.mp3",
+        "features": "/img/africa/algeria/radio-sidi-belabbes.png",
+        "schedule": "https://api.webrad.io/data/playlist/111/radio-sidi-belabbes?time="
+    }
+}

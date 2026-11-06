@@ -1,0 +1,244 @@
+{
+    "vaovao-mahasoa": {
+        "title": "Radio Vaovao Mahasoa",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://91.121.148.49:7777/stream/1/",
+        "features": "/img/africa/madagascar/vaovao-mahasoa.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/133/vaovao-mahasoa?time="
+    },
+    "des-jeunes-fm": {
+        "title": "RDJ",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://rdj966.net:8000/rdj966.mp3",
+        "features": "/img/africa/madagascar/des-jeunes-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/des-jeunes-fm?time="
+    },
+    "alliance-92": {
+        "title": "Alliance",
+        "type": "audio/mpeg",
+        "url": "https://newsmada.com/",
+        "cros": true,
+        "stream": "http://41.188.43.211:8000/alliance92.mp3",
+        "features": "/img/africa/madagascar/alliance-92.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/alliance-92?time="
+    },
+    "paradisagasy": {
+        "title": "Radio Paradisagasy",
+        "type": "audio/mpeg",
+        "url": "https://www.radioparadisagasy.com",
+        "cros": false,
+        "stream": "https://stream.deevaradio.net:10443/paradisagasy",
+        "features": "/img/africa/madagascar/paradisagasy.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/paradisagasy?time="
+    },
+    "fanambarana": {
+        "title": "Radio Fanambarana",
+        "type": "audio/mpeg",
+        "url": "https://famfrance.fr/",
+        "cros": true,
+        "stream": "http://serveur.wanastream.com:21300/;",
+        "features": "/img/africa/madagascar/fanambarana.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/fanambarana?time="
+    },
+    "don-bosco": {
+        "title": "Radio Don Bosco",
+        "type": "audio/mpeg",
+        "url": "https://www.rdb.mg/",
+        "cros": false,
+        "stream": "https://onair15.xdevel.com/proxy/radiodonbosco?mp=/;",
+        "features": "/img/africa/madagascar/don-bosco.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/don-bosco?time="
+    },
+    "vazo-gasy": {
+        "title": "Radio Vazogasy",
+        "type": "audio/mpeg",
+        "url": "https://radiovazogasy.com/",
+        "cros": false,
+        "stream": "https://stream.radiovazogasy.com/stream",
+        "features": "/img/africa/madagascar/vazo-gasy.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/vazo-gasy?time="
+    },
+    "rna": {
+        "title": "RNA Webradio",
+        "type": "audio/mpeg",
+        "url": "https://www.rna-madagascar.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/p1zt1ahsks8uv",
+        "features": "/img/africa/madagascar/rna.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/rna?time="
+    },
+    "taratra-105-6-fm": {
+        "title": "Taratra",
+        "type": "audio/mpeg",
+        "url": "https://newsmada.com/",
+        "cros": true,
+        "stream": "http://41.188.43.211:8000/taratraradio.mp3",
+        "features": "/img/africa/madagascar/taratra-105-6-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/taratra-105-6-fm?time="
+    },
+    "fahazavana": {
+        "title": "Radio Fahazavana",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/3657/stream/11144",
+        "features": "/img/africa/madagascar/fahazavana.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/fahazavana?time="
+    },
+    "tiako-be": {
+        "title": "Tiako Be",
+        "type": "audio/mpeg",
+        "url": "https://www.tiakobe.fr/",
+        "cros": false,
+        "stream": "https://tiakobe.ice.infomaniak.ch/tiakobe-64.aac",
+        "features": "/img/africa/madagascar/tiako-be.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/tiako-be?time="
+    },
+    "dago-sound": {
+        "title": "Dago Radio Sound",
+        "type": "audio/mpeg",
+        "url": "https://www.dagoradiosound.info/",
+        "cros": true,
+        "stream": "http://drs-live.gasy-internet.info:8011/stream/1/",
+        "features": "/img/africa/madagascar/dago-sound.png",
+        "favorite": false
+    },
+    "bitsika": {
+        "title": "Radio Bitsika",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://hosting.studioradiomedia.fr:1325/stream",
+        "features": "/img/africa/madagascar/bitsika.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/bitsika?time="
+    },
+    "alefamusic": {
+        "title": "Alefa Music",
+        "type": "audio/mpeg",
+        "url": "https://www.alefamusic.net/",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/20/stream/635",
+        "features": "/img/africa/madagascar/alefamusic.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/alefamusic?time="
+    },
+    "soa-i-madagasikara": {
+        "title": "Soa i Madagasikara",
+        "type": "audio/mpeg",
+        "url": "https://radio.soaimadagasikara.org/",
+        "cros": false,
+        "stream": "https://planner.soaimadagasikara.org:8443/streaming",
+        "features": "/img/africa/madagascar/soa-i-madagasikara.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/soa-i-madagasikara?time="
+    },
+    "netpro-tv": {
+        "title": "NetPro.TV Radio",
+        "type": "audio/mpeg",
+        "url": "https://m.netproweb.com/",
+        "cros": false,
+        "stream": "https://radio.es-des.com/listen/esdes_radio/radio.mp3",
+        "features": "/img/africa/madagascar/netpro-tv.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/netpro-tv?time="
+    },
+    "rna-sava102": {
+        "title": "RNA Sava102 FM",
+        "type": "audio/mpeg",
+        "url": "https://www.rna-madagascar.com/",
+        "cros": true,
+        "stream": "http://live-rna.dagoradiosound.info:9001/stream/1/",
+        "features": "/img/africa/madagascar/rna-sava102.png",
+        "favorite": false
+    },
+    "an-i-kristy": {
+        "title": "An'i Kristy Radio",
+        "type": "audio/mpeg",
+        "url": "http://anikristyradio.com/",
+        "cros": true,
+        "stream": "http://91.121.148.49:7779/stream/1/",
+        "features": "/img/africa/madagascar/an-i-kristy.png",
+        "favorite": false
+    },
+    "fmfoi": {
+        "title": "FM Foi",
+        "type": "audio/mpeg",
+        "url": "https://fmfoi-apostolic.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/tc6qiq23sz2uv",
+        "features": "/img/africa/madagascar/fmfoi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/fmfoi?time="
+    },
+    "mbs": {
+        "title": "MBS Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.malagasynews.com/radio/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/vrwc8iesy7fuv",
+        "features": "/img/africa/madagascar/mbs.png",
+        "favorite": false
+    },
+    "joy-radio-africa": {
+        "title": "Joy Radio Africa",
+        "type": "audio/mpeg",
+        "url": "http://joyradioafrica.com/",
+        "cros": false,
+        "stream": "https://audio-joyradioafricacom.bisericilive.com/joyradioafricacom.mp3",
+        "features": "/img/africa/madagascar/joy-radio-africa.png",
+        "favorite": false
+    },
+    "fivoarana": {
+        "title": "Radio Fivoarana",
+        "type": "audio/mpeg",
+        "url": "https://radiofivoarana.com/",
+        "cros": true,
+        "stream": "http://serveur.wanastream.com:9000/stream/1/",
+        "features": "/img/africa/madagascar/fivoarana.png",
+        "favorite": false
+    },
+    "maria-madagascar": {
+        "title": "Radio Maria Madagascar",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.mg/",
+        "cros": true,
+        "stream": "http://dreamsiteradiocp4.com:8108/stream/1/",
+        "features": "/img/africa/madagascar/maria-madagascar.png",
+        "favorite": false
+    },
+    "kidona": {
+        "title": "Kidona Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.kidonaradio.com/",
+        "cros": true,
+        "stream": "http://65.108.130.62:7590/stream/1/",
+        "features": "/img/africa/madagascar/kidona.png",
+        "favorite": false
+    },
+    "esdes": {
+        "title": "ESDES Radio",
+        "type": "audio/mpeg",
+        "url": "https://app.es-des.com/radio-es-des",
+        "cros": false,
+        "stream": "https://radio.es-des.com/listen/esdes_radio/radio.mp3",
+        "features": "/img/africa/madagascar/esdes.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/133/esdes?time="
+    }
+}

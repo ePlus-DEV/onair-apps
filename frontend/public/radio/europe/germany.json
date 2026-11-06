@@ -1,0 +1,407 @@
+{
+    "eins-live": {
+        "title": "Eins Live",
+        "type": "application/x-mpegURL",
+        "url": "https://www1.wdr.de/radio/1live/",
+        "cros": false,
+        "stream": "https://wdrhf.akamaized.net/hls/live/2027955/1live/master.m3u8",
+        "features": "/img/europe/germany/eins-live.png",
+        "favorite": true
+    },
+    "antenne": {
+        "title": "Antenne Bayern",
+        "type": "audio/mpeg",
+        "url": "https://www.antenne.de/",
+        "cros": false,
+        "stream": "https://stream.antenne.de/antenne/stream/aacp",
+        "features": "/img/europe/germany/antenne.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/antenne?time="
+    },
+    "bayern-1": {
+        "title": "Bayern 1",
+        "type": "audio/mpeg",
+        "url": "https://www.br.de/radio/bayern1/index.html",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/br/br1/obb/mp3/low?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/bayern-1.png",
+        "favorite": false
+    },
+    "swr-3": {
+        "title": "Radio SWR3",
+        "type": "audio/mpeg",
+        "url": "https://www.swr3.de/index.html",
+        "cros": false,
+        "stream": "https://liveradio.swr.de/sw282p3/swr3/",
+        "features": "/img/europe/germany/swr-3.png",
+        "favorite": false
+    },
+    "big-stuttgart": {
+        "title": "Big FM - Baden-Württemberg",
+        "type": "audio/mpeg",
+        "url": "https://www.bigfm.de/",
+        "cros": false,
+        "stream": "https://stream.bigfm.de/bw/mp3-128/radiolisten",
+        "features": "/img/europe/germany/big-stuttgart.png",
+        "favorite": false
+    },
+    "mdr": {
+        "title": "MDR Jump",
+        "type": "audio/mpeg",
+        "url": "https://www.mdrjump.de/index.html",
+        "cros": false,
+        "stream": "https://mdr-284320-0.sslcast.mdr.de/mdr/284320/0/aac/high/stream.aac?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/mdr.png",
+        "favorite": false
+    },
+    "wdr2": {
+        "title": "Radio WDR2",
+        "type": "application/x-mpegURL",
+        "url": "https://www1.wdr.de/radio/wdr2/",
+        "cros": false,
+        "stream": "https://wdrhf.akamaized.net/hls/live/2027969/wdr2ruhrgebiet/master.m3u8",
+        "features": "/img/europe/germany/wdr2.png",
+        "favorite": false
+    },
+    "n-joy": {
+        "title": "N Joy",
+        "type": "audio/mpeg",
+        "url": "https://www.n-joy.de/",
+        "cros": false,
+        "stream": "https://icecast.ndr.de/ndr/njoy/live/aac/low?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/n-joy.png",
+        "favorite": false
+    },
+    "sunshine-mannheim": {
+        "title": "Sunshine Live (Mannheim)",
+        "type": "audio/mpeg",
+        "url": "https://www.sunshine-live.de/",
+        "cros": false,
+        "stream": "https://stream.sunshine-live.de/live/mp3-192",
+        "features": "/img/europe/germany/sunshine-mannheim.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/sunshine-mannheim?time="
+    },
+    "ffh": {
+        "title": "Hit Radio FFH",
+        "type": "audio/mpeg",
+        "url": "https://www.ffh.de/index.html",
+        "cros": false,
+        "stream": "https://streams.ffh.de/radioffh/aac/livestream.aac?amsparams=playerid:RTFFHRadiolistenDE",
+        "features": "/img/europe/germany/ffh.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/ffh?time="
+    },
+    "wdr4": {
+        "title": "Radio WDR 4",
+        "type": "application/x-mpegURL",
+        "url": "https://www1.wdr.de/radio/wdr4/",
+        "cros": false,
+        "stream": "https://wdrhf.akamaized.net/hls/live/2027995/wdr4/master.m3u8",
+        "features": "/img/europe/germany/wdr4.png",
+        "favorite": false
+    },
+    "ffn": {
+        "title": "Radio FFN",
+        "type": "audio/mpeg",
+        "url": "https://www.ffn.de/",
+        "cros": false,
+        "stream": "https://ffn-stream19.radiohost.de/ffn_mp3-192",
+        "features": "/img/europe/germany/ffn.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/ffn?time="
+    },
+    "hr3-rhein-main": {
+        "title": "hr3 (Rhein-Main)",
+        "type": "audio/mpeg",
+        "url": "https://www.hr3.de/index.html",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/hr/hr3/live/mp3/high?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/hr3-rhein-main.png",
+        "favorite": false
+    },
+    "you": {
+        "title": "YOU FM",
+        "type": "audio/mpeg",
+        "url": "https://www.you-fm.de/index.html",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/hr/youfm/live/mp3/high?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/you.png",
+        "favorite": false
+    },
+    "wdr5": {
+        "title": "WDR 5",
+        "type": "application/x-mpegURL",
+        "url": "https://www1.wdr.de/radio/wdr5/",
+        "cros": false,
+        "stream": "https://wdrhf.akamaized.net/hls/live/2027996/wdr5/96/seglist.m3u8",
+        "features": "/img/europe/germany/wdr5.png",
+        "favorite": false
+    },
+    "hamburg-fm": {
+        "title": "Radio Hamburg",
+        "type": "audio/mpeg",
+        "url": "https://www.radiohamburg.de/",
+        "cros": false,
+        "stream": "https://rhh.streamabc.net/rhh-rhhlive-mp3-192-5818405",
+        "features": "/img/europe/germany/hamburg-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/hamburg-fm?time="
+    },
+    "radio-paloma": {
+        "title": "Radio Paloma",
+        "type": "audio/mpeg",
+        "url": "https://schlager.radio/",
+        "cros": false,
+        "stream": "https://stream.silvacast.com/RPLive/mp3-128/radiolisten_de/",
+        "features": "/img/europe/germany/radio-paloma.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/radio-paloma?time="
+    },
+    "bob": {
+        "title": "RADIO BOB!",
+        "type": "audio/mpeg",
+        "url": "https://www.radiobob.de/",
+        "cros": false,
+        "stream": "https://regiocast.streamabc.net/regc-radioboblive-mp3-192-3829599",
+        "features": "/img/europe/germany/bob.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/bob?time="
+    },
+    "hit-berlin": {
+        "title": "HIT 104 FM (Berlin)",
+        "type": "audio/mpeg",
+        "url": "https://fility.com/hit-104/",
+        "cros": false,
+        "stream": "https://icepool.silvacast.com/HIT104.mp3",
+        "features": "/img/europe/germany/hit-berlin.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/hit-berlin?time="
+    },
+    "antenne-bayern-top-40": {
+        "title": "Antenne Bayern Top 40",
+        "type": "audio/mpeg",
+        "url": "https://www.antenne.de/webradio/top-40",
+        "cros": false,
+        "stream": "https://mp3channels.webradio.antenne.de/top-40.aac",
+        "features": "/img/europe/germany/antenne-bayern-top-40.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/antenne-bayern-top-40?time="
+    },
+    "hr1": {
+        "title": "hr1 Rhein-Main",
+        "type": "audio/mpeg",
+        "url": "https://www.hr1.de/index.html",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/hr/hr1/live/mp3/high?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/hr1.png",
+        "favorite": false
+    },
+    "swr1": {
+        "title": "Radio SWR1",
+        "type": "audio/mpeg",
+        "url": "https://www.swr.de/swr1/",
+        "cros": false,
+        "stream": "https://liveradio.swr.de/sw282p3/swr1bw/play.mp3",
+        "features": "/img/europe/germany/swr1.png",
+        "favorite": false
+    },
+    "hr4": {
+        "title": "hr4 Rhein-Main",
+        "type": "audio/mpeg",
+        "url": "https://www.hr4.de/index.html",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/hr/hr4/live/mp3/high?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/hr4.png",
+        "favorite": false
+    },
+    "planet-frankfurt": {
+        "title": "Planet Radio (Frankfurt)",
+        "type": "audio/mpeg",
+        "url": "https://www.planetradio.de/index.html",
+        "cros": false,
+        "stream": "https://streams.planetradio.de/planetradio/aac/livestream.aac?amsparams=playerid:RTFFHRadiolistenDE",
+        "features": "/img/europe/germany/planet-frankfurt.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/planet-frankfurt?time="
+    },
+    "i-love-radio": {
+        "title": "I Love Radio",
+        "type": "audio/mpeg",
+        "url": "https://ilovemusic.de/",
+        "cros": false,
+        "stream": "https://stream03.iloveradio.de/iloveradio1.mp3",
+        "features": "/img/europe/germany/i-love-radio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/i-love-radio?time="
+    },
+    "antenne-augsburg": {
+        "title": "Rock Antenne (Augsburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.rockantenne.de/",
+        "cros": false,
+        "stream": "https://s2-webradio.rockantenne.de/rockantenne/stream/mp3",
+        "features": "/img/europe/germany/antenne-augsburg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/antenne-augsburg?time="
+    },
+    "star-nurnberg": {
+        "title": "Star FM Maximum Rock (Nurnberg)",
+        "type": "audio/mpeg",
+        "url": "https://www.starfm.de/",
+        "cros": false,
+        "stream": "https://stream.starfm.de/nbg/mp3-128/webseite",
+        "features": "/img/europe/germany/star-nurnberg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/star-nurnberg?time="
+    },
+    "blackbeats": {
+        "title": "Black Beats",
+        "type": "audio/mpeg",
+        "url": "http://blackbeats.fm",
+        "cros": false,
+        "stream": "https://rautemusik-de-hz-fal-stream17.radiohost.de/blackbeats",
+        "features": "/img/europe/germany/blackbeats.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/blackbeats?time="
+    },
+    "dieneue": {
+        "title": "Die Neue",
+        "type": "audio/mpeg",
+        "url": "https://dieneue1077.de/",
+        "cros": false,
+        "stream": "https://dieneue1077.cast.addradio.de/dieneue1077/simulcast/high/stream.mp3",
+        "features": "/img/europe/germany/dieneue.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/dieneue?time="
+    },
+    "rbb": {
+        "title": "Radio Eins rbb",
+        "type": "audio/mpeg",
+        "url": "https://www.radioeins.de/",
+        "cros": false,
+        "stream": "https://dispatcher.rndfnk.com/rbb/radioeins/live/mp3/low?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/rbb.png",
+        "favorite": false
+    },
+    "top-40": {
+        "title": "Radio Top 40",
+        "type": "audio/mpeg",
+        "url": "https://www.radiotop40.de/",
+        "cros": false,
+        "stream": "https://edge18.streamonkey.net/antthue-radiotop40/stream/aacp",
+        "features": "/img/europe/germany/top-40.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/top-40?time="
+    },
+    "kiss-berlin": {
+        "title": "Kiss FM (Berlin)",
+        "type": "audio/mpeg",
+        "url": "https://www.kissfm.de/",
+        "cros": false,
+        "stream": "https://stream.kissfm.de/kissfm/mp3-128/radiosonlinech",
+        "features": "/img/europe/germany/kiss-berlin.png",
+        "favorite": false
+    },
+    "deutschlandfunk-schwabisch": {
+        "title": "Deutschlandfunk Radio FM (Schwäbisch Hall)",
+        "type": "audio/mpeg",
+        "url": "https://www.deutschlandfunk.de/",
+        "cros": false,
+        "stream": "https://st01.sslstream.dlf.de/dlf/01/high/aac/stream.aac?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/deutschlandfunk-schwabisch.png",
+        "favorite": false
+    },
+    "kultur-berlin": {
+        "title": "Deutschland Radio Kultur (Berlin)",
+        "type": "audio/mpeg",
+        "url": "https://www.deutschlandfunkkultur.de/",
+        "cros": false,
+        "stream": "https://st02.sslstream.dlf.de/dlf/02/high/aac/stream.aac?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/kultur-berlin.png",
+        "favorite": false
+    },
+    "technobase-fm": {
+        "title": "TechnoBase.FM",
+        "type": "audio/mpeg",
+        "url": "https://www.technobase.fm/",
+        "cros": false,
+        "stream": "https://listen.technobase.fm/tunein-aac-hd",
+        "features": "/img/europe/germany/technobase-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/technobase-fm?time="
+    },
+    "metropol-berlin": {
+        "title": "Metropol FM (Berlin)",
+        "type": "audio/mpeg",
+        "url": "https://www.metropolfm.de/",
+        "cros": false,
+        "stream": "https://57-129-32-195-8097a5.sfn.edge-ovh-de1.streams.radiosphere.io/516f5978-5ba0-4c2a-96ea-0998d59c47a5/channels/252cbd88-bbec-459e-a8ee-79392644dff2/stream.aac",
+        "features": "/img/europe/germany/metropol-berlin.png",
+        "favorite": false
+    },
+    "techno": {
+        "title": "Techno 4 Ever",
+        "type": "audio/mpeg",
+        "url": "https://www.rm.fm/club",
+        "cros": false,
+        "stream": "https://relay04.t4e.dj/main_high.mp3",
+        "features": "/img/europe/germany/techno.png",
+        "favorite": false
+    },
+    "jam-fm": {
+        "title": "JAM FM",
+        "type": "audio/mpeg",
+        "url": "https://www.jam.fm/",
+        "cros": false,
+        "stream": "https://rtlberlin.streamabc.net/rtlb-jamfmlive-mp3-128-6002587?sABC=5spr3n53%230%23o187o99rq6431qnns0764o3qo3r74q16%23xbafbyr&=&amsparams=playerid:konsole;skey:1607350867",
+        "features": "/img/europe/germany/jam-fm.png",
+        "favorite": false
+    },
+    "ffh-top-40-frankfurt": {
+        "title": "FFH Digital Top 40 (Frankfurt)",
+        "type": "audio/mpeg",
+        "url": "https://www.ffh.de/musik.html",
+        "cros": false,
+        "stream": "https://mp3.ffh.de/ffhchannels/hqtop40.aac",
+        "features": "/img/europe/germany/ffh-top-40-frankfurt.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/39/ffh-top-40-frankfurt?time="
+    },
+    "saw-magdeburg": {
+        "title": "Radio SAW",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosaw.de/",
+        "cros": false,
+        "stream": "https://stream.radiosaw.de/saw/aac-48/radiolisten/stream.mp3",
+        "features": "/img/europe/germany/saw-magdeburg.png",
+        "favorite": false
+    },
+    "ndr2-hamburg": {
+        "title": "NDR 2 (Hamburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.ndr.de/ndr2/",
+        "cros": false,
+        "stream": "https://icecast.ndr.de/ndr/ndr2/hamburg/aac/low?aggregator=radiolisten-de",
+        "features": "/img/europe/germany/ndr2-hamburg.png",
+        "favorite": false
+    },
+    "klassik-augsburg": {
+        "title": "Klassik Radio (Augsburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.klassikradio.de/",
+        "cros": false,
+        "stream": "https://klassikr.streamabc.net/klr-krdnational-mp3-192-8877033",
+        "features": "/img/europe/germany/klassik-augsburg.png",
+        "favorite": false
+    },
+    "wdr3": {
+        "title": "WDR 3",
+        "type": "application/x-mpegURL",
+        "url": "https://www1.wdr.de/radio/wdr3/index.html",
+        "cros": false,
+        "stream": "https://wdrhf.akamaized.net/hls/live/2027994/wdr3/master.m3u8",
+        "features": "/img/europe/germany/wdr3.png",
+        "favorite": false
+    }
+}

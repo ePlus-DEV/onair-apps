@@ -1,0 +1,420 @@
+{
+    "rfm": {
+        "title": "Radio RFM",
+        "type": "audio/mpeg",
+        "url": "https://rfm.sapo.pt/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RFM_SC",
+        "features": "/img/europe/portugal/rfm.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/31/rfm?time="
+    },
+    "comercial": {
+        "title": "Radio Comercial",
+        "type": "audio/mpeg",
+        "url": "https://radiocomercial.pt/",
+        "cros": false,
+        "stream": "https://stream-icy.bauermedia.pt/comercial.mp3",
+        "features": "/img/europe/portugal/comercial.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/comercial?time="
+    },
+    "cidade-fm": {
+        "title": "Radio Cidade FM",
+        "type": "audio/mpeg",
+        "url": "https://cidade.fm/",
+        "cros": false,
+        "stream": "https://stream-icy.bauermedia.pt/cidade.mp3",
+        "features": "/img/europe/portugal/cidade-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/cidade-fm?time="
+    },
+    "m80": {
+        "title": "Rádio M80",
+        "type": "audio/mpeg",
+        "url": "https://bauermedia.pt/m80/emissaofm",
+        "cros": false,
+        "stream": "https://stream-icy.bauermedia.pt/m80.mp3",
+        "features": "/img/europe/portugal/m80.png",
+        "favorite": false
+    },
+    "antena-1": {
+        "title": "Antena 1",
+        "type": "audio/mpeg",
+        "url": "https://antena1.rtp.pt/",
+        "cros": false,
+        "stream": "https://radiocast.rtp.pt/antena180a.mp3",
+        "features": "/img/europe/portugal/antena-1.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/antena-1?time="
+    },
+    "mega": {
+        "title": "Mega Hits FM",
+        "type": "audio/mpeg",
+        "url": "https://megahits.sapo.pt/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MEGA_HITS_SC",
+        "features": "/img/europe/portugal/mega.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/mega?time="
+    },
+    "renascenca": {
+        "title": "Renascença",
+        "type": "audio/mpeg",
+        "url": "https://rr.sapo.pt/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO_RENASCENCA_SC",
+        "features": "/img/europe/portugal/renascenca.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/renascenca?time="
+    },
+    "tsf": {
+        "title": "Radio TSF (Lisboa)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.tsf.pt/",
+        "cros": false,
+        "stream": "https://gmg-tsfdireto.global.ssl.fastly.net/tsf1-dfg98mnb0/emissao/playlist.m3u8",
+        "features": "/img/europe/portugal/tsf.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/tsf?time="
+    },
+    "nova-era": {
+        "title": "Radio Nova Era (Vila Nova de Gaia)",
+        "type": "audio/mpeg",
+        "url": "https://www.radionovaera.pt/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/478?mp=/stream/1/",
+        "features": "/img/europe/portugal/nova-era.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/nova-era?time="
+    },
+    "rfm-80": {
+        "title": "80s RFM",
+        "type": "audio/mpeg",
+        "url": "https://rfm.sapo.pt/emissao80spub",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/GR80SRFM_SC",
+        "features": "/img/europe/portugal/rfm-80.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/rfm-80?time="
+    },
+    "sbsr": {
+        "title": "Rádio SBSR (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://www.sbsr.fm/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/435?mp=/stream/1/",
+        "features": "/img/europe/portugal/sbsr.png",
+        "favorite": false
+    },
+    "hiper-fm": {
+        "title": "Hiper FM",
+        "type": "audio/mpeg",
+        "url": "https://www.hiper.fm",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/500?mp=/stream/1/",
+        "features": "/img/europe/portugal/hiper-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/hiper-fm?time="
+    },
+    "smooth": {
+        "title": "Smooth FM (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://smoothfm.pt/",
+        "cros": false,
+        "stream": "https://stream-icy.bauermedia.pt/smooth.mp3",
+        "features": "/img/europe/portugal/smooth.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/smooth?time="
+    },
+    "oceano-pacifico-rfm": {
+        "title": "Oceano Pacífico RFM",
+        "type": "audio/mpeg",
+        "url": "https://rfm.sapo.pt/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/OCEANPACIFICAAC_SC",
+        "features": "/img/europe/portugal/oceano-pacifico-rfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/oceano-pacifico-rfm?time="
+    },
+    "orbital": {
+        "title": "Radio Orbital (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://www.orbital.pt/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/401?mp=/stream/1/",
+        "features": "/img/europe/portugal/orbital.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/orbital?time="
+    },
+    "nove3cinco-povoa-de-lanhoso": {
+        "title": "Radio Nove3cinco (Povoa De Lanhoso)",
+        "type": "audio/mpeg",
+        "url": "https://www.nove3cinco.com/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/522?mp=/stream/1/",
+        "features": "/img/europe/portugal/nove3cinco-povoa-de-lanhoso.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/nove3cinco-povoa-de-lanhoso?time="
+    },
+    "super": {
+        "title": "Super FM (Almada)",
+        "type": "audio/mpeg",
+        "url": "https://www.superfm.com/",
+        "cros": false,
+        "stream": "https://play.radioregional.pt:8210/stream/1/",
+        "features": "/img/europe/portugal/super.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/super?time="
+    },
+    "oxigenio": {
+        "title": "Rádio Oxigénio",
+        "type": "audio/mpeg",
+        "url": "https://www.oxigenio.fm/",
+        "cros": false,
+        "stream": "https://proic1.evspt.com/oxigenio_aac",
+        "features": "/img/europe/portugal/oxigenio.png",
+        "favorite": false
+    },
+    "radar": {
+        "title": "Radio Radar (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://radarlisboa.fm/",
+        "cros": false,
+        "stream": "https://proic1.evspt.com/radar_aac",
+        "features": "/img/europe/portugal/radar.png",
+        "favorite": false
+    },
+    "antena-2": {
+        "title": "Antena 2",
+        "type": "application/x-mpegURL",
+        "url": "https://antena2.rtp.pt/",
+        "cros": false,
+        "stream": "https://streaming-live.rtp.pt/liveradio/antena280a/playlist.m3u8",
+        "features": "/img/europe/portugal/antena-2.png",
+        "favorite": false
+    },
+    "radio-sudoeste-lisboa": {
+        "title": "Rádio Sudoeste (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://radiosudoeste.pt/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/495?mp=/stream/1/",
+        "features": "/img/europe/portugal/radio-sudoeste-lisboa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/radio-sudoeste-lisboa?time="
+    },
+    "cascais-lisboa": {
+        "title": "Radio Cascais (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://www.1054cascais.com/",
+        "cros": false,
+        "stream": "https://play.radioregional.pt:8220/stream/1/",
+        "features": "/img/europe/portugal/cascais-lisboa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/cascais-lisboa?time="
+    },
+    "amalia": {
+        "title": "Radio Amalia (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://www.amalia.fm/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/496?mp=/stream/1/",
+        "features": "/img/europe/portugal/amalia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/amalia?time="
+    },
+    "festival": {
+        "title": "Radio Festival",
+        "type": "audio/mpeg",
+        "url": "https://radiofestival.pt/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/520?mp=/stream/1/",
+        "features": "/img/europe/portugal/festival.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/festival?time="
+    },
+    "batida-lisboa": {
+        "title": "Batida FM (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://bauermedia.pt/batidafm",
+        "cros": false,
+        "stream": "https://stream-icy.bauermedia.pt/batidafm.aac",
+        "features": "/img/europe/portugal/batida-lisboa.png",
+        "favorite": false
+    },
+    "marginal": {
+        "title": "Radio Marginal",
+        "type": "audio/mpeg",
+        "url": "https://marginal.fm/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/499?mp=/stream/1/",
+        "features": "/img/europe/portugal/marginal.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/marginal?time="
+    },
+    "maria-102-2": {
+        "title": "Radio Maria (Lisboa)",
+        "type": "audio/mpeg",
+        "url": "https://radiomaria.pt/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp5.com/proxy/rmportugal1?mp=/stream/1/",
+        "features": "/img/europe/portugal/maria-102-2.png",
+        "favorite": false
+    },
+    "toca-a-dancar": {
+        "title": "Rádio Toca a Dançar",
+        "type": "audio/mpeg",
+        "url": "http://www.radiotocaadancar.com",
+        "cros": false,
+        "stream": "https://sp0.redeaudio.com/9974/stream",
+        "features": "/img/europe/portugal/toca-a-dancar.png",
+        "favorite": false
+    },
+    "santiago-guimaraes": {
+        "title": "Radio Santiago (Guimaraes)",
+        "type": "audio/mpeg",
+        "url": "https://www.guimaraesdigital.pt/index.php/grupo-santiago/radio-santiago",
+        "cros": true,
+        "stream": "http://eu6.fastcast4u.com:5002/stream",
+        "features": "/img/europe/portugal/santiago-guimaraes.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/santiago-guimaraes?time="
+    },
+    "rdp-africa": {
+        "title": "Radio RDP africa (Lisboa)",
+        "type": "application/x-mpegURL",
+        "url": "https://rdpafrica.rtp.pt/",
+        "cros": false,
+        "stream": "https://streaming-live.rtp.pt/liveradio/rdpafrica80a/playlist.m3u8",
+        "features": "/img/europe/portugal/rdp-africa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/rdp-africa?time="
+    },
+    "popular": {
+        "title": "Popular FM",
+        "type": "audio/mpeg",
+        "url": "http://185.11.164.106/start/popular_fm/",
+        "cros": true,
+        "stream": "http://185.11.164.106:32281/stream/1/",
+        "features": "/img/europe/portugal/popular.png",
+        "favorite": false
+    },
+    "botareu": {
+        "title": "Radio Botareu (Agueda)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiobotareu.pt/",
+        "cros": false,
+        "stream": "https://nl.digitalrm.pt:8238/stream",
+        "features": "/img/europe/portugal/botareu.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/botareu?time="
+    },
+    "rdp-internacional": {
+        "title": "RDP Internacional",
+        "type": "application/x-mpegURL",
+        "url": "https://rdpinternacional.rtp.pt/",
+        "cros": false,
+        "stream": "https://streaming-live.rtp.pt/liveradio/rdpint80a/playlist.m3u8",
+        "features": "/img/europe/portugal/rdp-internacional.png",
+        "favorite": false
+    },
+    "marcoense-marco-de-canaves": {
+        "title": "Radio Marcoense (Marco De Canaveses)",
+        "type": "audio/mpeg",
+        "url": "https://www.marcoensefm.com/",
+        "cros": false,
+        "stream": "https://streaming.shoutcast.com/marcoense-fm",
+        "features": "/img/europe/portugal/marcoense-marco-de-canaves.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/marcoense-marco-de-canaves?time="
+    },
+    "atlantida": {
+        "title": "Radio Atlantida",
+        "type": "audio/mpeg",
+        "url": "https://www.radioatlantida.net/",
+        "cros": false,
+        "stream": "https://cast1.lunabroadcasting.net/listen/atlantida/radio.mp3",
+        "features": "/img/europe/portugal/atlantida.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/atlantida?time="
+    },
+    "vizela": {
+        "title": "Radio Vizela",
+        "type": "audio/mpeg",
+        "url": "https://www.radiovizela.pt/",
+        "cros": false,
+        "stream": "https://proxy-audio.ptisp.com:8100/stream/1/",
+        "features": "/img/europe/portugal/vizela.png",
+        "favorite": false
+    },
+    "nova": {
+        "title": "Radio Nova",
+        "type": "audio/mpeg",
+        "url": "https://www.radionova.fm/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/528?mp=/stream/1/",
+        "features": "/img/europe/portugal/nova.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/nova?time="
+    },
+    "onda-viva": {
+        "title": "Rádio Onda Viva",
+        "type": "audio/mpeg",
+        "url": "https://radioondaviva.com",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/524?mp=/stream/1/",
+        "features": "/img/europe/portugal/onda-viva.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/onda-viva?time="
+    },
+    "antena-3": {
+        "title": "Antena 3",
+        "type": "audio/mpeg",
+        "url": "https://media.rtp.pt/antena3/",
+        "cros": false,
+        "stream": "https://radiocast.rtp.pt/antena380a.mp3",
+        "features": "/img/europe/portugal/antena-3.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/antena-3?time="
+    },
+    "no-ar-porto": {
+        "title": "Radio No Ar (Porto)",
+        "type": "audio/mpeg",
+        "url": "https://radionoar.pt/",
+        "cros": false,
+        "stream": "https://radios.justweb.pt/8034/stream/1/",
+        "features": "/img/europe/portugal/no-ar-porto.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/no-ar-porto?time="
+    },
+    "94-fm": {
+        "title": "Radio 94 FM (Leiria)",
+        "type": "audio/mpeg",
+        "url": "http://www.radio94fm.pt/",
+        "cros": true,
+        "stream": "http://185.11.164.106:35022/stream/1/",
+        "features": "/img/europe/portugal/94-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/94-fm?time="
+    },
+    "sao-miguel": {
+        "title": "Radio Sao Miguel",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosaomiguel.pt",
+        "cros": false,
+        "stream": "https://nl.digitalrm.pt:8140/stream",
+        "features": "/img/europe/portugal/sao-miguel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/31/sao-miguel?time="
+    },
+    "antena-minho": {
+        "title": "Antena Minho (Braga)",
+        "type": "audio/mpeg",
+        "url": "https://www.antenaminho.pt/",
+        "cros": false,
+        "stream": "https://centova.radios.pt/proxy/464?mp=/stream/1/",
+        "features": "/img/europe/portugal/antena-minho.png",
+        "favorite": false
+    }
+}

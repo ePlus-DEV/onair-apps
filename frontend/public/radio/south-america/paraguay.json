@@ -1,0 +1,273 @@
+{
+  "abc-cardinal": {
+    "title": "ABC Cardinal",
+    "type": "audio/mpeg",
+    "url": "https://www.abc.com.py/730am/",
+    "cros": false,
+    "stream": "https://media.streambrothers.com:8342/stream",
+    "features": "/img/south-america/paraguay/abc-cardinal.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/abc-cardinal?time=",
+    "favorite": true
+  },
+  "rock-pop": {
+    "title": "Rock and Pop",
+    "type": "audio/mpeg",
+    "url": "https://rockandpop.com.py/",
+    "cros": false,
+    "stream": "https://cp9.serverse.com/proxy/rockandpop/stream/1/",
+    "features": "/img/south-america/paraguay/rock-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/rock-pop?time="
+  },
+  "nanduti": {
+    "title": "Radio Ñandutí",
+    "type": "audio/mpeg",
+    "url": "https://nanduti.com.py/",
+    "cros": false,
+    "stream": "https://cp9.serverse.com/proxy/naduti1020/stream",
+    "features": "/img/south-america/paraguay/nanduti.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/nanduti?time="
+  },
+  "estacion-40": {
+    "title": "Radio Estación 40",
+    "type": "audio/mpeg",
+    "url": "https://estacion40.com.py/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/62d81cfbbfbcee0837ba1b60/icecast.audio",
+    "features": "/img/south-america/paraguay/estacion-40.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/estacion-40?time="
+  },
+  "fm-popular": {
+    "title": "Radio Popular",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radiopopular.com.py/",
+    "cros": false,
+    "stream": "https://rds3.desdeparaguay.net/transpopular/transpopular/playlist.m3u8",
+    "features": "/img/south-america/paraguay/fm-popular.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/fm-popular?time="
+  },
+  "corazon": {
+    "title": "Radio Corazón",
+    "type": "application/x-mpegURL",
+    "url": "https://www.hoy.com.py/radios/fm-corazon",
+    "cros": false,
+    "stream": "https://rds3.desdeparaguay.net/movcorazon/movcorazon.stream/playlist.m3u8",
+    "features": "/img/south-america/paraguay/corazon.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/corazon?time="
+  },
+  "monumental": {
+    "title": "Radio Monumental",
+    "type": "audio/mpeg",
+    "url": "https://monumental.com.py/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/62d81ca6a459e4082203c95b/icecast.audio",
+    "features": "/img/south-america/paraguay/monumental.png"
+  },
+  "urbana": {
+    "title": "Radio Urbana",
+    "type": "audio/mpeg",
+    "url": "https://urbana.com.py",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/62d81cdabff0bc082f8f1a24/icecast.audio",
+    "features": "/img/south-america/paraguay/urbana.png"
+  },
+  "universo-970": {
+    "title": "Universo 970",
+    "type": "application/x-mpegURL",
+    "url": "https://www.hoy.com.py/radios/radio970",
+    "cros": false,
+    "stream": "https://rds3.desdeparaguay.net/trans970/trans970/playlist.m3u8",
+    "features": "/img/south-america/paraguay/universo-970.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/universo-970?time="
+  },
+  "uno": {
+    "title": "Radio Uno",
+    "type": "audio/mpeg",
+    "url": "http://radiouno.com.py/",
+    "cros": false,
+    "stream": "https://rus1.radiouno.com.py:9433/stream",
+    "features": "/img/south-america/paraguay/uno.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/uno?time="
+  },
+  "disney": {
+    "title": "Radio Disney",
+    "type": "audio/mpeg",
+    "url": "https://py.radiodisney.com/",
+    "cros": false,
+    "stream": "https://rds1.radiomagic.com.py:9433/stream",
+    "features": "/img/south-america/paraguay/disney.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/disney?time="
+  },
+  "farra": {
+    "title": "Radio Farra",
+    "type": "audio/mpeg",
+    "url": "https://farra.com.py/",
+    "cros": false,
+    "stream": "https://rfs1.farra.com.py:9433/stream",
+    "features": "/img/south-america/paraguay/farra.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/farra?time="
+  },
+  "colmenar": {
+    "title": "Radio Colmenar",
+    "type": "application/x-mpegURL",
+    "url": "https://radiocolmenar.com.py/",
+    "cros": false,
+    "stream": "https://tvdatta.com:3041/live/colmenarlive.m3u8",
+    "features": "/img/south-america/paraguay/colmenar.png"
+  },
+  "horizonte": {
+    "title": "Horizonte",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.radiosenpy.net:7018/;",
+    "features": "/img/south-america/paraguay/horizonte.png"
+  },
+  "itakaru": {
+    "title": "Radio Itakaru",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": false,
+    "stream": "https://stream.zeno.fm/s1gaprvh02quv",
+    "features": "/img/south-america/paraguay/itakaru.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/itakaru?time="
+  },
+  "itapua": {
+    "title": "Itapúa FM",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://radio.itapuafm.com.py:8000/itapuafm",
+    "features": "/img/south-america/paraguay/itapua.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/itapua?time="
+  },
+  "la-deportiva": {
+    "title": "La Deportiva",
+    "type": "audio/mpeg",
+    "url": "https://www.ladeportiva.com.py/",
+    "cros": false,
+    "stream": "https://ladeportiva.radioca.st/stream/1/",
+    "features": "/img/south-america/paraguay/la-deportiva.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/la-deportiva?time="
+  },
+  "1000": {
+    "title": "Radio 1000 AM",
+    "type": "audio/mpeg",
+    "url": "https://1000noticias.com.py/",
+    "cros": false,
+    "stream": "https://1000noticias.live:8000/radio.mp3",
+    "features": "/img/south-america/paraguay/1000.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/1000?time="
+  },
+  "kokue-poty": {
+    "title": "Radio Kokue Poty",
+    "type": "audio/mpeg",
+    "url": "https://kokuepoty.com.py/",
+    "cros": true,
+    "stream": "http://radio.host.com.py:9302/stream/1/",
+    "features": "/img/south-america/paraguay/kokue-poty.png"
+  },
+  "nacional-paraguay": {
+    "title": "Radio Nacional del Paraguay",
+    "type": "audio/mpeg",
+    "url": "https://www.radionacional.gov.py/",
+    "cros": true,
+    "stream": "http://audio2.radionacional.gov.py:8084/951fm",
+    "features": "/img/south-america/paraguay/nacional-paraguay.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/nacional-paraguay?time="
+  },
+  "san-ignacio": {
+    "title": "San Ignacio",
+    "type": "audio/mpeg",
+    "url": "https://sanignaciofm.com/",
+    "cros": false,
+    "stream": "https://streampy.radiosparaguay.com/8154/stream",
+    "features": "/img/south-america/paraguay/san-ignacio.png"
+  },
+  "fm-azul-y-oro": {
+    "title": "FM Azul Y Oro",
+    "type": "audio/mpeg",
+    "url": "https://www.fmazulyoro.com.py",
+    "cros": false,
+    "stream": "https://radio.host.com.py:7197/;",
+    "features": "/img/south-america/paraguay/fm-azul-y-oro.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/fm-azul-y-oro?time="
+  },
+  "obedira-satelital": {
+    "title": "Radio Obedira Satelital",
+    "type": "audio/mpeg",
+    "url": "https://www.obedira.com.py/",
+    "cros": false,
+    "stream": "https://s17.ssl-stream.com/proxy/obedira?mp=/live",
+    "features": "/img/south-america/paraguay/obedira-satelital.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/obedira-satelital?time="
+  },
+  "conquistador": {
+    "title": "Radio Conquistador",
+    "type": "audio/mpeg",
+    "url": "https://www.conquistadorfm891.com/",
+    "cros": true,
+    "stream": "http://masstreaming.online:8612/stream/1/",
+    "features": "/img/south-america/paraguay/conquistador.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/conquistador?time="
+  },
+  "caritas": {
+    "title": "Radio Cáritas",
+    "type": "audio/mpeg",
+    "url": "https://www.caritas.com.py/",
+    "cros": true,
+    "stream": "http://caritas.netvision.com.py:8000/680AM",
+    "features": "/img/south-america/paraguay/caritas.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/caritas?time="
+  },
+  "panamericana": {
+    "title": "Panamericana",
+    "type": "audio/mpeg",
+    "url": "https://panamericanacarapegua.com/",
+    "cros": false,
+    "stream": "https://v.orlandohugo.com/8156/;",
+    "features": "/img/south-america/paraguay/panamericana.png"
+  },
+  "concert": {
+    "title": "FM Concert",
+    "type": "audio/mpeg",
+    "url": "https://www.fmconcert.com.py/",
+    "cros": false,
+    "stream": "https://cp9.serverse.com/proxy/concertfm/stream",
+    "features": "/img/south-america/paraguay/concert.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/concert?time="
+  },
+  "encarnacion": {
+    "title": "Radio Encarnación",
+    "type": "audio/mpeg",
+    "url": "https://www.radioencarnacion.com/",
+    "cros": false,
+    "stream": "https://s23.myradiostream.com/6646/stream/1/",
+    "features": "/img/south-america/paraguay/encarnacion.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/encarnacion?time="
+  },
+  "palma-fm": {
+    "title": "Palma FM",
+    "type": "application/x-mpegURL",
+    "url": "https://palma.com.py/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/62d81d48f5ef320830c8becf/live.m3u8",
+    "features": "/img/south-america/paraguay/palma-fm.png"
+  },
+  "nasaindy": {
+    "title": "Radio Ñasaindy",
+    "type": "audio/mpeg",
+    "url": "https://www.radionasaindy.com.py/",
+    "cros": true,
+    "stream": "http://84.247.167.61:8000/stream/1/",
+    "features": "/img/south-america/paraguay/nasaindy.png"
+  },
+  "regional": {
+    "title": "Radio Regional",
+    "type": "application/x-mpegURL",
+    "url": "",
+    "cros": false,
+    "stream": "https://rds3.desdeparaguay.net/mov660/mov660.stream/playlist.m3u8",
+    "features": "/img/south-america/paraguay/regional.png",
+    "schedule": "https://api.webrad.io/data/playlist/21/regional?time="
+  }
+}

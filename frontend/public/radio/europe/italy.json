@@ -1,0 +1,383 @@
+{
+    "rtl-102-5": {
+        "title": "RTL",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rtl.it/",
+        "cros": false,
+        "stream": "https://streamcdnc3-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist_audio.m3u8",
+        "features": "/img/europe/italy/rtl-102-5.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rtl-102-5?time=",
+        "favorite": true
+    },
+    "rds": {
+        "title": "RDS radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rds.it/",
+        "cros": false,
+        "stream": "https://stream.rds.radio/audio/rds.stream_aac/playlist.m3u8",
+        "features": "/img/europe/italy/rds.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rds?time="
+    },
+    "radio-105": {
+        "title": "Radio 105",
+        "type": "audio/mpeg",
+        "url": "https://www.105.net/",
+        "cros": false,
+        "stream": "https://icecast.unitedradio.it/Radio105.mp3",
+        "features": "/img/europe/italy/radio-105.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/radio-105?time="
+    },
+    "rai-2": {
+        "title": "Radio 2",
+        "type": "audio/mpeg",
+        "url": "https://www.raiplaysound.it/radio2",
+        "cros": false,
+        "stream": "https://icestreaming.rai.it/2.mp3",
+        "features": "/img/europe/italy/rai-2.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rai-2?time="
+    },
+    "maria": {
+        "title": "Radio Maria",
+        "type": "audio/mpeg",
+        "url": "https://radiomaria.it/",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp5.com/proxy/rmitalia?mp=/stream/1/",
+        "features": "/img/europe/italy/maria.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/maria?time="
+    },
+    "kiss-kiss": {
+        "title": "Kiss Kiss",
+        "type": "audio/mpeg",
+        "url": "https://kisskiss.it/",
+        "cros": false,
+        "stream": "https://ice07.fluidstream.net/KissKiss.aac",
+        "features": "/img/europe/italy/kiss-kiss.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/kiss-kiss?time="
+    },
+    "virgin": {
+        "title": "Virgin Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.virginradio.it/",
+        "cros": false,
+        "stream": "https://icecast.unitedradio.it/Virgin.mp3",
+        "features": "/img/europe/italy/virgin.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/virgin?time="
+    },
+    "rai-1": {
+        "title": "Radio 1",
+        "type": "audio/mpeg",
+        "url": "https://www.raiplaysound.it/radio1",
+        "cros": false,
+        "stream": "https://icestreaming.rai.it/1.mp3",
+        "features": "/img/europe/italy/rai-1.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rai-1?time="
+    },
+    "ibiza-napoli": {
+        "title": "Radio Ibiza (Napoli)",
+        "type": "audio/mpeg",
+        "url": "https://radioibiza.it/",
+        "cros": false,
+        "stream": "https://kisskiss.fluidstream.eu/ibiza.aac",
+        "features": "/img/europe/italy/ibiza-napoli.png"
+    },
+    "monte-carlo": {
+        "title": "Radio Monte Carlo",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomontecarlo.net/",
+        "cros": false,
+        "stream": "https://icy.unitedradio.it/RMC.aac",
+        "features": "/img/europe/italy/monte-carlo.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/monte-carlo?time="
+    },
+    "latte-miele": {
+        "title": "Latte Miele",
+        "type": "audio/mpeg",
+        "url": "https://www.lattemiele.com/",
+        "cros": false,
+        "stream": "https://ice02.fluidstream.net/fluid016.aac",
+        "features": "/img/europe/italy/latte-miele.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/latte-miele?time="
+    },
+    "rai-3": {
+        "title": "Radio 3",
+        "type": "audio/mpeg",
+        "url": "https://www.raiplaysound.it/radio3",
+        "cros": false,
+        "stream": "https://icestreaming.rai.it/3.mp3",
+        "features": "/img/europe/italy/rai-3.png"
+    },
+    "subasio": {
+        "title": "Subasio",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosubasio.it/",
+        "cros": false,
+        "stream": "https://icy.unitedradio.it/Subasio.mp3",
+        "features": "/img/europe/italy/subasio.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/subasio?time="
+    },
+    "lifegate-milano": {
+        "title": "Life Gate Radio (Milano)",
+        "type": "audio/mpeg",
+        "url": "https://www.lifegate.it/",
+        "cros": false,
+        "stream": "https://stream7.xdevel.com/audio0s975809-426/stream/icecast.audio",
+        "features": "/img/europe/italy/lifegate-milano.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/lifegate-milano?time="
+    },
+    "radio-24": {
+        "title": "Radio 24",
+        "type": "audio/mpeg",
+        "url": "https://www.radio24.ilsole24ore.com/",
+        "cros": true,
+        "stream": "http://shoutcast.radio24.it:8000/;",
+        "features": "/img/europe/italy/radio-24.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/radio-24?time="
+    },
+    "sei-roma": {
+        "title": "Radio Sei (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosei.it/",
+        "cros": true,
+        "stream": "http://icecast.ithost.it:8000/radiosei.ogg",
+        "features": "/img/europe/italy/sei-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/sei-roma?time="
+    },
+    "marte": {
+        "title": "Radio Marte",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomarte.it/marte/",
+        "cros": false,
+        "stream": "https://stream1.xdevel.com/audio0s975753-313/stream/icecast.audio",
+        "features": "/img/europe/italy/marte.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/marte?time="
+    },
+    "birikina-treviso": {
+        "title": "Radio Birikina Castelfranco (Treviso)",
+        "type": "audio/mpeg",
+        "url": "https://www.birikina.it/",
+        "cros": false,
+        "stream": "https://ice02.fluidstream.net/birikina.mp3",
+        "features": "/img/europe/italy/birikina-treviso.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/birikina-treviso?time="
+    },
+    "norba": {
+        "title": "Radio Norba",
+        "type": "audio/mpeg",
+        "url": "https://radionorba.it/",
+        "cros": false,
+        "stream": "https://stream9.xdevel.com/audio0s975885-461/stream/icecast.audio",
+        "features": "/img/europe/italy/norba.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/norba?time="
+    },
+    "nuova-napoli": {
+        "title": "Radio Nuova San Giorgio (Napoli)",
+        "type": "audio/mpeg",
+        "url": "https://www.radionuovasangiorgio.com/",
+        "cros": true,
+        "stream": "http://nr8.newradio.it:9675/stream",
+        "features": "/img/europe/italy/nuova-napoli.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/nuova-napoli?time="
+    },
+    "antenna-1-roma": {
+        "title": "Antenna 1 (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.antenna1.fm/",
+        "cros": false,
+        "stream": "https://a1-it.newradio.it/stream2",
+        "features": "/img/europe/italy/antenna-1-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/antenna-1-roma?time="
+    },
+    "globo-roma": {
+        "title": "Radio Globo (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioglobo.it/",
+        "cros": false,
+        "stream": "https://globo.newradio.it/globorm64",
+        "features": "/img/europe/italy/globo-roma.png"
+    },
+    "rtr-99": {
+        "title": "RTR 99",
+        "type": "audio/mpeg",
+        "url": "https://www.rtr99.it/",
+        "cros": false,
+        "stream": "https://rtr99.fluidstream.eu/rtr99.mp3",
+        "features": "/img/europe/italy/rtr-99.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rtr-99?time="
+    },
+    "centro-suono-sport-roma": {
+        "title": "Radio Centro Suono Sport (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.centrosuonosport.eu/",
+        "cros": true,
+        "stream": "http://streaming.centrosuono.com:8000/cssport.mp3",
+        "features": "/img/europe/italy/centro-suono-sport-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/centro-suono-sport-roma?time="
+    },
+    "104-5-roma": {
+        "title": "Radio Radio (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioradio.it/",
+        "cros": true,
+        "stream": "http://46.105.111.94:8102/stream",
+        "features": "/img/europe/italy/104-5-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/104-5-roma?time="
+    },
+    "company": {
+        "title": "Radio Company",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocompany.com",
+        "cros": false,
+        "stream": "https://sphera.fluidstream.eu/company.aac",
+        "features": "/img/europe/italy/company.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/company?time="
+    },
+    "piu-brescia": {
+        "title": "Radio Studio Piu (Brescia)",
+        "type": "audio/mpeg",
+        "url": "https://www.studiopiu.net/tvwebapp/",
+        "cros": false,
+        "stream": "https://ice.studiopiu.net/brescia.aac",
+        "features": "/img/europe/italy/piu-brescia.png"
+    },
+    "studio-delta": {
+        "title": "Studio Delta",
+        "type": "audio/mpeg",
+        "url": "https://www.radiostudiodelta.it/",
+        "cros": false,
+        "stream": "https://rsd.streamingmedia.it/play.mp3",
+        "features": "/img/europe/italy/studio-delta.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/studio-delta?time="
+    },
+    "mambo-roma": {
+        "title": "Radio Mambo (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://www.mambo.it/",
+        "cros": false,
+        "stream": "https://mambo.newradio.it/stream",
+        "features": "/img/europe/italy/mambo-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/mambo-roma?time="
+    },
+    "rock-roma": {
+        "title": "Radio Rock (Roma)",
+        "type": "audio/mpeg",
+        "url": "https://radiorock.it/",
+        "cros": false,
+        "stream": "https://rrock.fluidstream.eu/radiorock.aac?FLID=E",
+        "features": "/img/europe/italy/rock-roma.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/rock-roma?time="
+    },
+    "popolare": {
+        "title": "Radio Popolare",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopopolare.it/",
+        "cros": false,
+        "stream": "https://livex.radiopopolare.it/radiopop",
+        "features": "/img/europe/italy/popolare.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/popolare?time="
+    },
+    "r101": {
+        "title": "R101",
+        "type": "audio/mpeg",
+        "url": "https://www.r101.it/",
+        "cros": false,
+        "stream": "https://icecast.unitedradio.it/r101_mp3",
+        "features": "/img/europe/italy/r101.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/r101?time="
+    },
+    "rai-iso": {
+        "title": "Iso radio",
+        "type": "audio/mpeg",
+        "url": "https://www.raiplaysound.it/isoradio",
+        "cros": false,
+        "stream": "https://icestreaming.rai.it/6.mp3",
+        "features": "/img/europe/italy/rai-iso.png"
+    },
+    "105-classics": {
+        "title": "Radio 105 Classics",
+        "type": "audio/mpeg",
+        "url": "https://www.105.net/sezioni/755/105-classics",
+        "cros": false,
+        "stream": "https://icy.unitedradio.it/105Classics.mp3",
+        "features": "/img/europe/italy/105-classics.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/105-classics?time="
+    },
+    "lady": {
+        "title": "Lady Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.ladyradio.it/",
+        "cros": true,
+        "stream": "http://onair15.xdevel.com:9126/;",
+        "features": "/img/europe/italy/lady.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/lady?time="
+    },
+    "rete-sport": {
+        "title": "Rete Sport",
+        "type": "audio/mpeg",
+        "url": "https://www.retesport.it/",
+        "cros": false,
+        "stream": "https://icecast.ithost.it/retesport.ogg",
+        "features": "/img/europe/italy/rete-sport.png"
+    },
+    "italia": {
+        "title": "Radio Italia",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radioitalia.it/",
+        "cros": false,
+        "stream": "https://radioitaliasmi.akamaized.net/hls/live/2093120/RISMI/master.m3u8",
+        "features": "/img/europe/italy/italia.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/italia?time="
+    },
+    "cuore": {
+        "title": "Radio Cuore",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocuore.it/",
+        "cros": false,
+        "stream": "https://stream10.xdevel.com/audio32s975552-1839/stream/icecast.audio",
+        "features": "/img/europe/italy/cuore.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/cuore?time="
+    },
+    "peterpan-verona": {
+        "title": "Radio Peterpan (Verona)",
+        "type": "audio/mpeg",
+        "url": "https://www.piterpan.it/",
+        "cros": false,
+        "stream": "https://ice01.fluidstream.net/piterpan",
+        "features": "/img/europe/italy/peterpan-verona.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/peterpan-verona?time="
+    },
+    "bruno-pesaro": {
+        "title": "Radio Bruno (Pesaro)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiobruno.it/",
+        "cros": false,
+        "stream": "https://stream7.xdevel.com/audio4s975355-396/stream/icecast.audio",
+        "features": "/img/europe/italy/bruno-pesaro.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/bruno-pesaro?time="
+    },
+    "gamma-puglia": {
+        "title": "Gamma Puglia",
+        "type": "audio/mpeg",
+        "url": "http://www.radio-gamma.it/",
+        "cros": false,
+        "stream": "https://stream5.xdevel.com/audio0s975943-762/stream/icecast.audio",
+        "features": "/img/europe/italy/gamma-puglia.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/gamma-puglia?time="
+    },
+    "ciao": {
+        "title": "Radio Ciao",
+        "type": "audio/mpeg",
+        "url": "https://www.radiociao.com/",
+        "cros": false,
+        "stream": "https://onair11.xdevel.com/proxy/sc_ciao?mp=/;",
+        "features": "/img/europe/italy/ciao.png",
+        "schedule": "https://api.webrad.io/data/playlist/34/ciao?time="
+    },
+    "ondarossa": {
+        "title": "Radio Ondarossa",
+        "type": "audio/mpeg",
+        "url": "http://www.ondarossa.info/",
+        "cros": false,
+        "stream": "https://s.streampunk.cc/ondarossa.mp3",
+        "features": "/img/europe/italy/ondarossa.png"
+    }
+}

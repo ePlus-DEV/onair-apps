@@ -1,0 +1,994 @@
+{
+  "vov1": {
+    "title": "VOV 1",
+    "description": "VOV1 Radio là kênh phát thanh tổng hợp các tin tức thời sự, chính trị, ngoại giao, kinh tế, văn học nghệ thuật... mới nhất, trực thuộc đài phát thanh Việt Nam VOV, phát sóng 24/24h hàng ngày.",
+    "type": "application/x-mpegURL",
+    "category": "Thời sự",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://str.vov.gov.vn/vovlive/vov1vov5Vietnamese.sdp_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov1.png",
+    "streams": [
+      {
+        "url": "https://stream-cdn.vov.vn/live/vov1-audio_only.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV CDN"
+      },
+      {
+        "url": "https://stream.vovmedia.vn/vov1",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Media (legacy)"
+      }
+    ]
+  },
+  "vov2": {
+    "title": "VOV 2",
+    "description": "Hệ văn hóa - đời sống - khoa học VOV2 trực thuộc Đài tiếng nói Việt Nam, là kênh phát thanh quốc gia quốc gia, phát sóng 19 giờ/ ngày, tập trung vào các chương trình liên quan đến văn hóa, giáo dục và xã hội.",
+    "type": "application/x-mpegURL",
+    "category": "Văn Hóa - Xã Hội",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov2-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov2.png",
+    "streams": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vov2.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Live"
+      },
+      {
+        "url": "https://stream.vovmedia.vn/vov2",
+        "type": "audio/mpeg",
+        "cros": true,
+        "source": "alternative",
+        "label": "VOV Media (legacy)"
+      }
+    ]
+  },
+  "vov3": {
+    "title": "VOV 3",
+    "description": "VOV3 Radio là kênh phát thanh thuộc đài tiếng nói Việt Nam, cung cấp các chương trình liên quan đến âm nhạc trong nước và quốc tế, cũng như các thông tin cập nhật trong ngành giải trí.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://str.vov.gov.vn/vovlive/vov3.sdp_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov3.png",
+    "streams": [
+      {
+        "url": "https://media-audio.vov.vn/vov3.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Audio"
+      },
+      {
+        "url": "https://stream.vovmedia.vn/vov3",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Media (legacy)"
+      }
+    ]
+  },
+  "vov4": {
+    "title": "VOV 4 - Hồ Chí Minh",
+    "description": "Hệ phát thanh dân tộc VOV4 trực thuộc Đài phát thanh Việt Nam, chương trình quốc gia được phát thanh bằng 12 thứ tiếng dân tộc thiểu số nhằm phục vụ các thính giả là đồng bảo Việt Nam dân tộc thiểu số.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Dân Tộc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov4.png",
+    "streams": [
+      {
+        "url": "https://stream.vovmedia.vn/vov4hcm",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV4 TP.HCM (regional)"
+      }
+    ]
+  },
+  "vov4-tay-bac": {
+    "title": "VOV 4 - Tây Bắc",
+    "description": "Hệ phát thanh dân tộc VOV4 trực thuộc Đài phát thanh Việt Nam, chương trình quốc gia được phát thanh bằng 12 thứ tiếng dân tộc thiểu số nhằm phục vụ các thính giả là đồng bảo Việt Nam dân tộc thiểu số.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Dân Tộc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov4.png",
+    "streams": [
+      {
+        "url": "https://stream.vovmedia.vn/vov4tb",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV4 Tây Bắc (regional)"
+      }
+    ]
+  },
+  "vov4-tay-nguyen": {
+    "title": "VOV 4 - Tây Nguyên",
+    "description": "Hệ phát thanh dân tộc VOV4 trực thuộc Đài phát thanh Việt Nam, chương trình quốc gia được phát thanh bằng 12 thứ tiếng dân tộc thiểu số nhằm phục vụ các thính giả là đồng bảo Việt Nam dân tộc thiểu số.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Dân Tộc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov4.png",
+    "streams": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vov4.TayNguyen.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV4 Tây Nguyên (VOV Live)"
+      },
+      {
+        "url": "https://stream.vovmedia.vn/vov4tn",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV4 Tây Nguyên (regional)"
+      }
+    ]
+  },
+  "vov4-dong-bang-song-cuu-long": {
+    "title": "VOV 4 - Đồng bằng sông Cửu Long",
+    "description": "Hệ phát thanh dân tộc VOV4 trực thuộc Đài phát thanh Việt Nam, chương trình quốc gia được phát thanh bằng 12 thứ tiếng dân tộc thiểu số nhằm phục vụ các thính giả là đồng bảo Việt Nam dân tộc thiểu số.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Dân Tộc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov4-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov4.png"
+  },
+  "vov5": {
+    "title": "VOV 5",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://media-audio.vov.vn/vov5.sdp_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov5.png",
+    "streams": [
+      {
+        "url": "https://stream.vovmedia.vn/vov5",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Media (legacy)"
+      }
+    ]
+  },
+  "vov-english": {
+    "title": "VOV - English",
+    "description": "VOV5 English là một trong những kênh đầu tiên của Dịch vụ VOV5 hải ngoại, bắt đầu phát sóng vào ngày 7 tháng 9 năm 1945. Từ năm 1998, các chương trình tiếng Anh đã chính thức được phát trên FM cho cộng đồng nước ngoài tại Việt Nam và khán giả trong nước.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Dân Tộc",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://media-audio.vov.vn/vov247vov5English.sdp_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov-english.png",
+    "streams": [
+      {
+        "url": "https://stream.vovmedia.vn/vov247",
+        "type": "audio/mpeg",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Media (legacy)"
+      }
+    ]
+  },
+  "vov5-chinese": {
+    "title": "VOV 5 - Chinese",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "application/x-mpegURL",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov5-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-french": {
+    "title": "VOV 5 - French",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7011/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-german": {
+    "title": "VOV 5 - German",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7011/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-indonesian": {
+    "title": "VOV 5 - Indonesian",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7015/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-japanese": {
+    "title": "VOV 5 - Japanese",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7015/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-khmer": {
+    "title": "VOV 5 - Khmer",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7019/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-laotian": {
+    "title": "VOV 5 - Laotian",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7019/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-russian": {
+    "title": "VOV 5 - Russian",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7029/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov5-spanish": {
+    "title": "VOV 5 - Spanish",
+    "description": "VOV5 là chương trình phát thanh đối ngoại trực thuộc Đài tiếng Nói Việt Nam. VOV5 có các chương trình phát thanh bằng tiếng Anh, Tây Ban Nha, Pháp, Nga, Nhật Bản, Trung Quốc, Đức, Lào, Thái Lan, Campuchia, Indonesia và tiếng Việt dành cho kiều bào.",
+    "type": "audio/mpeg",
+    "category": "Ban Đối Ngoại",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7011/;stream/",
+    "features": "/img/asia/viet-nam/vov5.png"
+  },
+  "vov6": {
+    "title": "VOV 6 - Ban Văn học Nghệ thuật",
+    "description": "VOV 6 là kênh phát thanh chuyên biệt về văn học nghệ thuật, trực thuộc Đài tiếng nói Việt Nam. Kênh cung cấp các chương trình về văn học, nghệ thuật, âm nhạc và các thông tin văn hóa khác.",
+    "type": "audio/mpeg",
+    "category": "Ban Văn học - Nghệ thuật",
+    "url": "https://vov6.vov.vn",
+    "cros": false,
+    "stream": "https://stream.vovmedia.vn/vov6",
+    "features": "/img/asia/viet-nam/vov6.png"
+  },
+  "vov-247": {
+    "title": "VOV - Kênh tiếng Anh 24/7",
+    "description": "VOV - Kênh tiếng Anh 24/7",
+    "type": "application/x-mpegURL",
+    "category": "Ban Văn học - Nghệ thuật",
+    "url": "https://vov6.vov.vn",
+    "cros": false,
+    "stream": "https://stream-cdn.vov.vn/live/vov24_7-audio_only.m3u8",
+    "features": "/img/asia/viet-nam/vov-247.png",
+    "streams": [
+      {
+        "url": "https://media-audio.vov.vn/vov247vov5English.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Audio"
+      }
+    ]
+  },
+  "vov-gt-hcm": {
+    "title": "VOV Giao Thông TP.HCM",
+    "description": "VOV Giao thông TPHCM ra đời vào năm 2010, cùng với VOV Giao thông Hà Nội đã trở thành một người bạn đường tin cậy của các tài xế. Kênh tập trung vào việc tuyên truyền giao thông, thông tin cảnh báo nhằm giảm thiểu ùn tắc giao thông cũng như các chương trình giải trí khác.",
+    "type": "application/x-mpegURL",
+    "category": "Giao Thông",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://play.vovgiaothong.vn/live/gthcm/playlist.m3u8",
+    "stream_alternative": "https://stream.vovmedia.vn/vovgthcm",
+    "features": "/img/asia/viet-nam/vov-giao-thong.png",
+    "favorite": true,
+    "streams": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vovGTHCM.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Live"
+      }
+    ]
+  },
+  "vov-giao-thong": {
+    "title": "VOV Giao Thông Hà Nội",
+    "description": "Kênh VOV Giao Thông FM 91 MHz là kênh phát thanh thực tế đầu tiên tại Việt Nam, ra đời năm 2010, trực thuộc Đài tiếng nói Việt Nam. Kênh cung cấp các diễn biến giao thông đang xảy ra trên thực tế giúp các thính giả có cái nhìn toàn cảnh và chính xác nhất về giao thông.",
+    "type": "application/x-mpegURL",
+    "category": "Giao Thông",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://play.vovgiaothong.vn/live/gthn/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov-giao-thong-ha-noi.png",
+    "streams": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vovGTHN.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Live"
+      }
+    ]
+  },
+  "vov-mekong": {
+    "title": "VOV Mekong",
+    "description": "VOV Mekong là kênh phát thanh chuyên biệt về đời sống của đồng bào ở Đồng bằng sông Cửu Long phục vụ riêng cho 20 triệu thính giả ở 13 tỉnh, thành phố miền Tây Nam bộ. Với khu vực Đồng bằng Sông Cửu Long, trước đây, giao thông đường thuỷ là chủ yếu, nhưng hiện nay các tuyến đường bộ rất phát triển và nhu cầu di chuyển, cũng như thông tin về đường bộ cần được phổ biến tới người tham gia giao thông ở khu vực này; đồng thời, mang lại những thông tin hữu ích về giao thông, văn hoá, giải trí cũng như những thông tin về đời sống xã hội. Thời gian phát sóng VOV Mekong: Từ 0 giờ đến 24 giờ hàng ngày.",
+    "type": "application/x-mpegURL",
+    "category": "Giao Thông",
+    "url": "https://vov.vn",
+    "cros": false,
+    "stream": "https://play.vovgiaothong.vn/live/mekong/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vov-mekong.png",
+    "streams": [
+      {
+        "url": "https://str.vov.gov.vn/vovlive/vovgtMeKong.sdp_aac/playlist.m3u8",
+        "type": "application/x-mpegURL",
+        "cros": false,
+        "source": "alternative",
+        "label": "VOV Live"
+      }
+    ]
+  },
+  "vov-suc-khoe": {
+    "title": "VOV Sức Khỏe",
+    "description": "VOV FM89 là kênh phát thanh chuyên biệt với thông tin tin cậy, liên tục cập nhật, mới mẻ và hấp dẫn về các vấn đề liên quan đến sức khỏe, môi trường và an toàn vệ sinh thực phẩm.",
+    "type": "audio/mpeg",
+    "category": "Giao Thông",
+    "url": "https://vov.vn",
+    "cros": true,
+    "stream": "http://media.kythuatvov.vn:7021/;stream/",
+    "features": "/img/asia/viet-nam/vov-suc-khoe.png"
+  },
+  "voh-am-610khz": {
+    "title": "Đài tiếng nói nhân dân TP.HCM - AM 610KHZ",
+    "description": "Đài Tiếng nói Nhân dân Thành phố Hồ Chí Minh, là đài phát thanh của Thành phố Hồ Chí Minh và trực thuộc Ủy ban Nhân dân Thành phố Hồ Chí Minh, thành lập theo quyết định số 55/ GP-TTĐT cấp ngày 02/10/2014 của Cục Phát thành Truyền hình và Thông tin điện tử - Bộ Thông tin và Truyền thông.",
+    "type": "application/x-mpegURL",
+    "category": "VOH - AM 610KHZ",
+    "url": "https://voh.com.vn",
+    "cros": false,
+    "stream": "https://strm.voh.com.vn/radio/channel2/playlist.m3u8",
+    "features": "/img/asia/viet-nam/voh.png"
+  },
+  "voh-fm-99.9-mhz": {
+    "title": "Đài tiếng nói nhân dân TP.HCM - FM 99.9 MHZ",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "VOH - FM 99.9 MHZ",
+    "url": "https://voh.com.vn",
+    "cros": false,
+    "stream": "https://strm.voh.com.vn/radio/channel3/playlist.m3u8",
+    "features": "/img/asia/viet-nam/voh-fm.png"
+  },
+  "voh-fm-95.6-mhz": {
+    "title": "Đài tiếng nói nhân dân TP.HCM - FM 95.6 MHZ",
+    "description": "Kênh VOH FM 95.6 MHz của Đài Tiếng nói Nhân dân Thành phố Hồ Chí Minh, phát thanh thời sự, đời sống và âm nhạc.",
+    "type": "application/x-mpegURL",
+    "category": "VOH - FM 95.6 MHZ",
+    "url": "https://voh.com.vn/radio/kenh-fm-956-02221123001000956.html",
+    "cros": false,
+    "stream": "https://1011337676.vnns.net/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1cmkiOiIvaHR2Yy9WT0gtRk05NS42LmFkbS50bXMvIiwiZXhwIjoxOTI0OTI1MjI4fQ.isr2nlUkXOPGSxT-KT8FcZQFCcXn58RZrCyqoB3zDGg-/htvc/VOH-FM95.6.adm.tms/playlist.m3u8",
+    "features": "/img/asia/viet-nam/voh-fm-95-6.png"
+  },
+  "voh-fm-87.7-mhz": {
+    "title": "Đài tiếng nói nhân dân TP.HCM - FM 87.7 MHZ",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "VOH - FM 87.7 MHZ",
+    "url": "https://voh.com.vn",
+    "cros": false,
+    "stream": "https://strm.voh.com.vn/live/channel5/playlist.m3u8",
+    "features": "/img/asia/viet-nam/voh-87-7-mhz.png"
+  },
+  "ba-ria-vung-tau": {
+    "title": "Bà Rịa-Vũng Tàu",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Bà Rịa-Vũng Tàu",
+    "url": "http://brt.vn",
+    "cros": false,
+    "stream": "https://1288926866.pop.vnptcdn.com/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjdiYjA5MDg5LTQxOWQtNGI1Ny1hYTIzLTdlMTY2YjEyZDJhNyIsImV4cCI6MTcyNjgyMDgzMiwidXJpIjoiL3JhZGlvYnJ0IiwiaWF0IjoxNzI2Nzk5MjMyfQ.cQkFYM8n-cKIe4qs6eDdke4ZO0fhx4aaux1odKKtJoQ-/radiobrt/playlist.m3u8",
+    "features": "/img/asia/viet-nam/ba-ria-vung-tau.png"
+  },
+  "binh-phuoc": {
+    "title": "Bình Phước",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Bình Phước",
+    "url": "http://bptv.vn",
+    "cros": false,
+    "stream": "https://live.baobinhphuoc.com.vn/bptvlive/radio.m3u8",
+    "features": "/img/asia/viet-nam/binh-phuoc.png"
+  },
+  "binh-thuan": {
+    "title": "Bình Thuận",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Bình Thuận",
+    "url": "http://binhthuantv.vn",
+    "cros": false,
+    "stream": "https://64d0d74b76158.streamlock.net/BTVTV/binhthuantv/playlist.m3u8",
+    "features": "/img/asia/viet-nam/binh-thuan.png"
+  },
+  "ca-mau": {
+    "title": "Cà Mau",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Cà Mau",
+    "url": "http://ctvcamau.vn",
+    "cros": true,
+    "stream": "http://tv.ctvcamau.vn/live/radio/radio.m3u8",
+    "features": "/img/asia/viet-nam/ca-mau.png"
+  },
+  "can-tho": {
+    "title": "Cần Thơ",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Cần Thơ",
+    "url": "http://canthotv.vn",
+    "cros": true,
+    "stream": "https://live.canthotv.vn/live/radio/playlist.m3u8",
+    "features": "/img/asia/viet-nam/can-tho.png"
+  },
+  "da-nang": {
+    "title": "Đà Nẵng",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Đà Nẵng",
+    "url": "http://www.drt.danang.vn/",
+    "cros": false,
+    "stream": "https://live.mediatech.vn/live/2858a998b1c7fbf4522accd5554588ceae3/playlist.m3u8",
+    "features": "/img/asia/viet-nam/da-nang.png"
+  },
+  "ha-noi": {
+    "title": "Hà Nội - FM96",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Hà Nội - FM96",
+    "url": "http://hanoitv.vn",
+    "cros": true,
+    "stream": "https://cloudstreamhntv.tek4tv.vn/audio/fm96/playlist.m3u8",
+    "features": "/img/asia/viet-nam/ha-noi.png",
+    "schedule": "https://hncaching.tek4tv.vn/api/Playlist/json/FM96_"
+  },
+  "ha-noi-joyfm": {
+    "title": "Hà Nội - JOYFM",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Hà Nội - JOYFM",
+    "url": "http://hanoitv.vn",
+    "cros": true,
+    "stream": "http://cdn.mediatech.vn/hntvRadio/joyfm.stream_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/joy.png"
+  },
+  "ha-noi-fm90": {
+    "title": "Hà Nội - FM90",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Hà Nội - FM90",
+    "url": "http://hanoitv.vn",
+    "cros": true,
+    "stream": "https://cloudstreamhntv.tek4tv.vn/audio/thhnfm90/playlist.m3u8",
+    "features": "/img/asia/viet-nam/fm90.png",
+    "schedule": "https://hncaching.tek4tv.vn/api/Playlist/json/FM90_"
+  },
+  "hai-duong": {
+    "title": "Hải Dương",
+    "description": "",
+    "type": "audio/mpeg",
+    "category": "Hải Dương",
+    "url": "http://haiduongtv.com.vn",
+    "cros": true,
+    "stream": "http://113.160.131.11:8000",
+    "features": "/img/asia/viet-nam/hai-duong.png"
+  },
+  "khanh-hoa": {
+    "title": "Khánh Hòa",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Khánh Hòa",
+    "url": "http://ktv.org.vn",
+    "cros": true,
+    "stream": "http://210.245.20.94/hls/radio.m3u8",
+    "features": "/img/asia/viet-nam/khanh-hoa.png"
+  },
+  "kien-giang": {
+    "title": "Kiên Giang",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Kiên Giang",
+    "url": "http://kgtv.vn",
+    "cros": true,
+    "stream": "http://tv.kgtv.vn/live/kgaudio/kgaudio.m3u8",
+    "features": "/img/asia/viet-nam/kien-giang.png"
+  },
+  "ninh-binh": {
+    "title": "Ninh Bình",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Ninh Bình",
+    "url": "http://nbtv.vn",
+    "cros": false,
+    "stream": "https://live.mediatech.vn/live/285391a08f01f83458793b293c5e9517265/playlist.m3u8",
+    "features": "/img/asia/viet-nam/ninh-binh.png"
+  },
+  "soc-trang": {
+    "title": "Sóc Trăng",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Sóc Trăng",
+    "url": "http://thst.vn",
+    "cros": false,
+    "stream": "https://pa.thst.vn/liveevent.m3u8",
+    "features": "/img/asia/viet-nam/soc-trang.png"
+  },
+  "thua-thien-hue": {
+    "title": "Thừa Thiên Huế",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Thừa Thiên Huế",
+    "url": "http://trt.com.vn",
+    "cros": true,
+    "stream": "https://live.trt.com.vn/Radio-online/playlist.m3u8",
+    "features": "/img/asia/viet-nam/thua-thien-hue.png"
+  },
+  "bac-giang": {
+    "title": "Bắc Giang",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Bắc Giang",
+    "url": "http://bacgiangtv.vn",
+    "cros": false,
+    "time": "Từ 5h - 22h",
+    "stream": "https://1253668792.e.cdneverest.net/ATB_yL1dYV70aHVjkAIH8A/1726846140/live/28584e20827396945f5a4fd57fadd4be21a/playlist.m3u8 ",
+    "features": "/img/asia/viet-nam/bac-giang.png",
+    "schedule": "https://bacgiangtv.vn/schedule/audio/1726802940"
+  },
+  "ha-tinh": {
+    "title": "Hà Tĩnh",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Hà Tĩnh",
+    "url": "http://hatinhtv.vn",
+    "cros": false,
+    "time": "Từ 6h - 18h",
+    "stream": "https://wse.hatinhtv.net/radio/voht/playlist.m3u8",
+    "features": "/img/asia/viet-nam/ha-tinh.png",
+    "schedule": "https://hatinhtv.vn/api/schedule?type=radio&date_="
+  },
+  "phu-yen": {
+    "title": "Phú Yên",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Phú Yên",
+    "url": "http://ptpphuyen.vn",
+    "cros": true,
+    "time": "Chưa rõ",
+    "stream": "http://113.161.4.48:8080/phuyen/tv/index.m3u8",
+    "features": "/img/asia/viet-nam/phu-yen.png"
+  },
+  "tien-giang": {
+    "title": "Tiền Giang 96.2 FM",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Tiền Giang 96.2 FM",
+    "url": "http://thtg.vn",
+    "cros": true,
+    "time": "Chưa rõ",
+    "stream": "http://123.25.238.45:1935/vod/mp4:Huy%20ok%20PHAT%20TOI%2027-12-2023%20CAY%20LANH%20TRAI%20NGOT%20_%20KHO%20QUA.mp4/playlist.m3u8",
+    "features": "/img/asia/viet-nam/tien-giang.png"
+  },
+  "ben-tre": {
+    "title": "Bến Tre",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Bến Tre",
+    "url": "http://thbt.vn",
+    "cros": false,
+    "time": "Từ 5h - 22h30",
+    "stream": "https://1288865415.pop.vnptcdn.com/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImFhYWM0MWE2LWJhN2MtNGZiYS1hZWU2LWZjZWY2MzBlMWU4ZiIsImV4cCI6MTcyNjgyNzQ5NSwidXJpIjoiL2JlbnRyZS1GTS5hZG0uNDgwcC50bXMiLCJpYXQiOjE3MjY4MDU4OTV9.JIIAdH5MaKZTLpI402YirUV9VzOuyBN66m9TlH8sujk-/bentre-FM.adm.480p.tms/playlist.m3u8",
+    "features": "/img/asia/viet-nam/ben-tre.png"
+  },
+  "dong-thap": {
+    "title": "Đồng Tháp",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Đồng Tháp",
+    "url": "https://thdt.vn",
+    "cros": true,
+    "time": "Từ 5h - 20h",
+    "stream": "https://64d0d74b76158.streamlock.net/THDTR/thdtradio/playlist.m3u8",
+    "features": "/img/asia/viet-nam/dong-thap.png",
+    "schedule": "https://quantri.thdt.vn/wp-json/wp/v2/get-schedule?date_start=20-09-2024&date_end=20-09-2024&type=1"
+  },
+  "gia-lai": {
+    "title": "Gia Lai",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Gia Lai",
+    "url": "http://gialaitv.vn",
+    "cros": true,
+    "time": "Từ 5h30 - 23h",
+    "schedule": false,
+    "stream": "https://tv.gialaitv.vn/radio.m3u8",
+    "features": "/img/asia/viet-nam/gia-lai.png"
+  },
+  "thai-binh": {
+    "title": "Thái Bình",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Thái Bình",
+    "url": "http://thaibinhtv.vn",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": true,
+    "stream": "http://118.70.118.191:1935/tbtvlive/radio/playlist.m3u8",
+    "features": "/img/asia/viet-nam/thai-binh.png"
+  },
+  "vinh-long": {
+    "title": "Vĩnh Long",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Vĩnh Long",
+    "url": "https://www.thvl.vn",
+    "cros": false,
+    "time": "Chưa rõ",
+    "schedule": "https://api-ott.admon.com.vn/api/tenant/thvli/epg/7bf43e25-e9e9-4aa6-8554-38de13c5263d/?play-date=2024-09-20",
+    "stream": "https://catchup.thvli.vn/-eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjkzOGIyNmI1LWZiZTgtNDIwYy1iMWJiLTgwMzA0OTBmODE4ZCIsImV4cCI6MTcyNjgyNzkxNywidXJpIjoiL3JhZGlvIiwiaWF0IjoxNzI2ODA2MzE3fQ.8bSA03iwZCvTejPLhF558wATB6wxDIa2GC5eGr_aZWg-/radio/playlist.m3u8",
+    "features": "/img/asia/viet-nam/vinh-long.png"
+  },
+  "dong-nai": {
+    "title": "Đồng Nai - 97.5MHz",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Đồng Nai - 97.5MHz",
+    "url": "http://dnrtv.org.vn",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "http://118.107.85.5:1935/radio/dongnai_aac/playlist.m3u8",
+    "features": "/img/asia/viet-nam/dong-nai.png"
+  },
+  "qnr1": {
+    "title": "Radio Quảng Ninh QNR1",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Radio Quảng Ninh QNR1",
+    "url": "https://baoquangninh.vn/phat-thanh?c=radio1",
+    "cros": false,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "https://live.baoquangninh.vn/qtvlive/qnr1.m3u8",
+    "features": "/img/asia/viet-nam/qnr1.png"
+  },
+  "qnr2": {
+    "title": "Radio Quảng Ninh QNR2",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Radio Quảng Ninh QNR1",
+    "url": "https://baoquangninh.vn/phat-thanh?c=radio2",
+    "cros": false,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "https://live.baoquangninh.vn/qtvlive/qnr2.m3u8",
+    "features": "/img/asia/viet-nam/qnr2.png"
+  },
+  "tay-ninh": {
+    "title": "Radio Tây Ninh",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Radio",
+    "url": "http://ttv11.vn/",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "http://202.43.109.142:1935/radio11/tnradio/playlist.m3u8",
+    "features": "/img/asia/viet-nam/tay-ninh.png"
+  },
+  "nhk-vietnam": {
+    "title": "NHK - Việt Nam",
+    "description": "NHK là hãng truyền hình - phát thanh công cộng Nhật Bản, Radio NHK Việt Nam thuộc NHK World, cung cấp các chương trình tin tức, giải trí Nhật Bản khách quan bằng tiếng Việt dành cho các thính giả Việt Nam.",
+    "type": "application/x-mpegURL",
+    "category": "NHK",
+    "url": "http://www3.nhk.or.jp/nhkworld/vi/",
+    "cros": false,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "https://nhkworld.webcdn.stream.ne.jp/www11/radiojapan/all/263949/live_s.m3u8",
+    "features": "/img/asia/viet-nam/nhk-vietnam.png"
+  },
+  "m-radio": {
+    "title": "M Radio Việt Nam",
+    "description": "nhac vang bolero 2021",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "Chưa rõ",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": true,
+    "stream": "https://node-33.zeno.fm/4q7y9hvkp2zuv",
+    "features": "/img/asia/viet-nam/m-radio.png"
+  },
+  "cai-luong-viet-nam": {
+    "title": "Cải Lương Việt Nam",
+    "description": "Cải Lương Việt Nam",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "Chưa rõ",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": true,
+    "stream": "https://node-15.zeno.fm/0trm6wrnga0uv",
+    "features": "/img/asia/viet-nam/cai-luong-viet-nam.png"
+  },
+  "pre-1975": {
+    "title": "Pre 1975",
+    "description": "Pre 1975",
+    "type": "audio/mpeg",
+    "category": "Âm nhạc",
+    "url": "Chưa rõ",
+    "cros": true,
+    "time": "Chưa rõ",
+    "schedule": false,
+    "stream": "https://node-11.zeno.fm/x2z45v7d84zuv",
+    "features": "/img/asia/viet-nam/pre-1975.png"
+  },
+  "xone-fm-96-mhz": {
+    "title": "Xone FM 96MHz",
+    "description": "",
+    "type": "application/x-mpegURL",
+    "category": "Xone FM 96MHz",
+    "url": "https://xonefm.com",
+    "cros": false,
+    "time": "Chưa rõ",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97CZZ&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97CZZ&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/TgLpe29pVg0/zhls/playback-realtime/e75e51f26db784e9dda6/index.m3u8",
+    "features": "/img/asia/viet-nam/xone.png"
+  },
+  "edm-radio-zing-mp3": {
+    "title": "EDM Radio - Zing MP3",
+    "description": "Đây là 'sàn' EDM. Các bạn đã sẵn sàng chưa? Nhạc lên rồi, cùng nhảy thôi!",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ9799A.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ9799A&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ9799A&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/lupi_x8-Su4/zhls/playback-realtime/7386bb2a876f6e31377e/index.m3u8",
+    "features": "/img/asia/viet-nam/edm-radio-zing-mp3.png"
+  },
+  "cham-radio-zing-mp3": {
+    "title": "Chạm Radio - Zing MP3",
+    "description": "Chạm - Nơi chia sẻ cảm xúc qua âm nhạc. Cảm xúc thăng hoa cùng Chạm Series 21:00 thứ ba và thứ bảy. Tâm tình với thính giả cùng Chạm x Bạn 21:00 thứ sáu.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979C8.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979C8&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979C8&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/eHjZAdAk-sk/zhls/playback-realtime/59a2ee0ed24b3b15625a/index.m3u8",
+    "features": "/img/asia/viet-nam/cham-radio-zing-mp3.png"
+  },
+  "vpop-radio-zing-mp3": {
+    "title": "V-POP Radio - Zing MP3",
+    "description": "Nhạc Việt thời nay, rất hay ho và này nọ!",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979UB.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979UB&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979UB&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/odi6UBatld4/zhls/playback-realtime/6ddadf76e3330a6d5322/index.m3u8",
+    "features": "/img/asia/viet-nam/vpop-radio-zing-mp3.png"
+  },
+  "bolero-zing-mp3": {
+    "title": "Bolero Radio - Zing MP3",
+    "description": "Dành tặng bạn, những tuyệt phẩm nhạc trữ tình và bolero hay nhất mọi thời đại.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979ZI.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979ZI&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979ZI&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/ioZs7yhxUxk/zhls/playback-realtime/5bace800d4453d1b6454/index.m3u8",
+    "features": "/img/asia/viet-nam/bolero-zing-mp3.png"
+  },
+  "us-uk-radio-zing-mp3": {
+    "title": "US-UK Radio - Zing MP3",
+    "description": "Nhạc hay từ Âu đến Mỹ, cùng Zing MP3 khám phá xem thế giới đang nghe gì.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ97A0W.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97A0W&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97A0W&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/-XosZVJX9XA/zhls/playback-realtime/f49e38320477ed29b466/index.m3u8",
+    "features": "/img/asia/viet-nam/us-uk-radio-zing-mp3.png"
+  },
+  "kpop-radio-zing-mp3": {
+    "title": "K-POP Radio - Zing MP3",
+    "description": "Fan K-POP mau bơi hết vào đây nào các bạn !!!",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979UC.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979UC&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979UC&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/GCLGhc52LhE/zhls/playback-realtime/d01d1db121f4c8aa91e5/index.m3u8",
+    "features": "/img/asia/viet-nam/kpop-radio-zing-mp3.png"
+  },
+  "c-pop-zing-mp3": {
+    "title": "C-Pop Radio - Zing MP3",
+    "description": "Âm nhạc Trung Hoa từ xưa đến nay, từ cổ phong cho đến C-Pop.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ9798C.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ9798C&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ9798C&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/_TAVBRh_ce4/zhls/playback-realtime/97b35e1f625a8b04d24b/index.m3u8",
+    "features": "/img/asia/viet-nam/c-pop-zing-mp3.png"
+  },
+  "pladio-zing-mp3": {
+    "title": "Pladio - Zing MP3",
+    "description": "Live 247 - Nghe ngày nghe đêm",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ97CWB.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97CWB&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97CWB&time=",
+    "stream": "https://mplaylist-zmp3.zmdcdn.me/8uNEocw6tdc/zhls/live/50efc937f5721c2c4563/index.m3u8",
+    "features": "/img/asia/viet-nam/pladio-zing-mp3.png"
+  },
+  "nhac-khong-loi-zing-mp3": {
+    "title": "Radio nhạc không lời - Zing MP3",
+    "description": "Radio nhạc không lời",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ97B9E.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97B9E&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97B9E&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/4WEUr_3aq8I/zhls/playback-realtime/1f36d59ae9df008159ce/index.m3u8",
+    "features": "/img/asia/viet-nam/nhac-khong-loi-zing-mp3.png"
+  },
+  "indie-zing-mp3": {
+    "title": "Radio Indie - Zing MP3",
+    "description": "Đây là trạm sạc Indie. Cùng Zing MP3 mang đến những ca khúc giúp bạn sạc pin cho trái tim.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979BC.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979BC&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979BC&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/VV55kkJD6Qo/zhls/playback-realtime/eeff2a531616ff48a607/index.m3u8",
+    "features": "/img/asia/viet-nam/indie-zing-mp3.png"
+  },
+  "nhac-buon-zing-mp3": {
+    "title": "Nhạc Buồn - Zing MP3",
+    "description": "Nhạc Buồn",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ97BCA.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97BCA&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97BCA&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/j5nGEkZnzhI/zhls/playback-realtime/ed3a51e16da484faddb5/index.m3u8",
+    "features": "/img/asia/viet-nam/nhac-buon-zing-mp3.png"
+  },
+  "chill-zing-mp3": {
+    "title": "Chill - Zing MP3",
+    "description": "Không ồn ã, không vội vàng, thả mình vào những bản nhạc nhẹ nhàng có ở đây.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979CB.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZBDE9C&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979CB&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/lFasDfrbcZ4/zhls/playback-realtime/3d19fdb5c1f028ae71e1/index.m3u8",
+    "features": "/img/asia/viet-nam/chill-zing-mp3.png"
+  },
+  "acoustic-radio-zing-mp3": {
+    "title": "Acoustic Radio - Zing MP3",
+    "description": "Nếu đang tìm chút mộc mạc, hãy nghe Acoustic playlist mà Zing MP3 đã chuẩn bị cho bạn.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979C0.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979C0&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979C0&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/AiekixzmitQ/zhls/playback-realtime/9b7b55d7699280ccd983/index.m3u8",
+    "features": "/img/asia/viet-nam/acoustic-radio-zing-mp3.png"
+  },
+  "rap-viet-radio-zing-mp3": {
+    "title": "Rap Việt Radio - Zing MP3",
+    "description": "Ở đây có rap Việt mới nhất, chất nhất cho bạn cháy hết mình!",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ97996.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ97996&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ97996&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/XHOosOJ-f8g/zhls/playback-realtime/cef1015d3d18d4468d09/index.m3u8",
+    "features": "/img/asia/viet-nam/rap-viet-radio-zing-mp3.png"
+  },
+  "the-one-radio-zing-mp3": {
+    "title": "The One Radio - Zing MP3",
+    "description": "The One Radio - Kênh giải trí âm nhạc quốc gia. Nơi đăng tải các chương trình radio như After work - sau giờ làm, Chuyến bay sáng, Những giai điệu ủi an, Gieo mầm yêu thương,... với sự dẫn dắt của các MC hoạt ngôn, vui tính.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979DW.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979DW&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979DW&time=",
+    "stream": "https://mplaylist-zmp3.zadn.vn/qm_zvfUgxa8/zhls/live/5c0872cf4e8aa7d4fe9b/index.m3u8",
+    "features": "/img/asia/viet-nam/the-one-radio-zing-mp3.png"
+  },
+  "nhac-thieu-nhi-zing-mp3": {
+    "title": "Nhạc Thiếu Nhi - Zing MP3",
+    "description": "Không chỉ là giai điệu tạo nên niềm vui cho trẻ nhỏ. Đây còn là mảnh ghép tuổi thơ của người lớn.",
+    "type": "application/x-mpegURL",
+    "category": "Âm nhạc",
+    "url": "https://zingmp3.vn/liveradio/IWZ979D9.html",
+    "cros": false,
+    "time": "24/7",
+    "info": "https://zing.eplus.dev/api/live-stream-info?id=IWZ979D9&time=",
+    "schedule": "https://zing.eplus.dev/api/live-stream-program-list?id=IWZ979D9&time=",
+    "stream": "https://multi-playlist-zmp3.zmdcdn.me/UKk_cQEl314/zhls/playback-realtime/ef512afd16b8ffe6a6a9/index.m3u8",
+    "features": "/img/asia/viet-nam/nhac-thieu-nhi-zing-mp3.png"
+  }
+}

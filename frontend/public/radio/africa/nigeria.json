@@ -1,0 +1,341 @@
+{
+    "max": {
+        "title": "Max",
+        "type": "audio/mpeg",
+        "url": "https://www.max1023.fm/",
+        "cros": false,
+        "stream": "https://audiohq.gridpapaservers.com:2000/system/proxy.php?unique_id=MAXLAGOS",
+        "features": "/img/africa/nigeria/max.png",
+        "favorite": true
+    },
+    "smooth": {
+        "title": "Smooth",
+        "type": "audio/mpeg",
+        "url": "https://smooth981.fm/",
+        "cros": true,
+        "stream": "http://smoothlive.smooth981.fm:8000/smoothlivefm128",
+        "features": "/img/africa/nigeria/smooth.png"
+    },
+    "inspiration": {
+        "title": "Inspiration",
+        "type": "audio/mpeg",
+        "url": "https://ifm923.com/",
+        "cros": false,
+        "stream": "https://servoserver.com.ng/ifmlagoslive/live.mp3",
+        "features": "/img/africa/nigeria/inspiration.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/inspiration?time="
+    },
+    "freedom": {
+        "title": "Freedom Radio",
+        "type": "audio/mpeg",
+        "url": "https://freedomradionig.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/t8bhnmek8mzuv",
+        "features": "/img/africa/nigeria/freedom.png"
+    },
+    "nigeria": {
+        "title": "Radio Nigeria",
+        "type": "audio/mpeg",
+        "url": "https://radionigeria.gov.ng/",
+        "cros": false,
+        "stream": "https://radiohq.radioca.st/stream/1/",
+        "features": "/img/africa/nigeria/nigeria.png"
+    },
+    "splash": {
+        "title": "Splash",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://edge.mixlr.com/channel/cfeki",
+        "features": "/img/africa/nigeria/splash.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/splash?time="
+    },
+    "fresh-105-9": {
+        "title": "Fresh FM (Ibadan)",
+        "type": "audio/mpeg",
+        "url": "https://zeno.fm/radio/fresh1059fm/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/e9x2n97b9uduv",
+        "features": "/img/africa/nigeria/fresh-105-9.png"
+    },
+    "royal-fm": {
+        "title": "Radio Royal",
+        "type": "audio/mpeg",
+        "url": "http://royaltimes.net/",
+        "cros": true,
+        "stream": "http://197.210.166.122:8000/stream",
+        "features": "/img/africa/nigeria/royal-fm.png"
+    },
+    "rahma": {
+        "title": "Rahma Radio",
+        "type": "audio/mpeg",
+        "url": "https://rahmatv.com/",
+        "cros": false,
+        "stream": "https://cast1.my-control-panel.com/proxy/salim1/stream",
+        "features": "/img/africa/nigeria/rahma.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/rahma?time="
+    },
+    "magic": {
+        "title": "Magic FM Aba",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://radio.ifastekpanel.com:1560/stream",
+        "features": "/img/africa/nigeria/magic.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/magic?time="
+    },
+    "kapital-fm": {
+        "title": "Kapital FM",
+        "type": "audio/mpeg",
+        "url": "https://kapitalfm.gov.ng/",
+        "cros": false,
+        "stream": "https://radionghq.radioca.st/stream/1/",
+        "features": "/img/africa/nigeria/kapital-fm.png"
+    },
+    "brila-fm": {
+        "title": "Brila FM",
+        "type": "audio/mpeg",
+        "url": "https://www.brila.net/",
+        "cros": false,
+        "stream": "https://ice31.securenetsystems.net/BRILAMP3",
+        "features": "/img/africa/nigeria/brila-fm.png"
+    },
+    "ibadan": {
+        "title": "Radio Nigeria (Ibadan)",
+        "type": "audio/mpeg",
+        "url": "https://www.radionigeriafm.com/",
+        "cros": false,
+        "stream": "https://eu8.fastcast4u.com/proxy/amuludun?mp=/stream/1/",
+        "features": "/img/africa/nigeria/ibadan.png"
+    },
+    "rfi": {
+        "title": "RFI Hausa",
+        "type": "audio/mpeg",
+        "url": "https://www.rfi.fr/ha/",
+        "cros": false,
+        "stream": "https://rfienhaoussa64k.ice.infomaniak.ch/rfienhaoussa-64.mp3",
+        "features": "/img/africa/nigeria/rfi.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/rfi?time="
+    },
+    "top": {
+        "title": "Top Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://servoserver.com.ng/topradiolive/live.mp3",
+        "features": "/img/africa/nigeria/top.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/top?time="
+    },
+    "space-fm-901": {
+        "title": "Space FM (Ibadan)",
+        "type": "audio/mpeg",
+        "url": "https://thespacefm.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/79hmhafteg0uv",
+        "features": "/img/africa/nigeria/space-fm-901.png"
+    },
+    "liveway": {
+        "title": "Liveway Radio",
+        "type": "audio/mpeg",
+        "url": "https://liveway.tv/",
+        "cros": false,
+        "stream": "https://ice7.securenetsystems.net/LIVEWAY",
+        "features": "/img/africa/nigeria/liveway.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/liveway?time="
+    },
+    "gospel": {
+        "title": "Nigeria Gospel Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.nigeriangospelradio.com/under/",
+        "cros": true,
+        "stream": "http://pipe.ukprostream.com:8090/stream/1/",
+        "features": "/img/africa/nigeria/gospel.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/gospel?time="
+    },
+    "metro": {
+        "title": "Metro",
+        "type": "audio/mpeg",
+        "url": "https://radionigerialagos.gov.ng/metrofm/",
+        "cros": false,
+        "stream": "https://go.webgateready.com/metrofm",
+        "features": "/img/africa/nigeria/metro.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/metro?time="
+    },
+    "liberty-kaduna": {
+        "title": "Liberty Radio (Kaduna)",
+        "type": "audio/mpeg",
+        "url": "https://libertytvradio.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/sh70ask7da5tv",
+        "features": "/img/africa/nigeria/liberty-kaduna.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/liberty-kaduna?time="
+    },
+    "dala-fm": {
+        "title": "Dala FM",
+        "type": "audio/mpeg",
+        "url": "https://dalafmkano.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/snv2nevx7k0uv",
+        "features": "/img/africa/nigeria/dala-fm.png"
+    },
+    "rhythm": {
+        "title": "Rhythm",
+        "type": "application/x-mpegURL",
+        "url": "https://rhythm937.com/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/rhythmfmlagos/playlist.m3u8",
+        "features": "/img/africa/nigeria/rhythm.png"
+    },
+    "osbc-104-5": {
+        "title": "Radio OSBC FM",
+        "type": "audio/mpeg",
+        "url": "https://osbcng.org/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/25h1zhpwpfhvv",
+        "features": "/img/africa/nigeria/osbc-104-5.png"
+    },
+    "today-fm": {
+        "title": "Today",
+        "type": "audio/mpeg",
+        "url": "https://www.todayfmlive.com/",
+        "cros": true,
+        "stream": "http://199.115.115.71:10042/stream/1/",
+        "features": "/img/africa/nigeria/today-fm.png"
+    },
+    "rockcity": {
+        "title": "RockCity FM",
+        "type": "audio/mpeg",
+        "url": "https://rockcityfmradio.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/g6qax5vq0v8uv",
+        "features": "/img/africa/nigeria/rockcity.png"
+    },
+    "itv-benin": {
+        "title": "ITV",
+        "type": "audio/mpeg",
+        "url": "https://www.itvradiong.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/61udqk39d4duv",
+        "features": "/img/africa/nigeria/itv-benin.png"
+    },
+    "19ja": {
+        "title": "Radio Africana",
+        "type": "audio/mpeg",
+        "url": "https://radioafricana.com/",
+        "cros": false,
+        "stream": "https://radioafricana.radioca.st/stream/1/",
+        "features": "/img/africa/nigeria/19ja.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/19ja?time="
+    },
+    "africa-business": {
+        "title": "Africa Business Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/zmmzwfqsty8uv",
+        "features": "/img/africa/nigeria/africa-business.png"
+    },
+    "voice-of-nigeria": {
+        "title": "Voice of Nigeria",
+        "type": "audio/mpeg",
+        "url": "https://von.gov.ng/",
+        "cros": true,
+        "stream": "http://vonradiolive.com:8000/stream/1/",
+        "features": "/img/africa/nigeria/voice-of-nigeria.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/voice-of-nigeria?time="
+    },
+    "soundcity-lagos": {
+        "title": "Soundcity Radio (Lagos)",
+        "type": "audio/mpeg",
+        "url": "https://soundcity.tv/radio/",
+        "cros": true,
+        "stream": "http://stream.group8.africa:44001/soundcityfmlag",
+        "features": "/img/africa/nigeria/soundcity-lagos.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/soundcity-lagos?time="
+    },
+    "dream": {
+        "title": "Dream 92.5 FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://server.radiobase.co/dreamfm",
+        "features": "/img/africa/nigeria/dream.png"
+    },
+    "lagos-jump": {
+        "title": "Lagos Jump Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.lagosjumpradio.com/",
+        "cros": false,
+        "stream": "https://radio.lagosjumpradio.com/listen/lagosjump_radio/radio.mp3",
+        "features": "/img/africa/nigeria/lagos-jump.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/lagos-jump?time="
+    },
+    "empire-fm": {
+        "title": "Empire FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/9ud039u7gseuv",
+        "features": "/img/africa/nigeria/empire-fm.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/empire-fm?time="
+    },
+    "lagos-93": {
+        "title": "Hot FM (Lagos)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://streamer.radio.co/sa15bfd95d/listen",
+        "features": "/img/africa/nigeria/lagos-93.png"
+    },
+    "prince": {
+        "title": "Prince FM Radio (Ibadan)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://cast5.my-control-panel.com/proxy/princefm?mp=/stream/1/",
+        "features": "/img/africa/nigeria/prince.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/prince?time="
+    },
+    "cfaith": {
+        "title": "Cfaith Radio",
+        "type": "audio/mpeg",
+        "url": "https://cfaithradio.com/",
+        "cros": false,
+        "stream": "https://cfaith.radioca.st/stream/1/",
+        "features": "/img/africa/nigeria/cfaith.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/cfaith?time="
+    },
+    "praiseworld": {
+        "title": "Praiseworld Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.praiseworldradio.com/",
+        "cros": false,
+        "stream": "https://streaming.radio.co/s7dc18f0ad/listen",
+        "features": "/img/africa/nigeria/praiseworld.png"
+    },
+    "ofure": {
+        "title": "Ofure Radio",
+        "type": "audio/mpeg",
+        "url": "https://live.ofureradio.com.ng/",
+        "cros": false,
+        "stream": "https://eu9.fastcast4u.com/proxy/ihwilson?mp=/stream/1/",
+        "features": "/img/africa/nigeria/ofure.png"
+    },
+    "noble-ibadan": {
+        "title": "Noble FM (Ibadan)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/ysuxkw05e4duv",
+        "features": "/img/africa/nigeria/noble-ibadan.png",
+        "schedule": "https://api.webrad.io/data/playlist/69/noble-ibadan?time="
+    },
+    "vidastreamedia": {
+        "title": "Vidastreamedia",
+        "type": "audio/mpeg",
+        "url": "https://vidastreamedia.blogspot.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/2zn1mygvwhhvv",
+        "features": "/img/africa/nigeria/vidastreamedia.png"
+    }
+}

@@ -1,0 +1,418 @@
+{
+    "dr-p1": {
+        "title": "DR P1 (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p1/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-p1.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-p1?time="
+    },
+    "dr-p2": {
+        "title": "DR P2 (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p1/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-p2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-p2?time="
+    },
+    "dr-p3": {
+        "title": "DR P3 (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p3/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-p3.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-p3?time="
+    },
+    "dr-p4": {
+        "title": "DR P4",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p4kobenhavn/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-p4.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-p4?time="
+    },
+    "dr-p5": {
+        "title": "DR P5 (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p5kobenhavn/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-p5.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-p5?time="
+    },
+    "p6-beat": {
+        "title": "DR P6 Beat (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p6beat/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/p6-beat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/p6-beat?time="
+    },
+    "dr-jazz": {
+        "title": "DR P8 Jazz (København)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.dr.dk/",
+        "cros": false,
+        "stream": "https://drliveradio.akamaized.net/hls/live/2022411-b/p8jazz/playlist-320000.m3u8",
+        "features": "/img/europe/denmark/dr-jazz.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-jazz?time="
+    },
+    "retro": {
+        "title": "Retro Radio",
+        "type": "audio/mpeg",
+        "url": "https://retro-radio.dk/",
+        "cros": false,
+        "stream": "https://stream128.retro-radio.dk/retro",
+        "features": "/img/europe/denmark/retro.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/retro?time="
+    },
+    "skala-fm": {
+        "title": "Skala FM",
+        "type": "audio/mpeg",
+        "url": "https://skala.fm/",
+        "cros": false,
+        "stream": "https://netradio.skala.fm/ska8d",
+        "features": "/img/europe/denmark/skala-fm.png",
+        "favorite": false
+    },
+    "100": {
+        "title": "Radio 100",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/radio-100/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/radio100_dk_mp3",
+        "features": "/img/europe/denmark/100.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/100?time="
+    },
+    "nova": {
+        "title": "NOVA (København)",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/nova/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/nova_dk_mp3",
+        "features": "/img/europe/denmark/nova.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/nova?time="
+    },
+    "pop-fm": {
+        "title": "Pop FM (København)",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/pop-fm/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/popfm_dk_mp3",
+        "features": "/img/europe/denmark/pop-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/pop-fm?time="
+    },
+    "soft": {
+        "title": "Radio Soft",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/radio-soft/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/radiosoft_dk_mp3",
+        "features": "/img/europe/denmark/soft.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/soft?time="
+    },
+    "the-voice": {
+        "title": "The Voice (København)",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/the-voice/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/thevoice_dk_mp3",
+        "features": "/img/europe/denmark/the-voice.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/the-voice?time="
+    },
+    "limfjord-mix": {
+        "title": "Limfjord Mix",
+        "type": "audio/mpeg",
+        "url": "https://limfjordmix.dk/",
+        "cros": false,
+        "stream": "https://media.limfjordnetradio.dk/plus128",
+        "features": "/img/europe/denmark/limfjord-mix.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/limfjord-mix?time="
+    },
+    "always-elvis": {
+        "title": "Always Elvis Radio",
+        "type": "audio/mpeg",
+        "url": "http://elvis.co.uk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/alwayselvisradio",
+        "features": "/img/europe/denmark/always-elvis.png",
+        "favorite": false
+    },
+    "dr-nyheder": {
+        "title": "DR Nyheder",
+        "type": "audio/mpeg",
+        "url": "https://www.dr.dk/nyheder",
+        "cros": true,
+        "stream": "http://live-icy.gss.dr.dk:8000/A/A02H.mp3",
+        "features": "/img/europe/denmark/dr-nyheder.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/dr-nyheder?time="
+    },
+    "ballerup": {
+        "title": "902FM Det Nye Radio Ballerup",
+        "type": "audio/mpeg",
+        "url": "https://902fm.com/",
+        "cros": true,
+        "stream": "http://s25.myradiostream.com:15246/stream/1/",
+        "features": "/img/europe/denmark/ballerup.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/ballerup?time="
+    },
+    "viborg": {
+        "title": "Radio Viborg",
+        "type": "audio/mpeg",
+        "url": "https://radioviborg.dk/",
+        "cros": false,
+        "stream": "https://netradio.radioviborg.dk/vib11d",
+        "features": "/img/europe/denmark/viborg.png",
+        "favorite": false
+    },
+    "anr": {
+        "title": "ANR",
+        "type": "audio/mpeg",
+        "url": "https://anr.dk/",
+        "cros": false,
+        "stream": "https://stream.anr.dk/anr",
+        "features": "/img/europe/denmark/anr.png",
+        "favorite": false
+    },
+    "go-fm": {
+        "title": "Radio go!FM",
+        "type": "audio/mpeg",
+        "url": "https://www.gofm.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/gofm",
+        "features": "/img/europe/denmark/go-fm.png",
+        "favorite": false
+    },
+    "skive": {
+        "title": "Radio Skive",
+        "type": "audio/mpeg",
+        "url": "https://www.radioskive.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/skive",
+        "features": "/img/europe/denmark/skive.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/skive?time="
+    },
+    "silkeborg": {
+        "title": "Radio Silkeborg",
+        "type": "audio/mpeg",
+        "url": "https://radiosilkeborg.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/silkeborg",
+        "features": "/img/europe/denmark/silkeborg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/silkeborg?time="
+    },
+    "vlr-vejle": {
+        "title": "VLR (Vejle)",
+        "type": "audio/mpeg",
+        "url": "https://vlr.dk/",
+        "cros": false,
+        "stream": "https://netradio.vlr.dk/vlr8d",
+        "features": "/img/europe/denmark/vlr-vejle.png",
+        "favorite": false
+    },
+    "solo-fm": {
+        "title": "Solo FM",
+        "type": "audio/mpeg",
+        "url": "https://radiosolo.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/solo",
+        "features": "/img/europe/denmark/solo-fm.png",
+        "favorite": false
+    },
+    "myrock": {
+        "title": "MyRock",
+        "type": "audio/mpeg",
+        "url": "https://radioplay.dk/",
+        "cros": false,
+        "stream": "https://live-bauerdk.sharp-stream.com/myrock_dk_mp3",
+        "features": "/img/europe/denmark/myrock.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/myrock?time="
+    },
+    "sydhavsoerne": {
+        "title": "Radio Sydhavsoerne",
+        "type": "audio/mpeg",
+        "url": "http://www.sydhavsradio.dk/",
+        "cros": false,
+        "stream": "https://stream.probroadcast.dk/sydhavsradioaac",
+        "features": "/img/europe/denmark/sydhavsoerne.png",
+        "favorite": false
+    },
+    "koege": {
+        "title": "Radio Køge",
+        "type": "audio/mpeg",
+        "url": "https://www.sn.dk/radioslr/",
+        "cros": false,
+        "stream": "https://stream.probroadcast.dk/radiokoege",
+        "features": "/img/europe/denmark/koege.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/koege?time="
+    },
+    "alfa": {
+        "title": "Radio Alfa",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalfa.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/alfa",
+        "features": "/img/europe/denmark/alfa.png",
+        "favorite": false
+    },
+    "halsnaes": {
+        "title": "Radio Halsnæs",
+        "type": "audio/mpeg",
+        "url": "https://www.radiohalsnaes.dk/",
+        "cros": true,
+        "stream": "http://15790.cloudrad.io:9146/stream/1/",
+        "features": "/img/europe/denmark/halsnaes.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/halsnaes?time="
+    },
+    "limfjord": {
+        "title": "Radio Limfjord",
+        "type": "audio/mpeg",
+        "url": "https://limfjordnetradio.dk/",
+        "cros": false,
+        "stream": "https://media.limfjordnetradio.dk/limfjord128",
+        "features": "/img/europe/denmark/limfjord.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/limfjord?time="
+    },
+    "assyrian-babylon": {
+        "title": "Assyrian Babylon Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://server.assyrians.dk:1930/;",
+        "features": "/img/europe/denmark/assyrian-babylon.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/assyrian-babylon?time="
+    },
+    "slr": {
+        "title": "Radio SLR (Næstved)",
+        "type": "audio/mpeg",
+        "url": "https://www.sn.dk/radioslr/",
+        "cros": true,
+        "stream": "http://stream.wlmm.dk/stream/54/",
+        "features": "/img/europe/denmark/slr.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/slr?time="
+    },
+    "nordjyske": {
+        "title": "Radio Nordjyske (Aalborg)",
+        "type": "audio/mpeg",
+        "url": "https://nordjyske.dk/lyd",
+        "cros": false,
+        "stream": "https://stream.anr.dk/nordjyske",
+        "features": "/img/europe/denmark/nordjyske.png",
+        "favorite": false
+    },
+    "diablo": {
+        "title": "Radio Diablo",
+        "type": "audio/mpeg",
+        "url": "https://radiodiablo.dk/",
+        "cros": false,
+        "stream": "https://dab.jfmedier.dk/diabloweb",
+        "features": "/img/europe/denmark/diablo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/diablo?time="
+    },
+    "classic": {
+        "title": "Classic FM",
+        "type": "audio/mpeg",
+        "url": "https://classicfm.dk/",
+        "cros": false,
+        "stream": "https://netradio.classicfm.dk/cla8d",
+        "features": "/img/europe/denmark/classic.png",
+        "favorite": false
+    },
+    "abc": {
+        "title": "Radio ABC",
+        "type": "audio/mpeg",
+        "url": "https://radioabc.dk/",
+        "cros": false,
+        "stream": "https://radioserver.dk/abc",
+        "features": "/img/europe/denmark/abc.png",
+        "favorite": false
+    },
+    "alfa-sydfyn": {
+        "title": "Radio Alfa Sydfyn",
+        "type": "audio/mpeg",
+        "url": "https://www.radioalfa.dk/",
+        "cros": false,
+        "stream": "https://icecast1.radiostuff.dk/Alfasydfyn128",
+        "features": "/img/europe/denmark/alfa-sydfyn.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/alfa-sydfyn?time="
+    },
+    "partyfm": {
+        "title": "PartyFM",
+        "type": "audio/mpeg",
+        "url": "https://www.partyfm.dk/",
+        "cros": false,
+        "stream": "https://stream1.partyfm.dk/Party320",
+        "features": "/img/europe/denmark/partyfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/partyfm?time="
+    },
+    "nmradio": {
+        "title": "NMRadio",
+        "type": "audio/mpeg",
+        "url": "https://nmradio.dk/",
+        "cros": true,
+        "stream": "http://5.56.158.246:8000/stream",
+        "features": "/img/europe/denmark/nmradio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/nmradio?time="
+    },
+    "ost": {
+        "title": "Radio Øst FM",
+        "type": "audio/mpeg",
+        "url": "https://oestfm.dk/",
+        "cros": false,
+        "stream": "https://stream.probroadcast.dk/oestfmmp3",
+        "features": "/img/europe/denmark/ost.png",
+        "favorite": false
+    },
+    "universitetsradioen": {
+        "title": "Universitetsradioen",
+        "type": "audio/mpeg",
+        "url": "https://uniradioen.dk/",
+        "cros": false,
+        "stream": "https://uniradio.out.airtime.pro:8000/uniradio_a",
+        "features": "/img/europe/denmark/universitetsradioen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/118/universitetsradioen?time="
+    },
+    "vlr-horsens": {
+        "title": "Radio VLR (Horsens)",
+        "type": "audio/mpeg",
+        "url": "https://vlr.dk/",
+        "cros": false,
+        "stream": "https://netradio.vlr.dk/vlr8d",
+        "features": "/img/europe/denmark/vlr-horsens.png",
+        "favorite": false
+    }
+}

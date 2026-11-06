@@ -1,0 +1,1156 @@
+{
+  "96": {
+    "title": "Радио Жега 96",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://g5.turbohost.eu:8004/stream96",
+    "features": "/img/europe/bulgaria/96.webp",
+    "source": "radio-browser:c8b4f6dd-161f-49cf-ba07-26453bbf671f"
+  },
+  "999": {
+    "title": "Радио 999",
+    "type": "audio/mpeg",
+    "url": "https://radio999bg.com",
+    "cros": true,
+    "stream": "http://62.204.158.5:8081/live",
+    "features": "/img/europe/bulgaria/999.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/999?time="
+  },
+  "energy": {
+    "title": "Radio Energy (София)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioenergy.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/nrj.aac",
+    "features": "/img/europe/bulgaria/energy.png",
+    "favorite": true,
+    "schedule": "https://api.webrad.io/data/playlist/76/energy?time="
+  },
+  "fresh": {
+    "title": "Радио Fresh (София)",
+    "type": "audio/mpeg",
+    "url": "http://radiofresh.bg",
+    "cros": true,
+    "stream": "http://streamer.atlantis.bg:8000/fresh",
+    "features": "/img/europe/bulgaria/fresh.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/fresh?time="
+  },
+  "siti": {
+    "title": "Pадио City",
+    "type": "audio/mpeg",
+    "url": "https://www.city.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/city.aac",
+    "features": "/img/europe/bulgaria/siti.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/siti?time="
+  },
+  "bg": {
+    "title": "БГ Радио (София)",
+    "type": "audio/mpeg",
+    "url": "https://www.bgradio.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/bgradio.aac",
+    "features": "/img/europe/bulgaria/bg.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/bg?time="
+  },
+  "veronika": {
+    "title": "Радио Вероника",
+    "type": "audio/mpeg",
+    "url": "https://www.radioveronika.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/veronika.aac",
+    "features": "/img/europe/bulgaria/veronika.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/veronika?time="
+  },
+  "veselina-99-1": {
+    "title": "Радио Веселина (София)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radioveselina.bg/",
+    "cros": false,
+    "stream": "https://bss1.neterra.tv/veselina/veselina.m3u8",
+    "features": "/img/europe/bulgaria/veselina-99-1.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/veselina-99-1?time="
+  },
+  "n-joy": {
+    "title": "Radio N Joy",
+    "type": "audio/mpeg",
+    "url": "https://njoy.bg/",
+    "cros": false,
+    "stream": "https://cdn.bweb.bg/radio/njoy.mp3",
+    "features": "/img/europe/bulgaria/n-joy.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/n-joy?time="
+  },
+  "1-106": {
+    "title": "Радио 1 (София)",
+    "type": "audio/mpeg",
+    "url": "https://www.radio1.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/radio1.aac",
+    "features": "/img/europe/bulgaria/1-106.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/1-106?time="
+  },
+  "vitosa": {
+    "title": "Радио Витоша",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radiovitosha.com/",
+    "cros": false,
+    "stream": "https://bss1.neterra.tv/vitosha/vitosha.m3u8",
+    "features": "/img/europe/bulgaria/vitosa.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/vitosa?time="
+  },
+  "ultra": {
+    "title": "Радио Ултра",
+    "type": "audio/mpeg",
+    "url": "https://radioultra.bg/",
+    "cros": true,
+    "stream": "http://88.80.96.25:40070/ultra.mp3",
+    "features": "/img/europe/bulgaria/ultra.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/ultra?time="
+  },
+  "the-voice": {
+    "title": "Радио The Voice (София)",
+    "type": "application/x-mpegURL",
+    "url": "https://thevoice.bg/",
+    "cros": false,
+    "stream": "https://bss1.neterra.tv/thevoicefm/thevoicefm.m3u8",
+    "features": "/img/europe/bulgaria/the-voice.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/the-voice?time="
+  },
+  "z-rock": {
+    "title": "Радио Z Rock (София)",
+    "type": "audio/mpeg",
+    "url": "https://zrock.bg/",
+    "cros": false,
+    "stream": "https://web.static.btv.bg/radio/zrock-radio-proxy/index.php",
+    "features": "/img/europe/bulgaria/z-rock.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/z-rock?time="
+  },
+  "darik": {
+    "title": "Дарик радио (София)",
+    "type": "audio/mpeg",
+    "url": "https://darikradio.bg/",
+    "cros": false,
+    "stream": "https://darikradio.by.host.bg:8000/S2-128",
+    "features": "/img/europe/bulgaria/darik.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/darik?time="
+  },
+  "magic-fm": {
+    "title": "Magic FM (София)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.magic.bg/",
+    "cros": false,
+    "stream": "https://bss1.neterra.tv/magicfm/magicfm.m3u8",
+    "features": "/img/europe/bulgaria/magic-fm.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/magic-fm?time="
+  },
+  "fm-plus": {
+    "title": "Радио FM Plus",
+    "type": "audio/mpeg",
+    "url": "http://fmplus.net/",
+    "cros": true,
+    "stream": "http://streamer.atlantis.bg:8000/fmplus",
+    "features": "/img/europe/bulgaria/fm-plus.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/fm-plus?time="
+  },
+  "btv": {
+    "title": "bTV Radio (София)",
+    "type": "audio/mpeg",
+    "url": "https://btvradio.bg/",
+    "cros": false,
+    "stream": "https://bravo.btv.bg/radioplayer/btvradio.mp3",
+    "features": "/img/europe/bulgaria/btv.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/btv?time="
+  },
+  "rock-1": {
+    "title": "Радио Rock 1 (София)",
+    "type": "audio/mpeg",
+    "url": "https://www.radio1rock.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/radio1rock.aac",
+    "features": "/img/europe/bulgaria/rock-1.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/rock-1?time="
+  },
+  "sumen": {
+    "title": "Радио Шумен",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/shumen",
+    "cros": true,
+    "stream": "http://stream.bnr.bg:8033/radio-shumen.aac",
+    "features": "/img/europe/bulgaria/sumen.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/sumen?time="
+  },
+  "nazdrave": {
+    "title": "Радио Наздраве (София)",
+    "type": "audio/mpeg",
+    "url": "http://www.folkradionazdrave.com/",
+    "cros": true,
+    "stream": "http://powerdj.sf.ddns.bulsat.com:8020/;",
+    "features": "/img/europe/bulgaria/nazdrave.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/nazdrave?time="
+  },
+  "maa": {
+    "title": "Радио Мая",
+    "type": "audio/mpeg",
+    "url": "https://radiomaia.com/",
+    "cros": true,
+    "stream": "http://mail.rntel.com:9000/;",
+    "features": "/img/europe/bulgaria/maa.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/maa?time="
+  },
+  "zorana": {
+    "title": "Радио Зорана (София)",
+    "type": "audio/mpeg",
+    "url": "https://zorana.bg/radio/",
+    "cros": true,
+    "stream": "http://79.98.108.177:8000/live",
+    "features": "/img/europe/bulgaria/zorana.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/zorana?time="
+  },
+  "varna": {
+    "title": "Радио Варна",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/varna",
+    "cros": true,
+    "stream": "http://stream.bnr.bg:8031/radio-varna.aac",
+    "features": "/img/europe/bulgaria/varna.png",
+    "favorite": false
+  },
+  "dzaz": {
+    "title": "Jazz FM",
+    "type": "audio/mpeg",
+    "url": "https://jazzfm.bg/",
+    "cros": false,
+    "stream": "https://web.static.btv.bg/radio/jazzfm-radio-proxy/index.php",
+    "features": "/img/europe/bulgaria/dzaz.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/dzaz?time="
+  },
+  "power": {
+    "title": "Power FM (Бургас)",
+    "type": "audio/mpeg",
+    "url": "https://www.powerfm.bg/",
+    "cros": true,
+    "stream": "http://a1.virtualradio.eu:8000/powerfm.mp3",
+    "features": "/img/europe/bulgaria/power.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/power?time="
+  },
+  "klasik": {
+    "title": "Classic FM  (София)",
+    "type": "audio/mpeg",
+    "url": "https://classicfm.bg/",
+    "cros": false,
+    "stream": "https://cdn.bweb.bg/radio/classic-fm.mp3",
+    "features": "/img/europe/bulgaria/klasik.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/klasik?time="
+  },
+  "trafik": {
+    "title": "Traffic Radio Station",
+    "type": "audio/mpeg",
+    "url": "https://trafficradio.org/",
+    "cros": true,
+    "stream": "http://radio.networx.bg:8000/TrafficRadio",
+    "features": "/img/europe/bulgaria/trafik.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/trafik?time="
+  },
+  "fokus": {
+    "title": "Радио Фокус",
+    "type": "audio/mpeg",
+    "url": "https://www.focus-news.net/",
+    "cros": false,
+    "stream": "https://focusradio.dataserv.cc/stream/1/",
+    "features": "/img/europe/bulgaria/fokus.png",
+    "favorite": false
+  },
+  "miks": {
+    "title": "Радио Микс",
+    "type": "audio/mpeg",
+    "url": "https://radiomixx.net/",
+    "cros": true,
+    "stream": "http://83.97.65.98:9000/stream/1/",
+    "features": "/img/europe/bulgaria/miks.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/miks?time="
+  },
+  "katra": {
+    "title": "Katra FM",
+    "type": "audio/mpeg",
+    "url": "http://www.katrafm.com/",
+    "cros": true,
+    "stream": "http://www.katrafm.net:9000/live",
+    "features": "/img/europe/bulgaria/katra.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/katra?time="
+  },
+  "folk-bg": {
+    "title": "Радио Фолк БГ",
+    "type": "audio/mpeg",
+    "url": "https://folkbg.net/",
+    "cros": true,
+    "stream": "http://listen.folkbg.net:8001/folkbg",
+    "features": "/img/europe/bulgaria/folk-bg.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/folk-bg?time="
+  },
+  "sofia": {
+    "title": "Радио София",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/sofia",
+    "cros": true,
+    "stream": "http://stream.bnr.bg:8030/radio-sofia.aac",
+    "features": "/img/europe/bulgaria/sofia.png",
+    "favorite": false
+  },
+  "lele-male": {
+    "title": "Радио Леле Мале (България)",
+    "type": "audio/mpeg",
+    "url": "",
+    "cros": true,
+    "stream": "http://meg.novahost.bg:8332/stream/1/",
+    "features": "/img/europe/bulgaria/lele-male.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/lele-male?time="
+  },
+  "bnr-horizont": {
+    "title": "БНР Хоризонт (София)",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/horizont",
+    "cros": true,
+    "stream": "http://stream.bnr.bg:8011/horizont.aac",
+    "features": "/img/europe/bulgaria/bnr-horizont.png",
+    "favorite": false
+  },
+  "blagoevgrad": {
+    "title": "Радио Благоевград",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/blagoevgrad",
+    "cros": false,
+    "stream": "https://sphera.fluidstream.eu/rpd_history.mp3",
+    "features": "/img/europe/bulgaria/blagoevgrad.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/blagoevgrad?time="
+  },
+  "dariknostalzi": {
+    "title": "Дарик Носталжи",
+    "type": "audio/mpeg",
+    "url": "https://dariknostalgie.bg/",
+    "cros": false,
+    "stream": "https://darikradio.by.host.bg:8000/Nostalgie",
+    "features": "/img/europe/bulgaria/dariknostalzi.png",
+    "favorite": false,
+    "schedule": "https://api.webrad.io/data/playlist/76/dariknostalzi?time="
+  },
+  "hristo-botev": {
+    "title": "Радио Христо Ботев",
+    "type": "audio/mpeg",
+    "url": "https://bnr.bg/hristobotev",
+    "cros": true,
+    "stream": "http://stream.bnr.bg:8012/hristo-botev.aac",
+    "features": "/img/europe/bulgaria/hristo-botev.png",
+    "favorite": false
+  },
+  "sevlievo-97-7": {
+    "title": "Радио Севлиево FM",
+    "type": "audio/mpeg",
+    "url": "https://www.radiosevlievo.net/",
+    "cros": true,
+    "stream": "http://195.68.214.130:8000/;",
+    "features": "/img/europe/bulgaria/sevlievo-97-7.png",
+    "favorite": false
+  },
+  "radio-1-bulgaria": {
+    "title": "Radio 1 (Bulgaria)",
+    "description": "classic hits",
+    "type": "audio/ogg",
+    "url": "http://radio1.bg/",
+    "cros": true,
+    "stream": "http://149.13.0.81/radio1.ogg",
+    "features": "/img/europe/bulgaria/radio-1-bulgaria.png",
+    "source": "radio-browser:96165755-0601-11e8-ae97-52543be04c81"
+  },
+  "energy-nrj-bulgaria": {
+    "title": "Energy NRJ Bulgaria",
+    "description": "pop, dance, retro",
+    "type": "audio/mpeg",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/nrj128",
+    "features": "/img/europe/bulgaria/energy-nrj-bulgaria.png",
+    "source": "radio-browser:963559d7-0601-11e8-ae97-52543be04c81"
+  },
+  "bg-radio": {
+    "title": "BG Radio",
+    "description": "local music",
+    "type": "audio/mpeg",
+    "url": "http://bgradio.net/",
+    "cros": true,
+    "stream": "http://stream.radioreklama.bg/bgradio128",
+    "features": "/img/europe/bulgaria/bg-radio.png",
+    "source": "radio-browser:9615b6c8-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-1-rock": {
+    "title": "Radio 1 Rock",
+    "description": "rock",
+    "type": "audio/ogg",
+    "url": "http://www.radio1rock.bg/",
+    "cros": true,
+    "stream": "http://stream.metacast.eu/radio1rock.ogg",
+    "features": "/img/europe/bulgaria/radio-1-rock.png",
+    "source": "radio-browser:96093243-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-1-1": {
+    "title": "Radio 1 радио 1 класическите хитове",
+    "description": "classic hits, news",
+    "type": "audio/mpeg",
+    "url": "http://www.radio1.bg/",
+    "cros": true,
+    "stream": "http://stream.radioreklama.bg/radio164",
+    "features": "/img/europe/bulgaria/radio-1-1.png",
+    "source": "radio-browser:9640a607-0601-11e8-ae97-52543be04c81"
+  },
+  "bg-estrada": {
+    "title": "BG Estrada",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://bgradio.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/bgestrada",
+    "features": "/img/europe/bulgaria/bg-estrada.png",
+    "source": "radio-browser:96163d8b-0601-11e8-ae97-52543be04c81"
+  },
+  "veronika-instant-audio": {
+    "title": "Veronika",
+    "type": "audio/ogg",
+    "url": "http://www.radioveronika.bg/",
+    "cros": true,
+    "stream": "http://stream.metacast.eu/veronika.ogg",
+    "features": "/img/europe/bulgaria/veronika.png",
+    "source": "radio-browser:9618e172-0601-11e8-ae97-52543be04c81"
+  },
+  "nova-news": {
+    "title": "Nova News",
+    "type": "audio/aac",
+    "url": "https://nova.bg/radio",
+    "cros": true,
+    "stream": "http://stream.radioreklama.bg/novanews.aac",
+    "features": "/img/europe/bulgaria/nova-news.jpg",
+    "source": "radio-browser:96285ac8-0601-11e8-ae97-52543be04c81"
+  },
+  "fresh-instant-audio": {
+    "title": "Fresh!",
+    "description": "hits",
+    "type": "audio/mpeg",
+    "url": "http://radiofresh.bg/",
+    "cros": true,
+    "stream": "http://193.108.24.21:8000/fresh",
+    "features": "/img/europe/bulgaria/fresh.png",
+    "source": "radio-browser:961658c6-0601-11e8-ae97-52543be04c81"
+  },
+  "nova": {
+    "title": "Nova",
+    "description": "dance, electronic, house",
+    "type": "audio/ogg",
+    "url": "http://radionova.bg/",
+    "cros": true,
+    "stream": "http://stream.metacast.eu/nova.ogg",
+    "features": "/img/europe/bulgaria/nova.png",
+    "source": "radio-browser:96092e7f-0601-11e8-ae97-52543be04c81"
+  },
+  "energy-nrj-bulgaria-90s-only-ogg": {
+    "title": "Energy NRJ Bulgaria 90s Only (ogg)",
+    "description": "pop, 90's, 90s, eurodance",
+    "type": "audio/ogg",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/energy-90s.ogg",
+    "features": "/img/europe/bulgaria/energy-nrj-bulgaria-90s-only-ogg.png",
+    "source": "radio-browser:322576a2-637e-11e8-b15b-52543be04c81"
+  },
+  "maya-varna": {
+    "title": "Maya Varna",
+    "description": "contemporary hits, dance, hits, hot adult contemporary",
+    "type": "audio/mpeg",
+    "url": "http://radiomaia.com/",
+    "cros": true,
+    "stream": "http://rnmediagroup.com:10000/;",
+    "features": "/img/europe/bulgaria/maya-varna.png",
+    "source": "radio-browser:96409a24-0601-11e8-ae97-52543be04c81"
+  },
+  "city-bulgaria": {
+    "title": "City Bulgaria",
+    "type": "audio/mpeg",
+    "url": "http://www.city.bg/",
+    "cros": true,
+    "stream": "http://31.13.223.148:8000/city.mp3",
+    "features": "/img/europe/bulgaria/city-bulgaria.jpg",
+    "source": "radio-browser:96423f28-0601-11e8-ae97-52543be04c81"
+  },
+  "energy-nrj-bulgaria-90s-only": {
+    "title": "Energy NRJ Bulgaria 90s Only",
+    "description": "pop, 90's, 90s, eurodance",
+    "type": "audio/mpeg",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/energy-90s",
+    "features": "/img/europe/bulgaria/energy-nrj-bulgaria-90s-only.png",
+    "source": "radio-browser:f3aa68b4-93b9-4b50-85dd-1e7324e757bc"
+  },
+  "fresh-bulgaria": {
+    "title": "Fresh Bulgaria",
+    "type": "audio/mpeg",
+    "url": "http://www.radiofresh.bg/",
+    "cros": true,
+    "stream": "http://31.13.223.148:8000/fresh.mp3",
+    "features": "/img/europe/bulgaria/fresh-bulgaria.jpg",
+    "source": "radio-browser:96429b7d-0601-11e8-ae97-52543be04c81"
+  },
+  "tangra-mega-rock": {
+    "title": "Tangra Mega Rock",
+    "description": "hard rock heavy metal",
+    "type": "audio/mpeg",
+    "url": "http://www.radiotangra.com/",
+    "cros": true,
+    "stream": "http://stream-bg-01.radiotangra.com:8000/Tangra-high",
+    "features": "/img/europe/bulgaria/tangra-mega-rock.svg",
+    "source": "radio-browser:9618ac6b-0601-11e8-ae97-52543be04c81"
+  },
+  "1-rock-bulgaria": {
+    "title": "1 Rock Bulgaria",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "http://www.radio1rock.bg/",
+    "cros": true,
+    "stream": "http://31.13.223.148:8000/1_rock.mp3",
+    "features": "/img/europe/bulgaria/1-rock-bulgaria.png",
+    "source": "radio-browser:96423ff1-0601-11e8-ae97-52543be04c81"
+  },
+  "badrock-hard-heavy": {
+    "title": "BadRock Hard & Heavy",
+    "description": "hard rock, hardcore, heavy metal, heavy power metal, heavy rock",
+    "type": "audio/mpeg",
+    "url": "https://badrockradio.net/",
+    "cros": false,
+    "stream": "https://play-radio0.jump.bg:7049/live",
+    "features": "/img/europe/bulgaria/badrock-hard-heavy.webp",
+    "source": "radio-browser:2091bc8a-ced6-43cd-8f38-5b05d62ce3c5"
+  },
+  "ultra-sandanski": {
+    "title": "Ultra Sandanski",
+    "description": "chalga",
+    "type": "audio/mpeg",
+    "url": "http://www.radioultra.bg/",
+    "cros": true,
+    "stream": "http://88.80.96.25:8000/",
+    "features": "/img/europe/bulgaria/ultra-sandanski.png",
+    "source": "radio-browser:9619f87b-0601-11e8-ae97-52543be04c81"
+  },
+  "extreme-deep-house-radio": {
+    "title": "Extreme Deep House Radio",
+    "description": "deep house, nu disco, vocal house",
+    "type": "audio/mpeg",
+    "url": "https://www.extremedeephouse.com/",
+    "cros": false,
+    "stream": "https://whsh4u-panel.com/proxy/yfryujzw/stream",
+    "features": "/img/europe/bulgaria/extreme-deep-house-radio.jpg",
+    "source": "radio-browser:736c9d38-8947-4d73-b5d8-347c592654fc"
+  },
+  "vanilla": {
+    "title": "Vanilla",
+    "description": "chill out",
+    "type": "audio/aac",
+    "url": "https://radioplay.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/vanillahi.aac",
+    "features": "/img/europe/bulgaria/vanilla.png",
+    "source": "radio-browser:3f107ac4-949c-4c65-8bea-d1cba3a7e728"
+  },
+  "radio-jugomania": {
+    "title": "Radio Jugomania",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://s8.yesstreaming.net:17051/autodj",
+    "features": "/img/europe/bulgaria/radio-jugomania.webp",
+    "source": "radio-browser:345d48b7-bfe4-4e33-afeb-b5ab1d07aa96"
+  },
+  "lele-male-instant-audio": {
+    "title": "Lele Male",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://79.98.108.170:8332/;",
+    "features": "/img/europe/bulgaria/lele-male.png",
+    "source": "radio-browser:33b927aa-e4f3-4084-9f50-c74eedfba446"
+  },
+  "hot-dance": {
+    "title": "Hot Dance",
+    "description": "dance",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://listen.hotget.net:810/",
+    "features": "/img/europe/bulgaria/hot-dance.webp",
+    "source": "radio-browser:331464ed-2614-11e9-a80b-52543be04c81"
+  },
+  "katra-fm": {
+    "title": "KATRA FM",
+    "description": "contemporary, hits",
+    "type": "audio/mpeg",
+    "url": "http://www.katrafm.com/",
+    "cros": true,
+    "stream": "http://www.katrafm.com:8000/live",
+    "features": "/img/europe/bulgaria/katra-fm.png",
+    "source": "radio-browser:96163e36-0601-11e8-ae97-52543be04c81"
+  },
+  "opus": {
+    "title": "Енерджи (opus)",
+    "description": "dance, hits, party, pop",
+    "type": "audio/ogg",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://stream.radioreklama.bg/nrj.opus",
+    "features": "/img/europe/bulgaria/opus.jpg",
+    "source": "radio-browser:f38b4a57-5667-11ea-be63-52543be04c81"
+  },
+  "ultra-blagoevgrad": {
+    "title": "Ultra Blagoevgrad",
+    "description": "chalga",
+    "type": "audio/mpeg",
+    "url": "http://www.radioultra.bg/",
+    "cros": true,
+    "stream": "http://88.80.96.25:3060/",
+    "features": "/img/europe/bulgaria/ultra-blagoevgrad.png",
+    "source": "radio-browser:9619f7a6-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-1": {
+    "title": "Radio 1",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://stream.metacast.eu/radio1128",
+    "features": "/img/europe/bulgaria/radio-1.webp",
+    "source": "radio-browser:f5317e43-f378-4689-b186-776dfdf30fe1"
+  },
+  "radio-hushove": {
+    "title": "Radio Hushove",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://79.98.108.173:8006/radioxaschove",
+    "features": "/img/europe/bulgaria/radio-hushove.webp",
+    "source": "radio-browser:6add574d-b765-4ada-b195-debee680e3de"
+  },
+  "radio-sladko-izkushenie": {
+    "title": "Radio Sladko Izkushenie",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://g5.turbohost.eu:8006/autodj",
+    "features": "/img/europe/bulgaria/radio-sladko-izkushenie.webp",
+    "source": "radio-browser:f27e1f22-49ca-43c1-8ba1-c52ba01a5c7c"
+  },
+  "extreme-deep-house": {
+    "title": "Extreme Deep House",
+    "description": "deep house, nu disco, vocal house",
+    "type": "audio/mpeg",
+    "url": "https://www.extremedeephouse.com/",
+    "cros": true,
+    "stream": "http://whsh4u-panel.com:14113/stream",
+    "features": "/img/europe/bulgaria/extreme-deep-house.jpg",
+    "source": "radio-browser:35bd06b0-d8d0-4214-b52b-6aba06aac3b5"
+  },
+  "city-hiphop-r-b": {
+    "title": "City HipHop R&B",
+    "description": "hiphop r&b",
+    "type": "audio/aac",
+    "url": "https://radioplay.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/cityrabhi.aac",
+    "features": "/img/europe/bulgaria/city-hiphop-r-b.png",
+    "source": "radio-browser:9f5946d9-301f-4cf7-a1e8-7bdf7280d924"
+  },
+  "radio-1-rock-42b12f7a": {
+    "title": "Radio 1 Rock",
+    "description": "aac, classic rock, rock, едно, рок",
+    "type": "audio/aac",
+    "url": "https://www.radio1rock.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/radio1rockhi.aac",
+    "features": "/img/europe/bulgaria/radio-1-rock-42b12f7a.png",
+    "source": "radio-browser:42b12f7a-b2b9-409f-b80f-d2d909f135d3"
+  },
+  "radio-pianica": {
+    "title": "Radio Pianica",
+    "type": "audio/aac",
+    "url": "https://www.radiopi.top/",
+    "cros": true,
+    "stream": "http://mpc1.mediacp.eu:8024/",
+    "features": "/img/europe/bulgaria/radio-pianica.png",
+    "source": "radio-browser:3672a2f3-a7d9-4319-8d2c-9089bb43505e"
+  },
+  "radio-retro-folk": {
+    "title": "Radio Retro Folk",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://79.98.108.170:8053/",
+    "features": "/img/europe/bulgaria/radio-retro-folk.webp",
+    "source": "radio-browser:28950e81-adbf-445b-ac81-367e35e739d3"
+  },
+  "mixx": {
+    "title": "MIXX",
+    "type": "audio/aac",
+    "url": "http://www.radiomixx.net/",
+    "cros": true,
+    "stream": "http://83.97.65.98:9000/Title1=Radio",
+    "features": "/img/europe/bulgaria/mixx.webp",
+    "source": "radio-browser:96165981-0601-11e8-ae97-52543be04c81"
+  },
+  "bnr-varna": {
+    "title": "BNR Varna",
+    "description": "bnr, pop, public radio",
+    "type": "audio/mpeg",
+    "url": "http://bnr.bg/varna",
+    "cros": true,
+    "stream": "http://broadcast.masters.bg:8000/live",
+    "features": "/img/europe/bulgaria/bnr-varna.jpg",
+    "source": "radio-browser:9618b6d0-0601-11e8-ae97-52543be04c81"
+  },
+  "energy-nrj-bulgaria-90s-only-aac": {
+    "title": "Energy NRJ Bulgaria 90s Only (aac)",
+    "description": "pop, 90's, 90s, eurodance",
+    "type": "audio/aac",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/energy-90s.aac",
+    "features": "/img/europe/bulgaria/energy-nrj-bulgaria-90s-only-aac.png",
+    "source": "radio-browser:3697eeff-8550-4715-b114-46b0f86cc86f"
+  },
+  "radio-nova-bulgaria": {
+    "title": "Radio Nova Bulgaria",
+    "type": "audio/ogg",
+    "url": "http://www.radionova.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/nova.opus",
+    "features": "/img/europe/bulgaria/radio-nova-bulgaria.jpg",
+    "source": "radio-browser:5e742a0e-a341-4878-a683-46139b6c5b67"
+  },
+  "radio-dance-with-me": {
+    "title": "Radio Dance With Me",
+    "type": "audio/mpeg",
+    "url": "http://www.dancewithme-bg.com/index.html",
+    "cros": true,
+    "stream": "http://g5.turbohost.eu:8002/stream128",
+    "features": "/img/europe/bulgaria/radio-dance-with-me.png",
+    "source": "radio-browser:d50058fc-fb71-4ba3-acd9-3a873c6bac26"
+  },
+  "radio-veronika": {
+    "title": "Radio Veronika",
+    "description": "etno, pop-folk, етно, поп-фолк",
+    "type": "audio/aac",
+    "url": "https://www.radioveronika.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/veronikahi.aac",
+    "features": "/img/europe/bulgaria/radio-veronika.png",
+    "source": "radio-browser:7b432a9d-8421-4cef-bf63-d24b11b6830b"
+  },
+  "badrock-classic-rock": {
+    "title": "BadRock Classic Rock",
+    "type": "audio/mpeg",
+    "url": "https://play-radio0.jump.bg:7489/live",
+    "cros": false,
+    "stream": "https://play-radio0.jump.bg:7489/live",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:6a52f8f9-4ff1-4443-b501-4507d6070dbb"
+  },
+  "nova-news-964a7ab6": {
+    "title": "Nova News",
+    "description": "nova news",
+    "type": "audio/aac",
+    "url": "https://nova.bg/radio",
+    "cros": true,
+    "stream": "http://149.13.0.80/novanews.mp4",
+    "features": "/img/europe/bulgaria/nova-news-964a7ab6.png",
+    "source": "radio-browser:964a7ab6-0601-11e8-ae97-52543be04c81"
+  },
+  "radio-jega": {
+    "title": "Radio Jega Жега",
+    "type": "audio/mpeg",
+    "url": "https://www.predavatel.com/bg/live/",
+    "cros": true,
+    "stream": "http://g5.turbohost.eu:8004/stream",
+    "features": "/img/europe/bulgaria/radio-jega.gif",
+    "source": "radio-browser:3a6f4586-ce79-43f9-aad9-22c4467558c8"
+  },
+  "energy-nrj-bulgaria-00s-only": {
+    "title": "Energy NRJ Bulgaria 00s Only",
+    "description": "pop, 00's, 2000s",
+    "type": "audio/aac",
+    "url": "https://radioenergy.bg/",
+    "cros": true,
+    "stream": "http://play.global.audio/energy-00s.aac",
+    "features": "/img/europe/bulgaria/energy-nrj-bulgaria-00s-only.png",
+    "source": "radio-browser:f4cf9cc6-a62d-4cd7-b531-070e12ebaa69"
+  },
+  "raimos-disco-radio": {
+    "title": "Raimos Disco Radio",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://a1.virtualradio.eu:8000/discoradio",
+    "features": "/img/europe/bulgaria/raimos-disco-radio.webp",
+    "source": "radio-browser:63e43cf1-482d-4352-afe2-4133aeff12a3"
+  },
+  "opus-8b16985b": {
+    "title": "БГ радио (opus)",
+    "description": "bg only, dance, party, pop",
+    "type": "audio/ogg",
+    "url": "https://bgradio.bg/",
+    "cros": true,
+    "stream": "http://stream.radioreklama.bg/bgradio.opus",
+    "features": "/img/europe/bulgaria/opus-8b16985b.png",
+    "source": "radio-browser:8b16985b-5675-11ea-be63-52543be04c81"
+  },
+  "metro-dance-radio": {
+    "title": "Metro DANCE Radio",
+    "description": "club, dance, in the morning, news, talk show",
+    "type": "audio/mpeg",
+    "url": "https://metrocast.top/dance",
+    "cros": false,
+    "stream": "https://eu1.reliastream.com/proxy/mdr?mp=/MDR",
+    "features": "/img/europe/bulgaria/metro-dance-radio.png",
+    "source": "radio-browser:b3a8e73b-f079-4f5f-adc3-3f75d219a3a5"
+  },
+  "maya-burgas": {
+    "title": "Maya Burgas",
+    "description": "hits, hot adult contemporary, local radio",
+    "type": "audio/mpeg",
+    "url": "http://radiomaia.com/",
+    "cros": true,
+    "stream": "http://rnmediagroup.com:9000/;",
+    "features": "/img/europe/bulgaria/maya-burgas.png",
+    "source": "radio-browser:96427e24-0601-11e8-ae97-52543be04c81"
+  },
+  "bg-radio-eae5ec5b": {
+    "title": "BG Radio",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://stream.metacast.eu/bgradio128",
+    "features": "/img/europe/bulgaria/bg-radio-eae5ec5b.webp",
+    "source": "radio-browser:eae5ec5b-bf87-48fb-b21c-dcf0658efa38"
+  },
+  "fm": {
+    "title": "FM +",
+    "description": "talk & speech",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://193.108.24.21:8000/fmplus",
+    "features": "/img/europe/bulgaria/fm.webp",
+    "source": "radio-browser:66041a35-1f6f-4579-95bd-97eebe7b60a1"
+  },
+  "bnr-horizont-instant-audio": {
+    "title": "BNR Horizont",
+    "type": "audio/aac",
+    "url": "https://www.radioplay.bg/?radio=bnr",
+    "cros": false,
+    "stream": "https://play.global.audio/testb.aac?dist=RADIOPLAY",
+    "features": "/img/europe/bulgaria/bnr-horizont.png",
+    "source": "radio-browser:231b256b-06b1-44c6-abe4-cc6b136ec706"
+  },
+  "nova-bulgaria": {
+    "title": "Nova Bulgaria",
+    "type": "audio/mpeg",
+    "url": "http://www.radionova.bg/",
+    "cros": true,
+    "stream": "http://31.13.223.148:8000/nova.mp3",
+    "features": "/img/europe/bulgaria/nova-bulgaria.jpg",
+    "source": "radio-browser:96419a8d-0601-11e8-ae97-52543be04c81"
+  },
+  "radioplay-cafe": {
+    "title": "Radioplay Cafe",
+    "description": "cafe",
+    "type": "audio/aac",
+    "url": "https://radioplay.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/cafehi.aac",
+    "features": "/img/europe/bulgaria/radioplay-cafe.png",
+    "source": "radio-browser:d583dee6-92ce-4bbd-9ef5-5d020ce892d8"
+  },
+  "radio-zorana-sofia": {
+    "title": "Radio Zorana Sofia",
+    "description": "misc",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://radio.jump.bg/proxy/radio12/stream",
+    "features": "/img/europe/bulgaria/radio-zorana-sofia.webp",
+    "source": "radio-browser:277a3721-3418-4fe4-9a6e-1ea87f4db9d5"
+  },
+  "radio-horo-plus": {
+    "title": "Radio Horo Plus",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://g5.turbohost.eu:8020/stream256",
+    "features": "/img/europe/bulgaria/radio-horo-plus.webp",
+    "source": "radio-browser:cdc70bdd-0050-4595-8be2-bf3ff7da6110"
+  },
+  "radio-maia": {
+    "title": "radio Maia",
+    "type": "audio/mpeg",
+    "url": "https://radiomaia.com/",
+    "cros": false,
+    "stream": "https://radio.rn-tv.com:8000/stream/1/",
+    "features": "/img/europe/bulgaria/radio-maia.png",
+    "source": "radio-browser:3cca606d-6b4f-4644-8139-5d11fb897500"
+  },
+  "z-rock-alt": {
+    "title": "Z-Rock Alt",
+    "type": "audio/mpeg",
+    "url": "http://193.108.24.6:8000/zrock.m3u",
+    "cros": true,
+    "stream": "http://193.108.24.6:8000/zrock",
+    "features": "https://s3.eplus.dev/i/station-on-air.png",
+    "source": "radio-browser:b6263bc5-f1e3-47e5-b034-d93de9b0ab49"
+  },
+  "radio-dobrudja": {
+    "title": "Radio Dobrudja",
+    "description": "talk & speech",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://5.104.174.128:8000/radiodobrudja",
+    "features": "/img/europe/bulgaria/radio-dobrudja.webp",
+    "source": "radio-browser:7cee1082-bd9f-4b72-92a0-b5c2e0decce4"
+  },
+  "radio-1-bulgaria-de10a769": {
+    "title": "Radio 1 Bulgaria",
+    "description": "90s, classic pop, classic rock",
+    "type": "audio/mpeg",
+    "url": "https://radio1.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio:80/radio164",
+    "features": "/img/europe/bulgaria/radio-1-bulgaria-de10a769.jpg",
+    "source": "radio-browser:de10a769-c277-4fa1-9549-9f98be87265b"
+  },
+  "lele-male-4aac8516": {
+    "title": "Lele Male",
+    "type": "audio/mpeg",
+    "url": "https://www.predavatel.com/bg/live/",
+    "cros": true,
+    "stream": "http://79.98.108.170:8332/;stream.mp3",
+    "features": "/img/europe/bulgaria/lele-male-4aac8516.gif",
+    "source": "radio-browser:4aac8516-6177-4eb6-afc1-a53ea41a5958"
+  },
+  "metro-hits-radio": {
+    "title": "Metro HITS Radio",
+    "description": "entertainment, hits, morning show, news, pop",
+    "type": "audio/mpeg",
+    "url": "https://metrocast.top/hits",
+    "cros": false,
+    "stream": "https://eu1.reliastream.com/proxy/mhr?mp=/MHR",
+    "features": "/img/europe/bulgaria/metro-hits-radio.jpg",
+    "source": "radio-browser:82f53581-d4fa-4d5f-9599-009c400a7a8f"
+  },
+  "avto-radio": {
+    "title": "Avto Radio",
+    "type": "audio/aac",
+    "url": "https://www.avtoradio.bg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/AVTORADIOAAC_L.aac",
+    "features": "/img/europe/bulgaria/avto-radio.png",
+    "source": "radio-browser:7a9787ef-210e-4915-b604-c5b1e63ed525"
+  },
+  "btv-radio": {
+    "title": "bTV Radio",
+    "description": "news",
+    "type": "audio/mpeg",
+    "url": "https://btvradio.bg/",
+    "cros": false,
+    "stream": "https://cdn.bweb.bg/radio/btv-radio.mp3",
+    "features": "/img/europe/bulgaria/btv-radio.ico",
+    "source": "radio-browser:f7f48681-9777-47e4-9cb4-9ee86fd09229"
+  },
+  "metro-love-90s-plus": {
+    "title": "Metro Love 90s Plus",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://eu1.reliastream.com/proxy/love80?mp=/MLR90S",
+    "features": "/img/europe/bulgaria/metro-love-90s-plus.webp",
+    "source": "radio-browser:6866b413-18de-4eff-92d2-2405598a43a7"
+  },
+  "tangra-mega-rock-bd8a6b13": {
+    "title": "Tangra Mega Rock",
+    "description": "hard rock heavy metal",
+    "type": "audio/ogg",
+    "url": "http://www.radiotangra.com/",
+    "cros": true,
+    "stream": "http://stream-bg-01.radiotangra.com:8000/Tangra.ogg",
+    "features": "/img/europe/bulgaria/tangra-mega-rock-bd8a6b13.svg",
+    "source": "radio-browser:bd8a6b13-7a0e-4a07-b4bb-ed6c18aab910"
+  },
+  "hot-hits-fm": {
+    "title": "Hot Hits FM",
+    "type": "audio/mpeg",
+    "url": "https://hothitsfm.com/",
+    "cros": false,
+    "stream": "https://live.hothitsfm.com/stream",
+    "features": "/img/europe/bulgaria/hot-hits-fm.png",
+    "source": "radio-browser:5b360510-c4fd-4c57-9875-36fcaabeca1e"
+  },
+  "radio-slavi": {
+    "title": "Radio Slavi",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://79.98.108.170:8043/;",
+    "features": "/img/europe/bulgaria/radio-slavi.webp",
+    "source": "radio-browser:2b50c4c2-0f07-468c-bfa1-88f8c77607b3"
+  },
+  "radio-favorit": {
+    "title": "Radio Favorit",
+    "description": "folk",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": true,
+    "stream": "http://79.98.108.170:8235/stream",
+    "features": "/img/europe/bulgaria/radio-favorit.webp",
+    "source": "radio-browser:786036b5-a816-4c20-9296-89b5b1120908"
+  },
+  "radio-melody": {
+    "title": "Radio Melody",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://radiomelody.bg/",
+    "cros": true,
+    "stream": "http://193.108.24.6:8000/melody?file=.mp3",
+    "features": "/img/europe/bulgaria/radio-melody.png",
+    "source": "radio-browser:94f5fb25-b584-4ea9-be0a-6898d80128ed"
+  },
+  "radio-kanon": {
+    "title": "Радио Канон - Radio Kanon",
+    "description": "christian, orthodox, religion",
+    "type": "audio/mpeg",
+    "url": "http://www.radiokanon.com/",
+    "cros": true,
+    "stream": "http://79.98.108.170:8059/stream",
+    "features": "/img/europe/bulgaria/radio-kanon.png",
+    "source": "radio-browser:ae938ded-ad1b-11e8-aa67-52543be04c81"
+  },
+  "onlinedjradio": {
+    "title": "onlineDJradio",
+    "description": "electronic",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://play.onlinedjradio.com:7000/live",
+    "features": "/img/europe/bulgaria/onlinedjradio.webp",
+    "source": "radio-browser:de3b4926-f22f-4704-9b8d-29fd3c1337d1"
+  },
+  "radio-veronika-6b681eda": {
+    "title": "RADIO VERONIKA",
+    "type": "audio/mpeg",
+    "url": "http://radioveronika.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/veronika64",
+    "features": "/img/europe/bulgaria/radio-veronika-6b681eda.png",
+    "source": "radio-browser:6b681eda-9c8f-4a3d-82db-6d6c8ac7cb08"
+  },
+  "radio-cyberfolk": {
+    "title": "Radio Cyberfolk",
+    "description": "pop-folk",
+    "type": "audio/mpeg",
+    "url": "https://radiocyberfolk.com/",
+    "cros": true,
+    "stream": "http://91.227.77.124/cyberfolk",
+    "features": "/img/europe/bulgaria/radio-cyberfolk.jpg",
+    "source": "radio-browser:b3068222-1b48-4b1a-8a1d-1eec5bebf280"
+  },
+  "city-hiphop-rab": {
+    "title": "City HipHop RaB",
+    "description": "hiphop r&b",
+    "type": "audio/aac",
+    "url": "https://radioplay.bg/",
+    "cros": false,
+    "stream": "https://play.global.audio/cityrab.aac",
+    "features": "/img/europe/bulgaria/city-hiphop-rab.png",
+    "source": "radio-browser:5912285f-4424-49e8-bb24-9fe9a456891b"
+  },
+  "metro-love-80s": {
+    "title": "Metro Love 80s",
+    "description": "pop",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://eu1.reliastream.com/proxy/love80?mp=/MLR80S",
+    "features": "/img/europe/bulgaria/metro-love-80s.webp",
+    "source": "radio-browser:a4dd70ed-9120-43db-95a2-47fc09205fe4"
+  },
+  "bg-estrada-8a6a10ac": {
+    "title": "Bg Estrada",
+    "description": "bg only, dance",
+    "type": "audio/aac",
+    "url": "https://www.bgradio.bg/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/BG_ESTRADAAAC_L.aac?dist=onlineradiobox",
+    "features": "/img/europe/bulgaria/bg-estrada-8a6a10ac.jpg",
+    "source": "radio-browser:8a6a10ac-1a60-4c18-a91b-0573d086d798"
+  },
+  "badrock-radio": {
+    "title": "BadRock Radio",
+    "description": "hard rock, hardcore, heavy metal, heavy power metal, heavy rock",
+    "type": "audio/mpeg",
+    "url": "https://www.badrockradio.net/",
+    "cros": false,
+    "stream": "https://radio.jump.bg:7028/live",
+    "features": "/img/europe/bulgaria/badrock-radio.webp",
+    "source": "radio-browser:25608063-9335-43a9-a911-4697ea76a0ad"
+  },
+  "bad-rock-radio-1": {
+    "title": "Bad Rock Radio 1",
+    "description": "rock",
+    "type": "audio/mpeg",
+    "url": "https://bg-radio.org",
+    "cros": false,
+    "stream": "https://play-radio0.jump.bg:7028/live",
+    "features": "/img/europe/bulgaria/bad-rock-radio-1.webp",
+    "source": "radio-browser:9ff0313b-5adf-4b1a-85f8-0eda7926f8d3"
+  }
+}

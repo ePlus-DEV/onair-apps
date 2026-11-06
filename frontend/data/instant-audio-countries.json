@@ -1,0 +1,521 @@
+[
+  {
+    "area": "north-america",
+    "slug": "cuba",
+    "label": "Cuba",
+    "domain": "https://radiosdecuba.com",
+    "cca2": "CU"
+  },
+  {
+    "area": "north-america",
+    "slug": "haiti",
+    "label": "Haïti",
+    "domain": "https://radio.ht"
+  },
+  {
+    "area": "north-america",
+    "slug": "jamaica",
+    "label": "Jamaica",
+    "domain": "https://jamaicaradio.net"
+  },
+  {
+    "area": "north-america",
+    "slug": "mexico",
+    "label": "México",
+    "domain": "https://emisoras.com.mx"
+  },
+  {
+    "area": "north-america",
+    "slug": "puerto-rico",
+    "label": "Puerto Rico",
+    "domain": "https://radiosdepuertorico.com"
+  },
+  {
+    "area": "north-america",
+    "slug": "dominican-republic",
+    "label": "República Dominicana",
+    "domain": "https://radios.com.do"
+  },
+  {
+    "area": "north-america",
+    "slug": "trinidad-and-tobago",
+    "label": "Trinidad and Tobago",
+    "domain": "https://trinidadradiostations.net"
+  },
+  {
+    "area": "central-america",
+    "slug": "costa-rica",
+    "label": "Costa Rica",
+    "domain": "https://radios.co.cr"
+  },
+  {
+    "area": "central-america",
+    "slug": "el-salvador",
+    "label": "El Salvador",
+    "domain": "https://radios.com.sv"
+  },
+  {
+    "area": "central-america",
+    "slug": "guatemala",
+    "label": "Guatemala",
+    "domain": "https://emisoras.com.gt"
+  },
+  {
+    "area": "central-america",
+    "slug": "honduras",
+    "label": "Honduras",
+    "domain": "https://radios.hn"
+  },
+  {
+    "area": "central-america",
+    "slug": "nicaragua",
+    "label": "Nicaragua",
+    "domain": "https://radios.co.ni"
+  },
+  {
+    "area": "central-america",
+    "slug": "panama",
+    "label": "Panamá",
+    "domain": "https://radios.com.pa"
+  },
+  {
+    "area": "south-america",
+    "slug": "argentina",
+    "label": "Argentina",
+    "domain": "https://radioarg.com"
+  },
+  {
+    "area": "south-america",
+    "slug": "bolivia",
+    "label": "Bolivia",
+    "domain": "https://radios.com.bo"
+  },
+  {
+    "area": "south-america",
+    "slug": "brazil",
+    "label": "Brasil",
+    "domain": "https://radiosaovivo.net"
+  },
+  {
+    "area": "south-america",
+    "slug": "chile",
+    "label": "Chile",
+    "domain": "https://emisora.cl"
+  },
+  {
+    "area": "south-america",
+    "slug": "colombia",
+    "label": "Colombia",
+    "domain": "https://radios.com.co"
+  },
+  {
+    "area": "south-america",
+    "slug": "ecuador",
+    "label": "Ecuador",
+    "domain": "https://radios.com.ec"
+  },
+  {
+    "area": "south-america",
+    "slug": "paraguay",
+    "label": "Paraguay",
+    "domain": "https://emisoras.com.py"
+  },
+  {
+    "area": "south-america",
+    "slug": "peru",
+    "label": "Perú",
+    "domain": "https://radios.com.pe"
+  },
+  {
+    "area": "south-america",
+    "slug": "suriname",
+    "label": "Suriname",
+    "domain": "https://surinaamseradio.com"
+  },
+  {
+    "area": "south-america",
+    "slug": "uruguay",
+    "label": "Uruguay",
+    "domain": "https://radios.com.uy"
+  },
+  {
+    "area": "south-america",
+    "slug": "venezuela",
+    "label": "Venezuela",
+    "domain": "https://radio.co.ve"
+  },
+  {
+    "area": "europe",
+    "slug": "belgium",
+    "label": "België",
+    "domain": "https://radiosonline.be"
+  },
+  {
+    "area": "europe",
+    "slug": "czechia",
+    "label": "Česká republika",
+    "domain": "https://ceskaradiaonline.cz"
+  },
+  {
+    "area": "europe",
+    "slug": "denmark",
+    "label": "Danmark",
+    "domain": "https://radio.co.dk"
+  },
+  {
+    "area": "europe",
+    "slug": "germany",
+    "label": "Deutschland",
+    "domain": "https://radiolisten.de"
+  },
+  {
+    "area": "europe",
+    "slug": "estonia",
+    "label": "Eesti",
+    "domain": "https://raadiod.com"
+  },
+  {
+    "area": "europe",
+    "slug": "spain",
+    "label": "España",
+    "domain": "https://emisora.org.es"
+  },
+  {
+    "area": "europe",
+    "slug": "france",
+    "label": "France",
+    "domain": "https://ecouterradioenligne.com"
+  },
+  {
+    "area": "europe",
+    "slug": "greece",
+    "label": "Hellas",
+    "domain": "https://radiofona.com.gr"
+  },
+  {
+    "area": "europe",
+    "slug": "croatia",
+    "label": "Hrvatska",
+    "domain": "https://radios.hr"
+  },
+  {
+    "area": "europe",
+    "slug": "ireland",
+    "label": "Ireland",
+    "domain": "https://ieradio.org"
+  },
+  {
+    "area": "europe",
+    "slug": "italy",
+    "label": "Italia",
+    "domain": "https://ascoltareradio.com"
+  },
+  {
+    "area": "europe",
+    "slug": "latvia",
+    "label": "Latvija",
+    "domain": "https://latvijasradio.com",
+    "cca2": "LV"
+  },
+  {
+    "area": "europe",
+    "slug": "luxembourg",
+    "label": "Lëtzebuerg",
+    "domain": "https://radios.lu"
+  },
+  {
+    "area": "europe",
+    "slug": "lithuania",
+    "label": "Lietuva",
+    "domain": "https://radijas.org",
+    "cca2": "LT"
+  },
+  {
+    "area": "europe",
+    "slug": "hungary",
+    "label": "Magyarország",
+    "domain": "https://radiohallgatas.hu"
+  },
+  {
+    "area": "europe",
+    "slug": "netherlands",
+    "label": "Nederland",
+    "domain": "https://nederlandseradio.nl"
+  },
+  {
+    "area": "europe",
+    "slug": "norway",
+    "label": "Norge",
+    "domain": "https://nettradionorge.com"
+  },
+  {
+    "area": "europe",
+    "slug": "austria",
+    "label": "Österreich",
+    "domain": "https://radios.co.at"
+  },
+  {
+    "area": "europe",
+    "slug": "poland",
+    "label": "Polska",
+    "domain": "https://onlineradio.pl"
+  },
+  {
+    "area": "europe",
+    "slug": "portugal",
+    "label": "Portugal",
+    "domain": "https://radioonline.com.pt"
+  },
+  {
+    "area": "europe",
+    "slug": "romania",
+    "label": "România",
+    "domain": "https://radio.org.ro"
+  },
+  {
+    "area": "europe",
+    "slug": "switzerland",
+    "label": "Schweiz",
+    "domain": "https://radiosonline.ch"
+  },
+  {
+    "area": "europe",
+    "slug": "slovenia",
+    "label": "Slovenija",
+    "domain": "https://siradio.si"
+  },
+  {
+    "area": "europe",
+    "slug": "serbia",
+    "label": "Srbija",
+    "domain": "https://radiostanice.rs"
+  },
+  {
+    "area": "europe",
+    "slug": "finland",
+    "label": "Suomi",
+    "domain": "https://nettiradiot.org"
+  },
+  {
+    "area": "europe",
+    "slug": "sweden",
+    "label": "Sverige",
+    "domain": "https://radio.org.se"
+  },
+  {
+    "area": "europe",
+    "slug": "united-kingdom",
+    "label": "United Kingdom",
+    "domain": "https://internetradiouk.com"
+  },
+  {
+    "area": "europe",
+    "slug": "bulgaria",
+    "label": "България",
+    "domain": "https://bg-radio.org"
+  },
+  {
+    "area": "europe",
+    "slug": "ukraine",
+    "label": "Україна",
+    "domain": "https://radioua.net"
+  },
+  {
+    "area": "africa",
+    "slug": "algeria",
+    "label": "Algérie",
+    "domain": "https://radioalgerie.eu"
+  },
+  {
+    "area": "africa",
+    "slug": "cameroon",
+    "label": "Cameroon",
+    "domain": "https://radio.co.cm"
+  },
+  {
+    "area": "africa",
+    "slug": "congo",
+    "label": "Congo",
+    "domain": "https://radio.cd"
+  },
+  {
+    "area": "africa",
+    "slug": "cote-d-ivoire",
+    "label": "Côte d'Ivoire",
+    "domain": "https://radio.co.ci"
+  },
+  {
+    "area": "africa",
+    "slug": "ghana",
+    "label": "Ghana",
+    "domain": "https://radio.com.gh"
+  },
+  {
+    "area": "africa",
+    "slug": "kenya",
+    "label": "Kenya",
+    "domain": "https://radio.or.ke"
+  },
+  {
+    "area": "africa",
+    "slug": "madagascar",
+    "label": "Madagasikara",
+    "domain": "https://radio.mg"
+  },
+  {
+    "area": "africa",
+    "slug": "morocco",
+    "label": "Maroc",
+    "domain": "https://radio.co.ma"
+  },
+  {
+    "area": "africa",
+    "slug": "egypt",
+    "label": "Misr",
+    "domain": "https://egyptradio.net"
+  },
+  {
+    "area": "africa",
+    "slug": "nigeria",
+    "label": "Nigeria",
+    "domain": "https://radio.org.ng"
+  },
+  {
+    "area": "africa",
+    "slug": "senegal",
+    "label": "Sénégal",
+    "domain": "https://radio.sn"
+  },
+  {
+    "area": "africa",
+    "slug": "south-africa",
+    "label": "South Africa",
+    "domain": "https://radiosa.org"
+  },
+  {
+    "area": "africa",
+    "slug": "tunisia",
+    "label": "Tunisie",
+    "domain": "https://radiotunisienne.org"
+  },
+  {
+    "area": "africa",
+    "slug": "uganda",
+    "label": "Uganda",
+    "domain": "https://radio.co.ug"
+  },
+  {
+    "area": "asia",
+    "slug": "bangladesh",
+    "label": "Bangladesh",
+    "domain": "https://radio-bd.com"
+  },
+  {
+    "area": "asia",
+    "slug": "korea",
+    "label": "Hanguk",
+    "domain": "https://radioonline.kr"
+  },
+  {
+    "area": "asia",
+    "slug": "hong-kong",
+    "label": "Hong Kong",
+    "domain": "https://radios.hk"
+  },
+  {
+    "area": "asia",
+    "slug": "india",
+    "label": "India",
+    "domain": "https://radioindia.org"
+  },
+  {
+    "area": "asia",
+    "slug": "indonesia",
+    "label": "Indonesia",
+    "domain": "https://radioonline.co.id"
+  },
+  {
+    "area": "asia",
+    "slug": "malaysia",
+    "label": "Malaysia",
+    "domain": "https://radioonline.my"
+  },
+  {
+    "area": "asia",
+    "slug": "nepal",
+    "label": "Nepāla",
+    "domain": "https://radionp.com"
+  },
+  {
+    "area": "asia",
+    "slug": "japan",
+    "label": "Nihon",
+    "domain": "https://jpradio.jp"
+  },
+  {
+    "area": "asia",
+    "slug": "pakistan",
+    "label": "Pakistan",
+    "domain": "https://radio.net.pk"
+  },
+  {
+    "area": "asia",
+    "slug": "philippines",
+    "label": "Philippines",
+    "domain": "https://radio.org.ph"
+  },
+  {
+    "area": "asia",
+    "slug": "singapore",
+    "label": "Singapore",
+    "domain": "https://radiosingapore.org"
+  },
+  {
+    "area": "asia",
+    "slug": "sri-lanka",
+    "label": "Sri Lankā",
+    "domain": "https://radio.com.lk"
+  },
+  {
+    "area": "asia",
+    "slug": "viet-nam",
+    "label": "Việt Nam",
+    "domain": "https://vietnamradio.org"
+  },
+  {
+    "area": "asia",
+    "slug": "israel",
+    "label": "יִשְׂרָאֵל‎",
+    "domain": "https://radios.org.il"
+  },
+  {
+    "area": "asia",
+    "slug": "thailand",
+    "label": "ประเทศไทย",
+    "domain": "https://radioth.net"
+  },
+  {
+    "area": "asia",
+    "slug": "china",
+    "label": "中国",
+    "domain": "https://zhibo.fm"
+  },
+  {
+    "area": "asia",
+    "slug": "taiwan",
+    "label": "台灣",
+    "domain": "https://radios.tw"
+  },
+  {
+    "area": "oceania",
+    "slug": "australia",
+    "label": "Australia",
+    "domain": "https://radioau.net"
+  },
+  {
+    "area": "oceania",
+    "slug": "new-zealand",
+    "label": "New Zealand",
+    "domain": "https://radio.org.nz"
+  }
+]

@@ -1,0 +1,430 @@
+{
+    "aktual": {
+        "title": "Radio Aktual",
+        "type": "audio/mpeg",
+        "url": "https://radioaktual.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Aktual",
+        "features": "/img/europe/slovenia/aktual.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/75/aktual?time="
+    },
+    "center": {
+        "title": "Radio Center",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocenter.si/",
+        "cros": false,
+        "stream": "https://stream.nextmedia.si/proxy/center2?mp=/stream/1/",
+        "features": "/img/europe/slovenia/center.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/center?time="
+    },
+    "ena": {
+        "title": "Radio 1",
+        "type": "audio/mpeg",
+        "url": "https://radio1.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Radio1",
+        "features": "/img/europe/slovenia/ena.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/ena?time="
+    },
+    "sraka": {
+        "title": "Radio Sraka (Novo Mesto)",
+        "type": "audio/mpeg",
+        "url": "https://radiosraka.com/",
+        "cros": true,
+        "stream": "http://193.105.67.24:8006",
+        "features": "/img/europe/slovenia/sraka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/sraka?time="
+    },
+    "val202": {
+        "title": "Radio Slovenija Val202 (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://val202.rtvslo.si/",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/val202",
+        "features": "/img/europe/slovenia/val202.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/val202?time="
+    },
+    "city": {
+        "title": "Radio City (Maribor)",
+        "type": "audio/mpeg",
+        "url": "https://radiocity.si/",
+        "cros": true,
+        "stream": "http://82.149.22.34:8000/CityMp364mono.mp3",
+        "features": "/img/europe/slovenia/city.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/city?time="
+    },
+    "ptuj": {
+        "title": "Radio Ptuj",
+        "type": "audio/mpeg",
+        "url": "https://radioptuj.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Ptuj",
+        "features": "/img/europe/slovenia/ptuj.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/ptuj?time="
+    },
+    "veseljak": {
+        "title": "Radio Veseljak (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://veseljak.svet24.si/",
+        "cros": true,
+        "stream": "http://195.95.158.131/Veseljak",
+        "features": "/img/europe/slovenia/veseljak.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/veseljak?time="
+    },
+    "rogla": {
+        "title": "Radio Rogla (Slovenske Konjice)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiorogla.si/",
+        "cros": true,
+        "stream": "http://193.105.67.24:8010/stream/1/",
+        "features": "/img/europe/slovenia/rogla.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/rogla?time="
+    },
+    "maxi": {
+        "title": "Radio Maxi (Ljutomer)",
+        "type": "audio/mpeg",
+        "url": "https://radiomaxi.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Maxi",
+        "features": "/img/europe/slovenia/maxi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/maxi?time="
+    },
+    "murski-val": {
+        "title": "Radio Murski Val (Murska Sobota)",
+        "type": "audio/mpeg",
+        "url": "https://www.murskival.si/",
+        "cros": false,
+        "stream": "https://stream.murskival.si",
+        "features": "/img/europe/slovenia/murski-val.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/murski-val?time="
+    },
+    "salomon": {
+        "title": "Radio Salomon (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://radiosalomon.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Salomon",
+        "features": "/img/europe/slovenia/salomon.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/salomon?time="
+    },
+    "koroski": {
+        "title": "Koroski Radio (Slovenj Gradec)",
+        "type": "audio/mpeg",
+        "url": "https://www.koroski-radio.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Koroski",
+        "features": "/img/europe/slovenia/koroski.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/koroski?time="
+    },
+    "ekspres": {
+        "title": "Radio Ekspres (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioekspres.si/",
+        "cros": true,
+        "stream": "http://stream2.radioekspres.si:8016/stream/1/",
+        "features": "/img/europe/slovenia/ekspres.png",
+        "favorite": false
+    },
+    "antena": {
+        "title": "Radio Antena (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://radioantena.svet24.si/",
+        "cros": true,
+        "stream": "http://live.radioantena.si/Antena",
+        "features": "/img/europe/slovenia/antena.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/antena?time="
+    },
+    "ognjisce": {
+        "title": "Radio Ognjisce",
+        "type": "audio/mpeg",
+        "url": "https://radio.ognjisce.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/ognjisce.mp3",
+        "features": "/img/europe/slovenia/ognjisce.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/ognjisce?time="
+    },
+    "hit": {
+        "title": "Radio Hit (Domzale)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiohit.si/si/live",
+        "cros": false,
+        "stream": "https://stream.exit.si/radiohit",
+        "features": "/img/europe/slovenia/hit.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/hit?time="
+    },
+    "aktual-kum": {
+        "title": "Radio Aktual Kum",
+        "type": "audio/mpeg",
+        "url": "https://kum.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/AktualK",
+        "features": "/img/europe/slovenia/aktual-kum.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/aktual-kum?time="
+    },
+    "net-maribor": {
+        "title": "Radio Net FM (Maribor)",
+        "type": "audio/mpeg",
+        "url": "http://www.radionet.si",
+        "cros": true,
+        "stream": "http://reflector.radionet.si:8000/stream.ogg",
+        "features": "/img/europe/slovenia/net-maribor.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/net-maribor?time="
+    },
+    "prvi": {
+        "title": "Radio Prvi",
+        "type": "audio/mpeg",
+        "url": "https://prvi.rtvslo.si/",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/ra1",
+        "features": "/img/europe/slovenia/prvi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/prvi?time="
+    },
+    "koper": {
+        "title": "Radio Koper",
+        "type": "audio/mpeg",
+        "url": "https://radiokoper.rtvslo.si/",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/rakp",
+        "features": "/img/europe/slovenia/koper.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/koper?time="
+    },
+    "capris": {
+        "title": "Radio Capris (Koper)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocapris.si/",
+        "cros": false,
+        "stream": "https://stream.exit.si/live",
+        "features": "/img/europe/slovenia/capris.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/capris?time="
+    },
+    "stajerski": {
+        "title": "Radio Štajerski val (Šmarje pri Jelšah)",
+        "type": "audio/mpeg",
+        "url": "https://www.stajerskival.si/sl/",
+        "cros": false,
+        "stream": "https://stream.stajerskival.si:8443/live",
+        "features": "/img/europe/slovenia/stajerski.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/stajerski?time="
+    },
+    "si": {
+        "title": "Radio Si (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://www.rtvslo.si/radio-si",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/rsi",
+        "features": "/img/europe/slovenia/si.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/si?time="
+    },
+    "celje": {
+        "title": "Radio Celje",
+        "type": "audio/mpeg",
+        "url": "https://radiocelje.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Celje",
+        "features": "/img/europe/slovenia/celje.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/celje?time="
+    },
+    "zeleni-val": {
+        "title": "Radio Zeleni Val",
+        "type": "audio/mpeg",
+        "url": "https://radio.zelenival.com/",
+        "cros": false,
+        "stream": "https://jurepeterka.radioca.st/stream/1/",
+        "features": "/img/europe/slovenia/zeleni-val.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/zeleni-val?time="
+    },
+    "center-yu": {
+        "title": "Radio Center Yu",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocenter.si/",
+        "cros": true,
+        "stream": "http://stream3.radiocenter.si:8100/stream/1/",
+        "features": "/img/europe/slovenia/center-yu.png",
+        "favorite": false
+    },
+    "radio-dur": {
+        "title": "Radio Dur (Medvode)",
+        "type": "audio/mpeg",
+        "url": "https://www.retro.sg/",
+        "cros": false,
+        "stream": "https://zvok.ragla.si/gr",
+        "features": "/img/europe/slovenia/radio-dur.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/radio-dur?time="
+    },
+    "krka": {
+        "title": "Radio Krka (Novo Mesto)",
+        "type": "audio/mpeg",
+        "url": "https://radiokrka.svet24.si/",
+        "cros": true,
+        "stream": "http://84.52.138.44/Krka",
+        "features": "/img/europe/slovenia/krka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/krka?time="
+    },
+    "moj": {
+        "title": "Moj Radio (Velenje)",
+        "type": "audio/mpeg",
+        "url": "https://mojradio.si/",
+        "cros": false,
+        "stream": "https://stream.mojradio.si:8000/mojradio",
+        "features": "/img/europe/slovenia/moj.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/moj?time="
+    },
+    "bob": {
+        "title": "Radio Bob",
+        "type": "audio/mpeg",
+        "url": "https://radiobob.svet24.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/BOB",
+        "features": "/img/europe/slovenia/bob.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/bob?time="
+    },
+    "robin": {
+        "title": "Radio Robin",
+        "type": "audio/mpeg",
+        "url": "https://www.robin.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Robin",
+        "features": "/img/europe/slovenia/robin.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/robin?time="
+    },
+    "triglav": {
+        "title": "Radio Triglav (Jesenice)",
+        "type": "audio/mpeg",
+        "url": "https://radiotriglav.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Triglav",
+        "features": "/img/europe/slovenia/triglav.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/triglav?time="
+    },
+    "maribor": {
+        "title": "Radio Maribor",
+        "type": "audio/mpeg",
+        "url": "https://www.rtvslo.si/radio-maribor/",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/rmb",
+        "features": "/img/europe/slovenia/maribor.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/maribor?time="
+    },
+    "slovenske-gorice": {
+        "title": "Radio Slovenske gorice (Lenart)",
+        "type": "audio/mpeg",
+        "url": "https://www.rsg.si/",
+        "cros": false,
+        "stream": "https://stream.iradio.pro/proxy/radioslovenskegoric?mp=/stream",
+        "features": "/img/europe/slovenia/slovenske-gorice.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/slovenske-gorice?time="
+    },
+    "velenje": {
+        "title": "Radio Velenje",
+        "type": "audio/mpeg",
+        "url": "https://nascas.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Velenje",
+        "features": "/img/europe/slovenia/velenje.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/velenje?time="
+    },
+    "ars": {
+        "title": "Radio Slovenija Ars (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://ars.rtvslo.si/",
+        "cros": false,
+        "stream": "https://mp3.rtvslo.si/ars",
+        "features": "/img/europe/slovenia/ars.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/ars?time="
+    },
+    "prlek": {
+        "title": "Radio Prlek (Ormož)",
+        "type": "audio/mpeg",
+        "url": "https://www.radioprlek.net/",
+        "cros": true,
+        "stream": "http://86.61.68.81:8000/",
+        "features": "/img/europe/slovenia/prlek.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/prlek?time="
+    },
+    "94": {
+        "title": "Radio 94",
+        "type": "audio/mpeg",
+        "url": "https://www.radio94.si/",
+        "cros": true,
+        "stream": "http://77.38.12.198:8000/radio94",
+        "features": "/img/europe/slovenia/94.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/94?time="
+    },
+    "mars": {
+        "title": "Radio Mars (Maribor)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomars.si/",
+        "cros": true,
+        "stream": "http://frekvenca.eu:8000/radiomars.mp3",
+        "features": "/img/europe/slovenia/mars.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/mars?time="
+    },
+    "kranj": {
+        "title": "Radio Kranj",
+        "type": "audio/mpeg",
+        "url": "https://radio-kranj.si/",
+        "cros": false,
+        "stream": "https://live.radio.si/Kranj",
+        "features": "/img/europe/slovenia/kranj.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/kranj?time="
+    },
+    "student": {
+        "title": "Radio Student (Ljubljana)",
+        "type": "audio/mpeg",
+        "url": "https://radiostudent.si/",
+        "cros": false,
+        "stream": "https://kruljo.radiostudent.si:8001/hiq",
+        "features": "/img/europe/slovenia/student.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/student?time="
+    },
+    "sora": {
+        "title": "Radio Sora (Škofja Loka)",
+        "type": "audio/mpeg",
+        "url": "https://www.radio-sora.si/",
+        "cros": true,
+        "stream": "http://radio-sora.si:8000/radio-sora.mp3",
+        "features": "/img/europe/slovenia/sora.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/75/sora?time="
+    }
+}

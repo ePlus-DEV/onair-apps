@@ -1,0 +1,412 @@
+{
+    "highveld": {
+        "title": "947",
+        "type": "audio/mpeg",
+        "url": "https://www.primediaplus.com/station/947/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM947_SC",
+        "features": "/img/africa/south-africa/highveld.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/73/highveld?time="
+    },
+    "jacaranda": {
+        "title": "Jacaranda FM (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.jacarandafm.com/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/jacarandafm_live_high.mp3",
+        "features": "/img/africa/south-africa/jacaranda.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/jacaranda?time="
+    },
+    "talk-702": {
+        "title": "702 Talk Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.primediaplus.com/station/702/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FM702AAC_SC",
+        "features": "/img/africa/south-africa/talk-702.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/talk-702?time="
+    },
+    "5fm": {
+        "title": "Radio 5 FM",
+        "type": "audio/mpeg",
+        "url": "http://www.5fm.co.za/sabc/home/5fm",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/5FM_SC",
+        "features": "/img/africa/south-africa/5fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/5fm?time="
+    },
+    "kfm": {
+        "title": "KFM",
+        "type": "audio/mpeg",
+        "url": "https://www.primediaplus.com/station/kfm/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/KFM_SC",
+        "features": "/img/africa/south-africa/kfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/kfm?time="
+    },
+    "metro": {
+        "title": "Metro FM",
+        "type": "audio/mpeg",
+        "url": "http://beta.sabc.co.za/metrofm/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/METROFM_SC",
+        "features": "/img/africa/south-africa/metro.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/metro?time="
+    },
+    "rsg": {
+        "title": "RSG 100-104 FM",
+        "type": "audio/mpeg",
+        "url": "http://www.rsg.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RSG_SC",
+        "features": "/img/africa/south-africa/rsg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/rsg?time="
+    },
+    "mix": {
+        "title": "Mix FM (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "https://mixfm.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/113_medium.aac",
+        "features": "/img/africa/south-africa/mix.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/mix?time="
+    },
+    "voc": {
+        "title": "The Voice of the Cape FM",
+        "type": "application/x-mpegURL",
+        "url": "https://vocfm.co.za/",
+        "cros": false,
+        "stream": "https://streaming.fabrik.fm/voc/echocast/audio/low/index.m3u8",
+        "features": "/img/africa/south-africa/voc.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/voc?time="
+    },
+    "islam": {
+        "title": "Radio Islam",
+        "type": "audio/mpeg",
+        "url": "https://radioislam.org.za/a/",
+        "cros": true,
+        "stream": "http://stream.radioislam.org.za:7542/radioislam.mp3",
+        "features": "/img/africa/south-africa/islam.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/islam?time="
+    },
+    "groot-pretoria": {
+        "title": "Groot FM (Pretoria)",
+        "type": "audio/mpeg",
+        "url": "https://www.grootfm.co.za/",
+        "cros": false,
+        "stream": "https://cast3.my-control-panel.com/proxy/grootfm/stream",
+        "features": "/img/africa/south-africa/groot-pretoria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/groot-pretoria?time="
+    },
+    "heart": {
+        "title": "Heart (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.heartfm.co.za/",
+        "cros": false,
+        "stream": "https://iceant.antfarm.co.za/HeartFM.mp3",
+        "features": "/img/africa/south-africa/heart.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/heart?time="
+    },
+    "ccfm": {
+        "title": "CCFM (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.ccfm.org.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/69_medium.aac",
+        "features": "/img/africa/south-africa/ccfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/ccfm?time="
+    },
+    "cape-talk": {
+        "title": "Cape Talk",
+        "type": "audio/mpeg",
+        "url": "https://www.primediaplus.com/station/capetalk/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CAPE_TALK_SC",
+        "features": "/img/africa/south-africa/cape-talk.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/cape-talk?time="
+    },
+    "pretoria-fm": {
+        "title": "Pretoria FM",
+        "type": "audio/mpeg",
+        "url": "https://www.pretoriafm.co.za/",
+        "cros": false,
+        "stream": "https://iceant.eclipse-streaming.co.za/ptafm.mp3",
+        "features": "/img/africa/south-africa/pretoria-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/pretoria-fm?time="
+    },
+    "rosestad-bloemfontein": {
+        "title": "Radio Rosestad (Bloemfontein)",
+        "type": "audio/mpeg",
+        "url": "https://rosestad.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/122_medium.aac",
+        "features": "/img/africa/south-africa/rosestad-bloemfontein.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/rosestad-bloemfontein?time="
+    },
+    "coast-durban": {
+        "title": "East Coast Radio (Durban)",
+        "type": "audio/mpeg",
+        "url": "https://www.ecr.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/ecr_live_medium.aac",
+        "features": "/img/africa/south-africa/coast-durban.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/coast-durban?time="
+    },
+    "gagasi": {
+        "title": "Gagasi FM (Durban)",
+        "type": "application/x-mpegURL",
+        "url": "https://gagasiworld.co.za/",
+        "cros": false,
+        "stream": "https://streaming.fabrik.fm/gagasi/echocast/audio/low/index.m3u8",
+        "features": "/img/africa/south-africa/gagasi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/gagasi?time="
+    },
+    "motsweding-johannesburg": {
+        "title": "Motsweding (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "http://www.motswedingfm.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MOTSWEDINGAAC_SC",
+        "features": "/img/africa/south-africa/motsweding-johannesburg.png",
+        "favorite": false
+    },
+    "classic": {
+        "title": "Classic FM (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/49_medium.aac",
+        "features": "/img/africa/south-africa/classic.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/classic?time="
+    },
+    "kaya": {
+        "title": "Kaya",
+        "type": "audio/mpeg",
+        "url": "https://www.kaya959.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/82_high.aac",
+        "features": "/img/africa/south-africa/kaya.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/kaya?time="
+    },
+    "thobela": {
+        "title": "Thobela FM (Pretoria)",
+        "type": "audio/mpeg",
+        "url": "http://www.thobelafm.co.za/sabc/home/thobelafm",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/THOBELA_SC",
+        "features": "/img/africa/south-africa/thobela.png",
+        "favorite": false
+    },
+    "goodhope": {
+        "title": "Good Hope (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.goodhopefm.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/GOODHOPEFM_SC",
+        "features": "/img/africa/south-africa/goodhope.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/goodhope?time="
+    },
+    "yfm": {
+        "title": "YFM",
+        "type": "application/x-mpegURL",
+        "url": "https://www.yfm.co.za/",
+        "cros": false,
+        "stream": "https://streaming.fabrik.fm/yfm/echocast/audio/index.m3u8",
+        "features": "/img/africa/south-africa/yfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/yfm?time="
+    },
+    "tygerberg-cape-town": {
+        "title": "Radio Tygerberg (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.104fm.co.za/",
+        "cros": false,
+        "stream": "https://zas6.ndx.co.za:8007/stream/1/",
+        "features": "/img/africa/south-africa/tygerberg-cape-town.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/tygerberg-cape-town?time="
+    },
+    "radio-2000": {
+        "title": "Radio 2000",
+        "type": "audio/mpeg",
+        "url": "https://www.radio2000.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/RADIO2000AAC_SC",
+        "features": "/img/africa/south-africa/radio-2000.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/radio-2000?time="
+    },
+    "786-cape-town": {
+        "title": "Radio 786 (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.radio786.co.za/",
+        "cros": true,
+        "stream": "http://102.221.216.42:8040/stream/1/",
+        "features": "/img/africa/south-africa/786-cape-town.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/786-cape-town?time="
+    },
+    "lotus": {
+        "title": "Lotus FM",
+        "type": "audio/mpeg",
+        "url": "http://www.lotusfm.co.za/sabc/home/lotusfm",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOTUSFMAAC_SC",
+        "features": "/img/africa/south-africa/lotus.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/lotus?time="
+    },
+    "lesedi": {
+        "title": "Lesedi (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "http://www.lesedifm.co.za/sabc/home/lesedifm",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LESEDIAAC_SC",
+        "features": "/img/africa/south-africa/lesedi.png",
+        "favorite": false
+    },
+    "bush": {
+        "title": "Bush Radio (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://bushradio.wpcomstaging.com/",
+        "cros": false,
+        "stream": "https://zas4.ndx.co.za:9100/stream",
+        "features": "/img/africa/south-africa/bush.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/bush?time="
+    },
+    "algoa": {
+        "title": "Algoa FM",
+        "type": "audio/mpeg",
+        "url": "https://www.algoafm.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/54_medium.aac",
+        "features": "/img/africa/south-africa/algoa.png",
+        "favorite": false
+    },
+    "ligwalagwala": {
+        "title": "Ligwalagwala (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "http://www.ligwalagwalafm.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LIGWALAGWALAAAC_SC",
+        "features": "/img/africa/south-africa/ligwalagwala.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/ligwalagwala?time="
+    },
+    "ofm": {
+        "title": "OFM 94 97",
+        "type": "audio/mpeg",
+        "url": "https://www.ofm.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/ofm_live_high.aac",
+        "features": "/img/africa/south-africa/ofm.png",
+        "favorite": false
+    },
+    "ukhozi-durban": {
+        "title": "Ukhozi FM (Durban)",
+        "type": "audio/mpeg",
+        "url": "https://www.ukhozifm.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/UKHOZIFMAAC_SC",
+        "features": "/img/africa/south-africa/ukhozi-durban.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/ukhozi-durban?time="
+    },
+    "munghana-johannesburg": {
+        "title": "Munghana Lonene FM (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "http://www.munghanalonenefm.co.za/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/MUNGANALONENEAAC_SC",
+        "features": "/img/africa/south-africa/munghana-johannesburg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/munghana-johannesburg?time="
+    },
+    "mfm": {
+        "title": "MFM (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://mfm.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/46_medium.aac",
+        "features": "/img/africa/south-africa/mfm.png",
+        "favorite": false
+    },
+    "veritas": {
+        "title": "Radio Veritas",
+        "type": "audio/mpeg",
+        "url": "https://radioveritas.co.za/",
+        "cros": false,
+        "stream": "https://zas5.ndx.co.za:9618/stream",
+        "features": "/img/africa/south-africa/veritas.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/veritas?time="
+    },
+    "kansel": {
+        "title": "Radio Pulpit Kansel (Pretoria)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiopulpit.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/189_medium.aac",
+        "features": "/img/africa/south-africa/kansel.png",
+        "favorite": false
+    },
+    "fmr": {
+        "title": "Fine Music Radio (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.fmr.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/fmr_live_medium.mp3",
+        "features": "/img/africa/south-africa/fmr.png",
+        "favorite": false
+    },
+    "chai": {
+        "title": "Chai FM (Johannesburg)",
+        "type": "audio/mpeg",
+        "url": "https://www.chaifm.com/",
+        "cros": false,
+        "stream": "https://zas1.ndx.co.za:8008/stream",
+        "features": "/img/africa/south-africa/chai.png",
+        "favorite": false
+    },
+    "bok-cape-town": {
+        "title": "Bok Radio (Cape Town)",
+        "type": "audio/mpeg",
+        "url": "https://www.bokradio.co.za/",
+        "cros": false,
+        "stream": "https://bokradio.highquality.radiostream.co.za/",
+        "features": "/img/africa/south-africa/bok-cape-town.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/73/bok-cape-town?time="
+    },
+    "vuma": {
+        "title": "Vuma FM",
+        "type": "audio/mpeg",
+        "url": "https://vumafm.co.za/",
+        "cros": false,
+        "stream": "https://edge.iono.fm/xice/77_medium.aac?p=embed",
+        "features": "/img/africa/south-africa/vuma.png",
+        "favorite": false
+    }
+}

@@ -1,0 +1,426 @@
+{
+    "sky-plus": {
+        "title": "Sky Plus",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/",
+        "cros": false,
+        "stream": "https://stream.skymedia.ee/live/SKYPLUS",
+        "features": "/img/europe/estonia/sky-plus.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/146/sky-plus?time="
+    },
+    "retro-fm": {
+        "title": "Retro FM",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/retrofm",
+        "cros": false,
+        "stream": "https://stream.skymedia.ee/live/RETRO",
+        "features": "/img/europe/estonia/retro-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/retro-fm?time="
+    },
+    "star-fm": {
+        "title": "Star FM",
+        "type": "audio/mpeg",
+        "url": "https://starfm.tv3.ee/",
+        "cros": false,
+        "stream": "https://ice.leviracloud.eu/star96-aac",
+        "features": "/img/europe/estonia/star-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/star-fm?time="
+    },
+    "myhits": {
+        "title": "MyHits",
+        "type": "audio/mpeg",
+        "url": "https://myhits.postimees.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/myhits.mp3",
+        "features": "/img/europe/estonia/myhits.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/myhits?time="
+    },
+    "nrj": {
+        "title": "NRJ",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/nrj",
+        "cros": false,
+        "stream": "https://stream.skymedia.ee/live/NRJ",
+        "features": "/img/europe/estonia/nrj.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/nrj?time="
+    },
+    "rock-fm": {
+        "title": "Rock FM",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/rockfm",
+        "cros": false,
+        "stream": "https://stream.skymedia.ee/live/rck",
+        "features": "/img/europe/estonia/rock-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/rock-fm?time="
+    },
+    "elmar": {
+        "title": "Raadio Elmar",
+        "type": "audio/mpeg",
+        "url": "https://elmar.postimees.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/elmar.aac",
+        "features": "/img/europe/estonia/elmar.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/elmar?time="
+    },
+    "super": {
+        "title": "Super Radio",
+        "type": "audio/mpeg",
+        "url": "https://super.radio/",
+        "cros": false,
+        "stream": "https://edge03.cdn.bitflip.ee:8888/RR?_i=2e63199d",
+        "features": "/img/europe/estonia/super.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/super?time="
+    },
+    "nomme-raadio": {
+        "title": "Nömme Raadio",
+        "type": "audio/mpeg",
+        "url": "https://www.nommeraadio.ee/",
+        "cros": true,
+        "stream": "http://149.210.138.12:8000/nommeraadio",
+        "features": "/img/europe/estonia/nomme-raadio.png",
+        "favorite": false
+    },
+    "power-hit": {
+        "title": "Power Hit Radio",
+        "type": "audio/mpeg",
+        "url": "https://power.tv3.ee/",
+        "cros": false,
+        "stream": "https://ice.leviracloud.eu/phr128-aac",
+        "features": "/img/europe/estonia/power-hit.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/power-hit?time="
+    },
+    "d-fm-90-2": {
+        "title": "DFM",
+        "type": "audio/mpeg",
+        "url": "https://www.dfm.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/dfm.aac",
+        "features": "/img/europe/estonia/d-fm-90-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/d-fm-90-2?time="
+    },
+    "raadio-kuku": {
+        "title": "Raadio Kuku",
+        "type": "audio/mpeg",
+        "url": "https://kuku.pleier.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net//8103046e16b71d15d692b57c187875c7//kuku_low.mp3",
+        "features": "/img/europe/estonia/raadio-kuku.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-kuku?time="
+    },
+    "sky": {
+        "title": "Sky Radio",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/ru/skyradio",
+        "cros": false,
+        "stream": "https://stream.skymedia.ee/live/SKY",
+        "features": "/img/europe/estonia/sky.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/sky?time="
+    },
+    "tre-raadio": {
+        "title": "Tre Raadio",
+        "type": "audio/mpeg",
+        "url": "http://parnu.tre.ee/",
+        "cros": false,
+        "stream": "https://sc2.treraadio.ee/parnu-tre",
+        "features": "/img/europe/estonia/tre-raadio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/tre-raadio?time="
+    },
+    "raadio-2": {
+        "title": "Raadio 2",
+        "type": "audio/mpeg",
+        "url": "https://r2.err.ee/",
+        "cros": false,
+        "stream": "https://icecast.err.ee/raadio2.mp3",
+        "features": "/img/europe/estonia/raadio-2.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-2?time="
+    },
+    "vikerraadio": {
+        "title": "Vikerraadio",
+        "type": "audio/mpeg",
+        "url": "https://vikerraadio.err.ee/",
+        "cros": false,
+        "stream": "https://icecast.err.ee/vikerraadio.mp3",
+        "features": "/img/europe/estonia/vikerraadio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/vikerraadio?time="
+    },
+    "raadio-4": {
+        "title": "Raadio 4",
+        "type": "audio/mpeg",
+        "url": "https://r4.err.ee/",
+        "cros": false,
+        "stream": "https://icecast.err.ee/raadio4.mp3",
+        "features": "/img/europe/estonia/raadio-4.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-4?time="
+    },
+    "err-klassikaraadio": {
+        "title": "Klassikaraadio",
+        "type": "audio/mpeg",
+        "url": "https://klassikaraadio.err.ee/",
+        "cros": false,
+        "stream": "https://icecast.err.ee/klassikaraadio.mp3",
+        "features": "/img/europe/estonia/err-klassikaraadio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/err-klassikaraadio?time="
+    },
+    "raadio-7": {
+        "title": "Raadio 7",
+        "type": "audio/mpeg",
+        "url": "https://raadio7.ee/",
+        "cros": false,
+        "stream": "https://edge05.cdn.bitflip.ee:8888/R7",
+        "features": "/img/europe/estonia/raadio-7.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-7?time="
+    },
+    "raadio-tallinn": {
+        "title": "Raadio Tallinn",
+        "type": "audio/mpeg",
+        "url": "https://raadiotallinn.err.ee/",
+        "cros": false,
+        "stream": "https://icecast.err.ee/raadiotallinn.mp3",
+        "features": "/img/europe/estonia/raadio-tallinn.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-tallinn?time="
+    },
+    "ring-fm": {
+        "title": "Ring FM",
+        "type": "audio/mpeg",
+        "url": "https://ringfm.treraadio.ee/",
+        "cros": false,
+        "stream": "https://sc2.treraadio.ee/ringfm",
+        "features": "/img/europe/estonia/ring-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/ring-fm?time="
+    },
+    "ruut": {
+        "title": "Radio Ruut",
+        "type": "audio/mpeg",
+        "url": "https://www.ruutfm.ee/",
+        "cros": false,
+        "stream": "https://sc2.treraadio.ee/ruutfm",
+        "features": "/img/europe/estonia/ruut.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/ruut?time="
+    },
+    "pereraadio": {
+        "title": "Pereraadio",
+        "type": "audio/mpeg",
+        "url": "https://www.pereraadio.ee/uus/",
+        "cros": true,
+        "stream": "http://bee.pereraadio.ee:8000/Tartu",
+        "features": "/img/europe/estonia/pereraadio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/pereraadio?time="
+    },
+    "raadio-kadi": {
+        "title": "Raadio Kadi",
+        "type": "audio/mpeg",
+        "url": "https://kadi.ee/player/",
+        "cros": false,
+        "stream": "https://edge06.cdn.bitflip.ee:8888/kadi",
+        "features": "/img/europe/estonia/raadio-kadi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/raadio-kadi?time="
+    },
+    "tartu-family": {
+        "title": "Radio Eli",
+        "type": "audio/mpeg",
+        "url": "https://mediaeli.ee/",
+        "cros": false,
+        "stream": "https://icecast.pereraadio.ee:9000/Semeinoje",
+        "features": "/img/europe/estonia/tartu-family.png",
+        "favorite": false
+    },
+    "happy-u": {
+        "title": "Raadio HappyU",
+        "type": "audio/mpeg",
+        "url": "https://www.happyu.ee",
+        "cros": false,
+        "stream": "https://radio.streemlion.com:2525/stream",
+        "features": "/img/europe/estonia/happy-u.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/happy-u?time="
+    },
+    "narodnoe": {
+        "title": "Narodnoe Radio",
+        "type": "audio/mpeg",
+        "url": "https://narodnoeradio.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/narodnoe.mp3",
+        "features": "/img/europe/estonia/narodnoe.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/narodnoe?time="
+    },
+    "betelgeuse": {
+        "title": "Radio Betelgeuse",
+        "type": "audio/mpeg",
+        "url": "http://www.radio-betelgeuse.com/b2/",
+        "cros": true,
+        "stream": "http://sat.radio-betelgeuse.com:8000/live",
+        "features": "/img/europe/estonia/betelgeuse.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/betelgeuse?time="
+    },
+    "sooviraadio-net": {
+        "title": "Sooviraadio",
+        "type": "audio/mpeg",
+        "url": "https://sooviraadio.net/",
+        "cros": true,
+        "stream": "http://media.uunox.net:8888/stream/1/",
+        "features": "/img/europe/estonia/sooviraadio-net.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/sooviraadio-net?time="
+    },
+    "kuressaare-pereraadio": {
+        "title": "Kuressaare Pereraadio",
+        "type": "audio/mpeg",
+        "url": "http://www.pereraadio.com/",
+        "cros": true,
+        "stream": "http://streamer.tt.ee:8000/pereraadio",
+        "features": "/img/europe/estonia/kuressaare-pereraadio.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/kuressaare-pereraadio?time="
+    },
+    "myhits-rakvere": {
+        "title": "MyHits Rakvere",
+        "type": "audio/mpeg",
+        "url": "https://myhits.postimees.ee/",
+        "cros": false,
+        "stream": "https://router.euddn.net/8103046e16b71d15d692b57c187875c7/myhits.mp3",
+        "features": "/img/europe/estonia/myhits-rakvere.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/myhits-rakvere?time="
+    },
+    "raadio-relax": {
+        "title": "Relax FM",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/relaxfm",
+        "cros": false,
+        "stream": "https://stream.relaxfm.ee/relax",
+        "features": "/img/europe/estonia/raadio-relax.png",
+        "favorite": false
+    },
+    "doubleclap": {
+        "title": "Doubleclap Radio",
+        "type": "audio/mpeg",
+        "url": "https://doubleclap.dance/",
+        "cros": false,
+        "stream": "https://s3.radio.co/scfd7273b2/listen",
+        "features": "/img/europe/estonia/doubleclap.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/doubleclap?time="
+    },
+    "vomba": {
+        "title": "Võmba FM",
+        "type": "audio/mpeg",
+        "url": "https://xn--vmbafm-pxa.fi/fi/",
+        "cros": false,
+        "stream": "https://c4.radioboss.fm:8123/stream",
+        "features": "/img/europe/estonia/vomba.png",
+        "favorite": false
+    },
+    "taifuun-fm": {
+        "title": "Taifuun FM",
+        "type": "audio/mpeg",
+        "url": "https://taifuun.eu/",
+        "cros": false,
+        "stream": "https://eagle.streemlion.com/proxy/taifuunfm?mp=/stream",
+        "features": "/img/europe/estonia/taifuun-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/taifuun-fm?time="
+    },
+    "relax-cafe": {
+        "title": "Relax Cafe",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/relaxfm",
+        "cros": false,
+        "stream": "https://edge04.cdn.bitflip.ee:8888/cafe",
+        "features": "/img/europe/estonia/relax-cafe.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/relax-cafe?time="
+    },
+    "relax-instrumental": {
+        "title": "Relax Instrumental",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/relaxfm",
+        "cros": false,
+        "stream": "https://edge04.cdn.bitflip.ee:8888/instrumental",
+        "features": "/img/europe/estonia/relax-instrumental.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/relax-instrumental?time="
+    },
+    "relax-international": {
+        "title": "Relax International",
+        "type": "audio/mpeg",
+        "url": "https://sky.ee/relaxfm",
+        "cros": false,
+        "stream": "https://edge01.cdn.bitflip.ee:8888/international",
+        "features": "/img/europe/estonia/relax-international.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/relax-international?time="
+    },
+    "hitsradio": {
+        "title": "Hits Radio",
+        "type": "audio/mpeg",
+        "url": "https://hitsradio.ee/",
+        "cros": false,
+        "stream": "https://stream.rcast.net/66070",
+        "features": "/img/europe/estonia/hitsradio.png",
+        "favorite": false
+    },
+    "hitmix-estonia": {
+        "title": "Hitmix Estonia",
+        "type": "audio/mpeg",
+        "url": "https://hitmix.ee/",
+        "cros": false,
+        "stream": "https://stream.hitmix.ee:8443/HIT_320",
+        "features": "/img/europe/estonia/hitmix-estonia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/hitmix-estonia?time="
+    },
+    "estonian-party": {
+        "title": "Estonian Party Radio",
+        "type": "audio/mpeg",
+        "url": "https://maggie.torontocast.com:2020/public/estonian-party-radio",
+        "cros": false,
+        "stream": "https://maggie.torontocast.com:8110/stream",
+        "features": "/img/europe/estonia/estonian-party.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/estonian-party?time="
+    },
+    "aripaeva": {
+        "title": "Äripäeva raadio",
+        "type": "audio/mpeg",
+        "url": "https://www.aripaev.ee/raadio",
+        "cros": false,
+        "stream": "https://liveplay.aripaev.ee/stream.mp3",
+        "features": "/img/europe/estonia/aripaeva.png",
+        "favorite": false
+    },
+    "rahva": {
+        "title": "Rahva Raadio",
+        "type": "audio/mpeg",
+        "url": "http://rahvaraadio.ee/",
+        "cros": true,
+        "stream": "http://streamer.tt.ee:8000/rahvaraadio",
+        "features": "/img/europe/estonia/rahva.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/146/rahva?time="
+    }
+}

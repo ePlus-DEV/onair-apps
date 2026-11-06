@@ -1,0 +1,407 @@
+{
+    "kameme": {
+        "title": "Kameme (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://kamemefm-atunwadigital.streamguys1.com/kamemefm",
+        "features": "/img/africa/kenya/kameme.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/81/kameme?time="
+    },
+    "ghetto": {
+        "title": "Ghetto Radio (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://ghettoradio.co.ke/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/eghcv7h647zuv.aac",
+        "features": "/img/africa/kenya/ghetto.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/ghetto?time="
+    },
+    "hope": {
+        "title": "Hope FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://www.hopemediakenya.org/",
+        "cros": false,
+        "stream": "https://a5.asurahosting.com:7530/radio.mp3",
+        "features": "/img/africa/kenya/hope.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/hope?time="
+    },
+    "hbr": {
+        "title": "HBR (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/homeboyzradio",
+        "features": "/img/africa/kenya/hbr.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/hbr?time="
+    },
+    "inooro": {
+        "title": "Inooro FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/inooro-fm-live-5",
+        "cros": false,
+        "stream": "https://inoorofm-atunwadigital.streamguys1.com/inoorofm",
+        "features": "/img/africa/kenya/inooro.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/inooro?time="
+    },
+    "classic-105": {
+        "title": "Classic 105",
+        "type": "audio/mpeg",
+        "url": "https://classic105.com/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/classic105",
+        "features": "/img/africa/kenya/classic-105.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/classic-105?time="
+    },
+    "capital": {
+        "title": "Capital FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://www.capitalfm.co.ke/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/capitalfm",
+        "features": "/img/africa/kenya/capital.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/capital?time="
+    },
+    "kiss": {
+        "title": "Kiss 100 FM",
+        "type": "audio/mpeg",
+        "url": "https://kiss100.co.ke/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/kiss100fm",
+        "features": "/img/africa/kenya/kiss.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/kiss?time="
+    },
+    "citizen": {
+        "title": "Radio Citizen (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/radio-citizen-13",
+        "cros": false,
+        "stream": "https://radiocitizen-atunwadigital.streamguys1.com/radiocitizen",
+        "features": "/img/africa/kenya/citizen.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/citizen?time="
+    },
+    "jambo": {
+        "title": "Radio Jambo",
+        "type": "audio/mpeg",
+        "url": "https://radiojambo.co.ke/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/radiojambo",
+        "features": "/img/africa/kenya/jambo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/jambo?time="
+    },
+    "waumini": {
+        "title": "Radio Waumini (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://radiowaumini.co.ke/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/gvk894g072quv",
+        "features": "/img/africa/kenya/waumini.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/waumini?time="
+    },
+    "kass": {
+        "title": "Kass FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://kasstv.co.ke/",
+        "cros": true,
+        "stream": "http://media.kassfm.co.ke:8006/live",
+        "features": "/img/africa/kenya/kass.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/kass?time="
+    },
+    "ramogi": {
+        "title": "Ramogi FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/ramogi-fm-10",
+        "cros": false,
+        "stream": "https://ramogifm-atunwadigital.streamguys1.com/ramogifm",
+        "features": "/img/africa/kenya/ramogi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/ramogi?time="
+    },
+    "milele": {
+        "title": "Milele (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://milelefm-atunwadigital.streamguys1.com/milelefm",
+        "features": "/img/africa/kenya/milele.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/milele?time="
+    },
+    "family-316": {
+        "title": "Family Radio 316 (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://familyradio316.com/",
+        "cros": false,
+        "stream": "https://listen-familymedia.sharp-stream.com/familymedia.mp3",
+        "features": "/img/africa/kenya/family-316.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/family-316?time="
+    },
+    "musyi": {
+        "title": "Musyi FM",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/musyi-fm-7",
+        "cros": false,
+        "stream": "https://musyifm-atunwadigital.streamguys1.com/musyifm",
+        "features": "/img/africa/kenya/musyi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/musyi?time="
+    },
+    "egesa": {
+        "title": "Egesa FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/egesa-fm-3",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/egesafm",
+        "features": "/img/africa/kenya/egesa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/egesa?time="
+    },
+    "bhb": {
+        "title": "BHB FM (Nairobi)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.bibliahusema.org/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/bhbradio/playlist.m3u8",
+        "features": "/img/africa/kenya/bhb.png",
+        "favorite": false
+    },
+    "sound-asia": {
+        "title": "Sound Asia (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "http://www.soundasiafm.com/",
+        "cros": true,
+        "stream": "http://41.72.210.222:88/stream",
+        "features": "/img/africa/kenya/sound-asia.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/sound-asia?time="
+    },
+    "msenangu-fm-mombasa": {
+        "title": "Msenangu FM (Mombasa)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/msenangufm",
+        "features": "/img/africa/kenya/msenangu-fm-mombasa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/msenangu-fm-mombasa?time="
+    },
+    "maria": {
+        "title": "Radio Maria",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.co.ke",
+        "cros": false,
+        "stream": "https://dreamsiteradiocp5.com/proxy/rmkenyanai?mp=/stream/1/",
+        "features": "/img/africa/kenya/maria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/maria?time="
+    },
+    "e-93": {
+        "title": "E 93 FM",
+        "type": "audio/mpeg",
+        "url": "https://www.e93fm.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/WEASFM_SC",
+        "features": "/img/africa/kenya/e-93.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/e-93?time="
+    },
+    "chamgei": {
+        "title": "Chamgei FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/chamgei-fm-12",
+        "cros": false,
+        "stream": "https://chamgeifm-atunwadigital.streamguys1.com/chamgeifm",
+        "features": "/img/africa/kenya/chamgei.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/chamgei?time="
+    },
+    "meru-fm": {
+        "title": "Meru FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://merufm-atunwadigital.streamguys1.com/merufm",
+        "features": "/img/africa/kenya/meru-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/meru-fm?time="
+    },
+    "west": {
+        "title": "West FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://westfm.co.ke/",
+        "cros": true,
+        "stream": "http://uk4-vn.mixstream.net:8090/stream/1/",
+        "features": "/img/africa/kenya/west.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/west?time="
+    },
+    "bongo": {
+        "title": "Bongo Radio African Grooves",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://bongoradio.com:9000/stream/4/",
+        "features": "/img/africa/kenya/bongo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/bongo?time="
+    },
+    "truth": {
+        "title": "Truth FM (Nairobi)",
+        "type": "application/x-mpegURL",
+        "url": "https://truthfm.org/",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/truthfm/playlist.m3u8",
+        "features": "/img/africa/kenya/truth.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/truth?time="
+    },
+    "smooth": {
+        "title": "Smooth FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/smoothfm",
+        "features": "/img/africa/kenya/smooth.png",
+        "favorite": false
+    },
+    "east-fm": {
+        "title": "East FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://eastfm-atunwadigital.streamguys1.com/eastfm",
+        "features": "/img/africa/kenya/east-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/east-fm?time="
+    },
+    "hero": {
+        "title": "Hero Radio",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/sekpu50sy2quv",
+        "features": "/img/africa/kenya/hero.png",
+        "favorite": false
+    },
+    "mulembe": {
+        "title": "Mulembe FM (Nairobi)",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/mulembe-fm-8",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/mulembefm",
+        "features": "/img/africa/kenya/mulembe.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/mulembe?time="
+    },
+    "hot96": {
+        "title": "Hot 96",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/hot-96-fm-2",
+        "cros": false,
+        "stream": "https://hot96-atunwadigital.streamguys1.com/hot96",
+        "features": "/img/africa/kenya/hot96.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/hot96?time="
+    },
+    "kbc-english": {
+        "title": "KBC English Service",
+        "type": "audio/mpeg",
+        "url": "https://www.kbc.co.ke/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/c0myzdb71s8uv",
+        "features": "/img/africa/kenya/kbc-english.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/kbc-english?time="
+    },
+    "nrg": {
+        "title": "NRG Radio",
+        "type": "audio/mpeg",
+        "url": "https://nrg.radio/",
+        "cros": false,
+        "stream": "https://uksouth.streaming.broadcast.radio/nrg",
+        "features": "/img/africa/kenya/nrg.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/nrg?time="
+    },
+    "bahari": {
+        "title": "Bahari FM",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/bahari-fm-9",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/baharifm",
+        "features": "/img/africa/kenya/bahari.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/bahari?time="
+    },
+    "sulwe": {
+        "title": "Sulwe FM",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/sulwe-4",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/sulwefm",
+        "features": "/img/africa/kenya/sulwe.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/sulwe?time="
+    },
+    "muuga": {
+        "title": "Muuga FM",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/muuga-fm-11",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/muugafm",
+        "features": "/img/africa/kenya/muuga.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/muuga?time="
+    },
+    "imani": {
+        "title": "Imani Radio (Kitale)",
+        "type": "audio/mpeg",
+        "url": "https://imaniradio.org/",
+        "cros": false,
+        "stream": "https://streaming.live365.com/a26843",
+        "features": "/img/africa/kenya/imani.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/imani?time="
+    },
+    "kaya": {
+        "title": "Radio Kaya",
+        "type": "audio/mpeg",
+        "url": "https://radiokaya.co.ke/",
+        "cros": false,
+        "stream": "https://usa9-vn.mixstream.net/8084/stream/1/",
+        "features": "/img/africa/kenya/kaya.png",
+        "favorite": false
+    },
+    "baraka": {
+        "title": "Baraka FM",
+        "type": "audio/mpeg",
+        "url": "https://barakafm.org/",
+        "cros": true,
+        "stream": "http://s2.myradiostream.com:5788/stream/1/",
+        "features": "/img/africa/kenya/baraka.png",
+        "favorite": false
+    },
+    "vuuka": {
+        "title": "Vuuka FM",
+        "type": "audio/mpeg",
+        "url": "https://citizen.digital/radio/vuuka-fm-6",
+        "cros": false,
+        "stream": "https://atunwadigital.streamguys1.com/vuukafm",
+        "features": "/img/africa/kenya/vuuka.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/81/vuuka?time="
+    }
+}

@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "id": "apple-music",
+  "name": "Apple Music Radio",
+  "description": "Apple Music Radio stations indexed from public Apple Music and TuneIn listings, including seasonal Holiday Hits.",
+  "origin_country": "US",
+  "coverage": "global",
+  "playback": "external",
+  "homepage": "https://music.apple.com/us/radio",
+  "requires_account": true,
+  "requires_subscription": false,
+  "stations": [
+    {
+      "id": "apple-music-1",
+      "title": "Apple Music 1",
+      "description": "New music, contemporary artists, hosts and interviews.",
+      "genre": "Contemporary",
+      "language": "en",
+      "listen_url": "https://music.apple.com/us/station/apple-music-1/ra.978194965",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-1-s345732/"
+    },
+    {
+      "id": "apple-music-hits",
+      "title": "Apple Music Hits",
+      "description": "Popular songs and favorites across the decades.",
+      "genre": "Hits",
+      "language": "en",
+      "listen_url": "https://music.apple.com/us/station/apple-music-hits/ra.1498155548",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-Hits-s345724/"
+    },
+    {
+      "id": "apple-music-country",
+      "title": "Apple Music Country",
+      "description": "Country music, featured artists and exclusive radio shows.",
+      "genre": "Country",
+      "language": "en",
+      "listen_url": "https://music.apple.com/us/station/apple-music-country/ra.1498157166",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-Country-s345725/"
+    },
+    {
+      "id": "apple-music-club",
+      "title": "Apple Music Club",
+      "description": "DJ mixes and electronic dance music.",
+      "genre": "Electronic",
+      "language": "en",
+      "listen_url": "https://music.apple.com/us/station/apple-music-club/ra.1740613859",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-Club-s345726/"
+    },
+    {
+      "id": "apple-musica-uno",
+      "title": "Apple Música Uno",
+      "description": "Latin music, culture, hosts and artist interviews.",
+      "genre": "Latin",
+      "language": "es",
+      "listen_url": "https://music.apple.com/us/station/apple-m%C3%BAsica-uno/ra.1740613864",
+      "tunein_url": "https://tunein.com/radio/Apple-M%C3%BAsica-Uno-s345727/"
+    },
+    {
+      "id": "apple-music-chill",
+      "title": "Apple Music Chill",
+      "description": "Relaxed and laid-back music selections.",
+      "genre": "Chill",
+      "language": "en",
+      "listen_url": "https://music.apple.com/us/station/apple-music-chill/ra.1740614260",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-Chill-s345733/"
+    },
+    {
+      "id": "apple-music-holiday-hits",
+      "title": "Apple Music Holiday Hits",
+      "description": "Seasonal holiday music station featured in TuneIn’s Apple Music Radio listings.",
+      "genre": "Holiday",
+      "language": "en",
+      "seasonal": true,
+      "listen_url": "https://music.apple.com/us/station/holiday-hits/ra.6825447412",
+      "tunein_url": "https://tunein.com/radio/Apple-Music-Holiday-Hits-s363737/"
+    }
+  ],
+  "discovery_sources": [
+    "https://tunein.com/radio/music/",
+    "https://tunein.com/radio/Stream-Apple-Music-Radio-Stations-c100035526/",
+    "https://music.apple.com/us/radio"
+  ],
+  "metadata_checked_on": "2026-11-05"
+}

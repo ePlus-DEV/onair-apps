@@ -1,0 +1,427 @@
+{
+  "era": {
+    "title": "Radio Era FM",
+    "type": "audio/mpeg",
+    "signal": "103.3 FM",
+    "url": "https://era.je/",
+    "cros": false,
+    "stream": "https://astro2.rastream.com/era",
+    "features": "/img/asia/malaysia/era.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/era?time=",
+    "favorite": true
+  },
+  "hitz": {
+    "title": "Hitz FM (Kuala Lumpur)",
+    "type": "audio/mpeg",
+    "signal": "92.9 FM",
+    "url": "https://hitz.com.my/",
+    "cros": false,
+    "stream": "https://astro1.rastream.com/hitz",
+    "features": "/img/asia/malaysia/hitz.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/hitz?time="
+  },
+  "sinar": {
+    "title": "Radio Sinar FM",
+    "type": "audio/mpeg",
+    "signal": "96.7 FM",
+    "url": "https://sinar.my/",
+    "cros": false,
+    "stream": "https://astro2.rastream.com/sinar",
+    "features": "/img/asia/malaysia/sinar.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/sinar?time="
+  },
+  "ikim": {
+    "title": "Ikim FM",
+    "type": "application/x-mpegURL",
+    "signal": "91.1 FM",
+    "url": "https://ikim.my/",
+    "cros": false,
+    "stream": "https://hls.rastream.com/ikim-ikimfm.web.hls/playlist.m3u8?awparams=companionads%3Atrue%3Btags%3Aradioactive%3Btags%3Aikimfm%3Bstationid%3Aikimfm-ikimfm&playerid=IKIM_web&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvaWQiOiJsYXlsaW8iLCJpYXQiOjE2MzY4ODQxMzMsImV4cCI6MTYzNjk3MDUzM30.V0U78sf1UmiCbffDhwlci4HsfEwFTjCN8Meuss7FX_E&lan=%5B%22ms%22%5D&setLanguage=true",
+    "features": "/img/asia/malaysia/ikim.png"
+  },
+  "hot": {
+    "title": "Hot FM",
+    "type": "application/x-mpegURL",
+    "signal": "97.6 FM",
+    "url": "https://www.hotfm.audio/",
+    "cros": false,
+    "stream": "https://mediaprima.rastream.com/mediaprima-hotfm.web.hls/playlist.m3u8?listenerid=&playerid=HotFM_WebPlayer&setLanguage=true&lan=%5B%22ms%22%5D&awparams=companionads%3Atrue%3Bstationid%3Amediaprima-hotfm%3Btags%3Awebplayer%3B&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MzY5NzExODMsImlhdCI6MTYzNjg4NDc4Mywib2lkIjoibWVkaWFwcmltYSJ9.7UO0xGcCEsF9kXs3zBTkdG8j1NZin2LQ1iV7Ey8zt1w",
+    "features": "/img/asia/malaysia/hot.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/hot?time="
+  },
+  "one-fm": {
+    "title": "One FM (Kuala Lumpur)",
+    "type": "audio/mpeg",
+    "signal": "88.1 FM",
+    "url": "https://www.8fm.audio/",
+    "cros": false,
+    "stream": "https://mediaprima.rastream.com/mediaprima-onefm",
+    "features": "/img/asia/malaysia/one-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/one-fm?time="
+  },
+  "thr-kuala-lumpur": {
+    "title": "Gegar (Kuala Lumpur)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://gegar.my/",
+    "cros": false,
+    "stream": "https://astro3.rastream.com/gegar",
+    "features": "/img/asia/malaysia/thr-kuala-lumpur.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/thr-kuala-lumpur?time="
+  },
+  "fly": {
+    "title": "Fly",
+    "type": "audio/mpeg",
+    "signal": "95.8 FM",
+    "url": "https://www.flyfm.audio/",
+    "cros": false,
+    "stream": "https://mediaprima.rastream.com/mediaprima-flyfm",
+    "features": "/img/asia/malaysia/fly.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/fly?time="
+  },
+  "lite": {
+    "title": "Lite FM",
+    "type": "audio/mpeg",
+    "signal": "105.7 FM",
+    "url": "https://lite.my/",
+    "cros": true,
+    "stream": "http://ingest2.astro1.rastream.com/lite",
+    "features": "/img/asia/malaysia/lite.png"
+  },
+  "thr-raaga": {
+    "title": "Fly",
+    "type": "audio/mpeg",
+    "signal": "103.7 FM",
+    "url": "https://raaga.my/",
+    "cros": false,
+    "stream": "https://astro3.rastream.com/raaga",
+    "features": "/img/asia/malaysia/thr-raaga.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/thr-raaga?time="
+  },
+  "mix-fm": {
+    "title": "Mix FM",
+    "type": "audio/mpeg",
+    "signal": "91.1 FM",
+    "url": "https://mix.my/",
+    "cros": true,
+    "stream": "https://astro3.rastream.com/raaga",
+    "features": "/img/asia/malaysia/mix-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/mix-fm?time="
+  },
+  "my-fm": {
+    "title": "My FM (Kuala Lumpur)",
+    "type": "audio/mpeg",
+    "signal": "101.8 FM",
+    "url": "https://my.com.my/",
+    "cros": false,
+    "stream": "https://astro1.rastream.com/myfm",
+    "features": "/img/asia/malaysia/my-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/my-fm?time="
+  },
+  "cats-fm": {
+    "title": "Cats FM",
+    "type": "audio/mpeg",
+    "signal": "99.3 FM",
+    "url": "http://www.catsfm.my/",
+    "cros": true,
+    "stream": "http://catsfm64.cspixel.com:7111/stream/1/",
+    "features": "/img/asia/malaysia/cats-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/cats-fm?time="
+  },
+  "bapakku-fm": {
+    "title": "Bapakku FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": false,
+    "cros": true,
+    "stream": "http://radio.bapakku.fm:8000/stream/1/",
+    "features": "/img/asia/malaysia/bapakku-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/bapakku-fm?time="
+  },
+  "minnal": {
+    "title": "Minnal FM",
+    "type": "application/x-mpegURL",
+    "signal": "92.3 FM",
+    "url": "https://minnalfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://minnalfmmobile.secureswiftcontent.com/memorystreams/HLS/rtm-ch021/rtm-ch021.m3u8",
+    "features": "/img/asia/malaysia/minnal.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/minnal?time="
+  },
+  "melody": {
+    "title": "Melody FM",
+    "type": "audio/mpeg",
+    "signal": "103.0 FM",
+    "url": "https://melody.my/",
+    "cros": false,
+    "stream": "https://astro3.rastream.com/melody",
+    "features": "/img/asia/malaysia/melody.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/melody?time="
+  },
+  "bfm": {
+    "title": "BFM",
+    "type": "audio/mpeg",
+    "signal": "89.9 FM",
+    "url": "https://www.bfm.my/",
+    "cros": false,
+    "stream": "https://22253.live.streamtheworld.com/BFM_SC",
+    "features": "/img/asia/malaysia/bfm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/bfm?time="
+  },
+  "kelantan": {
+    "title": "Radio Kelantan FM",
+    "type": "application/x-mpegURL",
+    "signal": "102.9 FM",
+    "url": "https://kelantanfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://kelantanfmmobile.secureswiftcontent.com/rtm-ch032/rtm-ch032/playlist.m3u8",
+    "features": "/img/asia/malaysia/kelantan.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/kelantan?time="
+  },
+  "ai-kuala-lumpur": {
+    "title": "Radio Ai FM (Kuala Lumpur)",
+    "type": "application/x-mpegURL",
+    "signal": "89.3 FM",
+    "url": "https://www.aifm.net.my/",
+    "cros": false,
+    "stream": "https://klfmmobile.secureswiftcontent.com/rtm-ch020/rtm-ch020/playlist.m3u8",
+    "features": "/img/asia/malaysia/ai-kuala-lumpur.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/ai-kuala-lumpur?time="
+  },
+  "johor": {
+    "title": "Johor FM",
+    "type": "application/x-mpegURL",
+    "signal": "101.9 FM",
+    "url": "https://johorfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://johorfmmobile.secureswiftcontent.com/rtm-ch035/rtm-ch035_aac/playlist.m3u8",
+    "features": "/img/asia/malaysia/johor.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/johor?time="
+  },
+  "mutiara": {
+    "title": "Mutiara FM",
+    "type": "application/x-mpegURL",
+    "signal": "95.7 FM",
+    "url": "https://mutiarafm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://mutiarafmmobile.secureswiftcontent.com/rtm-ch039/rtm-ch039/playlist.m3u8",
+    "features": "/img/asia/malaysia/mutiara.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/mutiara?time="
+  },
+  "rtm-sabah-fm": {
+    "title": "RTM Sabah FM",
+    "type": "application/x-mpegURL",
+    "signal": "89.9 FM",
+    "url": "https://sabahfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://sabahfmmobile.secureswiftcontent.com/rtm-ch049/rtm-ch049/playlist.m3u8",
+    "features": "/img/asia/malaysia/rtm-sabah-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/rtm-sabah-fm?time="
+  },
+  "terengganu": {
+    "title": "Terengganu FM",
+    "type": "application/x-mpegURL",
+    "signal": "88.7 FM",
+    "url": "https://terengganufm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://terengganufmmobile.secureswiftcontent.com/rtm-ch033/rtm-ch033/tm-ch033-96000.m3u8",
+    "features": "/img/asia/malaysia/terengganu.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/terengganu?time="
+  },
+  "melaka": {
+    "title": "Melaka FM (Melaka)",
+    "type": "application/x-mpegURL",
+    "signal": "102.3 FM",
+    "url": "https://melakafm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://melakafmmobile.secureswiftcontent.com/rtm-ch041/rtm-ch041/playlist.m3u8",
+    "features": "/img/asia/malaysia/melaka.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/melaka?time="
+  },
+  "rtm-perak-fm": {
+    "title": "Perak FM",
+    "type": "application/x-mpegURL",
+    "signal": "95.6 FM",
+    "url": "https://perakfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://perakfmmobile.secureswiftcontent.com/rtm-ch038/rtm-ch038/playlist.m3u8",
+    "features": "/img/asia/malaysia/rtm-perak-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/rtm-perak-fm?time="
+  },
+  "bernama": {
+    "title": "Bernama Radio",
+    "type": "application/x-mpegURL",
+    "signal": "Stream",
+    "url": "https://www.bernama.com/en/",
+    "cros": false,
+    "stream": "https://bernama.rastream.com/bernama-bernama.web.hls/playlist.m3u8?listeningSessionID=617c543a6af939d1_1349215_cQrD1zbV_MTAzLjIxLjgxLjk6ODA!_0000001YeWD&downloadSessionID=0&awparams=companionads%3Atrue%3Btags%3Aradioactive%3Bstationid%3Abernama-bernama&playerid=BERNAMA_web&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvaWQiOiJsYXlsaW8iLCJpYXQiOjE2MzY4ODcxMzMsImV4cCI6MTYzNjk3MzUzM30.da1G-FxuvRgy3hJJHFe8n5LBa1Lb1J7mra7u_Abcadg",
+    "features": "/img/asia/malaysia/bernama.png"
+  },
+  "sandakan": {
+    "title": "Radio Sandakan",
+    "type": "application/x-mpegURL",
+    "signal": "90.1 FM",
+    "url": "https://sandakanfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://sandakanfm.secureswiftcontent.com/rtm-ch049/rtm-ch049/playlist.m3u8",
+    "features": "/img/asia/malaysia/sandakan.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/sandakan?time="
+  },
+  "perlis": {
+    "title": "Perlis FM",
+    "type": "application/x-mpegURL",
+    "signal": "102.9 FM",
+    "url": "https://perlisfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://perlisfmmobile.secureswiftcontent.com/rtm-ch040/rtm-ch040/playlist.m3u8",
+    "features": "/img/asia/malaysia/perlis.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/perlis?time="
+  },
+  "klasik-kuala-lumpur": {
+    "title": "Radio Klasik (Kuala Lumpur)",
+    "type": "application/x-mpegURL",
+    "signal": "98.3 FM",
+    "url": "https://radioklasik.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://radioklasikmobile.secureswiftcontent.com/memorystreams/HLS/rtm-ch016/rtm-ch016.m3u8",
+    "features": "/img/asia/malaysia/klasik-kuala-lumpur.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/klasik-kuala-lumpur?time="
+  },
+  "buletin": {
+    "title": "Buletin FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.buletinfm.audio/",
+    "cros": false,
+    "stream": "https://mediaprima.rastream.com/mediaprima-koolfm",
+    "features": "/img/asia/malaysia/buletin.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/buletin?time="
+  },
+  "hijau": {
+    "title": "Hijau FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.hijau.fm/",
+    "cros": false,
+    "stream": "https://stream.radio.co/s4c9c7e0cb/listen",
+    "features": "/img/asia/malaysia/hijau.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/hijau?time="
+  },
+  "goxuan": {
+    "title": "Radio GoXuan",
+    "type": "application/x-mpegURL",
+    "signal": "Stream",
+    "url": "https://goxuan.my/",
+    "cros": false,
+    "stream": "https://astro3.rastream.com/astro-goxuan.web.hls/playlist.m3u8?awparams=companionads%3Atrue%3Btags%3Aradioactive%3Bstationid%3Agoxuan&playerid=Listen%20to%20GOXUAN%20on%20SYOK_web&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvaWQiOiJsYXlsaW8iLCJpYXQiOjE2NDgzNjY2OTMsImV4cCI6MTY0ODQ1MzA5M30.bcboOjgJnHuW9e2Rni3zOfw0tsCxFpSRAgq9glNHIBw&lan=%5B%22zh%22%5D&setLanguage=true",
+    "features": "/img/asia/malaysia/goxuan.png"
+  },
+  "manis": {
+    "title": "Manis FM",
+    "type": "audio/mpeg",
+    "signal": "90.6 FM",
+    "url": "https://www.manis.fm/",
+    "cros": false,
+    "stream": "https://n09.rcs.revma.com/nzgauqq1v7zuv",
+    "features": "/img/asia/malaysia/manis.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/manis?time="
+  },
+  "kupi-kupi": {
+    "title": "Kupi Kupi FM",
+    "type": "application/x-mpegURL",
+    "signal": "96.3 FM",
+    "url": "http://kupikupifm.my/",
+    "cros": false,
+    "stream": "https://censemedia.rastream.com/censemedia-kupitv.web.hls/playlist.m3u8?awparams=companionads%3Atrue%3Btags%3Aradioactive%3Btags%3Akupitv%3Btags%3Acensemedia-joox%3Bstationid%3Acensemedia-kupitv&playerid=Kupi%20TV_web&authtoken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvaWQiOiJsYXlsaW8iLCJpYXQiOjE2NDgzNjY5OTksImV4cCI6MTY0ODQ1MzM5OX0.zvs6dGaIKeor_R0qyovWNGVKtxGx8LZizsCoJW4Yrjk&lan=%5B%22ms%22%5D&setLanguage=true",
+    "features": "/img/asia/malaysia/kupi-kupi.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/kupi-kupi?time="
+  },
+  "nasional": {
+    "title": "Nasional FM (Klang Valley)",
+    "type": "application/x-mpegURL",
+    "signal": "95.3 FM",
+    "url": "https://nasionalfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://nasionalfmmobile.secureswiftcontent.com/memorystreams/HLS/rtm-ch017/rtm-ch017-96000.m3u8",
+    "features": "/img/asia/malaysia/nasional.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/nasional?time="
+  },
+  "durian-fm": {
+    "title": "Durian FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://durianfm.com/",
+    "cros": true,
+    "stream": "http://s3.voscast.com:7140/stream/1/",
+    "features": "/img/asia/malaysia/durian-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/durian-fm?time="
+  },
+  "osai": {
+    "title": "Osai FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": false,
+    "cros": false,
+    "stream": "https://astro4.rastream.com/osai",
+    "features": "/img/asia/malaysia/osai.png"
+  },
+  "traxx-kuala-lumpur": {
+    "title": "TraXX FM (Kuala Lumpur)",
+    "type": "application/x-mpegURL",
+    "signal": "90.3 FM",
+    "url": "https://traxxfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://traxxfmmobile.secureswiftcontent.com/memorystreams/HLS/rtm-ch019/rtm-ch019.m3u8",
+    "features": "/img/asia/malaysia/traxx-kuala-lumpur.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/traxx-kuala-lumpur?time="
+  },
+  "asyik-kuala-lumpur": {
+    "title": "Asyik FM (Kuala Lumpur)",
+    "type": "application/x-mpegURL",
+    "signal": "102.5 FM",
+    "url": "https://asyikfm.rtm.gov.my/",
+    "cros": false,
+    "stream": "https://salamfmmobile.secureswiftcontent.com/memorystreams/HLS/rtm-ch022/rtm-ch022.m3u8",
+    "features": "/img/asia/malaysia/asyik-kuala-lumpur.png"
+  },
+  "jei-fm": {
+    "title": "Jei FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.jeifm.com/",
+    "cros": false,
+    "stream": "https://usa3.fastcast4u.com/proxy/jeifm?mp=/stream/1/",
+    "features": "/img/asia/malaysia/jei-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/jei-fm?time="
+  },
+  "amboi": {
+    "title": "Radio Amboi FM (Kuala Lumpur)",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://amboifm.blogspot.com/",
+    "cros": true,
+    "stream": "https://stream.zenolive.com/555kr7upam0uv.aac",
+    "features": "/img/asia/malaysia/amboi.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/amboi?time="
+  },
+  "wai-fm": {
+    "title": "Wai FM (Iban)",
+    "type": "application/x-mpegURL",
+    "signal": "101.3 FM",
+    "url": "https://rtmklik.rtm.gov.my/channel/radio/WAIFM-IBAN",
+    "cros": true,
+    "stream": "https://waifmibanmobile.secureswiftcontent.com/rtm-ch042/rtm-ch042/playlist.m3u8",
+    "features": "/img/asia/malaysia/wai-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/wai-fm?time="
+  },
+  "suria-fm": {
+    "title": "Suria FM",
+    "type": "audio/mpeg",
+    "signal": "105.3 FM",
+    "url": "https://www.suria.my/",
+    "cros": true,
+    "stream": "https://22253.live.streamtheworld.com/SURIA_FMAAC.aac",
+    "features": "/img/asia/malaysia/suria-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/65/suria-fm?time="
+  }
+}

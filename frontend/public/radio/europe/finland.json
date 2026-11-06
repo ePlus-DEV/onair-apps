@@ -1,0 +1,376 @@
+{
+    "patmos": {
+        "title": "Radio Patmos",
+        "type": "audio/mpeg",
+        "url": "https://www.patmos.fi/",
+        "cros": false,
+        "stream": "https://s3.yesstreaming.net:7011/radio",
+        "features": "/img/europe/finland/patmos.png",
+        "favorite": true
+    },
+    "yle-suomi": {
+        "title": "Yle Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/yle-radio-suomi?_c=yle-radio-suomi-helsinki",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027675/in-YleRS/master.m3u8",
+        "features": "/img/europe/finland/yle-suomi.png",
+        "favorite": false
+    },
+    "musa-tempere": {
+        "title": "Radio Musa",
+        "type": "audio/mpeg",
+        "url": "http://www.hitit.fi/",
+        "cros": false,
+        "stream": "https://stream.radiojar.com/n6yg5q0z8vzuv",
+        "features": "/img/europe/finland/musa-tempere.png",
+        "favorite": false
+    },
+    "yle-radio1": {
+        "title": "Yle Radio 1",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/yle-radio-1",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027672/in-YleRadio1/master.m3u8",
+        "features": "/img/europe/finland/yle-radio1.png",
+        "favorite": false
+    },
+    "ylex": {
+        "title": "Radio YleX",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/ylex",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8",
+        "features": "/img/europe/finland/ylex.png",
+        "favorite": false
+    },
+    "sandels": {
+        "title": "Radio Sandels",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosandels.fi/",
+        "cros": false,
+        "stream": "https://radiosandels.radiotaajuus.fi:9050/radio",
+        "features": "/img/europe/finland/sandels.png",
+        "favorite": false
+    },
+    "suomi-jyvaskyla": {
+        "title": "YLE Radio Suomi (Jyväskylä)",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027683/in-YleJKL/master.m3u8",
+        "features": "/img/europe/finland/suomi-jyvaskyla.png",
+        "favorite": false
+    },
+    "yle-vega": {
+        "title": "Yle Radio Vega",
+        "type": "application/x-mpegURL",
+        "url": "https://arenan.yle.fi/poddar/program/yle-vega?_c=radio-vega-huvudstadsregionen",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027679/in-YleVega/master.m3u8",
+        "features": "/img/europe/finland/yle-vega.png",
+        "favorite": false
+    },
+    "finest-fm": {
+        "title": "Finest FM",
+        "type": "audio/mpeg",
+        "url": "https://finestfm.fi/",
+        "cros": true,
+        "stream": "http://shoutcast.finestfm.fi:8000/stream/1/",
+        "features": "/img/europe/finland/finest-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/116/finest-fm?time="
+    },
+    "suomi-rovaniemi": {
+        "title": "YLE Radio Suomi (Rovaniemi)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027717/in-YleRovaniemi/master.m3u8",
+        "features": "/img/europe/finland/suomi-rovaniemi.png",
+        "favorite": false
+    },
+    "radio-moreeni": {
+        "title": "Radio Moreeni (Tampere)",
+        "type": "audio/mpeg",
+        "url": "https://radiomoreeni.fi/",
+        "cros": false,
+        "stream": "https://moreenistream.tuni.fi/moreeni.mp3",
+        "features": "/img/europe/finland/radio-moreeni.png",
+        "favorite": false
+    },
+    "yle-x3m": {
+        "title": "Yle X3M (Helsinki)",
+        "type": "application/x-mpegURL",
+        "url": "https://arenan.yle.fi/poddar/program/yle-x3m",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027678/in-YleX3M/master.m3u8",
+        "features": "/img/europe/finland/yle-x3m.png",
+        "favorite": false
+    },
+    "santa-clus": {
+        "title": "Radio Santa Claus",
+        "type": "audio/mpeg",
+        "url": "https://www.radiosantaclaus.com/",
+        "cros": false,
+        "stream": "https://streaming.radiostreamlive.com/radiosantaclaus_devices",
+        "features": "/img/europe/finland/santa-clus.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/116/santa-clus?time="
+    },
+    "suomi-lappeenranta": {
+        "title": "YLE Radio Suomi (Lappeenranta)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027711/in-YleLPR/master.m3u8",
+        "features": "/img/europe/finland/suomi-lappeenranta.png",
+        "favorite": false
+    },
+    "yle-tampereen": {
+        "title": "YLE Radio Suomi (Tampere)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/kanavat",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027718/in-YleTampere/master.m3u8",
+        "features": "/img/europe/finland/yle-tampereen.png",
+        "favorite": false
+    },
+    "yle-oulu": {
+        "title": "YLE Radio Suomi (Oulu)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027714/in-YleOulu/master.m3u8",
+        "features": "/img/europe/finland/yle-oulu.png",
+        "favorite": false
+    },
+    "yle-kotka": {
+        "title": "YLE Radio Suomi (Kotka)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027708/in-YleKotka/master.m3u8",
+        "features": "/img/europe/finland/yle-kotka.png",
+        "favorite": false
+    },
+    "yle-turku": {
+        "title": "YLE Radio Turku",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/uutiset",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027720/in-YleTurku/master.m3u8",
+        "features": "/img/europe/finland/yle-turku.png",
+        "favorite": false
+    },
+    "yle-klassinen": {
+        "title": "Yle Klassinen",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/aihe/klassinen",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027676/in-YleKlassinen/master.m3u8",
+        "features": "/img/europe/finland/yle-klassinen.png",
+        "favorite": false
+    },
+    "hams-espoo": {
+        "title": "Hamsi FM (Espoo)",
+        "type": "audio/mpeg",
+        "url": "https://www.hamsi.fm/",
+        "cros": true,
+        "stream": "http://radyo.hamsi.fm:8050/stream/1/",
+        "features": "/img/europe/finland/hams-espoo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/116/hams-espoo?time="
+    },
+    "steel-fm": {
+        "title": "Steel FM",
+        "type": "audio/mpeg",
+        "url": "https://www.steelfm.ax/",
+        "cros": false,
+        "stream": "https://ice6.securenetsystems.net/STEELFM",
+        "features": "/img/europe/finland/steel-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/116/steel-fm?time="
+    },
+    "classic-klasu-pro": {
+        "title": "Rondo Classic Klasu Pro (Helsinki)",
+        "type": "audio/mpeg",
+        "url": "https://rondo.fi/",
+        "cros": true,
+        "stream": "http://stream.iradio.fi:8000/klasupro-hi.mp3",
+        "features": "/img/europe/finland/classic-klasu-pro.png",
+        "favorite": false
+    },
+    "suomi-kajaani": {
+        "title": "YLE Radio Suomi (Kajaani)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027705/in-YleKajaani/master.m3u8",
+        "features": "/img/europe/finland/suomi-kajaani.png",
+        "favorite": false
+    },
+    "suomi-kuopio": {
+        "title": "YLE Radio Suomi (Kuopio)",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027709/in-YleKuopio/master.m3u8",
+        "features": "/img/europe/finland/suomi-kuopio.png",
+        "favorite": false
+    },
+    "yle-hameenlinna": {
+        "title": "YLE Radio Suomi (Hämeenlinna)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027681/in-YleHameenlinna/master.m3u8",
+        "features": "/img/europe/finland/yle-hameenlinna.png",
+        "favorite": false
+    },
+    "sea-fm": {
+        "title": "Sea FM (Oulu)",
+        "type": "audio/mpeg",
+        "url": "https://www.seafm.fi",
+        "cros": false,
+        "stream": "https://s3.myradiostream.com/4976/stream/1/",
+        "features": "/img/europe/finland/sea-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/116/sea-fm?time="
+    },
+    "suomi-pori": {
+        "title": "YLE Radio Suomi (Pori)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027715/in-YlePori/master.m3u8",
+        "features": "/img/europe/finland/suomi-pori.png",
+        "favorite": false
+    },
+    "yle-vega-aboland": {
+        "title": "YLE Radio Vega (Åboland)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027716/in-YleVegaAboland/master.m3u8",
+        "features": "/img/europe/finland/yle-vega-aboland.png",
+        "favorite": false
+    },
+    "suomi-joensuu": {
+        "title": "YLE Radio Suomi (Joensuu)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027682/in-YleJoensuu/master.m3u8",
+        "features": "/img/europe/finland/suomi-joensuu.png",
+        "favorite": false
+    },
+    "suomi-mikkeli": {
+        "title": "YLE Radio Suomi (Mikkeli)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/kanavat",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027713/in-YleMikkeli/master.m3u8",
+        "features": "/img/europe/finland/suomi-mikkeli.png",
+        "favorite": false
+    },
+    "yle-vega-vastnyland": {
+        "title": "Yle Radio Vega Västnyland",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027723/in-YleVegaVastnyland/master.m3u8",
+        "features": "/img/europe/finland/yle-vega-vastnyland.png",
+        "favorite": false
+    },
+    "yle-vega-ostnyland": {
+        "title": "Yle Radio Vega Östnyland",
+        "type": "application/x-mpegURL",
+        "url": "https://svenska.yle.fi/ostnyland",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027722/in-YleVegaOstnyland/master.m3u8",
+        "features": "/img/europe/finland/yle-vega-ostnyland.png",
+        "favorite": false
+    },
+    "suomi-kemi": {
+        "title": "YLE Radio Suomi (Kemi)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/kanavat",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027706/in-YleKemi/master.m3u8",
+        "features": "/img/europe/finland/suomi-kemi.png",
+        "favorite": false
+    },
+    "yle-suomi-kokkola": {
+        "title": "YLE Radio Suomi (Kokkola)",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/uutiset",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027707/in-YleKokkola/master.m3u8",
+        "features": "/img/europe/finland/yle-suomi-kokkola.png",
+        "favorite": false
+    },
+    "yle-sami": {
+        "title": "YLE Sami Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://yle.fi/sapmi",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027680/in-YleSami/master.m3u8",
+        "features": "/img/europe/finland/yle-sami.png",
+        "favorite": false
+    },
+    "hear": {
+        "title": "Radio Hear",
+        "type": "audio/mpeg",
+        "url": "https://www.hear.fi/hostfest/",
+        "cros": true,
+        "stream": "http://radio.hear.fi:8000/hear.mp3",
+        "features": "/img/europe/finland/hear.png",
+        "favorite": false
+    },
+    "yle-1-helsinki": {
+        "title": "Yle Radio 1 (Helsinki)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/yle-radio-1",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027672/in-YleRadio1/master.m3u8",
+        "features": "/img/europe/finland/yle-1-helsinki.png",
+        "favorite": false
+    },
+    "ylex-tampere": {
+        "title": "YleX (Tampere)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/ylex",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8",
+        "features": "/img/europe/finland/ylex-tampere.png",
+        "favorite": false
+    },
+    "ylex-turku": {
+        "title": "YleX (Turku)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/ylex",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8",
+        "features": "/img/europe/finland/ylex-turku.png",
+        "favorite": false
+    },
+    "ylex-helsinki": {
+        "title": "Radio YleX (Helsinki)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/ylex",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8",
+        "features": "/img/europe/finland/ylex-helsinki.png",
+        "favorite": false
+    },
+    "ylex-oulu": {
+        "title": "YleX (Oulu)",
+        "type": "application/x-mpegURL",
+        "url": "https://areena.yle.fi/podcastit/ohjelmat/ylex",
+        "cros": false,
+        "stream": "https://yleradiolive.akamaized.net/hls/live/2027674/in-YleX/master.m3u8",
+        "features": "/img/europe/finland/ylex-oulu.png",
+        "favorite": false
+    }
+}

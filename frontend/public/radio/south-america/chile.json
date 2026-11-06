@@ -1,0 +1,357 @@
+{
+  "bio-bio": {
+    "title": "Radio Bío Bío",
+    "type": "audio/mpeg",
+    "url": "https://www.biobiochile.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/biobiosantiago/aac/icecast.audio",
+    "features": "/img/south-america/chile/bio-bio.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/bio-bio?time=",
+    "favorite": true
+  },
+  "radio-corazon": {
+    "title": "Radio Corazón FM",
+    "type": "audio/mpeg",
+    "url": "https://www.corazon.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CORAZONAAC_SC",
+    "features": "/img/south-america/chile/radio-corazon.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/radio-corazon?time="
+  },
+  "disney": {
+    "title": "Radio Disney",
+    "type": "audio/mpeg",
+    "url": "https://cl.radiodisney.com/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_CHI_SA_SC",
+    "features": "/img/south-america/chile/disney.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/disney?time="
+  },
+  "cooperativa": {
+    "title": "Radio Cooperativa",
+    "type": "audio/mpeg",
+    "url": "https://www.cooperativa.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/cooperativafm/aac/icecast.audio",
+    "features": "/img/south-america/chile/cooperativa.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/cooperativa?time="
+  },
+  "adn": {
+    "title": "ADN Radio",
+    "type": "audio/mpeg",
+    "url": "https://www.adnradio.cl",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ADNAAC_SC",
+    "features": "/img/south-america/chile/adn.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/adn?time="
+  },
+  "40-principales": {
+    "title": "Los 40 Principales",
+    "type": "audio/mpeg",
+    "url": "https://los40.cl",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/LOS40_CHILE_SC",
+    "features": "/img/south-america/chile/40-principales.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/40-principales?time="
+  },
+  "futuro": {
+    "title": "Futuro FM",
+    "type": "audio/mpeg",
+    "url": "https://www.futuro.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FUTUROAAC_SC",
+    "features": "/img/south-america/chile/futuro.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/futuro?time="
+  },
+  "radio-activa": {
+    "title": "Radio Activa",
+    "type": "audio/mpeg",
+    "url": "https://www.radioactiva.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ACTIVA_SC",
+    "features": "/img/south-america/chile/radio-activa.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/radio-activa?time="
+  },
+  "fm-dos": {
+    "title": "FM Dos",
+    "type": "audio/mpeg",
+    "url": "https://www.fmdos.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/FMDOSAAC_SC",
+    "features": "/img/south-america/chile/fm-dos.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/fm-dos?time="
+  },
+  "pudahuel": {
+    "title": "Pudahuel FM",
+    "type": "audio/mpeg",
+    "url": "https://www.pudahuel.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/PUDAHUEL_SC",
+    "features": "/img/south-america/chile/pudahuel.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/pudahuel?time="
+  },
+  "romantica": {
+    "title": "Romántica FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.romantica.cl/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/639b78f7ff35df084fa7f964/live.m3u8",
+    "features": "/img/south-america/chile/romantica.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/romantica?time="
+  },
+  "imagina": {
+    "title": "Imagina",
+    "type": "audio/mpeg",
+    "url": "https://www.radioimagina.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/IMAGINAAAC_SC",
+    "features": "/img/south-america/chile/imagina.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/imagina?time="
+  },
+  "concierto": {
+    "title": "Concierto FM (Santiago)",
+    "type": "audio/mpeg",
+    "url": "https://www.concierto.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/CONCIERTOAAC_SC",
+    "features": "/img/south-america/chile/concierto.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/concierto?time="
+  },
+  "rock-and-pop": {
+    "title": "Rock and Pop",
+    "type": "audio/mpeg",
+    "url": "https://www.rockandpop.cl/",
+    "cros": false,
+    "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/ROCK_AND_POPAAC_SC",
+    "features": "/img/south-america/chile/rock-and-pop.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/rock-and-pop?time="
+  },
+  "candela": {
+    "title": "Radio Candela FM",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radiocandela.cl/",
+    "cros": false,
+    "stream": "https://p-1-hls-audio-us-isp.dps.live/hls-audio/716888c72e2079612211a7130f67a27d/candela/playlist/manifest/gotardisz/audio/1719321477/livestream1.m3u8",
+    "features": "/img/south-america/chile/candela.png"
+  },
+  "uno": {
+    "title": "Radio Corporación (Santiago)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocorporacion.cl/",
+    "cros": false,
+    "stream": "https://audio1.tustreaming.cl/8026/stream/1/",
+    "features": "/img/south-america/chile/uno.png"
+  },
+  "agricultura": {
+    "title": "Radio Agricultura (Santiago)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radioagricultura.cl/",
+    "cros": false,
+    "stream": "https://unlimited5-us.dps.live/agricultura/gotardis/audio/now/livestream1.m3u8",
+    "features": "/img/south-america/chile/agricultura.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/agricultura?time="
+  },
+  "el-conquistador": {
+    "title": "El Conquistador",
+    "type": "audio/mpeg",
+    "url": "https://www.elconquistadorfm.net/",
+    "cros": false,
+    "stream": "https://stream10.usastreams.com/9314/stream",
+    "features": "/img/south-america/chile/el-conquistador.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/el-conquistador?time="
+  },
+  "beethoven": {
+    "title": "Beethoven FM",
+    "type": "audio/mpeg",
+    "url": "https://www.beethovenfm.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/beethovenfm/aac/icecast.audio",
+    "features": "/img/south-america/chile/beethoven.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/beethoven?time="
+  },
+  "armonia": {
+    "title": "Radio Armonía",
+    "type": "audio/mpeg",
+    "url": "https://www.radioarmonia.cl/inicio/",
+    "cros": true,
+    "stream": "http://audio.armonia.cl:3032/1.mp3",
+    "features": "/img/south-america/chile/armonia.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/armonia?time="
+  },
+  "universo": {
+    "title": "Universo",
+    "type": "audio/mpeg",
+    "url": "https://universo.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/universo/mp3/icecast.audio",
+    "features": "/img/south-america/chile/universo.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/universo?time="
+  },
+  "festival-valparaiso": {
+    "title": "Radio Festival (Viña del Mar)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiofestival.cl/",
+    "cros": false,
+    "stream": "https://stream.festival.cl/1",
+    "features": "/img/south-america/chile/festival-valparaiso.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/festival-valparaiso?time="
+  },
+  "radio-paula": {
+    "title": "Paula FM",
+    "type": "application/x-mpegURL",
+    "url": "https://radio.paula.cl/player/",
+    "cros": false,
+    "stream": "https://unlimited4-us.dps.live/radiopaula/gotardis/audio/now/livestream1.m3u8",
+    "features": "/img/south-america/chile/radio-paula.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/radio-paula?time="
+  },
+  "duna": {
+    "title": "Radio Duna",
+    "type": "application/x-mpegURL",
+    "url": "https://www.duna.cl/",
+    "cros": false,
+    "stream": "https://unlimited1-us.dps.live/duna/gotardis/audio/now/livestream1.m3u8",
+    "features": "/img/south-america/chile/duna.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/duna?time="
+  },
+  "universidad-chile": {
+    "title": "Radio Universidad",
+    "type": "audio/mpeg",
+    "url": "https://radio.uchile.cl/",
+    "cros": false,
+    "stream": "https://streamuchile.teslati.com/liveruch",
+    "features": "/img/south-america/chile/universidad-chile.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/universidad-chile?time="
+  },
+  "punto-7": {
+    "title": "Radio Punto 7",
+    "type": "audio/mpeg",
+    "url": "https://www.pagina7.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/p7concepcion/aac/icecast.audio",
+    "features": "/img/south-america/chile/punto-7.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/punto-7?time="
+  },
+  "okey": {
+    "title": "Radio Okey",
+    "type": "audio/mpeg",
+    "url": "https://fmokey.cl/",
+    "cros": false,
+    "stream": "https://streaming.fmokey.cl/FmOkCP.mp3",
+    "features": "/img/south-america/chile/okey.png"
+  },
+  "tiempo": {
+    "title": "FM Tiempo (Santiago)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.fmtiempo.cl/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/639b7943e0a27908a55dbf9e/live.m3u8",
+    "features": "/img/south-america/chile/tiempo.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/tiempo?time="
+  },
+  "fiessta-rancagua": {
+    "title": "Radio Fiessta (Rancagua)",
+    "type": "audio/mpeg",
+    "url": "https://radiofiessta.cl/",
+    "cros": false,
+    "stream": "https://mdstrm.com/audio/64ed1a4905a8915e7674ea80/icecast.audio",
+    "features": "/img/south-america/chile/fiessta-rancagua.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/fiessta-rancagua?time="
+  },
+  "maria": {
+    "title": "Radio María",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomaria.cl/",
+    "cros": true,
+    "stream": "http://dreamsiteradiocp.com:8066/stream/1/",
+    "features": "/img/south-america/chile/maria.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/maria?time="
+  },
+  "digital": {
+    "title": "Digital FM",
+    "type": "audio/mpeg",
+    "url": "https://www.digitalfm.cl/",
+    "cros": false,
+    "stream": "https://redirector.dps.live/digitalfm/aac/icecast.audio",
+    "features": "/img/south-america/chile/digital.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/digital?time="
+  },
+  "la-clave-92-9": {
+    "title": "Radio La Clave",
+    "type": "application/x-mpegURL",
+    "url": "https://radiolaclave.cl/",
+    "cros": false,
+    "stream": "https://unlimited1-us.dps.live/laclavetv/laclavetv.smil/playlist.m3u8",
+    "features": "/img/south-america/chile/la-clave-92-9.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/la-clave-92-9?time="
+  },
+  "ritoque-valparaiso": {
+    "title": "Radio Ritoque (Valparaíso)",
+    "type": "audio/mpeg",
+    "url": "https://ritoquefm.cl/",
+    "cros": false,
+    "stream": "https://sonando-us.digitalproserver.com/ritoquefm_aac",
+    "features": "/img/south-america/chile/ritoque-valparaiso.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/ritoque-valparaiso?time="
+  },
+  "sol": {
+    "title": "Radio Sol",
+    "type": "audio/mpeg",
+    "url": "https://radiosol.cl/2019/",
+    "cros": false,
+    "stream": "https://us9.maindigitalstream.com/ssl/7389",
+    "features": "/img/south-america/chile/sol.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/sol?time="
+  },
+  "carinosa": {
+    "title": "Radio Cariñosa (Chillán)",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocarinosa.cl/",
+    "cros": false,
+    "stream": "https://archi-us.digitalproserver.com/carinosa-fm.aac",
+    "features": "/img/south-america/chile/carinosa.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/carinosa?time="
+  },
+  "montecarlo": {
+    "title": "Montecarlo",
+    "type": "audio/mpeg",
+    "url": "https://www.radiomontecarlo.cl/",
+    "cros": false,
+    "stream": "https://sonic.mallocohosting.cl:8032/stream/1/",
+    "features": "/img/south-america/chile/montecarlo.png"
+  },
+  "carnaval-vina": {
+    "title": "Radio Carnaval",
+    "type": "audio/mpeg",
+    "url": "https://www.radiocarnaval.cl/",
+    "cros": false,
+    "stream": "https://sonando-us.digitalproserver.com/carnaval_vinadelmar.aac",
+    "features": "/img/south-america/chile/carnaval-vina.png"
+  },
+  "centinela-yumbel": {
+    "title": "Radio Centinela (Yumbel)",
+    "type": "application/x-mpegURL",
+    "url": "https://www.radiocentinela.cl/",
+    "cros": false,
+    "stream": "https://stmv5.voxtvhd.com.br/centinelaradiotv/centinelaradiotv/playlist.m3u8",
+    "features": "/img/south-america/chile/centinela-yumbel.png"
+  },
+  "club-80-trance": {
+    "title": "Radio Club 80 Trance",
+    "type": "audio/mpeg",
+    "url": "https://radioclub80.blogspot.com/",
+    "cros": false,
+    "stream": "https://stream.radioclub80.cl:8052/trancelive80.mp3",
+    "features": "/img/south-america/chile/club-80-trance.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/club-80-trance?time="
+  },
+  "austral-valdivia": {
+    "title": "Radio Austral (Valdivia)",
+    "type": "audio/mpeg",
+    "url": "https://www.radioaustralvaldivia.cl/",
+    "cros": false,
+    "stream": "https://archi-us.digitalproserver.com/austral.aac",
+    "features": "/img/south-america/chile/austral-valdivia.png",
+    "schedule": "https://api.webrad.io/data/playlist/1/austral-valdivia?time="
+  }
+}

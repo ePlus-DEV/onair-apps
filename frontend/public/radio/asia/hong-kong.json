@@ -1,0 +1,286 @@
+{
+  "rthk-2": {
+    "title": "香港電台第二台",
+    "type": "application/x-mpegURL",
+    "signal": "94.8 FM",
+    "url": "https://www.rthk.hk/radio/radio2",
+    "cros": false,
+    "stream": "https://rthkaudio2-lh.akamaihd.net/i/radio2_1@355865/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-2.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/rthk-2?time=",
+    "favorite": true
+  },
+  "rthk-1": {
+    "title": "香港電台第一台",
+    "type": "application/x-mpegURL",
+    "signal": "92.6 FM",
+    "url": "https://www.rthk.hk/radio/radio1",
+    "cros": false,
+    "stream": "https://rthkaudio1-lh.akamaihd.net/i/radio1_1@355864/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-1.png"
+  },
+  "rthk-5": {
+    "title": "香港電台第五台",
+    "type": "application/x-mpegURL",
+    "signal": "99.4 FM",
+    "url": "https://www.rthk.hk/radio/radio5",
+    "cros": false,
+    "stream": "https://rthkaudio5-lh.akamaihd.net/i/radio5_1@355868/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-5.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/rthk-5?time="
+  },
+  "billboard-yin-le-dian-hua-yu-h": {
+    "title": "Billboard Radio China 華語Hits",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/billboard-china-hits",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-todaysmix",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-hua-yu-h.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-hua-yu-h?time="
+  },
+  "metro-showbiz-fm": {
+    "title": "新城知訊台",
+    "type": "application/x-mpegURL",
+    "signal": "99.7 FM",
+    "url": "https://www.metroradio.com.hk/997/",
+    "cros": true,
+    "stream": "http://metroradio-lh.akamaihd.net/i/997_h@349799/index_48_a-p.m3u8?sd=10&rebase=on",
+    "features": "/img/asia/hong-kong/metro-showbiz-fm.png"
+  },
+  "rthk-3": {
+    "title": "香港電台第三台",
+    "type": "application/x-mpegURL",
+    "signal": "97.9 FM",
+    "url": "https://www.rthk.hk/radio/radio3",
+    "cros": false,
+    "stream": "https://rthkaudio3-lh.akamaihd.net/i/radio3_1@355866/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-3.png"
+  },
+  "rthk-4": {
+    "title": "香港電台第四台",
+    "type": "application/x-mpegURL",
+    "signal": "97.6 FM",
+    "url": "https://www.rthk.hk/radio/radio4",
+    "cros": false,
+    "stream": "https://rthkaudio4-lh.akamaihd.net/i/radio4_1@355867/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-4.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/rthk-4?time="
+  },
+  "billboard-yin-le-dian-zhong-ba": {
+    "title": "Billboard Radio China 重磅100",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/billboard-china-hits",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-todaysmix",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-zhong-ba.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-zhong-ba?time="
+  },
+  "metro-finance-fm": {
+    "title": "新城財經台",
+    "type": "application/x-mpegURL",
+    "signal": "104.0 FM",
+    "url": "https://www.metroradio.com.hk/104/",
+    "cros": true,
+    "stream": "http://metroradio-lh.akamaihd.net/i/104_h@349798/master.m3u8",
+    "features": "/img/asia/hong-kong/metro-finance-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/metro-finance-fm?time="
+  },
+  "rthk-putonghua": {
+    "title": "香港電台普通話台",
+    "type": "application/x-mpegURL",
+    "signal": "100.9 FM",
+    "url": "https://www.rthk.hk/radio/pth",
+    "cros": false,
+    "stream": "https://rthkaudio6-lh.akamaihd.net/i/radiopth_1@355869/master.m3u8",
+    "features": "/img/asia/hong-kong/rthk-putonghua.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/rthk-putonghua?time="
+  },
+  "am864": {
+    "title": "AM864",
+    "type": "application/x-mpegURL",
+    "signal": "864 AM",
+    "url": "https://www.881903.com/",
+    "cros": false,
+    "stream": "https://live.881903.com/edge-aac/864sd/playlist.m3u8?r=0tO23uRrxEzAHzex",
+    "features": "/img/asia/hong-kong/am864.png"
+  },
+  "billboard-yin-le-dian-ya-zhou": {
+    "title": "Billboard Radio China 亞洲金曲館",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/asia-hits",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-asiahitz",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-ya-zhou.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-ya-zhou?time="
+  },
+  "d100": {
+    "title": "D100",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.d100.net/",
+    "cros": true,
+    "stream": "https://uk.d100.net:8001/Channel1-128MP3",
+    "features": "/img/asia/hong-kong/d100.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/d100?time="
+  },
+  "billboard-yin-le-dian-80-90hou": {
+    "title": "Billboard Radio China 80/90後",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-awesome80s",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-80-90hou.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-80-90hou?time="
+  },
+  "apple-fm": {
+    "title": "Apple FM",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.apple-fm.com/",
+    "cros": true,
+    "stream": "http://ice.apple-fm.net:8000/apple-fm.mp3",
+    "features": "/img/asia/hong-kong/apple-fm.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/apple-fm?time="
+  },
+  "billboard-yin-le-dian-rock": {
+    "title": "Billboard Radio China Rock",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/rock",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-classicsrewind",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-rock.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-rock?time="
+  },
+  "imc-broadcasting": {
+    "title": "IMC Broadcasting",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://imchk.org/radio-imc/",
+    "cros": true,
+    "stream": "http://server.jvhost.net.:8021/live",
+    "features": "/img/asia/hong-kong/imc-broadcasting.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/imc-broadcasting?time="
+  },
+  "digital-hong-kong": {
+    "title": "香港數碼電台",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.digitalradiohk.net/#/home",
+    "cros": true,
+    "stream": "http://ice.digitalradiohk.net:8000/drhk",
+    "features": "/img/asia/hong-kong/digital-hong-kong.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/digital-hong-kong?time="
+  },
+  "billboard-yin-le-dian-han-liu": {
+    "title": "Billboard Radio China 韓流熱襲",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-todaysmix",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-han-liu.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-han-liu?time="
+  },
+  "axr": {
+    "title": "AXR Hong Kong",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "http://www.axr.online/",
+    "cros": false,
+    "stream": "https://14073.live.streamtheworld.com/AXRAAC_SC",
+    "features": "/img/asia/hong-kong/axr.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/axr?time="
+  },
+  "billboard-yin-le-dian-yao-gun": {
+    "title": "Billboard Radio China 搖滾",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/billboard-china-hits",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-todaysmix",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-yao-gun.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-yao-gun?time="
+  },
+  "billboard-yin-le-dian-chill-out": {
+    "title": "Billboard Radio China Chill Out",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-todaysmix",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-chill-out.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-chill-ou?time="
+  },
+  "1044-am": {
+    "title": "新城1044 Metro Plus",
+    "type": "application/x-mpegURL",
+    "signal": "1044 AM",
+    "url": "https://www.metroradio.com.hk/1044/",
+    "cros": true,
+    "stream": "http://metroradio-lh.akamaihd.net/i/1044_h@349800/master.m3u8",
+    "features": "/img/asia/hong-kong/1044-am.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/1044-am?time="
+  },
+  "talk": {
+    "title": "講台",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://podcast.talkonly.net/",
+    "cros": false,
+    "stream": "https://acast01.kolorboxlab.com/radio/8010/radio.mp3",
+    "features": "/img/asia/hong-kong/talk.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/talk?time="
+  },
+  "edmond": {
+    "title": "恐怖在線",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.edmondpoon.com/",
+    "cros": true,
+    "stream": "http://acast01.kolorboxlab.com:8010/radio.mp3",
+    "features": "/img/asia/hong-kong/edmond.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/edmond?time="
+  },
+  "billboard-yin-le-dian-dian-zi": {
+    "title": "Billboard Radio China 電子/EDM/Club",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.brg-radio.com/music/edm-club",
+    "cros": false,
+    "stream": "https://billboardradio.rastream.com/gfm-clubhkgfm",
+    "features": "/img/asia/hong-kong/billboard-yin-le-dian-dian-zi.png",
+    "schedule": "https://api.webrad.io/data/playlist/138/billboard-yin-le-dian-dian-zi?time="
+  },
+  "903": {
+    "title": "叱咤903",
+    "type": "application/x-mpegURL",
+    "signal": "90.3 FM",
+    "url": "https://www.my903.com/903openbox",
+    "cros": true,
+    "stream": "https://live.881903.com/edge-aac/903hd/playlist.m3u8?r=dKVJQBaA7nVqj9jJ",
+    "features": "/img/asia/hong-kong/903.png"
+  },
+  "881": {
+    "title": "叱咤903",
+    "type": "audio/mpeg",
+    "signal": "88.1 FM",
+    "url": "https://www.881903.com/live/881",
+    "cros": true,
+    "stream": "https://live.881903.com/edge-aac/881hd/l_3254926_21073164097_1756097.aac",
+    "features": "/img/asia/hong-kong/881.png"
+  },
+  "d100-hk": {
+    "title": "D100電台",
+    "type": "audio/mpeg",
+    "signal": "Stream",
+    "url": "https://www.d100.net/",
+    "cros": true,
+    "stream": "https://uk.d100.net:8001/Channel1-128MP3",
+    "features": "/img/asia/hong-kong/d100-hk.png"
+  }
+}

@@ -1,0 +1,390 @@
+{
+    "medi": {
+        "title": "Medi 1",
+        "type": "application/x-mpegURL",
+        "url": "https://www.medi1.com/",
+        "cros": false,
+        "stream": "https://streaming1.medi1tv.com/radio/radio_mag.stream_aac/playlist.m3u8",
+        "features": "/img/africa/morocco/medi.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/68/medi?time="
+    },
+    "med": {
+        "title": "Med Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.medradio.ma/",
+        "cros": false,
+        "stream": "https://stream.bodkas.com/playlist?id=3",
+        "features": "/img/africa/morocco/med.png",
+        "favorite": false
+    },
+    "mars": {
+        "title": "Radio Mars",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomars.ma/ar/",
+        "cros": false,
+        "stream": "https://radiomars.ice.infomaniak.ch/radiomars-128.mp3",
+        "features": "/img/africa/morocco/mars.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/mars?time="
+    },
+    "aswat": {
+        "title": "Aswat",
+        "type": "audio/mpeg",
+        "url": "https://radioaswat.ma/",
+        "cros": false,
+        "stream": "https://broadcast.ice.infomaniak.ch/aswat-high.mp3",
+        "features": "/img/africa/morocco/aswat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/aswat?time="
+    },
+    "chada": {
+        "title": "Chada FM",
+        "type": "application/x-mpegURL",
+        "url": "https://chada.ma/",
+        "cros": false,
+        "stream": "https://stream.bodkas.com/playlist?id=chadafmradio",
+        "features": "/img/africa/morocco/chada.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/chada?time="
+    },
+    "sawa": {
+        "title": "Radio Sawa",
+        "type": "application/x-mpegURL",
+        "url": "https://www.radiosawa.com/",
+        "cros": false,
+        "stream": "https://mbnv-audio-ingest.akamaized.net/hls/live/2038905/MBNV_SAWA_LEVANT_AUDIO_HLS/master_11.m3u8",
+        "features": "/img/africa/morocco/sawa.png",
+        "favorite": false
+    },
+    "hit": {
+        "title": "Hit Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/",
+        "cros": false,
+        "stream": "https://hitradio-maroc.ice.infomaniak.ch/hitradio-maroc-128.mp3",
+        "features": "/img/africa/morocco/hit.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/hit?time="
+    },
+    "mfm": {
+        "title": "MFM Radio",
+        "type": "application/x-mpegURL",
+        "url": "https://www.mfmradio.ma/%D8%A8%D8%B1%D8%A7%D9%85%D8%AC/",
+        "cros": false,
+        "stream": "https://stream.bodkas.com/playlist?id=mfmradio",
+        "features": "/img/africa/morocco/mfm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/mfm?time="
+    },
+    "monte-calro-doualiya": {
+        "title": "Radio Monte Carlo Doualiya",
+        "type": "audio/mpeg",
+        "url": "https://www.mc-doualiya.com/",
+        "cros": false,
+        "stream": "https://montecarlodoualiya128k.ice.infomaniak.ch/mc-doualiya.mp3",
+        "features": "/img/africa/morocco/monte-calro-doualiya.png",
+        "favorite": false
+    },
+    "2m": {
+        "title": "Radio 2M",
+        "type": "application/x-mpegURL",
+        "url": "http://www.radio2m.ma/",
+        "cros": false,
+        "stream": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/radio_2m/radio_hls_ts_hy217612tge1f21j83/radio_2m.m3u8",
+        "features": "/img/africa/morocco/2m.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/2m?time="
+    },
+    "atlantic": {
+        "title": "Atlantic Radio",
+        "type": "audio/mpeg",
+        "url": "https://atlanticradio.ma/",
+        "cros": false,
+        "stream": "https://atlantic-sonic.nindohost.net:9300/stream/1/",
+        "features": "/img/africa/morocco/atlantic.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/atlantic?time="
+    },
+    "soleil": {
+        "title": "Radio Soleil",
+        "type": "audio/mpeg",
+        "url": "https://radiosoleil.bilsimaging.com/",
+        "cros": false,
+        "stream": "https://plainedge.ice.infomaniak.ch/radiosoleil-128.mp3",
+        "features": "/img/africa/morocco/soleil.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/soleil?time="
+    },
+    "only-rai": {
+        "title": "Radio Only Raï",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://onlyrai.ice.infomaniak.ch/onlyrai-high.mp3",
+        "features": "/img/africa/morocco/only-rai.png",
+        "favorite": false
+    },
+    "izlan": {
+        "title": "Izlan",
+        "type": "audio/mpeg",
+        "url": "https://izlan.fr/",
+        "cros": false,
+        "stream": "https://izlan.fr/radios/atlas/stream",
+        "features": "/img/africa/morocco/izlan.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/izlan?time="
+    },
+    "nrj-maroc": {
+        "title": "NRJ Maroc",
+        "type": "audio/mpeg",
+        "url": "https://www.nrjmaroc.com/",
+        "cros": false,
+        "stream": "https://icecast.nrjmaroc.com/stream",
+        "features": "/img/africa/morocco/nrj-maroc.png",
+        "favorite": false
+    },
+    "hit-mgharba": {
+        "title": "Hit Radio Mgharba",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/",
+        "cros": false,
+        "stream": "https://mgharba.ice.infomaniak.ch/mgharba-128.mp3",
+        "features": "/img/africa/morocco/hit-mgharba.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/hit-mgharba?time="
+    },
+    "ness": {
+        "title": "Ness Radio",
+        "type": "audio/mpeg",
+        "url": "https://nessradio.com/",
+        "cros": false,
+        "stream": "https://radio.nessradio.net:8212/nessradio-hd",
+        "features": "/img/africa/morocco/ness.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/ness?time="
+    },
+    "hit-radio-party": {
+        "title": "Hit Radio Party",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/",
+        "cros": false,
+        "stream": "https://dancefloor.ice.infomaniak.ch/dancefloor-128.mp3",
+        "features": "/img/africa/morocco/hit-radio-party.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/hit-radio-party?time="
+    },
+    "medina": {
+        "title": "Radio Medina FM",
+        "type": "audio/mpeg",
+        "url": "https://radiomedinafm.ma",
+        "cros": false,
+        "stream": "https://medinafm.ice.infomaniak.ch/medinafm-64.mp3",
+        "features": "/img/africa/morocco/medina.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/medina?time="
+    },
+    "yabiladi": {
+        "title": "Radio Yabiladi",
+        "type": "audio/mpeg",
+        "url": "https://www.yabiladi.com/radio/",
+        "cros": false,
+        "stream": "https://radio.yabiladi.com:8002/stream/1/",
+        "features": "/img/africa/morocco/yabiladi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/yabiladi?time="
+    },
+    "atbir": {
+        "title": "Radio Atbir",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/bqdbb6hd0neuv",
+        "features": "/img/africa/morocco/atbir.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/atbir?time="
+    },
+    "amazighia": {
+        "title": "Al Amazighia",
+        "type": "application/x-mpegURL",
+        "url": "https://snrtlive.ma/",
+        "cros": false,
+        "stream": "https://cdnamd-hls-globecast.akamaized.net/live/ramdisk/radio_amazigh/hls_snrt_radio/index.m3u8",
+        "features": "/img/africa/morocco/amazighia.png",
+        "favorite": false
+    },
+    "star-maroc": {
+        "title": "Radio Star Maroc FM",
+        "type": "audio/mpeg",
+        "url": "https://radiostarmaroc.com/",
+        "cros": false,
+        "stream": "https://a2.asurahosting.com:6100/stream/1/",
+        "features": "/img/africa/morocco/star-maroc.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/star-maroc?time="
+    },
+    "cap": {
+        "title": "Cap Radio",
+        "type": "audio/mpeg",
+        "url": "https://capradiotv.com/",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/635263/stream/698005",
+        "features": "/img/africa/morocco/cap.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/cap?time="
+    },
+    "habayiib": {
+        "title": "Radio Habayiib",
+        "type": "audio/mpeg",
+        "url": "http://radiohabayiib.com/",
+        "cros": true,
+        "stream": "http://85.214.110.29:8000/;",
+        "features": "/img/africa/morocco/habayiib.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/habayiib?time="
+    },
+    "coran": {
+        "title": "Radio Coran",
+        "type": "audio/mpeg",
+        "url": "https://radio-coran.net/",
+        "cros": false,
+        "stream": "https://virmach1.hajjam.net:8005/stream/1/",
+        "features": "/img/africa/morocco/coran.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/coran?time="
+    },
+    "tiktok": {
+        "title": "Hit Radio 100% TikTok",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/fr",
+        "cros": false,
+        "stream": "https://buzz.ice.infomaniak.ch/buzz-128.mp3",
+        "features": "/img/africa/morocco/tiktok.png",
+        "favorite": false
+    },
+    "hit-radio-classique": {
+        "title": "Hit Radio Classique",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/",
+        "cros": false,
+        "stream": "https://gold.ice.infomaniak.ch/gold-128.mp3",
+        "features": "/img/africa/morocco/hit-radio-classique.png",
+        "favorite": false
+    },
+    "4u-classic": {
+        "title": "4U Classic Rock",
+        "type": "audio/mpeg",
+        "url": "https://www.4urock.com/",
+        "cros": false,
+        "stream": "https://str4uice.streamakaci.com/4uclassicrock.mp3",
+        "features": "/img/africa/morocco/4u-classic.png",
+        "favorite": false
+    },
+    "azawan": {
+        "title": "Radio Azawan",
+        "type": "audio/mpeg",
+        "url": "https://www.radioazawan.ma/",
+        "cros": false,
+        "stream": "https://az-maroc.ice.infomaniak.ch/az-maroc-128.mp3",
+        "features": "/img/africa/morocco/azawan.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/azawan?time="
+    },
+    "rim": {
+        "title": "RIM Radio",
+        "type": "audio/mpeg",
+        "url": "https://www.rimradio.ma/",
+        "cros": false,
+        "stream": "https://streaming.rimradio.ma/stream/307713/",
+        "features": "/img/africa/morocco/rim.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/rim?time="
+    },
+    "tanger-med": {
+        "title": "Radio Tanger Med",
+        "type": "audio/mpeg",
+        "url": "http://www.radiotangermed.com/",
+        "cros": false,
+        "stream": "https://radiotangermed-22.ice.infomaniak.ch/radiotangermed-22-128.mp3",
+        "features": "/img/africa/morocco/tanger-med.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/tanger-med?time="
+    },
+    "hexagone-fm": {
+        "title": "Hexagone FM",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": false,
+        "stream": "https://radio.ready2play.fr/hexagonefm256",
+        "features": "/img/africa/morocco/hexagone-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/hexagone-fm?time="
+    },
+    "hit-radio-urban": {
+        "title": "Hit Radio Urban",
+        "type": "audio/mpeg",
+        "url": "https://www.hitradio.ma/",
+        "cros": false,
+        "stream": "https://rnb.ice.infomaniak.ch/rnb-128.mp3",
+        "features": "/img/africa/morocco/hit-radio-urban.png",
+        "favorite": false
+    },
+    "sawt-alamal": {
+        "title": "Radio Sawt Alamal",
+        "type": "audio/mpeg",
+        "url": "https://radiosawtalamal.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/qgw73bqh5qruv",
+        "features": "/img/africa/morocco/sawt-alamal.png",
+        "favorite": false
+    },
+    "radio-zine-bladi": {
+        "title": "Radio Zine Bladi",
+        "type": "audio/mpeg",
+        "url": "https://www.zinebladi.ma/",
+        "cros": false,
+        "stream": "https://asmaki.ma:8000/radio.mp3",
+        "features": "/img/africa/morocco/radio-zine-bladi.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/radio-zine-bladi?time="
+    },
+    "oxygene": {
+        "title": "Oxygene FM",
+        "type": "audio/mpeg",
+        "url": "https://oxygene.ma/",
+        "cros": false,
+        "stream": "https://radiocampus.ice.infomaniak.ch/radiocampus-128.mp3",
+        "features": "/img/africa/morocco/oxygene.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/oxygene?time="
+    },
+    "manarat": {
+        "title": "Radio Manarat",
+        "type": "audio/mpeg",
+        "url": "https://fm6education.ma/",
+        "cros": false,
+        "stream": "https://listen.radioking.com/radio/252934/stream/297385",
+        "features": "/img/africa/morocco/manarat.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/manarat?time="
+    },
+    "hits1-maroc": {
+        "title": "Hits1 Maroc",
+        "type": "audio/mpeg",
+        "url": "https://www.hits1radio.com/",
+        "cros": false,
+        "stream": "https://radio12.pro-fhi.net/live/Hits1radio",
+        "features": "/img/africa/morocco/hits1-maroc.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/68/hits1-maroc?time="
+    },
+    "adwaa-fm": {
+        "title": "Adwaa FM 1",
+        "type": "audio/mpeg",
+        "url": "https://adwaafm.com/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/5bxh2nh0x1zuv",
+        "features": "/img/africa/morocco/adwaa-fm.png",
+        "favorite": false
+    }
+}

@@ -1,0 +1,412 @@
+{
+    "azul": {
+        "title": "Azul FM (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://azulfm.com.uy/",
+        "cros": false,
+        "stream": "https://azul-1.nty.uy/",
+        "features": "/img/south-america/uruguay/azul.png",
+        "favorite": true,
+        "schedule": "https://api.webrad.io/data/playlist/30/azul?time="
+    },
+    "oceano-fm": {
+        "title": "Océano FM",
+        "type": "audio/mpeg",
+        "url": "https://oceanofm.com/",
+        "cros": false,
+        "stream": "https://oceano-2.nty.uy/",
+        "features": "/img/south-america/uruguay/oceano-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/oceano-fm?time="
+    },
+    "radio-el-espectador": {
+        "title": "El Espectador",
+        "type": "audio/mpeg",
+        "url": "https://espectador.com/",
+        "cros": true,
+        "stream": "http://espectador-2.nty.uy:8120/stream/1/",
+        "features": "/img/south-america/uruguay/radio-el-espectador.png",
+        "favorite": false
+    },
+    "metropolis-fm": {
+        "title": "Metrópolis",
+        "type": "audio/mpeg",
+        "url": "https://metropolisfm.com/",
+        "cros": false,
+        "stream": "https://metropolis-web-1.nty.uy/",
+        "features": "/img/south-america/uruguay/metropolis-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/metropolis-fm?time="
+    },
+    "radio-cero": {
+        "title": "Radiocero (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiocero.uy/",
+        "cros": false,
+        "stream": "https://radiolatina.live/7902/stream/1/",
+        "features": "/img/south-america/uruguay/radio-cero.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/radio-cero?time="
+    },
+    "sport-890": {
+        "title": "Sport 890",
+        "type": "application/x-mpegURL",
+        "url": "https://www.sport890.com.uy/",
+        "cros": false,
+        "stream": "https://alba-uy-sport890-sport890.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/uruguay/sport-890.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/sport-890?time="
+    },
+    "aire": {
+        "title": "Radio Aire",
+        "type": "audio/mpeg",
+        "url": "https://www.airefm.com.uy/",
+        "cros": false,
+        "stream": "https://airefm-1.nty.uy/:8030/;",
+        "features": "/img/south-america/uruguay/aire.png",
+        "favorite": false
+    },
+    "del-plata-fm": {
+        "title": "Del Plata (Montevideo)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.delplatafm.com/",
+        "cros": false,
+        "stream": "https://alba-uy-delplata-delplata.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/uruguay/del-plata-fm.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/del-plata-fm?time="
+    },
+    "universal-montevideo": {
+        "title": "Radio Universal (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://970universal.com/",
+        "cros": false,
+        "stream": "https://970universal-3.nty.uy/;",
+        "features": "/img/south-america/uruguay/universal-montevideo.png",
+        "favorite": false
+    },
+    "del-sol-montevideo": {
+        "title": "Del Sol (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://delsol.uy",
+        "cros": false,
+        "stream": "https://delsol-2.nty.uy",
+        "features": "/img/south-america/uruguay/del-sol-montevideo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/del-sol-montevideo?time="
+    },
+    "futura": {
+        "title": "Radio Futura (Montevideo)",
+        "type": "application/x-mpegURL",
+        "url": "https://www.rf.com.uy/",
+        "cros": false,
+        "stream": "https://alba-uy-radiofutura-futura.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/uruguay/futura.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/futura?time="
+    },
+    "alfa-montevideo": {
+        "title": "Alfa (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://radioonline.netgate.com.uy:8000/alfafm",
+        "features": "/img/south-america/uruguay/alfa-montevideo.png",
+        "favorite": false
+    },
+    "monte-carlo": {
+        "title": "Radio Monte Carlo",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomontecarlo.com.uy/",
+        "cros": true,
+        "stream": "http://radiolatina.live:7900/stream/1/",
+        "features": "/img/south-america/uruguay/monte-carlo.png",
+        "favorite": false
+    },
+    "radio-carve": {
+        "title": "Carve (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://carve850.com.uy/",
+        "cros": false,
+        "stream": "https://radiolatina.live/9202/stream/1/",
+        "features": "/img/south-america/uruguay/radio-carve.png",
+        "favorite": false
+    },
+    "carve-deportiva-1010": {
+        "title": "Carve Deportiva 1010 AM (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://carvedeportiva.uy/",
+        "cros": false,
+        "stream": "https://radiolatina.live/9204/stream/1/",
+        "features": "/img/south-america/uruguay/carve-deportiva-1010.png",
+        "favorite": false
+    },
+    "rural-montevideo": {
+        "title": "Radio Rural (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://radiorural.uy/",
+        "cros": true,
+        "stream": "http://radiolatina.live:9206/stream/1/",
+        "features": "/img/south-america/uruguay/rural-montevideo.png",
+        "favorite": false
+    },
+    "sarandi": {
+        "title": "Sarandi",
+        "type": "application/x-mpegURL",
+        "url": "https://www.sarandi690.com.uy/",
+        "cros": false,
+        "stream": "https://alba-uy-sarandi-sarandi.stream.mediatiquestream.com/index.m3u8",
+        "features": "/img/south-america/uruguay/sarandi.png",
+        "favorite": false
+    },
+    "fm-hit-90-3": {
+        "title": "FM HIT 90.3",
+        "type": "audio/mpeg",
+        "url": "https://fmhit.uy/",
+        "cros": false,
+        "stream": "https://hit-1.nty.uy/stream",
+        "features": "/img/south-america/uruguay/fm-hit-90-3.png",
+        "favorite": false
+    },
+    "disney": {
+        "title": "Radio Disney (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://uy.radiodisney.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/DISNEY_URY_MVAAC_SC",
+        "features": "/img/south-america/uruguay/disney.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/disney?time="
+    },
+    "m24-montevideo": {
+        "title": "M24 (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.m24.com.uy/",
+        "cros": false,
+        "stream": "https://streaming1.hostingmontevideo.com:7016/stream/1/",
+        "features": "/img/south-america/uruguay/m24-montevideo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/m24-montevideo?time="
+    },
+    "la-costa": {
+        "title": "Lacosta FM",
+        "type": "audio/mpeg",
+        "url": "https://www.lacostafm88.com/",
+        "cros": false,
+        "stream": "https://lacostafm-2.nty.uy/",
+        "features": "/img/south-america/uruguay/la-costa.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/la-costa?time="
+    },
+    "aspen-punta-del-este": {
+        "title": "Aspen (Punta del Este)",
+        "type": "audio/mpeg",
+        "url": "https://aspenpunta.com/",
+        "cros": false,
+        "stream": "https://streaming2.hostingmontevideo.com:7010/stream/1/",
+        "features": "/img/south-america/uruguay/aspen-punta-del-este.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/aspen-punta-del-este?time="
+    },
+    "oriental": {
+        "title": "Radio Oriental",
+        "type": "audio/mpeg",
+        "url": "https://oriental.com.uy/inicio/",
+        "cros": false,
+        "stream": "https://radiolatina.live/7906/stream/1/",
+        "features": "/img/south-america/uruguay/oriental.png",
+        "favorite": false
+    },
+    "colonia": {
+        "title": "Radio Colonia (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://radiocolonia.com/",
+        "cros": false,
+        "stream": "https://playerservices.streamtheworld.com/api/livestream-redirect/COLONIA_ADP_SC",
+        "features": "/img/south-america/uruguay/colonia.png",
+        "favorite": false
+    },
+    "centenario-montevideo": {
+        "title": "Radio Centenario (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.radio36.com.uy/",
+        "cros": true,
+        "stream": "http://rfm.radio.netgate.com.uy:8000/centenario",
+        "features": "/img/south-america/uruguay/centenario-montevideo.png",
+        "favorite": false
+    },
+    "sur": {
+        "title": "Emisora del Sur (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://mediospublicos.uy/",
+        "cros": false,
+        "stream": "https://radios.iwstreaming.uy/8034/stream",
+        "features": "/img/south-america/uruguay/sur.png",
+        "favorite": false
+    },
+    "babel": {
+        "title": "Radio Babel (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://mediospublicos.uy/",
+        "cros": false,
+        "stream": "https://radios.iwstreaming.uy/8030/stream",
+        "features": "/img/south-america/uruguay/babel.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/babel?time="
+    },
+    "la-30-montevideo": {
+        "title": "La 30 Radio Nacional (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.radionacional.com.uy/web/",
+        "cros": false,
+        "stream": "https://a1.asurahosting.com:8650/radio.mp3",
+        "features": "/img/south-america/uruguay/la-30-montevideo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/la-30-montevideo?time="
+    },
+    "voz-de-melo": {
+        "title": "La Voz de Melo",
+        "type": "audio/mpeg",
+        "url": "https://www.lavozdemelo.com.uy/",
+        "cros": false,
+        "stream": "https://stream.zeno.fm/fzc86k96yy8uv",
+        "features": "/img/south-america/uruguay/voz-de-melo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/voz-de-melo?time="
+    },
+    "clarin": {
+        "title": "Radio Clarín AM",
+        "type": "audio/mpeg",
+        "url": "https://radioclarin.uy/",
+        "cros": false,
+        "stream": "https://radioclarin-zikoxweb.radioca.st/stream/1/",
+        "features": "/img/south-america/uruguay/clarin.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/clarin?time="
+    },
+    "inolvidable-montevideo": {
+        "title": "FM Inolvidable (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.inolvidablefm.com.uy/",
+        "cros": false,
+        "stream": "https://inolvidable-2.nty.uy/",
+        "features": "/img/south-america/uruguay/inolvidable-montevideo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/inolvidable-montevideo?time="
+    },
+    "radio-la-r": {
+        "title": "Radio La R  (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "https://www.lacatorce10.com.uy/radio-player/",
+        "cros": false,
+        "stream": "https://la1410-2.nty.uy/:8060/;",
+        "features": "/img/south-america/uruguay/radio-la-r.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/radio-la-r?time="
+    },
+    "arapey": {
+        "title": "Radio Arapey",
+        "type": "audio/mpeg",
+        "url": "https://10minutos.com.uy/arapeyon-line/",
+        "cros": false,
+        "stream": "https://emisiones.com.uy:8150/arapey",
+        "features": "/img/south-america/uruguay/arapey.png",
+        "favorite": false
+    },
+    "durazno-montevideo": {
+        "title": "Radio Durazno (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "http://radio.infodurazno.com/",
+        "cros": true,
+        "stream": "http://usa15.ciudaddigital.com.uy:8038/DuraznoAM",
+        "features": "/img/south-america/uruguay/durazno-montevideo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/durazno-montevideo?time="
+    },
+    "zorrilla-de-san-martin": {
+        "title": "Radio Zorrilla de San Martín AM (Tacuarembó)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiozorrilla.com/",
+        "cros": false,
+        "stream": "https://server-usa2.radioseninternet.net/9312/stream/1/",
+        "features": "/img/south-america/uruguay/zorrilla-de-san-martin.png",
+        "favorite": false
+    },
+    "conquistador-treinta-y-tres": {
+        "title": "Conquistador (Treinta y Tres)",
+        "type": "audio/mpeg",
+        "url": "https://fmconquistador.com/",
+        "cros": true,
+        "stream": "http://198.204.234.10:8143/stream/1/",
+        "features": "/img/south-america/uruguay/conquistador-treinta-y-tres.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/conquistador-treinta-y-tres?time="
+    },
+    "exito-paysandu": {
+        "title": "Éxito FM (Paysandú)",
+        "type": "audio/mpeg",
+        "url": "https://exitofm.com.uy/",
+        "cros": false,
+        "stream": "https://salida.stream.com.uy:8506/stream",
+        "features": "/img/south-america/uruguay/exito-paysandu.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/exito-paysandu?time="
+    },
+    "dias-de-gloria": {
+        "title": "Dias de Gloria",
+        "type": "audio/mpeg",
+        "url": "https://www.diasdegloria.com/",
+        "cros": true,
+        "stream": "http://server.laradio.online:9114/stream/1/",
+        "features": "/img/south-america/uruguay/dias-de-gloria.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/dias-de-gloria?time="
+    },
+    "1280-am-tacuarembo": {
+        "title": "Radio Tacuarembó",
+        "type": "audio/mpeg",
+        "url": "",
+        "cros": true,
+        "stream": "http://usa15.ciudaddigital.com.uy:8114/TacuaremboAM",
+        "features": "/img/south-america/uruguay/1280-am-tacuarembo.png",
+        "favorite": false,
+        "schedule": "https://api.webrad.io/data/playlist/30/1280-am-tacuarembo?time="
+    },
+    "clasica": {
+        "title": "Radio Clásica (Montevideo)",
+        "type": "audio/mpeg",
+        "url": "http://clasica.uy/",
+        "cros": true,
+        "stream": "http://radios.iwstreaming.uy:8032/stream/1/",
+        "features": "/img/south-america/uruguay/clasica.png",
+        "favorite": false
+    },
+    "city": {
+        "title": "Radio City (Durazno)",
+        "type": "audio/mpeg",
+        "url": "http://laradio.dyndns.org/radiocity/index.html",
+        "cros": true,
+        "stream": "http://usa15.ciudaddigital.com.uy:8030/CityFM",
+        "features": "/img/south-america/uruguay/city.png",
+        "favorite": false
+    },
+    "radio-maria-uruguay": {
+        "title": "Radio María  (Florida)",
+        "type": "audio/mpeg",
+        "url": "https://www.radiomaria.org.uy/",
+        "cros": true,
+        "stream": "http://dreamsiteradiocp2.com:8070/stream/1/",
+        "features": "/img/south-america/uruguay/radio-maria-uruguay.png",
+        "favorite": false
+    },
+    "sur-fm": {
+        "title": "Sur FM (Trinidad)",
+        "type": "audio/mpeg",
+        "url": "https://www.surfm.net/",
+        "cros": false,
+        "stream": "https://dattavolt.com/8268/stream",
+        "features": "/img/south-america/uruguay/sur-fm.png",
+        "favorite": false
+    }
+}

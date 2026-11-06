@@ -1,0 +1,625 @@
+{
+  "africa": {
+    "algeria": {
+      "name": "world.africa.algeria",
+      "flag": "/img/africa/flags/algeria.png",
+      "data": "/assets/radio/africa/algeria.json",
+      "timezone": "Africa/Algiers",
+      "station": 0
+    },
+    "nigeria": {
+      "name": "world.africa.nigeria",
+      "flag": "/img/africa/flags/nigeria.png",
+      "data": "/assets/radio/africa/nigeria.json",
+      "timezone": "Africa/Lagos",
+      "station": 0
+    },
+    "cameroon": {
+      "name": "world.africa.cameroon",
+      "flag": "/img/africa/flags/cameroon.png",
+      "data": "/assets/radio/africa/cameroon.json",
+      "timezone": "Africa/Douala",
+      "station": 0
+    },
+    "congo": {
+      "name": "world.africa.congo",
+      "flag": "/img/africa/flags/congo.png",
+      "data": "/assets/radio/africa/congo.json",
+      "timezone": "Africa/Brazzaville",
+      "station": 0
+    },
+    "cote-d-ivoire": {
+      "name": "world.africa.cote_d_ivoire",
+      "flag": "/img/africa/flags/cote-d-ivoire.png",
+      "data": "/assets/radio/africa/cote-d-ivoire.json",
+      "timezone": "Africa/Abidjan",
+      "station": 0
+    },
+    "egypt": {
+      "name": "world.africa.egypt",
+      "flag": "/img/africa/flags/egypt.png",
+      "data": "/assets/radio/africa/egypt.json",
+      "timezone": "Africa/Cairo",
+      "station": 0
+    },
+    "ghana": {
+      "name": "world.africa.ghana",
+      "flag": "/img/africa/flags/ghana.png",
+      "data": "/assets/radio/africa/ghana.json",
+      "timezone": "Africa/Accra",
+      "station": 0
+    },
+    "kenya": {
+      "name": "world.africa.kenya",
+      "flag": "/img/africa/flags/kenya.png",
+      "data": "/assets/radio/africa/kenya.json",
+      "timezone": "Africa/Nairobi",
+      "station": 0
+    },
+    "madagascar": {
+      "name": "world.africa.madagascar",
+      "flag": "/img/africa/flags/madagascar.png",
+      "data": "/assets/radio/africa/madagascar.json",
+      "timezone": "Indian/Antananarivo",
+      "station": 0
+    },
+    "morocco": {
+      "name": "world.africa.morocco",
+      "flag": "/img/africa/flags/morocco.png",
+      "data": "/assets/radio/africa/morocco.json",
+      "timezone": "Africa/Casablanca",
+      "station": 0
+    },
+    "senegal": {
+      "name": "world.africa.senegal",
+      "flag": "/img/africa/flags/senegal.png",
+      "data": "/assets/radio/africa/senegal.json",
+      "timezone": "Africa/Dakar",
+      "station": 0
+    },
+    "south-africa": {
+      "name": "world.africa.south_africa",
+      "flag": "/img/africa/flags/south-africa.png",
+      "data": "/assets/radio/africa/south-africa.json",
+      "timezone": "Africa/Johannesburg",
+      "station": 0
+    },
+    "tunisia": {
+      "name": "world.africa.tunisia",
+      "flag": "/img/africa/flags/tunisia.png",
+      "data": "/assets/radio/africa/tunisia.json",
+      "timezone": "Africa/Tunis",
+      "station": 0
+    },
+    "uganda": {
+      "name": "world.africa.uganda",
+      "flag": "/img/africa/flags/uganda.png",
+      "data": "/assets/radio/africa/uganda.json",
+      "timezone": "Africa/Kampala",
+      "station": 0
+    }
+  },
+  "asia": {
+    "viet-nam": {
+      "name": "world.asia.viet_nam",
+      "flag": "/img/asia/flags/viet-nam.png",
+      "data": "/assets/radio/asia/viet-nam.json",
+      "timezone": "Asia/Ho_Chi_Minh",
+      "station": 0
+    },
+    "singapore": {
+      "name": "world.asia.singapore",
+      "flag": "/img/asia/flags/singapore.png",
+      "data": "/assets/radio/asia/singapore.json",
+      "timezone": "Asia/Singapore",
+      "station": 0
+    },
+    "korea": {
+      "name": "world.asia.korea",
+      "flag": "/img/asia/flags/korea.png",
+      "data": "/assets/radio/asia/korea.json",
+      "timezone": "Asia/Seoul",
+      "station": 0
+    },
+    "china": {
+      "name": "world.asia.china",
+      "flag": "/img/asia/flags/china.png",
+      "data": "/assets/radio/asia/china.json",
+      "timezone": "Asia/Shanghai",
+      "station": 0
+    },
+    "hong-kong": {
+      "name": "world.asia.hong_kong",
+      "flag": "/img/asia/flags/hong-kong.png",
+      "data": "/assets/radio/asia/hong-kong.json",
+      "timezone": "Asia/Hong_Kong",
+      "station": 0
+    },
+    "japan": {
+      "name": "world.asia.japan",
+      "flag": "/img/asia/flags/japan.png",
+      "data": "/assets/radio/asia/japan.json",
+      "timezone": "Asia/Tokyo",
+      "station": 0
+    },
+    "malaysia": {
+      "name": "world.asia.malaysia",
+      "flag": "/img/asia/flags/malaysia.png",
+      "data": "/assets/radio/asia/malaysia.json",
+      "timezone": "Asia/Kuala_Lumpur",
+      "station": 0
+    },
+    "philippines": {
+      "name": "world.asia.philippines",
+      "flag": "/img/asia/flags/philippines.png",
+      "data": "/assets/radio/asia/philippines.json",
+      "timezone": "Asia/Manila",
+      "station": 0
+    },
+    "indonesia": {
+      "name": "world.asia.indonesia",
+      "flag": "/img/asia/flags/indonesia.png",
+      "data": "/assets/radio/asia/indonesia.json",
+      "timezone": "Asia/Jakarta",
+      "station": 0
+    },
+    "thailand": {
+      "name": "world.asia.thailand",
+      "flag": "/img/asia/flags/thailand.png",
+      "data": "/assets/radio/asia/thailand.json",
+      "timezone": "Asia/Bangkok",
+      "station": 0
+    },
+    "bangladesh": {
+      "name": "world.asia.bangladesh",
+      "flag": "/img/asia/flags/bangladesh.png",
+      "data": "/assets/radio/asia/bangladesh.json",
+      "timezone": "Asia/Dhaka",
+      "station": 0
+    },
+    "pakistan": {
+      "name": "world.asia.pakistan",
+      "flag": "/img/asia/flags/pakistan.png",
+      "data": "/assets/radio/asia/pakistan.json",
+      "timezone": "Asia/Karachi",
+      "station": 0
+    },
+    "india": {
+      "name": "world.asia.india",
+      "flag": "/img/asia/flags/india.png",
+      "data": "/assets/radio/asia/india.json",
+      "timezone": "Asia/Kolkata",
+      "station": 0
+    },
+    "taiwan": {
+      "name": "world.asia.taiwan",
+      "flag": "/img/asia/flags/taiwan.png",
+      "data": "/assets/radio/asia/taiwan.json",
+      "timezone": "Asia/Taipei",
+      "station": 0
+    },
+    "israel": {
+      "name": "world.asia.israel",
+      "flag": "/img/asia/flags/israel.png",
+      "data": "/assets/radio/asia/israel.json",
+      "timezone": "Asia/Jerusalem",
+      "station": 0
+    },
+    "sri-lanka": {
+      "name": "world.asia.sri_lanka",
+      "flag": "/img/asia/flags/sri-lanka.png",
+      "data": "/assets/radio/asia/sri-lanka.json",
+      "timezone": "Asia/Colombo",
+      "station": 0
+    },
+    "nepal": {
+      "name": "world.asia.nepal",
+      "flag": "/img/asia/flags/nepal.png",
+      "data": "/assets/radio/asia/nepal.json",
+      "timezone": "Asia/Kathmandu",
+      "station": 0
+    }
+  },
+  "south_america": {
+    "argentina": {
+      "name": "world.south_america.argentina",
+      "flag": "/img/south-america/flags/argentina.png",
+      "data": "/assets/radio/south-america/argentina.json",
+      "timezone": "America/Argentina/Buenos_Aires",
+      "station": 0
+    },
+    "bolivia": {
+      "name": "world.south_america.bolivia",
+      "flag": "/img/south-america/flags/bolivia.png",
+      "data": "/assets/radio/south-america/bolivia.json",
+      "timezone": "America/La_Paz",
+      "station": 0
+    },
+    "brazil": {
+      "name": "world.south_america.brazil",
+      "flag": "/img/south-america/flags/brazil.png",
+      "data": "/assets/radio/south-america/brazil.json",
+      "timezone": "America/Sao_Paulo",
+      "station": 0
+    },
+    "chile": {
+      "name": "world.south_america.chile",
+      "flag": "/img/south-america/flags/chile.png",
+      "data": "/assets/radio/south-america/chile.json",
+      "timezone": "America/Santiago",
+      "station": 0
+    },
+    "colombia": {
+      "name": "world.south_america.colombia",
+      "flag": "/img/south-america/flags/colombia.png",
+      "data": "/assets/radio/south-america/colombia.json",
+      "timezone": "America/Bogota",
+      "station": 0
+    },
+    "ecuador": {
+      "name": "world.south_america.ecuador",
+      "flag": "/img/south-america/flags/ecuador.png",
+      "data": "/assets/radio/south-america/ecuador.json",
+      "timezone": "America/Guayaquil",
+      "station": 0
+    },
+    "paraguay": {
+      "name": "world.south_america.paraguay",
+      "flag": "/img/south-america/flags/paraguay.png",
+      "data": "/assets/radio/south-america/paraguay.json",
+      "timezone": "America/Asuncion",
+      "station": 0
+    },
+    "peru": {
+      "name": "world.south_america.peru",
+      "flag": "/img/south-america/flags/peru.png",
+      "data": "/assets/radio/south-america/peru.json",
+      "timezone": "America/Lima",
+      "station": 0
+    },
+    "suriname": {
+      "name": "world.south_america.suriname",
+      "flag": "/img/south-america/flags/suriname.png",
+      "data": "/assets/radio/south-america/suriname.json",
+      "timezone": "America/Paramaribo",
+      "station": 0
+    },
+    "uruguay": {
+      "name": "world.south_america.uruguay",
+      "flag": "/img/south-america/flags/uruguay.png",
+      "data": "/assets/radio/south-america/uruguay.json",
+      "timezone": "America/Montevideo",
+      "station": 0
+    },
+    "venezuela": {
+      "name": "world.south_america.venezuela",
+      "flag": "/img/south-america/flags/venezuela.png",
+      "data": "/assets/radio/south-america/venezuela.json",
+      "timezone": "America/Caracas",
+      "station": 0
+    }
+  },
+  "central_america": {
+    "costa-rica": {
+      "name": "world.central_america.costa_rica",
+      "flag": "/img/central-america/flags/costa-rica.png",
+      "data": "/assets/radio/central-america/costa-rica.json",
+      "timezone": "America/Costa_Rica",
+      "station": 0
+    },
+    "el-salvador": {
+      "name": "world.central_america.el_salvador",
+      "flag": "/img/central-america/flags/el-salvador.png",
+      "data": "/assets/radio/central-america/el-salvador.json",
+      "timezone": "America/El_Salvador",
+      "station": 0
+    },
+    "guatemala": {
+      "name": "world.central_america.guatemala",
+      "flag": "/img/central-america/flags/guatemala.png",
+      "data": "/assets/radio/central-america/guatemala.json",
+      "timezone": "America/Guatemala",
+      "station": 0
+    },
+    "honduras": {
+      "name": "world.central_america.honduras",
+      "flag": "/img/central-america/flags/honduras.png",
+      "data": "/assets/radio/central-america/honduras.json",
+      "timezone": "America/Tegucigalpa",
+      "station": 0
+    },
+    "nicaragua": {
+      "name": "world.central_america.nicaragua",
+      "flag": "/img/central-america/flags/nicaragua.png",
+      "data": "/assets/radio/central-america/nicaragua.json",
+      "timezone": "America/Managua",
+      "station": 0
+    },
+    "panama": {
+      "name": "world.central_america.panama",
+      "flag": "/img/central-america/flags/panama.png",
+      "data": "/assets/radio/central-america/panama.json",
+      "timezone": "America/Panama",
+      "station": 0
+    }
+  },
+  "europe": {
+    "united-kingdom": {
+      "name": "world.europe.united_kingdom",
+      "flag": "/img/europe/flags/united-kingdom.png",
+      "data": "/assets/radio/europe/united-kingdom.json",
+      "timezone": "Europe/London",
+      "station": 148
+    },
+    "ukraine": {
+      "name": "world.europe.ukraine",
+      "flag": "/img/europe/flags/ukraine.png",
+      "data": "/assets/radio/europe/ukraine.json",
+      "timezone": "Europe/Kiev",
+      "station": 0
+    },
+    "russia": {
+      "name": "world.europe.russia",
+      "flag": "/img/europe/flags/russia.png",
+      "data": "/assets/radio/europe/russia.json",
+      "timezone": "Europe/Moscow",
+      "station": 0
+    },
+    "france": {
+      "name": "world.europe.france",
+      "flag": "/img/europe/flags/france.png",
+      "data": "/assets/radio/europe/france.json",
+      "timezone": "Europe/Paris",
+      "station": 0
+    },
+    "greece": {
+      "name": "world.europe.greece",
+      "flag": "/img/europe/flags/greece.png",
+      "data": "/assets/radio/europe/greece.json",
+      "timezone": "Europe/Athens",
+      "station": 134
+    },
+    "croatia": {
+      "name": "world.europe.croatia",
+      "flag": "/img/europe/flags/croatia.png",
+      "data": "/assets/radio/europe/croatia.json",
+      "timezone": "Europe/Zagreb",
+      "station": 139
+    },
+    "ireland": {
+      "name": "world.europe.ireland",
+      "flag": "/img/europe/flags/ireland.png",
+      "data": "/assets/radio/europe/ireland.json",
+      "timezone": "Europe/Dublin",
+      "station": 124
+    },
+    "italy": {
+      "name": "world.europe.italy",
+      "flag": "/img/europe/flags/italy.png",
+      "data": "/assets/radio/europe/italy.json",
+      "timezone": "Europe/Rome",
+      "station": 0
+    },
+    "luxembourg": {
+      "name": "world.europe.luxembourg",
+      "flag": "/img/europe/flags/luxembourg.png",
+      "data": "/assets/radio/europe/luxembourg.json",
+      "timezone": "Europe/Luxembourg",
+      "station": 53
+    },
+    "hungary": {
+      "name": "world.europe.hungary",
+      "flag": "/img/europe/flags/hungary.png",
+      "data": "/assets/radio/europe/hungary.json",
+      "timezone": "Europe/Budapest",
+      "station": 132
+    },
+    "netherlands": {
+      "name": "world.europe.netherlands",
+      "flag": "/img/europe/flags/netherlands.png",
+      "data": "/assets/radio/europe/netherlands.json",
+      "timezone": "Europe/Amsterdam",
+      "station": 0
+    },
+    "norway": {
+      "name": "world.europe.norway",
+      "flag": "/img/europe/flags/norway.png",
+      "data": "/assets/radio/europe/norway.json",
+      "timezone": "Europe/Oslo",
+      "station": 0
+    },
+    "austria": {
+      "name": "world.europe.austria",
+      "flag": "/img/europe/flags/austria.png",
+      "data": "/assets/radio/europe/austria.json",
+      "timezone": "Europe/Vienna",
+      "station": 0
+    },
+    "poland": {
+      "name": "world.europe.poland",
+      "flag": "/img/europe/flags/poland.png",
+      "data": "/assets/radio/europe/poland.json",
+      "timezone": "Europe/Warsaw",
+      "station": 0
+    },
+    "portugal": {
+      "name": "world.europe.portugal",
+      "flag": "/img/europe/flags/portugal.png",
+      "data": "/assets/radio/europe/portugal.json",
+      "timezone": "Europe/Lisbon",
+      "station": 0
+    },
+    "romania": {
+      "name": "world.europe.romania",
+      "flag": "/img/europe/flags/romania.png",
+      "data": "/assets/radio/europe/romania.json",
+      "timezone": "Europe/Bucharest",
+      "station": 0
+    },
+    "switzerland": {
+      "name": "world.europe.switzerland",
+      "flag": "/img/europe/flags/switzerland.png",
+      "data": "/assets/radio/europe/switzerland.json",
+      "timezone": "Europe/Zurich",
+      "station": 0
+    },
+    "slovenia": {
+      "name": "world.europe.slovenia",
+      "flag": "/img/europe/flags/slovenia.png",
+      "data": "/assets/radio/europe/slovenia.json",
+      "timezone": "Europe/Ljubljana",
+      "station": 0
+    },
+    "serbia": {
+      "name": "world.europe.serbia",
+      "flag": "/img/europe/flags/serbia.png",
+      "data": "/assets/radio/europe/serbia.json",
+      "timezone": "Europe/Belgrade",
+      "station": 0
+    },
+    "finland": {
+      "name": "world.europe.finland",
+      "flag": "/img/europe/flags/finland.png",
+      "data": "/assets/radio/europe/finland.json",
+      "timezone": "Europe/Helsinki",
+      "station": 0
+    },
+    "sweden": {
+      "name": "world.europe.sweden",
+      "flag": "/img/europe/flags/sweden.png",
+      "data": "/assets/radio/europe/sweden.json",
+      "timezone": "Europe/Stockholm",
+      "station": 131
+    },
+    "bulgaria": {
+      "name": "world.europe.bulgaria",
+      "flag": "/img/europe/flags/bulgaria.png",
+      "data": "/assets/radio/europe/bulgaria.json",
+      "timezone": "Europe/Sofia",
+      "station": 118
+    },
+    "belgium": {
+      "name": "world.europe.belgium",
+      "flag": "/img/europe/flags/belgium.png",
+      "data": "/assets/radio/europe/belgium.json",
+      "timezone": "Europe/Brussels",
+      "station": 0
+    },
+    "czechia": {
+      "name": "world.europe.czechia",
+      "flag": "/img/europe/flags/czechia.png",
+      "data": "/assets/radio/europe/czechia.json",
+      "timezone": "Europe/Prague",
+      "station": 0
+    },
+    "denmark": {
+      "name": "world.europe.denmark",
+      "flag": "/img/europe/flags/denmark.png",
+      "data": "/assets/radio/europe/denmark.json",
+      "timezone": "Europe/Copenhagen",
+      "station": 0
+    },
+    "estonia": {
+      "name": "world.europe.estonia",
+      "flag": "/img/europe/flags/estonia.png",
+      "data": "/assets/radio/europe/estonia.json",
+      "timezone": "Europe/Tallinn",
+      "station": 0
+    },
+    "germany": {
+      "name": "world.europe.germany",
+      "flag": "/img/europe/flags/germany.png",
+      "data": "/assets/radio/europe/germany.json",
+      "timezone": "Europe/Berlin",
+      "station": 0
+    },
+    "spain": {
+      "name": "world.europe.spain",
+      "flag": "/img/europe/flags/spain.png",
+      "data": "/assets/radio/europe/spain.json",
+      "timezone": "Europe/Madrid",
+      "station": 0
+    },
+    "latvia": {
+      "name": "world.europe.latvia",
+      "flag": "/img/europe/flags/latvia.png",
+      "data": "/assets/radio/europe/latvia.json",
+      "timezone": "Europe/Riga",
+      "station": 78
+    },
+    "lithuania": {
+      "name": "world.europe.lithuania",
+      "flag": "/img/europe/flags/lithuania.png",
+      "data": "/assets/radio/europe/lithuania.json",
+      "timezone": "Europe/Vilnius",
+      "station": 82
+    }
+  },
+  "north_america": {
+    "cuba": {
+      "name": "world.north_america.cuba",
+      "flag": "/img/north-america/flags/cuba.png",
+      "data": "/assets/radio/north-america/cuba.json",
+      "timezone": "America/Havana",
+      "station": 0
+    },
+    "haiti": {
+      "name": "world.north_america.haiti",
+      "flag": "/img/north-america/flags/haiti.png",
+      "data": "/assets/radio/north-america/haiti.json",
+      "timezone": "America/Port-au-Prince",
+      "station": 0
+    },
+    "jamaica": {
+      "name": "world.north_america.jamaica",
+      "flag": "/img/north-america/flags/jamaica.png",
+      "data": "/assets/radio/north-america/jamaica.json",
+      "timezone": "America/Jamaica",
+      "station": 0
+    },
+    "mexico": {
+      "name": "world.north_america.mexico",
+      "flag": "/img/north-america/flags/mexico.png",
+      "data": "/assets/radio/north-america/mexico.json",
+      "timezone": "America/Mexico_City",
+      "station": 0
+    },
+    "puerto-rico": {
+      "name": "world.north_america.puerto_rico",
+      "flag": "/img/north-america/flags/puerto-rico.png",
+      "data": "/assets/radio/north-america/puerto-rico.json",
+      "timezone": "America/Puerto_Rico",
+      "station": 0
+    },
+    "dominican-republic": {
+      "name": "world.north_america.dominican_republic",
+      "flag": "/img/north-america/flags/dominican-republic.png",
+      "data": "/assets/radio/north-america/dominican-republic.json",
+      "timezone": "America/Santo_Domingo",
+      "station": 0
+    },
+    "trinidad-and-tobago": {
+      "name": "world.north_america.trinidad_and_tobago",
+      "flag": "/img/north-america/flags/trinidad-and-tobago.png",
+      "data": "/assets/radio/north-america/trinidad-and-tobago.json",
+      "timezone": "America/Port_of_Spain",
+      "station": 0
+    }
+  },
+  "oceania": {
+    "australia": {
+      "name": "world.oceania.australia",
+      "flag": "/img/oceania/flags/australia.png",
+      "data": "/assets/radio/oceania/australia.json",
+      "timezone": "Australia/Sydney",
+      "station": 0
+    },
+    "new-zealand": {
+      "name": "world.oceania.new_zealand",
+      "flag": "/img/oceania/flags/new-zealand.png",
+      "data": "/assets/radio/oceania/new-zealand.json",
+      "timezone": "Pacific/Auckland",
+      "station": 0
+    }
+  }
+}
