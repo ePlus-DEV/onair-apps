@@ -1,0 +1,7 @@
+{
+  "appId": "dev.eplus.onair",
+  "appName": "ePlus OnAir",
+  "webDir": "dist/web",
+  "ios": { "contentInset": "automatic" },
+  "android": { "allowMixedContent": false }
+}

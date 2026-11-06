@@ -13,9 +13,9 @@
 ## Local development
 
 1. Clone `radio.eplus.dev` and `onair-apps` as sibling folders.
-2. In the web checkout run `npm ci`. In this checkout run `npm install`.
+2. In the web checkout run `npm ci`. In this checkout run `npm ci`.
 3. Run `npm run sync:web` to generate the static frontend bundle.
-4. Mobile: `npx cap add android --config apps/mobile/capacitor.config.ts` or `npx cap add ios --config apps/mobile/capacitor.config.ts`; then `npx cap sync --config apps/mobile/capacitor.config.ts`. Native project generation and real-device verification are required.
+4. Mobile: native projects are tracked in `android/` and `ios/`. Run `npx cap sync` after generating the bundle, then open them with Android Studio or Xcode. Real-device verification is required. The generated launcher art is a placeholder, not final branding.
 5. Desktop: install Rust and Tauri platform prerequisites; run `npm run desktop`. Confirm generated bundle, deep links and audio before packaging.
 
 ## Acceptance criteria before production

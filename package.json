@@ -6,8 +6,8 @@
   "scripts": {
     "sync:web": "node scripts/sync-web.mjs",
     "check": "node --test tests/*.test.mjs",
-    "android": "capacitor run android --config apps/mobile/capacitor.config.ts",
-    "ios": "capacitor run ios --config apps/mobile/capacitor.config.ts",
+    "android": "capacitor run android",
+    "ios": "capacitor run ios",
     "desktop": "tauri dev --config apps/desktop/src-tauri/tauri.conf.json",
     "desktop:build": "tauri build --config apps/desktop/src-tauri/tauri.conf.json"
   },
