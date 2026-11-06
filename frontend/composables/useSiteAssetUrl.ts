@@ -1,7 +1,8 @@
-import { prefixPublicAsset } from '~/utils/public-site-path.mjs';
+import { resolveAppAsset } from '~/utils/public-site-path.mjs';
 
 export function useSiteAssetUrl() {
-  const baseURL = useRuntimeConfig().app.baseURL || '/';
+  const config = useRuntimeConfig();
+  const baseURL = config.app.baseURL || '/';
   return (path: string | null | undefined): string =>
-    prefixPublicAsset(path || '', baseURL);
+    resolveAppAsset(path || '', baseURL, config.public.nativeApp);
 }

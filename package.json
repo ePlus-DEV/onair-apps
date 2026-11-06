@@ -12,13 +12,17 @@
     "desktop:build": "tauri build --config apps/desktop/src-tauri/tauri.conf.json"
   },
   "devDependencies": {
+    "@capacitor/android": "^7.4.0",
     "@capacitor/cli": "^7.4.0",
     "@capacitor/core": "^7.4.0",
-    "@capacitor/android": "^7.4.0",
     "@capacitor/ios": "^7.4.0",
     "@tauri-apps/cli": "^2.9.0"
   },
   "engines": {
     "node": ">=24"
+  },
+  "dependencies": {
+    "@capacitor/app": "^7.1.2",
+    "@capacitor/browser": "^7.0.5"
   }
 }

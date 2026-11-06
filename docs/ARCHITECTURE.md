@@ -1,6 +1,7 @@
 # Architecture and release gates
 
 - The application frontend and its catalog are maintained in `frontend/` in this repository.
+- Catalog data and the OnAir logo are bundled. Station and country artwork under `/img/` is fetched from the public OnAir host; artwork requires connectivity.
 - Mobile: Capacitor 7 shell. Desktop: Tauri 2 shell. Both consume `dist/web` generated from the canonical Nuxt app.
 - Current web app uses SSR/prerender and client-side HLS. `generate:site` is a **prototype export**, not a validated native application build. Deep-link routes, static asset paths and service availability must be verified.
 - Audio: HTML Audio + hls.js is **not** sufficient evidence of iOS/Android background playback. Native media-session/foreground-service adapters are required before store release. Never claim background playback is supported yet.
