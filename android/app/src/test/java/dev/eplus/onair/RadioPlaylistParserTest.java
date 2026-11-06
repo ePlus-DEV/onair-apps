@@ -22,4 +22,7 @@ public class RadioPlaylistParserTest {
     @Test public void preservesQueryParameters() throws Exception {
         assertEquals("https://stream.example/live?token=a=b", parse("#EXTM3U\nhttps://stream.example/live?token=a=b\n"));
     }
+    @Test public void limitsUntrustedPlaylistSize() throws Exception {
+        assertNull(parse("x".repeat(65536) + "\nhttps://stream.example/live\n"));
+    }
 }

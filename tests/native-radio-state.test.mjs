@@ -6,6 +6,8 @@ test('only events for the active source can affect the player', () => {
   assert.equal(nativeRadioAction({ id: '1', playing: true }, 2, false), 'ignore');
   assert.equal(nativeRadioAction({ id: '2', playing: true }, 2, true), 'ignore');
   assert.equal(nativeRadioAction({ id: '2', playing: true }, 2, false), 'playing');
+  assert.equal(nativeRadioAction({ id: '2|/asia/viet-nam/vov' , playing: true }, '2|/asia/viet-nam/vov', false), 'playing');
+  assert.equal(nativeRadioAction({ id: '2|/asia/viet-nam/vov' , playing: true }, '3|/asia/viet-nam/vov', false), 'ignore');
 });
 
 test('native buffering, audio-focus interruptions, failures and external pause are distinct', () => {

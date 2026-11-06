@@ -1495,7 +1495,9 @@ watch(
           if (state.id && state.id.slice(state.id.indexOf('|') + 1) === stationUrl) {
             nativeActiveId = state.id;
             activeResolvedSrc = sourceList.value[activeSourceIndex.value]?.src || '';
-            if (state.playWhenReady) {
+            // The saved station is initially restored without sources; wait
+            // for its catalog entry before marking native playback active.
+            if (state.playWhenReady && hasPlayableSource.value) {
               userPaused.value = false;
               if (state.playing) onMediaPlaying();
               else if (state.state === 2 && !state.suppression) onMediaWaiting();
@@ -1542,12 +1544,12 @@ onMounted(() => {
     nativeListenerReady = NativeRadio.addListener('state', (state: NativeRadioState) => {
       // A Play command from the Android notification or headset is also an
       // explicit user action. Ignore late playing events while pausing.
-      if (userPaused.value && state.id === nativeActiveId && state.playing && !nativePausePending) {
+      if (userPaused.value && state.id === nativeActiveId && state.playing && hasPlayableSource.value && !nativePausePending) {
         userPaused.value = false;
       }
       const action = nativeRadioAction(state, nativeActiveId, userPaused.value);
       if (action !== 'ignore' && props.stationUrl?.startsWith('/global-radio/apple-music/')
-        && state.title && state.artist && state.title !== props.streamName) {
+        && state.title && state.artist && state.title !== props.streamName && state.artist !== props.countryName) {
         playback.setHlsLiveTrack(props.stationUrl, { title: state.title, artist: state.artist });
       }
       if (action === 'error') {

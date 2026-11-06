@@ -57,3 +57,34 @@ jobs:
           path: onair-apps/android/app/build/outputs/apk/debug/app-debug.apk
           if-no-files-found: error
           retention-days: 7
+  emulator-smoke:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          name: onair-android-debug
+          path: apk
+      - name: Enable emulator acceleration
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+      - name: Launch Android application
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 35
+          arch: x86_64
+          target: google_apis
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
+          script: |
+            adb install -r apk/app-debug.apk
+            adb shell am start -W -n dev.eplus.onair/.MainActivity
+            sleep 20
+            adb shell pidof dev.eplus.onair
+            adb shell uiautomator dump /sdcard/onair-window.xml
+            adb shell cat /sdcard/onair-window.xml > /tmp/onair-window.xml
+            grep -q 'android.webkit.WebView' /tmp/onair-window.xml
+            grep -Eq 'Discover|Khám phá' /tmp/onair-window.xml
