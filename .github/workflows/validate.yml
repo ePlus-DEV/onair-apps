@@ -1,0 +1,15 @@
+name: Validate application scaffold
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm install --package-lock-only --ignore-scripts
+      - run: npm run check
+      - run: node -e "const fs=require('fs'); for(const p of ['apps/mobile/capacitor.config.ts','apps/desktop/src-tauri/tauri.conf.json','docs/ARCHITECTURE.md']) if(!fs.existsSync(p)) process.exit(1)"
