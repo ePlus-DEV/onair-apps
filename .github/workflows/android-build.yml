@@ -103,8 +103,15 @@ jobs:
             adb exec-out screencap -p > "$GITHUB_WORKSPACE/onair-emulator.png"
             adb logcat -d -t 4000 | grep -E 'chromium|Capacitor|dev.eplus.onair|AndroidRuntime' > "$GITHUB_WORKSPACE/onair-logcat.txt" || true
             adb install -r apk/app-debug-androidTest.apk
-            adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-instrumentation.txt
-            grep -Eq 'OK \([0-9]+ test' /tmp/onair-instrumentation.txt
+            adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#mediaSessionPlaysAndPauses dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-audio.txt
+            adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#playsHlsFromHttpStream dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-hls.txt
+            adb shell input keyevent 224
+            adb shell input keyevent 82
+            adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest#webViewRendersHome dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-home.txt
+            adb logcat -d -t 12000 > "$GITHUB_WORKSPACE/onair-test-logcat.txt"
+            grep -Eq 'OK \([0-9]+ test' /tmp/onair-audio.txt
+            grep -Eq 'OK \([0-9]+ test' /tmp/onair-hls.txt
+            grep -Eq 'OK \([0-9]+ test' /tmp/onair-home.txt
       - name: Save emulator screenshot
         if: always()
         uses: actions/upload-artifact@v4
@@ -114,5 +121,6 @@ jobs:
             onair-emulator.png
             onair-window.xml
             onair-logcat.txt
+            onair-test-logcat.txt
           if-no-files-found: ignore
           retention-days: 7
