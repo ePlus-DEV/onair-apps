@@ -1,0 +1,20 @@
+name: Validate application scaffold
+on:
+  push:
+  pull_request:
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - run: npm ci
+      - run: npm run check
+      # Verify Capacitor discovers both native projects and copies a local bundle.
+      # This smoke test does not build an APK or validate the real web UI.
+      - run: mkdir -p dist/web && printf '<!doctype html><title>Smoke test</title>' > dist/web/index.html
+      - run: npx cap sync android
+      - run: npx cap copy ios
+      - run: node -e "const fs=require('fs'); for(const p of ['capacitor.config.json','apps/desktop/src-tauri/tauri.conf.json','docs/ARCHITECTURE.md']) if(!fs.existsSync(p)) process.exit(1)"

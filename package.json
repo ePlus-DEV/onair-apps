@@ -1,0 +1,24 @@
+{
+  "name": "onair-apps",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "sync:web": "node scripts/sync-web.mjs",
+    "check": "node --test tests/*.test.mjs",
+    "android": "capacitor run android",
+    "ios": "capacitor run ios",
+    "desktop": "tauri dev --config apps/desktop/src-tauri/tauri.conf.json",
+    "desktop:build": "tauri build --config apps/desktop/src-tauri/tauri.conf.json"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.0",
+    "@capacitor/core": "^7.4.0",
+    "@capacitor/android": "^7.4.0",
+    "@capacitor/ios": "^7.4.0",
+    "@tauri-apps/cli": "^2.9.0"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}
