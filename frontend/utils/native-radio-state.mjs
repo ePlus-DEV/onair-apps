@@ -1,6 +1,6 @@
 // Media3 playback states: idle=1, buffering=2, ready=3, ended=4.
-export function nativeRadioAction(event, sourceVersion, userPaused) {
-  if (!event?.id || event.id !== String(sourceVersion) || userPaused) return 'ignore';
+export function nativeRadioAction(event, activeId, userPaused) {
+  if (!event?.id || event.id !== String(activeId) || userPaused) return 'ignore';
   if (event.error) return 'error';
   if (event.playing) return 'playing';
   if (event.suppression) return 'suppressed';

@@ -10,6 +10,7 @@
 - Do not alter web SEO, GA4, canonical tags, station URLs or production deployment in this repository.
 - App-specific persistence must not imply cross-device sync. Offline UI does not mean offline live radio.
 - Some catalog stations provide only HTTP streams; Android allows cleartext traffic so those stations can be attempted. Their traffic is not encrypted.
+- Optional public CORS, provider resolver and Zing endpoint settings can be supplied as `NUXT_PUBLIC_*` environment variables when generating the app; the Android workflow reads matching repository variables. Empty settings leave dependent provider metadata or playback unavailable. Never put private credentials in these public values.
 - Do not release unsigned/unverified installers or commit certificates, provisioning profiles or API keys.
 
 ## Local development

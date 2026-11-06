@@ -52,7 +52,7 @@ public final class RadioAudioPlugin extends Plugin {
         }, ContextCompat.getMainExecutor(getContext()));
     }
 
-    private void emitState(Player player, String error) {
+    private JSObject buildState(Player player, String error) {
         MediaItem item = player.getCurrentMediaItem();
         JSObject result = new JSObject();
         result.put("id", item == null ? "" : item.mediaId);
@@ -64,7 +64,16 @@ public final class RadioAudioPlugin extends Plugin {
         if (metadata.title != null) result.put("title", metadata.title.toString());
         if (metadata.artist != null) result.put("artist", metadata.artist.toString());
         if (error != null) result.put("error", error);
-        notifyListeners("state", result);
+        return result;
+    }
+
+    private void emitState(Player player, String error) { notifyListeners("state", buildState(player, error)); }
+
+    @PluginMethod public void getState(PluginCall call) {
+        controllerFuture.addListener(() -> {
+            try { call.resolve(buildState(controllerFuture.get(), null)); }
+            catch (Exception error) { call.reject("Native radio playback is unavailable", error); }
+        }, ContextCompat.getMainExecutor(getContext()));
     }
 
     @PluginMethod public void playSource(PluginCall call) {
@@ -77,12 +86,15 @@ public final class RadioAudioPlugin extends Plugin {
         String title = call.getString("title", "ePlus OnAir");
         String artist = call.getString("artist", "");
         String artwork = call.getString("artwork", "");
+        boolean isHls = call.getBoolean("isHls", false);
         withController(call, player -> {
             MediaMetadata.Builder metadataBuilder = new MediaMetadata.Builder().setTitle(title).setArtist(artist);
             Uri imageUri = Uri.parse(artwork);
             if ("https".equals(imageUri.getScheme())) metadataBuilder.setArtworkUri(imageUri);
             MediaMetadata metadata = metadataBuilder.build();
-            player.setMediaItem(new MediaItem.Builder().setMediaId(id).setUri(uri).setMediaMetadata(metadata).build());
+            MediaItem.Builder item = new MediaItem.Builder().setMediaId(id).setUri(uri).setMediaMetadata(metadata);
+            if (isHls) item.setMimeType("application/x-mpegURL");
+            player.setMediaItem(item.build());
             player.prepare();
             player.play();
         });

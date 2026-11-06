@@ -34,8 +34,16 @@ jobs:
       - name: Install app dependencies
         working-directory: onair-apps
         run: npm ci
+      - name: Test radio app features
+        working-directory: onair-apps/frontend
+        run: npm run test:app
       - name: Build and copy web bundle
         working-directory: onair-apps
+        env:
+          NUXT_PUBLIC_CORS_SERVER_1: ${{ vars.NUXT_PUBLIC_CORS_SERVER_1 }}
+          NUXT_PUBLIC_GLOBAL_RADIO_RESOLVER_URL: ${{ vars.NUXT_PUBLIC_GLOBAL_RADIO_RESOLVER_URL }}
+          NUXT_PUBLIC_API_ZING_LIVE_STREAM_PROGRAM_DETAIL: ${{ vars.NUXT_PUBLIC_API_ZING_LIVE_STREAM_PROGRAM_DETAIL }}
+          NUXT_PUBLIC_API_ZING_GET_LYRIC: ${{ vars.NUXT_PUBLIC_API_ZING_GET_LYRIC }}
         run: npm run sync:web
       - name: Sync Android project
         working-directory: onair-apps

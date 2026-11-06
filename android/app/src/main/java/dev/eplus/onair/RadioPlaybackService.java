@@ -2,6 +2,8 @@ package dev.eplus.onair;
 
 import android.os.Handler;
 import android.os.Looper;
+import android.app.PendingIntent;
+import android.content.Intent;
 import androidx.media3.common.AudioAttributes;
 import androidx.media3.common.C;
 import androidx.media3.exoplayer.ExoPlayer;
@@ -23,7 +25,13 @@ public final class RadioPlaybackService extends MediaSessionService {
         player.setAudioAttributes(new AudioAttributes.Builder()
             .setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MUSIC).build(), true);
         player.setHandleAudioBecomingNoisy(true);
-        session = new MediaSession.Builder(this, player).build();
+        Intent intent = getPackageManager().getLaunchIntentForPackage(getPackageName());
+        MediaSession.Builder builder = new MediaSession.Builder(this, player);
+        if (intent != null) {
+            PendingIntent pending = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
+            builder.setSessionActivity(pending);
+        }
+        session = builder.build();
     }
 
     @Override public MediaSession onGetSession(MediaSession.ControllerInfo info) { return session; }

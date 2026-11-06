@@ -18,7 +18,8 @@
     "test": "node --test tests/*.test.mjs",
     "test:ui": "playwright test",
     "generate:site": "node scripts/generate-site.mjs",
-    "generate:images": "node scripts/generate-station-og-images.mjs --images-only"
+    "generate:images": "node scripts/generate-station-og-images.mjs --images-only",
+    "test:app": "node scripts/test-app.mjs"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^7.3.1",

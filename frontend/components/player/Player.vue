@@ -322,6 +322,8 @@ const nativePlayback = import.meta.client && isAndroidApp();
 let nativeListener: PluginListenerHandle | undefined;
 let nativeListenerReady: Promise<void> = Promise.resolve();
 let nativeQueue: Promise<void> = Promise.resolve();
+let nativePausePending = false;
+let nativeActiveId = '';
 const runNative = (action: () => Promise<void>): Promise<void> => {
   const result = nativeQueue.then(() => nativeListenerReady).then(action);
   nativeQueue = result.catch(() => {});
@@ -936,7 +938,7 @@ const stopPlaybackFailure = (): void => {
   destroyHls();
 
   const media = mediaElement.value;
-  if (nativePlayback) void runNative(() => NativeRadio.stop());
+  if (nativePlayback) void runNative(() => NativeRadio.stop()).catch(() => {});
   else media?.pause();
 
   waiting.value = false;
@@ -1002,7 +1004,8 @@ const applySource = async (
       if (autoplay && !userPaused.value) {
         await runNative(async () => {
           if (version !== sourceVersion || userPaused.value) return;
-          await NativeRadio.playSource({ id: String(version), url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value) });
+          nativeActiveId = `${version}|${props.stationUrl || ''}`;
+          await NativeRadio.playSource({ id: nativeActiveId, url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value), isHls: isHlsSource(source) && !isTextPlaylist(rawSource.src) });
           await NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume });
         });
       }
@@ -1130,8 +1133,9 @@ const onPause = (): void => {
   clearStablePlaybackTimer();
 
   if (nativePlayback) {
-    void runNative(() => NativeRadio.pause());
-    void runNative(() => NativeRadio.setSleep({ minutes: 0 }));
+    nativePausePending = true;
+    void runNative(() => NativeRadio.pause()).catch(() => {}).finally(() => { nativePausePending = false; });
+    void runNative(() => NativeRadio.setSleep({ minutes: 0 })).catch(() => {});
   } else media?.pause();
   liveResumePending = Boolean(activeResolvedSrc);
   pausedAtMs = Date.now();
@@ -1148,9 +1152,9 @@ const sleepMenuItems = computed(() => [
   ...[15, 30, 60, 120].map(minutes => ({
     label: t('player.sleep_minutes', { minutes }),
     icon: 'i-lucide-timer',
-    onSelect: () => { sleepTimer.start(minutes); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes })); },
+    onSelect: () => { sleepTimer.start(minutes); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes })).catch(() => {}); },
   })),
-  { label: t('player.sleep_cancel'), icon: 'i-lucide-x', disabled: !sleepRemaining.value, onSelect: () => { sleepTimer.cancel(); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes: 0 })); } },
+  { label: t('player.sleep_cancel'), icon: 'i-lucide-x', disabled: !sleepRemaining.value, onSelect: () => { sleepTimer.cancel(); if (nativePlayback) void runNative(() => NativeRadio.setSleep({ minutes: 0 })).catch(() => {}); } },
 ]);
 const checkSleepDeadline = () => { if (!document.hidden) sleepTimer.check(); };
 
@@ -1382,7 +1386,7 @@ const onVolumeChange = (): void => {
   if (!media) return;
   volume.value = media.volume;
   muted.value = media.muted;
-  if (nativePlayback) void runNative(() => NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume }));
+  if (nativePlayback) void runNative(() => NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume })).catch(() => {});
   if (preferences.rememberVolume) {
     try {
       localStorage.setItem(AUDIO_PREFERENCES_KEY, JSON.stringify({ volume: media.volume, muted: media.muted }));
@@ -1479,7 +1483,30 @@ watch(
     clearFallbackProbeTimer();
     clearStablePlaybackTimer();
     destroyHls();
-    if (nativePlayback) void runNative(() => NativeRadio.stop());
+    if (nativePlayback) {
+      nativeActiveId = '';
+      const version = sourceVersion;
+      const stationUrl = props.stationUrl;
+      void runNative(async () => {
+        if (version !== sourceVersion) return;
+        if (!autoplay && stationUrl) {
+          const state = await NativeRadio.getState();
+          if (version !== sourceVersion) return;
+          if (state.id && state.id.slice(state.id.indexOf('|') + 1) === stationUrl) {
+            nativeActiveId = state.id;
+            activeResolvedSrc = sourceList.value[activeSourceIndex.value]?.src || '';
+            if (state.playWhenReady) {
+              userPaused.value = false;
+              if (state.playing) onMediaPlaying();
+              else if (state.state === 2 && !state.suppression) onMediaWaiting();
+            }
+            return;
+          }
+        }
+        nativeActiveId = '';
+        await NativeRadio.stop();
+      }).catch(() => {});
+    }
     const media = mediaElement.value;
     if (media) {
       media.pause();
@@ -1513,7 +1540,12 @@ watch(() => listeningDuration.enabled, resetListeningTracking, { flush: 'sync' }
 onMounted(() => {
   if (nativePlayback) {
     nativeListenerReady = NativeRadio.addListener('state', (state: NativeRadioState) => {
-      const action = nativeRadioAction(state, sourceVersion, userPaused.value);
+      // A Play command from the Android notification or headset is also an
+      // explicit user action. Ignore late playing events while pausing.
+      if (userPaused.value && state.id === nativeActiveId && state.playing && !nativePausePending) {
+        userPaused.value = false;
+      }
+      const action = nativeRadioAction(state, nativeActiveId, userPaused.value);
       if (action !== 'ignore' && props.stationUrl?.startsWith('/global-radio/apple-music/')
         && state.title && state.artist && state.title !== props.streamName) {
         playback.setHlsLiveTrack(props.stationUrl, { title: state.title, artist: state.artist });
