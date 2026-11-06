@@ -1,0 +1,17 @@
+import { spawnSync } from 'node:child_process';
+import { cpSync, existsSync, mkdirSync, rmSync, readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
+const root = resolve(import.meta.dirname, '..');
+const source = resolve(root, process.env.ONAIR_WEB_SOURCE || '../radio.eplus.dev');
+const output = resolve(source, '.output/public');
+const dest = resolve(root, 'dist/web');
+if (!existsSync(resolve(source, 'package.json'))) throw new Error('Missing local radio.eplus.dev checkout: set ONAIR_WEB_SOURCE');
+const pkg = JSON.parse(readFileSync(resolve(source, 'package.json'), 'utf8'));
+if (pkg.name !== 'eplus-onair') throw new Error('Source is not ePlus OnAir');
+const run = spawnSync('npm', ['run', 'generate:site'], { cwd: source, stdio: 'inherit', shell: process.platform === 'win32', env: { ...process.env, NUXT_APP_BASE_URL: '/', NUXT_PUBLIC_SITE_URL: 'https://radio.eplus.dev', NUXT_PUBLIC_NO_INDEX: 'true' } });
+if (run.status !== 0) process.exit(run.status || 1);
+if (!existsSync(resolve(output, 'index.html'))) throw new Error('Nuxt build did not generate index.html');
+rmSync(dest, { recursive: true, force: true });
+mkdirSync(dest, { recursive: true });
+cpSync(output, dest, { recursive: true });
+console.log('Copied app assets to dist/web. Validate deep links and runtime behavior before release.');
