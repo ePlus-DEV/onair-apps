@@ -6,6 +6,7 @@ import android.content.ComponentName;
 import android.content.Context;
 import android.app.Instrumentation;
 import android.content.Intent;
+import android.os.ParcelFileDescriptor;
 import android.net.Uri;
 import android.util.Base64;
 import android.webkit.WebView;
@@ -61,6 +62,21 @@ public class RadioPlaybackServiceTest {
                             assertTrue("Content overlaps the navigation bar", root.getPaddingBottom() >= bars.bottom);
                         }
                     });
+                    CountDownLatch clicked = new CountDownLatch(1);
+                    scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                        "document.querySelector('.radio-mobile-navigation button').click()", value -> clicked.countDown()));
+                    assertTrue("Search button did not respond", clicked.await(5, TimeUnit.SECONDS));
+                    boolean found = false;
+                    for (int searchAttempt = 0; searchAttempt < 20; searchAttempt++) {
+                        CountDownLatch searched = new CountDownLatch(1);
+                        scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                            "(() => { const d = document.querySelector('[role=dialog] input[type=search]'); if (!d) return false; if (d.value !== 'VOV') { d.focus(); Object.getOwnPropertyDescriptor(HTMLInputElement.prototype,'value').set.call(d,'VOV'); d.dispatchEvent(new Event('input',{bubbles:true})); } return Array.from(document.querySelectorAll('[role=dialog] a')).some(a => a.textContent.includes('VOV')); })()",
+                            value -> { result.set(value); searched.countDown(); }));
+                        assertTrue("Search JavaScript did not respond", searched.await(5, TimeUnit.SECONDS));
+                        if ("true".equals(result.get())) { found = true; break; }
+                        Thread.sleep(1000);
+                    }
+                    assertTrue("Local search did not return VOV stations", found);
                     return;
                 }
                 Thread.sleep(1000);
@@ -131,7 +147,8 @@ public class RadioPlaybackServiceTest {
             segment = bytes.toByteArray();
         }
         byte[] manifest = ("#EXTM3U\n#EXT-X-VERSION:3\n#EXT-X-TARGETDURATION:3\n#EXT-X-MEDIA-SEQUENCE:0\n"
-            + "#EXTINF:3.0,\ntest-radio.ts\n#EXTINF:3.0,\ntest-radio.ts\n#EXT-X-ENDLIST\n").getBytes(StandardCharsets.UTF_8);
+            + "#EXTINF:3.0,\ntest-radio.ts\n#EXTINF:3.0,\ntest-radio.ts\n#EXTINF:3.0,\ntest-radio.ts\n"
+            + "#EXTINF:3.0,\ntest-radio.ts\n#EXT-X-ENDLIST\n").getBytes(StandardCharsets.UTF_8);
         ServerSocket server = new ServerSocket(0);
         Thread http = new Thread(() -> {
             while (!server.isClosed()) {
@@ -154,8 +171,7 @@ public class RadioPlaybackServiceTest {
         http.start();
         AtomicReference<ListenableFuture<MediaController>> future = new AtomicReference<>();
         Instrumentation instrument = InstrumentationRegistry.getInstrumentation();
-        context.startActivity(new Intent(context, MainActivity.class).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
-        instrument.waitForIdleSync();
+        ActivityScenario<MainActivity> scenario = ActivityScenario.launch(MainActivity.class);
         instrument.runOnMainSync(() -> future.set(new MediaController.Builder(context,
             new SessionToken(context, new ComponentName(context, RadioPlaybackService.class))).buildAsync()));
         MediaController controller = future.get().get(30, TimeUnit.SECONDS);
@@ -165,15 +181,36 @@ public class RadioPlaybackServiceTest {
         };
         try {
             String url = "http://127.0.0.1:" + server.getLocalPort() + "/radio.m3u8";
-            instrument.runOnMainSync(() -> {
-                controller.addListener(listener);
-                controller.setMediaItem(MediaItem.fromUri(url));
-                controller.prepare();
-                controller.play();
-            });
+            instrument.runOnMainSync(() -> controller.addListener(listener));
+            boolean bridgeReady = false;
+            for (int i = 0; i < 20; i++) {
+                CountDownLatch checked = new CountDownLatch(1);
+                AtomicReference<String> available = new AtomicReference<>("false");
+                scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                    "Boolean(window.Capacitor && window.Capacitor.Plugins && window.Capacitor.Plugins.RadioAudio)",
+                    value -> { available.set(value); checked.countDown(); }));
+                assertTrue("WebView JavaScript did not respond", checked.await(5, TimeUnit.SECONDS));
+                if ("true".equals(available.get())) { bridgeReady = true; break; }
+                Thread.sleep(1000);
+            }
+            assertTrue("Android audio bridge was not registered", bridgeReady);
+            CountDownLatch invoked = new CountDownLatch(1);
+            scenario.onActivity(activity -> activity.getBridge().getWebView().evaluateJavascript(
+                "window.Capacitor.Plugins.RadioAudio.playSource({id:'test',url:'" + url
+                    + "',title:'Test radio',artist:'Test',artwork:'',isHls:true}).catch(e=>console.error(e))",
+                value -> invoked.countDown()));
+            assertTrue("Android audio bridge did not respond", invoked.await(5, TimeUnit.SECONDS));
             assertTrue("HLS did not start", playing.await(30, TimeUnit.SECONDS));
+            try (ParcelFileDescriptor ignored = instrument.getUiAutomation().executeShellCommand("input keyevent 223")) { /* Screen off. */ }
+            Thread.sleep(2000);
+            AtomicReference<Boolean> stillPlaying = new AtomicReference<>(false);
+            instrument.runOnMainSync(() -> stillPlaying.set(controller.isPlaying()));
+            assertTrue("Playback stopped when the screen turned off", stillPlaying.get());
         } finally {
+            try (ParcelFileDescriptor ignored = instrument.getUiAutomation().executeShellCommand("input keyevent 224")) { /* Wake. */ }
+            try (ParcelFileDescriptor ignored = instrument.getUiAutomation().executeShellCommand("input keyevent 82")) { /* Unlock emulator. */ }
             instrument.runOnMainSync(() -> { controller.removeListener(listener); controller.stop(); MediaController.releaseFuture(future.get()); });
+            scenario.close();
             server.close();
             http.join(5000);
         }

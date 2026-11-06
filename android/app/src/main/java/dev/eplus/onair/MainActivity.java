@@ -11,6 +11,7 @@ public class MainActivity extends BridgeActivity {
     @Override public void onCreate(Bundle savedInstanceState) {
         registerPlugin(RadioAudioPlugin.class);
         super.onCreate(savedInstanceState);
+        if (getBridge() == null || getBridge().getWebView() == null || !(getBridge().getWebView().getParent() instanceof View)) return;
         View root = (View) getBridge().getWebView().getParent();
         ViewCompat.setOnApplyWindowInsetsListener(root, (view, insets) -> {
             int system = WindowInsetsCompat.Type.systemBars() | WindowInsetsCompat.Type.displayCutout();

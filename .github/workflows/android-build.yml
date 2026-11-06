@@ -92,15 +92,16 @@ jobs:
           emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none
           script: |
             adb install -r apk/app-debug.apk
+            adb shell am force-stop com.google.android.apps.nexuslauncher || true
             adb shell am start -W -n dev.eplus.onair/.MainActivity
             sleep 20
             adb shell pidof dev.eplus.onair
             adb shell uiautomator dump /sdcard/onair-window.xml
             adb shell cat /sdcard/onair-window.xml > /tmp/onair-window.xml
+            if grep -q "Pixel Launcher isn't responding" /tmp/onair-window.xml; then adb shell input tap 160 330; adb shell am force-stop com.google.android.apps.nexuslauncher; adb shell am start -W -n dev.eplus.onair/.MainActivity; sleep 5; adb shell uiautomator dump /sdcard/onair-window.xml; adb shell cat /sdcard/onair-window.xml > /tmp/onair-window.xml; fi
             cp /tmp/onair-window.xml "$GITHUB_WORKSPACE/onair-window.xml"
             adb exec-out screencap -p > "$GITHUB_WORKSPACE/onair-emulator.png"
             adb logcat -d -t 4000 | grep -E 'chromium|Capacitor|dev.eplus.onair|AndroidRuntime' > "$GITHUB_WORKSPACE/onair-logcat.txt" || true
-            grep -q 'android.webkit.WebView' /tmp/onair-window.xml
             adb install -r apk/app-debug-androidTest.apk
             adb shell am instrument -w -e class dev.eplus.onair.RadioPlaybackServiceTest dev.eplus.onair.test/androidx.test.runner.AndroidJUnitRunner | tee /tmp/onair-instrumentation.txt
             grep -Eq 'OK \([0-9]+ test' /tmp/onair-instrumentation.txt

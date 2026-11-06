@@ -324,6 +324,7 @@ let nativeListenerReady: Promise<void> = Promise.resolve();
 let nativeQueue: Promise<void> = Promise.resolve();
 let nativePausePending = false;
 let nativeActiveId = '';
+let nativePlayObserved = false;
 const runNative = (action: () => Promise<void>): Promise<void> => {
   const result = nativeQueue.then(() => nativeListenerReady).then(action);
   nativeQueue = result.catch(() => {});
@@ -1005,6 +1006,7 @@ const applySource = async (
         await runNative(async () => {
           if (version !== sourceVersion || userPaused.value) return;
           nativeActiveId = `${version}|${props.stationUrl || ''}`;
+          nativePlayObserved = false;
           await NativeRadio.playSource({ id: nativeActiveId, url: source.src, title: props.streamName, artist: props.countryName || '', artwork: siteAssetUrl(nowPlayingArtwork.value), isHls: isHlsSource(source) && (!isTextPlaylist(rawSource.src) || source.type === 'application/vnd.apple.mpegurl') });
           await NativeRadio.setVolume({ volume: media.muted ? 0 : media.volume });
         });
@@ -1494,6 +1496,7 @@ watch(
           if (version !== sourceVersion) return;
           if (nativeStationMatches(state, stationUrl)) {
             nativeActiveId = state.id;
+            nativePlayObserved = Boolean(state.playWhenReady || state.playing);
             activeResolvedSrc = sourceList.value[activeSourceIndex.value]?.src || '';
             // A restored paused live stream may have an expired buffer. A
             // later Play action must reconnect if the listener chose live resume.
@@ -1546,12 +1549,13 @@ watch(() => listeningDuration.enabled, resetListeningTracking, { flush: 'sync' }
 onMounted(() => {
   if (nativePlayback) {
     nativeListenerReady = NativeRadio.addListener('state', (state: NativeRadioState) => {
+      if (state.id === nativeActiveId && (state.playWhenReady || state.playing)) nativePlayObserved = true;
       // A Play command from the Android notification or headset is also an
       // explicit user action. Ignore late playing events while pausing.
       if (userPaused.value && state.id === nativeActiveId && state.playing && hasPlayableSource.value && !nativePausePending) {
         userPaused.value = false;
       }
-      const action = nativeRadioAction(state, nativeActiveId, userPaused.value);
+      const action = nativeRadioAction(state, nativeActiveId, userPaused.value, nativePlayObserved);
       if (action !== 'ignore' && props.stationUrl?.startsWith('/global-radio/apple-music/')
         && state.title && state.artist && state.title !== props.streamName && state.artist !== props.countryName) {
         playback.setHlsLiveTrack(props.stationUrl, { title: state.title, artist: state.artist });

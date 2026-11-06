@@ -26,7 +26,15 @@ public final class RadioPlaybackService extends MediaSessionService {
             .setUsage(C.USAGE_MEDIA).setContentType(C.AUDIO_CONTENT_TYPE_MUSIC).build(), true);
         player.setHandleAudioBecomingNoisy(true);
         Intent intent = getPackageManager().getLaunchIntentForPackage(getPackageName());
-        MediaSession.Builder builder = new MediaSession.Builder(this, player);
+        MediaSession.Builder builder = new MediaSession.Builder(this, player)
+            .setCallback(new MediaSession.Callback() {
+                @Override public MediaSession.ConnectionResult onConnect(MediaSession session, MediaSession.ControllerInfo controller) {
+                    if (controller.isTrusted() || getPackageName().equals(controller.getPackageName())) {
+                        return MediaSession.Callback.super.onConnect(session, controller);
+                    }
+                    return MediaSession.ConnectionResult.reject();
+                }
+            });
         if (intent != null) {
             PendingIntent pending = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_IMMUTABLE);
             builder.setSessionActivity(pending);
