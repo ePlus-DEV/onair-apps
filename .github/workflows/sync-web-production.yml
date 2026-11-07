@@ -1,7 +1,7 @@
 name: Sync web production to app
 on:
-  schedule:
-    - cron: '17 * * * *'
+  repository_dispatch:
+    types: [web-main-updated]
   workflow_dispatch:
 permissions:
   contents: write
