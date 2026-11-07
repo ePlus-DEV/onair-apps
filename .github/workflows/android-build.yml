@@ -1,6 +1,5 @@
 name: Android debug build
 on:
-  pull_request:
   workflow_dispatch:
     inputs:
       publish_apk:
@@ -22,7 +21,7 @@ jobs:
           path: onair-apps
       - uses: actions/setup-node@v4
         with:
-          node-version: '24.15.0'
+          node-version: '26.13.0'
           cache: npm
           cache-dependency-path: |
             onair-apps/package-lock.json

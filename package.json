@@ -19,7 +19,7 @@
     "@tauri-apps/cli": "^2.9.0"
   },
   "engines": {
-    "node": ">=24"
+    "node": ">=26"
   },
   "dependencies": {
     "@capacitor/app": "^7.1.2",
