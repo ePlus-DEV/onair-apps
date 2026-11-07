@@ -11,7 +11,7 @@ test('dock metadata does not generate blank desktop rows when artist or station 
   assert.doesNotMatch(player, /&nbsp;|radio-player-meta-placeholder/);
   assert.match(player, /v-if="nowPlayingArtist"/);
   assert.match(player, /v-if="stationUrl"/);
-  assert.match(player, /sm:hidden/);
+  assert.match(player, /xl:hidden/);
   assert.match(player, /radio-player-controls[^\"]*items-center justify-center/);
 });
 
