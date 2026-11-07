@@ -35,6 +35,12 @@ Run `npm run check` at the root and `npm test` in `frontend/` for app-focused ch
 
 The catalog is bundled; station artwork uses the public OnAir host. Optional public CORS, Zing, and authorized-provider endpoints can be supplied through the `NUXT_PUBLIC_*` build environment variables described in [the architecture notes](docs/ARCHITECTURE.md).
 
+## iOS development
+
+On macOS with Xcode, CocoaPods and Node 24.15.0, install dependencies in the repository root and `frontend/`, then run `npm run sync:web` and `npx cap sync ios`. Open `ios/App/App.xcworkspace` in Xcode and build the App scheme for an iPhone simulator.
+
+The iOS workflow builds a simulator `.app` and launches it in an iPhone simulator. Its artifact is a ZIP for the simulator and cannot be installed on an iPhone. Device installation requires Apple signing, a suitable provisioning profile and an appropriately signed build. iOS background playback and physical-device behavior remain unverified.
+
 ### Download a debug APK
 
 To publish a debug APK, open **Actions → Android debug build → Run workflow**, select the `main` branch, enable **Publish the tested debug APK as a GitHub prerelease**, and run it. Once the build and emulator checks pass, download `onair-debug.apk` directly from the new prerelease on the repository's Releases page. Each run creates a separate prerelease; this APK is signed with the Android debug key and is for testing only. GitHub Actions artifacts remain available as ZIP downloads for seven days.
