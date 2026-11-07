@@ -3,7 +3,7 @@
 - The application frontend and its catalog are maintained in `frontend/` in this repository.
 - Catalog data and the OnAir logo are bundled. Station and country artwork under `/img/` is fetched from the public OnAir host; artwork requires connectivity.
 - Mobile: Capacitor 7 shell. Desktop: Tauri 2 shell. Both consume `dist/web` generated from the canonical Nuxt app.
-- Current web app uses SSR/prerender and client-side HLS. `generate:site` is a **prototype export**, not a validated native application build. Deep-link routes, static asset paths and service availability must be verified.
+- The native build sets `ONAIR_NATIVE_APP=true` to generate a client-rendered frontend; `npm run sync:web` copies it to `dist/web`. Android CI builds and tests this bundle, but deep links, static asset paths and provider availability still need device validation. The standalone web profile uses SSR/prerender and client-side HLS.
 - Android uses a Media3 playback service, HLS decoder and media session, with the UI tracking playback state through a Capacitor bridge. Its background playback and interruptions still require device verification. iOS continues to use HTML Audio and has no verified native background playback.
 - Never start audio on initial load. Only explicit listener intent can initiate playback.
 - Preserve source fallback ordering, bounded retries, signed URL expiry and the existing Apple/TuneIn restrictions.
@@ -11,7 +11,7 @@
 - App-specific persistence must not imply cross-device sync. Offline UI does not mean offline live radio.
 - Some catalog stations provide only HTTP streams; Android allows cleartext traffic so those stations can be attempted. Their traffic is not encrypted.
 - Optional public CORS, provider resolver and Zing endpoint settings can be supplied as `NUXT_PUBLIC_*` environment variables when generating the app; the Android workflow reads matching repository variables. Empty settings leave dependent provider metadata or playback unavailable. Never put private credentials in these public values.
-- Do not release unsigned/unverified installers or commit certificates, provisioning profiles or API keys.
+- Do not publish unverified or unsigned production installers, or commit certificates, provisioning profiles or API keys. Debug-signed prereleases are for testing only.
 
 ## Local development
 

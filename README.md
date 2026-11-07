@@ -4,6 +4,27 @@ Cross-platform application for [ePlus OnAir](https://radio.eplus.dev/). The app 
 
 Android is under development. The debug build and emulator checks are for testing; a signed production release and physical-device validation are still required.
 
+## Technology stack
+
+| Area | Current implementation |
+| --- | --- |
+| App UI | Nuxt 4, Vue 3, TypeScript, Nuxt UI 4, Tailwind CSS 4 and Pinia; source in `frontend/` |
+| Mobile shell | Capacitor 7; Android project in `android/` and iOS project in `ios/` |
+| Android playback | Java, AndroidX Media3 ExoPlayer and MediaSession, connected to the UI via a Capacitor plugin |
+| Desktop shell | Tauri 2; scaffold in `apps/desktop/` |
+| Tooling | Node.js 24.15.0, npm, JDK 21, Android SDK / Gradle; see lockfiles for exact installed versions |
+| Testing and CI | Node test runner, Android unit and instrumentation tests, and GitHub Actions emulator checks; Playwright is available for UI tests |
+
+Android debug builds are tested in CI. iOS and desktop are scaffolds with additional implementation and device testing required; they are not production-ready releases. The frontend is maintained in this repository and its native build is generated into `dist/web` before Capacitor sync. See [architecture and release gates](docs/ARCHITECTURE.md) [development notes](docs/DEVELOPMENT.md), and [contributor rules](AGENTS.md).
+
+## Repository layout
+
+- `frontend/`: app UI, translations, radio catalog and frontend tests.
+- `android/`, `ios/`: platform projects and Android native playback.
+- `apps/desktop/`: desktop shell.
+- `scripts/`, `tests/`: app build tooling and root checks.
+- `docs/`: architecture, configuration and production acceptance criteria.
+
 ## Android development
 
 1. Install Node 24 and JDK 21, then run `npm ci` at the repository root and in `frontend/`.
