@@ -29,6 +29,7 @@ These rules apply to the entire repository. Read the README and `docs/ARCHITECTU
 
 - Use Node.js 26.13.0 LTS, pinned consistently in CI and `frontend/package.json`; review upgrades to the latest stable LTS and validate builds before updating, install dependencies with `npm ci` in root and `frontend/`, and respect both lockfiles.
 - Generate app assets with `npm run sync:web` at the root before `npx cap sync android`; edit source files rather than generated output.
+- Pull requests run validation only; do not run native build, emulator, or publish workflows on pull requests. Run platform builds and emulator checks through manual release workflows before publishing.
 - Run checks relevant to the change: `npm run check` in the root, `npm run test:app` in `frontend/`, and Android build/unit and emulator checks for native or app integration changes. Run UI checks when layout or interaction changes; test small portrait and landscape sizes and disclose physical-device gaps.
 - Do not weaken or skip a failing check to make CI green. Investigate failures, distinguish flaky infrastructure from application defects, and state any unresolved issue.
 - GitHub Actions artifacts download as ZIP. The opt-in Android workflow can publish a debug APK as a prerelease after checks pass; it is for testing, not a production-signed release.
