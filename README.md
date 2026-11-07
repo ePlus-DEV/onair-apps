@@ -15,7 +15,7 @@ Android is under development. The debug build and emulator checks are for testin
 | Tooling | Node.js 24.15.0, npm, JDK 21, Android SDK / Gradle; see lockfiles for exact installed versions |
 | Testing and CI | Node test runner, Android unit and instrumentation tests, and GitHub Actions emulator checks; Playwright is available for UI tests |
 
-Android debug builds are tested in CI. iOS and desktop are scaffolds with additional implementation and device testing required; they are not production-ready releases. The frontend is maintained in this repository and its native build is generated into `dist/web` before Capacitor sync. See [architecture and release gates](docs/ARCHITECTURE.md) and [contributor rules](AGENTS.md).
+Android debug builds are tested in CI. iOS and desktop are scaffolds with additional implementation and device testing required; they are not production-ready releases. The frontend is maintained in this repository and its native build is generated into `dist/web` before Capacitor sync. See [architecture and release gates](docs/ARCHITECTURE.md) [development notes](docs/DEVELOPMENT.md), and [contributor rules](AGENTS.md).
 
 ## Repository layout
 
