@@ -27,7 +27,7 @@ These rules apply to the entire repository. Read the README and `docs/ARCHITECTU
 
 ## Build, checks and release
 
-- Use the Node version in `frontend/package.json`, install dependencies with `npm ci` in root and `frontend/`, and respect both lockfiles.
+- Use Node.js 26.13.0 LTS, pinned consistently in CI and `frontend/package.json`; review upgrades to the latest stable LTS and validate builds before updating, install dependencies with `npm ci` in root and `frontend/`, and respect both lockfiles.
 - Generate app assets with `npm run sync:web` at the root before `npx cap sync android`; edit source files rather than generated output.
 - Run checks relevant to the change: `npm run check` in the root, `npm run test:app` in `frontend/`, and Android build/unit and emulator checks for native or app integration changes. Run UI checks when layout or interaction changes; test small portrait and landscape sizes and disclose physical-device gaps.
 - Do not weaken or skip a failing check to make CI green. Investigate failures, distinguish flaky infrastructure from application defects, and state any unresolved issue.
