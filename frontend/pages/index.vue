@@ -1,6 +1,6 @@
 <template>
   <div class="space-y-7 sm:space-y-8">
-    <section class="radio-hero rounded-2xl">
+    <section class="radio-hero rounded-2xl" :class="{ 'radio-app-hero': runtimeConfig.public.nativeApp }">
       <p class="mb-2 text-xs font-semibold uppercase tracking-[0.16em] text-rose-600 dark:text-rose-300">ePlus OnAir · {{ $t("brand.slogan") }}</p>
       <h1 class="text-2xl font-bold tracking-tight sm:text-3xl">{{ $t('home.title') }}</h1>
       <p class="mt-2 max-w-2xl text-sm leading-6 text-[var(--radio-text-muted)]">{{ $t('home.description') }}</p>
@@ -11,7 +11,11 @@
     </section>
     <section id="featured-radio" class="scroll-mt-24">
       <div class="mb-4 flex items-center justify-between"><h2 class="text-lg font-semibold">{{ $t('home.featured') }}</h2><span class="text-xs text-[var(--radio-text-muted)]">{{ $t('home.start_listening') }}</span></div>
-      <PanelFeaturedStations @select-station="playFeatured" :stations="featuredStations" :active-station-url="playback.station?.url" />
+      <div v-if="featuredPending" class="flex gap-3 overflow-hidden" role="status" :aria-label="$t('search.loading')">
+        <div v-for="n in 3" :key="n" class="h-48 w-40 shrink-0 animate-pulse rounded-2xl bg-[var(--radio-surface-soft)]" aria-hidden="true"></div>
+        <span class="sr-only">{{ $t('search.loading') }}</span>
+      </div>
+      <PanelFeaturedStations v-else @select-station="playFeatured" :stations="featuredStations" :active-station-url="playback.station?.url" />
     </section>
     <ClientOnly><PanelSurpriseRadio /></ClientOnly>
     <ClientOnly><PanelResumeCard /><PanelForYou /><PanelListeningLibrary compact /></ClientOnly>
@@ -59,7 +63,7 @@ const playback = usePlaybackStore();
 const listening = useListeningStore();
 // Load only curated stations into the Nuxt payload, not entire country catalogs.
 const featuredCountries = [...new Set(HOMEPAGE_FEATURED_STATION_PATHS.map(path => path.split('/').slice(0, 2).join('/')))];
-const { data: featuredCatalogs } = await useAsyncData('homepage-featured-catalogs', async () => {
+const { data: featuredCatalogs, pending: featuredPending } = await useAsyncData('homepage-featured-catalogs', async () => {
   const catalogs = await Promise.all(featuredCountries.map(async (country) => {
     let catalog: Record<string, RadioCatalogEntry>;
     if (import.meta.server) {
@@ -75,7 +79,7 @@ const { data: featuredCatalogs } = await useAsyncData('homepage-featured-catalog
     return Object.fromEntries(Object.entries(catalog).filter(([id]) => ids.has(id))) as Record<string, RadioCatalogEntry>;
   }));
   return Object.fromEntries(featuredCountries.map((country, index) => [country, catalogs[index]])) as Record<string, Record<string, RadioCatalogEntry>>;
-});
+}, { lazy: Boolean(runtimeConfig.public.nativeApp), default: () => ({}) });
 const featuredEntries = computed(() => selectHomepageFeaturedStations(featuredCatalogs.value || {}));
 const featuredStations = computed<RadioStationOption[]>(() => featuredEntries.value.map(({ area, country, id, meta }) => ({
   id, title: meta.title, image: meta.features || String(runtimeConfig.public.placeholderStation), url: `/${area}/${country}/${id}`,

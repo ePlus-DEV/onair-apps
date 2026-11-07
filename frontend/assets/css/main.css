@@ -203,6 +203,12 @@
     background: transparent;
   }
 
+  /* Keep listening controls visible on short landscape app screens. */
+  @media (max-height: 500px) and (orientation: landscape) {
+    .radio-app-hero > p:nth-of-type(2) { display: none; }
+    .radio-app-hero > div { margin-top: 0.25rem; }
+  }
+
   .radio-station-card {
     border-color: var(--radio-border);
     background: var(--radio-surface);
