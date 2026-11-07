@@ -47,7 +47,7 @@ test("desktop player controls remain centered regardless of station metadata lin
   const dockMarkup = source.match(/<div class="radio-player-console [^"]+"/)?.[0];
   assert.ok(dockMarkup, "radio player grid must exist");
   assert.match(dockMarkup, /min-h-\[var\(--radio-player-height\)\]/);
-  assert.match(dockMarkup, /sm:grid-cols-\[minmax\(0,1fr\)_auto_minmax\(0,1fr\)\]/);
+  assert.match(dockMarkup, /xl:grid-cols-\[minmax\(0,1fr\)_auto_minmax\(0,1fr\)\]/);
   assert.doesNotMatch(dockMarkup, /(?:^|\s)pb-\d+/, "bottom padding offsets the controls from the dock center");
   assert.match(source, /radio-player-live-pill[^"]*whitespace-nowrap/);
   assert.match(source, /radio-player-controls[^"]*items-center justify-center/);
@@ -65,12 +65,12 @@ test("mobile dock reserves separate columns for info, Play/Pause and Playlist", 
   const mobileStyles = source.match(/@media \(max-width: 639px\) \{[\s\S]*?Three real grid columns[\s\S]*?\n\}/)?.[0];
 
   assert.match(template, /grid-cols-\[minmax\(0,1fr\)_2\.75rem_2\.75rem\]/);
-  assert.match(template, /sm:grid-cols-\[minmax\(0,1fr\)_auto_minmax\(0,1fr\)\]/);
+  assert.match(template, /xl:grid-cols-\[minmax\(0,1fr\)_auto_minmax\(0,1fr\)\]/);
   assert.match(template, /relative flex min-w-0 items-center gap-2\.5/);
   assert.match(template, /radio-player-title[^"]*text-xs font-semibold/);
   assert.match(template, /radio-player-meta mt-0\.5 truncate/);
   assert.match(template, /radio-player-meta mt-1 hidden truncate/);
-  assert.match(template, /hidden sm:inline-flex/); // Previous and Next stay on desktop and expanded player.
+  assert.match(template, /hidden xl:inline-flex/); // Previous and Next stay on desktop and expanded player.
   assert.match(template, /icon="i-lucide-list-music" class="h-11 w-11[^"]*" :disabled="!hasSidebar"/);
   assert.match(template, /:aria-expanded="hasSidebar && mobileQueueOpen" @click="toggleQueue"/);
   assert.match(template, /:aria-label="\$t\('redesign\.now_playing'\)" @click="nowPlayingOpen = true"/);
