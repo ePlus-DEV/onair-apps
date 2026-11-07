@@ -32,8 +32,8 @@ test('phone More button and header drawer share the same state and close after n
   assert.match(header, /\(\) => route\.fullPath/);
   assert.match(header, /mobileOpen\.value = false/);
   assert.match(header, /:title="\$t\('navmenu\.more'\)"/);
-  assert.match(header, /hidden h-11 w-11 justify-center sm:inline-flex/);
-  assert.match(header, /sm:flex xl:hidden/);
+  assert.match(header, /hidden h-11 w-11 justify-center xl:inline-flex/);
+  assert.match(mobile, /xl:hidden/);
 });
 
 test('mobile drawer restores all informational routes and puts Settings last', async () => {
