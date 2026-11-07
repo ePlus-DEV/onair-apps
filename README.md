@@ -31,7 +31,7 @@ Android debug builds are tested in CI. iOS and desktop are scaffolds with additi
 2. Run `npm run sync:web` at the root, followed by `npx cap sync android`.
 3. Open `android/` in Android Studio or run the Gradle debug build with an Android SDK installed.
 
-Run `npm run check` at the root and `npm test` in `frontend/` for app-focused checks. The copied website's deployment and SEO checks remain available separately as `npm run test:upstream-web`; some require website-only files. The Android workflow also builds the debug APK, runs Java tests, and checks startup and native playback on an emulator.
+Run `npm run check` at the root and `npm test` in `frontend/` for app-focused checks. The copied website's deployment and SEO checks remain available separately as `npm run test:upstream-web`; some require website-only files. Pull requests run validation tests without native builds. Run the Android workflow manually when preparing a release; it builds the debug APK, runs Java tests, and checks startup and native playback on an emulator.
 
 The catalog is bundled; station artwork uses the public OnAir host. Optional public CORS, Zing, and authorized-provider endpoints can be supplied through the `NUXT_PUBLIC_*` build environment variables described in [the architecture notes](docs/ARCHITECTURE.md).
 
@@ -39,7 +39,7 @@ The catalog is bundled; station artwork uses the public OnAir host. Optional pub
 
 On macOS with Xcode, CocoaPods and Node 26.13.0, install dependencies in the repository root and `frontend/`, then run `npm run sync:web` and `npx cap sync ios`. Open `ios/App/App.xcworkspace` in Xcode and build the App scheme for an iPhone simulator.
 
-The iOS workflow builds a simulator `.app` and launches it in an iPhone simulator. Its artifact is a ZIP for the simulator and cannot be installed on an iPhone. Device installation requires Apple signing, a suitable provisioning profile and an appropriately signed build. iOS background playback and physical-device behavior remain unverified.
+The manually triggered iOS workflow builds a simulator `.app` and launches it in an iPhone simulator. Its artifact is a ZIP for the simulator and cannot be installed on an iPhone. Device installation requires Apple signing, a suitable provisioning profile and an appropriately signed build. iOS background playback and physical-device behavior remain unverified.
 
 ## Download an Android debug APK
 
