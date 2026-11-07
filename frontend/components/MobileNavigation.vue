@@ -1,5 +1,5 @@
 <template>
-  <nav class="radio-mobile-navigation fixed inset-x-0 bottom-0 z-50 grid grid-cols-4 border-t border-[var(--radio-border)] bg-[var(--radio-surface-elevated)] sm:hidden" :aria-label="$t('redesign.navigation')">
+  <nav class="radio-mobile-navigation fixed inset-x-0 bottom-0 z-50 grid grid-cols-4 border-t border-[var(--radio-border)] bg-[var(--radio-surface-elevated)] xl:hidden" :aria-label="$t('redesign.navigation')">
     <NuxtLink to="/" class="radio-mobile-nav-item" :class="route.path === '/' ? 'text-rose-700 dark:text-rose-300' : 'text-[var(--radio-text-muted)]'" :aria-current="route.path === '/' ? 'page' : undefined">
       <UIcon name="i-lucide-house" class="h-5 w-5" />{{ $t('redesign.discover') }}
     </NuxtLink>
