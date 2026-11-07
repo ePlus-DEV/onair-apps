@@ -12,7 +12,7 @@ Android is under development. The debug build and emulator checks are for testin
 | Mobile shell | Capacitor 7; Android project in `android/` and iOS project in `ios/` |
 | Android playback | Java, AndroidX Media3 ExoPlayer and MediaSession, connected to the UI via a Capacitor plugin |
 | Desktop shell | Tauri 2; scaffold in `apps/desktop/` |
-| Tooling | Node.js 24.15.0, npm, JDK 21, Android SDK / Gradle; see lockfiles for exact installed versions |
+| Tooling | Node.js 26.13.0, npm, JDK 21, Android SDK / Gradle; see lockfiles for exact installed versions |
 | Testing and CI | Node test runner, Android unit and instrumentation tests, and GitHub Actions emulator checks; Playwright is available for UI tests |
 
 Android debug builds are tested in CI. iOS and desktop are scaffolds with additional implementation and device testing required; they are not production-ready releases. The frontend is maintained in this repository and its native build is generated into `dist/web` before Capacitor sync. See [architecture and release gates](docs/ARCHITECTURE.md) [development notes](docs/DEVELOPMENT.md), and [contributor rules](AGENTS.md).
@@ -27,7 +27,7 @@ Android debug builds are tested in CI. iOS and desktop are scaffolds with additi
 
 ## Android development
 
-1. Install Node 24 and JDK 21, then run `npm ci` at the repository root and in `frontend/`.
+1. Install Node 26.13.0 and JDK 21, then run `npm ci` at the repository root and in `frontend/`.
 2. Run `npm run sync:web` at the root, followed by `npx cap sync android`.
 3. Open `android/` in Android Studio or run the Gradle debug build with an Android SDK installed.
 
@@ -37,7 +37,7 @@ The catalog is bundled; station artwork uses the public OnAir host. Optional pub
 
 ## iOS development
 
-On macOS with Xcode, CocoaPods and Node 24.15.0, install dependencies in the repository root and `frontend/`, then run `npm run sync:web` and `npx cap sync ios`. Open `ios/App/App.xcworkspace` in Xcode and build the App scheme for an iPhone simulator.
+On macOS with Xcode, CocoaPods and Node 26.13.0, install dependencies in the repository root and `frontend/`, then run `npm run sync:web` and `npx cap sync ios`. Open `ios/App/App.xcworkspace` in Xcode and build the App scheme for an iPhone simulator.
 
 The iOS workflow builds a simulator `.app` and launches it in an iPhone simulator. Its artifact is a ZIP for the simulator and cannot be installed on an iPhone. Device installation requires Apple signing, a suitable provisioning profile and an appropriately signed build. iOS background playback and physical-device behavior remain unverified.
 
