@@ -13,6 +13,12 @@ jobs:
           node-version: '26.13.0'
       - run: npm ci
       - run: npm run check
+      - name: Install frontend dependencies
+        working-directory: frontend
+        run: npm ci
+      - name: Run app validation tests
+        working-directory: frontend
+        run: npm run test:app
       # Verify Capacitor discovers both native projects and copies a local bundle.
       # This smoke test does not build an APK or validate the real web UI.
       - run: mkdir -p dist/web && printf '<!doctype html><title>Smoke test</title>' > dist/web/index.html
