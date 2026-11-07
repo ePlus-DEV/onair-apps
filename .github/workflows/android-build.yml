@@ -1,6 +1,5 @@
 name: Android debug build
 on:
-  pull_request:
   workflow_dispatch:
     inputs:
       publish_apk:
