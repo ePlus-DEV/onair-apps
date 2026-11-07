@@ -401,7 +401,7 @@
   .radio-country-compact .radio-station-card > div:last-child { min-width: 0; flex: 1; gap: 4px; border: 0; padding: 6px; }
   @media (min-width: 640px) { .radio-country-compact .radio-themed-artwork { width: 56px; height: 56px; padding: 10px; } }
   @media (min-width: 1024px) { .radio-country-compact > div:last-child { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-  @media (max-width: 639px) {
+  @media (max-width: 1279px) {
     :root, html.light, html.dark {
       --radio-player-height: 80px;
       --radio-mobile-nav-height: 64px;

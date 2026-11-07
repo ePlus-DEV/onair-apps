@@ -12,7 +12,7 @@ test('desktop sidebar stays sticky and owns an independently scrolling viewport'
     read('components/AppHeader.vue'),
   ]);
   assert.match(app, /<AppSidebar\s*\/>/);
-  assert.match(header, /sm:h-20/);
+  assert.match(header, /xl:h-20/);
   assert.match(sidebar, /radio-desktop-sidebar hidden xl:block/);
   assert.match(sidebar, /radio-desktop-sidebar-scroll radio-scrollbar space-y-6/);
   assert.doesNotMatch(sidebar, /sticky top-28 max-h-/);

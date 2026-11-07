@@ -1,17 +1,17 @@
 <template>
   <header class="fixed inset-x-0 top-0 z-50 border-b border-[var(--radio-border)] bg-[var(--radio-header-bg)] backdrop-blur-xl">
-    <nav class="mx-auto flex h-16 max-w-[1920px] items-center gap-2 px-4 sm:h-20 sm:gap-5 sm:px-6">
+    <nav class="mx-auto flex h-16 max-w-[1920px] items-center gap-2 px-4 xl:h-20 xl:gap-5 xl:px-6">
       <NuxtLink to="/" class="radio-interactive flex shrink-0 items-center gap-2 rounded-xl xl:w-56">
         <img  :src="siteAssetUrl('/brand/logo-share.png')" width="36" height="36" alt="ePlus OnAir" class="h-9 w-9 rounded-lg object-contain" />
-        <span class="hidden sm:block"><span class="block text-base font-bold">ePlus <span class="text-rose-500">OnAir</span></span><span class="block text-[10px] text-rose-500">{{ $t('brand.slogan') }}</span></span>
+        <span class="hidden xl:block"><span class="block text-base font-bold">ePlus <span class="text-rose-500">OnAir</span></span><span class="block text-[10px] text-rose-500">{{ $t('brand.slogan') }}</span></span>
       </NuxtLink>
-      <SearchBox ref="headerSearch" inline :autofocus="false" class="hidden min-w-0 flex-1 sm:block sm:max-w-2xl" @close="closeSearch" />
-      <button type="button" class="radio-interactive flex h-11 min-w-0 flex-1 items-center gap-3 rounded-xl border border-[var(--radio-border)] bg-[var(--radio-surface-soft)] px-3 text-left text-[var(--radio-text-muted)] sm:hidden" :aria-label="$t('popup.search.text')" @click="openSearch">
+      <SearchBox ref="headerSearch" inline :autofocus="false" class="hidden min-w-0 flex-1 xl:block xl:max-w-2xl" @close="closeSearch" />
+      <button type="button" class="radio-interactive flex h-11 min-w-0 flex-1 items-center gap-3 rounded-xl border border-[var(--radio-border)] bg-[var(--radio-surface-soft)] px-3 text-left text-[var(--radio-text-muted)] xl:hidden" :aria-label="$t('popup.search.text')" @click="openSearch">
         <UIcon name="i-lucide-search" class="h-5 w-5 shrink-0" /><span class="truncate text-sm">{{ $t('popup.search.text') }}</span><kbd class="ml-auto hidden text-xs sm:block">/</kbd>
       </button>
       <div class="ml-auto flex shrink-0 items-center gap-1"><ThemeDarkMode /><LangSwitcher />
-        <UButton to="/settings" color="neutral" variant="ghost" icon="i-lucide-settings-2" class="hidden h-11 w-11 justify-center sm:inline-flex" :aria-label="$t('listener_settings.title')" :title="$t('listener_settings.title')" />
-        <UButton color="neutral" variant="ghost" icon="i-lucide-menu" class="hidden h-11 w-11 justify-center sm:flex xl:hidden" :aria-label="$t('redesign.navigation')" :aria-expanded="mobileOpen" @click="mobileOpen = !mobileOpen" />
+        <UButton to="/settings" color="neutral" variant="ghost" icon="i-lucide-settings-2" class="hidden h-11 w-11 justify-center xl:inline-flex" :aria-label="$t('listener_settings.title')" :title="$t('listener_settings.title')" />
+        
       </div>
     </nav>
   </header>
@@ -28,7 +28,7 @@ const headerSearch = useTemplateRef("headerSearch");
 
 const openSearch = (): void => {
   mobileOpen.value = false;
-  if (import.meta.client && window.matchMedia("(min-width: 640px)").matches) {
+  if (import.meta.client && window.matchMedia("(min-width: 1280px)").matches) {
     headerSearch.value?.focus?.();
     return;
   }
